@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
 using System.Net.Http;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace MDRG_Analyzer
 {
@@ -15,7 +16,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.0.0";
+        string __version__ = "1.0.1";
         int selectedSaveFile = -1;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
         public Form1()
@@ -196,7 +197,7 @@ namespace MDRG_Analyzer
             timesCumInsideOral.Text = $"{timesCameInMouthVal} times";
             cameOutsideBox.Text = $"{timesCameOutside} times";
             gameTimeRaw.Text = $"{ingameTime}";
-            gameTimeFormatted.Text = $"{ingameTimeDays}d;{ingameTimeHours}h;{ingameTime}m";
+            gameTimeFormatted.Text = $"{ingameTimeDays}d;{ingameTimeHours}h;{ingameTimeMinutes}m";
 
             // If Lightswitch is on, set checked, else set unchecked.
             if (lightSwitchOn)
@@ -383,7 +384,21 @@ namespace MDRG_Analyzer
 
         private void openReadmeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            string filePath = "README.md";
 
+            // Combine the current directory with the file name
+            string fullPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filePath);
+            Console.WriteLine("Arrived Here! 1!");
+
+            if (File.Exists(fullPath))
+            {
+                Console.WriteLine("Arrived Here! 2!");
+                Process.Start(filePath);
+            }
+            else
+            {
+                Console.WriteLine("File not found: " + fullPath);
+            }
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
