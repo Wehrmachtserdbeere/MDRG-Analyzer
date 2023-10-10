@@ -280,16 +280,16 @@ namespace MDRG_Analyzer
 
         }
 
-        private void ShowUpdatePopup(bool isNewest) // Show on clicking "Check for Updates", pass "isNewest" on whether there is or isn't a new version
+        private void ShowUpdatePopup(bool isNewest, System.Version current, System.Version latest) // Show on clicking "Check for Updates", pass "isNewest" on whether there is or isn't a new version
         {
             if (!isNewest) // If not newest, show this
             {
-                DialogResult result = MessageBox.Show("New version found! Do you want to open GitHub to get the latest release?", "Update Available", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                DialogResult result = MessageBox.Show($"New version found!\nYour Version: {current}\nNewest Version: {latest}\nDo you want to open GitHub to get the latest release?", "Update Available", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
                 switch (result)
                 {
                     case DialogResult.Yes:
-                        openWebsite(repoUrl + "releases/latest");
+                        openWebsite(repoUrl + "/releases/latest");
                         break;
                     case DialogResult.No: // Just close
                         break;
@@ -304,28 +304,47 @@ namespace MDRG_Analyzer
 
         private async void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            HttpClient client = new HttpClient(); // Initialize an HTTP client
             string owner = "Wehrmachtserdbeere";
             string repo = "MDRG-Analyzer";
-            string apiUrl = $"https://api.github.com/repos/{owner}/{repo}/releases/latest"; // Get the API URL
+            HttpClient thisProgram = new HttpClient();
 
             try
             {
-                HttpResponseMessage response = await client.GetAsync(apiUrl); // Get URL content
-                response.EnsureSuccessStatusCode();
-
-                string responseBody = await response.Content.ReadAsStringAsync();
-                JObject releaseInfo = JObject.Parse(responseBody);
-
-                string latestVersion = releaseInfo["tag_name"].ToString(); // Json get version
-
-                if (new Version(latestVersion) > new Version(__version__)) // If not newest
                 {
-                    ShowUpdatePopup(false);
-                }
-                else // If newest
-                {
-                    ShowUpdatePopup(true);
+                    thisProgram.DefaultRequestHeaders.Add("User-Agent", "request"); // Required for GitHub API
+
+                    HttpResponseMessage gitResponse = await thisProgram.GetAsync($"https://api.github.com/repos/{owner}/{repo}/releases/latest"); // Get the API URL
+
+                    if (gitResponse.IsSuccessStatusCode)
+                    {
+                        string gitResponseBody = await gitResponse.Content.ReadAsStringAsync();
+                        dynamic gitResponseInfo = JsonConvert.DeserializeObject(gitResponseBody);
+                        string gitLatestVersion = gitResponseInfo.tag_name;
+
+                        Console.WriteLine(gitLatestVersion);
+
+                        if (Version.TryParse(gitLatestVersion.TrimStart('v'), out Version latest) && Version.TryParse(__version__, out Version current))
+                        {
+                            Console.WriteLine("Arrived here!");
+                            int comparisonResult = current.CompareTo(latest);
+                            if (comparisonResult < 0)
+                            {
+                                ShowUpdatePopup(false, current, latest);
+                            }
+                            else
+                            {
+                                ShowUpdatePopup(true, current, latest);
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid version format.");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Error: {gitResponse.StatusCode}");
+                    }
                 }
             }
             catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
@@ -340,6 +359,10 @@ namespace MDRG_Analyzer
                     case DialogResult.Cancel:
                         break;
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
             }
         }
 
@@ -388,11 +411,9 @@ namespace MDRG_Analyzer
 
             // Combine the current directory with the file name
             string fullPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filePath);
-            Console.WriteLine("Arrived Here! 1!");
 
             if (File.Exists(fullPath))
             {
-                Console.WriteLine("Arrived Here! 2!");
                 Process.Start(filePath);
             }
             else
