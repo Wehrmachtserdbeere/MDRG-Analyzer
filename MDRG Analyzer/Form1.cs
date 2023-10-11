@@ -119,6 +119,7 @@ namespace MDRG_Analyzer
             string moneyVal = savedataObject.Value<string>("money");
             string gameVersion = savedataObject.Value<string>("gameVersion");
             string playerName = savedataObject.Value<string>("playerName");
+            string statusText = savedataObject.Value<string>("statusText");
 
             int saveSlot = saveFileJson["saves"][selectedSaveFile].Value<int>("slot");
             int casinoTokensVal = savedataObject.Value<int>("casinoTokens");
@@ -137,6 +138,14 @@ namespace MDRG_Analyzer
             int timesCameInMouthVal = savedataObject.Value<int>("timesCameInMouth");
             int timesCameOutside = savedataObject.Value<int>("timesCameOutside");
             int ingameTime = saveFileJson["saves"][selectedSaveFile].Value<int>("ingameTime");
+            int streamCount = savedataObject.Value<int>("streamCount");
+            int timesLostChess = savedataObject.Value<int>("timesLostChess");
+            int timesWonChess = savedataObject.Value<int>("timesWonChess");
+            int timesLostOldMaid = savedataObject.Value<int>("timesLostOldMaid");
+            int timesWonOldMaid = savedataObject.Value<int>("timesWonOldMaid");
+            int timesRanAwayOldMaid = savedataObject.Value<int>("timesRanAwayOldMaid");
+            int timesLostWordChain = savedataObject.Value<int>("timesLostWordChain");
+            int timesWonWordChain = savedataObject.Value<int>("timesWonWordChain");
 
             double maxCumVal = savedataObject.Value<double>("_maxCum");
             double currentCumVal = savedataObject.Value<double>("_remainingCum");
@@ -204,6 +213,16 @@ namespace MDRG_Analyzer
             cameOutsideBox.Text = $"{timesCameOutside}";
             gameTimeRaw.Text = $"{ingameTime}";
             gameTimeFormatted.Text = $"{ingameTimeDays}d;{ingameTimeHours}h;{ingameTimeMinutes}m";
+            statusTextBox.Text = $"{statusText}";
+            streamCountBox.Text = $"{streamCount}";
+            timesWonOldMaidBox.Text = $"{timesWonOldMaid}";
+            timesLostOldMaidBox.Text = $"{timesLostOldMaid}";
+            timesRanAwayOldMaidBox.Text = $"{timesRanAwayOldMaid}";
+            timesWonChessBox.Text = $"{timesWonChess}";
+            timesLostChessBox.Text = $"{timesLostChess}";
+            timesLostWordChainBox.Text = $"{timesLostWordChain}";
+            timesWonWordChainBox.Text = $"{timesWonWordChain}";
+
 
             // If Lightswitch is on, set checked, else set unchecked.
             if (lightSwitchOn)

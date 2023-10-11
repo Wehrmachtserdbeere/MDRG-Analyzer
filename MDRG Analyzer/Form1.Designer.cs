@@ -42,33 +42,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox25 = new System.Windows.Forms.GroupBox();
-            this.groupBox40 = new System.Windows.Forms.GroupBox();
-            this.groupBox41 = new System.Windows.Forms.GroupBox();
-            this.gameTimeFormatted = new System.Windows.Forms.RichTextBox();
-            this.groupBox42 = new System.Windows.Forms.GroupBox();
-            this.gameTimeRaw = new System.Windows.Forms.RichTextBox();
-            this.lightswitchCheckbox = new System.Windows.Forms.CheckBox();
-            this.groupBox33 = new System.Windows.Forms.GroupBox();
-            this.groupBox34 = new System.Windows.Forms.GroupBox();
-            this.longestStreamFormattedBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox35 = new System.Windows.Forms.GroupBox();
-            this.longestStreamRawBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.saveSlotBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox32 = new System.Windows.Forms.GroupBox();
-            this.streamDonations = new System.Windows.Forms.RichTextBox();
-            this.groupBox29 = new System.Windows.Forms.GroupBox();
-            this.groupBox30 = new System.Windows.Forms.GroupBox();
-            this.totalStreamTimeFormattedBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox31 = new System.Windows.Forms.GroupBox();
-            this.totalStreamTimeRawBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox28 = new System.Windows.Forms.GroupBox();
-            this.subsTextBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox27 = new System.Windows.Forms.GroupBox();
-            this.followersTextBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox26 = new System.Windows.Forms.GroupBox();
-            this.gameStageBox = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.mentalHealthBox = new System.Windows.Forms.RichTextBox();
@@ -143,6 +116,59 @@
             this.groupBox16 = new System.Windows.Forms.GroupBox();
             this.botNameBox = new System.Windows.Forms.RichTextBox();
             this.editInfoButton = new System.Windows.Forms.Button();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.groupBox25 = new System.Windows.Forms.GroupBox();
+            this.groupBox40 = new System.Windows.Forms.GroupBox();
+            this.groupBox41 = new System.Windows.Forms.GroupBox();
+            this.gameTimeFormatted = new System.Windows.Forms.RichTextBox();
+            this.groupBox42 = new System.Windows.Forms.GroupBox();
+            this.gameTimeRaw = new System.Windows.Forms.RichTextBox();
+            this.lightswitchCheckbox = new System.Windows.Forms.CheckBox();
+            this.groupBox33 = new System.Windows.Forms.GroupBox();
+            this.groupBox34 = new System.Windows.Forms.GroupBox();
+            this.longestStreamFormattedBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox35 = new System.Windows.Forms.GroupBox();
+            this.longestStreamRawBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.saveSlotBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox32 = new System.Windows.Forms.GroupBox();
+            this.streamDonations = new System.Windows.Forms.RichTextBox();
+            this.groupBox29 = new System.Windows.Forms.GroupBox();
+            this.groupBox30 = new System.Windows.Forms.GroupBox();
+            this.totalStreamTimeFormattedBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox31 = new System.Windows.Forms.GroupBox();
+            this.totalStreamTimeRawBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox28 = new System.Windows.Forms.GroupBox();
+            this.subsTextBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox27 = new System.Windows.Forms.GroupBox();
+            this.followersTextBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox26 = new System.Windows.Forms.GroupBox();
+            this.gameStageBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox44 = new System.Windows.Forms.GroupBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.groupBox45 = new System.Windows.Forms.GroupBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.groupBox46 = new System.Windows.Forms.GroupBox();
+            this.statusTextBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox47 = new System.Windows.Forms.GroupBox();
+            this.streamCountBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox48 = new System.Windows.Forms.GroupBox();
+            this.groupBox49 = new System.Windows.Forms.GroupBox();
+            this.timesLostOldMaidBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox50 = new System.Windows.Forms.GroupBox();
+            this.timesWonOldMaidBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox51 = new System.Windows.Forms.GroupBox();
+            this.timesRanAwayOldMaidBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox52 = new System.Windows.Forms.GroupBox();
+            this.groupBox54 = new System.Windows.Forms.GroupBox();
+            this.timesLostChessBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox55 = new System.Windows.Forms.GroupBox();
+            this.timesWonChessBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox53 = new System.Windows.Forms.GroupBox();
+            this.groupBox56 = new System.Windows.Forms.GroupBox();
+            this.timesLostWordChainBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox57 = new System.Windows.Forms.GroupBox();
+            this.timesWonWordChainBox = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox43.SuspendLayout();
@@ -151,21 +177,6 @@
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
-            this.groupBox25.SuspendLayout();
-            this.groupBox40.SuspendLayout();
-            this.groupBox41.SuspendLayout();
-            this.groupBox42.SuspendLayout();
-            this.groupBox33.SuspendLayout();
-            this.groupBox34.SuspendLayout();
-            this.groupBox35.SuspendLayout();
-            this.groupBox14.SuspendLayout();
-            this.groupBox32.SuspendLayout();
-            this.groupBox29.SuspendLayout();
-            this.groupBox30.SuspendLayout();
-            this.groupBox31.SuspendLayout();
-            this.groupBox28.SuspendLayout();
-            this.groupBox27.SuspendLayout();
-            this.groupBox26.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox12.SuspendLayout();
@@ -197,6 +208,36 @@
             this.groupBox19.SuspendLayout();
             this.groupBox17.SuspendLayout();
             this.groupBox16.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            this.groupBox25.SuspendLayout();
+            this.groupBox40.SuspendLayout();
+            this.groupBox41.SuspendLayout();
+            this.groupBox42.SuspendLayout();
+            this.groupBox33.SuspendLayout();
+            this.groupBox34.SuspendLayout();
+            this.groupBox35.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            this.groupBox32.SuspendLayout();
+            this.groupBox29.SuspendLayout();
+            this.groupBox30.SuspendLayout();
+            this.groupBox31.SuspendLayout();
+            this.groupBox28.SuspendLayout();
+            this.groupBox27.SuspendLayout();
+            this.groupBox26.SuspendLayout();
+            this.groupBox44.SuspendLayout();
+            this.groupBox45.SuspendLayout();
+            this.groupBox46.SuspendLayout();
+            this.groupBox47.SuspendLayout();
+            this.groupBox48.SuspendLayout();
+            this.groupBox49.SuspendLayout();
+            this.groupBox50.SuspendLayout();
+            this.groupBox51.SuspendLayout();
+            this.groupBox52.SuspendLayout();
+            this.groupBox54.SuspendLayout();
+            this.groupBox55.SuspendLayout();
+            this.groupBox53.SuspendLayout();
+            this.groupBox56.SuspendLayout();
+            this.groupBox57.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -204,6 +245,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage3);
@@ -329,7 +371,6 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.groupBox25);
             this.tabPage2.Controls.Add(this.groupBox3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -339,300 +380,9 @@
             this.tabPage2.Text = "General Info";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // groupBox25
-            // 
-            this.groupBox25.Controls.Add(this.groupBox40);
-            this.groupBox25.Controls.Add(this.lightswitchCheckbox);
-            this.groupBox25.Controls.Add(this.groupBox33);
-            this.groupBox25.Controls.Add(this.groupBox14);
-            this.groupBox25.Controls.Add(this.groupBox32);
-            this.groupBox25.Controls.Add(this.groupBox29);
-            this.groupBox25.Controls.Add(this.groupBox28);
-            this.groupBox25.Controls.Add(this.groupBox27);
-            this.groupBox25.Controls.Add(this.groupBox26);
-            this.groupBox25.Location = new System.Drawing.Point(484, 3);
-            this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Size = new System.Drawing.Size(300, 393);
-            this.groupBox25.TabIndex = 15;
-            this.groupBox25.TabStop = false;
-            this.groupBox25.Text = "Misc Values";
-            // 
-            // groupBox40
-            // 
-            this.groupBox40.Controls.Add(this.groupBox41);
-            this.groupBox40.Controls.Add(this.groupBox42);
-            this.groupBox40.Location = new System.Drawing.Point(6, 270);
-            this.groupBox40.Name = "groupBox40";
-            this.groupBox40.Size = new System.Drawing.Size(240, 69);
-            this.groupBox40.TabIndex = 28;
-            this.groupBox40.TabStop = false;
-            this.groupBox40.Text = "Gametime";
-            // 
-            // groupBox41
-            // 
-            this.groupBox41.Controls.Add(this.gameTimeFormatted);
-            this.groupBox41.Location = new System.Drawing.Point(123, 19);
-            this.groupBox41.Name = "groupBox41";
-            this.groupBox41.Size = new System.Drawing.Size(111, 44);
-            this.groupBox41.TabIndex = 27;
-            this.groupBox41.TabStop = false;
-            this.groupBox41.Text = "Formatted";
-            // 
-            // gameTimeFormatted
-            // 
-            this.gameTimeFormatted.Location = new System.Drawing.Point(6, 19);
-            this.gameTimeFormatted.Multiline = false;
-            this.gameTimeFormatted.Name = "gameTimeFormatted";
-            this.gameTimeFormatted.ReadOnly = true;
-            this.gameTimeFormatted.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.gameTimeFormatted.Size = new System.Drawing.Size(99, 19);
-            this.gameTimeFormatted.TabIndex = 21;
-            this.gameTimeFormatted.Text = "";
-            // 
-            // groupBox42
-            // 
-            this.groupBox42.Controls.Add(this.gameTimeRaw);
-            this.groupBox42.Location = new System.Drawing.Point(6, 19);
-            this.groupBox42.Name = "groupBox42";
-            this.groupBox42.Size = new System.Drawing.Size(111, 44);
-            this.groupBox42.TabIndex = 26;
-            this.groupBox42.TabStop = false;
-            this.groupBox42.Text = "Raw";
-            // 
-            // gameTimeRaw
-            // 
-            this.gameTimeRaw.Location = new System.Drawing.Point(6, 19);
-            this.gameTimeRaw.Multiline = false;
-            this.gameTimeRaw.Name = "gameTimeRaw";
-            this.gameTimeRaw.ReadOnly = true;
-            this.gameTimeRaw.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.gameTimeRaw.Size = new System.Drawing.Size(99, 19);
-            this.gameTimeRaw.TabIndex = 21;
-            this.gameTimeRaw.Text = "";
-            // 
-            // lightswitchCheckbox
-            // 
-            this.lightswitchCheckbox.AutoSize = true;
-            this.lightswitchCheckbox.Enabled = false;
-            this.lightswitchCheckbox.Location = new System.Drawing.Point(6, 370);
-            this.lightswitchCheckbox.Name = "lightswitchCheckbox";
-            this.lightswitchCheckbox.Size = new System.Drawing.Size(79, 17);
-            this.lightswitchCheckbox.TabIndex = 27;
-            this.lightswitchCheckbox.Text = "Lightswitch";
-            this.lightswitchCheckbox.UseVisualStyleBackColor = true;
-            // 
-            // groupBox33
-            // 
-            this.groupBox33.Controls.Add(this.groupBox34);
-            this.groupBox33.Controls.Add(this.groupBox35);
-            this.groupBox33.Location = new System.Drawing.Point(6, 195);
-            this.groupBox33.Name = "groupBox33";
-            this.groupBox33.Size = new System.Drawing.Size(240, 69);
-            this.groupBox33.TabIndex = 26;
-            this.groupBox33.TabStop = false;
-            this.groupBox33.Text = "Longest Stream";
-            // 
-            // groupBox34
-            // 
-            this.groupBox34.Controls.Add(this.longestStreamFormattedBox);
-            this.groupBox34.Location = new System.Drawing.Point(123, 19);
-            this.groupBox34.Name = "groupBox34";
-            this.groupBox34.Size = new System.Drawing.Size(111, 44);
-            this.groupBox34.TabIndex = 25;
-            this.groupBox34.TabStop = false;
-            this.groupBox34.Text = "Formatted";
-            // 
-            // longestStreamFormattedBox
-            // 
-            this.longestStreamFormattedBox.Location = new System.Drawing.Point(6, 19);
-            this.longestStreamFormattedBox.Multiline = false;
-            this.longestStreamFormattedBox.Name = "longestStreamFormattedBox";
-            this.longestStreamFormattedBox.ReadOnly = true;
-            this.longestStreamFormattedBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.longestStreamFormattedBox.Size = new System.Drawing.Size(99, 19);
-            this.longestStreamFormattedBox.TabIndex = 21;
-            this.longestStreamFormattedBox.Text = "";
-            // 
-            // groupBox35
-            // 
-            this.groupBox35.Controls.Add(this.longestStreamRawBox);
-            this.groupBox35.Location = new System.Drawing.Point(6, 19);
-            this.groupBox35.Name = "groupBox35";
-            this.groupBox35.Size = new System.Drawing.Size(111, 44);
-            this.groupBox35.TabIndex = 23;
-            this.groupBox35.TabStop = false;
-            this.groupBox35.Text = "Raw";
-            // 
-            // longestStreamRawBox
-            // 
-            this.longestStreamRawBox.Location = new System.Drawing.Point(6, 19);
-            this.longestStreamRawBox.Multiline = false;
-            this.longestStreamRawBox.Name = "longestStreamRawBox";
-            this.longestStreamRawBox.ReadOnly = true;
-            this.longestStreamRawBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.longestStreamRawBox.Size = new System.Drawing.Size(99, 19);
-            this.longestStreamRawBox.TabIndex = 21;
-            this.longestStreamRawBox.Text = "";
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.Controls.Add(this.saveSlotBox);
-            this.groupBox14.Location = new System.Drawing.Point(227, 343);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(67, 44);
-            this.groupBox14.TabIndex = 13;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Save Slot";
-            // 
-            // saveSlotBox
-            // 
-            this.saveSlotBox.Location = new System.Drawing.Point(6, 19);
-            this.saveSlotBox.Multiline = false;
-            this.saveSlotBox.Name = "saveSlotBox";
-            this.saveSlotBox.ReadOnly = true;
-            this.saveSlotBox.Size = new System.Drawing.Size(55, 19);
-            this.saveSlotBox.TabIndex = 2;
-            this.saveSlotBox.Text = "No File";
-            // 
-            // groupBox32
-            // 
-            this.groupBox32.Controls.Add(this.streamDonations);
-            this.groupBox32.Location = new System.Drawing.Point(123, 70);
-            this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Size = new System.Drawing.Size(111, 44);
-            this.groupBox32.TabIndex = 23;
-            this.groupBox32.TabStop = false;
-            this.groupBox32.Text = "Stream Donos";
-            // 
-            // streamDonations
-            // 
-            this.streamDonations.Location = new System.Drawing.Point(6, 19);
-            this.streamDonations.Multiline = false;
-            this.streamDonations.Name = "streamDonations";
-            this.streamDonations.ReadOnly = true;
-            this.streamDonations.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.streamDonations.Size = new System.Drawing.Size(99, 19);
-            this.streamDonations.TabIndex = 20;
-            this.streamDonations.Text = "";
-            // 
-            // groupBox29
-            // 
-            this.groupBox29.Controls.Add(this.groupBox30);
-            this.groupBox29.Controls.Add(this.groupBox31);
-            this.groupBox29.Location = new System.Drawing.Point(6, 120);
-            this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(240, 69);
-            this.groupBox29.TabIndex = 24;
-            this.groupBox29.TabStop = false;
-            this.groupBox29.Text = "Total Streamtime";
-            // 
-            // groupBox30
-            // 
-            this.groupBox30.Controls.Add(this.totalStreamTimeFormattedBox);
-            this.groupBox30.Location = new System.Drawing.Point(123, 19);
-            this.groupBox30.Name = "groupBox30";
-            this.groupBox30.Size = new System.Drawing.Size(111, 44);
-            this.groupBox30.TabIndex = 25;
-            this.groupBox30.TabStop = false;
-            this.groupBox30.Text = "Formatted";
-            // 
-            // totalStreamTimeFormattedBox
-            // 
-            this.totalStreamTimeFormattedBox.Location = new System.Drawing.Point(6, 19);
-            this.totalStreamTimeFormattedBox.Multiline = false;
-            this.totalStreamTimeFormattedBox.Name = "totalStreamTimeFormattedBox";
-            this.totalStreamTimeFormattedBox.ReadOnly = true;
-            this.totalStreamTimeFormattedBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.totalStreamTimeFormattedBox.Size = new System.Drawing.Size(99, 19);
-            this.totalStreamTimeFormattedBox.TabIndex = 21;
-            this.totalStreamTimeFormattedBox.Text = "";
-            // 
-            // groupBox31
-            // 
-            this.groupBox31.Controls.Add(this.totalStreamTimeRawBox);
-            this.groupBox31.Location = new System.Drawing.Point(6, 19);
-            this.groupBox31.Name = "groupBox31";
-            this.groupBox31.Size = new System.Drawing.Size(111, 44);
-            this.groupBox31.TabIndex = 23;
-            this.groupBox31.TabStop = false;
-            this.groupBox31.Text = "Raw";
-            // 
-            // totalStreamTimeRawBox
-            // 
-            this.totalStreamTimeRawBox.Location = new System.Drawing.Point(6, 19);
-            this.totalStreamTimeRawBox.Multiline = false;
-            this.totalStreamTimeRawBox.Name = "totalStreamTimeRawBox";
-            this.totalStreamTimeRawBox.ReadOnly = true;
-            this.totalStreamTimeRawBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.totalStreamTimeRawBox.Size = new System.Drawing.Size(99, 19);
-            this.totalStreamTimeRawBox.TabIndex = 21;
-            this.totalStreamTimeRawBox.Text = "";
-            // 
-            // groupBox28
-            // 
-            this.groupBox28.Controls.Add(this.subsTextBox);
-            this.groupBox28.Location = new System.Drawing.Point(123, 20);
-            this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Size = new System.Drawing.Size(111, 44);
-            this.groupBox28.TabIndex = 23;
-            this.groupBox28.TabStop = false;
-            this.groupBox28.Text = "Subs";
-            // 
-            // subsTextBox
-            // 
-            this.subsTextBox.Location = new System.Drawing.Point(6, 19);
-            this.subsTextBox.Multiline = false;
-            this.subsTextBox.Name = "subsTextBox";
-            this.subsTextBox.ReadOnly = true;
-            this.subsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.subsTextBox.Size = new System.Drawing.Size(99, 19);
-            this.subsTextBox.TabIndex = 20;
-            this.subsTextBox.Text = "";
-            // 
-            // groupBox27
-            // 
-            this.groupBox27.Controls.Add(this.followersTextBox);
-            this.groupBox27.Location = new System.Drawing.Point(6, 70);
-            this.groupBox27.Name = "groupBox27";
-            this.groupBox27.Size = new System.Drawing.Size(111, 44);
-            this.groupBox27.TabIndex = 22;
-            this.groupBox27.TabStop = false;
-            this.groupBox27.Text = "Followers";
-            // 
-            // followersTextBox
-            // 
-            this.followersTextBox.Location = new System.Drawing.Point(6, 19);
-            this.followersTextBox.Multiline = false;
-            this.followersTextBox.Name = "followersTextBox";
-            this.followersTextBox.ReadOnly = true;
-            this.followersTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.followersTextBox.Size = new System.Drawing.Size(99, 19);
-            this.followersTextBox.TabIndex = 20;
-            this.followersTextBox.Text = "";
-            // 
-            // groupBox26
-            // 
-            this.groupBox26.Controls.Add(this.gameStageBox);
-            this.groupBox26.Location = new System.Drawing.Point(6, 20);
-            this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(111, 44);
-            this.groupBox26.TabIndex = 21;
-            this.groupBox26.TabStop = false;
-            this.groupBox26.Text = "Game Stage";
-            // 
-            // gameStageBox
-            // 
-            this.gameStageBox.Location = new System.Drawing.Point(6, 19);
-            this.gameStageBox.Multiline = false;
-            this.gameStageBox.Name = "gameStageBox";
-            this.gameStageBox.ReadOnly = true;
-            this.gameStageBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.gameStageBox.Size = new System.Drawing.Size(99, 19);
-            this.gameStageBox.TabIndex = 20;
-            this.gameStageBox.Text = "";
-            // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.groupBox45);
             this.groupBox3.Controls.Add(this.groupBox13);
             this.groupBox3.Controls.Add(this.groupBox12);
             this.groupBox3.Controls.Add(this.groupBox11);
@@ -643,7 +393,7 @@
             this.groupBox3.Controls.Add(this.groupBox6);
             this.groupBox3.Location = new System.Drawing.Point(3, 3);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(475, 120);
+            this.groupBox3.Size = new System.Drawing.Size(786, 393);
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Player Values";
@@ -1112,15 +862,19 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.BackColor = System.Drawing.Color.Transparent;
             this.tabPage6.Controls.Add(this.groupBox15);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Size = new System.Drawing.Size(792, 399);
             this.tabPage6.TabIndex = 0;
             this.tabPage6.Text = "Bot Info";
+            this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // groupBox15
             // 
+            this.groupBox15.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox15.Controls.Add(this.groupBox44);
             this.groupBox15.Controls.Add(this.groupBox39);
             this.groupBox15.Controls.Add(this.groupBox38);
             this.groupBox15.Controls.Add(this.groupBox37);
@@ -1135,9 +889,9 @@
             this.groupBox15.Controls.Add(this.groupBox18);
             this.groupBox15.Controls.Add(this.groupBox17);
             this.groupBox15.Controls.Add(this.groupBox16);
-            this.groupBox15.Location = new System.Drawing.Point(8, 3);
+            this.groupBox15.Location = new System.Drawing.Point(3, 3);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(784, 396);
+            this.groupBox15.Size = new System.Drawing.Size(786, 393);
             this.groupBox15.TabIndex = 15;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Bot Values";
@@ -1424,6 +1178,574 @@
             this.editInfoButton.UseVisualStyleBackColor = true;
             this.editInfoButton.Click += new System.EventHandler(this.editInfoButton_Click);
             // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.groupBox25);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(792, 399);
+            this.tabPage7.TabIndex = 5;
+            this.tabPage7.Text = "Misc Info";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // groupBox25
+            // 
+            this.groupBox25.Controls.Add(this.groupBox53);
+            this.groupBox25.Controls.Add(this.groupBox52);
+            this.groupBox25.Controls.Add(this.groupBox48);
+            this.groupBox25.Controls.Add(this.groupBox47);
+            this.groupBox25.Controls.Add(this.groupBox46);
+            this.groupBox25.Controls.Add(this.groupBox40);
+            this.groupBox25.Controls.Add(this.lightswitchCheckbox);
+            this.groupBox25.Controls.Add(this.groupBox33);
+            this.groupBox25.Controls.Add(this.groupBox14);
+            this.groupBox25.Controls.Add(this.groupBox32);
+            this.groupBox25.Controls.Add(this.groupBox29);
+            this.groupBox25.Controls.Add(this.groupBox28);
+            this.groupBox25.Controls.Add(this.groupBox27);
+            this.groupBox25.Controls.Add(this.groupBox26);
+            this.groupBox25.Location = new System.Drawing.Point(3, 3);
+            this.groupBox25.Name = "groupBox25";
+            this.groupBox25.Size = new System.Drawing.Size(786, 393);
+            this.groupBox25.TabIndex = 16;
+            this.groupBox25.TabStop = false;
+            this.groupBox25.Text = "Misc Values";
+            // 
+            // groupBox40
+            // 
+            this.groupBox40.Controls.Add(this.groupBox41);
+            this.groupBox40.Controls.Add(this.groupBox42);
+            this.groupBox40.Location = new System.Drawing.Point(6, 270);
+            this.groupBox40.Name = "groupBox40";
+            this.groupBox40.Size = new System.Drawing.Size(240, 69);
+            this.groupBox40.TabIndex = 28;
+            this.groupBox40.TabStop = false;
+            this.groupBox40.Text = "Gametime";
+            // 
+            // groupBox41
+            // 
+            this.groupBox41.Controls.Add(this.gameTimeFormatted);
+            this.groupBox41.Location = new System.Drawing.Point(123, 19);
+            this.groupBox41.Name = "groupBox41";
+            this.groupBox41.Size = new System.Drawing.Size(111, 44);
+            this.groupBox41.TabIndex = 27;
+            this.groupBox41.TabStop = false;
+            this.groupBox41.Text = "Formatted";
+            // 
+            // gameTimeFormatted
+            // 
+            this.gameTimeFormatted.Location = new System.Drawing.Point(6, 19);
+            this.gameTimeFormatted.Multiline = false;
+            this.gameTimeFormatted.Name = "gameTimeFormatted";
+            this.gameTimeFormatted.ReadOnly = true;
+            this.gameTimeFormatted.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.gameTimeFormatted.Size = new System.Drawing.Size(99, 19);
+            this.gameTimeFormatted.TabIndex = 21;
+            this.gameTimeFormatted.Text = "";
+            // 
+            // groupBox42
+            // 
+            this.groupBox42.Controls.Add(this.gameTimeRaw);
+            this.groupBox42.Location = new System.Drawing.Point(6, 19);
+            this.groupBox42.Name = "groupBox42";
+            this.groupBox42.Size = new System.Drawing.Size(111, 44);
+            this.groupBox42.TabIndex = 26;
+            this.groupBox42.TabStop = false;
+            this.groupBox42.Text = "Raw";
+            // 
+            // gameTimeRaw
+            // 
+            this.gameTimeRaw.Location = new System.Drawing.Point(6, 19);
+            this.gameTimeRaw.Multiline = false;
+            this.gameTimeRaw.Name = "gameTimeRaw";
+            this.gameTimeRaw.ReadOnly = true;
+            this.gameTimeRaw.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.gameTimeRaw.Size = new System.Drawing.Size(99, 19);
+            this.gameTimeRaw.TabIndex = 21;
+            this.gameTimeRaw.Text = "";
+            // 
+            // lightswitchCheckbox
+            // 
+            this.lightswitchCheckbox.AutoSize = true;
+            this.lightswitchCheckbox.Enabled = false;
+            this.lightswitchCheckbox.Location = new System.Drawing.Point(634, 370);
+            this.lightswitchCheckbox.Name = "lightswitchCheckbox";
+            this.lightswitchCheckbox.Size = new System.Drawing.Size(79, 17);
+            this.lightswitchCheckbox.TabIndex = 27;
+            this.lightswitchCheckbox.Text = "Lightswitch";
+            this.lightswitchCheckbox.UseVisualStyleBackColor = true;
+            // 
+            // groupBox33
+            // 
+            this.groupBox33.Controls.Add(this.groupBox34);
+            this.groupBox33.Controls.Add(this.groupBox35);
+            this.groupBox33.Location = new System.Drawing.Point(6, 195);
+            this.groupBox33.Name = "groupBox33";
+            this.groupBox33.Size = new System.Drawing.Size(240, 69);
+            this.groupBox33.TabIndex = 26;
+            this.groupBox33.TabStop = false;
+            this.groupBox33.Text = "Longest Stream";
+            // 
+            // groupBox34
+            // 
+            this.groupBox34.Controls.Add(this.longestStreamFormattedBox);
+            this.groupBox34.Location = new System.Drawing.Point(123, 19);
+            this.groupBox34.Name = "groupBox34";
+            this.groupBox34.Size = new System.Drawing.Size(111, 44);
+            this.groupBox34.TabIndex = 25;
+            this.groupBox34.TabStop = false;
+            this.groupBox34.Text = "Formatted";
+            // 
+            // longestStreamFormattedBox
+            // 
+            this.longestStreamFormattedBox.Location = new System.Drawing.Point(6, 19);
+            this.longestStreamFormattedBox.Multiline = false;
+            this.longestStreamFormattedBox.Name = "longestStreamFormattedBox";
+            this.longestStreamFormattedBox.ReadOnly = true;
+            this.longestStreamFormattedBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.longestStreamFormattedBox.Size = new System.Drawing.Size(99, 19);
+            this.longestStreamFormattedBox.TabIndex = 21;
+            this.longestStreamFormattedBox.Text = "";
+            // 
+            // groupBox35
+            // 
+            this.groupBox35.Controls.Add(this.longestStreamRawBox);
+            this.groupBox35.Location = new System.Drawing.Point(6, 19);
+            this.groupBox35.Name = "groupBox35";
+            this.groupBox35.Size = new System.Drawing.Size(111, 44);
+            this.groupBox35.TabIndex = 23;
+            this.groupBox35.TabStop = false;
+            this.groupBox35.Text = "Raw";
+            // 
+            // longestStreamRawBox
+            // 
+            this.longestStreamRawBox.Location = new System.Drawing.Point(6, 19);
+            this.longestStreamRawBox.Multiline = false;
+            this.longestStreamRawBox.Name = "longestStreamRawBox";
+            this.longestStreamRawBox.ReadOnly = true;
+            this.longestStreamRawBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.longestStreamRawBox.Size = new System.Drawing.Size(99, 19);
+            this.longestStreamRawBox.TabIndex = 21;
+            this.longestStreamRawBox.Text = "";
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.saveSlotBox);
+            this.groupBox14.Location = new System.Drawing.Point(719, 349);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(67, 44);
+            this.groupBox14.TabIndex = 13;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Save Slot";
+            // 
+            // saveSlotBox
+            // 
+            this.saveSlotBox.Location = new System.Drawing.Point(6, 19);
+            this.saveSlotBox.Multiline = false;
+            this.saveSlotBox.Name = "saveSlotBox";
+            this.saveSlotBox.ReadOnly = true;
+            this.saveSlotBox.Size = new System.Drawing.Size(55, 19);
+            this.saveSlotBox.TabIndex = 2;
+            this.saveSlotBox.Text = "No File";
+            // 
+            // groupBox32
+            // 
+            this.groupBox32.Controls.Add(this.streamDonations);
+            this.groupBox32.Location = new System.Drawing.Point(123, 70);
+            this.groupBox32.Name = "groupBox32";
+            this.groupBox32.Size = new System.Drawing.Size(111, 44);
+            this.groupBox32.TabIndex = 23;
+            this.groupBox32.TabStop = false;
+            this.groupBox32.Text = "Stream Donos";
+            // 
+            // streamDonations
+            // 
+            this.streamDonations.Location = new System.Drawing.Point(6, 19);
+            this.streamDonations.Multiline = false;
+            this.streamDonations.Name = "streamDonations";
+            this.streamDonations.ReadOnly = true;
+            this.streamDonations.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.streamDonations.Size = new System.Drawing.Size(99, 19);
+            this.streamDonations.TabIndex = 20;
+            this.streamDonations.Text = "";
+            // 
+            // groupBox29
+            // 
+            this.groupBox29.Controls.Add(this.groupBox30);
+            this.groupBox29.Controls.Add(this.groupBox31);
+            this.groupBox29.Location = new System.Drawing.Point(6, 120);
+            this.groupBox29.Name = "groupBox29";
+            this.groupBox29.Size = new System.Drawing.Size(240, 69);
+            this.groupBox29.TabIndex = 24;
+            this.groupBox29.TabStop = false;
+            this.groupBox29.Text = "Total Streamtime";
+            // 
+            // groupBox30
+            // 
+            this.groupBox30.Controls.Add(this.totalStreamTimeFormattedBox);
+            this.groupBox30.Location = new System.Drawing.Point(123, 19);
+            this.groupBox30.Name = "groupBox30";
+            this.groupBox30.Size = new System.Drawing.Size(111, 44);
+            this.groupBox30.TabIndex = 25;
+            this.groupBox30.TabStop = false;
+            this.groupBox30.Text = "Formatted";
+            // 
+            // totalStreamTimeFormattedBox
+            // 
+            this.totalStreamTimeFormattedBox.Location = new System.Drawing.Point(6, 19);
+            this.totalStreamTimeFormattedBox.Multiline = false;
+            this.totalStreamTimeFormattedBox.Name = "totalStreamTimeFormattedBox";
+            this.totalStreamTimeFormattedBox.ReadOnly = true;
+            this.totalStreamTimeFormattedBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.totalStreamTimeFormattedBox.Size = new System.Drawing.Size(99, 19);
+            this.totalStreamTimeFormattedBox.TabIndex = 21;
+            this.totalStreamTimeFormattedBox.Text = "";
+            // 
+            // groupBox31
+            // 
+            this.groupBox31.Controls.Add(this.totalStreamTimeRawBox);
+            this.groupBox31.Location = new System.Drawing.Point(6, 19);
+            this.groupBox31.Name = "groupBox31";
+            this.groupBox31.Size = new System.Drawing.Size(111, 44);
+            this.groupBox31.TabIndex = 23;
+            this.groupBox31.TabStop = false;
+            this.groupBox31.Text = "Raw";
+            // 
+            // totalStreamTimeRawBox
+            // 
+            this.totalStreamTimeRawBox.Location = new System.Drawing.Point(6, 19);
+            this.totalStreamTimeRawBox.Multiline = false;
+            this.totalStreamTimeRawBox.Name = "totalStreamTimeRawBox";
+            this.totalStreamTimeRawBox.ReadOnly = true;
+            this.totalStreamTimeRawBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.totalStreamTimeRawBox.Size = new System.Drawing.Size(99, 19);
+            this.totalStreamTimeRawBox.TabIndex = 21;
+            this.totalStreamTimeRawBox.Text = "";
+            // 
+            // groupBox28
+            // 
+            this.groupBox28.Controls.Add(this.subsTextBox);
+            this.groupBox28.Location = new System.Drawing.Point(123, 20);
+            this.groupBox28.Name = "groupBox28";
+            this.groupBox28.Size = new System.Drawing.Size(111, 44);
+            this.groupBox28.TabIndex = 23;
+            this.groupBox28.TabStop = false;
+            this.groupBox28.Text = "Subs";
+            // 
+            // subsTextBox
+            // 
+            this.subsTextBox.Location = new System.Drawing.Point(6, 19);
+            this.subsTextBox.Multiline = false;
+            this.subsTextBox.Name = "subsTextBox";
+            this.subsTextBox.ReadOnly = true;
+            this.subsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.subsTextBox.Size = new System.Drawing.Size(99, 19);
+            this.subsTextBox.TabIndex = 20;
+            this.subsTextBox.Text = "";
+            // 
+            // groupBox27
+            // 
+            this.groupBox27.Controls.Add(this.followersTextBox);
+            this.groupBox27.Location = new System.Drawing.Point(6, 70);
+            this.groupBox27.Name = "groupBox27";
+            this.groupBox27.Size = new System.Drawing.Size(111, 44);
+            this.groupBox27.TabIndex = 22;
+            this.groupBox27.TabStop = false;
+            this.groupBox27.Text = "Followers";
+            // 
+            // followersTextBox
+            // 
+            this.followersTextBox.Location = new System.Drawing.Point(6, 19);
+            this.followersTextBox.Multiline = false;
+            this.followersTextBox.Name = "followersTextBox";
+            this.followersTextBox.ReadOnly = true;
+            this.followersTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.followersTextBox.Size = new System.Drawing.Size(99, 19);
+            this.followersTextBox.TabIndex = 20;
+            this.followersTextBox.Text = "";
+            // 
+            // groupBox26
+            // 
+            this.groupBox26.Controls.Add(this.gameStageBox);
+            this.groupBox26.Location = new System.Drawing.Point(6, 20);
+            this.groupBox26.Name = "groupBox26";
+            this.groupBox26.Size = new System.Drawing.Size(111, 44);
+            this.groupBox26.TabIndex = 21;
+            this.groupBox26.TabStop = false;
+            this.groupBox26.Text = "Game Stage";
+            // 
+            // gameStageBox
+            // 
+            this.gameStageBox.Location = new System.Drawing.Point(6, 19);
+            this.gameStageBox.Multiline = false;
+            this.gameStageBox.Name = "gameStageBox";
+            this.gameStageBox.ReadOnly = true;
+            this.gameStageBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.gameStageBox.Size = new System.Drawing.Size(99, 19);
+            this.gameStageBox.TabIndex = 20;
+            this.gameStageBox.Text = "";
+            // 
+            // groupBox44
+            // 
+            this.groupBox44.Controls.Add(this.richTextBox2);
+            this.groupBox44.Location = new System.Drawing.Point(719, 349);
+            this.groupBox44.Name = "groupBox44";
+            this.groupBox44.Size = new System.Drawing.Size(67, 44);
+            this.groupBox44.TabIndex = 27;
+            this.groupBox44.TabStop = false;
+            this.groupBox44.Text = "Save Slot";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(6, 19);
+            this.richTextBox2.Multiline = false;
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.Size = new System.Drawing.Size(55, 19);
+            this.richTextBox2.TabIndex = 2;
+            this.richTextBox2.Text = "No File";
+            // 
+            // groupBox45
+            // 
+            this.groupBox45.Controls.Add(this.richTextBox3);
+            this.groupBox45.Location = new System.Drawing.Point(719, 349);
+            this.groupBox45.Name = "groupBox45";
+            this.groupBox45.Size = new System.Drawing.Size(67, 44);
+            this.groupBox45.TabIndex = 28;
+            this.groupBox45.TabStop = false;
+            this.groupBox45.Text = "Save Slot";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.Location = new System.Drawing.Point(6, 19);
+            this.richTextBox3.Multiline = false;
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.Size = new System.Drawing.Size(55, 19);
+            this.richTextBox3.TabIndex = 2;
+            this.richTextBox3.Text = "No File";
+            // 
+            // groupBox46
+            // 
+            this.groupBox46.Controls.Add(this.statusTextBox);
+            this.groupBox46.Location = new System.Drawing.Point(240, 20);
+            this.groupBox46.Name = "groupBox46";
+            this.groupBox46.Size = new System.Drawing.Size(111, 44);
+            this.groupBox46.TabIndex = 29;
+            this.groupBox46.TabStop = false;
+            this.groupBox46.Text = "Rent in";
+            // 
+            // statusTextBox
+            // 
+            this.statusTextBox.Location = new System.Drawing.Point(6, 19);
+            this.statusTextBox.Multiline = false;
+            this.statusTextBox.Name = "statusTextBox";
+            this.statusTextBox.ReadOnly = true;
+            this.statusTextBox.Size = new System.Drawing.Size(99, 19);
+            this.statusTextBox.TabIndex = 30;
+            this.statusTextBox.Text = "";
+            // 
+            // groupBox47
+            // 
+            this.groupBox47.Controls.Add(this.streamCountBox);
+            this.groupBox47.Location = new System.Drawing.Point(240, 70);
+            this.groupBox47.Name = "groupBox47";
+            this.groupBox47.Size = new System.Drawing.Size(111, 44);
+            this.groupBox47.TabIndex = 31;
+            this.groupBox47.TabStop = false;
+            this.groupBox47.Text = "Amount Streams";
+            // 
+            // streamCountBox
+            // 
+            this.streamCountBox.Location = new System.Drawing.Point(6, 19);
+            this.streamCountBox.Multiline = false;
+            this.streamCountBox.Name = "streamCountBox";
+            this.streamCountBox.ReadOnly = true;
+            this.streamCountBox.Size = new System.Drawing.Size(99, 19);
+            this.streamCountBox.TabIndex = 30;
+            this.streamCountBox.Text = "";
+            // 
+            // groupBox48
+            // 
+            this.groupBox48.Controls.Add(this.groupBox51);
+            this.groupBox48.Controls.Add(this.groupBox49);
+            this.groupBox48.Controls.Add(this.groupBox50);
+            this.groupBox48.Location = new System.Drawing.Point(252, 270);
+            this.groupBox48.Name = "groupBox48";
+            this.groupBox48.Size = new System.Drawing.Size(357, 69);
+            this.groupBox48.TabIndex = 26;
+            this.groupBox48.TabStop = false;
+            this.groupBox48.Text = "Old Maid";
+            // 
+            // groupBox49
+            // 
+            this.groupBox49.Controls.Add(this.timesLostOldMaidBox);
+            this.groupBox49.Location = new System.Drawing.Point(123, 19);
+            this.groupBox49.Name = "groupBox49";
+            this.groupBox49.Size = new System.Drawing.Size(111, 44);
+            this.groupBox49.TabIndex = 25;
+            this.groupBox49.TabStop = false;
+            this.groupBox49.Text = "Times Lost";
+            // 
+            // timesLostOldMaidBox
+            // 
+            this.timesLostOldMaidBox.Location = new System.Drawing.Point(6, 19);
+            this.timesLostOldMaidBox.Multiline = false;
+            this.timesLostOldMaidBox.Name = "timesLostOldMaidBox";
+            this.timesLostOldMaidBox.ReadOnly = true;
+            this.timesLostOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesLostOldMaidBox.Size = new System.Drawing.Size(99, 19);
+            this.timesLostOldMaidBox.TabIndex = 21;
+            this.timesLostOldMaidBox.Text = "";
+            // 
+            // groupBox50
+            // 
+            this.groupBox50.Controls.Add(this.timesWonOldMaidBox);
+            this.groupBox50.Location = new System.Drawing.Point(6, 19);
+            this.groupBox50.Name = "groupBox50";
+            this.groupBox50.Size = new System.Drawing.Size(111, 44);
+            this.groupBox50.TabIndex = 23;
+            this.groupBox50.TabStop = false;
+            this.groupBox50.Text = "Times Won";
+            // 
+            // timesWonOldMaidBox
+            // 
+            this.timesWonOldMaidBox.Location = new System.Drawing.Point(6, 19);
+            this.timesWonOldMaidBox.Multiline = false;
+            this.timesWonOldMaidBox.Name = "timesWonOldMaidBox";
+            this.timesWonOldMaidBox.ReadOnly = true;
+            this.timesWonOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesWonOldMaidBox.Size = new System.Drawing.Size(99, 19);
+            this.timesWonOldMaidBox.TabIndex = 21;
+            this.timesWonOldMaidBox.Text = "";
+            // 
+            // groupBox51
+            // 
+            this.groupBox51.Controls.Add(this.timesRanAwayOldMaidBox);
+            this.groupBox51.Location = new System.Drawing.Point(240, 19);
+            this.groupBox51.Name = "groupBox51";
+            this.groupBox51.Size = new System.Drawing.Size(111, 44);
+            this.groupBox51.TabIndex = 26;
+            this.groupBox51.TabStop = false;
+            this.groupBox51.Text = "Times Ran Away";
+            // 
+            // timesRanAwayOldMaidBox
+            // 
+            this.timesRanAwayOldMaidBox.Location = new System.Drawing.Point(6, 19);
+            this.timesRanAwayOldMaidBox.Multiline = false;
+            this.timesRanAwayOldMaidBox.Name = "timesRanAwayOldMaidBox";
+            this.timesRanAwayOldMaidBox.ReadOnly = true;
+            this.timesRanAwayOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesRanAwayOldMaidBox.Size = new System.Drawing.Size(99, 19);
+            this.timesRanAwayOldMaidBox.TabIndex = 21;
+            this.timesRanAwayOldMaidBox.Text = "";
+            // 
+            // groupBox52
+            // 
+            this.groupBox52.Controls.Add(this.groupBox54);
+            this.groupBox52.Controls.Add(this.groupBox55);
+            this.groupBox52.Location = new System.Drawing.Point(252, 195);
+            this.groupBox52.Name = "groupBox52";
+            this.groupBox52.Size = new System.Drawing.Size(240, 69);
+            this.groupBox52.TabIndex = 27;
+            this.groupBox52.TabStop = false;
+            this.groupBox52.Text = "Chess";
+            // 
+            // groupBox54
+            // 
+            this.groupBox54.Controls.Add(this.timesLostChessBox);
+            this.groupBox54.Location = new System.Drawing.Point(123, 19);
+            this.groupBox54.Name = "groupBox54";
+            this.groupBox54.Size = new System.Drawing.Size(111, 44);
+            this.groupBox54.TabIndex = 25;
+            this.groupBox54.TabStop = false;
+            this.groupBox54.Text = "Times Lost";
+            // 
+            // timesLostChessBox
+            // 
+            this.timesLostChessBox.Location = new System.Drawing.Point(6, 19);
+            this.timesLostChessBox.Multiline = false;
+            this.timesLostChessBox.Name = "timesLostChessBox";
+            this.timesLostChessBox.ReadOnly = true;
+            this.timesLostChessBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesLostChessBox.Size = new System.Drawing.Size(99, 19);
+            this.timesLostChessBox.TabIndex = 21;
+            this.timesLostChessBox.Text = "";
+            // 
+            // groupBox55
+            // 
+            this.groupBox55.Controls.Add(this.timesWonChessBox);
+            this.groupBox55.Location = new System.Drawing.Point(6, 19);
+            this.groupBox55.Name = "groupBox55";
+            this.groupBox55.Size = new System.Drawing.Size(111, 44);
+            this.groupBox55.TabIndex = 23;
+            this.groupBox55.TabStop = false;
+            this.groupBox55.Text = "Times Won";
+            // 
+            // timesWonChessBox
+            // 
+            this.timesWonChessBox.Location = new System.Drawing.Point(6, 19);
+            this.timesWonChessBox.Multiline = false;
+            this.timesWonChessBox.Name = "timesWonChessBox";
+            this.timesWonChessBox.ReadOnly = true;
+            this.timesWonChessBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesWonChessBox.Size = new System.Drawing.Size(99, 19);
+            this.timesWonChessBox.TabIndex = 21;
+            this.timesWonChessBox.Text = "";
+            // 
+            // groupBox53
+            // 
+            this.groupBox53.Controls.Add(this.groupBox56);
+            this.groupBox53.Controls.Add(this.groupBox57);
+            this.groupBox53.Location = new System.Drawing.Point(252, 120);
+            this.groupBox53.Name = "groupBox53";
+            this.groupBox53.Size = new System.Drawing.Size(240, 69);
+            this.groupBox53.TabIndex = 28;
+            this.groupBox53.TabStop = false;
+            this.groupBox53.Text = "Word Chain";
+            // 
+            // groupBox56
+            // 
+            this.groupBox56.Controls.Add(this.timesLostWordChainBox);
+            this.groupBox56.Location = new System.Drawing.Point(123, 19);
+            this.groupBox56.Name = "groupBox56";
+            this.groupBox56.Size = new System.Drawing.Size(111, 44);
+            this.groupBox56.TabIndex = 25;
+            this.groupBox56.TabStop = false;
+            this.groupBox56.Text = "Times Lost";
+            // 
+            // timesLostWordChainBox
+            // 
+            this.timesLostWordChainBox.Location = new System.Drawing.Point(6, 19);
+            this.timesLostWordChainBox.Multiline = false;
+            this.timesLostWordChainBox.Name = "timesLostWordChainBox";
+            this.timesLostWordChainBox.ReadOnly = true;
+            this.timesLostWordChainBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesLostWordChainBox.Size = new System.Drawing.Size(99, 19);
+            this.timesLostWordChainBox.TabIndex = 21;
+            this.timesLostWordChainBox.Text = "";
+            // 
+            // groupBox57
+            // 
+            this.groupBox57.Controls.Add(this.timesWonWordChainBox);
+            this.groupBox57.Location = new System.Drawing.Point(6, 19);
+            this.groupBox57.Name = "groupBox57";
+            this.groupBox57.Size = new System.Drawing.Size(111, 44);
+            this.groupBox57.TabIndex = 23;
+            this.groupBox57.TabStop = false;
+            this.groupBox57.Text = "Times Won";
+            // 
+            // timesWonWordChainBox
+            // 
+            this.timesWonWordChainBox.Location = new System.Drawing.Point(6, 19);
+            this.timesWonWordChainBox.Multiline = false;
+            this.timesWonWordChainBox.Name = "timesWonWordChainBox";
+            this.timesWonWordChainBox.ReadOnly = true;
+            this.timesWonWordChainBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesWonWordChainBox.Size = new System.Drawing.Size(99, 19);
+            this.timesWonWordChainBox.TabIndex = 21;
+            this.timesWonWordChainBox.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1443,22 +1765,6 @@
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
-            this.groupBox25.ResumeLayout(false);
-            this.groupBox25.PerformLayout();
-            this.groupBox40.ResumeLayout(false);
-            this.groupBox41.ResumeLayout(false);
-            this.groupBox42.ResumeLayout(false);
-            this.groupBox33.ResumeLayout(false);
-            this.groupBox34.ResumeLayout(false);
-            this.groupBox35.ResumeLayout(false);
-            this.groupBox14.ResumeLayout(false);
-            this.groupBox32.ResumeLayout(false);
-            this.groupBox29.ResumeLayout(false);
-            this.groupBox30.ResumeLayout(false);
-            this.groupBox31.ResumeLayout(false);
-            this.groupBox28.ResumeLayout(false);
-            this.groupBox27.ResumeLayout(false);
-            this.groupBox26.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox13.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
@@ -1491,6 +1797,37 @@
             this.groupBox19.ResumeLayout(false);
             this.groupBox17.ResumeLayout(false);
             this.groupBox16.ResumeLayout(false);
+            this.tabPage7.ResumeLayout(false);
+            this.groupBox25.ResumeLayout(false);
+            this.groupBox25.PerformLayout();
+            this.groupBox40.ResumeLayout(false);
+            this.groupBox41.ResumeLayout(false);
+            this.groupBox42.ResumeLayout(false);
+            this.groupBox33.ResumeLayout(false);
+            this.groupBox34.ResumeLayout(false);
+            this.groupBox35.ResumeLayout(false);
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox32.ResumeLayout(false);
+            this.groupBox29.ResumeLayout(false);
+            this.groupBox30.ResumeLayout(false);
+            this.groupBox31.ResumeLayout(false);
+            this.groupBox28.ResumeLayout(false);
+            this.groupBox27.ResumeLayout(false);
+            this.groupBox26.ResumeLayout(false);
+            this.groupBox44.ResumeLayout(false);
+            this.groupBox45.ResumeLayout(false);
+            this.groupBox46.ResumeLayout(false);
+            this.groupBox47.ResumeLayout(false);
+            this.groupBox48.ResumeLayout(false);
+            this.groupBox49.ResumeLayout(false);
+            this.groupBox50.ResumeLayout(false);
+            this.groupBox51.ResumeLayout(false);
+            this.groupBox52.ResumeLayout(false);
+            this.groupBox54.ResumeLayout(false);
+            this.groupBox55.ResumeLayout(false);
+            this.groupBox53.ResumeLayout(false);
+            this.groupBox56.ResumeLayout(false);
+            this.groupBox57.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1548,33 +1885,6 @@
         private System.Windows.Forms.RichTextBox playerHealthBox;
         private System.Windows.Forms.GroupBox groupBox13;
         private System.Windows.Forms.RichTextBox mentalHealthBox;
-        private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.RichTextBox saveSlotBox;
-        private System.Windows.Forms.GroupBox groupBox25;
-        private System.Windows.Forms.GroupBox groupBox26;
-        private System.Windows.Forms.RichTextBox gameStageBox;
-        private System.Windows.Forms.GroupBox groupBox27;
-        private System.Windows.Forms.RichTextBox followersTextBox;
-        private System.Windows.Forms.GroupBox groupBox28;
-        private System.Windows.Forms.RichTextBox subsTextBox;
-        private System.Windows.Forms.GroupBox groupBox29;
-        private System.Windows.Forms.RichTextBox totalStreamTimeRawBox;
-        private System.Windows.Forms.GroupBox groupBox30;
-        private System.Windows.Forms.RichTextBox totalStreamTimeFormattedBox;
-        private System.Windows.Forms.GroupBox groupBox31;
-        private System.Windows.Forms.GroupBox groupBox32;
-        private System.Windows.Forms.RichTextBox streamDonations;
-        private System.Windows.Forms.GroupBox groupBox33;
-        private System.Windows.Forms.GroupBox groupBox34;
-        private System.Windows.Forms.RichTextBox longestStreamFormattedBox;
-        private System.Windows.Forms.GroupBox groupBox35;
-        private System.Windows.Forms.RichTextBox longestStreamRawBox;
-        private System.Windows.Forms.CheckBox lightswitchCheckbox;
-        private System.Windows.Forms.GroupBox groupBox40;
-        private System.Windows.Forms.GroupBox groupBox41;
-        private System.Windows.Forms.RichTextBox gameTimeFormatted;
-        private System.Windows.Forms.GroupBox groupBox42;
-        private System.Windows.Forms.RichTextBox gameTimeRaw;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem reportABugToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem suggestAFeatureToolStripMenuItem;
@@ -1612,6 +1922,59 @@
         private System.Windows.Forms.GroupBox groupBox16;
         private System.Windows.Forms.RichTextBox botNameBox;
         private System.Windows.Forms.Button editInfoButton;
+        private System.Windows.Forms.GroupBox groupBox44;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.GroupBox groupBox25;
+        private System.Windows.Forms.GroupBox groupBox40;
+        private System.Windows.Forms.GroupBox groupBox41;
+        private System.Windows.Forms.RichTextBox gameTimeFormatted;
+        private System.Windows.Forms.GroupBox groupBox42;
+        private System.Windows.Forms.RichTextBox gameTimeRaw;
+        private System.Windows.Forms.CheckBox lightswitchCheckbox;
+        private System.Windows.Forms.GroupBox groupBox33;
+        private System.Windows.Forms.GroupBox groupBox34;
+        private System.Windows.Forms.RichTextBox longestStreamFormattedBox;
+        private System.Windows.Forms.GroupBox groupBox35;
+        private System.Windows.Forms.RichTextBox longestStreamRawBox;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.RichTextBox saveSlotBox;
+        private System.Windows.Forms.GroupBox groupBox32;
+        private System.Windows.Forms.RichTextBox streamDonations;
+        private System.Windows.Forms.GroupBox groupBox29;
+        private System.Windows.Forms.GroupBox groupBox30;
+        private System.Windows.Forms.RichTextBox totalStreamTimeFormattedBox;
+        private System.Windows.Forms.GroupBox groupBox31;
+        private System.Windows.Forms.RichTextBox totalStreamTimeRawBox;
+        private System.Windows.Forms.GroupBox groupBox28;
+        private System.Windows.Forms.RichTextBox subsTextBox;
+        private System.Windows.Forms.GroupBox groupBox27;
+        private System.Windows.Forms.RichTextBox followersTextBox;
+        private System.Windows.Forms.GroupBox groupBox26;
+        private System.Windows.Forms.RichTextBox gameStageBox;
+        private System.Windows.Forms.GroupBox groupBox45;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.GroupBox groupBox46;
+        private System.Windows.Forms.RichTextBox statusTextBox;
+        private System.Windows.Forms.GroupBox groupBox47;
+        private System.Windows.Forms.RichTextBox streamCountBox;
+        private System.Windows.Forms.GroupBox groupBox48;
+        private System.Windows.Forms.GroupBox groupBox49;
+        private System.Windows.Forms.RichTextBox timesLostOldMaidBox;
+        private System.Windows.Forms.GroupBox groupBox50;
+        private System.Windows.Forms.RichTextBox timesWonOldMaidBox;
+        private System.Windows.Forms.GroupBox groupBox51;
+        private System.Windows.Forms.RichTextBox timesRanAwayOldMaidBox;
+        private System.Windows.Forms.GroupBox groupBox52;
+        private System.Windows.Forms.GroupBox groupBox54;
+        private System.Windows.Forms.RichTextBox timesLostChessBox;
+        private System.Windows.Forms.GroupBox groupBox55;
+        private System.Windows.Forms.RichTextBox timesWonChessBox;
+        private System.Windows.Forms.GroupBox groupBox53;
+        private System.Windows.Forms.GroupBox groupBox56;
+        private System.Windows.Forms.RichTextBox timesLostWordChainBox;
+        private System.Windows.Forms.GroupBox groupBox57;
+        private System.Windows.Forms.RichTextBox timesWonWordChainBox;
     }
 }
 
