@@ -8,6 +8,8 @@ using Newtonsoft.Json.Linq;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Diagnostics;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+using System.Runtime.CompilerServices;
 
 namespace MDRG_Analyzer
 {
@@ -16,9 +18,13 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.0.2";
+        string __version__ = "1.0.3";
         int selectedSaveFile = -1;
+        string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
+        string botName = "your Bot";
+        dynamic jsonData;
+
         public Form1()
         {
             InitializeComponent();
@@ -36,7 +42,7 @@ namespace MDRG_Analyzer
 
             for (int i = 1; i <= numberOfFiles; i++)
             {
-                RadioButton radioButton = new RadioButton();
+                System.Windows.Forms.RadioButton radioButton = new System.Windows.Forms.RadioButton();
                 radioButton.Text = "File " + i;
                 radioButton.Name = "radioButton" + i.ToString();
                 radioButton.AutoSize = true;
@@ -49,7 +55,7 @@ namespace MDRG_Analyzer
 
         private void RadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            RadioButton radioButton = sender as RadioButton;
+            System.Windows.Forms.RadioButton radioButton = sender as System.Windows.Forms.RadioButton;
             if (radioButton.Checked)
             {
                 string buttonText = radioButton.Text;
@@ -74,14 +80,14 @@ namespace MDRG_Analyzer
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 // Get the selected file's path
-                string filePath = openFileDialog.FileName;
+                filePath = openFileDialog.FileName;
 
                 // Load save file into variable, then parse the JSon
                 fileContent = File.ReadAllText(filePath);
                 saveFileJson = JObject.Parse(fileContent);
 
                 // Deserialize into dynamic object
-                dynamic jsonData = JsonConvert.DeserializeObject(fileContent);
+                jsonData = JsonConvert.DeserializeObject(fileContent);
 
                 // Extract Saves array
                 var saves = jsonData.saves;
@@ -167,10 +173,10 @@ namespace MDRG_Analyzer
             saveSlotBox.Text = $"{saveSlot + 1}"; // +1 to represent the in-game save slot number.
             infoSaveBox.Text = $"{saveSlot + 1}";
             botNameBox.Text = $"{botName}";
-            moneyTextBox.Text = $"{moneyVal}$";
+            moneyTextBox.Text = $"{moneyVal}";
             casinoTokenBox.Text = $"{casinoTokensVal}";
-            maxCumBox.Text = $"{maxCumVal}ml";
-            currentCumBox.Text = $"{currentCumVal}ml";
+            maxCumBox.Text = $"{maxCumVal}";
+            currentCumBox.Text = $"{currentCumVal}";
             gameVersionBox.Text = $"{gameVersion}";
             currentStaminaBox.Text = $"{currentStamina * 100}"; // Do "* 100" to make it an "x out of 100" value instead of a "0.xxxx<...>" value for readability.
             playerNameBox.Text = $"{playerName}";
@@ -181,21 +187,21 @@ namespace MDRG_Analyzer
             botLongingBox.Text = $"{botLonging}";
             botMoodBox.Text = $"{botMood}";
             botIntBox.Text = $"{botInt}";
-            cumInPussy.Text = $"{cumInPussyVal}ml";
-            cumInAss.Text = $"{cumInAssVal}ml";
-            cumInStomach.Text = $"{cumInStomachVal}ml";
+            cumInPussy.Text = $"{cumInPussyVal}";
+            cumInAss.Text = $"{cumInAssVal}";
+            cumInStomach.Text = $"{cumInStomachVal}";
             gameStageBox.Text = $"{gameStage}";
             subsTextBox.Text = $"{subs}";
             followersTextBox.Text = $"{followers}";
             totalStreamTimeRawBox.Text = $"{totalStreamtime}";
             totalStreamTimeFormattedBox.Text = $"{streamDays}d;{streamHours}h;{streamMinutes}m";
-            streamDonations.Text = $"{streamDonationsVal}$";
+            streamDonations.Text = $"{streamDonationsVal}";
             longestStreamRawBox.Text = $"{longestStreamtime}";
             longestStreamFormattedBox.Text = $"{longestStreamDays}d;{longestStreamHours}h;{longestStreamMinutes}m";
-            timesCumInsideVag.Text = $"{timesCameInsideVal} times";
-            timesCumInsideAss.Text = $"{timesCameInsideAnalVal} times";
-            timesCumInsideOral.Text = $"{timesCameInMouthVal} times";
-            cameOutsideBox.Text = $"{timesCameOutside} times";
+            timesCumInsideVag.Text = $"{timesCameInsideVal}";
+            timesCumInsideAss.Text = $"{timesCameInsideAnalVal}";
+            timesCumInsideOral.Text = $"{timesCameInMouthVal}";
+            cameOutsideBox.Text = $"{timesCameOutside}";
             gameTimeRaw.Text = $"{ingameTime}";
             gameTimeFormatted.Text = $"{ingameTimeDays}d;{ingameTimeHours}h;{ingameTimeMinutes}m";
 
@@ -228,9 +234,9 @@ namespace MDRG_Analyzer
             List<string> achievementsToCheck = new List<string>();
             foreach (Control groupBox in achievementsPanel.Controls)
             {
-                if (groupBox is GroupBox)
+                if (groupBox is System.Windows.Forms.GroupBox)
                 {
-                    GroupBox currentGroupBox = (GroupBox)groupBox;
+                    System.Windows.Forms.GroupBox currentGroupBox = (System.Windows.Forms.GroupBox)groupBox;
 
                     foreach (Control control in currentGroupBox.Controls)
                     {
@@ -407,14 +413,14 @@ namespace MDRG_Analyzer
 
         private void openReadmeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string filePath = "README.md";
+            string readmeFilePath = "README.md";
 
             // Combine the current directory with the file name
-            string fullPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filePath);
+            string fullPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, readmeFilePath);
 
             if (File.Exists(fullPath))
             {
-                Process.Start(filePath);
+                Process.Start(readmeFilePath);
             }
             else
             {
@@ -427,9 +433,9 @@ namespace MDRG_Analyzer
             Close();
         }
 
-        private void infoSaveButton_Click(object sender, EventArgs e)
+        private void editInfoButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Because of game code and my lack of understanding, to select the correct Save Slot, select a File at the top, then check if the File has the correct Save Slot (i.E. You may have selected \"File 1\" but it actually loads \"Save Slot 4\". In the box next to this button, the correct slot will be listed.", "Save Slot Information");
+            MessageBox.Show($"It's currently beyond my ability to add a save editor. If you know how to do that and want to contribute, please do so. Quick links are in the \"Help\" Menu.", "Notice");
         }
     }
 }

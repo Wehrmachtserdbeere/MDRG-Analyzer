@@ -33,7 +33,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox43 = new System.Windows.Forms.GroupBox();
             this.infoSaveBox = new System.Windows.Forms.RichTextBox();
-            this.infoSaveButton = new System.Windows.Forms.Button();
             this.saveFilesChoosingBox = new System.Windows.Forms.GroupBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -70,33 +69,6 @@
             this.followersTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox26 = new System.Windows.Forms.GroupBox();
             this.gameStageBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.groupBox39 = new System.Windows.Forms.GroupBox();
-            this.cameOutsideBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox38 = new System.Windows.Forms.GroupBox();
-            this.timesCumInsideOral = new System.Windows.Forms.RichTextBox();
-            this.groupBox37 = new System.Windows.Forms.GroupBox();
-            this.timesCumInsideAss = new System.Windows.Forms.RichTextBox();
-            this.groupBox36 = new System.Windows.Forms.GroupBox();
-            this.timesCumInsideVag = new System.Windows.Forms.RichTextBox();
-            this.groupBox24 = new System.Windows.Forms.GroupBox();
-            this.cumInStomach = new System.Windows.Forms.RichTextBox();
-            this.groupBox23 = new System.Windows.Forms.GroupBox();
-            this.cumInAss = new System.Windows.Forms.RichTextBox();
-            this.groupBox22 = new System.Windows.Forms.GroupBox();
-            this.cumInPussy = new System.Windows.Forms.RichTextBox();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.botIntBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox20 = new System.Windows.Forms.GroupBox();
-            this.botMoodBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox19 = new System.Windows.Forms.GroupBox();
-            this.botLongingBox = new System.Windows.Forms.RichTextBox();
-            this.botSympathyBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox18 = new System.Windows.Forms.GroupBox();
-            this.groupBox17 = new System.Windows.Forms.GroupBox();
-            this.botLustBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.botNameBox = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.mentalHealthBox = new System.Windows.Forms.RichTextBox();
@@ -142,6 +114,35 @@
             this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.groupBox39 = new System.Windows.Forms.GroupBox();
+            this.cameOutsideBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox38 = new System.Windows.Forms.GroupBox();
+            this.timesCumInsideOral = new System.Windows.Forms.RichTextBox();
+            this.groupBox37 = new System.Windows.Forms.GroupBox();
+            this.timesCumInsideAss = new System.Windows.Forms.RichTextBox();
+            this.groupBox36 = new System.Windows.Forms.GroupBox();
+            this.timesCumInsideVag = new System.Windows.Forms.RichTextBox();
+            this.groupBox24 = new System.Windows.Forms.GroupBox();
+            this.cumInStomach = new System.Windows.Forms.RichTextBox();
+            this.groupBox23 = new System.Windows.Forms.GroupBox();
+            this.cumInAss = new System.Windows.Forms.RichTextBox();
+            this.groupBox22 = new System.Windows.Forms.GroupBox();
+            this.cumInPussy = new System.Windows.Forms.RichTextBox();
+            this.groupBox21 = new System.Windows.Forms.GroupBox();
+            this.botIntBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox20 = new System.Windows.Forms.GroupBox();
+            this.botMoodBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox19 = new System.Windows.Forms.GroupBox();
+            this.botLongingBox = new System.Windows.Forms.RichTextBox();
+            this.botSympathyBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.botLustBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.botNameBox = new System.Windows.Forms.RichTextBox();
+            this.editInfoButton = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox43.SuspendLayout();
@@ -165,19 +166,6 @@
             this.groupBox28.SuspendLayout();
             this.groupBox27.SuspendLayout();
             this.groupBox26.SuspendLayout();
-            this.groupBox15.SuspendLayout();
-            this.groupBox39.SuspendLayout();
-            this.groupBox38.SuspendLayout();
-            this.groupBox37.SuspendLayout();
-            this.groupBox36.SuspendLayout();
-            this.groupBox24.SuspendLayout();
-            this.groupBox23.SuspendLayout();
-            this.groupBox22.SuspendLayout();
-            this.groupBox21.SuspendLayout();
-            this.groupBox20.SuspendLayout();
-            this.groupBox19.SuspendLayout();
-            this.groupBox17.SuspendLayout();
-            this.groupBox16.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox12.SuspendLayout();
@@ -195,12 +183,27 @@
             this.groupBox5.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.groupBox39.SuspendLayout();
+            this.groupBox38.SuspendLayout();
+            this.groupBox37.SuspendLayout();
+            this.groupBox36.SuspendLayout();
+            this.groupBox24.SuspendLayout();
+            this.groupBox23.SuspendLayout();
+            this.groupBox22.SuspendLayout();
+            this.groupBox21.SuspendLayout();
+            this.groupBox20.SuspendLayout();
+            this.groupBox19.SuspendLayout();
+            this.groupBox17.SuspendLayout();
+            this.groupBox16.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage3);
@@ -228,8 +231,8 @@
             // 
             // groupBox43
             // 
+            this.groupBox43.Controls.Add(this.editInfoButton);
             this.groupBox43.Controls.Add(this.infoSaveBox);
-            this.groupBox43.Controls.Add(this.infoSaveButton);
             this.groupBox43.Location = new System.Drawing.Point(415, 352);
             this.groupBox43.Name = "groupBox43";
             this.groupBox43.Size = new System.Drawing.Size(187, 47);
@@ -246,16 +249,6 @@
             this.infoSaveBox.Size = new System.Drawing.Size(83, 22);
             this.infoSaveBox.TabIndex = 2;
             this.infoSaveBox.Text = "Load a File";
-            // 
-            // infoSaveButton
-            // 
-            this.infoSaveButton.Location = new System.Drawing.Point(98, 19);
-            this.infoSaveButton.Name = "infoSaveButton";
-            this.infoSaveButton.Size = new System.Drawing.Size(83, 22);
-            this.infoSaveButton.TabIndex = 5;
-            this.infoSaveButton.Text = "Quick Info";
-            this.infoSaveButton.UseVisualStyleBackColor = true;
-            this.infoSaveButton.Click += new System.EventHandler(this.infoSaveButton_Click);
             // 
             // saveFilesChoosingBox
             // 
@@ -337,7 +330,6 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.groupBox25);
-            this.tabPage2.Controls.Add(this.groupBox15);
             this.tabPage2.Controls.Add(this.groupBox3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -639,6 +631,494 @@
             this.gameStageBox.TabIndex = 20;
             this.gameStageBox.Text = "";
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.groupBox13);
+            this.groupBox3.Controls.Add(this.groupBox12);
+            this.groupBox3.Controls.Add(this.groupBox11);
+            this.groupBox3.Controls.Add(this.groupBox10);
+            this.groupBox3.Controls.Add(this.groupBox9);
+            this.groupBox3.Controls.Add(this.groupBox8);
+            this.groupBox3.Controls.Add(this.groupBox7);
+            this.groupBox3.Controls.Add(this.groupBox6);
+            this.groupBox3.Location = new System.Drawing.Point(3, 3);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(475, 120);
+            this.groupBox3.TabIndex = 12;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Player Values";
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.mentalHealthBox);
+            this.groupBox13.Location = new System.Drawing.Point(7, 70);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(111, 44);
+            this.groupBox13.TabIndex = 7;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Mental Health";
+            // 
+            // mentalHealthBox
+            // 
+            this.mentalHealthBox.Location = new System.Drawing.Point(7, 19);
+            this.mentalHealthBox.Multiline = false;
+            this.mentalHealthBox.Name = "mentalHealthBox";
+            this.mentalHealthBox.ReadOnly = true;
+            this.mentalHealthBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mentalHealthBox.Size = new System.Drawing.Size(99, 19);
+            this.mentalHealthBox.TabIndex = 0;
+            this.mentalHealthBox.Text = "";
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.playerHealthBox);
+            this.groupBox12.Location = new System.Drawing.Point(124, 70);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(111, 44);
+            this.groupBox12.TabIndex = 6;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Health";
+            // 
+            // playerHealthBox
+            // 
+            this.playerHealthBox.Location = new System.Drawing.Point(6, 19);
+            this.playerHealthBox.Multiline = false;
+            this.playerHealthBox.Name = "playerHealthBox";
+            this.playerHealthBox.ReadOnly = true;
+            this.playerHealthBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.playerHealthBox.Size = new System.Drawing.Size(99, 19);
+            this.playerHealthBox.TabIndex = 0;
+            this.playerHealthBox.Text = "";
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.currentStaminaBox);
+            this.groupBox11.Location = new System.Drawing.Point(241, 70);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(111, 44);
+            this.groupBox11.TabIndex = 5;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Current Stamina";
+            // 
+            // currentStaminaBox
+            // 
+            this.currentStaminaBox.Location = new System.Drawing.Point(6, 19);
+            this.currentStaminaBox.Multiline = false;
+            this.currentStaminaBox.Name = "currentStaminaBox";
+            this.currentStaminaBox.ReadOnly = true;
+            this.currentStaminaBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.currentStaminaBox.Size = new System.Drawing.Size(99, 19);
+            this.currentStaminaBox.TabIndex = 12;
+            this.currentStaminaBox.Text = "";
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.currentCumBox);
+            this.groupBox10.Location = new System.Drawing.Point(358, 70);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(111, 44);
+            this.groupBox10.TabIndex = 4;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Current Cum";
+            // 
+            // currentCumBox
+            // 
+            this.currentCumBox.Location = new System.Drawing.Point(6, 19);
+            this.currentCumBox.Multiline = false;
+            this.currentCumBox.Name = "currentCumBox";
+            this.currentCumBox.ReadOnly = true;
+            this.currentCumBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.currentCumBox.Size = new System.Drawing.Size(99, 19);
+            this.currentCumBox.TabIndex = 9;
+            this.currentCumBox.Text = "";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.maxCumBox);
+            this.groupBox9.Location = new System.Drawing.Point(358, 20);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(111, 44);
+            this.groupBox9.TabIndex = 3;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Max. Cum";
+            // 
+            // maxCumBox
+            // 
+            this.maxCumBox.Location = new System.Drawing.Point(6, 19);
+            this.maxCumBox.Multiline = false;
+            this.maxCumBox.Name = "maxCumBox";
+            this.maxCumBox.ReadOnly = true;
+            this.maxCumBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.maxCumBox.Size = new System.Drawing.Size(99, 19);
+            this.maxCumBox.TabIndex = 7;
+            this.maxCumBox.Text = "";
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.casinoTokenBox);
+            this.groupBox8.Location = new System.Drawing.Point(241, 20);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(111, 44);
+            this.groupBox8.TabIndex = 2;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Casino Tokens";
+            // 
+            // casinoTokenBox
+            // 
+            this.casinoTokenBox.BackColor = System.Drawing.SystemColors.Control;
+            this.casinoTokenBox.Location = new System.Drawing.Point(6, 19);
+            this.casinoTokenBox.Multiline = false;
+            this.casinoTokenBox.Name = "casinoTokenBox";
+            this.casinoTokenBox.ReadOnly = true;
+            this.casinoTokenBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.casinoTokenBox.Size = new System.Drawing.Size(99, 19);
+            this.casinoTokenBox.TabIndex = 11;
+            this.casinoTokenBox.Text = "";
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.moneyTextBox);
+            this.groupBox7.Location = new System.Drawing.Point(124, 20);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(111, 44);
+            this.groupBox7.TabIndex = 1;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "Money";
+            // 
+            // moneyTextBox
+            // 
+            this.moneyTextBox.Location = new System.Drawing.Point(6, 19);
+            this.moneyTextBox.Multiline = false;
+            this.moneyTextBox.Name = "moneyTextBox";
+            this.moneyTextBox.ReadOnly = true;
+            this.moneyTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.moneyTextBox.Size = new System.Drawing.Size(99, 19);
+            this.moneyTextBox.TabIndex = 5;
+            this.moneyTextBox.Text = "";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.groupBox6.Controls.Add(this.playerNameBox);
+            this.groupBox6.Location = new System.Drawing.Point(7, 20);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(111, 44);
+            this.groupBox6.TabIndex = 0;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Name";
+            // 
+            // playerNameBox
+            // 
+            this.playerNameBox.Location = new System.Drawing.Point(6, 19);
+            this.playerNameBox.Multiline = false;
+            this.playerNameBox.Name = "playerNameBox";
+            this.playerNameBox.ReadOnly = true;
+            this.playerNameBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.playerNameBox.Size = new System.Drawing.Size(99, 19);
+            this.playerNameBox.TabIndex = 13;
+            this.playerNameBox.Text = "";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.button2);
+            this.tabPage4.Controls.Add(this.visitedWebsiteGroupBox);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(792, 399);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Websites";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(4, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(113, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Show Websites";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // visitedWebsiteGroupBox
+            // 
+            this.visitedWebsiteGroupBox.Controls.Add(this.websitesCheckBoxes);
+            this.visitedWebsiteGroupBox.Location = new System.Drawing.Point(3, 33);
+            this.visitedWebsiteGroupBox.Name = "visitedWebsiteGroupBox";
+            this.visitedWebsiteGroupBox.Size = new System.Drawing.Size(418, 241);
+            this.visitedWebsiteGroupBox.TabIndex = 1;
+            this.visitedWebsiteGroupBox.TabStop = false;
+            this.visitedWebsiteGroupBox.Text = "Visited Websites";
+            this.visitedWebsiteGroupBox.Visible = false;
+            // 
+            // websitesCheckBoxes
+            // 
+            this.websitesCheckBoxes.ColumnWidth = 200;
+            this.websitesCheckBoxes.Enabled = false;
+            this.websitesCheckBoxes.FormattingEnabled = true;
+            this.websitesCheckBoxes.Items.AddRange(new object[] {
+            "adredirect.ic",
+            "bang.ic",
+            "bang.ic/email",
+            "blackjack.casino.ic",
+            "casino.ic",
+            "casino.ic/tokens",
+            "cockcockcockcockcock.ic",
+            "cocktracts.ic",
+            "cocktracts.ic/available",
+            "cocktracts.ic/contract",
+            "cocktracts.ic/help",
+            "cocktracts.ic/partner",
+            "cocktracts.ic/partners",
+            "cocktwitch.ic",
+            "cocktwitch.ic/leaderboard",
+            "cocktwitch.ic/stats",
+            "dickcheese.ic",
+            "dickcheese.ic/1",
+            "dickcheese.ic/2",
+            "duck.ic",
+            "fedup.ic",
+            "hotanimebabes.ic",
+            "ladyparts.ic",
+            "losefatquickly.ic",
+            "peepee.ic",
+            "pixelglasses.ic",
+            "slots.casino.ic",
+            "stonks.ic"});
+            this.websitesCheckBoxes.Location = new System.Drawing.Point(6, 19);
+            this.websitesCheckBoxes.MultiColumn = true;
+            this.websitesCheckBoxes.Name = "websitesCheckBoxes";
+            this.websitesCheckBoxes.Size = new System.Drawing.Size(406, 214);
+            this.websitesCheckBoxes.Sorted = true;
+            this.websitesCheckBoxes.TabIndex = 0;
+            this.websitesCheckBoxes.ThreeDCheckBoxes = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.achievementsPanel);
+            this.tabPage5.Controls.Add(this.button1);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(792, 399);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Achievements";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // achievementsPanel
+            // 
+            this.achievementsPanel.Controls.Add(this.groupBox4);
+            this.achievementsPanel.Controls.Add(this.groupBox5);
+            this.achievementsPanel.Location = new System.Drawing.Point(4, 34);
+            this.achievementsPanel.Name = "achievementsPanel";
+            this.achievementsPanel.Size = new System.Drawing.Size(448, 120);
+            this.achievementsPanel.TabIndex = 3;
+            this.achievementsPanel.Visible = false;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.richTextBox12);
+            this.groupBox4.Controls.Add(this.richTextBox6);
+            this.groupBox4.Controls.Add(this.checkedListBox1);
+            this.groupBox4.Location = new System.Drawing.Point(4, 3);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(438, 60);
+            this.groupBox4.TabIndex = 1;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Church Achievements";
+            // 
+            // richTextBox12
+            // 
+            this.richTextBox12.Location = new System.Drawing.Point(181, 34);
+            this.richTextBox12.Multiline = false;
+            this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.ReadOnly = true;
+            this.richTextBox12.Size = new System.Drawing.Size(251, 20);
+            this.richTextBox12.TabIndex = 2;
+            this.richTextBox12.Text = "\"I don\'t Know\" Ending";
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.Location = new System.Drawing.Point(181, 19);
+            this.richTextBox6.Multiline = false;
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
+            this.richTextBox6.Size = new System.Drawing.Size(251, 20);
+            this.richTextBox6.TabIndex = 1;
+            this.richTextBox6.Text = "\"Just Go There\" Bad Ending";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.Enabled = false;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "church-endJustGoThereBad",
+            "church-endIdontknow"});
+            this.checkedListBox1.Location = new System.Drawing.Point(4, 19);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(171, 34);
+            this.checkedListBox1.TabIndex = 0;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.richTextBox11);
+            this.groupBox5.Controls.Add(this.checkedListBox2);
+            this.groupBox5.Location = new System.Drawing.Point(4, 69);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(438, 47);
+            this.groupBox5.TabIndex = 2;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Misc Achievements";
+            // 
+            // richTextBox11
+            // 
+            this.richTextBox11.Location = new System.Drawing.Point(181, 19);
+            this.richTextBox11.Multiline = false;
+            this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.ReadOnly = true;
+            this.richTextBox11.Size = new System.Drawing.Size(251, 19);
+            this.richTextBox11.TabIndex = 1;
+            this.richTextBox11.Text = "Cheat Website Visited";
+            // 
+            // checkedListBox2
+            // 
+            this.checkedListBox2.Enabled = false;
+            this.checkedListBox2.FormattingEnabled = true;
+            this.checkedListBox2.Items.AddRange(new object[] {
+            "saveEdited"});
+            this.checkedListBox2.Location = new System.Drawing.Point(5, 20);
+            this.checkedListBox2.Name = "checkedListBox2";
+            this.checkedListBox2.Size = new System.Drawing.Size(170, 19);
+            this.checkedListBox2.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(4, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(113, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Show Achievements";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.debugTextBox);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(792, 399);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Debug";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // debugTextBox
+            // 
+            this.debugTextBox.Location = new System.Drawing.Point(0, 0);
+            this.debugTextBox.Name = "debugTextBox";
+            this.debugTextBox.ReadOnly = true;
+            this.debugTextBox.Size = new System.Drawing.Size(792, 399);
+            this.debugTextBox.TabIndex = 0;
+            this.debugTextBox.Text = "Load a Save File. The content of the Save File will be displayed here.";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loadToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // loadToolStripMenuItem
+            // 
+            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loadToolStripMenuItem.Text = "Load File";
+            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkForUpdatesToolStripMenuItem,
+            this.openReadmeToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.reportABugToolStripMenuItem,
+            this.suggestAFeatureToolStripMenuItem,
+            this.quickLinkToGitHubToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // checkForUpdatesToolStripMenuItem
+            // 
+            this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
+            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
+            this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
+            // 
+            // openReadmeToolStripMenuItem
+            // 
+            this.openReadmeToolStripMenuItem.Name = "openReadmeToolStripMenuItem";
+            this.openReadmeToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.openReadmeToolStripMenuItem.Text = "Open Readme";
+            this.openReadmeToolStripMenuItem.Click += new System.EventHandler(this.openReadmeToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(182, 6);
+            // 
+            // reportABugToolStripMenuItem
+            // 
+            this.reportABugToolStripMenuItem.Name = "reportABugToolStripMenuItem";
+            this.reportABugToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.reportABugToolStripMenuItem.Text = "Report a Bug";
+            this.reportABugToolStripMenuItem.Click += new System.EventHandler(this.reportABugToolStripMenuItem_Click);
+            // 
+            // suggestAFeatureToolStripMenuItem
+            // 
+            this.suggestAFeatureToolStripMenuItem.Name = "suggestAFeatureToolStripMenuItem";
+            this.suggestAFeatureToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.suggestAFeatureToolStripMenuItem.Text = "Suggest a Feature";
+            this.suggestAFeatureToolStripMenuItem.Click += new System.EventHandler(this.suggestAFeatureToolStripMenuItem_Click);
+            // 
+            // quickLinkToGitHubToolStripMenuItem
+            // 
+            this.quickLinkToGitHubToolStripMenuItem.Name = "quickLinkToGitHubToolStripMenuItem";
+            this.quickLinkToGitHubToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.quickLinkToGitHubToolStripMenuItem.Text = "Quick Link to GitHub";
+            this.quickLinkToGitHubToolStripMenuItem.Click += new System.EventHandler(this.quickLinkToGitHubToolStripMenuItem_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.groupBox15);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Size = new System.Drawing.Size(792, 399);
+            this.tabPage6.TabIndex = 0;
+            this.tabPage6.Text = "Bot Info";
+            // 
             // groupBox15
             // 
             this.groupBox15.Controls.Add(this.groupBox39);
@@ -655,10 +1135,10 @@
             this.groupBox15.Controls.Add(this.groupBox18);
             this.groupBox15.Controls.Add(this.groupBox17);
             this.groupBox15.Controls.Add(this.groupBox16);
-            this.groupBox15.Location = new System.Drawing.Point(3, 129);
+            this.groupBox15.Location = new System.Drawing.Point(8, 3);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(475, 267);
-            this.groupBox15.TabIndex = 14;
+            this.groupBox15.Size = new System.Drawing.Size(784, 396);
+            this.groupBox15.TabIndex = 15;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Bot Values";
             // 
@@ -933,484 +1413,16 @@
             this.botNameBox.Size = new System.Drawing.Size(99, 19);
             this.botNameBox.TabIndex = 0;
             this.botNameBox.Text = "";
-            this.botNameBox.TextChanged += new System.EventHandler(this.botNameBox_TextChanged);
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.groupBox13);
-            this.groupBox3.Controls.Add(this.groupBox12);
-            this.groupBox3.Controls.Add(this.groupBox11);
-            this.groupBox3.Controls.Add(this.groupBox10);
-            this.groupBox3.Controls.Add(this.groupBox9);
-            this.groupBox3.Controls.Add(this.groupBox8);
-            this.groupBox3.Controls.Add(this.groupBox7);
-            this.groupBox3.Controls.Add(this.groupBox6);
-            this.groupBox3.Location = new System.Drawing.Point(3, 3);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(475, 120);
-            this.groupBox3.TabIndex = 12;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Player Values";
-            // 
-            // groupBox13
-            // 
-            this.groupBox13.Controls.Add(this.mentalHealthBox);
-            this.groupBox13.Location = new System.Drawing.Point(7, 70);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(111, 44);
-            this.groupBox13.TabIndex = 7;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Mental Health";
-            // 
-            // mentalHealthBox
-            // 
-            this.mentalHealthBox.Location = new System.Drawing.Point(7, 19);
-            this.mentalHealthBox.Multiline = false;
-            this.mentalHealthBox.Name = "mentalHealthBox";
-            this.mentalHealthBox.ReadOnly = true;
-            this.mentalHealthBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.mentalHealthBox.Size = new System.Drawing.Size(99, 19);
-            this.mentalHealthBox.TabIndex = 0;
-            this.mentalHealthBox.Text = "";
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.Controls.Add(this.playerHealthBox);
-            this.groupBox12.Location = new System.Drawing.Point(124, 70);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(111, 44);
-            this.groupBox12.TabIndex = 6;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Health";
-            // 
-            // playerHealthBox
-            // 
-            this.playerHealthBox.Location = new System.Drawing.Point(6, 19);
-            this.playerHealthBox.Multiline = false;
-            this.playerHealthBox.Name = "playerHealthBox";
-            this.playerHealthBox.ReadOnly = true;
-            this.playerHealthBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.playerHealthBox.Size = new System.Drawing.Size(99, 19);
-            this.playerHealthBox.TabIndex = 0;
-            this.playerHealthBox.Text = "";
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.Controls.Add(this.currentStaminaBox);
-            this.groupBox11.Location = new System.Drawing.Point(241, 70);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(111, 44);
-            this.groupBox11.TabIndex = 5;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Current Stamina";
-            // 
-            // currentStaminaBox
-            // 
-            this.currentStaminaBox.Location = new System.Drawing.Point(6, 19);
-            this.currentStaminaBox.Multiline = false;
-            this.currentStaminaBox.Name = "currentStaminaBox";
-            this.currentStaminaBox.ReadOnly = true;
-            this.currentStaminaBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.currentStaminaBox.Size = new System.Drawing.Size(99, 19);
-            this.currentStaminaBox.TabIndex = 12;
-            this.currentStaminaBox.Text = "";
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Controls.Add(this.currentCumBox);
-            this.groupBox10.Location = new System.Drawing.Point(358, 70);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(111, 44);
-            this.groupBox10.TabIndex = 4;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Current Cum";
-            // 
-            // currentCumBox
-            // 
-            this.currentCumBox.Location = new System.Drawing.Point(6, 19);
-            this.currentCumBox.Multiline = false;
-            this.currentCumBox.Name = "currentCumBox";
-            this.currentCumBox.ReadOnly = true;
-            this.currentCumBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.currentCumBox.Size = new System.Drawing.Size(99, 19);
-            this.currentCumBox.TabIndex = 9;
-            this.currentCumBox.Text = "";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.maxCumBox);
-            this.groupBox9.Location = new System.Drawing.Point(358, 20);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(111, 44);
-            this.groupBox9.TabIndex = 3;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Max. Cum";
-            // 
-            // maxCumBox
-            // 
-            this.maxCumBox.Location = new System.Drawing.Point(6, 19);
-            this.maxCumBox.Multiline = false;
-            this.maxCumBox.Name = "maxCumBox";
-            this.maxCumBox.ReadOnly = true;
-            this.maxCumBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.maxCumBox.Size = new System.Drawing.Size(99, 19);
-            this.maxCumBox.TabIndex = 7;
-            this.maxCumBox.Text = "";
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.casinoTokenBox);
-            this.groupBox8.Location = new System.Drawing.Point(241, 20);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(111, 44);
-            this.groupBox8.TabIndex = 2;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Casino Tokens";
-            // 
-            // casinoTokenBox
-            // 
-            this.casinoTokenBox.BackColor = System.Drawing.SystemColors.Control;
-            this.casinoTokenBox.Location = new System.Drawing.Point(6, 19);
-            this.casinoTokenBox.Name = "casinoTokenBox";
-            this.casinoTokenBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.casinoTokenBox.Size = new System.Drawing.Size(99, 19);
-            this.casinoTokenBox.TabIndex = 11;
-            this.casinoTokenBox.Text = "";
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.moneyTextBox);
-            this.groupBox7.Location = new System.Drawing.Point(124, 20);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(111, 44);
-            this.groupBox7.TabIndex = 1;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Money";
-            // 
-            // moneyTextBox
-            // 
-            this.moneyTextBox.Location = new System.Drawing.Point(6, 19);
-            this.moneyTextBox.Multiline = false;
-            this.moneyTextBox.Name = "moneyTextBox";
-            this.moneyTextBox.ReadOnly = true;
-            this.moneyTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.moneyTextBox.Size = new System.Drawing.Size(99, 19);
-            this.moneyTextBox.TabIndex = 5;
-            this.moneyTextBox.Text = "";
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.groupBox6.Controls.Add(this.playerNameBox);
-            this.groupBox6.Location = new System.Drawing.Point(7, 20);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(111, 44);
-            this.groupBox6.TabIndex = 0;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Name";
-            // 
-            // playerNameBox
-            // 
-            this.playerNameBox.Location = new System.Drawing.Point(6, 19);
-            this.playerNameBox.Multiline = false;
-            this.playerNameBox.Name = "playerNameBox";
-            this.playerNameBox.ReadOnly = true;
-            this.playerNameBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.playerNameBox.Size = new System.Drawing.Size(99, 19);
-            this.playerNameBox.TabIndex = 13;
-            this.playerNameBox.Text = "";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.button2);
-            this.tabPage4.Controls.Add(this.visitedWebsiteGroupBox);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(792, 399);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Websites";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Show Websites";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // visitedWebsiteGroupBox
-            // 
-            this.visitedWebsiteGroupBox.Controls.Add(this.websitesCheckBoxes);
-            this.visitedWebsiteGroupBox.Location = new System.Drawing.Point(3, 33);
-            this.visitedWebsiteGroupBox.Name = "visitedWebsiteGroupBox";
-            this.visitedWebsiteGroupBox.Size = new System.Drawing.Size(418, 241);
-            this.visitedWebsiteGroupBox.TabIndex = 1;
-            this.visitedWebsiteGroupBox.TabStop = false;
-            this.visitedWebsiteGroupBox.Text = "Visited Websites";
-            this.visitedWebsiteGroupBox.Visible = false;
-            // 
-            // websitesCheckBoxes
-            // 
-            this.websitesCheckBoxes.ColumnWidth = 200;
-            this.websitesCheckBoxes.Enabled = false;
-            this.websitesCheckBoxes.FormattingEnabled = true;
-            this.websitesCheckBoxes.Items.AddRange(new object[] {
-            "adredirect.ic",
-            "bang.ic",
-            "bang.ic/email",
-            "blackjack.casino.ic",
-            "casino.ic",
-            "casino.ic/tokens",
-            "cockcockcockcockcock.ic",
-            "cocktracts.ic",
-            "cocktracts.ic/available",
-            "cocktracts.ic/contract",
-            "cocktracts.ic/help",
-            "cocktracts.ic/partner",
-            "cocktracts.ic/partners",
-            "cocktwitch.ic",
-            "cocktwitch.ic/leaderboard",
-            "cocktwitch.ic/stats",
-            "dickcheese.ic",
-            "dickcheese.ic/1",
-            "dickcheese.ic/2",
-            "duck.ic",
-            "fedup.ic",
-            "hotanimebabes.ic",
-            "ladyparts.ic",
-            "losefatquickly.ic",
-            "peepee.ic",
-            "pixelglasses.ic",
-            "slots.casino.ic",
-            "stonks.ic"});
-            this.websitesCheckBoxes.Location = new System.Drawing.Point(6, 19);
-            this.websitesCheckBoxes.MultiColumn = true;
-            this.websitesCheckBoxes.Name = "websitesCheckBoxes";
-            this.websitesCheckBoxes.Size = new System.Drawing.Size(406, 214);
-            this.websitesCheckBoxes.Sorted = true;
-            this.websitesCheckBoxes.TabIndex = 0;
-            this.websitesCheckBoxes.ThreeDCheckBoxes = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.achievementsPanel);
-            this.tabPage5.Controls.Add(this.button1);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(792, 399);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Achievements";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // achievementsPanel
-            // 
-            this.achievementsPanel.Controls.Add(this.groupBox4);
-            this.achievementsPanel.Controls.Add(this.groupBox5);
-            this.achievementsPanel.Location = new System.Drawing.Point(4, 34);
-            this.achievementsPanel.Name = "achievementsPanel";
-            this.achievementsPanel.Size = new System.Drawing.Size(448, 120);
-            this.achievementsPanel.TabIndex = 3;
-            this.achievementsPanel.Visible = false;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.richTextBox12);
-            this.groupBox4.Controls.Add(this.richTextBox6);
-            this.groupBox4.Controls.Add(this.checkedListBox1);
-            this.groupBox4.Location = new System.Drawing.Point(4, 3);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(438, 60);
-            this.groupBox4.TabIndex = 1;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Church Achievements";
-            // 
-            // richTextBox12
-            // 
-            this.richTextBox12.Location = new System.Drawing.Point(181, 34);
-            this.richTextBox12.Multiline = false;
-            this.richTextBox12.Name = "richTextBox12";
-            this.richTextBox12.ReadOnly = true;
-            this.richTextBox12.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox12.TabIndex = 2;
-            this.richTextBox12.Text = "\"I don\'t Know\" Ending";
-            // 
-            // richTextBox6
-            // 
-            this.richTextBox6.Location = new System.Drawing.Point(181, 19);
-            this.richTextBox6.Multiline = false;
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.ReadOnly = true;
-            this.richTextBox6.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox6.TabIndex = 1;
-            this.richTextBox6.Text = "\"Just Go There\" Bad Ending";
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.Enabled = false;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "church-endJustGoThereBad",
-            "church-endIdontknow"});
-            this.checkedListBox1.Location = new System.Drawing.Point(4, 19);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(171, 34);
-            this.checkedListBox1.TabIndex = 0;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.richTextBox11);
-            this.groupBox5.Controls.Add(this.checkedListBox2);
-            this.groupBox5.Location = new System.Drawing.Point(4, 69);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(438, 47);
-            this.groupBox5.TabIndex = 2;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Misc Achievements";
-            // 
-            // richTextBox11
-            // 
-            this.richTextBox11.Location = new System.Drawing.Point(181, 19);
-            this.richTextBox11.Multiline = false;
-            this.richTextBox11.Name = "richTextBox11";
-            this.richTextBox11.ReadOnly = true;
-            this.richTextBox11.Size = new System.Drawing.Size(251, 19);
-            this.richTextBox11.TabIndex = 1;
-            this.richTextBox11.Text = "Cheat Website Visited";
-            // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.Enabled = false;
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
-            "saveEdited"});
-            this.checkedListBox2.Location = new System.Drawing.Point(5, 20);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(170, 19);
-            this.checkedListBox2.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Show Achievements";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.debugTextBox);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(792, 399);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Debug";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // debugTextBox
-            // 
-            this.debugTextBox.Location = new System.Drawing.Point(0, 0);
-            this.debugTextBox.Name = "debugTextBox";
-            this.debugTextBox.ReadOnly = true;
-            this.debugTextBox.Size = new System.Drawing.Size(792, 399);
-            this.debugTextBox.TabIndex = 0;
-            this.debugTextBox.Text = "Load a Save File. The content of the Save File will be displayed here.";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loadToolStripMenuItem,
-            this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
-            // loadToolStripMenuItem
-            // 
-            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
-            this.loadToolStripMenuItem.Text = "Load File";
-            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.checkForUpdatesToolStripMenuItem,
-            this.openReadmeToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.reportABugToolStripMenuItem,
-            this.suggestAFeatureToolStripMenuItem,
-            this.quickLinkToGitHubToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // checkForUpdatesToolStripMenuItem
-            // 
-            this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
-            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
-            this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
-            // 
-            // openReadmeToolStripMenuItem
-            // 
-            this.openReadmeToolStripMenuItem.Name = "openReadmeToolStripMenuItem";
-            this.openReadmeToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.openReadmeToolStripMenuItem.Text = "Open Readme";
-            this.openReadmeToolStripMenuItem.Click += new System.EventHandler(this.openReadmeToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(182, 6);
-            // 
-            // reportABugToolStripMenuItem
-            // 
-            this.reportABugToolStripMenuItem.Name = "reportABugToolStripMenuItem";
-            this.reportABugToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.reportABugToolStripMenuItem.Text = "Report a Bug";
-            this.reportABugToolStripMenuItem.Click += new System.EventHandler(this.reportABugToolStripMenuItem_Click);
-            // 
-            // suggestAFeatureToolStripMenuItem
-            // 
-            this.suggestAFeatureToolStripMenuItem.Name = "suggestAFeatureToolStripMenuItem";
-            this.suggestAFeatureToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.suggestAFeatureToolStripMenuItem.Text = "Suggest a Feature";
-            this.suggestAFeatureToolStripMenuItem.Click += new System.EventHandler(this.suggestAFeatureToolStripMenuItem_Click);
-            // 
-            // quickLinkToGitHubToolStripMenuItem
-            // 
-            this.quickLinkToGitHubToolStripMenuItem.Name = "quickLinkToGitHubToolStripMenuItem";
-            this.quickLinkToGitHubToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.quickLinkToGitHubToolStripMenuItem.Text = "Quick Link to GitHub";
-            this.quickLinkToGitHubToolStripMenuItem.Click += new System.EventHandler(this.quickLinkToGitHubToolStripMenuItem_Click);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            // editInfoButton
+            // 
+            this.editInfoButton.Location = new System.Drawing.Point(95, 19);
+            this.editInfoButton.Name = "editInfoButton";
+            this.editInfoButton.Size = new System.Drawing.Size(86, 22);
+            this.editInfoButton.TabIndex = 19;
+            this.editInfoButton.Text = "Save Edit Info";
+            this.editInfoButton.UseVisualStyleBackColor = true;
+            this.editInfoButton.Click += new System.EventHandler(this.editInfoButton_Click);
             // 
             // Form1
             // 
@@ -1447,19 +1459,6 @@
             this.groupBox28.ResumeLayout(false);
             this.groupBox27.ResumeLayout(false);
             this.groupBox26.ResumeLayout(false);
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox39.ResumeLayout(false);
-            this.groupBox38.ResumeLayout(false);
-            this.groupBox37.ResumeLayout(false);
-            this.groupBox36.ResumeLayout(false);
-            this.groupBox24.ResumeLayout(false);
-            this.groupBox23.ResumeLayout(false);
-            this.groupBox22.ResumeLayout(false);
-            this.groupBox21.ResumeLayout(false);
-            this.groupBox20.ResumeLayout(false);
-            this.groupBox19.ResumeLayout(false);
-            this.groupBox17.ResumeLayout(false);
-            this.groupBox16.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox13.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
@@ -1478,6 +1477,20 @@
             this.tabPage3.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox39.ResumeLayout(false);
+            this.groupBox38.ResumeLayout(false);
+            this.groupBox37.ResumeLayout(false);
+            this.groupBox36.ResumeLayout(false);
+            this.groupBox24.ResumeLayout(false);
+            this.groupBox23.ResumeLayout(false);
+            this.groupBox22.ResumeLayout(false);
+            this.groupBox21.ResumeLayout(false);
+            this.groupBox20.ResumeLayout(false);
+            this.groupBox19.ResumeLayout(false);
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox16.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1494,7 +1507,6 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox botNameBox;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.RichTextBox debugTextBox;
         private System.Windows.Forms.RichTextBox moneyTextBox;
@@ -1537,25 +1549,7 @@
         private System.Windows.Forms.GroupBox groupBox13;
         private System.Windows.Forms.RichTextBox mentalHealthBox;
         private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.GroupBox groupBox17;
-        private System.Windows.Forms.RichTextBox botLustBox;
-        private System.Windows.Forms.GroupBox groupBox16;
         private System.Windows.Forms.RichTextBox saveSlotBox;
-        private System.Windows.Forms.RichTextBox botSympathyBox;
-        private System.Windows.Forms.GroupBox groupBox18;
-        private System.Windows.Forms.GroupBox groupBox20;
-        private System.Windows.Forms.RichTextBox botMoodBox;
-        private System.Windows.Forms.GroupBox groupBox19;
-        private System.Windows.Forms.RichTextBox botLongingBox;
-        private System.Windows.Forms.GroupBox groupBox21;
-        private System.Windows.Forms.RichTextBox botIntBox;
-        private System.Windows.Forms.GroupBox groupBox23;
-        private System.Windows.Forms.RichTextBox cumInAss;
-        private System.Windows.Forms.GroupBox groupBox22;
-        private System.Windows.Forms.RichTextBox cumInPussy;
-        private System.Windows.Forms.GroupBox groupBox24;
-        private System.Windows.Forms.RichTextBox cumInStomach;
         private System.Windows.Forms.GroupBox groupBox25;
         private System.Windows.Forms.GroupBox groupBox26;
         private System.Windows.Forms.RichTextBox gameStageBox;
@@ -1575,14 +1569,6 @@
         private System.Windows.Forms.RichTextBox longestStreamFormattedBox;
         private System.Windows.Forms.GroupBox groupBox35;
         private System.Windows.Forms.RichTextBox longestStreamRawBox;
-        private System.Windows.Forms.GroupBox groupBox38;
-        private System.Windows.Forms.RichTextBox timesCumInsideOral;
-        private System.Windows.Forms.GroupBox groupBox37;
-        private System.Windows.Forms.RichTextBox timesCumInsideAss;
-        private System.Windows.Forms.GroupBox groupBox36;
-        private System.Windows.Forms.RichTextBox timesCumInsideVag;
-        private System.Windows.Forms.GroupBox groupBox39;
-        private System.Windows.Forms.RichTextBox cameOutsideBox;
         private System.Windows.Forms.CheckBox lightswitchCheckbox;
         private System.Windows.Forms.GroupBox groupBox40;
         private System.Windows.Forms.GroupBox groupBox41;
@@ -1595,9 +1581,37 @@
         private System.Windows.Forms.ToolStripMenuItem quickLinkToGitHubToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openReadmeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.Button infoSaveButton;
         private System.Windows.Forms.GroupBox groupBox43;
         private System.Windows.Forms.RichTextBox infoSaveBox;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.GroupBox groupBox15;
+        private System.Windows.Forms.GroupBox groupBox39;
+        private System.Windows.Forms.RichTextBox cameOutsideBox;
+        private System.Windows.Forms.GroupBox groupBox38;
+        private System.Windows.Forms.RichTextBox timesCumInsideOral;
+        private System.Windows.Forms.GroupBox groupBox37;
+        private System.Windows.Forms.RichTextBox timesCumInsideAss;
+        private System.Windows.Forms.GroupBox groupBox36;
+        private System.Windows.Forms.RichTextBox timesCumInsideVag;
+        private System.Windows.Forms.GroupBox groupBox24;
+        private System.Windows.Forms.RichTextBox cumInStomach;
+        private System.Windows.Forms.GroupBox groupBox23;
+        private System.Windows.Forms.RichTextBox cumInAss;
+        private System.Windows.Forms.GroupBox groupBox22;
+        private System.Windows.Forms.RichTextBox cumInPussy;
+        private System.Windows.Forms.GroupBox groupBox21;
+        private System.Windows.Forms.RichTextBox botIntBox;
+        private System.Windows.Forms.GroupBox groupBox20;
+        private System.Windows.Forms.RichTextBox botMoodBox;
+        private System.Windows.Forms.GroupBox groupBox19;
+        private System.Windows.Forms.RichTextBox botLongingBox;
+        private System.Windows.Forms.RichTextBox botSympathyBox;
+        private System.Windows.Forms.GroupBox groupBox18;
+        private System.Windows.Forms.GroupBox groupBox17;
+        private System.Windows.Forms.RichTextBox botLustBox;
+        private System.Windows.Forms.GroupBox groupBox16;
+        private System.Windows.Forms.RichTextBox botNameBox;
+        private System.Windows.Forms.Button editInfoButton;
     }
 }
 
