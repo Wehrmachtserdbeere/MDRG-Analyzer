@@ -3,7 +3,7 @@
 1. Extract the Application from the Archive
 2. Open the Application
 3. Click "File" -> "Load File"
-4. In the "Info" Tab, select your Save Game Slot Number (If you saved in Slot 1, choose "File 1".) You will know it worked when it tells you the Game Version at the Bottom-Right.
+4. In the "Info" Tab, select your Save Game Slot Number (Select a Fiel, its Save Slot will be displayed at the bottom (This is important!).) You will know it worked when it tells you the Game Version at the Bottom-Right.
 5. Done. You may now check through the other tabs to find your game info.
 
 ### Links
