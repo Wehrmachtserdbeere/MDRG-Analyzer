@@ -103,53 +103,52 @@ namespace MDRG_Analyzer
                  */
             }
         }
-
         private void reloadValues()
         {
             // Set the variables
             JObject savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
-            string botName = savedataObject["botName"].ToString();
-            int saveSlot = (int)saveFileJson["saves"][selectedSaveFile]["slot"];
-            string moneyVal = savedataObject["money"].ToString();
-            int casinoTokensVal = (int)savedataObject["casinoTokens"];
-            double maxCumVal = (double)savedataObject["_maxCum"];
-            double currentCumVal = (double)savedataObject["_remainingCum"];
-            string gameVersion = savedataObject["gameVersion"].ToString();
-            string playerName = savedataObject["playerName"].ToString();
-            double health = (double)savedataObject["_health"];
-            int botLust = (int)savedataObject["_lust"];
-            int botSympathy = (int)savedataObject["_sympathy"];
+            JObject achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString()); // Achievements
 
-            // Set up visited websites
+            string botName = savedataObject.Value<string>("botName");
+            string moneyVal = savedataObject.Value<string>("money");
+            string gameVersion = savedataObject.Value<string>("gameVersion");
+            string playerName = savedataObject.Value<string>("playerName");
+
+            int saveSlot = saveFileJson["saves"][selectedSaveFile].Value<int>("slot");
+            int casinoTokensVal = savedataObject.Value<int>("casinoTokens");
+            int botLust = savedataObject.Value<int>("_lust");
+            int botSympathy = savedataObject.Value<int>("_sympathy");
+            int botLonging = savedataObject.Value<int>("_longing");
+            int botInt = savedataObject.Value<int>("inteligence"); // The grammar error is in the base game.
+            int gameStage = savedataObject.Value<int>("stage");
+            int subs = savedataObject.Value<int>("subs");
+            int followers = savedataObject.Value<int>("followers");
+            int totalStreamtime = savedataObject.Value<int>("streamedFor");
+            int streamDonationsVal = savedataObject.Value<int>("moneyEarnedFromDonations");
+            int longestStreamtime = savedataObject.Value<int>("longestStream");
+            int timesCameInsideVal = savedataObject.Value<int>("timesCameInside");
+            int timesCameInsideAnalVal = savedataObject.Value<int>("timesCameInsideAnal");
+            int timesCameInMouthVal = savedataObject.Value<int>("timesCameInMouth");
+            int timesCameOutside = savedataObject.Value<int>("timesCameOutside");
+            int ingameTime = saveFileJson["saves"][selectedSaveFile].Value<int>("ingameTime");
+
+            double maxCumVal = savedataObject.Value<double>("_maxCum");
+            double currentCumVal = savedataObject.Value<double>("_remainingCum");
+            double health = savedataObject.Value<double>("_health");
+            double currentStamina = savedataObject.Value<double>("_stamina");
+            double mentalHealth = savedataObject.Value<double>("_mentalHealth");
+            double botMood = savedataObject.Value<double>("_mood");
+            double cumInPussyVal = savedataObject.Value<double>("_cumInside");
+            double cumInAssVal = savedataObject.Value<double>("_cumInsideAnal");
+            double cumInStomachVal = savedataObject.Value<double>("_cumInsideStomach");
+            
             JArray jsVisitedWebsites = (JArray)saveFileJson["visitedWebsites"];
-            string[] visitedWebsites = jsVisitedWebsites.ToObject<string[]>();
-
-            // Set up achievements
-            JObject achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString());
             JArray jsGottenAchievements = (JArray)achievementsObject["values"];
+            string[] visitedWebsites = jsVisitedWebsites.ToObject<string[]>();
             string[] gottenAchievements = jsGottenAchievements.ToObject<string[]>();
 
             // Continue various variables
-            double currentStamina = (double)savedataObject["_stamina"];
-            double mentalHealth = (double)savedataObject["_mentalHealth"];
-            int botLonging = (int)savedataObject["_longing"];
-            double botMood = (double)savedataObject["_mood"];
-            int botInt = (int)savedataObject["inteligence"]; // The grammar error is in the base game.
-            double cumInPussyVal = (double)savedataObject["_cumInside"];
-            double cumInAssVal = (double)savedataObject["_cumInsideAnal"];
-            double cumInStomachVal = (double)savedataObject["_cumInsideStomach"];
-            int gameStage = (int)savedataObject["stage"];
-            int subs = (int)savedataObject["subs"];
-            int followers = (int)savedataObject["followers"];
-            int totalStreamtime = (int)savedataObject["streamedFor"];
-            int streamDonationsVal = (int)savedataObject["moneyEarnedFromDonations"];
-            int longestStreamtime = (int)savedataObject["longestStream"];
-            int timesCameInsideVal = (int)savedataObject["timesCameInside"];
-            int timesCameInsideAnalVal = (int)savedataObject["timesCameInsideAnal"];
-            int timesCameInMouthVal = (int)savedataObject["timesCameInMouth"];
-            int timesCameOutside = (int)savedataObject["timesCameOutside"];
-            bool lightSwitchOn = (bool)savedataObject["lightSwitchOn"];
-            int ingameTime = (int)saveFileJson["saves"][selectedSaveFile]["ingameTime"];
+            bool lightSwitchOn = savedataObject.Value<bool>("lightSwitchOn");
 
             // Convert raw time into days, hours, and minutes
             int streamDays = totalStreamtime / (24 * 60);
@@ -166,6 +165,7 @@ namespace MDRG_Analyzer
 
             // Change box text to the variables
             saveSlotBox.Text = $"{saveSlot + 1}"; // +1 to represent the in-game save slot number.
+            infoSaveBox.Text = $"{saveSlot + 1}";
             botNameBox.Text = $"{botName}";
             moneyTextBox.Text = $"{moneyVal}$";
             casinoTokenBox.Text = $"{casinoTokensVal}";
@@ -425,6 +425,11 @@ namespace MDRG_Analyzer
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void infoSaveButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Because of game code and my lack of understanding, to select the correct Save Slot, select a File at the top, then check if the File has the correct Save Slot (i.E. You may have selected \"File 1\" but it actually loads \"Save Slot 4\". In the box next to this button, the correct slot will be listed.", "Save Slot Information");
         }
     }
 }
