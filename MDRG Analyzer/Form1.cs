@@ -18,7 +18,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.0.3";
+        string __version__ = "1.0.4";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -29,6 +29,7 @@ namespace MDRG_Analyzer
         {
             InitializeComponent();
             versionBox.Text = $"{__version__}";
+            CheckForUpdate(true);
         }
 
         public static void openWebsite(string x)
@@ -180,6 +181,8 @@ namespace MDRG_Analyzer
 
             // Change box text to the variables
             saveSlotBox.Text = $"{saveSlot + 1}"; // +1 to represent the in-game save slot number.
+            saveSlotBoxBot.Text = $"{saveSlot + 1}";
+            saveSlotBoxGen.Text = $"{saveSlot + 1}";
             infoSaveBox.Text = $"{saveSlot + 1}";
             botNameBox.Text = $"{botName}";
             moneyTextBox.Text = $"{moneyVal}";
@@ -327,67 +330,73 @@ namespace MDRG_Analyzer
             }
         }
 
-        private async void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CheckForUpdate(false);
+        }
+        private async void CheckForUpdate(bool isStartup)
         {
             string owner = "Wehrmachtserdbeere";
             string repo = "MDRG-Analyzer";
             HttpClient thisProgram = new HttpClient();
 
-            try
+            if (!isStartup)
             {
+                try
                 {
-                    thisProgram.DefaultRequestHeaders.Add("User-Agent", "request"); // Required for GitHub API
-
-                    HttpResponseMessage gitResponse = await thisProgram.GetAsync($"https://api.github.com/repos/{owner}/{repo}/releases/latest"); // Get the API URL
-
-                    if (gitResponse.IsSuccessStatusCode)
                     {
-                        string gitResponseBody = await gitResponse.Content.ReadAsStringAsync();
-                        dynamic gitResponseInfo = JsonConvert.DeserializeObject(gitResponseBody);
-                        string gitLatestVersion = gitResponseInfo.tag_name;
+                        thisProgram.DefaultRequestHeaders.Add("User-Agent", "request"); // Required for GitHub API
 
-                        Console.WriteLine(gitLatestVersion);
+                        HttpResponseMessage gitResponse = await thisProgram.GetAsync($"https://api.github.com/repos/{owner}/{repo}/releases/latest"); // Get the API URL
 
-                        if (Version.TryParse(gitLatestVersion.TrimStart('v'), out Version latest) && Version.TryParse(__version__, out Version current))
+                        if (gitResponse.IsSuccessStatusCode)
                         {
-                            Console.WriteLine("Arrived here!");
-                            int comparisonResult = current.CompareTo(latest);
-                            if (comparisonResult < 0)
+                            string gitResponseBody = await gitResponse.Content.ReadAsStringAsync();
+                            dynamic gitResponseInfo = JsonConvert.DeserializeObject(gitResponseBody);
+                            string gitLatestVersion = gitResponseInfo.tag_name;
+
+                            Console.WriteLine(gitLatestVersion);
+
+                            if (Version.TryParse(gitLatestVersion.TrimStart('v'), out Version latest) && Version.TryParse(__version__, out Version current))
                             {
-                                ShowUpdatePopup(false, current, latest);
+                                int comparisonResult = current.CompareTo(latest);
+                                if (comparisonResult < 0)
+                                {
+                                    ShowUpdatePopup(false, current, latest);
+                                }
+                                else
+                                {
+                                    ShowUpdatePopup(true, current, latest);
+                                }
                             }
                             else
                             {
-                                ShowUpdatePopup(true, current, latest);
+                                MessageBox.Show("Could not check for Update:\nInvalid version format.");
                             }
                         }
                         else
                         {
-                            MessageBox.Show("Invalid version format.");
+                            MessageBox.Show($"Could not check for Update:\nError: {gitResponse.StatusCode}");
                         }
                     }
-                    else
+                }
+                catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
+                {
+                    DialogResult result = MessageBox.Show($"Error: {exep.Message}\nPlease try again.", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                    switch (result)
                     {
-                        MessageBox.Show($"Error: {gitResponse.StatusCode}");
+                        case DialogResult.Retry:
+                            CheckForUpdate(false);
+                            break;
+                        case DialogResult.Cancel:
+                            break;
                     }
                 }
-            }
-            catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
-            {
-                DialogResult result = MessageBox.Show($"Error: {exep.Message}\nPlease try again.", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-
-                switch (result)
+                catch (Exception ex)
                 {
-                    case DialogResult.Retry:
-                        checkForUpdatesToolStripMenuItem_Click(sender, e);
-                        break;
-                    case DialogResult.Cancel:
-                        break;
+                    Console.WriteLine(ex);
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
             }
         }
 

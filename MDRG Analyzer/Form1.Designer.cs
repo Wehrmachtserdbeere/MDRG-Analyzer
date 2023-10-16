@@ -32,6 +32,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox43 = new System.Windows.Forms.GroupBox();
+            this.editInfoButton = new System.Windows.Forms.Button();
             this.infoSaveBox = new System.Windows.Forms.RichTextBox();
             this.saveFilesChoosingBox = new System.Windows.Forms.GroupBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -59,34 +60,6 @@
             this.moneyTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.playerNameBox = new System.Windows.Forms.RichTextBox();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
-            this.visitedWebsiteGroupBox = new System.Windows.Forms.GroupBox();
-            this.websitesCheckBoxes = new System.Windows.Forms.CheckedListBox();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.achievementsPanel = new System.Windows.Forms.Panel();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.richTextBox12 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.debugTextBox = new System.Windows.Forms.RichTextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkForUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openReadmeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.reportABugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
             this.groupBox39 = new System.Windows.Forms.GroupBox();
@@ -115,9 +88,29 @@
             this.botLustBox = new System.Windows.Forms.RichTextBox();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
             this.botNameBox = new System.Windows.Forms.RichTextBox();
-            this.editInfoButton = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
+            this.groupBox53 = new System.Windows.Forms.GroupBox();
+            this.groupBox56 = new System.Windows.Forms.GroupBox();
+            this.timesLostWordChainBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox57 = new System.Windows.Forms.GroupBox();
+            this.timesWonWordChainBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox52 = new System.Windows.Forms.GroupBox();
+            this.groupBox54 = new System.Windows.Forms.GroupBox();
+            this.timesLostChessBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox55 = new System.Windows.Forms.GroupBox();
+            this.timesWonChessBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox48 = new System.Windows.Forms.GroupBox();
+            this.groupBox51 = new System.Windows.Forms.GroupBox();
+            this.timesRanAwayOldMaidBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox49 = new System.Windows.Forms.GroupBox();
+            this.timesLostOldMaidBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox50 = new System.Windows.Forms.GroupBox();
+            this.timesWonOldMaidBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox47 = new System.Windows.Forms.GroupBox();
+            this.streamCountBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox46 = new System.Windows.Forms.GroupBox();
+            this.statusTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox40 = new System.Windows.Forms.GroupBox();
             this.groupBox41 = new System.Windows.Forms.GroupBox();
             this.gameTimeFormatted = new System.Windows.Forms.RichTextBox();
@@ -144,31 +137,38 @@
             this.followersTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox26 = new System.Windows.Forms.GroupBox();
             this.gameStageBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox44 = new System.Windows.Forms.GroupBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
+            this.visitedWebsiteGroupBox = new System.Windows.Forms.GroupBox();
+            this.websitesCheckBoxes = new System.Windows.Forms.CheckedListBox();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.achievementsPanel = new System.Windows.Forms.Panel();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.richTextBox12 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
+            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.debugTextBox = new System.Windows.Forms.RichTextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkForUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openReadmeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.reportABugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveSlotBoxGen = new System.Windows.Forms.RichTextBox();
             this.groupBox45 = new System.Windows.Forms.GroupBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.groupBox46 = new System.Windows.Forms.GroupBox();
-            this.statusTextBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox47 = new System.Windows.Forms.GroupBox();
-            this.streamCountBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox48 = new System.Windows.Forms.GroupBox();
-            this.groupBox49 = new System.Windows.Forms.GroupBox();
-            this.timesLostOldMaidBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox50 = new System.Windows.Forms.GroupBox();
-            this.timesWonOldMaidBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox51 = new System.Windows.Forms.GroupBox();
-            this.timesRanAwayOldMaidBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox52 = new System.Windows.Forms.GroupBox();
-            this.groupBox54 = new System.Windows.Forms.GroupBox();
-            this.timesLostChessBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox55 = new System.Windows.Forms.GroupBox();
-            this.timesWonChessBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox53 = new System.Windows.Forms.GroupBox();
-            this.groupBox56 = new System.Windows.Forms.GroupBox();
-            this.timesLostWordChainBox = new System.Windows.Forms.RichTextBox();
-            this.groupBox57 = new System.Windows.Forms.GroupBox();
-            this.timesWonWordChainBox = new System.Windows.Forms.RichTextBox();
+            this.saveSlotBoxBot = new System.Windows.Forms.RichTextBox();
+            this.groupBox44 = new System.Windows.Forms.GroupBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox43.SuspendLayout();
@@ -186,14 +186,6 @@
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.visitedWebsiteGroupBox.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.achievementsPanel.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox15.SuspendLayout();
             this.groupBox39.SuspendLayout();
@@ -210,6 +202,18 @@
             this.groupBox16.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.groupBox25.SuspendLayout();
+            this.groupBox53.SuspendLayout();
+            this.groupBox56.SuspendLayout();
+            this.groupBox57.SuspendLayout();
+            this.groupBox52.SuspendLayout();
+            this.groupBox54.SuspendLayout();
+            this.groupBox55.SuspendLayout();
+            this.groupBox48.SuspendLayout();
+            this.groupBox51.SuspendLayout();
+            this.groupBox49.SuspendLayout();
+            this.groupBox50.SuspendLayout();
+            this.groupBox47.SuspendLayout();
+            this.groupBox46.SuspendLayout();
             this.groupBox40.SuspendLayout();
             this.groupBox41.SuspendLayout();
             this.groupBox42.SuspendLayout();
@@ -224,20 +228,16 @@
             this.groupBox28.SuspendLayout();
             this.groupBox27.SuspendLayout();
             this.groupBox26.SuspendLayout();
-            this.groupBox44.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.visitedWebsiteGroupBox.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.achievementsPanel.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.groupBox45.SuspendLayout();
-            this.groupBox46.SuspendLayout();
-            this.groupBox47.SuspendLayout();
-            this.groupBox48.SuspendLayout();
-            this.groupBox49.SuspendLayout();
-            this.groupBox50.SuspendLayout();
-            this.groupBox51.SuspendLayout();
-            this.groupBox52.SuspendLayout();
-            this.groupBox54.SuspendLayout();
-            this.groupBox55.SuspendLayout();
-            this.groupBox53.SuspendLayout();
-            this.groupBox56.SuspendLayout();
-            this.groupBox57.SuspendLayout();
+            this.groupBox44.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -281,6 +281,16 @@
             this.groupBox43.TabIndex = 14;
             this.groupBox43.TabStop = false;
             this.groupBox43.Text = "Save Slot";
+            // 
+            // editInfoButton
+            // 
+            this.editInfoButton.Location = new System.Drawing.Point(95, 19);
+            this.editInfoButton.Name = "editInfoButton";
+            this.editInfoButton.Size = new System.Drawing.Size(86, 22);
+            this.editInfoButton.TabIndex = 19;
+            this.editInfoButton.Text = "Save Edit Info";
+            this.editInfoButton.UseVisualStyleBackColor = true;
+            this.editInfoButton.Click += new System.EventHandler(this.editInfoButton_Click);
             // 
             // infoSaveBox
             // 
@@ -352,9 +362,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MDRG_Analyzer.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 328);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 328);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(136, 68);
+            this.pictureBox1.Size = new System.Drawing.Size(136, 65);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -567,298 +577,6 @@
             this.playerNameBox.Size = new System.Drawing.Size(99, 19);
             this.playerNameBox.TabIndex = 13;
             this.playerNameBox.Text = "";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.button2);
-            this.tabPage4.Controls.Add(this.visitedWebsiteGroupBox);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(792, 399);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Websites";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Show Websites";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // visitedWebsiteGroupBox
-            // 
-            this.visitedWebsiteGroupBox.Controls.Add(this.websitesCheckBoxes);
-            this.visitedWebsiteGroupBox.Location = new System.Drawing.Point(3, 33);
-            this.visitedWebsiteGroupBox.Name = "visitedWebsiteGroupBox";
-            this.visitedWebsiteGroupBox.Size = new System.Drawing.Size(418, 241);
-            this.visitedWebsiteGroupBox.TabIndex = 1;
-            this.visitedWebsiteGroupBox.TabStop = false;
-            this.visitedWebsiteGroupBox.Text = "Visited Websites";
-            this.visitedWebsiteGroupBox.Visible = false;
-            // 
-            // websitesCheckBoxes
-            // 
-            this.websitesCheckBoxes.ColumnWidth = 200;
-            this.websitesCheckBoxes.Enabled = false;
-            this.websitesCheckBoxes.FormattingEnabled = true;
-            this.websitesCheckBoxes.Items.AddRange(new object[] {
-            "adredirect.ic",
-            "bang.ic",
-            "bang.ic/email",
-            "blackjack.casino.ic",
-            "casino.ic",
-            "casino.ic/tokens",
-            "cockcockcockcockcock.ic",
-            "cocktracts.ic",
-            "cocktracts.ic/available",
-            "cocktracts.ic/contract",
-            "cocktracts.ic/help",
-            "cocktracts.ic/partner",
-            "cocktracts.ic/partners",
-            "cocktwitch.ic",
-            "cocktwitch.ic/leaderboard",
-            "cocktwitch.ic/stats",
-            "dickcheese.ic",
-            "dickcheese.ic/1",
-            "dickcheese.ic/2",
-            "duck.ic",
-            "fedup.ic",
-            "hotanimebabes.ic",
-            "ladyparts.ic",
-            "losefatquickly.ic",
-            "peepee.ic",
-            "pixelglasses.ic",
-            "slots.casino.ic",
-            "stonks.ic"});
-            this.websitesCheckBoxes.Location = new System.Drawing.Point(6, 19);
-            this.websitesCheckBoxes.MultiColumn = true;
-            this.websitesCheckBoxes.Name = "websitesCheckBoxes";
-            this.websitesCheckBoxes.Size = new System.Drawing.Size(406, 214);
-            this.websitesCheckBoxes.Sorted = true;
-            this.websitesCheckBoxes.TabIndex = 0;
-            this.websitesCheckBoxes.ThreeDCheckBoxes = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.achievementsPanel);
-            this.tabPage5.Controls.Add(this.button1);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(792, 399);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Achievements";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // achievementsPanel
-            // 
-            this.achievementsPanel.Controls.Add(this.groupBox4);
-            this.achievementsPanel.Controls.Add(this.groupBox5);
-            this.achievementsPanel.Location = new System.Drawing.Point(4, 34);
-            this.achievementsPanel.Name = "achievementsPanel";
-            this.achievementsPanel.Size = new System.Drawing.Size(448, 120);
-            this.achievementsPanel.TabIndex = 3;
-            this.achievementsPanel.Visible = false;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.richTextBox12);
-            this.groupBox4.Controls.Add(this.richTextBox6);
-            this.groupBox4.Controls.Add(this.checkedListBox1);
-            this.groupBox4.Location = new System.Drawing.Point(4, 3);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(438, 60);
-            this.groupBox4.TabIndex = 1;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Church Achievements";
-            // 
-            // richTextBox12
-            // 
-            this.richTextBox12.Location = new System.Drawing.Point(181, 34);
-            this.richTextBox12.Multiline = false;
-            this.richTextBox12.Name = "richTextBox12";
-            this.richTextBox12.ReadOnly = true;
-            this.richTextBox12.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox12.TabIndex = 2;
-            this.richTextBox12.Text = "\"I don\'t Know\" Ending";
-            // 
-            // richTextBox6
-            // 
-            this.richTextBox6.Location = new System.Drawing.Point(181, 19);
-            this.richTextBox6.Multiline = false;
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.ReadOnly = true;
-            this.richTextBox6.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox6.TabIndex = 1;
-            this.richTextBox6.Text = "\"Just Go There\" Bad Ending";
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.Enabled = false;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "church-endJustGoThereBad",
-            "church-endIdontknow"});
-            this.checkedListBox1.Location = new System.Drawing.Point(4, 19);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(171, 34);
-            this.checkedListBox1.TabIndex = 0;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.richTextBox11);
-            this.groupBox5.Controls.Add(this.checkedListBox2);
-            this.groupBox5.Location = new System.Drawing.Point(4, 69);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(438, 47);
-            this.groupBox5.TabIndex = 2;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Misc Achievements";
-            // 
-            // richTextBox11
-            // 
-            this.richTextBox11.Location = new System.Drawing.Point(181, 19);
-            this.richTextBox11.Multiline = false;
-            this.richTextBox11.Name = "richTextBox11";
-            this.richTextBox11.ReadOnly = true;
-            this.richTextBox11.Size = new System.Drawing.Size(251, 19);
-            this.richTextBox11.TabIndex = 1;
-            this.richTextBox11.Text = "Cheat Website Visited";
-            // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.Enabled = false;
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
-            "saveEdited"});
-            this.checkedListBox2.Location = new System.Drawing.Point(5, 20);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(170, 19);
-            this.checkedListBox2.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Show Achievements";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.debugTextBox);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(792, 399);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Debug";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // debugTextBox
-            // 
-            this.debugTextBox.Location = new System.Drawing.Point(0, 0);
-            this.debugTextBox.Name = "debugTextBox";
-            this.debugTextBox.ReadOnly = true;
-            this.debugTextBox.Size = new System.Drawing.Size(792, 399);
-            this.debugTextBox.TabIndex = 0;
-            this.debugTextBox.Text = "Load a Save File. The content of the Save File will be displayed here.";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loadToolStripMenuItem,
-            this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
-            // loadToolStripMenuItem
-            // 
-            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.loadToolStripMenuItem.Text = "Load File";
-            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.checkForUpdatesToolStripMenuItem,
-            this.openReadmeToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.reportABugToolStripMenuItem,
-            this.suggestAFeatureToolStripMenuItem,
-            this.quickLinkToGitHubToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // checkForUpdatesToolStripMenuItem
-            // 
-            this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
-            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
-            this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
-            // 
-            // openReadmeToolStripMenuItem
-            // 
-            this.openReadmeToolStripMenuItem.Name = "openReadmeToolStripMenuItem";
-            this.openReadmeToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.openReadmeToolStripMenuItem.Text = "Open Readme";
-            this.openReadmeToolStripMenuItem.Click += new System.EventHandler(this.openReadmeToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(182, 6);
-            // 
-            // reportABugToolStripMenuItem
-            // 
-            this.reportABugToolStripMenuItem.Name = "reportABugToolStripMenuItem";
-            this.reportABugToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.reportABugToolStripMenuItem.Text = "Report a Bug";
-            this.reportABugToolStripMenuItem.Click += new System.EventHandler(this.reportABugToolStripMenuItem_Click);
-            // 
-            // suggestAFeatureToolStripMenuItem
-            // 
-            this.suggestAFeatureToolStripMenuItem.Name = "suggestAFeatureToolStripMenuItem";
-            this.suggestAFeatureToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.suggestAFeatureToolStripMenuItem.Text = "Suggest a Feature";
-            this.suggestAFeatureToolStripMenuItem.Click += new System.EventHandler(this.suggestAFeatureToolStripMenuItem_Click);
-            // 
-            // quickLinkToGitHubToolStripMenuItem
-            // 
-            this.quickLinkToGitHubToolStripMenuItem.Name = "quickLinkToGitHubToolStripMenuItem";
-            this.quickLinkToGitHubToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.quickLinkToGitHubToolStripMenuItem.Text = "Quick Link to GitHub";
-            this.quickLinkToGitHubToolStripMenuItem.Click += new System.EventHandler(this.quickLinkToGitHubToolStripMenuItem_Click);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // tabPage6
             // 
@@ -1168,16 +886,6 @@
             this.botNameBox.TabIndex = 0;
             this.botNameBox.Text = "";
             // 
-            // editInfoButton
-            // 
-            this.editInfoButton.Location = new System.Drawing.Point(95, 19);
-            this.editInfoButton.Name = "editInfoButton";
-            this.editInfoButton.Size = new System.Drawing.Size(86, 22);
-            this.editInfoButton.TabIndex = 19;
-            this.editInfoButton.Text = "Save Edit Info";
-            this.editInfoButton.UseVisualStyleBackColor = true;
-            this.editInfoButton.Click += new System.EventHandler(this.editInfoButton_Click);
-            // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.groupBox25);
@@ -1210,6 +918,227 @@
             this.groupBox25.TabIndex = 16;
             this.groupBox25.TabStop = false;
             this.groupBox25.Text = "Misc Values";
+            // 
+            // groupBox53
+            // 
+            this.groupBox53.Controls.Add(this.groupBox56);
+            this.groupBox53.Controls.Add(this.groupBox57);
+            this.groupBox53.Location = new System.Drawing.Point(252, 120);
+            this.groupBox53.Name = "groupBox53";
+            this.groupBox53.Size = new System.Drawing.Size(240, 69);
+            this.groupBox53.TabIndex = 28;
+            this.groupBox53.TabStop = false;
+            this.groupBox53.Text = "Word Chain";
+            // 
+            // groupBox56
+            // 
+            this.groupBox56.Controls.Add(this.timesLostWordChainBox);
+            this.groupBox56.Location = new System.Drawing.Point(123, 19);
+            this.groupBox56.Name = "groupBox56";
+            this.groupBox56.Size = new System.Drawing.Size(111, 44);
+            this.groupBox56.TabIndex = 25;
+            this.groupBox56.TabStop = false;
+            this.groupBox56.Text = "Times Lost";
+            // 
+            // timesLostWordChainBox
+            // 
+            this.timesLostWordChainBox.Location = new System.Drawing.Point(6, 19);
+            this.timesLostWordChainBox.Multiline = false;
+            this.timesLostWordChainBox.Name = "timesLostWordChainBox";
+            this.timesLostWordChainBox.ReadOnly = true;
+            this.timesLostWordChainBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesLostWordChainBox.Size = new System.Drawing.Size(99, 19);
+            this.timesLostWordChainBox.TabIndex = 21;
+            this.timesLostWordChainBox.Text = "";
+            // 
+            // groupBox57
+            // 
+            this.groupBox57.Controls.Add(this.timesWonWordChainBox);
+            this.groupBox57.Location = new System.Drawing.Point(6, 19);
+            this.groupBox57.Name = "groupBox57";
+            this.groupBox57.Size = new System.Drawing.Size(111, 44);
+            this.groupBox57.TabIndex = 23;
+            this.groupBox57.TabStop = false;
+            this.groupBox57.Text = "Times Won";
+            // 
+            // timesWonWordChainBox
+            // 
+            this.timesWonWordChainBox.Location = new System.Drawing.Point(6, 19);
+            this.timesWonWordChainBox.Multiline = false;
+            this.timesWonWordChainBox.Name = "timesWonWordChainBox";
+            this.timesWonWordChainBox.ReadOnly = true;
+            this.timesWonWordChainBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesWonWordChainBox.Size = new System.Drawing.Size(99, 19);
+            this.timesWonWordChainBox.TabIndex = 21;
+            this.timesWonWordChainBox.Text = "";
+            // 
+            // groupBox52
+            // 
+            this.groupBox52.Controls.Add(this.groupBox54);
+            this.groupBox52.Controls.Add(this.groupBox55);
+            this.groupBox52.Location = new System.Drawing.Point(252, 195);
+            this.groupBox52.Name = "groupBox52";
+            this.groupBox52.Size = new System.Drawing.Size(240, 69);
+            this.groupBox52.TabIndex = 27;
+            this.groupBox52.TabStop = false;
+            this.groupBox52.Text = "Chess";
+            // 
+            // groupBox54
+            // 
+            this.groupBox54.Controls.Add(this.timesLostChessBox);
+            this.groupBox54.Location = new System.Drawing.Point(123, 19);
+            this.groupBox54.Name = "groupBox54";
+            this.groupBox54.Size = new System.Drawing.Size(111, 44);
+            this.groupBox54.TabIndex = 25;
+            this.groupBox54.TabStop = false;
+            this.groupBox54.Text = "Times Lost";
+            // 
+            // timesLostChessBox
+            // 
+            this.timesLostChessBox.Location = new System.Drawing.Point(6, 19);
+            this.timesLostChessBox.Multiline = false;
+            this.timesLostChessBox.Name = "timesLostChessBox";
+            this.timesLostChessBox.ReadOnly = true;
+            this.timesLostChessBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesLostChessBox.Size = new System.Drawing.Size(99, 19);
+            this.timesLostChessBox.TabIndex = 21;
+            this.timesLostChessBox.Text = "";
+            // 
+            // groupBox55
+            // 
+            this.groupBox55.Controls.Add(this.timesWonChessBox);
+            this.groupBox55.Location = new System.Drawing.Point(6, 19);
+            this.groupBox55.Name = "groupBox55";
+            this.groupBox55.Size = new System.Drawing.Size(111, 44);
+            this.groupBox55.TabIndex = 23;
+            this.groupBox55.TabStop = false;
+            this.groupBox55.Text = "Times Won";
+            // 
+            // timesWonChessBox
+            // 
+            this.timesWonChessBox.Location = new System.Drawing.Point(6, 19);
+            this.timesWonChessBox.Multiline = false;
+            this.timesWonChessBox.Name = "timesWonChessBox";
+            this.timesWonChessBox.ReadOnly = true;
+            this.timesWonChessBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesWonChessBox.Size = new System.Drawing.Size(99, 19);
+            this.timesWonChessBox.TabIndex = 21;
+            this.timesWonChessBox.Text = "";
+            // 
+            // groupBox48
+            // 
+            this.groupBox48.Controls.Add(this.groupBox51);
+            this.groupBox48.Controls.Add(this.groupBox49);
+            this.groupBox48.Controls.Add(this.groupBox50);
+            this.groupBox48.Location = new System.Drawing.Point(252, 270);
+            this.groupBox48.Name = "groupBox48";
+            this.groupBox48.Size = new System.Drawing.Size(357, 69);
+            this.groupBox48.TabIndex = 26;
+            this.groupBox48.TabStop = false;
+            this.groupBox48.Text = "Old Maid";
+            // 
+            // groupBox51
+            // 
+            this.groupBox51.Controls.Add(this.timesRanAwayOldMaidBox);
+            this.groupBox51.Location = new System.Drawing.Point(240, 19);
+            this.groupBox51.Name = "groupBox51";
+            this.groupBox51.Size = new System.Drawing.Size(111, 44);
+            this.groupBox51.TabIndex = 26;
+            this.groupBox51.TabStop = false;
+            this.groupBox51.Text = "Times Ran Away";
+            // 
+            // timesRanAwayOldMaidBox
+            // 
+            this.timesRanAwayOldMaidBox.Location = new System.Drawing.Point(6, 19);
+            this.timesRanAwayOldMaidBox.Multiline = false;
+            this.timesRanAwayOldMaidBox.Name = "timesRanAwayOldMaidBox";
+            this.timesRanAwayOldMaidBox.ReadOnly = true;
+            this.timesRanAwayOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesRanAwayOldMaidBox.Size = new System.Drawing.Size(99, 19);
+            this.timesRanAwayOldMaidBox.TabIndex = 21;
+            this.timesRanAwayOldMaidBox.Text = "";
+            // 
+            // groupBox49
+            // 
+            this.groupBox49.Controls.Add(this.timesLostOldMaidBox);
+            this.groupBox49.Location = new System.Drawing.Point(123, 19);
+            this.groupBox49.Name = "groupBox49";
+            this.groupBox49.Size = new System.Drawing.Size(111, 44);
+            this.groupBox49.TabIndex = 25;
+            this.groupBox49.TabStop = false;
+            this.groupBox49.Text = "Times Lost";
+            // 
+            // timesLostOldMaidBox
+            // 
+            this.timesLostOldMaidBox.Location = new System.Drawing.Point(6, 19);
+            this.timesLostOldMaidBox.Multiline = false;
+            this.timesLostOldMaidBox.Name = "timesLostOldMaidBox";
+            this.timesLostOldMaidBox.ReadOnly = true;
+            this.timesLostOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesLostOldMaidBox.Size = new System.Drawing.Size(99, 19);
+            this.timesLostOldMaidBox.TabIndex = 21;
+            this.timesLostOldMaidBox.Text = "";
+            // 
+            // groupBox50
+            // 
+            this.groupBox50.Controls.Add(this.timesWonOldMaidBox);
+            this.groupBox50.Location = new System.Drawing.Point(6, 19);
+            this.groupBox50.Name = "groupBox50";
+            this.groupBox50.Size = new System.Drawing.Size(111, 44);
+            this.groupBox50.TabIndex = 23;
+            this.groupBox50.TabStop = false;
+            this.groupBox50.Text = "Times Won";
+            // 
+            // timesWonOldMaidBox
+            // 
+            this.timesWonOldMaidBox.Location = new System.Drawing.Point(6, 19);
+            this.timesWonOldMaidBox.Multiline = false;
+            this.timesWonOldMaidBox.Name = "timesWonOldMaidBox";
+            this.timesWonOldMaidBox.ReadOnly = true;
+            this.timesWonOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.timesWonOldMaidBox.Size = new System.Drawing.Size(99, 19);
+            this.timesWonOldMaidBox.TabIndex = 21;
+            this.timesWonOldMaidBox.Text = "";
+            // 
+            // groupBox47
+            // 
+            this.groupBox47.Controls.Add(this.streamCountBox);
+            this.groupBox47.Location = new System.Drawing.Point(240, 70);
+            this.groupBox47.Name = "groupBox47";
+            this.groupBox47.Size = new System.Drawing.Size(111, 44);
+            this.groupBox47.TabIndex = 31;
+            this.groupBox47.TabStop = false;
+            this.groupBox47.Text = "Amount Streams";
+            // 
+            // streamCountBox
+            // 
+            this.streamCountBox.Location = new System.Drawing.Point(6, 19);
+            this.streamCountBox.Multiline = false;
+            this.streamCountBox.Name = "streamCountBox";
+            this.streamCountBox.ReadOnly = true;
+            this.streamCountBox.Size = new System.Drawing.Size(99, 19);
+            this.streamCountBox.TabIndex = 30;
+            this.streamCountBox.Text = "";
+            // 
+            // groupBox46
+            // 
+            this.groupBox46.Controls.Add(this.statusTextBox);
+            this.groupBox46.Location = new System.Drawing.Point(240, 20);
+            this.groupBox46.Name = "groupBox46";
+            this.groupBox46.Size = new System.Drawing.Size(111, 44);
+            this.groupBox46.TabIndex = 29;
+            this.groupBox46.TabStop = false;
+            this.groupBox46.Text = "Rent in";
+            // 
+            // statusTextBox
+            // 
+            this.statusTextBox.Location = new System.Drawing.Point(6, 19);
+            this.statusTextBox.Multiline = false;
+            this.statusTextBox.Name = "statusTextBox";
+            this.statusTextBox.ReadOnly = true;
+            this.statusTextBox.Size = new System.Drawing.Size(99, 19);
+            this.statusTextBox.TabIndex = 30;
+            this.statusTextBox.Text = "";
             // 
             // groupBox40
             // 
@@ -1485,29 +1414,311 @@
             this.gameStageBox.TabIndex = 20;
             this.gameStageBox.Text = "";
             // 
-            // groupBox44
+            // tabPage4
             // 
-            this.groupBox44.Controls.Add(this.richTextBox2);
-            this.groupBox44.Location = new System.Drawing.Point(719, 349);
-            this.groupBox44.Name = "groupBox44";
-            this.groupBox44.Size = new System.Drawing.Size(67, 44);
-            this.groupBox44.TabIndex = 27;
-            this.groupBox44.TabStop = false;
-            this.groupBox44.Text = "Save Slot";
+            this.tabPage4.Controls.Add(this.button2);
+            this.tabPage4.Controls.Add(this.visitedWebsiteGroupBox);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(792, 379);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Websites";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // richTextBox2
+            // button2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(6, 19);
-            this.richTextBox2.Multiline = false;
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(55, 19);
-            this.richTextBox2.TabIndex = 2;
-            this.richTextBox2.Text = "No File";
+            this.button2.Location = new System.Drawing.Point(4, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(113, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Show Websites";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // visitedWebsiteGroupBox
+            // 
+            this.visitedWebsiteGroupBox.Controls.Add(this.websitesCheckBoxes);
+            this.visitedWebsiteGroupBox.Location = new System.Drawing.Point(3, 33);
+            this.visitedWebsiteGroupBox.Name = "visitedWebsiteGroupBox";
+            this.visitedWebsiteGroupBox.Size = new System.Drawing.Size(418, 241);
+            this.visitedWebsiteGroupBox.TabIndex = 1;
+            this.visitedWebsiteGroupBox.TabStop = false;
+            this.visitedWebsiteGroupBox.Text = "Visited Websites";
+            this.visitedWebsiteGroupBox.Visible = false;
+            // 
+            // websitesCheckBoxes
+            // 
+            this.websitesCheckBoxes.ColumnWidth = 200;
+            this.websitesCheckBoxes.Enabled = false;
+            this.websitesCheckBoxes.FormattingEnabled = true;
+            this.websitesCheckBoxes.Items.AddRange(new object[] {
+            "adredirect.ic",
+            "bang.ic",
+            "bang.ic/email",
+            "blackjack.casino.ic",
+            "casino.ic",
+            "casino.ic/tokens",
+            "cockcockcockcockcock.ic",
+            "cocktracts.ic",
+            "cocktracts.ic/available",
+            "cocktracts.ic/contract",
+            "cocktracts.ic/help",
+            "cocktracts.ic/partner",
+            "cocktracts.ic/partners",
+            "cocktwitch.ic",
+            "cocktwitch.ic/leaderboard",
+            "cocktwitch.ic/stats",
+            "dickcheese.ic",
+            "dickcheese.ic/1",
+            "dickcheese.ic/2",
+            "duck.ic",
+            "fedup.ic",
+            "hotanimebabes.ic",
+            "ladyparts.ic",
+            "losefatquickly.ic",
+            "peepee.ic",
+            "pixelglasses.ic",
+            "slots.casino.ic",
+            "stonks.ic"});
+            this.websitesCheckBoxes.Location = new System.Drawing.Point(6, 19);
+            this.websitesCheckBoxes.MultiColumn = true;
+            this.websitesCheckBoxes.Name = "websitesCheckBoxes";
+            this.websitesCheckBoxes.Size = new System.Drawing.Size(406, 214);
+            this.websitesCheckBoxes.Sorted = true;
+            this.websitesCheckBoxes.TabIndex = 0;
+            this.websitesCheckBoxes.ThreeDCheckBoxes = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.achievementsPanel);
+            this.tabPage5.Controls.Add(this.button1);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(792, 379);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Achievements";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // achievementsPanel
+            // 
+            this.achievementsPanel.Controls.Add(this.groupBox4);
+            this.achievementsPanel.Controls.Add(this.groupBox5);
+            this.achievementsPanel.Location = new System.Drawing.Point(4, 34);
+            this.achievementsPanel.Name = "achievementsPanel";
+            this.achievementsPanel.Size = new System.Drawing.Size(448, 120);
+            this.achievementsPanel.TabIndex = 3;
+            this.achievementsPanel.Visible = false;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.richTextBox12);
+            this.groupBox4.Controls.Add(this.richTextBox6);
+            this.groupBox4.Controls.Add(this.checkedListBox1);
+            this.groupBox4.Location = new System.Drawing.Point(4, 3);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(438, 60);
+            this.groupBox4.TabIndex = 1;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Church Achievements";
+            // 
+            // richTextBox12
+            // 
+            this.richTextBox12.Location = new System.Drawing.Point(181, 34);
+            this.richTextBox12.Multiline = false;
+            this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.ReadOnly = true;
+            this.richTextBox12.Size = new System.Drawing.Size(251, 20);
+            this.richTextBox12.TabIndex = 2;
+            this.richTextBox12.Text = "\"I don\'t Know\" Ending";
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.Location = new System.Drawing.Point(181, 19);
+            this.richTextBox6.Multiline = false;
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
+            this.richTextBox6.Size = new System.Drawing.Size(251, 20);
+            this.richTextBox6.TabIndex = 1;
+            this.richTextBox6.Text = "\"Just Go There\" Bad Ending";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.Enabled = false;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "church-endJustGoThereBad",
+            "church-endIdontknow"});
+            this.checkedListBox1.Location = new System.Drawing.Point(4, 19);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(171, 34);
+            this.checkedListBox1.TabIndex = 0;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.richTextBox11);
+            this.groupBox5.Controls.Add(this.checkedListBox2);
+            this.groupBox5.Location = new System.Drawing.Point(4, 69);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(438, 47);
+            this.groupBox5.TabIndex = 2;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Misc Achievements";
+            // 
+            // richTextBox11
+            // 
+            this.richTextBox11.Location = new System.Drawing.Point(181, 19);
+            this.richTextBox11.Multiline = false;
+            this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.ReadOnly = true;
+            this.richTextBox11.Size = new System.Drawing.Size(251, 19);
+            this.richTextBox11.TabIndex = 1;
+            this.richTextBox11.Text = "Cheat Website Visited";
+            // 
+            // checkedListBox2
+            // 
+            this.checkedListBox2.Enabled = false;
+            this.checkedListBox2.FormattingEnabled = true;
+            this.checkedListBox2.Items.AddRange(new object[] {
+            "saveEdited"});
+            this.checkedListBox2.Location = new System.Drawing.Point(5, 20);
+            this.checkedListBox2.Name = "checkedListBox2";
+            this.checkedListBox2.Size = new System.Drawing.Size(170, 19);
+            this.checkedListBox2.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(4, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(113, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Show Achievements";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.debugTextBox);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(792, 379);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Debug";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // debugTextBox
+            // 
+            this.debugTextBox.Location = new System.Drawing.Point(0, 0);
+            this.debugTextBox.Name = "debugTextBox";
+            this.debugTextBox.ReadOnly = true;
+            this.debugTextBox.Size = new System.Drawing.Size(792, 399);
+            this.debugTextBox.TabIndex = 0;
+            this.debugTextBox.Text = "Load a Save File. The content of the Save File will be displayed here.";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loadToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // loadToolStripMenuItem
+            // 
+            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.loadToolStripMenuItem.Text = "Load File";
+            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkForUpdatesToolStripMenuItem,
+            this.openReadmeToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.reportABugToolStripMenuItem,
+            this.suggestAFeatureToolStripMenuItem,
+            this.quickLinkToGitHubToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // checkForUpdatesToolStripMenuItem
+            // 
+            this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
+            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
+            this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
+            // 
+            // openReadmeToolStripMenuItem
+            // 
+            this.openReadmeToolStripMenuItem.Name = "openReadmeToolStripMenuItem";
+            this.openReadmeToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.openReadmeToolStripMenuItem.Text = "Open Readme";
+            this.openReadmeToolStripMenuItem.Click += new System.EventHandler(this.openReadmeToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(182, 6);
+            // 
+            // reportABugToolStripMenuItem
+            // 
+            this.reportABugToolStripMenuItem.Name = "reportABugToolStripMenuItem";
+            this.reportABugToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.reportABugToolStripMenuItem.Text = "Report a Bug";
+            this.reportABugToolStripMenuItem.Click += new System.EventHandler(this.reportABugToolStripMenuItem_Click);
+            // 
+            // suggestAFeatureToolStripMenuItem
+            // 
+            this.suggestAFeatureToolStripMenuItem.Name = "suggestAFeatureToolStripMenuItem";
+            this.suggestAFeatureToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.suggestAFeatureToolStripMenuItem.Text = "Suggest a Feature";
+            this.suggestAFeatureToolStripMenuItem.Click += new System.EventHandler(this.suggestAFeatureToolStripMenuItem_Click);
+            // 
+            // quickLinkToGitHubToolStripMenuItem
+            // 
+            this.quickLinkToGitHubToolStripMenuItem.Name = "quickLinkToGitHubToolStripMenuItem";
+            this.quickLinkToGitHubToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.quickLinkToGitHubToolStripMenuItem.Text = "Quick Link to GitHub";
+            this.quickLinkToGitHubToolStripMenuItem.Click += new System.EventHandler(this.quickLinkToGitHubToolStripMenuItem_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // saveSlotBoxGen
+            // 
+            this.saveSlotBoxGen.Location = new System.Drawing.Point(6, 19);
+            this.saveSlotBoxGen.Multiline = false;
+            this.saveSlotBoxGen.Name = "saveSlotBoxGen";
+            this.saveSlotBoxGen.ReadOnly = true;
+            this.saveSlotBoxGen.Size = new System.Drawing.Size(55, 19);
+            this.saveSlotBoxGen.TabIndex = 2;
+            this.saveSlotBoxGen.Text = "No File";
             // 
             // groupBox45
             // 
-            this.groupBox45.Controls.Add(this.richTextBox3);
+            this.groupBox45.Controls.Add(this.saveSlotBoxGen);
             this.groupBox45.Location = new System.Drawing.Point(719, 349);
             this.groupBox45.Name = "groupBox45";
             this.groupBox45.Size = new System.Drawing.Size(67, 44);
@@ -1515,236 +1726,25 @@
             this.groupBox45.TabStop = false;
             this.groupBox45.Text = "Save Slot";
             // 
-            // richTextBox3
+            // saveSlotBoxBot
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(6, 19);
-            this.richTextBox3.Multiline = false;
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(55, 19);
-            this.richTextBox3.TabIndex = 2;
-            this.richTextBox3.Text = "No File";
+            this.saveSlotBoxBot.Location = new System.Drawing.Point(6, 19);
+            this.saveSlotBoxBot.Multiline = false;
+            this.saveSlotBoxBot.Name = "saveSlotBoxBot";
+            this.saveSlotBoxBot.ReadOnly = true;
+            this.saveSlotBoxBot.Size = new System.Drawing.Size(55, 19);
+            this.saveSlotBoxBot.TabIndex = 2;
+            this.saveSlotBoxBot.Text = "No File";
             // 
-            // groupBox46
+            // groupBox44
             // 
-            this.groupBox46.Controls.Add(this.statusTextBox);
-            this.groupBox46.Location = new System.Drawing.Point(240, 20);
-            this.groupBox46.Name = "groupBox46";
-            this.groupBox46.Size = new System.Drawing.Size(111, 44);
-            this.groupBox46.TabIndex = 29;
-            this.groupBox46.TabStop = false;
-            this.groupBox46.Text = "Rent in";
-            // 
-            // statusTextBox
-            // 
-            this.statusTextBox.Location = new System.Drawing.Point(6, 19);
-            this.statusTextBox.Multiline = false;
-            this.statusTextBox.Name = "statusTextBox";
-            this.statusTextBox.ReadOnly = true;
-            this.statusTextBox.Size = new System.Drawing.Size(99, 19);
-            this.statusTextBox.TabIndex = 30;
-            this.statusTextBox.Text = "";
-            // 
-            // groupBox47
-            // 
-            this.groupBox47.Controls.Add(this.streamCountBox);
-            this.groupBox47.Location = new System.Drawing.Point(240, 70);
-            this.groupBox47.Name = "groupBox47";
-            this.groupBox47.Size = new System.Drawing.Size(111, 44);
-            this.groupBox47.TabIndex = 31;
-            this.groupBox47.TabStop = false;
-            this.groupBox47.Text = "Amount Streams";
-            // 
-            // streamCountBox
-            // 
-            this.streamCountBox.Location = new System.Drawing.Point(6, 19);
-            this.streamCountBox.Multiline = false;
-            this.streamCountBox.Name = "streamCountBox";
-            this.streamCountBox.ReadOnly = true;
-            this.streamCountBox.Size = new System.Drawing.Size(99, 19);
-            this.streamCountBox.TabIndex = 30;
-            this.streamCountBox.Text = "";
-            // 
-            // groupBox48
-            // 
-            this.groupBox48.Controls.Add(this.groupBox51);
-            this.groupBox48.Controls.Add(this.groupBox49);
-            this.groupBox48.Controls.Add(this.groupBox50);
-            this.groupBox48.Location = new System.Drawing.Point(252, 270);
-            this.groupBox48.Name = "groupBox48";
-            this.groupBox48.Size = new System.Drawing.Size(357, 69);
-            this.groupBox48.TabIndex = 26;
-            this.groupBox48.TabStop = false;
-            this.groupBox48.Text = "Old Maid";
-            // 
-            // groupBox49
-            // 
-            this.groupBox49.Controls.Add(this.timesLostOldMaidBox);
-            this.groupBox49.Location = new System.Drawing.Point(123, 19);
-            this.groupBox49.Name = "groupBox49";
-            this.groupBox49.Size = new System.Drawing.Size(111, 44);
-            this.groupBox49.TabIndex = 25;
-            this.groupBox49.TabStop = false;
-            this.groupBox49.Text = "Times Lost";
-            // 
-            // timesLostOldMaidBox
-            // 
-            this.timesLostOldMaidBox.Location = new System.Drawing.Point(6, 19);
-            this.timesLostOldMaidBox.Multiline = false;
-            this.timesLostOldMaidBox.Name = "timesLostOldMaidBox";
-            this.timesLostOldMaidBox.ReadOnly = true;
-            this.timesLostOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesLostOldMaidBox.Size = new System.Drawing.Size(99, 19);
-            this.timesLostOldMaidBox.TabIndex = 21;
-            this.timesLostOldMaidBox.Text = "";
-            // 
-            // groupBox50
-            // 
-            this.groupBox50.Controls.Add(this.timesWonOldMaidBox);
-            this.groupBox50.Location = new System.Drawing.Point(6, 19);
-            this.groupBox50.Name = "groupBox50";
-            this.groupBox50.Size = new System.Drawing.Size(111, 44);
-            this.groupBox50.TabIndex = 23;
-            this.groupBox50.TabStop = false;
-            this.groupBox50.Text = "Times Won";
-            // 
-            // timesWonOldMaidBox
-            // 
-            this.timesWonOldMaidBox.Location = new System.Drawing.Point(6, 19);
-            this.timesWonOldMaidBox.Multiline = false;
-            this.timesWonOldMaidBox.Name = "timesWonOldMaidBox";
-            this.timesWonOldMaidBox.ReadOnly = true;
-            this.timesWonOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesWonOldMaidBox.Size = new System.Drawing.Size(99, 19);
-            this.timesWonOldMaidBox.TabIndex = 21;
-            this.timesWonOldMaidBox.Text = "";
-            // 
-            // groupBox51
-            // 
-            this.groupBox51.Controls.Add(this.timesRanAwayOldMaidBox);
-            this.groupBox51.Location = new System.Drawing.Point(240, 19);
-            this.groupBox51.Name = "groupBox51";
-            this.groupBox51.Size = new System.Drawing.Size(111, 44);
-            this.groupBox51.TabIndex = 26;
-            this.groupBox51.TabStop = false;
-            this.groupBox51.Text = "Times Ran Away";
-            // 
-            // timesRanAwayOldMaidBox
-            // 
-            this.timesRanAwayOldMaidBox.Location = new System.Drawing.Point(6, 19);
-            this.timesRanAwayOldMaidBox.Multiline = false;
-            this.timesRanAwayOldMaidBox.Name = "timesRanAwayOldMaidBox";
-            this.timesRanAwayOldMaidBox.ReadOnly = true;
-            this.timesRanAwayOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesRanAwayOldMaidBox.Size = new System.Drawing.Size(99, 19);
-            this.timesRanAwayOldMaidBox.TabIndex = 21;
-            this.timesRanAwayOldMaidBox.Text = "";
-            // 
-            // groupBox52
-            // 
-            this.groupBox52.Controls.Add(this.groupBox54);
-            this.groupBox52.Controls.Add(this.groupBox55);
-            this.groupBox52.Location = new System.Drawing.Point(252, 195);
-            this.groupBox52.Name = "groupBox52";
-            this.groupBox52.Size = new System.Drawing.Size(240, 69);
-            this.groupBox52.TabIndex = 27;
-            this.groupBox52.TabStop = false;
-            this.groupBox52.Text = "Chess";
-            // 
-            // groupBox54
-            // 
-            this.groupBox54.Controls.Add(this.timesLostChessBox);
-            this.groupBox54.Location = new System.Drawing.Point(123, 19);
-            this.groupBox54.Name = "groupBox54";
-            this.groupBox54.Size = new System.Drawing.Size(111, 44);
-            this.groupBox54.TabIndex = 25;
-            this.groupBox54.TabStop = false;
-            this.groupBox54.Text = "Times Lost";
-            // 
-            // timesLostChessBox
-            // 
-            this.timesLostChessBox.Location = new System.Drawing.Point(6, 19);
-            this.timesLostChessBox.Multiline = false;
-            this.timesLostChessBox.Name = "timesLostChessBox";
-            this.timesLostChessBox.ReadOnly = true;
-            this.timesLostChessBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesLostChessBox.Size = new System.Drawing.Size(99, 19);
-            this.timesLostChessBox.TabIndex = 21;
-            this.timesLostChessBox.Text = "";
-            // 
-            // groupBox55
-            // 
-            this.groupBox55.Controls.Add(this.timesWonChessBox);
-            this.groupBox55.Location = new System.Drawing.Point(6, 19);
-            this.groupBox55.Name = "groupBox55";
-            this.groupBox55.Size = new System.Drawing.Size(111, 44);
-            this.groupBox55.TabIndex = 23;
-            this.groupBox55.TabStop = false;
-            this.groupBox55.Text = "Times Won";
-            // 
-            // timesWonChessBox
-            // 
-            this.timesWonChessBox.Location = new System.Drawing.Point(6, 19);
-            this.timesWonChessBox.Multiline = false;
-            this.timesWonChessBox.Name = "timesWonChessBox";
-            this.timesWonChessBox.ReadOnly = true;
-            this.timesWonChessBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesWonChessBox.Size = new System.Drawing.Size(99, 19);
-            this.timesWonChessBox.TabIndex = 21;
-            this.timesWonChessBox.Text = "";
-            // 
-            // groupBox53
-            // 
-            this.groupBox53.Controls.Add(this.groupBox56);
-            this.groupBox53.Controls.Add(this.groupBox57);
-            this.groupBox53.Location = new System.Drawing.Point(252, 120);
-            this.groupBox53.Name = "groupBox53";
-            this.groupBox53.Size = new System.Drawing.Size(240, 69);
-            this.groupBox53.TabIndex = 28;
-            this.groupBox53.TabStop = false;
-            this.groupBox53.Text = "Word Chain";
-            // 
-            // groupBox56
-            // 
-            this.groupBox56.Controls.Add(this.timesLostWordChainBox);
-            this.groupBox56.Location = new System.Drawing.Point(123, 19);
-            this.groupBox56.Name = "groupBox56";
-            this.groupBox56.Size = new System.Drawing.Size(111, 44);
-            this.groupBox56.TabIndex = 25;
-            this.groupBox56.TabStop = false;
-            this.groupBox56.Text = "Times Lost";
-            // 
-            // timesLostWordChainBox
-            // 
-            this.timesLostWordChainBox.Location = new System.Drawing.Point(6, 19);
-            this.timesLostWordChainBox.Multiline = false;
-            this.timesLostWordChainBox.Name = "timesLostWordChainBox";
-            this.timesLostWordChainBox.ReadOnly = true;
-            this.timesLostWordChainBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesLostWordChainBox.Size = new System.Drawing.Size(99, 19);
-            this.timesLostWordChainBox.TabIndex = 21;
-            this.timesLostWordChainBox.Text = "";
-            // 
-            // groupBox57
-            // 
-            this.groupBox57.Controls.Add(this.timesWonWordChainBox);
-            this.groupBox57.Location = new System.Drawing.Point(6, 19);
-            this.groupBox57.Name = "groupBox57";
-            this.groupBox57.Size = new System.Drawing.Size(111, 44);
-            this.groupBox57.TabIndex = 23;
-            this.groupBox57.TabStop = false;
-            this.groupBox57.Text = "Times Won";
-            // 
-            // timesWonWordChainBox
-            // 
-            this.timesWonWordChainBox.Location = new System.Drawing.Point(6, 19);
-            this.timesWonWordChainBox.Multiline = false;
-            this.timesWonWordChainBox.Name = "timesWonWordChainBox";
-            this.timesWonWordChainBox.ReadOnly = true;
-            this.timesWonWordChainBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesWonWordChainBox.Size = new System.Drawing.Size(99, 19);
-            this.timesWonWordChainBox.TabIndex = 21;
-            this.timesWonWordChainBox.Text = "";
+            this.groupBox44.Controls.Add(this.saveSlotBoxBot);
+            this.groupBox44.Location = new System.Drawing.Point(719, 349);
+            this.groupBox44.Name = "groupBox44";
+            this.groupBox44.Size = new System.Drawing.Size(67, 44);
+            this.groupBox44.TabIndex = 27;
+            this.groupBox44.TabStop = false;
+            this.groupBox44.Text = "Save Slot";
             // 
             // Form1
             // 
@@ -1774,15 +1774,6 @@
             this.groupBox8.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.visitedWebsiteGroupBox.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
-            this.achievementsPanel.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.groupBox15.ResumeLayout(false);
             this.groupBox39.ResumeLayout(false);
@@ -1800,6 +1791,18 @@
             this.tabPage7.ResumeLayout(false);
             this.groupBox25.ResumeLayout(false);
             this.groupBox25.PerformLayout();
+            this.groupBox53.ResumeLayout(false);
+            this.groupBox56.ResumeLayout(false);
+            this.groupBox57.ResumeLayout(false);
+            this.groupBox52.ResumeLayout(false);
+            this.groupBox54.ResumeLayout(false);
+            this.groupBox55.ResumeLayout(false);
+            this.groupBox48.ResumeLayout(false);
+            this.groupBox51.ResumeLayout(false);
+            this.groupBox49.ResumeLayout(false);
+            this.groupBox50.ResumeLayout(false);
+            this.groupBox47.ResumeLayout(false);
+            this.groupBox46.ResumeLayout(false);
             this.groupBox40.ResumeLayout(false);
             this.groupBox41.ResumeLayout(false);
             this.groupBox42.ResumeLayout(false);
@@ -1814,20 +1817,17 @@
             this.groupBox28.ResumeLayout(false);
             this.groupBox27.ResumeLayout(false);
             this.groupBox26.ResumeLayout(false);
-            this.groupBox44.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.visitedWebsiteGroupBox.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
+            this.achievementsPanel.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.groupBox45.ResumeLayout(false);
-            this.groupBox46.ResumeLayout(false);
-            this.groupBox47.ResumeLayout(false);
-            this.groupBox48.ResumeLayout(false);
-            this.groupBox49.ResumeLayout(false);
-            this.groupBox50.ResumeLayout(false);
-            this.groupBox51.ResumeLayout(false);
-            this.groupBox52.ResumeLayout(false);
-            this.groupBox54.ResumeLayout(false);
-            this.groupBox55.ResumeLayout(false);
-            this.groupBox53.ResumeLayout(false);
-            this.groupBox56.ResumeLayout(false);
-            this.groupBox57.ResumeLayout(false);
+            this.groupBox44.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1922,8 +1922,6 @@
         private System.Windows.Forms.GroupBox groupBox16;
         private System.Windows.Forms.RichTextBox botNameBox;
         private System.Windows.Forms.Button editInfoButton;
-        private System.Windows.Forms.GroupBox groupBox44;
-        private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.GroupBox groupBox25;
         private System.Windows.Forms.GroupBox groupBox40;
@@ -1952,8 +1950,6 @@
         private System.Windows.Forms.RichTextBox followersTextBox;
         private System.Windows.Forms.GroupBox groupBox26;
         private System.Windows.Forms.RichTextBox gameStageBox;
-        private System.Windows.Forms.GroupBox groupBox45;
-        private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.GroupBox groupBox46;
         private System.Windows.Forms.RichTextBox statusTextBox;
         private System.Windows.Forms.GroupBox groupBox47;
@@ -1975,6 +1971,10 @@
         private System.Windows.Forms.RichTextBox timesLostWordChainBox;
         private System.Windows.Forms.GroupBox groupBox57;
         private System.Windows.Forms.RichTextBox timesWonWordChainBox;
+        private System.Windows.Forms.GroupBox groupBox45;
+        private System.Windows.Forms.RichTextBox saveSlotBoxGen;
+        private System.Windows.Forms.GroupBox groupBox44;
+        private System.Windows.Forms.RichTextBox saveSlotBoxBot;
     }
 }
 
