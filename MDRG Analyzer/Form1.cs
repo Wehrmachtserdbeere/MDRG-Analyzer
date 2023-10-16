@@ -308,7 +308,7 @@ namespace MDRG_Analyzer
 
         }
 
-        private void ShowUpdatePopup(bool isNewest, System.Version current, System.Version latest) // Show on clicking "Check for Updates", pass "isNewest" on whether there is or isn't a new version
+        private void ShowUpdatePopup(bool isNewest, System.Version current, System.Version latest, bool isStartup) // Show on clicking "Check for Updates", pass "isNewest" on whether there is or isn't a new version
         {
             if (!isNewest) // If not newest, show this
             {
@@ -326,7 +326,10 @@ namespace MDRG_Analyzer
             else // If newest, show this
             {
                 // Tell the User no new version found
-                MessageBox.Show("You are already on the newest version.", "No new update found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (!isStartup)
+                {
+                    MessageBox.Show("You are already on the newest version.", "No new update found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
         }
 
@@ -340,63 +343,60 @@ namespace MDRG_Analyzer
             string repo = "MDRG-Analyzer";
             HttpClient thisProgram = new HttpClient();
 
-            if (!isStartup)
+            try
             {
-                try
                 {
+                    thisProgram.DefaultRequestHeaders.Add("User-Agent", "request"); // Required for GitHub API
+
+                    HttpResponseMessage gitResponse = await thisProgram.GetAsync($"https://api.github.com/repos/{owner}/{repo}/releases/latest"); // Get the API URL
+
+                    if (gitResponse.IsSuccessStatusCode)
                     {
-                        thisProgram.DefaultRequestHeaders.Add("User-Agent", "request"); // Required for GitHub API
+                        string gitResponseBody = await gitResponse.Content.ReadAsStringAsync();
+                        dynamic gitResponseInfo = JsonConvert.DeserializeObject(gitResponseBody);
+                        string gitLatestVersion = gitResponseInfo.tag_name;
 
-                        HttpResponseMessage gitResponse = await thisProgram.GetAsync($"https://api.github.com/repos/{owner}/{repo}/releases/latest"); // Get the API URL
+                        Console.WriteLine(gitLatestVersion);
 
-                        if (gitResponse.IsSuccessStatusCode)
+                        if (Version.TryParse(gitLatestVersion.TrimStart('v'), out Version latest) && Version.TryParse(__version__, out Version current))
                         {
-                            string gitResponseBody = await gitResponse.Content.ReadAsStringAsync();
-                            dynamic gitResponseInfo = JsonConvert.DeserializeObject(gitResponseBody);
-                            string gitLatestVersion = gitResponseInfo.tag_name;
-
-                            Console.WriteLine(gitLatestVersion);
-
-                            if (Version.TryParse(gitLatestVersion.TrimStart('v'), out Version latest) && Version.TryParse(__version__, out Version current))
+                            int comparisonResult = current.CompareTo(latest);
+                            if (comparisonResult < 0)
                             {
-                                int comparisonResult = current.CompareTo(latest);
-                                if (comparisonResult < 0)
-                                {
-                                    ShowUpdatePopup(false, current, latest);
-                                }
-                                else
-                                {
-                                    ShowUpdatePopup(true, current, latest);
-                                }
+                                ShowUpdatePopup(false, current, latest, isStartup);
                             }
                             else
                             {
-                                MessageBox.Show("Could not check for Update:\nInvalid version format.");
+                                ShowUpdatePopup(true, current, latest, isStartup);
                             }
                         }
                         else
                         {
-                            MessageBox.Show($"Could not check for Update:\nError: {gitResponse.StatusCode}");
+                            MessageBox.Show("Could not check for Update:\nInvalid version format.");
                         }
                     }
-                }
-                catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
-                {
-                    DialogResult result = MessageBox.Show($"Error: {exep.Message}\nPlease try again.", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-
-                    switch (result)
+                    else
                     {
-                        case DialogResult.Retry:
-                            CheckForUpdate(false);
-                            break;
-                        case DialogResult.Cancel:
-                            break;
+                        MessageBox.Show($"Could not check for Update:\nError: {gitResponse.StatusCode}");
                     }
                 }
-                catch (Exception ex)
+            }
+            catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
+            {
+                DialogResult result = MessageBox.Show($"Error: {exep.Message}\nPlease try again.", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+
+                switch (result)
                 {
-                    Console.WriteLine(ex);
+                    case DialogResult.Retry:
+                        CheckForUpdate(false);
+                        break;
+                    case DialogResult.Cancel:
+                        break;
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
             }
         }
 
