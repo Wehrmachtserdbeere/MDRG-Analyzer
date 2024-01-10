@@ -584,8 +584,8 @@ namespace MDRG_Analyzer
         {
             if (saveSlotBox.Text != null)
             {
-                //try
-                //{
+                try
+                {
                     JObject savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
                     JObject achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString()); // Achievements
 
@@ -670,10 +670,10 @@ namespace MDRG_Analyzer
                     {
                         MessageBox.Show(caption: "Error", text: $"Exception: {ex}");
                     }
-                //}
-                //catch (Exception ex) {
-                //    MessageBox.Show(caption: "Error", text: $"Error: {ex}");
-                //}
+                }
+                catch (Exception ex) {
+                    MessageBox.Show(caption: "Error", text: $"Error: {ex}");
+                }
             }
         }
     }

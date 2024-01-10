@@ -89,6 +89,7 @@
             this.playerNameBox = new System.Windows.Forms.RichTextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox77 = new System.Windows.Forms.GroupBox();
             this.lastFuckedAtBox = new System.Windows.Forms.RichTextBox();
             this.groupBox76 = new System.Windows.Forms.GroupBox();
@@ -223,7 +224,6 @@
             this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox43.SuspendLayout();
@@ -991,6 +991,15 @@
             this.groupBox15.TabIndex = 15;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Bot Values";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 377);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(103, 13);
+            this.label7.TabIndex = 35;
+            this.label7.Text = "(1) Uses Game Time\r\n";
             // 
             // groupBox77
             // 
@@ -2232,11 +2241,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(550, 291);
+            this.label6.Location = new System.Drawing.Point(595, 291);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(234, 13);
+            this.label6.Size = new System.Drawing.Size(189, 13);
             this.label6.TabIndex = 7;
-            this.label6.Text = "Remember to keep her safe (and keep her filled)";
+            this.label6.Text = "Remember to keep her safe (and filled)";
             // 
             // pictureBox2
             // 
@@ -2412,15 +2421,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 377);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 13);
-            this.label7.TabIndex = 35;
-            this.label7.Text = "(1) Uses Game Time\r\n";
             // 
             // Form1
             // 
