@@ -128,8 +128,13 @@ To begin using it, select "File" -&gt; "Open File" and open your save file. Then
 By default, your save files are saved in the following directory:
 [ Path\To\The\Game\My Dystopian Robot Girlfriend\My Dystopian Robot Girlfriend_Data\Saves ]
 
-Copyright © 2023 Strawberry Software. All rights reserved.
+Copyright © 2023-2024 Strawberry Software. All rights reserved.
 "MDRG Analyzer" is an independent creation by Strawberry Software and is not affiliated with or endorsed by Incontinent Cell. The game content and related intellectual property are the sole property of Incontinent Cell.</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>WARNING! This feature is in testing and your save will most likely be corrupted! Keep a backup!
+The options will be unlocked when you agree that you have read this text and acknowledge that any loss of data will be your fault, will be on you alone, and that this feature more likely than not corrupt the selected save, if not every save.
+</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

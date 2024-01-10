@@ -44,6 +44,33 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox71 = new System.Windows.Forms.GroupBox();
+            this.lastWorkedAtDayBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox70 = new System.Windows.Forms.GroupBox();
+            this.lastWentToChurchAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox69 = new System.Windows.Forms.GroupBox();
+            this.lastWokeUpAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox68 = new System.Windows.Forms.GroupBox();
+            this.lastInteractAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox67 = new System.Windows.Forms.GroupBox();
+            this.lastBotStartedTalkAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox66 = new System.Windows.Forms.GroupBox();
+            this.lastHeadpatedAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox65 = new System.Windows.Forms.GroupBox();
+            this.lastHungerInfoAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox64 = new System.Windows.Forms.GroupBox();
+            this.lastMentalHealthInfoAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox63 = new System.Windows.Forms.GroupBox();
+            this.churchAmountBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox62 = new System.Windows.Forms.GroupBox();
+            this.deathGripEffectEndBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox61 = new System.Windows.Forms.GroupBox();
+            this.vinegaraEndBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox59 = new System.Windows.Forms.GroupBox();
+            this.mlCumWastedBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox45 = new System.Windows.Forms.GroupBox();
+            this.saveSlotBoxGen = new System.Windows.Forms.RichTextBox();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.mentalHealthBox = new System.Windows.Forms.RichTextBox();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
@@ -62,6 +89,16 @@
             this.playerNameBox = new System.Windows.Forms.RichTextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.groupBox77 = new System.Windows.Forms.GroupBox();
+            this.lastFuckedAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox76 = new System.Windows.Forms.GroupBox();
+            this.lastEquipmentAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox75 = new System.Windows.Forms.GroupBox();
+            this.lastOutsideWithBotAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox58 = new System.Windows.Forms.GroupBox();
+            this.mlCameInMouthBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox44 = new System.Windows.Forms.GroupBox();
+            this.saveSlotBoxBot = new System.Windows.Forms.RichTextBox();
             this.groupBox39 = new System.Windows.Forms.GroupBox();
             this.cameOutsideBox = new System.Windows.Forms.RichTextBox();
             this.groupBox38 = new System.Windows.Forms.GroupBox();
@@ -90,6 +127,16 @@
             this.botNameBox = new System.Windows.Forms.RichTextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
+            this.groupBox79 = new System.Windows.Forms.GroupBox();
+            this.priestBotPointsBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox78 = new System.Windows.Forms.GroupBox();
+            this.nunPointsBox = new System.Windows.Forms.RichTextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.groupBox74 = new System.Windows.Forms.GroupBox();
+            this.lastStreamedAtBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox60 = new System.Windows.Forms.GroupBox();
+            this.searchTextBox = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox53 = new System.Windows.Forms.GroupBox();
             this.groupBox56 = new System.Windows.Forms.GroupBox();
             this.timesLostWordChainBox = new System.Windows.Forms.RichTextBox();
@@ -138,10 +185,12 @@
             this.groupBox26 = new System.Windows.Forms.GroupBox();
             this.gameStageBox = new System.Windows.Forms.RichTextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.visitedWebsiteGroupBox = new System.Windows.Forms.GroupBox();
             this.websitesCheckBoxes = new System.Windows.Forms.CheckedListBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
             this.achievementsPanel = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.richTextBox12 = new System.Windows.Forms.RichTextBox();
@@ -151,6 +200,15 @@
             this.richTextBox11 = new System.Windows.Forms.RichTextBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.saveEditGroupBox = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.saveButton = new System.Windows.Forms.Button();
+            this.guideButton = new System.Windows.Forms.Button();
+            this.createBackupButton = new System.Windows.Forms.Button();
+            this.saveEditConsentBox = new System.Windows.Forms.CheckBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.debugTextBox = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -165,10 +223,7 @@
             this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.saveSlotBoxGen = new System.Windows.Forms.RichTextBox();
-            this.groupBox45 = new System.Windows.Forms.GroupBox();
-            this.saveSlotBoxBot = new System.Windows.Forms.RichTextBox();
-            this.groupBox44 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox43.SuspendLayout();
@@ -178,6 +233,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox71.SuspendLayout();
+            this.groupBox70.SuspendLayout();
+            this.groupBox69.SuspendLayout();
+            this.groupBox68.SuspendLayout();
+            this.groupBox67.SuspendLayout();
+            this.groupBox66.SuspendLayout();
+            this.groupBox65.SuspendLayout();
+            this.groupBox64.SuspendLayout();
+            this.groupBox63.SuspendLayout();
+            this.groupBox62.SuspendLayout();
+            this.groupBox61.SuspendLayout();
+            this.groupBox59.SuspendLayout();
+            this.groupBox45.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox12.SuspendLayout();
             this.groupBox11.SuspendLayout();
@@ -188,6 +256,11 @@
             this.groupBox6.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox15.SuspendLayout();
+            this.groupBox77.SuspendLayout();
+            this.groupBox76.SuspendLayout();
+            this.groupBox75.SuspendLayout();
+            this.groupBox58.SuspendLayout();
+            this.groupBox44.SuspendLayout();
             this.groupBox39.SuspendLayout();
             this.groupBox38.SuspendLayout();
             this.groupBox37.SuspendLayout();
@@ -202,6 +275,10 @@
             this.groupBox16.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.groupBox25.SuspendLayout();
+            this.groupBox79.SuspendLayout();
+            this.groupBox78.SuspendLayout();
+            this.groupBox74.SuspendLayout();
+            this.groupBox60.SuspendLayout();
             this.groupBox53.SuspendLayout();
             this.groupBox56.SuspendLayout();
             this.groupBox57.SuspendLayout();
@@ -234,10 +311,11 @@
             this.achievementsPanel.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.saveEditGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.groupBox45.SuspendLayout();
-            this.groupBox44.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -248,6 +326,7 @@
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(0, 24);
             this.tabControl1.Name = "tabControl1";
@@ -392,6 +471,19 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.groupBox71);
+            this.groupBox3.Controls.Add(this.groupBox70);
+            this.groupBox3.Controls.Add(this.groupBox69);
+            this.groupBox3.Controls.Add(this.groupBox68);
+            this.groupBox3.Controls.Add(this.groupBox67);
+            this.groupBox3.Controls.Add(this.groupBox66);
+            this.groupBox3.Controls.Add(this.groupBox65);
+            this.groupBox3.Controls.Add(this.groupBox64);
+            this.groupBox3.Controls.Add(this.groupBox63);
+            this.groupBox3.Controls.Add(this.groupBox62);
+            this.groupBox3.Controls.Add(this.groupBox61);
+            this.groupBox3.Controls.Add(this.groupBox59);
             this.groupBox3.Controls.Add(this.groupBox45);
             this.groupBox3.Controls.Add(this.groupBox13);
             this.groupBox3.Controls.Add(this.groupBox12);
@@ -407,6 +499,287 @@
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Player Values";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 377);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 13);
+            this.label4.TabIndex = 35;
+            this.label4.Text = "(1) Uses Game Time";
+            // 
+            // groupBox71
+            // 
+            this.groupBox71.Controls.Add(this.lastWorkedAtDayBox);
+            this.groupBox71.Location = new System.Drawing.Point(358, 220);
+            this.groupBox71.Name = "groupBox71";
+            this.groupBox71.Size = new System.Drawing.Size(111, 44);
+            this.groupBox71.TabIndex = 15;
+            this.groupBox71.TabStop = false;
+            this.groupBox71.Text = "Last worked at(1)";
+            // 
+            // lastWorkedAtDayBox
+            // 
+            this.lastWorkedAtDayBox.Location = new System.Drawing.Point(6, 19);
+            this.lastWorkedAtDayBox.Multiline = false;
+            this.lastWorkedAtDayBox.Name = "lastWorkedAtDayBox";
+            this.lastWorkedAtDayBox.ReadOnly = true;
+            this.lastWorkedAtDayBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastWorkedAtDayBox.Size = new System.Drawing.Size(99, 19);
+            this.lastWorkedAtDayBox.TabIndex = 7;
+            this.lastWorkedAtDayBox.Text = "";
+            // 
+            // groupBox70
+            // 
+            this.groupBox70.Controls.Add(this.lastWentToChurchAtBox);
+            this.groupBox70.Location = new System.Drawing.Point(241, 220);
+            this.groupBox70.Name = "groupBox70";
+            this.groupBox70.Size = new System.Drawing.Size(111, 44);
+            this.groupBox70.TabIndex = 15;
+            this.groupBox70.TabStop = false;
+            this.groupBox70.Text = "Last church visit(1)";
+            // 
+            // lastWentToChurchAtBox
+            // 
+            this.lastWentToChurchAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastWentToChurchAtBox.Multiline = false;
+            this.lastWentToChurchAtBox.Name = "lastWentToChurchAtBox";
+            this.lastWentToChurchAtBox.ReadOnly = true;
+            this.lastWentToChurchAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastWentToChurchAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastWentToChurchAtBox.TabIndex = 7;
+            this.lastWentToChurchAtBox.Text = "";
+            // 
+            // groupBox69
+            // 
+            this.groupBox69.Controls.Add(this.lastWokeUpAtBox);
+            this.groupBox69.Location = new System.Drawing.Point(124, 220);
+            this.groupBox69.Name = "groupBox69";
+            this.groupBox69.Size = new System.Drawing.Size(111, 44);
+            this.groupBox69.TabIndex = 15;
+            this.groupBox69.TabStop = false;
+            this.groupBox69.Text = "Last woke up at(1)";
+            // 
+            // lastWokeUpAtBox
+            // 
+            this.lastWokeUpAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastWokeUpAtBox.Multiline = false;
+            this.lastWokeUpAtBox.Name = "lastWokeUpAtBox";
+            this.lastWokeUpAtBox.ReadOnly = true;
+            this.lastWokeUpAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastWokeUpAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastWokeUpAtBox.TabIndex = 7;
+            this.lastWokeUpAtBox.Text = "";
+            // 
+            // groupBox68
+            // 
+            this.groupBox68.Controls.Add(this.lastInteractAtBox);
+            this.groupBox68.Location = new System.Drawing.Point(7, 220);
+            this.groupBox68.Name = "groupBox68";
+            this.groupBox68.Size = new System.Drawing.Size(111, 44);
+            this.groupBox68.TabIndex = 15;
+            this.groupBox68.TabStop = false;
+            this.groupBox68.Text = "Last Interact.(1)";
+            // 
+            // lastInteractAtBox
+            // 
+            this.lastInteractAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastInteractAtBox.Multiline = false;
+            this.lastInteractAtBox.Name = "lastInteractAtBox";
+            this.lastInteractAtBox.ReadOnly = true;
+            this.lastInteractAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastInteractAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastInteractAtBox.TabIndex = 7;
+            this.lastInteractAtBox.Text = "";
+            // 
+            // groupBox67
+            // 
+            this.groupBox67.Controls.Add(this.lastBotStartedTalkAtBox);
+            this.groupBox67.Location = new System.Drawing.Point(358, 170);
+            this.groupBox67.Name = "groupBox67";
+            this.groupBox67.Size = new System.Drawing.Size(111, 44);
+            this.groupBox67.TabIndex = 14;
+            this.groupBox67.TabStop = false;
+            this.groupBox67.Text = "Last Bot Talk(1)";
+            // 
+            // lastBotStartedTalkAtBox
+            // 
+            this.lastBotStartedTalkAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastBotStartedTalkAtBox.Multiline = false;
+            this.lastBotStartedTalkAtBox.Name = "lastBotStartedTalkAtBox";
+            this.lastBotStartedTalkAtBox.ReadOnly = true;
+            this.lastBotStartedTalkAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastBotStartedTalkAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastBotStartedTalkAtBox.TabIndex = 7;
+            this.lastBotStartedTalkAtBox.Text = "";
+            // 
+            // groupBox66
+            // 
+            this.groupBox66.Controls.Add(this.lastHeadpatedAtBox);
+            this.groupBox66.Location = new System.Drawing.Point(241, 170);
+            this.groupBox66.Name = "groupBox66";
+            this.groupBox66.Size = new System.Drawing.Size(111, 44);
+            this.groupBox66.TabIndex = 14;
+            this.groupBox66.TabStop = false;
+            this.groupBox66.Text = "Last Headpat at(1)";
+            // 
+            // lastHeadpatedAtBox
+            // 
+            this.lastHeadpatedAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastHeadpatedAtBox.Multiline = false;
+            this.lastHeadpatedAtBox.Name = "lastHeadpatedAtBox";
+            this.lastHeadpatedAtBox.ReadOnly = true;
+            this.lastHeadpatedAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastHeadpatedAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastHeadpatedAtBox.TabIndex = 7;
+            this.lastHeadpatedAtBox.Text = "";
+            // 
+            // groupBox65
+            // 
+            this.groupBox65.Controls.Add(this.lastHungerInfoAtBox);
+            this.groupBox65.Location = new System.Drawing.Point(124, 170);
+            this.groupBox65.Name = "groupBox65";
+            this.groupBox65.Size = new System.Drawing.Size(111, 44);
+            this.groupBox65.TabIndex = 13;
+            this.groupBox65.TabStop = false;
+            this.groupBox65.Text = "LastHunger Info(1)";
+            // 
+            // lastHungerInfoAtBox
+            // 
+            this.lastHungerInfoAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastHungerInfoAtBox.Multiline = false;
+            this.lastHungerInfoAtBox.Name = "lastHungerInfoAtBox";
+            this.lastHungerInfoAtBox.ReadOnly = true;
+            this.lastHungerInfoAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastHungerInfoAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastHungerInfoAtBox.TabIndex = 7;
+            this.lastHungerInfoAtBox.Text = "";
+            // 
+            // groupBox64
+            // 
+            this.groupBox64.Controls.Add(this.lastMentalHealthInfoAtBox);
+            this.groupBox64.Location = new System.Drawing.Point(7, 170);
+            this.groupBox64.Name = "groupBox64";
+            this.groupBox64.Size = new System.Drawing.Size(111, 44);
+            this.groupBox64.TabIndex = 12;
+            this.groupBox64.TabStop = false;
+            this.groupBox64.Text = "Last Mental Info(1)";
+            // 
+            // lastMentalHealthInfoAtBox
+            // 
+            this.lastMentalHealthInfoAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastMentalHealthInfoAtBox.Multiline = false;
+            this.lastMentalHealthInfoAtBox.Name = "lastMentalHealthInfoAtBox";
+            this.lastMentalHealthInfoAtBox.ReadOnly = true;
+            this.lastMentalHealthInfoAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastMentalHealthInfoAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastMentalHealthInfoAtBox.TabIndex = 7;
+            this.lastMentalHealthInfoAtBox.Text = "";
+            // 
+            // groupBox63
+            // 
+            this.groupBox63.Controls.Add(this.churchAmountBox);
+            this.groupBox63.Location = new System.Drawing.Point(358, 120);
+            this.groupBox63.Name = "groupBox63";
+            this.groupBox63.Size = new System.Drawing.Size(111, 44);
+            this.groupBox63.TabIndex = 11;
+            this.groupBox63.TabStop = false;
+            this.groupBox63.Text = "Times to Church";
+            // 
+            // churchAmountBox
+            // 
+            this.churchAmountBox.Location = new System.Drawing.Point(6, 19);
+            this.churchAmountBox.Multiline = false;
+            this.churchAmountBox.Name = "churchAmountBox";
+            this.churchAmountBox.ReadOnly = true;
+            this.churchAmountBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.churchAmountBox.Size = new System.Drawing.Size(99, 19);
+            this.churchAmountBox.TabIndex = 7;
+            this.churchAmountBox.Text = "";
+            // 
+            // groupBox62
+            // 
+            this.groupBox62.Controls.Add(this.deathGripEffectEndBox);
+            this.groupBox62.Location = new System.Drawing.Point(241, 120);
+            this.groupBox62.Name = "groupBox62";
+            this.groupBox62.Size = new System.Drawing.Size(111, 44);
+            this.groupBox62.TabIndex = 10;
+            this.groupBox62.TabStop = false;
+            this.groupBox62.Text = "Deathgrip End(1)";
+            // 
+            // deathGripEffectEndBox
+            // 
+            this.deathGripEffectEndBox.Location = new System.Drawing.Point(6, 19);
+            this.deathGripEffectEndBox.Multiline = false;
+            this.deathGripEffectEndBox.Name = "deathGripEffectEndBox";
+            this.deathGripEffectEndBox.ReadOnly = true;
+            this.deathGripEffectEndBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.deathGripEffectEndBox.Size = new System.Drawing.Size(99, 19);
+            this.deathGripEffectEndBox.TabIndex = 7;
+            this.deathGripEffectEndBox.Text = "";
+            // 
+            // groupBox61
+            // 
+            this.groupBox61.Controls.Add(this.vinegaraEndBox);
+            this.groupBox61.Location = new System.Drawing.Point(124, 120);
+            this.groupBox61.Name = "groupBox61";
+            this.groupBox61.Size = new System.Drawing.Size(111, 44);
+            this.groupBox61.TabIndex = 9;
+            this.groupBox61.TabStop = false;
+            this.groupBox61.Text = "Vinegara End(1)";
+            // 
+            // vinegaraEndBox
+            // 
+            this.vinegaraEndBox.Location = new System.Drawing.Point(6, 19);
+            this.vinegaraEndBox.Multiline = false;
+            this.vinegaraEndBox.Name = "vinegaraEndBox";
+            this.vinegaraEndBox.ReadOnly = true;
+            this.vinegaraEndBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.vinegaraEndBox.Size = new System.Drawing.Size(99, 19);
+            this.vinegaraEndBox.TabIndex = 7;
+            this.vinegaraEndBox.Text = "";
+            // 
+            // groupBox59
+            // 
+            this.groupBox59.Controls.Add(this.mlCumWastedBox);
+            this.groupBox59.Location = new System.Drawing.Point(7, 120);
+            this.groupBox59.Name = "groupBox59";
+            this.groupBox59.Size = new System.Drawing.Size(111, 44);
+            this.groupBox59.TabIndex = 8;
+            this.groupBox59.TabStop = false;
+            this.groupBox59.Text = "Cum Wasted";
+            // 
+            // mlCumWastedBox
+            // 
+            this.mlCumWastedBox.Location = new System.Drawing.Point(6, 19);
+            this.mlCumWastedBox.Multiline = false;
+            this.mlCumWastedBox.Name = "mlCumWastedBox";
+            this.mlCumWastedBox.ReadOnly = true;
+            this.mlCumWastedBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mlCumWastedBox.Size = new System.Drawing.Size(99, 19);
+            this.mlCumWastedBox.TabIndex = 7;
+            this.mlCumWastedBox.Text = "";
+            // 
+            // groupBox45
+            // 
+            this.groupBox45.Controls.Add(this.saveSlotBoxGen);
+            this.groupBox45.Location = new System.Drawing.Point(719, 349);
+            this.groupBox45.Name = "groupBox45";
+            this.groupBox45.Size = new System.Drawing.Size(67, 44);
+            this.groupBox45.TabIndex = 28;
+            this.groupBox45.TabStop = false;
+            this.groupBox45.Text = "Save Slot";
+            // 
+            // saveSlotBoxGen
+            // 
+            this.saveSlotBoxGen.Location = new System.Drawing.Point(6, 19);
+            this.saveSlotBoxGen.Multiline = false;
+            this.saveSlotBoxGen.Name = "saveSlotBoxGen";
+            this.saveSlotBoxGen.ReadOnly = true;
+            this.saveSlotBoxGen.Size = new System.Drawing.Size(55, 19);
+            this.saveSlotBoxGen.TabIndex = 2;
+            this.saveSlotBoxGen.Text = "No File";
             // 
             // groupBox13
             // 
@@ -592,6 +965,11 @@
             // groupBox15
             // 
             this.groupBox15.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox15.Controls.Add(this.label7);
+            this.groupBox15.Controls.Add(this.groupBox77);
+            this.groupBox15.Controls.Add(this.groupBox76);
+            this.groupBox15.Controls.Add(this.groupBox75);
+            this.groupBox15.Controls.Add(this.groupBox58);
             this.groupBox15.Controls.Add(this.groupBox44);
             this.groupBox15.Controls.Add(this.groupBox39);
             this.groupBox15.Controls.Add(this.groupBox38);
@@ -613,6 +991,110 @@
             this.groupBox15.TabIndex = 15;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Bot Values";
+            // 
+            // groupBox77
+            // 
+            this.groupBox77.Controls.Add(this.lastFuckedAtBox);
+            this.groupBox77.Location = new System.Drawing.Point(7, 220);
+            this.groupBox77.Name = "groupBox77";
+            this.groupBox77.Size = new System.Drawing.Size(111, 44);
+            this.groupBox77.TabIndex = 27;
+            this.groupBox77.TabStop = false;
+            this.groupBox77.Text = "Last sex at(1)";
+            // 
+            // lastFuckedAtBox
+            // 
+            this.lastFuckedAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastFuckedAtBox.Multiline = false;
+            this.lastFuckedAtBox.Name = "lastFuckedAtBox";
+            this.lastFuckedAtBox.ReadOnly = true;
+            this.lastFuckedAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastFuckedAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastFuckedAtBox.TabIndex = 23;
+            this.lastFuckedAtBox.Text = "";
+            // 
+            // groupBox76
+            // 
+            this.groupBox76.Controls.Add(this.lastEquipmentAtBox);
+            this.groupBox76.Location = new System.Drawing.Point(358, 70);
+            this.groupBox76.Name = "groupBox76";
+            this.groupBox76.Size = new System.Drawing.Size(111, 44);
+            this.groupBox76.TabIndex = 23;
+            this.groupBox76.TabStop = false;
+            this.groupBox76.Text = "Last equipm. at(1)";
+            // 
+            // lastEquipmentAtBox
+            // 
+            this.lastEquipmentAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastEquipmentAtBox.Multiline = false;
+            this.lastEquipmentAtBox.Name = "lastEquipmentAtBox";
+            this.lastEquipmentAtBox.ReadOnly = true;
+            this.lastEquipmentAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastEquipmentAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastEquipmentAtBox.TabIndex = 0;
+            this.lastEquipmentAtBox.Text = "";
+            // 
+            // groupBox75
+            // 
+            this.groupBox75.Controls.Add(this.lastOutsideWithBotAtBox);
+            this.groupBox75.Location = new System.Drawing.Point(241, 70);
+            this.groupBox75.Name = "groupBox75";
+            this.groupBox75.Size = new System.Drawing.Size(111, 44);
+            this.groupBox75.TabIndex = 22;
+            this.groupBox75.TabStop = false;
+            this.groupBox75.Text = "Last outside at(1)";
+            // 
+            // lastOutsideWithBotAtBox
+            // 
+            this.lastOutsideWithBotAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastOutsideWithBotAtBox.Multiline = false;
+            this.lastOutsideWithBotAtBox.Name = "lastOutsideWithBotAtBox";
+            this.lastOutsideWithBotAtBox.ReadOnly = true;
+            this.lastOutsideWithBotAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lastOutsideWithBotAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastOutsideWithBotAtBox.TabIndex = 0;
+            this.lastOutsideWithBotAtBox.Text = "";
+            // 
+            // groupBox58
+            // 
+            this.groupBox58.Controls.Add(this.mlCameInMouthBox);
+            this.groupBox58.Location = new System.Drawing.Point(358, 120);
+            this.groupBox58.Name = "groupBox58";
+            this.groupBox58.Size = new System.Drawing.Size(111, 44);
+            this.groupBox58.TabIndex = 25;
+            this.groupBox58.TabStop = false;
+            this.groupBox58.Text = "ML came in Mouth";
+            // 
+            // mlCameInMouthBox
+            // 
+            this.mlCameInMouthBox.Location = new System.Drawing.Point(6, 19);
+            this.mlCameInMouthBox.Multiline = false;
+            this.mlCameInMouthBox.Name = "mlCameInMouthBox";
+            this.mlCameInMouthBox.ReadOnly = true;
+            this.mlCameInMouthBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mlCameInMouthBox.Size = new System.Drawing.Size(99, 19);
+            this.mlCameInMouthBox.TabIndex = 0;
+            this.mlCameInMouthBox.Text = "";
+            // 
+            // groupBox44
+            // 
+            this.groupBox44.Controls.Add(this.saveSlotBoxBot);
+            this.groupBox44.Location = new System.Drawing.Point(719, 349);
+            this.groupBox44.Name = "groupBox44";
+            this.groupBox44.Size = new System.Drawing.Size(67, 44);
+            this.groupBox44.TabIndex = 27;
+            this.groupBox44.TabStop = false;
+            this.groupBox44.Text = "Save Slot";
+            // 
+            // saveSlotBoxBot
+            // 
+            this.saveSlotBoxBot.Location = new System.Drawing.Point(6, 19);
+            this.saveSlotBoxBot.Multiline = false;
+            this.saveSlotBoxBot.Name = "saveSlotBoxBot";
+            this.saveSlotBoxBot.ReadOnly = true;
+            this.saveSlotBoxBot.Size = new System.Drawing.Size(55, 19);
+            this.saveSlotBoxBot.TabIndex = 2;
+            this.saveSlotBoxBot.Text = "No File";
             // 
             // groupBox39
             // 
@@ -898,6 +1380,12 @@
             // 
             // groupBox25
             // 
+            this.groupBox25.Controls.Add(this.groupBox79);
+            this.groupBox25.Controls.Add(this.groupBox78);
+            this.groupBox25.Controls.Add(this.label5);
+            this.groupBox25.Controls.Add(this.groupBox74);
+            this.groupBox25.Controls.Add(this.groupBox60);
+            this.groupBox25.Controls.Add(this.label1);
             this.groupBox25.Controls.Add(this.groupBox53);
             this.groupBox25.Controls.Add(this.groupBox52);
             this.groupBox25.Controls.Add(this.groupBox48);
@@ -918,6 +1406,106 @@
             this.groupBox25.TabIndex = 16;
             this.groupBox25.TabStop = false;
             this.groupBox25.Text = "Misc Values";
+            // 
+            // groupBox79
+            // 
+            this.groupBox79.Controls.Add(this.priestBotPointsBox);
+            this.groupBox79.Location = new System.Drawing.Point(669, 120);
+            this.groupBox79.Name = "groupBox79";
+            this.groupBox79.Size = new System.Drawing.Size(111, 44);
+            this.groupBox79.TabIndex = 34;
+            this.groupBox79.TabStop = false;
+            this.groupBox79.Text = "PriestBot Point(4,5)";
+            // 
+            // priestBotPointsBox
+            // 
+            this.priestBotPointsBox.Location = new System.Drawing.Point(6, 19);
+            this.priestBotPointsBox.Multiline = false;
+            this.priestBotPointsBox.Name = "priestBotPointsBox";
+            this.priestBotPointsBox.ReadOnly = true;
+            this.priestBotPointsBox.Size = new System.Drawing.Size(99, 19);
+            this.priestBotPointsBox.TabIndex = 30;
+            this.priestBotPointsBox.Text = "";
+            // 
+            // groupBox78
+            // 
+            this.groupBox78.Controls.Add(this.nunPointsBox);
+            this.groupBox78.Location = new System.Drawing.Point(669, 70);
+            this.groupBox78.Name = "groupBox78";
+            this.groupBox78.Size = new System.Drawing.Size(111, 44);
+            this.groupBox78.TabIndex = 33;
+            this.groupBox78.TabStop = false;
+            this.groupBox78.Text = "Nun Points(4,5)";
+            // 
+            // nunPointsBox
+            // 
+            this.nunPointsBox.Location = new System.Drawing.Point(6, 19);
+            this.nunPointsBox.Multiline = false;
+            this.nunPointsBox.Name = "nunPointsBox";
+            this.nunPointsBox.ReadOnly = true;
+            this.nunPointsBox.Size = new System.Drawing.Size(99, 19);
+            this.nunPointsBox.TabIndex = 30;
+            this.nunPointsBox.Text = "";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(245, 377);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(103, 13);
+            this.label5.TabIndex = 36;
+            this.label5.Text = "(5) Uses Game Time";
+            // 
+            // groupBox74
+            // 
+            this.groupBox74.Controls.Add(this.lastStreamedAtBox);
+            this.groupBox74.Location = new System.Drawing.Point(357, 70);
+            this.groupBox74.Name = "groupBox74";
+            this.groupBox74.Size = new System.Drawing.Size(111, 44);
+            this.groupBox74.TabIndex = 32;
+            this.groupBox74.TabStop = false;
+            this.groupBox74.Text = "Last Stream at(5)";
+            // 
+            // lastStreamedAtBox
+            // 
+            this.lastStreamedAtBox.Location = new System.Drawing.Point(6, 19);
+            this.lastStreamedAtBox.Multiline = false;
+            this.lastStreamedAtBox.Name = "lastStreamedAtBox";
+            this.lastStreamedAtBox.ReadOnly = true;
+            this.lastStreamedAtBox.Size = new System.Drawing.Size(99, 19);
+            this.lastStreamedAtBox.TabIndex = 30;
+            this.lastStreamedAtBox.Text = "";
+            // 
+            // groupBox60
+            // 
+            this.groupBox60.Controls.Add(this.searchTextBox);
+            this.groupBox60.Location = new System.Drawing.Point(669, 20);
+            this.groupBox60.Name = "groupBox60";
+            this.groupBox60.Size = new System.Drawing.Size(111, 44);
+            this.groupBox60.TabIndex = 32;
+            this.groupBox60.TabStop = false;
+            this.groupBox60.Text = "\"Search\"(4)";
+            // 
+            // searchTextBox
+            // 
+            this.searchTextBox.Location = new System.Drawing.Point(6, 19);
+            this.searchTextBox.Multiline = false;
+            this.searchTextBox.Name = "searchTextBox";
+            this.searchTextBox.ReadOnly = true;
+            this.searchTextBox.Size = new System.Drawing.Size(99, 19);
+            this.searchTextBox.TabIndex = 30;
+            this.searchTextBox.Text = "";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 338);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(233, 52);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "(1) Cannot be changed\r\n(2) Converted for readability, not an actual value\r\n(3) No" +
+    " support will be given if changed\r\n(4) In some way related to the Church Questli" +
+    "ne";
             // 
             // groupBox53
             // 
@@ -1128,7 +1716,7 @@
             this.groupBox46.Size = new System.Drawing.Size(111, 44);
             this.groupBox46.TabIndex = 29;
             this.groupBox46.TabStop = false;
-            this.groupBox46.Text = "Rent in";
+            this.groupBox46.Text = "Rent in(1)";
             // 
             // statusTextBox
             // 
@@ -1159,7 +1747,7 @@
             this.groupBox41.Size = new System.Drawing.Size(111, 44);
             this.groupBox41.TabIndex = 27;
             this.groupBox41.TabStop = false;
-            this.groupBox41.Text = "Formatted";
+            this.groupBox41.Text = "Formatted(2)";
             // 
             // gameTimeFormatted
             // 
@@ -1223,7 +1811,7 @@
             this.groupBox34.Size = new System.Drawing.Size(111, 44);
             this.groupBox34.TabIndex = 25;
             this.groupBox34.TabStop = false;
-            this.groupBox34.Text = "Formatted";
+            this.groupBox34.Text = "Formatted(2)";
             // 
             // longestStreamFormattedBox
             // 
@@ -1317,7 +1905,7 @@
             this.groupBox30.Size = new System.Drawing.Size(111, 44);
             this.groupBox30.TabIndex = 25;
             this.groupBox30.TabStop = false;
-            this.groupBox30.Text = "Formatted";
+            this.groupBox30.Text = "Formatted(2)";
             // 
             // totalStreamTimeFormattedBox
             // 
@@ -1401,7 +1989,7 @@
             this.groupBox26.Size = new System.Drawing.Size(111, 44);
             this.groupBox26.TabIndex = 21;
             this.groupBox26.TabStop = false;
-            this.groupBox26.Text = "Game Stage";
+            this.groupBox26.Text = "Game Stage(3)";
             // 
             // gameStageBox
             // 
@@ -1416,14 +2004,24 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.label3);
             this.tabPage4.Controls.Add(this.button2);
             this.tabPage4.Controls.Add(this.visitedWebsiteGroupBox);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(792, 379);
+            this.tabPage4.Size = new System.Drawing.Size(792, 399);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Websites";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 382);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(116, 13);
+            this.label3.TabIndex = 34;
+            this.label3.Text = "(1) Cannot be changed\r\n";
             // 
             // button2
             // 
@@ -1443,7 +2041,7 @@
             this.visitedWebsiteGroupBox.Size = new System.Drawing.Size(418, 241);
             this.visitedWebsiteGroupBox.TabIndex = 1;
             this.visitedWebsiteGroupBox.TabStop = false;
-            this.visitedWebsiteGroupBox.Text = "Visited Websites";
+            this.visitedWebsiteGroupBox.Text = "Visited Websites(1)";
             this.visitedWebsiteGroupBox.Visible = false;
             // 
             // websitesCheckBoxes
@@ -1490,14 +2088,24 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.label2);
             this.tabPage5.Controls.Add(this.achievementsPanel);
             this.tabPage5.Controls.Add(this.button1);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(792, 379);
+            this.tabPage5.Size = new System.Drawing.Size(792, 399);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Achievements";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 382);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(116, 13);
+            this.label2.TabIndex = 34;
+            this.label2.Text = "(1) Cannot be changed\r\n";
             // 
             // achievementsPanel
             // 
@@ -1519,7 +2127,7 @@
             this.groupBox4.Size = new System.Drawing.Size(438, 60);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Church Achievements";
+            this.groupBox4.Text = "Church Achievements(1)";
             // 
             // richTextBox12
             // 
@@ -1562,7 +2170,7 @@
             this.groupBox5.Size = new System.Drawing.Size(438, 47);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Misc Achievements";
+            this.groupBox5.Text = "Misc Achievements(1)";
             // 
             // richTextBox11
             // 
@@ -1595,13 +2203,112 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.saveEditGroupBox);
+            this.tabPage8.Controls.Add(this.saveEditConsentBox);
+            this.tabPage8.Controls.Add(this.richTextBox2);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(792, 399);
+            this.tabPage8.TabIndex = 6;
+            this.tabPage8.Text = "Save Editing";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // saveEditGroupBox
+            // 
+            this.saveEditGroupBox.Controls.Add(this.label6);
+            this.saveEditGroupBox.Controls.Add(this.pictureBox2);
+            this.saveEditGroupBox.Controls.Add(this.saveButton);
+            this.saveEditGroupBox.Controls.Add(this.guideButton);
+            this.saveEditGroupBox.Controls.Add(this.createBackupButton);
+            this.saveEditGroupBox.Location = new System.Drawing.Point(0, 88);
+            this.saveEditGroupBox.Name = "saveEditGroupBox";
+            this.saveEditGroupBox.Size = new System.Drawing.Size(792, 311);
+            this.saveEditGroupBox.TabIndex = 3;
+            this.saveEditGroupBox.TabStop = false;
+            this.saveEditGroupBox.Text = "Save Editing";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(550, 291);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(234, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Remember to keep her safe (and keep her filled)";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl;
+            this.pictureBox2.Location = new System.Drawing.Point(494, 14);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(290, 290);
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // saveButton
+            // 
+            this.saveButton.Enabled = false;
+            this.saveButton.Location = new System.Drawing.Point(9, 81);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(186, 25);
+            this.saveButton.TabIndex = 5;
+            this.saveButton.Text = "Save (Overwrites current save!)";
+            this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            // 
+            // guideButton
+            // 
+            this.guideButton.Enabled = false;
+            this.guideButton.Location = new System.Drawing.Point(105, 50);
+            this.guideButton.Name = "guideButton";
+            this.guideButton.Size = new System.Drawing.Size(90, 25);
+            this.guideButton.TabIndex = 4;
+            this.guideButton.Text = "Guide";
+            this.guideButton.UseVisualStyleBackColor = true;
+            this.guideButton.Click += new System.EventHandler(this.guideButton_Click);
+            // 
+            // createBackupButton
+            // 
+            this.createBackupButton.Enabled = false;
+            this.createBackupButton.Location = new System.Drawing.Point(9, 50);
+            this.createBackupButton.Name = "createBackupButton";
+            this.createBackupButton.Size = new System.Drawing.Size(90, 25);
+            this.createBackupButton.TabIndex = 2;
+            this.createBackupButton.Text = "Create Backup";
+            this.createBackupButton.UseVisualStyleBackColor = true;
+            this.createBackupButton.Click += new System.EventHandler(this.createBackupButton_Click);
+            // 
+            // saveEditConsentBox
+            // 
+            this.saveEditConsentBox.AutoSize = true;
+            this.saveEditConsentBox.Location = new System.Drawing.Point(8, 52);
+            this.saveEditConsentBox.Name = "saveEditConsentBox";
+            this.saveEditConsentBox.Size = new System.Drawing.Size(461, 30);
+            this.saveEditConsentBox.TabIndex = 1;
+            this.saveEditConsentBox.Text = "I acknowledge and understand that using this feature may result in breaking or co" +
+    "mpromising\r\nmy save games, and I assume full responsibility for any potential lo" +
+    "ss of progress or data.";
+            this.saveEditConsentBox.UseVisualStyleBackColor = true;
+            this.saveEditConsentBox.CheckedChanged += new System.EventHandler(this.saveEditConsentBox_CheckedChanged);
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox2.Size = new System.Drawing.Size(792, 46);
+            this.richTextBox2.TabIndex = 0;
+            this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.debugTextBox);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(792, 379);
+            this.tabPage3.Size = new System.Drawing.Size(792, 399);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Debug";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -1706,45 +2413,14 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // saveSlotBoxGen
+            // label7
             // 
-            this.saveSlotBoxGen.Location = new System.Drawing.Point(6, 19);
-            this.saveSlotBoxGen.Multiline = false;
-            this.saveSlotBoxGen.Name = "saveSlotBoxGen";
-            this.saveSlotBoxGen.ReadOnly = true;
-            this.saveSlotBoxGen.Size = new System.Drawing.Size(55, 19);
-            this.saveSlotBoxGen.TabIndex = 2;
-            this.saveSlotBoxGen.Text = "No File";
-            // 
-            // groupBox45
-            // 
-            this.groupBox45.Controls.Add(this.saveSlotBoxGen);
-            this.groupBox45.Location = new System.Drawing.Point(719, 349);
-            this.groupBox45.Name = "groupBox45";
-            this.groupBox45.Size = new System.Drawing.Size(67, 44);
-            this.groupBox45.TabIndex = 28;
-            this.groupBox45.TabStop = false;
-            this.groupBox45.Text = "Save Slot";
-            // 
-            // saveSlotBoxBot
-            // 
-            this.saveSlotBoxBot.Location = new System.Drawing.Point(6, 19);
-            this.saveSlotBoxBot.Multiline = false;
-            this.saveSlotBoxBot.Name = "saveSlotBoxBot";
-            this.saveSlotBoxBot.ReadOnly = true;
-            this.saveSlotBoxBot.Size = new System.Drawing.Size(55, 19);
-            this.saveSlotBoxBot.TabIndex = 2;
-            this.saveSlotBoxBot.Text = "No File";
-            // 
-            // groupBox44
-            // 
-            this.groupBox44.Controls.Add(this.saveSlotBoxBot);
-            this.groupBox44.Location = new System.Drawing.Point(719, 349);
-            this.groupBox44.Name = "groupBox44";
-            this.groupBox44.Size = new System.Drawing.Size(67, 44);
-            this.groupBox44.TabIndex = 27;
-            this.groupBox44.TabStop = false;
-            this.groupBox44.Text = "Save Slot";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 377);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(103, 13);
+            this.label7.TabIndex = 35;
+            this.label7.Text = "(1) Uses Game Time\r\n";
             // 
             // Form1
             // 
@@ -1766,6 +2442,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox71.ResumeLayout(false);
+            this.groupBox70.ResumeLayout(false);
+            this.groupBox69.ResumeLayout(false);
+            this.groupBox68.ResumeLayout(false);
+            this.groupBox67.ResumeLayout(false);
+            this.groupBox66.ResumeLayout(false);
+            this.groupBox65.ResumeLayout(false);
+            this.groupBox64.ResumeLayout(false);
+            this.groupBox63.ResumeLayout(false);
+            this.groupBox62.ResumeLayout(false);
+            this.groupBox61.ResumeLayout(false);
+            this.groupBox59.ResumeLayout(false);
+            this.groupBox45.ResumeLayout(false);
             this.groupBox13.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
             this.groupBox11.ResumeLayout(false);
@@ -1776,6 +2466,12 @@
             this.groupBox6.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.groupBox77.ResumeLayout(false);
+            this.groupBox76.ResumeLayout(false);
+            this.groupBox75.ResumeLayout(false);
+            this.groupBox58.ResumeLayout(false);
+            this.groupBox44.ResumeLayout(false);
             this.groupBox39.ResumeLayout(false);
             this.groupBox38.ResumeLayout(false);
             this.groupBox37.ResumeLayout(false);
@@ -1791,6 +2487,10 @@
             this.tabPage7.ResumeLayout(false);
             this.groupBox25.ResumeLayout(false);
             this.groupBox25.PerformLayout();
+            this.groupBox79.ResumeLayout(false);
+            this.groupBox78.ResumeLayout(false);
+            this.groupBox74.ResumeLayout(false);
+            this.groupBox60.ResumeLayout(false);
             this.groupBox53.ResumeLayout(false);
             this.groupBox56.ResumeLayout(false);
             this.groupBox57.ResumeLayout(false);
@@ -1818,16 +2518,21 @@
             this.groupBox27.ResumeLayout(false);
             this.groupBox26.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.visitedWebsiteGroupBox.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
             this.achievementsPanel.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
+            this.saveEditGroupBox.ResumeLayout(false);
+            this.saveEditGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox45.ResumeLayout(false);
-            this.groupBox44.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1975,6 +2680,61 @@
         private System.Windows.Forms.RichTextBox saveSlotBoxGen;
         private System.Windows.Forms.GroupBox groupBox44;
         private System.Windows.Forms.RichTextBox saveSlotBoxBot;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.CheckBox saveEditConsentBox;
+        private System.Windows.Forms.GroupBox saveEditGroupBox;
+        private System.Windows.Forms.Button createBackupButton;
+        private System.Windows.Forms.Button guideButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button saveButton;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox58;
+        private System.Windows.Forms.RichTextBox mlCameInMouthBox;
+        private System.Windows.Forms.GroupBox groupBox59;
+        private System.Windows.Forms.RichTextBox mlCumWastedBox;
+        private System.Windows.Forms.GroupBox groupBox60;
+        private System.Windows.Forms.RichTextBox searchTextBox;
+        private System.Windows.Forms.GroupBox groupBox61;
+        private System.Windows.Forms.RichTextBox vinegaraEndBox;
+        private System.Windows.Forms.GroupBox groupBox62;
+        private System.Windows.Forms.RichTextBox deathGripEffectEndBox;
+        private System.Windows.Forms.GroupBox groupBox63;
+        private System.Windows.Forms.RichTextBox churchAmountBox;
+        private System.Windows.Forms.GroupBox groupBox64;
+        private System.Windows.Forms.RichTextBox lastMentalHealthInfoAtBox;
+        private System.Windows.Forms.GroupBox groupBox67;
+        private System.Windows.Forms.RichTextBox lastBotStartedTalkAtBox;
+        private System.Windows.Forms.GroupBox groupBox66;
+        private System.Windows.Forms.RichTextBox lastHeadpatedAtBox;
+        private System.Windows.Forms.GroupBox groupBox65;
+        private System.Windows.Forms.RichTextBox lastHungerInfoAtBox;
+        private System.Windows.Forms.GroupBox groupBox71;
+        private System.Windows.Forms.RichTextBox lastWorkedAtDayBox;
+        private System.Windows.Forms.GroupBox groupBox70;
+        private System.Windows.Forms.RichTextBox lastWentToChurchAtBox;
+        private System.Windows.Forms.GroupBox groupBox69;
+        private System.Windows.Forms.RichTextBox lastWokeUpAtBox;
+        private System.Windows.Forms.GroupBox groupBox68;
+        private System.Windows.Forms.RichTextBox lastInteractAtBox;
+        private System.Windows.Forms.GroupBox groupBox74;
+        private System.Windows.Forms.RichTextBox lastStreamedAtBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.GroupBox groupBox75;
+        private System.Windows.Forms.RichTextBox lastOutsideWithBotAtBox;
+        private System.Windows.Forms.GroupBox groupBox76;
+        private System.Windows.Forms.RichTextBox lastEquipmentAtBox;
+        private System.Windows.Forms.GroupBox groupBox77;
+        private System.Windows.Forms.RichTextBox lastFuckedAtBox;
+        private System.Windows.Forms.GroupBox groupBox78;
+        private System.Windows.Forms.RichTextBox nunPointsBox;
+        private System.Windows.Forms.GroupBox groupBox79;
+        private System.Windows.Forms.RichTextBox priestBotPointsBox;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
