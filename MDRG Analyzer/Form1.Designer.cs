@@ -224,6 +224,8 @@
             this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.groupBox72 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox43.SuspendLayout();
@@ -316,6 +318,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.groupBox72.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -336,6 +339,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.groupBox72);
             this.tabPage1.Controls.Add(this.groupBox43);
             this.tabPage1.Controls.Add(this.saveFilesChoosingBox);
             this.tabPage1.Controls.Add(this.groupBox1);
@@ -2422,6 +2426,26 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // groupBox72
+            // 
+            this.groupBox72.Controls.Add(this.button3);
+            this.groupBox72.Location = new System.Drawing.Point(320, 352);
+            this.groupBox72.Name = "groupBox72";
+            this.groupBox72.Size = new System.Drawing.Size(95, 47);
+            this.groupBox72.TabIndex = 5;
+            this.groupBox72.TabStop = false;
+            this.groupBox72.Text = "Extra Credits";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(6, 18);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(83, 21);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "Credits";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2533,6 +2557,7 @@
             this.tabPage3.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox72.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2735,6 +2760,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox72;
+        private System.Windows.Forms.Button button3;
     }
 }
 

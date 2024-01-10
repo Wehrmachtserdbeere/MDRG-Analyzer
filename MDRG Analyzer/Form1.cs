@@ -676,6 +676,17 @@ namespace MDRG_Analyzer
                 }
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                caption: "Extra Credits",
+                text: "Extra Credits go to:\n\n" +
+                "The MDRG Discord - Coding help\n" +
+                "italy2003 / PixivID: 66835722 - Art\n" +
+                "You - For using this program. Thank you :D"
+                );
+        }
     }
 }
 
