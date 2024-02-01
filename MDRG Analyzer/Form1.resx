@@ -126,7 +126,7 @@ This tool will include spoilers by the fact that it lists a lot of information. 
 To begin using it, select "File" -&gt; "Open File" and open your save file. Then select which slot you want to check. This does not include autosaves.
 
 By default, your save files are saved in the following directory:
-[ Path\To\The\Game\My Dystopian Robot Girlfriend\My Dystopian Robot Girlfriend_Data\Saves ]
+[ C:\Users\&lt;YOUR USERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
 
 Copyright © 2023-2024 Strawberry Software. All rights reserved.
 "MDRG Analyzer" is an independent creation by Strawberry Software and is not affiliated with or endorsed by Incontinent Cell. The game content and related intellectual property are the sole property of Incontinent Cell.</value>

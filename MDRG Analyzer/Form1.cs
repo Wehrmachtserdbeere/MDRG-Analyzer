@@ -698,8 +698,20 @@ namespace MDRG_Analyzer
                 "You - For using this program. Thank you :D"
                 );
         }
+
+        private void closeFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+// TODO:
+// A quick menu that you can open or close on the side that can navigate to a folder full of saves. It would show up on the left with all the save files in the folder it's set to open (The user
+//   can set that folder to w/e) and this means it'll be easy to move a save to that folder, open the editor, and just grab the save from the list. If they don't want the list, it can just collapse
+//   into a bar on the side.
+// 
+// A way to compare two different saves, perhaps to see which one is better or to see if a save lacks a stat a different one has which could identify if the player missed an event or something
 
 public static class ControlExtensions
 {
