@@ -647,6 +647,10 @@ namespace MDRG_Analyzer
                     savedataObject["nunPoints"] = nunPointsBox.Text;
                     savedataObject["priestBotPoints"] = priestBotPointsBox.Text;
 
+                    // 0.87
+
+                    savedataObject["lastCuddledAt"] = lastCuddledAtBox.Text;
+
                     if (lightswitchCheckbox.Checked)
                     {
                         savedataObject["lightSwitchOn"] = true;
