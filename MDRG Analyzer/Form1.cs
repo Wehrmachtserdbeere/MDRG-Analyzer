@@ -18,7 +18,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.1.0";
+        string __version__ = "1.1.1";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
