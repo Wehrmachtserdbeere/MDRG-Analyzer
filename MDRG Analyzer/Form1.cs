@@ -203,6 +203,9 @@ namespace MDRG_Analyzer
             int nunPoints = savedataObject.Value<int>("nunPoints");
             int priestBotPoints = savedataObject.Value<int>("priestBotPoints");
 
+            // 0.87.4 new stuff
+            int lastCuddleAt = savedataObject.Value<int>("lastCuddledAt");
+
             // Change box text to the variables
             saveSlotBox.Text = $"{saveSlot + 1}"; // +1 to represent the in-game save slot number.
             saveSlotBoxBot.Text = $"{saveSlot + 1}";
@@ -272,6 +275,10 @@ namespace MDRG_Analyzer
             lastWorkedAtDayBox.Text = $"{lastWorkedAtDay}";
             nunPointsBox.Text = $"{nunPoints}";
             priestBotPointsBox.Text = $"{priestBotPoints}";
+
+            // 0.87.4 New stuff
+
+            lastCuddledAtBox.Text = $"{lastCuddleAt}";
 
 
             // If Lightswitch is on, set checked, else set unchecked.
