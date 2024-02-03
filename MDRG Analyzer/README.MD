@@ -18,7 +18,7 @@ If you use Linux, any technical difficulties will **not** be supported, and I ca
 Known issues:
 - It may not work with Pop_OS' built-in Wine.
 - The Debug tab may use up a lot of resources, and depending on your save size, may cause the program to stop responding until it finishes loading.
-- Resizing the may mess up labels and more.
+- Resizing the program may mess up labels and more.
 
 ### Links
 [Click here to get to the GitHub repository of the program.](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer)
