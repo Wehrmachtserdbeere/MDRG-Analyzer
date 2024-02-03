@@ -2,7 +2,7 @@
 
 ### Usage
 
-1. 1. Extract the Application from the Archive
+1. Extract the Application from the Archive
 2. Open the Application
 3. Click "File" -> "Load File"
 4. The saves are now stored in "C:\Users\USER\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves". You can also export your saves in the Main Menu's "Load" menu, but if you use this, you will have to import the saves in the same menu yourself.
