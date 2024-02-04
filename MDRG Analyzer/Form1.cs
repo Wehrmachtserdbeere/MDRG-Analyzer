@@ -18,7 +18,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.1.1";
+        string __version__ = "1.1.2";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -695,6 +695,7 @@ namespace MDRG_Analyzer
                 text: "Extra Credits go to:\n\n" +
                 "The MDRG Discord - Coding help\n" +
                 "italy2003 / PixivID: 66835722 - Art\n" +
+                "bgrmystr2 - Linux Testing\n" +
                 "You - For using this program. Thank you :D"
                 );
         }
