@@ -662,18 +662,24 @@ namespace MDRG_Analyzer
                     savedataObject["lastCuddledAt"] = lastCuddledAtBox.Text;
 
                     // Achievements (Temporarily disabled since I cannot figure out how to fix this right now.)
-                    //StringBuilder achievementsSelected = new StringBuilder();
-                    //foreach (Object item in checkedListBox1.CheckedItems)
-                    //{
-                    //    String itemString = item.ToString();
-                    //    achievementsSelected.Append($"\"{itemString}\", ");
-                    //}
-                    //if (achievementsSelected.Length > 0)
-                    //{
-                    //    achievementsSelected.Remove(achievementsSelected.Length - 2, 2);
-                    //}
 
-                    //Console.WriteLine("DEBUG - achievementsSelected --- " + achievementsSelected.ToString());
+                    List<string> achievementsSelected = new List<string>();
+
+                    foreach (Object item in checkedListBox1.CheckedItems)
+                    {
+                        achievementsSelected.Add($"{item}");
+                    }
+                    foreach (Object item in checkedListBox2.CheckedItems)
+                    {
+                        achievementsSelected.Add($"{item}");
+                    }
+
+                    JArray achievementsSelectedJArray = new JArray(achievementsSelected);
+                    
+                    foreach (string achievement in achievementsSelected)
+                    {
+                        achievementsSelectedJArray.Add(achievement);
+                    }
 
                     if (lightswitchCheckbox.Checked)
                     {
@@ -688,8 +694,7 @@ namespace MDRG_Analyzer
                     {
                         string updatedSavedataJson = savedataObject.ToString();
                         saveFileJson["saves"][selectedSaveFile]["savedata"] = updatedSavedataJson;
-                        //string updatedAchievementsJson = achievementsSelected.ToString().Substring(1);
-                        //saveFileJson["achievements"]["values"] = updatedAchievementsJson;
+                        saveFileJson["achievements"]["values"] = achievementsSelectedJArray;
                         string finalJson = saveFileJson.ToString();
                         File.WriteAllText(filePath, finalJson);
                         MessageBox.Show(caption: "Success", text: "Successfully saved!");
