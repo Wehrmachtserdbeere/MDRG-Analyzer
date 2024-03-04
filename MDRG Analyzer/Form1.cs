@@ -10,6 +10,7 @@ using Newtonsoft.Json;
 using System.Diagnostics;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 using System.Runtime.CompilerServices;
+using System.Text;
 
 namespace MDRG_Analyzer
 {
@@ -18,7 +19,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.1.2";
+        string __version__ = "1.1.3";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -571,6 +572,8 @@ namespace MDRG_Analyzer
             ControlExtensions.ToggleControlsEnabled(groupBox15); // Bot Info
             ControlExtensions.ToggleControlsEnabled(groupBox25); // Misc Info
             ControlExtensions.ToggleControlsEnabled(saveEditGroupBox); // Save Edit Box
+            ControlExtensions.ToggleControlsEnabled(groupBox4); // Church Achievement Box
+            ControlExtensions.ToggleControlsEnabled(groupBox5); // Misc Achievement Box
 
         }
 
@@ -658,6 +661,20 @@ namespace MDRG_Analyzer
 
                     savedataObject["lastCuddledAt"] = lastCuddledAtBox.Text;
 
+                    // Achievements (Temporarily disabled since I cannot figure out how to fix this right now.)
+                    //StringBuilder achievementsSelected = new StringBuilder();
+                    //foreach (Object item in checkedListBox1.CheckedItems)
+                    //{
+                    //    String itemString = item.ToString();
+                    //    achievementsSelected.Append($"\"{itemString}\", ");
+                    //}
+                    //if (achievementsSelected.Length > 0)
+                    //{
+                    //    achievementsSelected.Remove(achievementsSelected.Length - 2, 2);
+                    //}
+
+                    //Console.WriteLine("DEBUG - achievementsSelected --- " + achievementsSelected.ToString());
+
                     if (lightswitchCheckbox.Checked)
                     {
                         savedataObject["lightSwitchOn"] = true;
@@ -671,8 +688,8 @@ namespace MDRG_Analyzer
                     {
                         string updatedSavedataJson = savedataObject.ToString();
                         saveFileJson["saves"][selectedSaveFile]["savedata"] = updatedSavedataJson;
-                        string updatedAchievementsJson = achievementsObject.ToString();
-                        saveFileJson["achievements"] = updatedAchievementsJson;
+                        //string updatedAchievementsJson = achievementsSelected.ToString().Substring(1);
+                        //saveFileJson["achievements"]["values"] = updatedAchievementsJson;
                         string finalJson = saveFileJson.ToString();
                         File.WriteAllText(filePath, finalJson);
                         MessageBox.Show(caption: "Success", text: "Successfully saved!");
@@ -746,6 +763,10 @@ public static class ControlExtensions
                     else if (childControl is System.Windows.Forms.CheckBox checkBox)
                     {
                         checkBox.Enabled = !checkBox.Enabled;
+                    }
+                    else if (childControl is CheckedListBox checkListBox)
+                    {
+                        checkListBox.Enabled = !checkListBox.Enabled;
                     }
                 }
             }

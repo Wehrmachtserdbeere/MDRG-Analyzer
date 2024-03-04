@@ -195,14 +195,16 @@
             this.visitedWebsiteGroupBox = new System.Windows.Forms.GroupBox();
             this.websitesCheckBoxes = new System.Windows.Forms.CheckedListBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
             this.achievementsPanel = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox12 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.richTextBox11 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage8 = new System.Windows.Forms.TabPage();
@@ -2146,7 +2148,6 @@
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.label2);
             this.tabPage5.Controls.Add(this.achievementsPanel);
             this.tabPage5.Controls.Add(this.button1);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
@@ -2156,99 +2157,143 @@
             this.tabPage5.Text = "Achievements";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 382);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 13);
-            this.label2.TabIndex = 34;
-            this.label2.Text = "(1) Cannot be changed\r\n";
-            // 
             // achievementsPanel
             // 
             this.achievementsPanel.Controls.Add(this.groupBox4);
             this.achievementsPanel.Controls.Add(this.groupBox5);
             this.achievementsPanel.Location = new System.Drawing.Point(4, 34);
             this.achievementsPanel.Name = "achievementsPanel";
-            this.achievementsPanel.Size = new System.Drawing.Size(448, 120);
+            this.achievementsPanel.Size = new System.Drawing.Size(785, 362);
             this.achievementsPanel.TabIndex = 3;
             this.achievementsPanel.Visible = false;
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.richTextBox5);
+            this.groupBox4.Controls.Add(this.richTextBox4);
+            this.groupBox4.Controls.Add(this.richTextBox3);
             this.groupBox4.Controls.Add(this.richTextBox12);
             this.groupBox4.Controls.Add(this.richTextBox6);
             this.groupBox4.Controls.Add(this.checkedListBox1);
             this.groupBox4.Location = new System.Drawing.Point(4, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(438, 60);
+            this.groupBox4.Size = new System.Drawing.Size(438, 108);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Church Achievements(1)";
+            this.groupBox4.Text = "Church Achievements";
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.Location = new System.Drawing.Point(181, 33);
+            this.richTextBox5.Multiline = false;
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
+            this.richTextBox5.Size = new System.Drawing.Size(251, 20);
+            this.richTextBox5.TabIndex = 5;
+            this.richTextBox5.Text = "\"The worst ending\"";
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.Location = new System.Drawing.Point(181, 16);
+            this.richTextBox4.Multiline = false;
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
+            this.richTextBox4.Size = new System.Drawing.Size(251, 20);
+            this.richTextBox4.TabIndex = 4;
+            this.richTextBox4.Text = "\"The oblivious ending\"";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.Location = new System.Drawing.Point(181, 49);
+            this.richTextBox3.Multiline = false;
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.Size = new System.Drawing.Size(251, 20);
+            this.richTextBox3.TabIndex = 3;
+            this.richTextBox3.Text = "\"I don\'t Know\" Ending";
             // 
             // richTextBox12
             // 
-            this.richTextBox12.Location = new System.Drawing.Point(181, 34);
+            this.richTextBox12.Location = new System.Drawing.Point(181, 65);
             this.richTextBox12.Multiline = false;
             this.richTextBox12.Name = "richTextBox12";
             this.richTextBox12.ReadOnly = true;
             this.richTextBox12.Size = new System.Drawing.Size(251, 20);
             this.richTextBox12.TabIndex = 2;
-            this.richTextBox12.Text = "\"I don\'t Know\" Ending";
+            this.richTextBox12.Text = "\"The good ending\"";
             // 
             // richTextBox6
             // 
-            this.richTextBox6.Location = new System.Drawing.Point(181, 19);
+            this.richTextBox6.Location = new System.Drawing.Point(181, 82);
             this.richTextBox6.Multiline = false;
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.ReadOnly = true;
             this.richTextBox6.Size = new System.Drawing.Size(251, 20);
             this.richTextBox6.TabIndex = 1;
-            this.richTextBox6.Text = "\"Just Go There\" Bad Ending";
+            this.richTextBox6.Text = "\"The not good enough ending\"";
             // 
             // checkedListBox1
             // 
+            this.checkedListBox1.CheckOnClick = true;
             this.checkedListBox1.Enabled = false;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "church-endJustGoThereBad",
-            "church-endIdontknow"});
+            "church-endSpotkanie2B",
+            "church-endTheWorstEnd",
+            "church-endIdontknow",
+            "church-endJustGoThereGood",
+            "church-endJustGoThereBad"});
             this.checkedListBox1.Location = new System.Drawing.Point(4, 19);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(171, 34);
+            this.checkedListBox1.Size = new System.Drawing.Size(171, 79);
             this.checkedListBox1.TabIndex = 0;
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.richTextBox11);
+            this.groupBox5.Controls.Add(this.richTextBox7);
             this.groupBox5.Controls.Add(this.checkedListBox2);
-            this.groupBox5.Location = new System.Drawing.Point(4, 69);
+            this.groupBox5.Location = new System.Drawing.Point(4, 117);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(438, 47);
+            this.groupBox5.Size = new System.Drawing.Size(776, 228);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Misc Achievements(1)";
+            this.groupBox5.Text = "Misc Achievements";
             // 
-            // richTextBox11
+            // richTextBox7
             // 
-            this.richTextBox11.Location = new System.Drawing.Point(181, 19);
-            this.richTextBox11.Multiline = false;
-            this.richTextBox11.Name = "richTextBox11";
-            this.richTextBox11.ReadOnly = true;
-            this.richTextBox11.Size = new System.Drawing.Size(251, 19);
-            this.richTextBox11.TabIndex = 1;
-            this.richTextBox11.Text = "Cheat Website Visited";
+            this.richTextBox7.Location = new System.Drawing.Point(321, 20);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(449, 199);
+            this.richTextBox7.TabIndex = 1;
+            this.richTextBox7.Text = resources.GetString("richTextBox7.Text");
             // 
             // checkedListBox2
             // 
+            this.checkedListBox2.CheckOnClick = true;
             this.checkedListBox2.Enabled = false;
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
+            "ending-ballsexploded",
+            "ending-goodEnd1",
+            "ending-badEnd1",
+            "ending-badEnd2",
+            "ending-badEnd3",
+            "ending-badEnd4.1",
+            "ending-badEnd4.2",
+            "ending-healthEnd",
+            "ending-fedEnd",
+            "ending-schizoEnd",
+            "ending-genericSchizoEnd",
+            "ending-KilledByADirtyCop1",
+            "ending-KilledByADirtyCop2",
+            "ending-theyKnowOblivious",
+            "ending-theyKnow",
+            "bigdaddyhurtSecretEpilogue",
             "saveEdited"});
             this.checkedListBox2.Location = new System.Drawing.Point(5, 20);
+            this.checkedListBox2.MultiColumn = true;
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(170, 19);
+            this.checkedListBox2.Size = new System.Drawing.Size(299, 199);
             this.checkedListBox2.TabIndex = 0;
             // 
             // button1
@@ -2403,14 +2448,14 @@
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.loadToolStripMenuItem.Text = "Load File";
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -2573,7 +2618,6 @@
             this.tabPage4.PerformLayout();
             this.visitedWebsiteGroupBox.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
             this.achievementsPanel.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
@@ -2622,7 +2666,6 @@
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.RichTextBox richTextBox6;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.RichTextBox richTextBox11;
         private System.Windows.Forms.CheckedListBox checkedListBox2;
         private System.Windows.Forms.RichTextBox richTextBox12;
         private System.Windows.Forms.RichTextBox currentStaminaBox;
@@ -2741,7 +2784,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox58;
         private System.Windows.Forms.RichTextBox mlCameInMouthBox;
         private System.Windows.Forms.GroupBox groupBox59;
@@ -2791,6 +2833,10 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.GroupBox groupBox73;
         private System.Windows.Forms.RichTextBox lastCuddledAtBox;
+        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox7;
     }
 }
 

@@ -131,6 +131,25 @@ By default, your save files are saved in the following directory:
 Copyright © 2023-2024 Strawberry Software. All rights reserved.
 "MDRG Analyzer" is an independent creation by Strawberry Software and is not affiliated with or endorsed by Incontinent Cell. The game content and related intellectual property are the sole property of Incontinent Cell.</value>
   </data>
+  <data name="richTextBox7.Text" xml:space="preserve">
+    <value>ending-ballsexploded --- "Too much juice..."
+ending-goodEnd1 --- "Selling your bot"
+ending-badEnd1 --- "Termination of tenancy"
+ending-badEnd2 --- "Failure..."
+ending-badEnd3 --- "Coward..."
+ending-badEnd4.1 --- "Termination of tenancy v2: hobo"
+ending-badEnd4.2 --- "Termination of tenancy v2: murder"
+ending-healthEnd --- "Starvation"
+ending-fedEnd --- "Got caught..."
+ending-schizoEnd --- "I'm not crazy..."
+ending-genericSchizoEnd --- "Wall-kun"
+ending-KilledByADirtyCop1 --- "Never trust the cops..."
+ending-KilledByADirtyCop2 --- "Never trust the cops... AGAIN"
+ending-theyKnowOblivious --- "They know... (oblivious)"
+ending-theyKnow --- "They know..."
+bigdaddyhurtSecretEpilogue --- Not an ending by itself but part of "They know...". - Met bigdaddyhurt but didn't continue his storyline
+saveEdited --- Used the iamacheater website.</value>
+  </data>
   <data name="richTextBox2.Text" xml:space="preserve">
     <value>WARNING! This feature is in testing and your save will most likely be corrupted! Keep a backup!
 The options will be unlocked when you agree that you have read this text and acknowledge that any loss of data will be your fault, will be on you alone, and that this feature more likely than not corrupt the selected save, if not every save.
