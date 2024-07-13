@@ -12,24 +12,7 @@ In short, when you submit code changes, your submissions are understood to be un
 # Report bugs using GitHub's [Issues](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/issues) page
 We use GitHub issues to track public bugs. Report a bug by opening a new [issue](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/issues).
 
-## Write bug reports with detail, background, and sample code
-
-Bug Reports are to follow this format:
-
-QUICK SUMMARY:
-Put a short summary here.
-
-STEPS TO REPRODUCE
-Fairly simple, use a numbered list, a direction (Ex.: Open Program -> Click XYZ Button -> Crash), or a similar, easy to read format.
-
-WHAT SHOULD HAPPEN:
-Put here what you expect would have or should have happened. This is recommended, but not a requirement to have.
-
-WHAT ACTUALLY HAPPENS:
-Put here what happens if you follow the steps listed in "STEPS TO REPRODUCE".
-
-NOTES:
-Things you tried to fix it, weird happenings, client-side related abnormalities (Ex.: Missing letters/fonts, missing numbers, etc.), or other notes that might possibly be relevant to your issue(s).
+**Write bug reports with detail, background, and sample code!**
 
 # Use a Consistent Coding Style
 Generally, you should follow the formats I use in my code. This includes:
