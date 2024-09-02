@@ -190,7 +190,6 @@
             this.groupBox26 = new System.Windows.Forms.GroupBox();
             this.gameStageBox = new System.Windows.Forms.RichTextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.visitedWebsiteGroupBox = new System.Windows.Forms.GroupBox();
             this.websitesCheckBoxes = new System.Windows.Forms.CheckedListBox();
@@ -2064,7 +2063,6 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.label3);
             this.tabPage4.Controls.Add(this.button2);
             this.tabPage4.Controls.Add(this.visitedWebsiteGroupBox);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
@@ -2073,15 +2071,6 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Websites";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 382);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 13);
-            this.label3.TabIndex = 34;
-            this.label3.Text = "(1) Cannot be changed\r\n";
             // 
             // button2
             // 
@@ -2098,17 +2087,19 @@
             this.visitedWebsiteGroupBox.Controls.Add(this.websitesCheckBoxes);
             this.visitedWebsiteGroupBox.Location = new System.Drawing.Point(3, 33);
             this.visitedWebsiteGroupBox.Name = "visitedWebsiteGroupBox";
-            this.visitedWebsiteGroupBox.Size = new System.Drawing.Size(418, 241);
+            this.visitedWebsiteGroupBox.Size = new System.Drawing.Size(611, 320);
             this.visitedWebsiteGroupBox.TabIndex = 1;
             this.visitedWebsiteGroupBox.TabStop = false;
-            this.visitedWebsiteGroupBox.Text = "Visited Websites(1)";
+            this.visitedWebsiteGroupBox.Text = "Visited Websites";
             this.visitedWebsiteGroupBox.Visible = false;
             // 
             // websitesCheckBoxes
             // 
             this.websitesCheckBoxes.ColumnWidth = 200;
             this.websitesCheckBoxes.Enabled = false;
+            this.websitesCheckBoxes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.websitesCheckBoxes.FormattingEnabled = true;
+            this.websitesCheckBoxes.HorizontalScrollbar = true;
             this.websitesCheckBoxes.Items.AddRange(new object[] {
             "adredirect.ic",
             "bang.ic",
@@ -2141,7 +2132,7 @@
             this.websitesCheckBoxes.Location = new System.Drawing.Point(6, 19);
             this.websitesCheckBoxes.MultiColumn = true;
             this.websitesCheckBoxes.Name = "websitesCheckBoxes";
-            this.websitesCheckBoxes.Size = new System.Drawing.Size(406, 214);
+            this.websitesCheckBoxes.Size = new System.Drawing.Size(599, 289);
             this.websitesCheckBoxes.Sorted = true;
             this.websitesCheckBoxes.TabIndex = 0;
             this.websitesCheckBoxes.ThreeDCheckBoxes = true;
@@ -2615,7 +2606,6 @@
             this.groupBox27.ResumeLayout(false);
             this.groupBox26.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
             this.visitedWebsiteGroupBox.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
             this.achievementsPanel.ResumeLayout(false);
@@ -2783,7 +2773,6 @@
         private System.Windows.Forms.Button guideButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button saveButton;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox58;
         private System.Windows.Forms.RichTextBox mlCameInMouthBox;
         private System.Windows.Forms.GroupBox groupBox59;

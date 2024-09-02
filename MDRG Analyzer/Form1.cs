@@ -19,7 +19,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.1.4";
+        string __version__ = "1.1.5";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -574,6 +574,7 @@ namespace MDRG_Analyzer
             ControlExtensions.ToggleControlsEnabled(saveEditGroupBox); // Save Edit Box
             ControlExtensions.ToggleControlsEnabled(groupBox4); // Church Achievement Box
             ControlExtensions.ToggleControlsEnabled(groupBox5); // Misc Achievement Box
+            websitesCheckBoxes.Enabled = !websitesCheckBoxes.Enabled; // Websites Visited Box
 
         }
 
@@ -609,7 +610,7 @@ namespace MDRG_Analyzer
                     savedataObject["inteligence"] = Int32.Parse(botIntBox.Text);
                     savedataObject["subs"] = Int32.Parse(subsTextBox.Text);
                     savedataObject["followers"] = Int32.Parse(followersTextBox.Text);
-                    savedataObject["streamedFor"] = totalStreamTimeRawBox.Text; // Why is this erroring out?
+                    savedataObject["streamedFor"] = totalStreamTimeRawBox.Text;
                     savedataObject["moneyEarnedFromDonations"] = streamDonations.Text;
                     savedataObject["longestStream"] = longestStreamRawBox.Text;
                     savedataObject["timesCameInside"] = timesCumInsideVag.Text;
@@ -690,11 +691,23 @@ namespace MDRG_Analyzer
                         savedataObject["lightSwitchOn"] = false;
                     }
 
+                    // Add Websites
+
+                    List<string> visitedWebsites = new List<string>();
+
+                    foreach (var item in websitesCheckBoxes.CheckedItems)
+                    {
+                        visitedWebsites.Add(item.ToString());
+                    }
+
+                    JArray visitedWebsitesJArray = new JArray(visitedWebsites);
+
                     try
                     {
                         string updatedSavedataJson = savedataObject.ToString();
                         saveFileJson["saves"][selectedSaveFile]["savedata"] = updatedSavedataJson;
                         saveFileJson["achievements"]["values"] = achievementsSelectedJArray;
+                        saveFileJson["visitedWebsites"] = visitedWebsitesJArray;
                         string finalJson = saveFileJson.ToString();
                         File.WriteAllText(filePath, finalJson);
                         MessageBox.Show(caption: "Success", text: "Successfully saved!");
