@@ -28,3 +28,21 @@ Known issues:
 [Click here to report bugs.](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/issues)
 
 [Click here to suggest things.](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/categories/ideas)
+
+### Frequently Asked Questions
+
+#### How do I open an Autosave?
+
+Right now, it's not natively supported. However, you can still do it:
+
+1. Backup your save.mdrg file
+2. Open your save.mdrg file in a File Editor
+3. Observe: The structure follows a JSON file format, if you have worked with it, you might already know what to do, and can skip a few steps. If the file is in a single line, use a "JSON Beautifyer" to make it easier to work with.
+4. Your saves are stored inside the `"saves": []` part. Your autosaves are stored inside the `"autoSaves": []` part.
+5. Every save is encompassed by two curly brackets: `{ }`. This is important to remember!
+6. Select in your `"autoSaves": []` one of the saves. This includes the curly brackets. For reference, a save has things like `"slot": 0,`, `"_time": 12345678900,`, and more.
+7. Inside your `"saves": []` part, after the other saves, add a new line and paste your clipboard. You will know it worked if it looks very similar to the other saves, only with the exception of your new save having `"notes": "AutoSave"` in it.
+8. Change your `"slot":` to a free slot. Example: If the previous saves are `"slot": 0,` and `"slot": 1,`, then in your new save, write `"slot": 2,`.
+9. Make sure it works. Start the game, and load the slot. You should be able to load it.
+10. Close the game, open MDRG Analyzer, and choose your slot.
+11. You should now be able to view/edit your Autosave.
