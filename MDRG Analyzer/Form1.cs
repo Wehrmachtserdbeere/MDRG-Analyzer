@@ -19,7 +19,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.1.5";
+        string __version__ = "1.1.6";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -518,7 +518,7 @@ namespace MDRG_Analyzer
 
         private void editInfoButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"It's currently beyond my ability to add a save editor. If you know how to do that and want to contribute, please do so. Quick links are in the \"Help\" Menu.", "Notice");
+            MessageBox.Show($"Save Editing has been added, enjoy!", "Notice");
         }
 
         private void createBackupButton_Click(object sender, EventArgs e)
@@ -723,7 +723,7 @@ namespace MDRG_Analyzer
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void extraCreditsButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
                 caption: "Extra Credits",

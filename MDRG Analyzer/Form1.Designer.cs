@@ -32,7 +32,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox72 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.extraCreditsButton = new System.Windows.Forms.Button();
             this.groupBox43 = new System.Windows.Forms.GroupBox();
             this.editInfoButton = new System.Windows.Forms.Button();
             this.infoSaveBox = new System.Windows.Forms.RichTextBox();
@@ -360,7 +360,7 @@
             // 
             // groupBox72
             // 
-            this.groupBox72.Controls.Add(this.button3);
+            this.groupBox72.Controls.Add(this.extraCreditsButton);
             this.groupBox72.Location = new System.Drawing.Point(320, 352);
             this.groupBox72.Name = "groupBox72";
             this.groupBox72.Size = new System.Drawing.Size(95, 47);
@@ -368,15 +368,15 @@
             this.groupBox72.TabStop = false;
             this.groupBox72.Text = "Extra Credits";
             // 
-            // button3
+            // extraCreditsButton
             // 
-            this.button3.Location = new System.Drawing.Point(6, 18);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(83, 21);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Credits";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.extraCreditsButton.Location = new System.Drawing.Point(6, 18);
+            this.extraCreditsButton.Name = "extraCreditsButton";
+            this.extraCreditsButton.Size = new System.Drawing.Size(83, 21);
+            this.extraCreditsButton.TabIndex = 0;
+            this.extraCreditsButton.Text = "Credits";
+            this.extraCreditsButton.UseVisualStyleBackColor = true;
+            this.extraCreditsButton.Click += new System.EventHandler(this.extraCreditsButton_Click);
             // 
             // groupBox43
             // 
@@ -2819,7 +2819,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox72;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button extraCreditsButton;
         private System.Windows.Forms.GroupBox groupBox73;
         private System.Windows.Forms.RichTextBox lastCuddledAtBox;
         private System.Windows.Forms.RichTextBox richTextBox5;

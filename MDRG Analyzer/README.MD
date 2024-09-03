@@ -46,3 +46,95 @@ Right now, it's not natively supported. However, you can still do it:
 9. Make sure it works. Start the game, and load the slot. You should be able to load it.
 10. Close the game, open MDRG Analyzer, and choose your slot.
 11. You should now be able to view/edit your Autosave.
+
+#### How do I edit my save?
+
+Follow these detailed, step-by-step instructions to edit your save file. Make sure you follow each step carefully.
+
+##### Step 1: Load the Save into MDRG Analyzer
+
+Before you start, make sure you have MDRG Analyzer installed on your computer. MDRG Analyzer is a tool that lets you edit save files for "My Dystopian Robot Girlfriend." If you don't have it installed, you need to download and install it first.
+
+1. **Open MDRG Analyzer**
+ Locate the MDRG Analyzer program on your computer. You can find it by checking your download location and double-clicking on it after unzipping it. For information on how to unzip the file, refer to [this Microsoft guide](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+
+2. **Click on "File" at the Top Left of the Program Window**
+ Once MDRG Analyzer is open, look at the top left corner of the program window. You should see a menu that says "File." Click on it.
+
+3. **Click on "Load File" in the drop-down menu**
+ After clicking "File," a drop-down menu will appear. Look for the option that says "Load File" and click on it.
+
+4. **Navigate to Your Save File Location**
+ A window will pop up asking you to select a file. You need to go to the folder where your save files are stored. This is usually located at:
+ `C:\Users\YourUsername\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves`
+ - **C:** is the drive where your system files are stored (usually the main drive).
+ - **Users** is the folder that contains all user accounts on your computer.
+ - **YourUsername** is your account name on the computer. Replace it with your actual username.
+ - **AppData** is a hidden folder that stores application data. You might need to enable "Show hidden items" in your File Explorer to see it. For a guide on how to show folders such as this, please refer to [this Microsoft guide](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+ - **LocalLow** is a subfolder inside AppData.
+ - **IncontinentCell** is the developer's folder name.
+ - **My Dystopian Robot Girlfriend** is the game's folder.
+ - **Saves** is where all your game save files are stored.
+
+5. **Select Your Save File and Press "Open"**
+ Once you are inside the "Saves" folder, you will see your save files. They might be named something like "save" or "save.mdrg". Click on the save file you want to edit and then click the "Open" button.
+
+6. **Select the Correct Save Slot**
+ After loading the save, you'll see some information about it in the program. Look for the "Info" Menu, which is near the top-left side of the program.
+ - You will see several radio buttons (little circles you can select). These correspond to different save slots.
+ - Select the radio button for the save slot you want to edit.
+ - Double-check that you have selected the correct slot by looking at the "Save Slot" display at the bottom-right of the program window. It should show the slot number you selected in some tabs.
+
+##### Step 2: Activate Save Editing
+
+Now that your save file is loaded, you need to activate the editing mode.
+
+1. **Navigate to the "Save Editing" Tab**
+ Look at the tabs near the top of the program window. Find and click on the tab labeled "Save Editing."
+
+2. **Check the "I acknowledge and understand [...]" Checkbox**
+ You will see a warning message and a checkbox next to it. This is a safety feature to ensure you understand that editing save files can cause issues if not done correctly. Read the warning, then click the checkbox to acknowledge it.
+
+3. **Press "Create Backup"**
+ Before making any changes, it's highly recommended to create a backup of your save file.
+ - Find the "Create Backup" button and click it.
+ - This will create a copy of your current save file, so if something goes wrong, you can easily restore it.
+
+4. **Change the Values You Want to Edit**
+ Now you can change the values in your save file. Use the other tabs in the program to navigate to the specific sections you want to edit.
+ - Click on the fields or values you want to change and type in the new values.
+ - Be careful to only change values you understand, as incorrect edits can cause your save to malfunction.
+
+##### Step 3: Save and Load the Edited File
+
+After editing, you'll need to save your changes and load the edited file in the game.
+
+1. **Navigate to the "Save Editing" Tab Again**
+ Return to the "Save Editing" tab if you are not already there.
+
+2. **Press the "Save (Overwrites current save!)" Button**
+ Find the button labeled "Save (Overwrites current save!)" and click it. This will overwrite your existing save file with the edited version. Be careful, this action cannot be undone unless you created a backup.
+
+3. **Start MDRG (My Dystopian Robot Girlfriend)**
+ Now, open your game as you normally would.
+
+4. **Press "Load Game"**
+ From the main menu of the game, click on "Load Game."
+
+5. **Press "From File" at the Bottom of the Popup**
+ A popup will appear showing your save slots. At the bottom of this popup, look for and click the "From File" button. This allows you to load a new save file from your computer.
+
+6. **Load Your Edited File**
+ Navigate back to the save file you edited (it’s usually the same location you found it in:
+ `C:\Users\YourUsername\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves`). Select it and click "Open."
+
+7. **Press "Load" on the Save Slot You Edited**
+ Choose the save slot that corresponds to the file you just edited and press "Load."
+ 
+8. **Check the Status of the Values You Changed**
+ Once the save file is loaded, check to make sure that the changes you made have taken effect. Look at the stats, PC, or any other values you modified, they should now reflect the changes you entered.
+
+That's it! You have successfully edited your save file. If something doesn’t look right, you can reload the backup file you created and try again.
+For a visual guide, refer to the following image:
+
+![Visual Guide](visualguide.png)
