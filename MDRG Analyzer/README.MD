@@ -135,6 +135,19 @@ After editing, you'll need to save your changes and load the edited file in the 
  Once the save file is loaded, check to make sure that the changes you made have taken effect. Look at the stats, PC, or any other values you modified, they should now reflect the changes you entered.
 
 That's it! You have successfully edited your save file. If something doesn’t look right, you can reload the backup file you created and try again.
+
+##### Visual Guide
+
 For a visual guide, refer to the following image:
 
 ![Visual Guide](visualguide.png)
+
+#### Video Guide
+
+There is now a detailed video guide to help you navigate the Save Editor for MDRG Analyzer. This video provides a live demonstration, showing you exactly how to use the editor step-by-step.
+
+- **What It Is**: The video is a live recording that walks you through each step of using the Save Editor, from exporting your save file to editing and saving it.
+- **Where to Find It**: You can watch the video by clicking [here](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/blob/master/MDRG%20Analyzer/MDRG_Analyzer_Save_Editing_Video_Guide.mp4).
+- **How It Helps**: This visual guide is perfect if you prefer seeing the process in action rather than reading instructions. It will show you exactly what to click and where to go, making the editing process easier to understand.
+
+Feel free to watch the video for a clearer understanding of how to edit your save files effectively.
