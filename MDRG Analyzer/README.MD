@@ -142,7 +142,7 @@ For a visual guide, refer to the following image:
 
 ![Visual Guide](visualguide.png)
 
-#### Video Guide
+##### Video Guide
 
 There is now a detailed video guide to help you navigate the Save Editor for MDRG Analyzer. This video provides a live demonstration, showing you exactly how to use the editor step-by-step.
 
@@ -151,3 +151,11 @@ There is now a detailed video guide to help you navigate the Save Editor for MDR
 - **How It Helps**: This visual guide is perfect if you prefer seeing the process in action rather than reading instructions. It will show you exactly what to click and where to go, making the editing process easier to understand.
 
 Feel free to watch the video for a clearer understanding of how to edit your save files effectively.
+
+#### I get an error when loading my save!
+
+This could be a result of a corrupted save file. Make sure to use a JSON Beautifier and check if there is something inside the "savedata" part. As a quick check, if you meet a massive wall of text and symbols, you likely have proper save data. If there is not, your save might be corrupted. Re-export it and check again.
+
+If this persists, go on the [Discord Server](https://discord.com/invite/SwpQUFWreW) and ask for assistance there.
+
+If you get another error, report it either through the [Discord Server](https://discord.com/invite/SwpQUFWreW), or open an [Issue](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/issues).

@@ -19,7 +19,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        string __version__ = "1.1.6";
+        readonly string __version__ = "1.1.7";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -113,9 +113,22 @@ namespace MDRG_Analyzer
         }
         private void reloadValues()
         {
+            // Test that there is data
+            JObject savedataObject = null;
+            JObject achievementsObject = null;
+            try
+            {
+                savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
+                achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString()); // Achievements
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Something went wrong when loading your save. Please re-export your save and try again.\nIf it still does not work, paste your save file into a \"JSON Beautifier\" and check if there is any data inside \"savedata\". If there is not, your save might be corrupt.\nIf there is data, and the program does not work, please contact me on the MDRG Discord Server (https://discord.com/invite/SwpQUFWreW), or open an Issue on GitHub (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer).\nYou have to reload the file via \"File\" -> \"Load File\" when you have re-exported your file.", "Savegame loading error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             // Set the variables
-            JObject savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
-            JObject achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString()); // Achievements
+
 
             string botName = savedataObject.Value<string>("botName");
             string moneyVal = savedataObject.Value<string>("money");
