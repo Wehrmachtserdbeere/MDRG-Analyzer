@@ -19,7 +19,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.7";
+        readonly string __version__ = "1.1.8";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -134,7 +134,7 @@ namespace MDRG_Analyzer
             string moneyVal = savedataObject.Value<string>("money");
             string gameVersion = savedataObject.Value<string>("gameVersion");
             string playerName = savedataObject.Value<string>("playerName");
-            string statusText = savedataObject.Value<string>("statusText");
+            string rentText = savedataObject.Value<string>("statusText");
 
             int saveSlot = saveFileJson["saves"][selectedSaveFile].Value<int>("slot");
             int casinoTokensVal = savedataObject.Value<int>("casinoTokens");
@@ -257,7 +257,7 @@ namespace MDRG_Analyzer
             cameOutsideBox.Text = $"{timesCameOutside}";
             gameTimeRaw.Text = $"{ingameTime}";
             gameTimeFormatted.Text = $"{ingameTimeDays}d;{ingameTimeHours}h;{ingameTimeMinutes}m";
-            statusTextBox.Text = $"{statusText}";
+            rentTextBox.Text = $"{rentText}";
             streamCountBox.Text = $"{streamCount}";
             timesWonOldMaidBox.Text = $"{timesWonOldMaid}";
             timesLostOldMaidBox.Text = $"{timesLostOldMaid}";
@@ -293,6 +293,44 @@ namespace MDRG_Analyzer
             // 0.87.4 New stuff
 
             lastCuddledAtBox.Text = $"{lastCuddleAt}";
+
+            // 0.90 New stuff
+
+            string weekDay;
+
+            switch (rentText.ToLower())
+            {
+                // I feel like YandereDev doing it this way...
+                case "rent today!":
+                    weekDay = "Monday";
+                    break;
+                case "rent in 1 day":
+                    weekDay = "Sunday";
+                    break;
+                case "rent in 2 days":
+                    weekDay = "Saturday";
+                    break;
+                case "rent in 3 days":
+                    weekDay = "Friday";
+                    break;
+                case "rent in 4 days":
+                    weekDay = "Thursday";
+                    break;
+                case "rent in 5 days":
+                    weekDay = "Wednesday";
+                    break;
+                case "rent in 6 days":
+                    weekDay = "Tuesday";
+                    break;
+                case "rent in 7 days":
+                    weekDay = "Monday";
+                    break;
+                default:
+                    weekDay = "Unknown";
+                    break;
+            }
+
+            weekdayTextBox.Text = $"{weekDay}";
 
 
             // If Lightswitch is on, set checked, else set unchecked.
@@ -779,11 +817,11 @@ public static class ControlExtensions
                 else
                 {
                     // Toggle the ReadOnly property if the control is a RichTextBox or TextBox
-                    if (childControl is RichTextBox richTextBox && childControl.Name != "statusTextBox")
+                    if (childControl is RichTextBox richTextBox && childControl.Name != "weekdayTextBox" && childControl.Name != "rentTextBox")
                     {
                         richTextBox.ReadOnly = !richTextBox.ReadOnly;
                     }
-                    else if (childControl is TextBox textBox && childControl.Name != "statusTextBox")
+                    else if (childControl is TextBox textBox && childControl.Name != "weekdayTextBox" && childControl.Name != "rentTextBox")
                     {
                         textBox.ReadOnly = !textBox.ReadOnly;
                     }

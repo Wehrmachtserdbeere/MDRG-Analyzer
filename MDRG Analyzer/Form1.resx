@@ -120,13 +120,13 @@
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>This tool is made for the game "!Ω Factorial Omega: My Dystopian Robot Girlfriend".
 
-WARNING - Spoilers!
-This tool will include spoilers by the fact that it lists a lot of information. Please be warned!
+WARNING - Spoilers! This tool will include spoilers by the fact that it lists a lot of information. Please be warned!
 
 To begin using it, select "File" -&gt; "Open File" and open your save file. Then select which slot you want to check. This does not include autosaves.
 
-By default, your save files are saved in the following directory:
+Prior to 0.90, your save files were saved in the following directory:
 [ C:\Users\&lt;YOUR USERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
+In version 0.90 and later, your exported save file will be in the location you saved it at.
 
 Copyright © 2023-2024 Strawberry Software. All rights reserved.
 "MDRG Analyzer" is an independent creation by Strawberry Software and is not affiliated with or endorsed by Incontinent Cell. The game content and related intellectual property are the sole property of Incontinent Cell.</value>

@@ -47,6 +47,16 @@ Right now, it's not natively supported. However, you can still do it:
 10. Close the game, open MDRG Analyzer, and choose your slot.
 11. You should now be able to view/edit your Autosave.
 
+#### "Rent in" is empty! / Weekday is "Unknown"!
+
+You saved either too early into your game, or you managed to save at a point where the variable for when rent is due is empty. Try saving at a later point. If it's still empty, please contact me on the MDRG Discord or open a GitHub Issue with your save file attached.
+
+#### Bot name is empty! / Player name is empty
+
+You saved too early into your game. Please wait until you have given your bot her name, and have given yourself a name.
+
+**Save Editing when this is the case will create bugs that neither I nor Sheep will help you with!** If you still save edit when you haven't named your bot or yourself, you will take all the risks, and agree not to ask for help with that specific save!
+
 #### How do I edit my save?
 
 Follow these detailed, step-by-step instructions to edit your save file. Make sure you follow each step carefully.
@@ -56,30 +66,39 @@ Follow these detailed, step-by-step instructions to edit your save file. Make su
 Before you start, make sure you have MDRG Analyzer installed on your computer. MDRG Analyzer is a tool that lets you edit save files for "My Dystopian Robot Girlfriend." If you don't have it installed, you need to download and install it first.
 
 1. **Open MDRG Analyzer**
+
  Locate the MDRG Analyzer program on your computer. You can find it by checking your download location and double-clicking on it after unzipping it. For information on how to unzip the file, refer to [this Microsoft guide](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
 
 2. **Click on "File" at the Top Left of the Program Window**
+
  Once MDRG Analyzer is open, look at the top left corner of the program window. You should see a menu that says "File." Click on it.
 
 3. **Click on "Load File" in the drop-down menu**
+
  After clicking "File," a drop-down menu will appear. Look for the option that says "Load File" and click on it.
 
 4. **Navigate to Your Save File Location**
- A window will pop up asking you to select a file. You need to go to the folder where your save files are stored. This is usually located at:
- `C:\Users\YourUsername\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves`
+
+ A window will pop up asking you to select a file. You need to go to the folder where you saved your save files. The default location for this is:
+ `C:\Users\YourUsername\Documents`
  - **C:** is the drive where your system files are stored (usually the main drive).
  - **Users** is the folder that contains all user accounts on your computer.
  - **YourUsername** is your account name on the computer. Replace it with your actual username.
- - **AppData** is a hidden folder that stores application data. You might need to enable "Show hidden items" in your File Explorer to see it. For a guide on how to show folders such as this, please refer to [this Microsoft guide](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
- - **LocalLow** is a subfolder inside AppData.
- - **IncontinentCell** is the developer's folder name.
- - **My Dystopian Robot Girlfriend** is the game's folder.
- - **Saves** is where all your game save files are stored.
+ - **Documents** is a basic folder that stores your documents.
+
+Alternatively, it is stored simply in: `Documents`, which is located under `This PC`. When accessed this way, your File Explorer address bar will simply say `Documents` instead of the path above.
+
+If you are confused why the program might open in a weirdly different folder by default, it used to open in the previous default save file location.
+
+**Do not use saves that are stored inside `C:\Users\Strawb\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves`!**
+In version 0.90 and after, this is used exclusively for in-game saves, that are **not** usable by **MDRG Analyzer**.
 
 5. **Select Your Save File and Press "Open"**
- Once you are inside the "Saves" folder, you will see your save files. They might be named something like "save" or "save.mdrg". Click on the save file you want to edit and then click the "Open" button.
+
+ Once you are inside the folder, you will see your save file. They might be named something like "save1234567890" or "save123456789.mdrg". Click on the save file you want to edit and then click the "Open" button.
 
 6. **Select the Correct Save Slot**
+
  After loading the save, you'll see some information about it in the program. Look for the "Info" Menu, which is near the top-left side of the program.
  - You will see several radio buttons (little circles you can select). These correspond to different save slots.
  - Select the radio button for the save slot you want to edit.
@@ -90,17 +109,21 @@ Before you start, make sure you have MDRG Analyzer installed on your computer. M
 Now that your save file is loaded, you need to activate the editing mode.
 
 1. **Navigate to the "Save Editing" Tab**
+
  Look at the tabs near the top of the program window. Find and click on the tab labeled "Save Editing."
 
 2. **Check the "I acknowledge and understand [...]" Checkbox**
+
  You will see a warning message and a checkbox next to it. This is a safety feature to ensure you understand that editing save files can cause issues if not done correctly. Read the warning, then click the checkbox to acknowledge it.
 
 3. **Press "Create Backup"**
+
  Before making any changes, it's highly recommended to create a backup of your save file.
  - Find the "Create Backup" button and click it.
  - This will create a copy of your current save file, so if something goes wrong, you can easily restore it.
 
 4. **Change the Values You Want to Edit**
+
  Now you can change the values in your save file. Use the other tabs in the program to navigate to the specific sections you want to edit.
  - Click on the fields or values you want to change and type in the new values.
  - Be careful to only change values you understand, as incorrect edits can cause your save to malfunction.
@@ -110,28 +133,36 @@ Now that your save file is loaded, you need to activate the editing mode.
 After editing, you'll need to save your changes and load the edited file in the game.
 
 1. **Navigate to the "Save Editing" Tab Again**
+
  Return to the "Save Editing" tab if you are not already there.
 
 2. **Press the "Save (Overwrites current save!)" Button**
+
  Find the button labeled "Save (Overwrites current save!)" and click it. This will overwrite your existing save file with the edited version. Be careful, this action cannot be undone unless you created a backup.
 
 3. **Start MDRG (My Dystopian Robot Girlfriend)**
+
  Now, open your game as you normally would.
 
 4. **Press "Load Game"**
+
  From the main menu of the game, click on "Load Game."
 
 5. **Press "From File" at the Bottom of the Popup**
+
  A popup will appear showing your save slots. At the bottom of this popup, look for and click the "From File" button. This allows you to load a new save file from your computer.
 
 6. **Load Your Edited File**
+
  Navigate back to the save file you edited (it’s usually the same location you found it in:
  `C:\Users\YourUsername\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves`). Select it and click "Open."
 
 7. **Press "Load" on the Save Slot You Edited**
+
  Choose the save slot that corresponds to the file you just edited and press "Load."
  
 8. **Check the Status of the Values You Changed**
+
  Once the save file is loaded, check to make sure that the changes you made have taken effect. Look at the stats, PC, or any other values you modified, they should now reflect the changes you entered.
 
 That's it! You have successfully edited your save file. If something doesn’t look right, you can reload the backup file you created and try again.

@@ -162,7 +162,7 @@
             this.groupBox47 = new System.Windows.Forms.GroupBox();
             this.streamCountBox = new System.Windows.Forms.RichTextBox();
             this.groupBox46 = new System.Windows.Forms.GroupBox();
-            this.statusTextBox = new System.Windows.Forms.RichTextBox();
+            this.rentTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox40 = new System.Windows.Forms.GroupBox();
             this.groupBox41 = new System.Windows.Forms.GroupBox();
             this.gameTimeFormatted = new System.Windows.Forms.RichTextBox();
@@ -229,6 +229,8 @@
             this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.groupBox80 = new System.Windows.Forms.GroupBox();
+            this.weekdayTextBox = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox72.SuspendLayout();
@@ -323,6 +325,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.groupBox80.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -494,7 +497,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(792, 399);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "General Info";
+            this.tabPage2.Text = "Player Info";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox3
@@ -1439,6 +1442,7 @@
             // 
             // groupBox25
             // 
+            this.groupBox25.Controls.Add(this.groupBox80);
             this.groupBox25.Controls.Add(this.groupBox79);
             this.groupBox25.Controls.Add(this.groupBox78);
             this.groupBox25.Controls.Add(this.label5);
@@ -1560,11 +1564,11 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 338);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 52);
+            this.label1.Size = new System.Drawing.Size(241, 52);
             this.label1.TabIndex = 32;
-            this.label1.Text = "(1) Cannot be changed\r\n(2) Converted for readability, not an actual value\r\n(3) No" +
-    " support will be given if changed\r\n(4) In some way related to the Church Questli" +
-    "ne";
+            this.label1.Text = "(1) Cannot be changed, rent is always on Monday\r\n(2) Converted for readability, n" +
+    "ot an actual value\r\n(3) No support will be given if changed\r\n(4) In some way rel" +
+    "ated to the Church Questline";
             // 
             // groupBox53
             // 
@@ -1769,7 +1773,7 @@
             // 
             // groupBox46
             // 
-            this.groupBox46.Controls.Add(this.statusTextBox);
+            this.groupBox46.Controls.Add(this.rentTextBox);
             this.groupBox46.Location = new System.Drawing.Point(240, 20);
             this.groupBox46.Name = "groupBox46";
             this.groupBox46.Size = new System.Drawing.Size(111, 44);
@@ -1777,15 +1781,15 @@
             this.groupBox46.TabStop = false;
             this.groupBox46.Text = "Rent in(1)";
             // 
-            // statusTextBox
+            // rentTextBox
             // 
-            this.statusTextBox.Location = new System.Drawing.Point(6, 19);
-            this.statusTextBox.Multiline = false;
-            this.statusTextBox.Name = "statusTextBox";
-            this.statusTextBox.ReadOnly = true;
-            this.statusTextBox.Size = new System.Drawing.Size(99, 19);
-            this.statusTextBox.TabIndex = 30;
-            this.statusTextBox.Text = "";
+            this.rentTextBox.Location = new System.Drawing.Point(6, 19);
+            this.rentTextBox.Multiline = false;
+            this.rentTextBox.Name = "rentTextBox";
+            this.rentTextBox.ReadOnly = true;
+            this.rentTextBox.Size = new System.Drawing.Size(99, 19);
+            this.rentTextBox.TabIndex = 30;
+            this.rentTextBox.Text = "";
             // 
             // groupBox40
             // 
@@ -2507,6 +2511,26 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // groupBox80
+            // 
+            this.groupBox80.Controls.Add(this.weekdayTextBox);
+            this.groupBox80.Location = new System.Drawing.Point(357, 20);
+            this.groupBox80.Name = "groupBox80";
+            this.groupBox80.Size = new System.Drawing.Size(111, 44);
+            this.groupBox80.TabIndex = 31;
+            this.groupBox80.TabStop = false;
+            this.groupBox80.Text = "Weekday(1)";
+            // 
+            // weekdayTextBox
+            // 
+            this.weekdayTextBox.Location = new System.Drawing.Point(6, 19);
+            this.weekdayTextBox.Multiline = false;
+            this.weekdayTextBox.Name = "weekdayTextBox";
+            this.weekdayTextBox.ReadOnly = true;
+            this.weekdayTextBox.Size = new System.Drawing.Size(99, 19);
+            this.weekdayTextBox.TabIndex = 30;
+            this.weekdayTextBox.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2619,6 +2643,7 @@
             this.tabPage3.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox80.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2741,7 +2766,7 @@
         private System.Windows.Forms.GroupBox groupBox26;
         private System.Windows.Forms.RichTextBox gameStageBox;
         private System.Windows.Forms.GroupBox groupBox46;
-        private System.Windows.Forms.RichTextBox statusTextBox;
+        private System.Windows.Forms.RichTextBox rentTextBox;
         private System.Windows.Forms.GroupBox groupBox47;
         private System.Windows.Forms.RichTextBox streamCountBox;
         private System.Windows.Forms.GroupBox groupBox48;
@@ -2826,6 +2851,8 @@
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.RichTextBox richTextBox7;
+        private System.Windows.Forms.GroupBox groupBox80;
+        private System.Windows.Forms.RichTextBox weekdayTextBox;
     }
 }
 
