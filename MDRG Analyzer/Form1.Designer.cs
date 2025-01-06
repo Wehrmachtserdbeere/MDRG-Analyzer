@@ -132,6 +132,8 @@
             this.botNameBox = new System.Windows.Forms.RichTextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
+            this.groupBox80 = new System.Windows.Forms.GroupBox();
+            this.weekdayTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox79 = new System.Windows.Forms.GroupBox();
             this.priestBotPointsBox = new System.Windows.Forms.RichTextBox();
             this.groupBox78 = new System.Windows.Forms.GroupBox();
@@ -229,8 +231,6 @@
             this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.groupBox80 = new System.Windows.Forms.GroupBox();
-            this.weekdayTextBox = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox72.SuspendLayout();
@@ -284,6 +284,7 @@
             this.groupBox16.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.groupBox25.SuspendLayout();
+            this.groupBox80.SuspendLayout();
             this.groupBox79.SuspendLayout();
             this.groupBox78.SuspendLayout();
             this.groupBox74.SuspendLayout();
@@ -325,7 +326,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.groupBox80.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -1470,6 +1470,26 @@
             this.groupBox25.TabStop = false;
             this.groupBox25.Text = "Misc Values";
             // 
+            // groupBox80
+            // 
+            this.groupBox80.Controls.Add(this.weekdayTextBox);
+            this.groupBox80.Location = new System.Drawing.Point(357, 20);
+            this.groupBox80.Name = "groupBox80";
+            this.groupBox80.Size = new System.Drawing.Size(111, 44);
+            this.groupBox80.TabIndex = 31;
+            this.groupBox80.TabStop = false;
+            this.groupBox80.Text = "Weekday(1)";
+            // 
+            // weekdayTextBox
+            // 
+            this.weekdayTextBox.Location = new System.Drawing.Point(6, 19);
+            this.weekdayTextBox.Multiline = false;
+            this.weekdayTextBox.Name = "weekdayTextBox";
+            this.weekdayTextBox.ReadOnly = true;
+            this.weekdayTextBox.Size = new System.Drawing.Size(99, 19);
+            this.weekdayTextBox.TabIndex = 30;
+            this.weekdayTextBox.Text = "";
+            // 
             // groupBox79
             // 
             this.groupBox79.Controls.Add(this.priestBotPointsBox);
@@ -2129,8 +2149,12 @@
             "hotanimebabes.ic",
             "ladyparts.ic",
             "losefatquickly.ic",
+            "patriciascookingblog.food/blog",
+            "patriciascookingblog.food/login",
+            "patriciascookingblog.food/main",
             "peepee.ic",
             "pixelglasses.ic",
+            "realmenfishing.ic",
             "slots.casino.ic",
             "stonks.ic"});
             this.websitesCheckBoxes.Location = new System.Drawing.Point(6, 19);
@@ -2511,26 +2535,6 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // groupBox80
-            // 
-            this.groupBox80.Controls.Add(this.weekdayTextBox);
-            this.groupBox80.Location = new System.Drawing.Point(357, 20);
-            this.groupBox80.Name = "groupBox80";
-            this.groupBox80.Size = new System.Drawing.Size(111, 44);
-            this.groupBox80.TabIndex = 31;
-            this.groupBox80.TabStop = false;
-            this.groupBox80.Text = "Weekday(1)";
-            // 
-            // weekdayTextBox
-            // 
-            this.weekdayTextBox.Location = new System.Drawing.Point(6, 19);
-            this.weekdayTextBox.Multiline = false;
-            this.weekdayTextBox.Name = "weekdayTextBox";
-            this.weekdayTextBox.ReadOnly = true;
-            this.weekdayTextBox.Size = new System.Drawing.Size(99, 19);
-            this.weekdayTextBox.TabIndex = 30;
-            this.weekdayTextBox.Text = "";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2599,6 +2603,7 @@
             this.tabPage7.ResumeLayout(false);
             this.groupBox25.ResumeLayout(false);
             this.groupBox25.PerformLayout();
+            this.groupBox80.ResumeLayout(false);
             this.groupBox79.ResumeLayout(false);
             this.groupBox78.ResumeLayout(false);
             this.groupBox74.ResumeLayout(false);
@@ -2643,7 +2648,6 @@
             this.tabPage3.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox80.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
