@@ -79,5 +79,25 @@ namespace MDRG_Analyzer.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ending-ballsexploded --- &quot;Too much juice...&quot;
+        ///ending-goodEnd1 --- &quot;Selling your bot&quot;
+        ///ending-badEnd1 --- &quot;Termination of tenancy&quot;
+        ///ending-badEnd2 --- &quot;Failure...&quot;
+        ///ending-badEnd3 --- &quot;Coward...&quot;
+        ///ending-badEnd4.1 --- &quot;Termination of tenancy v2: hobo&quot;
+        ///ending-badEnd4.2 --- &quot;Termination of tenancy v2: murder&quot;
+        ///ending-healthEnd --- &quot;Starvation&quot;
+        ///ending-fedEnd --- &quot;Got caught...&quot;
+        ///ending-schizoEnd --- &quot;I&apos;m not crazy...&quot;
+        ///ending-genericSchizoEnd --- &quot;Wall-kun&quot;
+        ///ending-KilledByADirtyCop1 --- &quot;Never trust the cops [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string richTextBox7_Text {
+            get {
+                return ResourceManager.GetString("richTextBox7.Text", resourceCulture);
+            }
+        }
     }
 }

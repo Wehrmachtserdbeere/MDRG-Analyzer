@@ -230,6 +230,9 @@
             this.reportABugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.suggestAFeatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quickLinkToGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deutschToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -330,6 +333,7 @@
             // 
             // tabControl1
             // 
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage6);
@@ -338,14 +342,12 @@
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(0, 24);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(800, 425);
-            this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
+            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Controls.Add(this.groupBox72);
             this.tabPage1.Controls.Add(this.groupBox43);
             this.tabPage1.Controls.Add(this.saveFilesChoosingBox);
@@ -353,155 +355,105 @@
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.richTextBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(792, 399);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Info";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox72
             // 
+            resources.ApplyResources(this.groupBox72, "groupBox72");
             this.groupBox72.Controls.Add(this.extraCreditsButton);
-            this.groupBox72.Location = new System.Drawing.Point(320, 352);
             this.groupBox72.Name = "groupBox72";
-            this.groupBox72.Size = new System.Drawing.Size(95, 47);
-            this.groupBox72.TabIndex = 5;
             this.groupBox72.TabStop = false;
-            this.groupBox72.Text = "Extra Credits";
             // 
             // extraCreditsButton
             // 
-            this.extraCreditsButton.Location = new System.Drawing.Point(6, 18);
+            resources.ApplyResources(this.extraCreditsButton, "extraCreditsButton");
             this.extraCreditsButton.Name = "extraCreditsButton";
-            this.extraCreditsButton.Size = new System.Drawing.Size(83, 21);
-            this.extraCreditsButton.TabIndex = 0;
-            this.extraCreditsButton.Text = "Credits";
             this.extraCreditsButton.UseVisualStyleBackColor = true;
             this.extraCreditsButton.Click += new System.EventHandler(this.extraCreditsButton_Click);
             // 
             // groupBox43
             // 
+            resources.ApplyResources(this.groupBox43, "groupBox43");
             this.groupBox43.Controls.Add(this.editInfoButton);
             this.groupBox43.Controls.Add(this.infoSaveBox);
-            this.groupBox43.Location = new System.Drawing.Point(415, 352);
             this.groupBox43.Name = "groupBox43";
-            this.groupBox43.Size = new System.Drawing.Size(187, 47);
-            this.groupBox43.TabIndex = 14;
             this.groupBox43.TabStop = false;
-            this.groupBox43.Text = "Save Slot";
             // 
             // editInfoButton
             // 
-            this.editInfoButton.Location = new System.Drawing.Point(95, 19);
+            resources.ApplyResources(this.editInfoButton, "editInfoButton");
             this.editInfoButton.Name = "editInfoButton";
-            this.editInfoButton.Size = new System.Drawing.Size(86, 22);
-            this.editInfoButton.TabIndex = 19;
-            this.editInfoButton.Text = "Save Edit Info";
             this.editInfoButton.UseVisualStyleBackColor = true;
             this.editInfoButton.Click += new System.EventHandler(this.editInfoButton_Click);
             // 
             // infoSaveBox
             // 
-            this.infoSaveBox.Location = new System.Drawing.Point(6, 19);
-            this.infoSaveBox.Multiline = false;
+            resources.ApplyResources(this.infoSaveBox, "infoSaveBox");
             this.infoSaveBox.Name = "infoSaveBox";
             this.infoSaveBox.ReadOnly = true;
-            this.infoSaveBox.Size = new System.Drawing.Size(83, 22);
-            this.infoSaveBox.TabIndex = 2;
-            this.infoSaveBox.Text = "Load a File";
             // 
             // saveFilesChoosingBox
             // 
+            resources.ApplyResources(this.saveFilesChoosingBox, "saveFilesChoosingBox");
             this.saveFilesChoosingBox.Controls.Add(this.flowLayoutPanel1);
-            this.saveFilesChoosingBox.Location = new System.Drawing.Point(4, 7);
             this.saveFilesChoosingBox.Name = "saveFilesChoosingBox";
-            this.saveFilesChoosingBox.Size = new System.Drawing.Size(782, 114);
-            this.saveFilesChoosingBox.TabIndex = 4;
             this.saveFilesChoosingBox.TabStop = false;
-            this.saveFilesChoosingBox.Text = "Save Files";
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(7, 20);
+            resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(769, 88);
-            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.versionBox);
-            this.groupBox1.Location = new System.Drawing.Point(697, 352);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(95, 47);
-            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "App Version";
             // 
             // versionBox
             // 
-            this.versionBox.Location = new System.Drawing.Point(6, 19);
-            this.versionBox.Multiline = false;
+            resources.ApplyResources(this.versionBox, "versionBox");
             this.versionBox.Name = "versionBox";
             this.versionBox.ReadOnly = true;
-            this.versionBox.Size = new System.Drawing.Size(86, 22);
-            this.versionBox.TabIndex = 0;
-            this.versionBox.Text = "";
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.gameVersionBox);
-            this.groupBox2.Location = new System.Drawing.Point(602, 352);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(95, 47);
-            this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Game Version";
             // 
             // gameVersionBox
             // 
-            this.gameVersionBox.Location = new System.Drawing.Point(6, 19);
-            this.gameVersionBox.Multiline = false;
+            resources.ApplyResources(this.gameVersionBox, "gameVersionBox");
             this.gameVersionBox.Name = "gameVersionBox";
             this.gameVersionBox.ReadOnly = true;
-            this.gameVersionBox.Size = new System.Drawing.Size(83, 22);
-            this.gameVersionBox.TabIndex = 4;
-            this.gameVersionBox.Text = "Load a File";
             // 
             // pictureBox1
             // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::MDRG_Analyzer.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 328);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(136, 65);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(0, 153);
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(792, 246);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // tabPage2
             // 
+            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Controls.Add(this.groupBox3);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(792, 399);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Player Info";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.groupBox71);
             this.groupBox3.Controls.Add(this.groupBox70);
@@ -524,477 +476,299 @@
             this.groupBox3.Controls.Add(this.groupBox8);
             this.groupBox3.Controls.Add(this.groupBox7);
             this.groupBox3.Controls.Add(this.groupBox6);
-            this.groupBox3.Location = new System.Drawing.Point(3, 3);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(786, 393);
-            this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Player Values";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 377);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 13);
-            this.label4.TabIndex = 35;
-            this.label4.Text = "(1) Uses Game Time";
             // 
             // groupBox71
             // 
+            resources.ApplyResources(this.groupBox71, "groupBox71");
             this.groupBox71.Controls.Add(this.lastWorkedAtDayBox);
-            this.groupBox71.Location = new System.Drawing.Point(358, 220);
             this.groupBox71.Name = "groupBox71";
-            this.groupBox71.Size = new System.Drawing.Size(111, 44);
-            this.groupBox71.TabIndex = 15;
             this.groupBox71.TabStop = false;
-            this.groupBox71.Text = "Last worked at(1)";
             // 
             // lastWorkedAtDayBox
             // 
-            this.lastWorkedAtDayBox.Location = new System.Drawing.Point(6, 19);
-            this.lastWorkedAtDayBox.Multiline = false;
+            resources.ApplyResources(this.lastWorkedAtDayBox, "lastWorkedAtDayBox");
             this.lastWorkedAtDayBox.Name = "lastWorkedAtDayBox";
             this.lastWorkedAtDayBox.ReadOnly = true;
-            this.lastWorkedAtDayBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastWorkedAtDayBox.Size = new System.Drawing.Size(99, 19);
-            this.lastWorkedAtDayBox.TabIndex = 7;
-            this.lastWorkedAtDayBox.Text = "";
             // 
             // groupBox70
             // 
+            resources.ApplyResources(this.groupBox70, "groupBox70");
             this.groupBox70.Controls.Add(this.lastWentToChurchAtBox);
-            this.groupBox70.Location = new System.Drawing.Point(241, 220);
             this.groupBox70.Name = "groupBox70";
-            this.groupBox70.Size = new System.Drawing.Size(111, 44);
-            this.groupBox70.TabIndex = 15;
             this.groupBox70.TabStop = false;
-            this.groupBox70.Text = "Last church visit(1)";
             // 
             // lastWentToChurchAtBox
             // 
-            this.lastWentToChurchAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastWentToChurchAtBox.Multiline = false;
+            resources.ApplyResources(this.lastWentToChurchAtBox, "lastWentToChurchAtBox");
             this.lastWentToChurchAtBox.Name = "lastWentToChurchAtBox";
             this.lastWentToChurchAtBox.ReadOnly = true;
-            this.lastWentToChurchAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastWentToChurchAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastWentToChurchAtBox.TabIndex = 7;
-            this.lastWentToChurchAtBox.Text = "";
             // 
             // groupBox69
             // 
+            resources.ApplyResources(this.groupBox69, "groupBox69");
             this.groupBox69.Controls.Add(this.lastWokeUpAtBox);
-            this.groupBox69.Location = new System.Drawing.Point(124, 220);
             this.groupBox69.Name = "groupBox69";
-            this.groupBox69.Size = new System.Drawing.Size(111, 44);
-            this.groupBox69.TabIndex = 15;
             this.groupBox69.TabStop = false;
-            this.groupBox69.Text = "Last woke up at(1)";
             // 
             // lastWokeUpAtBox
             // 
-            this.lastWokeUpAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastWokeUpAtBox.Multiline = false;
+            resources.ApplyResources(this.lastWokeUpAtBox, "lastWokeUpAtBox");
             this.lastWokeUpAtBox.Name = "lastWokeUpAtBox";
             this.lastWokeUpAtBox.ReadOnly = true;
-            this.lastWokeUpAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastWokeUpAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastWokeUpAtBox.TabIndex = 7;
-            this.lastWokeUpAtBox.Text = "";
             // 
             // groupBox68
             // 
+            resources.ApplyResources(this.groupBox68, "groupBox68");
             this.groupBox68.Controls.Add(this.lastInteractAtBox);
-            this.groupBox68.Location = new System.Drawing.Point(7, 220);
             this.groupBox68.Name = "groupBox68";
-            this.groupBox68.Size = new System.Drawing.Size(111, 44);
-            this.groupBox68.TabIndex = 15;
             this.groupBox68.TabStop = false;
-            this.groupBox68.Text = "Last Interact.(1)";
             // 
             // lastInteractAtBox
             // 
-            this.lastInteractAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastInteractAtBox.Multiline = false;
+            resources.ApplyResources(this.lastInteractAtBox, "lastInteractAtBox");
             this.lastInteractAtBox.Name = "lastInteractAtBox";
             this.lastInteractAtBox.ReadOnly = true;
-            this.lastInteractAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastInteractAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastInteractAtBox.TabIndex = 7;
-            this.lastInteractAtBox.Text = "";
             // 
             // groupBox67
             // 
+            resources.ApplyResources(this.groupBox67, "groupBox67");
             this.groupBox67.Controls.Add(this.lastBotStartedTalkAtBox);
-            this.groupBox67.Location = new System.Drawing.Point(358, 170);
             this.groupBox67.Name = "groupBox67";
-            this.groupBox67.Size = new System.Drawing.Size(111, 44);
-            this.groupBox67.TabIndex = 14;
             this.groupBox67.TabStop = false;
-            this.groupBox67.Text = "Last Bot Talk(1)";
             // 
             // lastBotStartedTalkAtBox
             // 
-            this.lastBotStartedTalkAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastBotStartedTalkAtBox.Multiline = false;
+            resources.ApplyResources(this.lastBotStartedTalkAtBox, "lastBotStartedTalkAtBox");
             this.lastBotStartedTalkAtBox.Name = "lastBotStartedTalkAtBox";
             this.lastBotStartedTalkAtBox.ReadOnly = true;
-            this.lastBotStartedTalkAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastBotStartedTalkAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastBotStartedTalkAtBox.TabIndex = 7;
-            this.lastBotStartedTalkAtBox.Text = "";
             // 
             // groupBox66
             // 
+            resources.ApplyResources(this.groupBox66, "groupBox66");
             this.groupBox66.Controls.Add(this.lastHeadpatedAtBox);
-            this.groupBox66.Location = new System.Drawing.Point(241, 170);
             this.groupBox66.Name = "groupBox66";
-            this.groupBox66.Size = new System.Drawing.Size(111, 44);
-            this.groupBox66.TabIndex = 14;
             this.groupBox66.TabStop = false;
-            this.groupBox66.Text = "Last Headpat at(1)";
             // 
             // lastHeadpatedAtBox
             // 
-            this.lastHeadpatedAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastHeadpatedAtBox.Multiline = false;
+            resources.ApplyResources(this.lastHeadpatedAtBox, "lastHeadpatedAtBox");
             this.lastHeadpatedAtBox.Name = "lastHeadpatedAtBox";
             this.lastHeadpatedAtBox.ReadOnly = true;
-            this.lastHeadpatedAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastHeadpatedAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastHeadpatedAtBox.TabIndex = 7;
-            this.lastHeadpatedAtBox.Text = "";
             // 
             // groupBox65
             // 
+            resources.ApplyResources(this.groupBox65, "groupBox65");
             this.groupBox65.Controls.Add(this.lastHungerInfoAtBox);
-            this.groupBox65.Location = new System.Drawing.Point(124, 170);
             this.groupBox65.Name = "groupBox65";
-            this.groupBox65.Size = new System.Drawing.Size(111, 44);
-            this.groupBox65.TabIndex = 13;
             this.groupBox65.TabStop = false;
-            this.groupBox65.Text = "LastHunger Info(1)";
             // 
             // lastHungerInfoAtBox
             // 
-            this.lastHungerInfoAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastHungerInfoAtBox.Multiline = false;
+            resources.ApplyResources(this.lastHungerInfoAtBox, "lastHungerInfoAtBox");
             this.lastHungerInfoAtBox.Name = "lastHungerInfoAtBox";
             this.lastHungerInfoAtBox.ReadOnly = true;
-            this.lastHungerInfoAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastHungerInfoAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastHungerInfoAtBox.TabIndex = 7;
-            this.lastHungerInfoAtBox.Text = "";
             // 
             // groupBox64
             // 
+            resources.ApplyResources(this.groupBox64, "groupBox64");
             this.groupBox64.Controls.Add(this.lastMentalHealthInfoAtBox);
-            this.groupBox64.Location = new System.Drawing.Point(7, 170);
             this.groupBox64.Name = "groupBox64";
-            this.groupBox64.Size = new System.Drawing.Size(111, 44);
-            this.groupBox64.TabIndex = 12;
             this.groupBox64.TabStop = false;
-            this.groupBox64.Text = "Last Mental Info(1)";
             // 
             // lastMentalHealthInfoAtBox
             // 
-            this.lastMentalHealthInfoAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastMentalHealthInfoAtBox.Multiline = false;
+            resources.ApplyResources(this.lastMentalHealthInfoAtBox, "lastMentalHealthInfoAtBox");
             this.lastMentalHealthInfoAtBox.Name = "lastMentalHealthInfoAtBox";
             this.lastMentalHealthInfoAtBox.ReadOnly = true;
-            this.lastMentalHealthInfoAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastMentalHealthInfoAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastMentalHealthInfoAtBox.TabIndex = 7;
-            this.lastMentalHealthInfoAtBox.Text = "";
             // 
             // groupBox63
             // 
+            resources.ApplyResources(this.groupBox63, "groupBox63");
             this.groupBox63.Controls.Add(this.churchAmountBox);
-            this.groupBox63.Location = new System.Drawing.Point(358, 120);
             this.groupBox63.Name = "groupBox63";
-            this.groupBox63.Size = new System.Drawing.Size(111, 44);
-            this.groupBox63.TabIndex = 11;
             this.groupBox63.TabStop = false;
-            this.groupBox63.Text = "Times to Church";
             // 
             // churchAmountBox
             // 
-            this.churchAmountBox.Location = new System.Drawing.Point(6, 19);
-            this.churchAmountBox.Multiline = false;
+            resources.ApplyResources(this.churchAmountBox, "churchAmountBox");
             this.churchAmountBox.Name = "churchAmountBox";
             this.churchAmountBox.ReadOnly = true;
-            this.churchAmountBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.churchAmountBox.Size = new System.Drawing.Size(99, 19);
-            this.churchAmountBox.TabIndex = 7;
-            this.churchAmountBox.Text = "";
             // 
             // groupBox62
             // 
+            resources.ApplyResources(this.groupBox62, "groupBox62");
             this.groupBox62.Controls.Add(this.deathGripEffectEndBox);
-            this.groupBox62.Location = new System.Drawing.Point(241, 120);
             this.groupBox62.Name = "groupBox62";
-            this.groupBox62.Size = new System.Drawing.Size(111, 44);
-            this.groupBox62.TabIndex = 10;
             this.groupBox62.TabStop = false;
-            this.groupBox62.Text = "Deathgrip End(1)";
             // 
             // deathGripEffectEndBox
             // 
-            this.deathGripEffectEndBox.Location = new System.Drawing.Point(6, 19);
-            this.deathGripEffectEndBox.Multiline = false;
+            resources.ApplyResources(this.deathGripEffectEndBox, "deathGripEffectEndBox");
             this.deathGripEffectEndBox.Name = "deathGripEffectEndBox";
             this.deathGripEffectEndBox.ReadOnly = true;
-            this.deathGripEffectEndBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.deathGripEffectEndBox.Size = new System.Drawing.Size(99, 19);
-            this.deathGripEffectEndBox.TabIndex = 7;
-            this.deathGripEffectEndBox.Text = "";
             // 
             // groupBox61
             // 
+            resources.ApplyResources(this.groupBox61, "groupBox61");
             this.groupBox61.Controls.Add(this.vinegaraEndBox);
-            this.groupBox61.Location = new System.Drawing.Point(124, 120);
             this.groupBox61.Name = "groupBox61";
-            this.groupBox61.Size = new System.Drawing.Size(111, 44);
-            this.groupBox61.TabIndex = 9;
             this.groupBox61.TabStop = false;
-            this.groupBox61.Text = "Vinegara End(1)";
             // 
             // vinegaraEndBox
             // 
-            this.vinegaraEndBox.Location = new System.Drawing.Point(6, 19);
-            this.vinegaraEndBox.Multiline = false;
+            resources.ApplyResources(this.vinegaraEndBox, "vinegaraEndBox");
             this.vinegaraEndBox.Name = "vinegaraEndBox";
             this.vinegaraEndBox.ReadOnly = true;
-            this.vinegaraEndBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.vinegaraEndBox.Size = new System.Drawing.Size(99, 19);
-            this.vinegaraEndBox.TabIndex = 7;
-            this.vinegaraEndBox.Text = "";
             // 
             // groupBox59
             // 
+            resources.ApplyResources(this.groupBox59, "groupBox59");
             this.groupBox59.Controls.Add(this.mlCumWastedBox);
-            this.groupBox59.Location = new System.Drawing.Point(7, 120);
             this.groupBox59.Name = "groupBox59";
-            this.groupBox59.Size = new System.Drawing.Size(111, 44);
-            this.groupBox59.TabIndex = 8;
             this.groupBox59.TabStop = false;
-            this.groupBox59.Text = "Cum Wasted";
             // 
             // mlCumWastedBox
             // 
-            this.mlCumWastedBox.Location = new System.Drawing.Point(6, 19);
-            this.mlCumWastedBox.Multiline = false;
+            resources.ApplyResources(this.mlCumWastedBox, "mlCumWastedBox");
             this.mlCumWastedBox.Name = "mlCumWastedBox";
             this.mlCumWastedBox.ReadOnly = true;
-            this.mlCumWastedBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.mlCumWastedBox.Size = new System.Drawing.Size(99, 19);
-            this.mlCumWastedBox.TabIndex = 7;
-            this.mlCumWastedBox.Text = "";
             // 
             // groupBox45
             // 
+            resources.ApplyResources(this.groupBox45, "groupBox45");
             this.groupBox45.Controls.Add(this.saveSlotBoxGen);
-            this.groupBox45.Location = new System.Drawing.Point(719, 349);
             this.groupBox45.Name = "groupBox45";
-            this.groupBox45.Size = new System.Drawing.Size(67, 44);
-            this.groupBox45.TabIndex = 28;
             this.groupBox45.TabStop = false;
-            this.groupBox45.Text = "Save Slot";
             // 
             // saveSlotBoxGen
             // 
-            this.saveSlotBoxGen.Location = new System.Drawing.Point(6, 19);
-            this.saveSlotBoxGen.Multiline = false;
+            resources.ApplyResources(this.saveSlotBoxGen, "saveSlotBoxGen");
             this.saveSlotBoxGen.Name = "saveSlotBoxGen";
             this.saveSlotBoxGen.ReadOnly = true;
-            this.saveSlotBoxGen.Size = new System.Drawing.Size(55, 19);
-            this.saveSlotBoxGen.TabIndex = 2;
-            this.saveSlotBoxGen.Text = "No File";
             // 
             // groupBox13
             // 
+            resources.ApplyResources(this.groupBox13, "groupBox13");
             this.groupBox13.Controls.Add(this.mentalHealthBox);
-            this.groupBox13.Location = new System.Drawing.Point(7, 70);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(111, 44);
-            this.groupBox13.TabIndex = 7;
             this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Mental Health";
             // 
             // mentalHealthBox
             // 
-            this.mentalHealthBox.Location = new System.Drawing.Point(7, 19);
-            this.mentalHealthBox.Multiline = false;
+            resources.ApplyResources(this.mentalHealthBox, "mentalHealthBox");
             this.mentalHealthBox.Name = "mentalHealthBox";
             this.mentalHealthBox.ReadOnly = true;
-            this.mentalHealthBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.mentalHealthBox.Size = new System.Drawing.Size(99, 19);
-            this.mentalHealthBox.TabIndex = 0;
-            this.mentalHealthBox.Text = "";
             // 
             // groupBox12
             // 
+            resources.ApplyResources(this.groupBox12, "groupBox12");
             this.groupBox12.Controls.Add(this.playerHealthBox);
-            this.groupBox12.Location = new System.Drawing.Point(124, 70);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(111, 44);
-            this.groupBox12.TabIndex = 6;
             this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Health";
             // 
             // playerHealthBox
             // 
-            this.playerHealthBox.Location = new System.Drawing.Point(6, 19);
-            this.playerHealthBox.Multiline = false;
+            resources.ApplyResources(this.playerHealthBox, "playerHealthBox");
             this.playerHealthBox.Name = "playerHealthBox";
             this.playerHealthBox.ReadOnly = true;
-            this.playerHealthBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.playerHealthBox.Size = new System.Drawing.Size(99, 19);
-            this.playerHealthBox.TabIndex = 0;
-            this.playerHealthBox.Text = "";
             // 
             // groupBox11
             // 
+            resources.ApplyResources(this.groupBox11, "groupBox11");
             this.groupBox11.Controls.Add(this.currentStaminaBox);
-            this.groupBox11.Location = new System.Drawing.Point(241, 70);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(111, 44);
-            this.groupBox11.TabIndex = 5;
             this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Current Stamina";
             // 
             // currentStaminaBox
             // 
-            this.currentStaminaBox.Location = new System.Drawing.Point(6, 19);
-            this.currentStaminaBox.Multiline = false;
+            resources.ApplyResources(this.currentStaminaBox, "currentStaminaBox");
             this.currentStaminaBox.Name = "currentStaminaBox";
             this.currentStaminaBox.ReadOnly = true;
-            this.currentStaminaBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.currentStaminaBox.Size = new System.Drawing.Size(99, 19);
-            this.currentStaminaBox.TabIndex = 12;
-            this.currentStaminaBox.Text = "";
             // 
             // groupBox10
             // 
+            resources.ApplyResources(this.groupBox10, "groupBox10");
             this.groupBox10.Controls.Add(this.currentCumBox);
-            this.groupBox10.Location = new System.Drawing.Point(358, 70);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(111, 44);
-            this.groupBox10.TabIndex = 4;
             this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Current Cum";
             // 
             // currentCumBox
             // 
-            this.currentCumBox.Location = new System.Drawing.Point(6, 19);
-            this.currentCumBox.Multiline = false;
+            resources.ApplyResources(this.currentCumBox, "currentCumBox");
             this.currentCumBox.Name = "currentCumBox";
             this.currentCumBox.ReadOnly = true;
-            this.currentCumBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.currentCumBox.Size = new System.Drawing.Size(99, 19);
-            this.currentCumBox.TabIndex = 9;
-            this.currentCumBox.Text = "";
             // 
             // groupBox9
             // 
+            resources.ApplyResources(this.groupBox9, "groupBox9");
             this.groupBox9.Controls.Add(this.maxCumBox);
-            this.groupBox9.Location = new System.Drawing.Point(358, 20);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(111, 44);
-            this.groupBox9.TabIndex = 3;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Max. Cum";
             // 
             // maxCumBox
             // 
-            this.maxCumBox.Location = new System.Drawing.Point(6, 19);
-            this.maxCumBox.Multiline = false;
+            resources.ApplyResources(this.maxCumBox, "maxCumBox");
             this.maxCumBox.Name = "maxCumBox";
             this.maxCumBox.ReadOnly = true;
-            this.maxCumBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.maxCumBox.Size = new System.Drawing.Size(99, 19);
-            this.maxCumBox.TabIndex = 7;
-            this.maxCumBox.Text = "";
             // 
             // groupBox8
             // 
+            resources.ApplyResources(this.groupBox8, "groupBox8");
             this.groupBox8.Controls.Add(this.casinoTokenBox);
-            this.groupBox8.Location = new System.Drawing.Point(241, 20);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(111, 44);
-            this.groupBox8.TabIndex = 2;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Casino Tokens";
             // 
             // casinoTokenBox
             // 
+            resources.ApplyResources(this.casinoTokenBox, "casinoTokenBox");
             this.casinoTokenBox.BackColor = System.Drawing.SystemColors.Control;
-            this.casinoTokenBox.Location = new System.Drawing.Point(6, 19);
-            this.casinoTokenBox.Multiline = false;
             this.casinoTokenBox.Name = "casinoTokenBox";
             this.casinoTokenBox.ReadOnly = true;
-            this.casinoTokenBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.casinoTokenBox.Size = new System.Drawing.Size(99, 19);
-            this.casinoTokenBox.TabIndex = 11;
-            this.casinoTokenBox.Text = "";
             // 
             // groupBox7
             // 
+            resources.ApplyResources(this.groupBox7, "groupBox7");
             this.groupBox7.Controls.Add(this.moneyTextBox);
-            this.groupBox7.Location = new System.Drawing.Point(124, 20);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(111, 44);
-            this.groupBox7.TabIndex = 1;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Money";
             // 
             // moneyTextBox
             // 
-            this.moneyTextBox.Location = new System.Drawing.Point(6, 19);
-            this.moneyTextBox.Multiline = false;
+            resources.ApplyResources(this.moneyTextBox, "moneyTextBox");
             this.moneyTextBox.Name = "moneyTextBox";
             this.moneyTextBox.ReadOnly = true;
-            this.moneyTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.moneyTextBox.Size = new System.Drawing.Size(99, 19);
-            this.moneyTextBox.TabIndex = 5;
-            this.moneyTextBox.Text = "";
             // 
             // groupBox6
             // 
-            this.groupBox6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Controls.Add(this.playerNameBox);
-            this.groupBox6.Location = new System.Drawing.Point(7, 20);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(111, 44);
-            this.groupBox6.TabIndex = 0;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Name";
             // 
             // playerNameBox
             // 
-            this.playerNameBox.Location = new System.Drawing.Point(6, 19);
-            this.playerNameBox.Multiline = false;
+            resources.ApplyResources(this.playerNameBox, "playerNameBox");
             this.playerNameBox.Name = "playerNameBox";
             this.playerNameBox.ReadOnly = true;
-            this.playerNameBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.playerNameBox.Size = new System.Drawing.Size(99, 19);
-            this.playerNameBox.TabIndex = 13;
-            this.playerNameBox.Text = "";
             // 
             // tabPage6
             // 
+            resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.BackColor = System.Drawing.Color.Transparent;
             this.tabPage6.Controls.Add(this.groupBox15);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(792, 399);
-            this.tabPage6.TabIndex = 0;
-            this.tabPage6.Text = "Bot Info";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // groupBox15
             // 
+            resources.ApplyResources(this.groupBox15, "groupBox15");
             this.groupBox15.BackColor = System.Drawing.Color.Transparent;
             this.groupBox15.Controls.Add(this.groupBox73);
             this.groupBox15.Controls.Add(this.label7);
@@ -1017,431 +791,270 @@
             this.groupBox15.Controls.Add(this.groupBox18);
             this.groupBox15.Controls.Add(this.groupBox17);
             this.groupBox15.Controls.Add(this.groupBox16);
-            this.groupBox15.Location = new System.Drawing.Point(3, 3);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(786, 393);
-            this.groupBox15.TabIndex = 15;
             this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "Bot Values";
             // 
             // groupBox73
             // 
+            resources.ApplyResources(this.groupBox73, "groupBox73");
             this.groupBox73.Controls.Add(this.lastCuddledAtBox);
-            this.groupBox73.Location = new System.Drawing.Point(124, 220);
             this.groupBox73.Name = "groupBox73";
-            this.groupBox73.Size = new System.Drawing.Size(111, 44);
-            this.groupBox73.TabIndex = 28;
             this.groupBox73.TabStop = false;
-            this.groupBox73.Text = "Last cuddled at(1)";
             // 
             // lastCuddledAtBox
             // 
-            this.lastCuddledAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastCuddledAtBox.Multiline = false;
+            resources.ApplyResources(this.lastCuddledAtBox, "lastCuddledAtBox");
             this.lastCuddledAtBox.Name = "lastCuddledAtBox";
             this.lastCuddledAtBox.ReadOnly = true;
-            this.lastCuddledAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastCuddledAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastCuddledAtBox.TabIndex = 23;
-            this.lastCuddledAtBox.Text = "";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 377);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 13);
-            this.label7.TabIndex = 35;
-            this.label7.Text = "(1) Uses Game Time\r\n";
             // 
             // groupBox77
             // 
+            resources.ApplyResources(this.groupBox77, "groupBox77");
             this.groupBox77.Controls.Add(this.lastFuckedAtBox);
-            this.groupBox77.Location = new System.Drawing.Point(7, 220);
             this.groupBox77.Name = "groupBox77";
-            this.groupBox77.Size = new System.Drawing.Size(111, 44);
-            this.groupBox77.TabIndex = 27;
             this.groupBox77.TabStop = false;
-            this.groupBox77.Text = "Last sex at(1)";
             // 
             // lastFuckedAtBox
             // 
-            this.lastFuckedAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastFuckedAtBox.Multiline = false;
+            resources.ApplyResources(this.lastFuckedAtBox, "lastFuckedAtBox");
             this.lastFuckedAtBox.Name = "lastFuckedAtBox";
             this.lastFuckedAtBox.ReadOnly = true;
-            this.lastFuckedAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastFuckedAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastFuckedAtBox.TabIndex = 23;
-            this.lastFuckedAtBox.Text = "";
             // 
             // groupBox76
             // 
+            resources.ApplyResources(this.groupBox76, "groupBox76");
             this.groupBox76.Controls.Add(this.lastEquipmentAtBox);
-            this.groupBox76.Location = new System.Drawing.Point(358, 70);
             this.groupBox76.Name = "groupBox76";
-            this.groupBox76.Size = new System.Drawing.Size(111, 44);
-            this.groupBox76.TabIndex = 23;
             this.groupBox76.TabStop = false;
-            this.groupBox76.Text = "Last equipm. at(1)";
             // 
             // lastEquipmentAtBox
             // 
-            this.lastEquipmentAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastEquipmentAtBox.Multiline = false;
+            resources.ApplyResources(this.lastEquipmentAtBox, "lastEquipmentAtBox");
             this.lastEquipmentAtBox.Name = "lastEquipmentAtBox";
             this.lastEquipmentAtBox.ReadOnly = true;
-            this.lastEquipmentAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastEquipmentAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastEquipmentAtBox.TabIndex = 0;
-            this.lastEquipmentAtBox.Text = "";
             // 
             // groupBox75
             // 
+            resources.ApplyResources(this.groupBox75, "groupBox75");
             this.groupBox75.Controls.Add(this.lastOutsideWithBotAtBox);
-            this.groupBox75.Location = new System.Drawing.Point(241, 70);
             this.groupBox75.Name = "groupBox75";
-            this.groupBox75.Size = new System.Drawing.Size(111, 44);
-            this.groupBox75.TabIndex = 22;
             this.groupBox75.TabStop = false;
-            this.groupBox75.Text = "Last outside at(1)";
             // 
             // lastOutsideWithBotAtBox
             // 
-            this.lastOutsideWithBotAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastOutsideWithBotAtBox.Multiline = false;
+            resources.ApplyResources(this.lastOutsideWithBotAtBox, "lastOutsideWithBotAtBox");
             this.lastOutsideWithBotAtBox.Name = "lastOutsideWithBotAtBox";
             this.lastOutsideWithBotAtBox.ReadOnly = true;
-            this.lastOutsideWithBotAtBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lastOutsideWithBotAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastOutsideWithBotAtBox.TabIndex = 0;
-            this.lastOutsideWithBotAtBox.Text = "";
             // 
             // groupBox58
             // 
+            resources.ApplyResources(this.groupBox58, "groupBox58");
             this.groupBox58.Controls.Add(this.mlCameInMouthBox);
-            this.groupBox58.Location = new System.Drawing.Point(358, 120);
             this.groupBox58.Name = "groupBox58";
-            this.groupBox58.Size = new System.Drawing.Size(111, 44);
-            this.groupBox58.TabIndex = 25;
             this.groupBox58.TabStop = false;
-            this.groupBox58.Text = "ML came in Mouth";
             // 
             // mlCameInMouthBox
             // 
-            this.mlCameInMouthBox.Location = new System.Drawing.Point(6, 19);
-            this.mlCameInMouthBox.Multiline = false;
+            resources.ApplyResources(this.mlCameInMouthBox, "mlCameInMouthBox");
             this.mlCameInMouthBox.Name = "mlCameInMouthBox";
             this.mlCameInMouthBox.ReadOnly = true;
-            this.mlCameInMouthBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.mlCameInMouthBox.Size = new System.Drawing.Size(99, 19);
-            this.mlCameInMouthBox.TabIndex = 0;
-            this.mlCameInMouthBox.Text = "";
             // 
             // groupBox44
             // 
+            resources.ApplyResources(this.groupBox44, "groupBox44");
             this.groupBox44.Controls.Add(this.saveSlotBoxBot);
-            this.groupBox44.Location = new System.Drawing.Point(719, 349);
             this.groupBox44.Name = "groupBox44";
-            this.groupBox44.Size = new System.Drawing.Size(67, 44);
-            this.groupBox44.TabIndex = 27;
             this.groupBox44.TabStop = false;
-            this.groupBox44.Text = "Save Slot";
             // 
             // saveSlotBoxBot
             // 
-            this.saveSlotBoxBot.Location = new System.Drawing.Point(6, 19);
-            this.saveSlotBoxBot.Multiline = false;
+            resources.ApplyResources(this.saveSlotBoxBot, "saveSlotBoxBot");
             this.saveSlotBoxBot.Name = "saveSlotBoxBot";
             this.saveSlotBoxBot.ReadOnly = true;
-            this.saveSlotBoxBot.Size = new System.Drawing.Size(55, 19);
-            this.saveSlotBoxBot.TabIndex = 2;
-            this.saveSlotBoxBot.Text = "No File";
             // 
             // groupBox39
             // 
+            resources.ApplyResources(this.groupBox39, "groupBox39");
             this.groupBox39.Controls.Add(this.cameOutsideBox);
-            this.groupBox39.Location = new System.Drawing.Point(358, 170);
             this.groupBox39.Name = "groupBox39";
-            this.groupBox39.Size = new System.Drawing.Size(111, 44);
-            this.groupBox39.TabIndex = 26;
             this.groupBox39.TabStop = false;
-            this.groupBox39.Text = "Came outside";
             // 
             // cameOutsideBox
             // 
-            this.cameOutsideBox.Location = new System.Drawing.Point(6, 19);
-            this.cameOutsideBox.Multiline = false;
+            resources.ApplyResources(this.cameOutsideBox, "cameOutsideBox");
             this.cameOutsideBox.Name = "cameOutsideBox";
             this.cameOutsideBox.ReadOnly = true;
-            this.cameOutsideBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cameOutsideBox.Size = new System.Drawing.Size(99, 19);
-            this.cameOutsideBox.TabIndex = 23;
-            this.cameOutsideBox.Text = "";
             // 
             // groupBox38
             // 
+            resources.ApplyResources(this.groupBox38, "groupBox38");
             this.groupBox38.Controls.Add(this.timesCumInsideOral);
-            this.groupBox38.Location = new System.Drawing.Point(241, 170);
             this.groupBox38.Name = "groupBox38";
-            this.groupBox38.Size = new System.Drawing.Size(111, 44);
-            this.groupBox38.TabIndex = 25;
             this.groupBox38.TabStop = false;
-            this.groupBox38.Text = "Came inside Mouth";
             // 
             // timesCumInsideOral
             // 
-            this.timesCumInsideOral.Location = new System.Drawing.Point(6, 19);
-            this.timesCumInsideOral.Multiline = false;
+            resources.ApplyResources(this.timesCumInsideOral, "timesCumInsideOral");
             this.timesCumInsideOral.Name = "timesCumInsideOral";
             this.timesCumInsideOral.ReadOnly = true;
-            this.timesCumInsideOral.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesCumInsideOral.Size = new System.Drawing.Size(99, 19);
-            this.timesCumInsideOral.TabIndex = 23;
-            this.timesCumInsideOral.Text = "";
             // 
             // groupBox37
             // 
+            resources.ApplyResources(this.groupBox37, "groupBox37");
             this.groupBox37.Controls.Add(this.timesCumInsideAss);
-            this.groupBox37.Location = new System.Drawing.Point(124, 170);
             this.groupBox37.Name = "groupBox37";
-            this.groupBox37.Size = new System.Drawing.Size(111, 44);
-            this.groupBox37.TabIndex = 25;
             this.groupBox37.TabStop = false;
-            this.groupBox37.Text = "Came inside Ass";
             // 
             // timesCumInsideAss
             // 
-            this.timesCumInsideAss.Location = new System.Drawing.Point(6, 19);
-            this.timesCumInsideAss.Multiline = false;
+            resources.ApplyResources(this.timesCumInsideAss, "timesCumInsideAss");
             this.timesCumInsideAss.Name = "timesCumInsideAss";
             this.timesCumInsideAss.ReadOnly = true;
-            this.timesCumInsideAss.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesCumInsideAss.Size = new System.Drawing.Size(99, 19);
-            this.timesCumInsideAss.TabIndex = 23;
-            this.timesCumInsideAss.Text = "";
             // 
             // groupBox36
             // 
+            resources.ApplyResources(this.groupBox36, "groupBox36");
             this.groupBox36.Controls.Add(this.timesCumInsideVag);
-            this.groupBox36.Location = new System.Drawing.Point(7, 170);
             this.groupBox36.Name = "groupBox36";
-            this.groupBox36.Size = new System.Drawing.Size(111, 44);
-            this.groupBox36.TabIndex = 24;
             this.groupBox36.TabStop = false;
-            this.groupBox36.Text = "Came inside Vag";
             // 
             // timesCumInsideVag
             // 
-            this.timesCumInsideVag.Location = new System.Drawing.Point(6, 19);
-            this.timesCumInsideVag.Multiline = false;
+            resources.ApplyResources(this.timesCumInsideVag, "timesCumInsideVag");
             this.timesCumInsideVag.Name = "timesCumInsideVag";
             this.timesCumInsideVag.ReadOnly = true;
-            this.timesCumInsideVag.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesCumInsideVag.Size = new System.Drawing.Size(99, 19);
-            this.timesCumInsideVag.TabIndex = 23;
-            this.timesCumInsideVag.Text = "";
             // 
             // groupBox24
             // 
+            resources.ApplyResources(this.groupBox24, "groupBox24");
             this.groupBox24.Controls.Add(this.cumInStomach);
-            this.groupBox24.Location = new System.Drawing.Point(241, 120);
             this.groupBox24.Name = "groupBox24";
-            this.groupBox24.Size = new System.Drawing.Size(111, 44);
-            this.groupBox24.TabIndex = 24;
             this.groupBox24.TabStop = false;
-            this.groupBox24.Text = "Cum in Stomach";
             // 
             // cumInStomach
             // 
-            this.cumInStomach.Location = new System.Drawing.Point(6, 19);
-            this.cumInStomach.Multiline = false;
+            resources.ApplyResources(this.cumInStomach, "cumInStomach");
             this.cumInStomach.Name = "cumInStomach";
             this.cumInStomach.ReadOnly = true;
-            this.cumInStomach.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cumInStomach.Size = new System.Drawing.Size(99, 19);
-            this.cumInStomach.TabIndex = 0;
-            this.cumInStomach.Text = "";
             // 
             // groupBox23
             // 
+            resources.ApplyResources(this.groupBox23, "groupBox23");
             this.groupBox23.Controls.Add(this.cumInAss);
-            this.groupBox23.Location = new System.Drawing.Point(124, 120);
             this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(111, 44);
-            this.groupBox23.TabIndex = 23;
             this.groupBox23.TabStop = false;
-            this.groupBox23.Text = "Cum in Ass";
             // 
             // cumInAss
             // 
-            this.cumInAss.Location = new System.Drawing.Point(6, 19);
-            this.cumInAss.Multiline = false;
+            resources.ApplyResources(this.cumInAss, "cumInAss");
             this.cumInAss.Name = "cumInAss";
             this.cumInAss.ReadOnly = true;
-            this.cumInAss.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cumInAss.Size = new System.Drawing.Size(99, 19);
-            this.cumInAss.TabIndex = 0;
-            this.cumInAss.Text = "";
             // 
             // groupBox22
             // 
+            resources.ApplyResources(this.groupBox22, "groupBox22");
             this.groupBox22.Controls.Add(this.cumInPussy);
-            this.groupBox22.Location = new System.Drawing.Point(7, 120);
             this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(111, 44);
-            this.groupBox22.TabIndex = 22;
             this.groupBox22.TabStop = false;
-            this.groupBox22.Text = "Cum in Pussy";
             // 
             // cumInPussy
             // 
-            this.cumInPussy.Location = new System.Drawing.Point(6, 19);
-            this.cumInPussy.Multiline = false;
+            resources.ApplyResources(this.cumInPussy, "cumInPussy");
             this.cumInPussy.Name = "cumInPussy";
             this.cumInPussy.ReadOnly = true;
-            this.cumInPussy.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cumInPussy.Size = new System.Drawing.Size(99, 19);
-            this.cumInPussy.TabIndex = 23;
-            this.cumInPussy.Text = "";
             // 
             // groupBox21
             // 
+            resources.ApplyResources(this.groupBox21, "groupBox21");
             this.groupBox21.Controls.Add(this.botIntBox);
-            this.groupBox21.Location = new System.Drawing.Point(124, 70);
             this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(111, 44);
-            this.groupBox21.TabIndex = 21;
             this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "Intelligence";
             // 
             // botIntBox
             // 
-            this.botIntBox.Location = new System.Drawing.Point(6, 19);
-            this.botIntBox.Multiline = false;
+            resources.ApplyResources(this.botIntBox, "botIntBox");
             this.botIntBox.Name = "botIntBox";
             this.botIntBox.ReadOnly = true;
-            this.botIntBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.botIntBox.Size = new System.Drawing.Size(99, 19);
-            this.botIntBox.TabIndex = 0;
-            this.botIntBox.Text = "";
             // 
             // groupBox20
             // 
+            resources.ApplyResources(this.groupBox20, "groupBox20");
             this.groupBox20.Controls.Add(this.botMoodBox);
-            this.groupBox20.Location = new System.Drawing.Point(7, 70);
             this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Size = new System.Drawing.Size(111, 44);
-            this.groupBox20.TabIndex = 20;
             this.groupBox20.TabStop = false;
-            this.groupBox20.Text = "Mood";
             // 
             // botMoodBox
             // 
-            this.botMoodBox.Location = new System.Drawing.Point(6, 19);
-            this.botMoodBox.Multiline = false;
+            resources.ApplyResources(this.botMoodBox, "botMoodBox");
             this.botMoodBox.Name = "botMoodBox";
             this.botMoodBox.ReadOnly = true;
-            this.botMoodBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.botMoodBox.Size = new System.Drawing.Size(99, 19);
-            this.botMoodBox.TabIndex = 21;
-            this.botMoodBox.Text = "";
             // 
             // groupBox19
             // 
+            resources.ApplyResources(this.groupBox19, "groupBox19");
             this.groupBox19.Controls.Add(this.botLongingBox);
-            this.groupBox19.Location = new System.Drawing.Point(358, 20);
             this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(111, 44);
-            this.groupBox19.TabIndex = 19;
             this.groupBox19.TabStop = false;
-            this.groupBox19.Text = "Longing";
             // 
             // botLongingBox
             // 
-            this.botLongingBox.Location = new System.Drawing.Point(6, 19);
-            this.botLongingBox.Multiline = false;
+            resources.ApplyResources(this.botLongingBox, "botLongingBox");
             this.botLongingBox.Name = "botLongingBox";
             this.botLongingBox.ReadOnly = true;
-            this.botLongingBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.botLongingBox.Size = new System.Drawing.Size(99, 19);
-            this.botLongingBox.TabIndex = 20;
-            this.botLongingBox.Text = "";
             // 
             // botSympathyBox
             // 
-            this.botSympathyBox.Location = new System.Drawing.Point(245, 38);
-            this.botSympathyBox.Multiline = false;
+            resources.ApplyResources(this.botSympathyBox, "botSympathyBox");
             this.botSympathyBox.Name = "botSympathyBox";
             this.botSympathyBox.ReadOnly = true;
-            this.botSympathyBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.botSympathyBox.Size = new System.Drawing.Size(99, 19);
-            this.botSympathyBox.TabIndex = 18;
-            this.botSympathyBox.Text = "";
             // 
             // groupBox18
             // 
-            this.groupBox18.Location = new System.Drawing.Point(241, 20);
+            resources.ApplyResources(this.groupBox18, "groupBox18");
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(111, 44);
-            this.groupBox18.TabIndex = 17;
             this.groupBox18.TabStop = false;
-            this.groupBox18.Text = "Sympathy";
             // 
             // groupBox17
             // 
+            resources.ApplyResources(this.groupBox17, "groupBox17");
             this.groupBox17.Controls.Add(this.botLustBox);
-            this.groupBox17.Location = new System.Drawing.Point(124, 20);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(111, 44);
-            this.groupBox17.TabIndex = 16;
             this.groupBox17.TabStop = false;
-            this.groupBox17.Text = "Lust";
             // 
             // botLustBox
             // 
-            this.botLustBox.Location = new System.Drawing.Point(6, 19);
-            this.botLustBox.Multiline = false;
+            resources.ApplyResources(this.botLustBox, "botLustBox");
             this.botLustBox.Name = "botLustBox";
             this.botLustBox.ReadOnly = true;
-            this.botLustBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.botLustBox.Size = new System.Drawing.Size(99, 19);
-            this.botLustBox.TabIndex = 17;
-            this.botLustBox.Text = "";
             // 
             // groupBox16
             // 
+            resources.ApplyResources(this.groupBox16, "groupBox16");
             this.groupBox16.Controls.Add(this.botNameBox);
-            this.groupBox16.Location = new System.Drawing.Point(7, 20);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(111, 44);
-            this.groupBox16.TabIndex = 15;
             this.groupBox16.TabStop = false;
-            this.groupBox16.Text = "Bot Name";
             // 
             // botNameBox
             // 
-            this.botNameBox.Location = new System.Drawing.Point(6, 19);
-            this.botNameBox.Multiline = false;
+            resources.ApplyResources(this.botNameBox, "botNameBox");
             this.botNameBox.Name = "botNameBox";
             this.botNameBox.ReadOnly = true;
-            this.botNameBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.botNameBox.Size = new System.Drawing.Size(99, 19);
-            this.botNameBox.TabIndex = 0;
-            this.botNameBox.Text = "";
             // 
             // tabPage7
             // 
+            resources.ApplyResources(this.tabPage7, "tabPage7");
             this.tabPage7.Controls.Add(this.groupBox25);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(792, 399);
-            this.tabPage7.TabIndex = 5;
-            this.tabPage7.Text = "Misc Info";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // groupBox25
             // 
+            resources.ApplyResources(this.groupBox25, "groupBox25");
             this.groupBox25.Controls.Add(this.groupBox80);
             this.groupBox25.Controls.Add(this.groupBox79);
             this.groupBox25.Controls.Add(this.groupBox78);
@@ -1463,1023 +1076,689 @@
             this.groupBox25.Controls.Add(this.groupBox28);
             this.groupBox25.Controls.Add(this.groupBox27);
             this.groupBox25.Controls.Add(this.groupBox26);
-            this.groupBox25.Location = new System.Drawing.Point(3, 3);
             this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Size = new System.Drawing.Size(786, 393);
-            this.groupBox25.TabIndex = 16;
             this.groupBox25.TabStop = false;
-            this.groupBox25.Text = "Misc Values";
             // 
             // groupBox80
             // 
+            resources.ApplyResources(this.groupBox80, "groupBox80");
             this.groupBox80.Controls.Add(this.weekdayTextBox);
-            this.groupBox80.Location = new System.Drawing.Point(357, 20);
             this.groupBox80.Name = "groupBox80";
-            this.groupBox80.Size = new System.Drawing.Size(111, 44);
-            this.groupBox80.TabIndex = 31;
             this.groupBox80.TabStop = false;
-            this.groupBox80.Text = "Weekday(1)";
             // 
             // weekdayTextBox
             // 
-            this.weekdayTextBox.Location = new System.Drawing.Point(6, 19);
-            this.weekdayTextBox.Multiline = false;
+            resources.ApplyResources(this.weekdayTextBox, "weekdayTextBox");
             this.weekdayTextBox.Name = "weekdayTextBox";
             this.weekdayTextBox.ReadOnly = true;
-            this.weekdayTextBox.Size = new System.Drawing.Size(99, 19);
-            this.weekdayTextBox.TabIndex = 30;
-            this.weekdayTextBox.Text = "";
             // 
             // groupBox79
             // 
+            resources.ApplyResources(this.groupBox79, "groupBox79");
             this.groupBox79.Controls.Add(this.priestBotPointsBox);
-            this.groupBox79.Location = new System.Drawing.Point(669, 120);
             this.groupBox79.Name = "groupBox79";
-            this.groupBox79.Size = new System.Drawing.Size(111, 44);
-            this.groupBox79.TabIndex = 34;
             this.groupBox79.TabStop = false;
-            this.groupBox79.Text = "PriestBot Point(4,5)";
             // 
             // priestBotPointsBox
             // 
-            this.priestBotPointsBox.Location = new System.Drawing.Point(6, 19);
-            this.priestBotPointsBox.Multiline = false;
+            resources.ApplyResources(this.priestBotPointsBox, "priestBotPointsBox");
             this.priestBotPointsBox.Name = "priestBotPointsBox";
             this.priestBotPointsBox.ReadOnly = true;
-            this.priestBotPointsBox.Size = new System.Drawing.Size(99, 19);
-            this.priestBotPointsBox.TabIndex = 30;
-            this.priestBotPointsBox.Text = "";
             // 
             // groupBox78
             // 
+            resources.ApplyResources(this.groupBox78, "groupBox78");
             this.groupBox78.Controls.Add(this.nunPointsBox);
-            this.groupBox78.Location = new System.Drawing.Point(669, 70);
             this.groupBox78.Name = "groupBox78";
-            this.groupBox78.Size = new System.Drawing.Size(111, 44);
-            this.groupBox78.TabIndex = 33;
             this.groupBox78.TabStop = false;
-            this.groupBox78.Text = "Nun Points(4,5)";
             // 
             // nunPointsBox
             // 
-            this.nunPointsBox.Location = new System.Drawing.Point(6, 19);
-            this.nunPointsBox.Multiline = false;
+            resources.ApplyResources(this.nunPointsBox, "nunPointsBox");
             this.nunPointsBox.Name = "nunPointsBox";
             this.nunPointsBox.ReadOnly = true;
-            this.nunPointsBox.Size = new System.Drawing.Size(99, 19);
-            this.nunPointsBox.TabIndex = 30;
-            this.nunPointsBox.Text = "";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(245, 377);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(103, 13);
-            this.label5.TabIndex = 36;
-            this.label5.Text = "(5) Uses Game Time";
             // 
             // groupBox74
             // 
+            resources.ApplyResources(this.groupBox74, "groupBox74");
             this.groupBox74.Controls.Add(this.lastStreamedAtBox);
-            this.groupBox74.Location = new System.Drawing.Point(357, 70);
             this.groupBox74.Name = "groupBox74";
-            this.groupBox74.Size = new System.Drawing.Size(111, 44);
-            this.groupBox74.TabIndex = 32;
             this.groupBox74.TabStop = false;
-            this.groupBox74.Text = "Last Stream at(5)";
             // 
             // lastStreamedAtBox
             // 
-            this.lastStreamedAtBox.Location = new System.Drawing.Point(6, 19);
-            this.lastStreamedAtBox.Multiline = false;
+            resources.ApplyResources(this.lastStreamedAtBox, "lastStreamedAtBox");
             this.lastStreamedAtBox.Name = "lastStreamedAtBox";
             this.lastStreamedAtBox.ReadOnly = true;
-            this.lastStreamedAtBox.Size = new System.Drawing.Size(99, 19);
-            this.lastStreamedAtBox.TabIndex = 30;
-            this.lastStreamedAtBox.Text = "";
             // 
             // groupBox60
             // 
+            resources.ApplyResources(this.groupBox60, "groupBox60");
             this.groupBox60.Controls.Add(this.searchTextBox);
-            this.groupBox60.Location = new System.Drawing.Point(669, 20);
             this.groupBox60.Name = "groupBox60";
-            this.groupBox60.Size = new System.Drawing.Size(111, 44);
-            this.groupBox60.TabIndex = 32;
             this.groupBox60.TabStop = false;
-            this.groupBox60.Text = "\"Search\"(4)";
             // 
             // searchTextBox
             // 
-            this.searchTextBox.Location = new System.Drawing.Point(6, 19);
-            this.searchTextBox.Multiline = false;
+            resources.ApplyResources(this.searchTextBox, "searchTextBox");
             this.searchTextBox.Name = "searchTextBox";
             this.searchTextBox.ReadOnly = true;
-            this.searchTextBox.Size = new System.Drawing.Size(99, 19);
-            this.searchTextBox.TabIndex = 30;
-            this.searchTextBox.Text = "";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 338);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 52);
-            this.label1.TabIndex = 32;
-            this.label1.Text = "(1) Cannot be changed, rent is always on Monday\r\n(2) Converted for readability, n" +
-    "ot an actual value\r\n(3) No support will be given if changed\r\n(4) In some way rel" +
-    "ated to the Church Questline";
             // 
             // groupBox53
             // 
+            resources.ApplyResources(this.groupBox53, "groupBox53");
             this.groupBox53.Controls.Add(this.groupBox56);
             this.groupBox53.Controls.Add(this.groupBox57);
-            this.groupBox53.Location = new System.Drawing.Point(252, 120);
             this.groupBox53.Name = "groupBox53";
-            this.groupBox53.Size = new System.Drawing.Size(240, 69);
-            this.groupBox53.TabIndex = 28;
             this.groupBox53.TabStop = false;
-            this.groupBox53.Text = "Word Chain";
             // 
             // groupBox56
             // 
+            resources.ApplyResources(this.groupBox56, "groupBox56");
             this.groupBox56.Controls.Add(this.timesLostWordChainBox);
-            this.groupBox56.Location = new System.Drawing.Point(123, 19);
             this.groupBox56.Name = "groupBox56";
-            this.groupBox56.Size = new System.Drawing.Size(111, 44);
-            this.groupBox56.TabIndex = 25;
             this.groupBox56.TabStop = false;
-            this.groupBox56.Text = "Times Lost";
             // 
             // timesLostWordChainBox
             // 
-            this.timesLostWordChainBox.Location = new System.Drawing.Point(6, 19);
-            this.timesLostWordChainBox.Multiline = false;
+            resources.ApplyResources(this.timesLostWordChainBox, "timesLostWordChainBox");
             this.timesLostWordChainBox.Name = "timesLostWordChainBox";
             this.timesLostWordChainBox.ReadOnly = true;
-            this.timesLostWordChainBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesLostWordChainBox.Size = new System.Drawing.Size(99, 19);
-            this.timesLostWordChainBox.TabIndex = 21;
-            this.timesLostWordChainBox.Text = "";
             // 
             // groupBox57
             // 
+            resources.ApplyResources(this.groupBox57, "groupBox57");
             this.groupBox57.Controls.Add(this.timesWonWordChainBox);
-            this.groupBox57.Location = new System.Drawing.Point(6, 19);
             this.groupBox57.Name = "groupBox57";
-            this.groupBox57.Size = new System.Drawing.Size(111, 44);
-            this.groupBox57.TabIndex = 23;
             this.groupBox57.TabStop = false;
-            this.groupBox57.Text = "Times Won";
             // 
             // timesWonWordChainBox
             // 
-            this.timesWonWordChainBox.Location = new System.Drawing.Point(6, 19);
-            this.timesWonWordChainBox.Multiline = false;
+            resources.ApplyResources(this.timesWonWordChainBox, "timesWonWordChainBox");
             this.timesWonWordChainBox.Name = "timesWonWordChainBox";
             this.timesWonWordChainBox.ReadOnly = true;
-            this.timesWonWordChainBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesWonWordChainBox.Size = new System.Drawing.Size(99, 19);
-            this.timesWonWordChainBox.TabIndex = 21;
-            this.timesWonWordChainBox.Text = "";
             // 
             // groupBox52
             // 
+            resources.ApplyResources(this.groupBox52, "groupBox52");
             this.groupBox52.Controls.Add(this.groupBox54);
             this.groupBox52.Controls.Add(this.groupBox55);
-            this.groupBox52.Location = new System.Drawing.Point(252, 195);
             this.groupBox52.Name = "groupBox52";
-            this.groupBox52.Size = new System.Drawing.Size(240, 69);
-            this.groupBox52.TabIndex = 27;
             this.groupBox52.TabStop = false;
-            this.groupBox52.Text = "Chess";
             // 
             // groupBox54
             // 
+            resources.ApplyResources(this.groupBox54, "groupBox54");
             this.groupBox54.Controls.Add(this.timesLostChessBox);
-            this.groupBox54.Location = new System.Drawing.Point(123, 19);
             this.groupBox54.Name = "groupBox54";
-            this.groupBox54.Size = new System.Drawing.Size(111, 44);
-            this.groupBox54.TabIndex = 25;
             this.groupBox54.TabStop = false;
-            this.groupBox54.Text = "Times Lost";
             // 
             // timesLostChessBox
             // 
-            this.timesLostChessBox.Location = new System.Drawing.Point(6, 19);
-            this.timesLostChessBox.Multiline = false;
+            resources.ApplyResources(this.timesLostChessBox, "timesLostChessBox");
             this.timesLostChessBox.Name = "timesLostChessBox";
             this.timesLostChessBox.ReadOnly = true;
-            this.timesLostChessBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesLostChessBox.Size = new System.Drawing.Size(99, 19);
-            this.timesLostChessBox.TabIndex = 21;
-            this.timesLostChessBox.Text = "";
             // 
             // groupBox55
             // 
+            resources.ApplyResources(this.groupBox55, "groupBox55");
             this.groupBox55.Controls.Add(this.timesWonChessBox);
-            this.groupBox55.Location = new System.Drawing.Point(6, 19);
             this.groupBox55.Name = "groupBox55";
-            this.groupBox55.Size = new System.Drawing.Size(111, 44);
-            this.groupBox55.TabIndex = 23;
             this.groupBox55.TabStop = false;
-            this.groupBox55.Text = "Times Won";
             // 
             // timesWonChessBox
             // 
-            this.timesWonChessBox.Location = new System.Drawing.Point(6, 19);
-            this.timesWonChessBox.Multiline = false;
+            resources.ApplyResources(this.timesWonChessBox, "timesWonChessBox");
             this.timesWonChessBox.Name = "timesWonChessBox";
             this.timesWonChessBox.ReadOnly = true;
-            this.timesWonChessBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesWonChessBox.Size = new System.Drawing.Size(99, 19);
-            this.timesWonChessBox.TabIndex = 21;
-            this.timesWonChessBox.Text = "";
             // 
             // groupBox48
             // 
+            resources.ApplyResources(this.groupBox48, "groupBox48");
             this.groupBox48.Controls.Add(this.groupBox51);
             this.groupBox48.Controls.Add(this.groupBox49);
             this.groupBox48.Controls.Add(this.groupBox50);
-            this.groupBox48.Location = new System.Drawing.Point(252, 270);
             this.groupBox48.Name = "groupBox48";
-            this.groupBox48.Size = new System.Drawing.Size(357, 69);
-            this.groupBox48.TabIndex = 26;
             this.groupBox48.TabStop = false;
-            this.groupBox48.Text = "Old Maid";
             // 
             // groupBox51
             // 
+            resources.ApplyResources(this.groupBox51, "groupBox51");
             this.groupBox51.Controls.Add(this.timesRanAwayOldMaidBox);
-            this.groupBox51.Location = new System.Drawing.Point(240, 19);
             this.groupBox51.Name = "groupBox51";
-            this.groupBox51.Size = new System.Drawing.Size(111, 44);
-            this.groupBox51.TabIndex = 26;
             this.groupBox51.TabStop = false;
-            this.groupBox51.Text = "Times Ran Away";
             // 
             // timesRanAwayOldMaidBox
             // 
-            this.timesRanAwayOldMaidBox.Location = new System.Drawing.Point(6, 19);
-            this.timesRanAwayOldMaidBox.Multiline = false;
+            resources.ApplyResources(this.timesRanAwayOldMaidBox, "timesRanAwayOldMaidBox");
             this.timesRanAwayOldMaidBox.Name = "timesRanAwayOldMaidBox";
             this.timesRanAwayOldMaidBox.ReadOnly = true;
-            this.timesRanAwayOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesRanAwayOldMaidBox.Size = new System.Drawing.Size(99, 19);
-            this.timesRanAwayOldMaidBox.TabIndex = 21;
-            this.timesRanAwayOldMaidBox.Text = "";
             // 
             // groupBox49
             // 
+            resources.ApplyResources(this.groupBox49, "groupBox49");
             this.groupBox49.Controls.Add(this.timesLostOldMaidBox);
-            this.groupBox49.Location = new System.Drawing.Point(123, 19);
             this.groupBox49.Name = "groupBox49";
-            this.groupBox49.Size = new System.Drawing.Size(111, 44);
-            this.groupBox49.TabIndex = 25;
             this.groupBox49.TabStop = false;
-            this.groupBox49.Text = "Times Lost";
             // 
             // timesLostOldMaidBox
             // 
-            this.timesLostOldMaidBox.Location = new System.Drawing.Point(6, 19);
-            this.timesLostOldMaidBox.Multiline = false;
+            resources.ApplyResources(this.timesLostOldMaidBox, "timesLostOldMaidBox");
             this.timesLostOldMaidBox.Name = "timesLostOldMaidBox";
             this.timesLostOldMaidBox.ReadOnly = true;
-            this.timesLostOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesLostOldMaidBox.Size = new System.Drawing.Size(99, 19);
-            this.timesLostOldMaidBox.TabIndex = 21;
-            this.timesLostOldMaidBox.Text = "";
             // 
             // groupBox50
             // 
+            resources.ApplyResources(this.groupBox50, "groupBox50");
             this.groupBox50.Controls.Add(this.timesWonOldMaidBox);
-            this.groupBox50.Location = new System.Drawing.Point(6, 19);
             this.groupBox50.Name = "groupBox50";
-            this.groupBox50.Size = new System.Drawing.Size(111, 44);
-            this.groupBox50.TabIndex = 23;
             this.groupBox50.TabStop = false;
-            this.groupBox50.Text = "Times Won";
             // 
             // timesWonOldMaidBox
             // 
-            this.timesWonOldMaidBox.Location = new System.Drawing.Point(6, 19);
-            this.timesWonOldMaidBox.Multiline = false;
+            resources.ApplyResources(this.timesWonOldMaidBox, "timesWonOldMaidBox");
             this.timesWonOldMaidBox.Name = "timesWonOldMaidBox";
             this.timesWonOldMaidBox.ReadOnly = true;
-            this.timesWonOldMaidBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.timesWonOldMaidBox.Size = new System.Drawing.Size(99, 19);
-            this.timesWonOldMaidBox.TabIndex = 21;
-            this.timesWonOldMaidBox.Text = "";
             // 
             // groupBox47
             // 
+            resources.ApplyResources(this.groupBox47, "groupBox47");
             this.groupBox47.Controls.Add(this.streamCountBox);
-            this.groupBox47.Location = new System.Drawing.Point(240, 70);
             this.groupBox47.Name = "groupBox47";
-            this.groupBox47.Size = new System.Drawing.Size(111, 44);
-            this.groupBox47.TabIndex = 31;
             this.groupBox47.TabStop = false;
-            this.groupBox47.Text = "Amount Streams";
             // 
             // streamCountBox
             // 
-            this.streamCountBox.Location = new System.Drawing.Point(6, 19);
-            this.streamCountBox.Multiline = false;
+            resources.ApplyResources(this.streamCountBox, "streamCountBox");
             this.streamCountBox.Name = "streamCountBox";
             this.streamCountBox.ReadOnly = true;
-            this.streamCountBox.Size = new System.Drawing.Size(99, 19);
-            this.streamCountBox.TabIndex = 30;
-            this.streamCountBox.Text = "";
             // 
             // groupBox46
             // 
+            resources.ApplyResources(this.groupBox46, "groupBox46");
             this.groupBox46.Controls.Add(this.rentTextBox);
-            this.groupBox46.Location = new System.Drawing.Point(240, 20);
             this.groupBox46.Name = "groupBox46";
-            this.groupBox46.Size = new System.Drawing.Size(111, 44);
-            this.groupBox46.TabIndex = 29;
             this.groupBox46.TabStop = false;
-            this.groupBox46.Text = "Rent in(1)";
             // 
             // rentTextBox
             // 
-            this.rentTextBox.Location = new System.Drawing.Point(6, 19);
-            this.rentTextBox.Multiline = false;
+            resources.ApplyResources(this.rentTextBox, "rentTextBox");
             this.rentTextBox.Name = "rentTextBox";
             this.rentTextBox.ReadOnly = true;
-            this.rentTextBox.Size = new System.Drawing.Size(99, 19);
-            this.rentTextBox.TabIndex = 30;
-            this.rentTextBox.Text = "";
             // 
             // groupBox40
             // 
+            resources.ApplyResources(this.groupBox40, "groupBox40");
             this.groupBox40.Controls.Add(this.groupBox41);
             this.groupBox40.Controls.Add(this.groupBox42);
-            this.groupBox40.Location = new System.Drawing.Point(6, 270);
             this.groupBox40.Name = "groupBox40";
-            this.groupBox40.Size = new System.Drawing.Size(240, 69);
-            this.groupBox40.TabIndex = 28;
             this.groupBox40.TabStop = false;
-            this.groupBox40.Text = "Gametime";
             // 
             // groupBox41
             // 
+            resources.ApplyResources(this.groupBox41, "groupBox41");
             this.groupBox41.Controls.Add(this.gameTimeFormatted);
-            this.groupBox41.Location = new System.Drawing.Point(123, 19);
             this.groupBox41.Name = "groupBox41";
-            this.groupBox41.Size = new System.Drawing.Size(111, 44);
-            this.groupBox41.TabIndex = 27;
             this.groupBox41.TabStop = false;
-            this.groupBox41.Text = "Formatted(2)";
             // 
             // gameTimeFormatted
             // 
-            this.gameTimeFormatted.Location = new System.Drawing.Point(6, 19);
-            this.gameTimeFormatted.Multiline = false;
+            resources.ApplyResources(this.gameTimeFormatted, "gameTimeFormatted");
             this.gameTimeFormatted.Name = "gameTimeFormatted";
             this.gameTimeFormatted.ReadOnly = true;
-            this.gameTimeFormatted.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.gameTimeFormatted.Size = new System.Drawing.Size(99, 19);
-            this.gameTimeFormatted.TabIndex = 21;
-            this.gameTimeFormatted.Text = "";
             // 
             // groupBox42
             // 
+            resources.ApplyResources(this.groupBox42, "groupBox42");
             this.groupBox42.Controls.Add(this.gameTimeRaw);
-            this.groupBox42.Location = new System.Drawing.Point(6, 19);
             this.groupBox42.Name = "groupBox42";
-            this.groupBox42.Size = new System.Drawing.Size(111, 44);
-            this.groupBox42.TabIndex = 26;
             this.groupBox42.TabStop = false;
-            this.groupBox42.Text = "Raw";
             // 
             // gameTimeRaw
             // 
-            this.gameTimeRaw.Location = new System.Drawing.Point(6, 19);
-            this.gameTimeRaw.Multiline = false;
+            resources.ApplyResources(this.gameTimeRaw, "gameTimeRaw");
             this.gameTimeRaw.Name = "gameTimeRaw";
             this.gameTimeRaw.ReadOnly = true;
-            this.gameTimeRaw.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.gameTimeRaw.Size = new System.Drawing.Size(99, 19);
-            this.gameTimeRaw.TabIndex = 21;
-            this.gameTimeRaw.Text = "";
             // 
             // lightswitchCheckbox
             // 
-            this.lightswitchCheckbox.AutoSize = true;
-            this.lightswitchCheckbox.Enabled = false;
-            this.lightswitchCheckbox.Location = new System.Drawing.Point(634, 370);
+            resources.ApplyResources(this.lightswitchCheckbox, "lightswitchCheckbox");
             this.lightswitchCheckbox.Name = "lightswitchCheckbox";
-            this.lightswitchCheckbox.Size = new System.Drawing.Size(79, 17);
-            this.lightswitchCheckbox.TabIndex = 27;
-            this.lightswitchCheckbox.Text = "Lightswitch";
             this.lightswitchCheckbox.UseVisualStyleBackColor = true;
             // 
             // groupBox33
             // 
+            resources.ApplyResources(this.groupBox33, "groupBox33");
             this.groupBox33.Controls.Add(this.groupBox34);
             this.groupBox33.Controls.Add(this.groupBox35);
-            this.groupBox33.Location = new System.Drawing.Point(6, 195);
             this.groupBox33.Name = "groupBox33";
-            this.groupBox33.Size = new System.Drawing.Size(240, 69);
-            this.groupBox33.TabIndex = 26;
             this.groupBox33.TabStop = false;
-            this.groupBox33.Text = "Longest Stream";
             // 
             // groupBox34
             // 
+            resources.ApplyResources(this.groupBox34, "groupBox34");
             this.groupBox34.Controls.Add(this.longestStreamFormattedBox);
-            this.groupBox34.Location = new System.Drawing.Point(123, 19);
             this.groupBox34.Name = "groupBox34";
-            this.groupBox34.Size = new System.Drawing.Size(111, 44);
-            this.groupBox34.TabIndex = 25;
             this.groupBox34.TabStop = false;
-            this.groupBox34.Text = "Formatted(2)";
             // 
             // longestStreamFormattedBox
             // 
-            this.longestStreamFormattedBox.Location = new System.Drawing.Point(6, 19);
-            this.longestStreamFormattedBox.Multiline = false;
+            resources.ApplyResources(this.longestStreamFormattedBox, "longestStreamFormattedBox");
             this.longestStreamFormattedBox.Name = "longestStreamFormattedBox";
             this.longestStreamFormattedBox.ReadOnly = true;
-            this.longestStreamFormattedBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.longestStreamFormattedBox.Size = new System.Drawing.Size(99, 19);
-            this.longestStreamFormattedBox.TabIndex = 21;
-            this.longestStreamFormattedBox.Text = "";
             // 
             // groupBox35
             // 
+            resources.ApplyResources(this.groupBox35, "groupBox35");
             this.groupBox35.Controls.Add(this.longestStreamRawBox);
-            this.groupBox35.Location = new System.Drawing.Point(6, 19);
             this.groupBox35.Name = "groupBox35";
-            this.groupBox35.Size = new System.Drawing.Size(111, 44);
-            this.groupBox35.TabIndex = 23;
             this.groupBox35.TabStop = false;
-            this.groupBox35.Text = "Raw";
             // 
             // longestStreamRawBox
             // 
-            this.longestStreamRawBox.Location = new System.Drawing.Point(6, 19);
-            this.longestStreamRawBox.Multiline = false;
+            resources.ApplyResources(this.longestStreamRawBox, "longestStreamRawBox");
             this.longestStreamRawBox.Name = "longestStreamRawBox";
             this.longestStreamRawBox.ReadOnly = true;
-            this.longestStreamRawBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.longestStreamRawBox.Size = new System.Drawing.Size(99, 19);
-            this.longestStreamRawBox.TabIndex = 21;
-            this.longestStreamRawBox.Text = "";
             // 
             // groupBox14
             // 
+            resources.ApplyResources(this.groupBox14, "groupBox14");
             this.groupBox14.Controls.Add(this.saveSlotBox);
-            this.groupBox14.Location = new System.Drawing.Point(719, 349);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(67, 44);
-            this.groupBox14.TabIndex = 13;
             this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Save Slot";
             // 
             // saveSlotBox
             // 
-            this.saveSlotBox.Location = new System.Drawing.Point(6, 19);
-            this.saveSlotBox.Multiline = false;
+            resources.ApplyResources(this.saveSlotBox, "saveSlotBox");
             this.saveSlotBox.Name = "saveSlotBox";
             this.saveSlotBox.ReadOnly = true;
-            this.saveSlotBox.Size = new System.Drawing.Size(55, 19);
-            this.saveSlotBox.TabIndex = 2;
-            this.saveSlotBox.Text = "No File";
             // 
             // groupBox32
             // 
+            resources.ApplyResources(this.groupBox32, "groupBox32");
             this.groupBox32.Controls.Add(this.streamDonations);
-            this.groupBox32.Location = new System.Drawing.Point(123, 70);
             this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Size = new System.Drawing.Size(111, 44);
-            this.groupBox32.TabIndex = 23;
             this.groupBox32.TabStop = false;
-            this.groupBox32.Text = "Stream Donos";
             // 
             // streamDonations
             // 
-            this.streamDonations.Location = new System.Drawing.Point(6, 19);
-            this.streamDonations.Multiline = false;
+            resources.ApplyResources(this.streamDonations, "streamDonations");
             this.streamDonations.Name = "streamDonations";
             this.streamDonations.ReadOnly = true;
-            this.streamDonations.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.streamDonations.Size = new System.Drawing.Size(99, 19);
-            this.streamDonations.TabIndex = 20;
-            this.streamDonations.Text = "";
             // 
             // groupBox29
             // 
+            resources.ApplyResources(this.groupBox29, "groupBox29");
             this.groupBox29.Controls.Add(this.groupBox30);
             this.groupBox29.Controls.Add(this.groupBox31);
-            this.groupBox29.Location = new System.Drawing.Point(6, 120);
             this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(240, 69);
-            this.groupBox29.TabIndex = 24;
             this.groupBox29.TabStop = false;
-            this.groupBox29.Text = "Total Streamtime";
             // 
             // groupBox30
             // 
+            resources.ApplyResources(this.groupBox30, "groupBox30");
             this.groupBox30.Controls.Add(this.totalStreamTimeFormattedBox);
-            this.groupBox30.Location = new System.Drawing.Point(123, 19);
             this.groupBox30.Name = "groupBox30";
-            this.groupBox30.Size = new System.Drawing.Size(111, 44);
-            this.groupBox30.TabIndex = 25;
             this.groupBox30.TabStop = false;
-            this.groupBox30.Text = "Formatted(2)";
             // 
             // totalStreamTimeFormattedBox
             // 
-            this.totalStreamTimeFormattedBox.Location = new System.Drawing.Point(6, 19);
-            this.totalStreamTimeFormattedBox.Multiline = false;
+            resources.ApplyResources(this.totalStreamTimeFormattedBox, "totalStreamTimeFormattedBox");
             this.totalStreamTimeFormattedBox.Name = "totalStreamTimeFormattedBox";
             this.totalStreamTimeFormattedBox.ReadOnly = true;
-            this.totalStreamTimeFormattedBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.totalStreamTimeFormattedBox.Size = new System.Drawing.Size(99, 19);
-            this.totalStreamTimeFormattedBox.TabIndex = 21;
-            this.totalStreamTimeFormattedBox.Text = "";
             // 
             // groupBox31
             // 
+            resources.ApplyResources(this.groupBox31, "groupBox31");
             this.groupBox31.Controls.Add(this.totalStreamTimeRawBox);
-            this.groupBox31.Location = new System.Drawing.Point(6, 19);
             this.groupBox31.Name = "groupBox31";
-            this.groupBox31.Size = new System.Drawing.Size(111, 44);
-            this.groupBox31.TabIndex = 23;
             this.groupBox31.TabStop = false;
-            this.groupBox31.Text = "Raw";
             // 
             // totalStreamTimeRawBox
             // 
-            this.totalStreamTimeRawBox.Location = new System.Drawing.Point(6, 19);
-            this.totalStreamTimeRawBox.Multiline = false;
+            resources.ApplyResources(this.totalStreamTimeRawBox, "totalStreamTimeRawBox");
             this.totalStreamTimeRawBox.Name = "totalStreamTimeRawBox";
             this.totalStreamTimeRawBox.ReadOnly = true;
-            this.totalStreamTimeRawBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.totalStreamTimeRawBox.Size = new System.Drawing.Size(99, 19);
-            this.totalStreamTimeRawBox.TabIndex = 21;
-            this.totalStreamTimeRawBox.Text = "";
             // 
             // groupBox28
             // 
+            resources.ApplyResources(this.groupBox28, "groupBox28");
             this.groupBox28.Controls.Add(this.subsTextBox);
-            this.groupBox28.Location = new System.Drawing.Point(123, 20);
             this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Size = new System.Drawing.Size(111, 44);
-            this.groupBox28.TabIndex = 23;
             this.groupBox28.TabStop = false;
-            this.groupBox28.Text = "Subs";
             // 
             // subsTextBox
             // 
-            this.subsTextBox.Location = new System.Drawing.Point(6, 19);
-            this.subsTextBox.Multiline = false;
+            resources.ApplyResources(this.subsTextBox, "subsTextBox");
             this.subsTextBox.Name = "subsTextBox";
             this.subsTextBox.ReadOnly = true;
-            this.subsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.subsTextBox.Size = new System.Drawing.Size(99, 19);
-            this.subsTextBox.TabIndex = 20;
-            this.subsTextBox.Text = "";
             // 
             // groupBox27
             // 
+            resources.ApplyResources(this.groupBox27, "groupBox27");
             this.groupBox27.Controls.Add(this.followersTextBox);
-            this.groupBox27.Location = new System.Drawing.Point(6, 70);
             this.groupBox27.Name = "groupBox27";
-            this.groupBox27.Size = new System.Drawing.Size(111, 44);
-            this.groupBox27.TabIndex = 22;
             this.groupBox27.TabStop = false;
-            this.groupBox27.Text = "Followers";
             // 
             // followersTextBox
             // 
-            this.followersTextBox.Location = new System.Drawing.Point(6, 19);
-            this.followersTextBox.Multiline = false;
+            resources.ApplyResources(this.followersTextBox, "followersTextBox");
             this.followersTextBox.Name = "followersTextBox";
             this.followersTextBox.ReadOnly = true;
-            this.followersTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.followersTextBox.Size = new System.Drawing.Size(99, 19);
-            this.followersTextBox.TabIndex = 20;
-            this.followersTextBox.Text = "";
             // 
             // groupBox26
             // 
+            resources.ApplyResources(this.groupBox26, "groupBox26");
             this.groupBox26.Controls.Add(this.gameStageBox);
-            this.groupBox26.Location = new System.Drawing.Point(6, 20);
             this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(111, 44);
-            this.groupBox26.TabIndex = 21;
             this.groupBox26.TabStop = false;
-            this.groupBox26.Text = "Game Stage(3)";
             // 
             // gameStageBox
             // 
-            this.gameStageBox.Location = new System.Drawing.Point(6, 19);
-            this.gameStageBox.Multiline = false;
+            resources.ApplyResources(this.gameStageBox, "gameStageBox");
             this.gameStageBox.Name = "gameStageBox";
             this.gameStageBox.ReadOnly = true;
-            this.gameStageBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.gameStageBox.Size = new System.Drawing.Size(99, 19);
-            this.gameStageBox.TabIndex = 20;
-            this.gameStageBox.Text = "";
             // 
             // tabPage4
             // 
+            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Controls.Add(this.button2);
             this.tabPage4.Controls.Add(this.visitedWebsiteGroupBox);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(792, 399);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Websites";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(4, 4);
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Show Websites";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // visitedWebsiteGroupBox
             // 
+            resources.ApplyResources(this.visitedWebsiteGroupBox, "visitedWebsiteGroupBox");
             this.visitedWebsiteGroupBox.Controls.Add(this.websitesCheckBoxes);
-            this.visitedWebsiteGroupBox.Location = new System.Drawing.Point(3, 33);
             this.visitedWebsiteGroupBox.Name = "visitedWebsiteGroupBox";
-            this.visitedWebsiteGroupBox.Size = new System.Drawing.Size(611, 320);
-            this.visitedWebsiteGroupBox.TabIndex = 1;
             this.visitedWebsiteGroupBox.TabStop = false;
-            this.visitedWebsiteGroupBox.Text = "Visited Websites";
-            this.visitedWebsiteGroupBox.Visible = false;
             // 
             // websitesCheckBoxes
             // 
-            this.websitesCheckBoxes.ColumnWidth = 200;
-            this.websitesCheckBoxes.Enabled = false;
-            this.websitesCheckBoxes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            resources.ApplyResources(this.websitesCheckBoxes, "websitesCheckBoxes");
             this.websitesCheckBoxes.FormattingEnabled = true;
-            this.websitesCheckBoxes.HorizontalScrollbar = true;
             this.websitesCheckBoxes.Items.AddRange(new object[] {
-            "adredirect.ic",
-            "bang.ic",
-            "bang.ic/email",
-            "blackjack.casino.ic",
-            "casino.ic",
-            "casino.ic/tokens",
-            "cockcockcockcockcock.ic",
-            "cocktracts.ic",
-            "cocktracts.ic/available",
-            "cocktracts.ic/contract",
-            "cocktracts.ic/help",
-            "cocktracts.ic/partner",
-            "cocktracts.ic/partners",
-            "cocktwitch.ic",
-            "cocktwitch.ic/leaderboard",
-            "cocktwitch.ic/stats",
-            "dickcheese.ic",
-            "dickcheese.ic/1",
-            "dickcheese.ic/2",
-            "duck.ic",
-            "fedup.ic",
-            "hotanimebabes.ic",
-            "ladyparts.ic",
-            "losefatquickly.ic",
-            "patriciascookingblog.food/blog",
-            "patriciascookingblog.food/login",
-            "patriciascookingblog.food/main",
-            "peepee.ic",
-            "pixelglasses.ic",
-            "realmenfishing.ic",
-            "slots.casino.ic",
-            "stonks.ic"});
-            this.websitesCheckBoxes.Location = new System.Drawing.Point(6, 19);
+            resources.GetString("websitesCheckBoxes.Items"),
+            resources.GetString("websitesCheckBoxes.Items1"),
+            resources.GetString("websitesCheckBoxes.Items2"),
+            resources.GetString("websitesCheckBoxes.Items3"),
+            resources.GetString("websitesCheckBoxes.Items4"),
+            resources.GetString("websitesCheckBoxes.Items5"),
+            resources.GetString("websitesCheckBoxes.Items6"),
+            resources.GetString("websitesCheckBoxes.Items7"),
+            resources.GetString("websitesCheckBoxes.Items8"),
+            resources.GetString("websitesCheckBoxes.Items9"),
+            resources.GetString("websitesCheckBoxes.Items10"),
+            resources.GetString("websitesCheckBoxes.Items11"),
+            resources.GetString("websitesCheckBoxes.Items12"),
+            resources.GetString("websitesCheckBoxes.Items13"),
+            resources.GetString("websitesCheckBoxes.Items14"),
+            resources.GetString("websitesCheckBoxes.Items15"),
+            resources.GetString("websitesCheckBoxes.Items16"),
+            resources.GetString("websitesCheckBoxes.Items17"),
+            resources.GetString("websitesCheckBoxes.Items18"),
+            resources.GetString("websitesCheckBoxes.Items19"),
+            resources.GetString("websitesCheckBoxes.Items20"),
+            resources.GetString("websitesCheckBoxes.Items21"),
+            resources.GetString("websitesCheckBoxes.Items22"),
+            resources.GetString("websitesCheckBoxes.Items23"),
+            resources.GetString("websitesCheckBoxes.Items24"),
+            resources.GetString("websitesCheckBoxes.Items25"),
+            resources.GetString("websitesCheckBoxes.Items26"),
+            resources.GetString("websitesCheckBoxes.Items27"),
+            resources.GetString("websitesCheckBoxes.Items28"),
+            resources.GetString("websitesCheckBoxes.Items29"),
+            resources.GetString("websitesCheckBoxes.Items30"),
+            resources.GetString("websitesCheckBoxes.Items31")});
             this.websitesCheckBoxes.MultiColumn = true;
             this.websitesCheckBoxes.Name = "websitesCheckBoxes";
-            this.websitesCheckBoxes.Size = new System.Drawing.Size(599, 289);
             this.websitesCheckBoxes.Sorted = true;
-            this.websitesCheckBoxes.TabIndex = 0;
             this.websitesCheckBoxes.ThreeDCheckBoxes = true;
             // 
             // tabPage5
             // 
+            resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.Controls.Add(this.achievementsPanel);
             this.tabPage5.Controls.Add(this.button1);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(792, 399);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Achievements";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // achievementsPanel
             // 
+            resources.ApplyResources(this.achievementsPanel, "achievementsPanel");
             this.achievementsPanel.Controls.Add(this.groupBox4);
             this.achievementsPanel.Controls.Add(this.groupBox5);
-            this.achievementsPanel.Location = new System.Drawing.Point(4, 34);
             this.achievementsPanel.Name = "achievementsPanel";
-            this.achievementsPanel.Size = new System.Drawing.Size(785, 362);
-            this.achievementsPanel.TabIndex = 3;
-            this.achievementsPanel.Visible = false;
             // 
             // groupBox4
             // 
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.richTextBox5);
             this.groupBox4.Controls.Add(this.richTextBox4);
             this.groupBox4.Controls.Add(this.richTextBox3);
             this.groupBox4.Controls.Add(this.richTextBox12);
             this.groupBox4.Controls.Add(this.richTextBox6);
             this.groupBox4.Controls.Add(this.checkedListBox1);
-            this.groupBox4.Location = new System.Drawing.Point(4, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(438, 108);
-            this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Church Achievements";
             // 
             // richTextBox5
             // 
-            this.richTextBox5.Location = new System.Drawing.Point(181, 33);
-            this.richTextBox5.Multiline = false;
+            resources.ApplyResources(this.richTextBox5, "richTextBox5");
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.ReadOnly = true;
-            this.richTextBox5.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox5.TabIndex = 5;
-            this.richTextBox5.Text = "\"The worst ending\"";
             // 
             // richTextBox4
             // 
-            this.richTextBox4.Location = new System.Drawing.Point(181, 16);
-            this.richTextBox4.Multiline = false;
+            resources.ApplyResources(this.richTextBox4, "richTextBox4");
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox4.TabIndex = 4;
-            this.richTextBox4.Text = "\"The oblivious ending\"";
             // 
             // richTextBox3
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(181, 49);
-            this.richTextBox3.Multiline = false;
+            resources.ApplyResources(this.richTextBox3, "richTextBox3");
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox3.TabIndex = 3;
-            this.richTextBox3.Text = "\"I don\'t Know\" Ending";
             // 
             // richTextBox12
             // 
-            this.richTextBox12.Location = new System.Drawing.Point(181, 65);
-            this.richTextBox12.Multiline = false;
+            resources.ApplyResources(this.richTextBox12, "richTextBox12");
             this.richTextBox12.Name = "richTextBox12";
             this.richTextBox12.ReadOnly = true;
-            this.richTextBox12.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox12.TabIndex = 2;
-            this.richTextBox12.Text = "\"The good ending\"";
             // 
             // richTextBox6
             // 
-            this.richTextBox6.Location = new System.Drawing.Point(181, 82);
-            this.richTextBox6.Multiline = false;
+            resources.ApplyResources(this.richTextBox6, "richTextBox6");
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.ReadOnly = true;
-            this.richTextBox6.Size = new System.Drawing.Size(251, 20);
-            this.richTextBox6.TabIndex = 1;
-            this.richTextBox6.Text = "\"The not good enough ending\"";
             // 
             // checkedListBox1
             // 
+            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
             this.checkedListBox1.CheckOnClick = true;
-            this.checkedListBox1.Enabled = false;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "church-endSpotkanie2B",
-            "church-endTheWorstEnd",
-            "church-endIdontknow",
-            "church-endJustGoThereGood",
-            "church-endJustGoThereBad"});
-            this.checkedListBox1.Location = new System.Drawing.Point(4, 19);
+            resources.GetString("checkedListBox1.Items"),
+            resources.GetString("checkedListBox1.Items1"),
+            resources.GetString("checkedListBox1.Items2"),
+            resources.GetString("checkedListBox1.Items3"),
+            resources.GetString("checkedListBox1.Items4")});
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(171, 79);
-            this.checkedListBox1.TabIndex = 0;
             // 
             // groupBox5
             // 
+            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Controls.Add(this.richTextBox7);
             this.groupBox5.Controls.Add(this.checkedListBox2);
-            this.groupBox5.Location = new System.Drawing.Point(4, 117);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(776, 228);
-            this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Misc Achievements";
             // 
             // richTextBox7
             // 
-            this.richTextBox7.Location = new System.Drawing.Point(321, 20);
+            resources.ApplyResources(this.richTextBox7, "richTextBox7");
             this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(449, 199);
-            this.richTextBox7.TabIndex = 1;
-            this.richTextBox7.Text = resources.GetString("richTextBox7.Text");
             // 
             // checkedListBox2
             // 
+            resources.ApplyResources(this.checkedListBox2, "checkedListBox2");
             this.checkedListBox2.CheckOnClick = true;
-            this.checkedListBox2.Enabled = false;
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
-            "ending-ballsexploded",
-            "ending-goodEnd1",
-            "ending-badEnd1",
-            "ending-badEnd2",
-            "ending-badEnd3",
-            "ending-badEnd4.1",
-            "ending-badEnd4.2",
-            "ending-healthEnd",
-            "ending-fedEnd",
-            "ending-schizoEnd",
-            "ending-genericSchizoEnd",
-            "ending-KilledByADirtyCop1",
-            "ending-KilledByADirtyCop2",
-            "ending-theyKnowOblivious",
-            "ending-theyKnow",
-            "bigdaddyhurtSecretEpilogue",
-            "saveEdited"});
-            this.checkedListBox2.Location = new System.Drawing.Point(5, 20);
+            resources.GetString("checkedListBox2.Items"),
+            resources.GetString("checkedListBox2.Items1"),
+            resources.GetString("checkedListBox2.Items2"),
+            resources.GetString("checkedListBox2.Items3"),
+            resources.GetString("checkedListBox2.Items4"),
+            resources.GetString("checkedListBox2.Items5"),
+            resources.GetString("checkedListBox2.Items6"),
+            resources.GetString("checkedListBox2.Items7"),
+            resources.GetString("checkedListBox2.Items8"),
+            resources.GetString("checkedListBox2.Items9"),
+            resources.GetString("checkedListBox2.Items10"),
+            resources.GetString("checkedListBox2.Items11"),
+            resources.GetString("checkedListBox2.Items12"),
+            resources.GetString("checkedListBox2.Items13"),
+            resources.GetString("checkedListBox2.Items14"),
+            resources.GetString("checkedListBox2.Items15"),
+            resources.GetString("checkedListBox2.Items16")});
             this.checkedListBox2.MultiColumn = true;
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(299, 199);
-            this.checkedListBox2.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(4, 4);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Show Achievements";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabPage8
             // 
+            resources.ApplyResources(this.tabPage8, "tabPage8");
             this.tabPage8.Controls.Add(this.saveEditGroupBox);
             this.tabPage8.Controls.Add(this.saveEditConsentBox);
             this.tabPage8.Controls.Add(this.richTextBox2);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(792, 399);
-            this.tabPage8.TabIndex = 6;
-            this.tabPage8.Text = "Save Editing";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // saveEditGroupBox
             // 
+            resources.ApplyResources(this.saveEditGroupBox, "saveEditGroupBox");
             this.saveEditGroupBox.Controls.Add(this.label6);
             this.saveEditGroupBox.Controls.Add(this.pictureBox2);
             this.saveEditGroupBox.Controls.Add(this.saveButton);
             this.saveEditGroupBox.Controls.Add(this.guideButton);
             this.saveEditGroupBox.Controls.Add(this.createBackupButton);
-            this.saveEditGroupBox.Location = new System.Drawing.Point(0, 88);
             this.saveEditGroupBox.Name = "saveEditGroupBox";
-            this.saveEditGroupBox.Size = new System.Drawing.Size(792, 311);
-            this.saveEditGroupBox.TabIndex = 3;
             this.saveEditGroupBox.TabStop = false;
-            this.saveEditGroupBox.Text = "Save Editing";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(595, 291);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(189, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Remember to keep her safe (and filled)";
             // 
             // pictureBox2
             // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl;
-            this.pictureBox2.Location = new System.Drawing.Point(494, 14);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(290, 290);
-            this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
             // saveButton
             // 
-            this.saveButton.Enabled = false;
-            this.saveButton.Location = new System.Drawing.Point(9, 81);
+            resources.ApplyResources(this.saveButton, "saveButton");
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(186, 25);
-            this.saveButton.TabIndex = 5;
-            this.saveButton.Text = "Save (Overwrites current save!)";
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // guideButton
             // 
-            this.guideButton.Enabled = false;
-            this.guideButton.Location = new System.Drawing.Point(105, 50);
+            resources.ApplyResources(this.guideButton, "guideButton");
             this.guideButton.Name = "guideButton";
-            this.guideButton.Size = new System.Drawing.Size(90, 25);
-            this.guideButton.TabIndex = 4;
-            this.guideButton.Text = "Guide";
             this.guideButton.UseVisualStyleBackColor = true;
             this.guideButton.Click += new System.EventHandler(this.guideButton_Click);
             // 
             // createBackupButton
             // 
-            this.createBackupButton.Enabled = false;
-            this.createBackupButton.Location = new System.Drawing.Point(9, 50);
+            resources.ApplyResources(this.createBackupButton, "createBackupButton");
             this.createBackupButton.Name = "createBackupButton";
-            this.createBackupButton.Size = new System.Drawing.Size(90, 25);
-            this.createBackupButton.TabIndex = 2;
-            this.createBackupButton.Text = "Create Backup";
             this.createBackupButton.UseVisualStyleBackColor = true;
             this.createBackupButton.Click += new System.EventHandler(this.createBackupButton_Click);
             // 
             // saveEditConsentBox
             // 
-            this.saveEditConsentBox.AutoSize = true;
-            this.saveEditConsentBox.Location = new System.Drawing.Point(8, 52);
+            resources.ApplyResources(this.saveEditConsentBox, "saveEditConsentBox");
             this.saveEditConsentBox.Name = "saveEditConsentBox";
-            this.saveEditConsentBox.Size = new System.Drawing.Size(461, 30);
-            this.saveEditConsentBox.TabIndex = 1;
-            this.saveEditConsentBox.Text = "I acknowledge and understand that using this feature may result in breaking or co" +
-    "mpromising\r\nmy save games, and I assume full responsibility for any potential lo" +
-    "ss of progress or data.";
             this.saveEditConsentBox.UseVisualStyleBackColor = true;
             this.saveEditConsentBox.CheckedChanged += new System.EventHandler(this.saveEditConsentBox_CheckedChanged);
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.richTextBox2, "richTextBox2");
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox2.Size = new System.Drawing.Size(792, 46);
-            this.richTextBox2.TabIndex = 0;
-            this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
             // tabPage3
             // 
+            resources.ApplyResources(this.tabPage3, "tabPage3");
             this.tabPage3.Controls.Add(this.debugTextBox);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(792, 399);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Debug";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // debugTextBox
             // 
-            this.debugTextBox.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.debugTextBox, "debugTextBox");
             this.debugTextBox.Name = "debugTextBox";
             this.debugTextBox.ReadOnly = true;
-            this.debugTextBox.Size = new System.Drawing.Size(792, 399);
-            this.debugTextBox.TabIndex = 0;
-            this.debugTextBox.Text = "Load a Save File. The content of the Save File will be displayed here.";
             // 
             // menuStrip1
             // 
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.helpToolStripMenuItem,
+            this.languageToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loadToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
             // 
             // loadToolStripMenuItem
             // 
+            resources.ApplyResources(this.loadToolStripMenuItem, "loadToolStripMenuItem");
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
-            this.loadToolStripMenuItem.Text = "Load File";
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
+            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
+            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkForUpdatesToolStripMenuItem,
             this.openReadmeToolStripMenuItem,
@@ -2488,65 +1767,79 @@
             this.suggestAFeatureToolStripMenuItem,
             this.quickLinkToGitHubToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
             // 
             // checkForUpdatesToolStripMenuItem
             // 
+            resources.ApplyResources(this.checkForUpdatesToolStripMenuItem, "checkForUpdatesToolStripMenuItem");
             this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
-            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
             this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
             // 
             // openReadmeToolStripMenuItem
             // 
+            resources.ApplyResources(this.openReadmeToolStripMenuItem, "openReadmeToolStripMenuItem");
             this.openReadmeToolStripMenuItem.Name = "openReadmeToolStripMenuItem";
-            this.openReadmeToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.openReadmeToolStripMenuItem.Text = "Open Readme";
             this.openReadmeToolStripMenuItem.Click += new System.EventHandler(this.openReadmeToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(182, 6);
             // 
             // reportABugToolStripMenuItem
             // 
+            resources.ApplyResources(this.reportABugToolStripMenuItem, "reportABugToolStripMenuItem");
             this.reportABugToolStripMenuItem.Name = "reportABugToolStripMenuItem";
-            this.reportABugToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.reportABugToolStripMenuItem.Text = "Report a Bug";
             this.reportABugToolStripMenuItem.Click += new System.EventHandler(this.reportABugToolStripMenuItem_Click);
             // 
             // suggestAFeatureToolStripMenuItem
             // 
+            resources.ApplyResources(this.suggestAFeatureToolStripMenuItem, "suggestAFeatureToolStripMenuItem");
             this.suggestAFeatureToolStripMenuItem.Name = "suggestAFeatureToolStripMenuItem";
-            this.suggestAFeatureToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.suggestAFeatureToolStripMenuItem.Text = "Suggest a Feature";
             this.suggestAFeatureToolStripMenuItem.Click += new System.EventHandler(this.suggestAFeatureToolStripMenuItem_Click);
             // 
             // quickLinkToGitHubToolStripMenuItem
             // 
+            resources.ApplyResources(this.quickLinkToGitHubToolStripMenuItem, "quickLinkToGitHubToolStripMenuItem");
             this.quickLinkToGitHubToolStripMenuItem.Name = "quickLinkToGitHubToolStripMenuItem";
-            this.quickLinkToGitHubToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
-            this.quickLinkToGitHubToolStripMenuItem.Text = "Quick Link to GitHub";
             this.quickLinkToGitHubToolStripMenuItem.Click += new System.EventHandler(this.quickLinkToGitHubToolStripMenuItem_Click);
+            // 
+            // languageToolStripMenuItem
+            // 
+            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
+            this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.englishToolStripMenuItem,
+            this.deutschToolStripMenuItem});
+            this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
+            // 
+            // englishToolStripMenuItem
+            // 
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.Checked = true;
+            this.englishToolStripMenuItem.CheckOnClick = true;
+            this.englishToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
+            // 
+            // deutschToolStripMenuItem
+            // 
+            resources.ApplyResources(this.deutschToolStripMenuItem, "deutschToolStripMenuItem");
+            this.deutschToolStripMenuItem.CheckOnClick = true;
+            this.deutschToolStripMenuItem.Name = "deutschToolStripMenuItem";
+            this.deutschToolStripMenuItem.Click += new System.EventHandler(this.deutschToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            resources.ApplyResources(this.openFileDialog1, "openFileDialog1");
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "My Dystopian Robot Girlfriend Save Analyzer";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox72.ResumeLayout(false);
@@ -2857,6 +2150,9 @@
         private System.Windows.Forms.RichTextBox richTextBox7;
         private System.Windows.Forms.GroupBox groupBox80;
         private System.Windows.Forms.RichTextBox weekdayTextBox;
+        private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deutschToolStripMenuItem;
     }
 }
 

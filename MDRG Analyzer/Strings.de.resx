@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="groupBox73.Text" xml:space="preserve">
+    <value>Zuletzt Kuscheln(1)</value>
+  </data>
+  <data name="groupBox74.Text" xml:space="preserve">
+    <value>Zuletzt gestreamt(1)</value>
+  </data>
+  <data name="groupBox69.Text" xml:space="preserve">
+    <value>Zuletzt erwacht(1)</value>
+  </data>
+  <data name="groupBox75.Text" xml:space="preserve">
+    <value>Zuletzt draußen(1)</value>
+  </data>
+  <data name="groupBox71.Text" xml:space="preserve">
+    <value>Zuletzt Arbeit(1)</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Zeig Webseiten</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Zeig Errungensch.</value>
+  </data>
+  <data name="groupBox47.Text" xml:space="preserve">
+    <value>Zahl Streams</value>
+  </data>
+  <data name="groupBox53.Text" xml:space="preserve">
+    <value>Wörterkette</value>
+  </data>
+  <data name="groupBox80.Text" xml:space="preserve">
+    <value>Wochentag(1)</value>
+  </data>
+  <data name="ExtraCreditsText" xml:space="preserve">
+    <value>Weitere Credits gehen an:
+
+Den MDRG-Discord-Server - Programmierhilfe
+italy2003 / PixivID: 66835722 - Bilder / Kunst
+bgrmystr2 - Linux Testing
+Dich - Für das benutzen des Programms. Danke :D</value>
+  </data>
+  <data name="ExtraCreditsCaption" xml:space="preserve">
+    <value>Weitere Credits</value>
+  </data>
+  <data name="groupBox51.Text" xml:space="preserve">
+    <value>Weggerannt</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Webseiten</value>
+  </data>
+  <data name="openFileDialogTitle" xml:space="preserve">
+    <value>Wähle eine .mdrg Datei.</value>
+  </data>
+  <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vorschlag machen</value>
+  </data>
+  <data name="groupBox61.Text" xml:space="preserve">
+    <value>Vinegara Ende(1)</value>
+  </data>
+  <data name="groupBox56.Text" xml:space="preserve">
+    <value>Verloren</value>
+  </data>
+  <data name="groupBox54.Text" xml:space="preserve">
+    <value>Verloren</value>
+  </data>
+  <data name="groupBox49.Text" xml:space="preserve">
+    <value>Verloren</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>Verlangen</value>
+  </data>
+  <data name="WeekDaysUnknown" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>Sympathie</value>
+  </data>
+  <data name="groupBox32.Text" xml:space="preserve">
+    <value>Streamspenden</value>
+  </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>Spielzeit</value>
+  </data>
+  <data name="saveFilesChoosingBox.Text" xml:space="preserve">
+    <value>Spielstände</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Spielstandbearbeitung</value>
+  </data>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>Spielstandbearbeitung</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>Spielstand überschreiben</value>
+  </data>
+  <data name="groupBox26.Text" xml:space="preserve">
+    <value>Spielphase(3)</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Spielerwerte</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Spielerinfo</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Speilversion</value>
+  </data>
+  <data name="EditInfoButtonText" xml:space="preserve">
+    <value>Speichermanipulierung wurde hinzugefüht, viel Spaß!</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Sonstige Errungenschaften</value>
+  </data>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>Sonst. Werte</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Sonst. Info</value>
+  </data>
+  <data name="WeekDaysSunday" xml:space="preserve">
+    <value>Sonntag</value>
+  </data>
+  <data name="groupBox45.Text" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="groupBox44.Text" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="BackupSuccessText" xml:space="preserve">
+    <value>Sicherungsdatei erfolgreich erstellt! Die Sicherungsdatei wurde gespeichert als: </value>
+  </data>
+  <data name="GuideAndInstructionsText" xml:space="preserve">
+    <value>Sichern: Dies ist das Erste was du machen sollst. Dies erstellt eine Sicherungsdatei, und überschreibt nichts (außer du hast mehr als 2147483647 Sicherungsdateien, was einen Fehler anzeigt... vermute ich).
+
+Folge den bestehenden Nummerierungen. Zum Beispiel: Wenn der Wert "42,927" ist, dann benutze auch eine Dezimalzahl wie "83,145".
+
+Es ist derzeit unbekannt, ob Spezialbuchstaben Namen korrupieren. Um sicher zu gehen, benutz nur Buchstaben von "A-Z" bzw. "a-z". Wenn du die Zeit hast, Spezialbuchstaben zu testen, dann öffne ein Issue mit deinen Entdeckungen zu was funktioniert und was nicht funktioniert.
+
+Es ist empfohlen, die Spielphase nicht zu ändern.
+
+Wenn ein Wert ein Sternchen daneben hat, ist damit etwas Wichtiges verbunden. Diese werden am unteren Rand angezeigt.
+
+Werte sind normalerweise Integer, also erwarte, dass der Höchstwert 2147483647 (2,147,483,647) ist.</value>
+  </data>
+  <data name="createBackupButton.Text" xml:space="preserve">
+    <value>Sichern</value>
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>Sehnsucht</value>
+  </data>
+  <data name="groupBox52.Text" xml:space="preserve">
+    <value>Schach</value>
+  </data>
+  <data name="WeekDaysSaturday" xml:space="preserve">
+    <value>Samstag</value>
+  </data>
+  <data name="groupBox59.Text" xml:space="preserve">
+    <value>Samen verschwndt.</value>
+  </data>
+  <data name="groupBox22.Text" xml:space="preserve">
+    <value>Samen in Pussy</value>
+  </data>
+  <data name="groupBox24.Text" xml:space="preserve">
+    <value>Samen in Magen</value>
+  </data>
+  <data name="groupBox23.Text" xml:space="preserve">
+    <value>Samen in Hintern</value>
+  </data>
+  <data name="groupBox42.Text" xml:space="preserve">
+    <value>Roh</value>
+  </data>
+  <data name="groupBox35.Text" xml:space="preserve">
+    <value>Roh</value>
+  </data>
+  <data name="groupBox31.Text" xml:space="preserve">
+    <value>Roh</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Programm schließen</value>
+  </data>
+  <data name="groupBox79.Text" xml:space="preserve">
+    <value>Predigerpunkte(1)</value>
+  </data>
+  <data name="groupBox78.Text" xml:space="preserve">
+    <value>Nonnepunkte(1)</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
+    <value>Neue Version verfügbar!
+
+Derzeitige Version: </value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nach Aktualisierungen suchen</value>
+  </data>
+  <data name="WeekDaysMonday" xml:space="preserve">
+    <value>Montag</value>
+  </data>
+  <data name="groupBox58.Text" xml:space="preserve">
+    <value>ML Samen Mund</value>
+  </data>
+  <data name="WeekDaysWednesday" xml:space="preserve">
+    <value>Mittwoch</value>
+  </data>
+  <data name="groupBox46.Text" xml:space="preserve">
+    <value>Miete in(1)</value>
+  </data>
+  <data name="openFileDialogFilter" xml:space="preserve">
+    <value>MDRG Dateien (*.mdrg)|*.mdrg|Alle Dateien (*.*)|*.*</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Max. Samen</value>
+  </data>
+  <data name="groupBox67.Text" xml:space="preserve">
+    <value>Ltztes Gespräch(1)</value>
+  </data>
+  <data name="groupBox76.Text" xml:space="preserve">
+    <value>Ltztes Equip.(1)</value>
+  </data>
+  <data name="groupBox70.Text" xml:space="preserve">
+    <value>Ltzter Kirch.gang(1)</value>
+  </data>
+  <data name="groupBox66.Text" xml:space="preserve">
+    <value>Ltzter Headpat(1)</value>
+  </data>
+  <data name="groupBox68.Text" xml:space="preserve">
+    <value>Ltzte Interakt.(1)</value>
+  </data>
+  <data name="groupBox65.Text" xml:space="preserve">
+    <value>Ltzte Hngr Info(1)</value>
+  </data>
+  <data name="groupBox64.Text" xml:space="preserve">
+    <value>Ltzte Geist Info(1)</value>
+  </data>
+  <data name="testString" xml:space="preserve">
+    <value>Lorem Ipsum! German!</value>
+  </data>
+  <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Liesmich öffnen</value>
+  </data>
+  <data name="lightswitchCheckbox.Text" xml:space="preserve">
+    <value>Licht an/aus</value>
+  </data>
+  <data name="groupBox77.Text" xml:space="preserve">
+    <value>Letzter Sex(1)</value>
+  </data>
+  <data name="guideButton.Text" xml:space="preserve">
+    <value>Leitfaden</value>
+  </data>
+  <data name="GuideAndInstructionsCaption" xml:space="preserve">
+    <value>Leitfaden</value>
+  </data>
+  <data name="groupBox20.Text" xml:space="preserve">
+    <value>Laune</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>Längster Stream</value>
+  </data>
+  <data name="debugTextBox.Text" xml:space="preserve">
+    <value>Lade eine Speicherdatei. Die Inhalte dieser wird hier angezeigt.</value>
+  </data>
+  <data name="infoSaveBox.Text" xml:space="preserve">
+    <value>Lade eine Datei</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>Lade eine Datei</value>
+  </data>
+  <data name="GitResponseInvalidVersionFormatText" xml:space="preserve">
+    <value>Konnte nicht nach Aktualisierung suchen:
+
+Ungültige Versionenformatierung.</value>
+  </data>
+  <data name="GitResponseCouldNotCheckForUpdateText" xml:space="preserve">
+    <value>Konnte nicht nach Aktualisierung suchen!
+Fehler:
+
+</value>
+  </data>
+  <data name="groupBox63.Text" xml:space="preserve">
+    <value>Kirchengänge</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Kirchenerrung.</value>
+  </data>
+  <data name="GitResponseNewestVersionCaption" xml:space="preserve">
+    <value>Keine neue Version gefunden!</value>
+  </data>
+  <data name="BackupNoFileSelectedText" xml:space="preserve">
+    <value>Keine Datei ausgewählt. Bitte lade eine Speicherdatei bzw. wähle einen Speicherstand aus bevor du eine Sicherheitsdatei erstellst.</value>
+  </data>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>Keine Datei</value>
+  </data>
+  <data name="saveSlotBoxBot.Text" xml:space="preserve">
+    <value>Keine Datei</value>
+  </data>
+  <data name="saveSlotBox.Text" xml:space="preserve">
+    <value>Keine Datei</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Kasino Token</value>
+  </data>
+  <data name="groupBox21.Text" xml:space="preserve">
+    <value>Intelligenz</value>
+  </data>
+  <data name="EditInfoButtonCaption" xml:space="preserve">
+    <value>Information!</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="groupBox36.Text" xml:space="preserve">
+    <value>In Pussy gekom.</value>
+  </data>
+  <data name="groupBox38.Text" xml:space="preserve">
+    <value>In Mund gekom.</value>
+  </data>
+  <data name="groupBox37.Text" xml:space="preserve">
+    <value>In Hintern gekom.</value>
+  </data>
+  <data name="SavedataLoadingUnknownError" xml:space="preserve">
+    <value>Im Programm ist ein unbekannter Fehler aufgetreten. Bitte kontaktiere mich über Discord oder melde ein Problem.
+
+Fehler:
+</value>
+  </data>
+  <data name="saveEditConsentBox.Text" xml:space="preserve">
+    <value>Ich bin mir darüber im Klaren, dass die Verwendung dieser Funktion zur Beschädigung oder Beeinträchtigung meiner
+gespeicherten Spiele führen kann, und übernehme die volle Verantwortung für etwaige Verluste von Fortschritten oder Daten.</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Halte sie sicher (und gefüllt)</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
+    <value>GitHub Schnelllink</value>
+  </data>
+  <data name="groupBox57.Text" xml:space="preserve">
+    <value>Gewonnen</value>
+  </data>
+  <data name="groupBox55.Text" xml:space="preserve">
+    <value>Gewonnen</value>
+  </data>
+  <data name="groupBox50.Text" xml:space="preserve">
+    <value>Gewonnen</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Gesundheit</value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>Gesamte Streamzeit</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Geld</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Geist. Gesundheit</value>
+  </data>
+  <data name="WeekDaysFriday" xml:space="preserve">
+    <value>Freitag</value>
+  </data>
+  <data name="groupBox41.Text" xml:space="preserve">
+    <value>Formatiert(2)</value>
+  </data>
+  <data name="groupBox34.Text" xml:space="preserve">
+    <value>Formatiert(2)</value>
+  </data>
+  <data name="groupBox30.Text" xml:space="preserve">
+    <value>Formatiert(2)</value>
+  </data>
+  <data name="groupBox27.Text" xml:space="preserve">
+    <value>Folgt dir</value>
+  </data>
+  <data name="GenericErrorCaption" xml:space="preserve">
+    <value>Fehler!</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fehler melden</value>
+  </data>
+  <data name="groupBox72.Text" xml:space="preserve">
+    <value>Extra Credits</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Errungenschaften</value>
+  </data>
+  <data name="GenericSuccessCaption" xml:space="preserve">
+    <value>Erfolg!</value>
+  </data>
+  <data name="SavedataLoadingOverflowErrorText" xml:space="preserve">
+    <value>Einer deiner Speicherdateieinträge hat einen Integer-Überlauf verursacht! Bitte behebe das, bevor du versuchst, deine Speicherdatei in das Programm zu laden.
+
+Wenn deine Speicherdatei komplett Vanilla ist und nicht zuvor bearbeitet wurde, öffne ein Issue oder schreib mir eine Nachricht auf dem MDRG-Discord-Server. Andernfalls weißt du bereits, was du getan hast, und ich werde dir keine Unterstützung dafür geben, dass du deine eigene Speicherdatei kaputt machst.</value>
+  </data>
+  <data name="GitResponseNewestVersionText" xml:space="preserve">
+    <value>Du bist schon auf der neuesten Version.</value>
+  </data>
+  <data name="WeekDaysThursday" xml:space="preserve">
+    <value>Donnerstag</value>
+  </data>
+  <data name="WeekDaysTuesday" xml:space="preserve">
+    <value>Dienstag</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Derz. Samen</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Derz. Ausdauer</value>
+  </data>
+  <data name="HttpRequestExceptionMessageText" xml:space="preserve">
+    <value>Der folgende Fehler ist aufgetreten:
+
+</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="groupBox62.Text" xml:space="preserve">
+    <value>Deathgrip Ende(1)</value>
+  </data>
+  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datei Laden...</value>
+  </data>
+  <data name="SavedataSavingSuccessText" xml:space="preserve">
+    <value>Datei erfolgreich gespeichert!</value>
+  </data>
+  <data name="GenericFileWithSpace" xml:space="preserve">
+    <value>Datei </value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>Botwerte</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Botinfo</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>Bot Name</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
+    <value>Besuchte Webseiten</value>
+  </data>
+  <data name="SavedataSavingErrorText" xml:space="preserve">
+    <value>Beim Speichern deiner Datei ist ein Fehler aufgetreten!
+
+Fehler:
+</value>
+  </data>
+  <data name="SavedataLoadingErrorText" xml:space="preserve">
+    <value>Beim Laden deines Spielstandes ist etwas schiefgelaufen. Bitte exportiere deinen Spielstand erneut und versuche es noch einmal.
+
+Wenn es immer noch nicht funktioniert, füge deine Spielstanddatei in einen "JSON Beautifier" ein und überprüfe, ob sich in "savedata" Daten befinden. Wenn nicht, ist dein Spielstand möglicherweise beschädigt.
+
+Wenn Daten vorhanden sind und das Programm nicht funktioniert, kontaktiere mich bitte über den MDRG-Discord-Server (https://discord.com/invite/SwpQUFWreW) oder öffne ein Issue auf GitHub (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer).
+
+Du musst die Datei über "Datei" -&gt; "Datei laden" erneut laden, wenn du deine Datei erneut exportiert hast.</value>
+  </data>
+  <data name="editInfoButton.Text" xml:space="preserve">
+    <value>Bearbeitungsinfo</value>
+  </data>
+  <data name="groupBox39.Text" xml:space="preserve">
+    <value>Außen gekommen</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>App Version</value>
+  </data>
+  <data name="groupBox48.Text" xml:space="preserve">
+    <value>Alte Jungfer</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableCaption" xml:space="preserve">
+    <value>Aktualisierung gefunden!</value>
+  </data>
+  <data name="groupBox28.Text" xml:space="preserve">
+    <value>Abos</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>(5) Benutzt Spielzeit</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>(1) Kann nicht geändert werden, Miete ist immer montags
+(2) Umgerechnet zur besseren Lesbarkeit, kein tatsächlicher Wert
+(3) Änderung = kein Support
+(4) Mit der Questreihe der Kirche verbunden</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>(1) Benutzt Spielzeit</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>(1) Benutzt Spielzeit</value>
+  </data>
+  <data name="groupBox60.Text" xml:space="preserve">
+    <value>"Suche"(4)</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>"Ich weiß nicht" Ende</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>"Das unwissende Ende"</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>"Das schlimmste Ende"</value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>"Das nicht gut genug Ende"</value>
+  </data>
+  <data name="richTextBox12.Text" xml:space="preserve">
+    <value>"Das gute Ende"</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText2" xml:space="preserve">
+    <value>
+Neueste Version: </value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText3" xml:space="preserve">
+    <value>
+Möchtest du GitHub öffnen, um die neueste Version zu erhalten?</value>
+  </data>
+  <data name="languageToolStripMenuItem" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+</root>

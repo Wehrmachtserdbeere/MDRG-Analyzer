@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="groupBox73.Text" xml:space="preserve">
+    <value>Last cuddled at(1)</value>
+  </data>
+  <data name="groupBox74.Text" xml:space="preserve">
+    <value>Last Stream at(5)</value>
+  </data>
+  <data name="groupBox69.Text" xml:space="preserve">
+    <value>Last woke up at(1)</value>
+  </data>
+  <data name="groupBox75.Text" xml:space="preserve">
+    <value>Last outside at(1)</value>
+  </data>
+  <data name="groupBox71.Text" xml:space="preserve">
+    <value>Last worked at(1)</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Show Websites</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Show Achievements</value>
+  </data>
+  <data name="groupBox47.Text" xml:space="preserve">
+    <value>Amount Streams</value>
+  </data>
+  <data name="groupBox53.Text" xml:space="preserve">
+    <value>Word Chain</value>
+  </data>
+  <data name="groupBox80.Text" xml:space="preserve">
+    <value>Weekday(1)</value>
+  </data>
+  <data name="ExtraCreditsText" xml:space="preserve">
+    <value>Extra Credits go to:
+
+The MDRG Discord - Coding help
+italy2003 / PixivID: 66835722 - Art
+bgrmystr2 - Linux Testing
+You - For using this program. Thank you :D</value>
+  </data>
+  <data name="ExtraCreditsCaption" xml:space="preserve">
+    <value>Extra Credits</value>
+  </data>
+  <data name="groupBox51.Text" xml:space="preserve">
+    <value>Times Ran Away</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Websites</value>
+  </data>
+  <data name="openFileDialogTitle" xml:space="preserve">
+    <value>Select a .mdrg file.</value>
+  </data>
+  <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Suggest a Feature</value>
+  </data>
+  <data name="groupBox61.Text" xml:space="preserve">
+    <value>Vinegara End(1)</value>
+  </data>
+  <data name="groupBox56.Text" xml:space="preserve">
+    <value>Times Lost</value>
+  </data>
+  <data name="groupBox54.Text" xml:space="preserve">
+    <value>Times Lost</value>
+  </data>
+  <data name="groupBox49.Text" xml:space="preserve">
+    <value>Times Lost</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>Lust</value>
+  </data>
+  <data name="WeekDaysUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>Sympathy</value>
+  </data>
+  <data name="groupBox32.Text" xml:space="preserve">
+    <value>Stream Donos</value>
+  </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>Gametime</value>
+  </data>
+  <data name="saveFilesChoosingBox.Text" xml:space="preserve">
+    <value>Save Files</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Save Editing</value>
+  </data>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>Save Editing</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>Save (Overwrites current save!)</value>
+  </data>
+  <data name="groupBox26.Text" xml:space="preserve">
+    <value>Game Stage(3)</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Player Values</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Player Info</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Game Version</value>
+  </data>
+  <data name="EditInfoButtonText" xml:space="preserve">
+    <value>Save Editing has been added, enjoy!</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Misc Achievements</value>
+  </data>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>Misc Values</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Misc Info</value>
+  </data>
+  <data name="WeekDaysSunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="groupBox45.Text" xml:space="preserve">
+    <value>Save Slot</value>
+  </data>
+  <data name="groupBox44.Text" xml:space="preserve">
+    <value>Save Slot</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>Save Slot</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Save Slot</value>
+  </data>
+  <data name="BackupSuccessText" xml:space="preserve">
+    <value>Backup completed successfully! Your backup is saved as: </value>
+  </data>
+  <data name="GuideAndInstructionsText" xml:space="preserve">
+    <value>Create Backup: This is the first thing you should do. It will create a backup, not overwrite it (unless you have more than 2147483647 backups, which will error out... I think).
+
+Follow the entry numbering. For example: If the value is "42,927", then use a decimal value like "83,145".
+
+It is unknown if special characters break the Names, so to be safe, only use letters "A-Z" and "a-z". If you have the time to test it, please open an issue with your findings on what works and what doesn't.
+
+It is recommended to not change the Game Stage.
+
+If a value has an asterisk next to it, it has some sort of issue associated with it. The issue(s) will be listed at the bottom of the tab.
+
+Values are usually integers, so assume the max. value to be 2147483647 (2,147,483,647)</value>
+  </data>
+  <data name="createBackupButton.Text" xml:space="preserve">
+    <value>Create Backup</value>
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>Longing</value>
+  </data>
+  <data name="groupBox52.Text" xml:space="preserve">
+    <value>Chess</value>
+  </data>
+  <data name="WeekDaysSaturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="groupBox59.Text" xml:space="preserve">
+    <value>Cum Wasted</value>
+  </data>
+  <data name="groupBox22.Text" xml:space="preserve">
+    <value>Cum in Pussy</value>
+  </data>
+  <data name="groupBox24.Text" xml:space="preserve">
+    <value>Cum in Stomach</value>
+  </data>
+  <data name="groupBox23.Text" xml:space="preserve">
+    <value>Cum in Ass</value>
+  </data>
+  <data name="groupBox42.Text" xml:space="preserve">
+    <value>Raw</value>
+  </data>
+  <data name="groupBox35.Text" xml:space="preserve">
+    <value>Raw</value>
+  </data>
+  <data name="groupBox31.Text" xml:space="preserve">
+    <value>Raw</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="groupBox79.Text" xml:space="preserve">
+    <value>PriestBot Point(4,5)</value>
+  </data>
+  <data name="groupBox78.Text" xml:space="preserve">
+    <value>Nun Points(4,5)</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
+    <value>New version found!
+
+Your Version: </value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="WeekDaysMonday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="groupBox58.Text" xml:space="preserve">
+    <value>ML came in Mouth</value>
+  </data>
+  <data name="WeekDaysWednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="groupBox46.Text" xml:space="preserve">
+    <value>Rent in(1)</value>
+  </data>
+  <data name="openFileDialogFilter" xml:space="preserve">
+    <value>MDRG Files (*.mdrg)|*.mdrg|All Files (*.*)|*.*</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Max. Cum</value>
+  </data>
+  <data name="groupBox67.Text" xml:space="preserve">
+    <value>Last Bot Talk(1)</value>
+  </data>
+  <data name="groupBox76.Text" xml:space="preserve">
+    <value>Last equipm. at(1)</value>
+  </data>
+  <data name="groupBox70.Text" xml:space="preserve">
+    <value>Last church visit(1)</value>
+  </data>
+  <data name="groupBox66.Text" xml:space="preserve">
+    <value>Last Headpat at(1)</value>
+  </data>
+  <data name="groupBox68.Text" xml:space="preserve">
+    <value>Last Interact.(1)</value>
+  </data>
+  <data name="groupBox65.Text" xml:space="preserve">
+    <value>LastHunger Info(1)</value>
+  </data>
+  <data name="groupBox64.Text" xml:space="preserve">
+    <value>Last Mental Info(1)</value>
+  </data>
+  <data name="testString" xml:space="preserve">
+    <value>Lorem Ipsum! English!</value>
+  </data>
+  <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open Readme</value>
+  </data>
+  <data name="lightswitchCheckbox.Text" xml:space="preserve">
+    <value>Lightswitch</value>
+  </data>
+  <data name="groupBox77.Text" xml:space="preserve">
+    <value>Last sex at(1)</value>
+  </data>
+  <data name="guideButton.Text" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="GuideAndInstructionsCaption" xml:space="preserve">
+    <value>Guide and Instructions</value>
+  </data>
+  <data name="groupBox20.Text" xml:space="preserve">
+    <value>Mood</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>Longest Stream</value>
+  </data>
+  <data name="debugTextBox.Text" xml:space="preserve">
+    <value>Load a Save File. The content of the Save File will be displayed here.</value>
+  </data>
+  <data name="infoSaveBox.Text" xml:space="preserve">
+    <value>Load a File</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>Load a File</value>
+  </data>
+  <data name="GitResponseInvalidVersionFormatText" xml:space="preserve">
+    <value>Could not check for Update:
+
+Invalid version format.</value>
+  </data>
+  <data name="GitResponseCouldNotCheckForUpdateText" xml:space="preserve">
+    <value>Could not check for Update!
+Error:
+
+</value>
+  </data>
+  <data name="groupBox63.Text" xml:space="preserve">
+    <value>Times to Church</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Church Achievements</value>
+  </data>
+  <data name="GitResponseNewestVersionCaption" xml:space="preserve">
+    <value>No new version found!</value>
+  </data>
+  <data name="BackupNoFileSelectedText" xml:space="preserve">
+    <value>No file selected. Please select a save file before creating a backup.</value>
+  </data>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>No File</value>
+  </data>
+  <data name="saveSlotBoxBot.Text" xml:space="preserve">
+    <value>No File</value>
+  </data>
+  <data name="saveSlotBox.Text" xml:space="preserve">
+    <value>No File</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Casino Tokens</value>
+  </data>
+  <data name="groupBox21.Text" xml:space="preserve">
+    <value>Intelligence</value>
+  </data>
+  <data name="EditInfoButtonCaption" xml:space="preserve">
+    <value>Notice!</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="groupBox36.Text" xml:space="preserve">
+    <value>Came inside Vag</value>
+  </data>
+  <data name="groupBox38.Text" xml:space="preserve">
+    <value>Came inside Mouth</value>
+  </data>
+  <data name="groupBox37.Text" xml:space="preserve">
+    <value>Came inside Ass</value>
+  </data>
+  <data name="SavedataLoadingUnknownError" xml:space="preserve">
+    <value>The program ran into an unknown error. Please contact me on Discord or open an Issue.
+
+Error:
+</value>
+  </data>
+  <data name="saveEditConsentBox.Text" xml:space="preserve">
+    <value>I acknowledge and understand that using this feature may result in breaking or compromising
+my save games, and I assume full responsibility for any potential loss of progress or data.</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Remember to keep her safe (and filled)</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quick Link to GitHub</value>
+  </data>
+  <data name="groupBox57.Text" xml:space="preserve">
+    <value>Times Won</value>
+  </data>
+  <data name="groupBox55.Text" xml:space="preserve">
+    <value>Times Won</value>
+  </data>
+  <data name="groupBox50.Text" xml:space="preserve">
+    <value>Times Won</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>Total Streamtime</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Mental Health</value>
+  </data>
+  <data name="WeekDaysFriday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="groupBox41.Text" xml:space="preserve">
+    <value>Formatted(2)</value>
+  </data>
+  <data name="groupBox34.Text" xml:space="preserve">
+    <value>Formatted(2)</value>
+  </data>
+  <data name="groupBox30.Text" xml:space="preserve">
+    <value>Formatted(2)</value>
+  </data>
+  <data name="groupBox27.Text" xml:space="preserve">
+    <value>Followers</value>
+  </data>
+  <data name="GenericErrorCaption" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
+    <value>Report a Bug</value>
+  </data>
+  <data name="groupBox72.Text" xml:space="preserve">
+    <value>Extra Credits</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Achievements</value>
+  </data>
+  <data name="GenericSuccessCaption" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="SavedataLoadingOverflowErrorText" xml:space="preserve">
+    <value>One of your save file entries caused an integer overflow! Please fix this before trying to load it into the program.
+
+If your save is completely vanilla and has not been previously edited, open an Issue of message me on the MDRG Discord. Otherwise, you already know what you did, and I won't give your support for you breaking your own save.</value>
+  </data>
+  <data name="GitResponseNewestVersionText" xml:space="preserve">
+    <value>You are already on the newest version.</value>
+  </data>
+  <data name="WeekDaysThursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="WeekDaysTuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Current Cum</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Current Stamina</value>
+  </data>
+  <data name="HttpRequestExceptionMessageText" xml:space="preserve">
+    <value>The program has run into the following error:
+
+</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="groupBox62.Text" xml:space="preserve">
+    <value>Deathgrip End(1)</value>
+  </data>
+  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load File...</value>
+  </data>
+  <data name="SavedataSavingSuccessText" xml:space="preserve">
+    <value>File successfully saved!</value>
+  </data>
+  <data name="GenericFileWithSpace" xml:space="preserve">
+    <value>File </value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>Bot Values</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Bot Info</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>Bot Name</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
+    <value>Visited Websites</value>
+  </data>
+  <data name="SavedataSavingErrorText" xml:space="preserve">
+    <value>An error happened while saving your file!
+
+Error:
+</value>
+  </data>
+  <data name="SavedataLoadingErrorText" xml:space="preserve">
+    <value>Something went wrong when loading your save. Please re-export your save and try again.
+
+If it still does not work, paste your save file into a "JSON Beautifier" and check if there is any data inside "savedata". If there is not, your save might be corrupt.
+
+If there is data, and the program does not work, please contact me on the MDRG Discord Server (https://discord.com/invite/SwpQUFWreW), or open an Issue on GitHub (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer).
+
+You have to reload the file via "File" -&gt; "Load File" when you have re-exported your file.</value>
+  </data>
+  <data name="editInfoButton.Text" xml:space="preserve">
+    <value>Save Edit Info</value>
+  </data>
+  <data name="groupBox39.Text" xml:space="preserve">
+    <value>Came outside</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>App Version</value>
+  </data>
+  <data name="groupBox48.Text" xml:space="preserve">
+    <value>Old Maid</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableCaption" xml:space="preserve">
+    <value>Update found!</value>
+  </data>
+  <data name="groupBox28.Text" xml:space="preserve">
+    <value>Subs</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>(5) Uses Game Time</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>(1) Cannot be changed, rent is always on Monday
+(2) Converted for readability, not an actual value
+(3) No support will be given if changed
+(4) In some way related to the Church Questline</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>(1) Uses Game Time
+</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>(1) Uses Game Time</value>
+  </data>
+  <data name="groupBox60.Text" xml:space="preserve">
+    <value>"Search"(4)</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>"I don't Know" Ending</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>"The oblivious ending"</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>"The worst ending"</value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>"The not good enough ending"</value>
+  </data>
+  <data name="richTextBox12.Text" xml:space="preserve">
+    <value>"The good ending"</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText2" xml:space="preserve">
+    <value>
+Newest Version: </value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText3" xml:space="preserve">
+    <value>
+Do you want to open GitHub to get the latest release?</value>
+  </data>
+  <data name="languageToolStripMenuItem" xml:space="preserve">
+    <value>Language</value>
+  </data>
+</root>
