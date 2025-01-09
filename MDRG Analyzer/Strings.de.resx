@@ -153,6 +153,7 @@
 Den MDRG-Discord-Server - Programmierhilfe
 italy2003 / PixivID: 66835722 - Bilder / Kunst
 bgrmystr2 - Linux Testing
+小夜 - Chinesische Übersetzung
 Dich - Für das benutzen des Programms. Danke :D</value>
   </data>
   <data name="ExtraCreditsCaption" xml:space="preserve">
@@ -549,8 +550,8 @@ Wenn deine Speicherdatei komplett Vanilla ist und nicht zuvor bearbeitet wurde, 
   <data name="SavedataSavingSuccessText" xml:space="preserve">
     <value>Datei erfolgreich gespeichert!</value>
   </data>
-  <data name="GenericFileWithSpace" xml:space="preserve">
-    <value>Datei </value>
+  <data name="RadioButtonFileText" xml:space="preserve">
+    <value>Datei {0}</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Datei</value>

@@ -183,6 +183,7 @@ namespace MDRG_Analyzer {
         ///The MDRG Discord - Coding help
         ///italy2003 / PixivID: 66835722 - Art
         ///bgrmystr2 - Linux Testing
+        ///小夜 - Chinese Translation
         ///You - For using this program. Thank you :D.
         /// </summary>
         internal static string ExtraCreditsText {
@@ -215,15 +216,6 @@ namespace MDRG_Analyzer {
         internal static string GenericErrorCaption {
             get {
                 return ResourceManager.GetString("GenericErrorCaption", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to File .
-        /// </summary>
-        internal static string GenericFileWithSpace {
-            get {
-                return ResourceManager.GetString("GenericFileWithSpace", resourceCulture);
             }
         }
         
@@ -1208,6 +1200,15 @@ namespace MDRG_Analyzer {
         internal static string quickLinkToGitHubToolStripMenuItem_Text {
             get {
                 return ResourceManager.GetString("quickLinkToGitHubToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File {0}.
+        /// </summary>
+        internal static string RadioButtonFileText {
+            get {
+                return ResourceManager.GetString("RadioButtonFileText", resourceCulture);
             }
         }
         

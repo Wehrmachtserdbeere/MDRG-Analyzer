@@ -13,6 +13,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Globalization;
 using System.Threading;
+using MDRG_Analyzer.Properties;
 
 namespace MDRG_Analyzer
 {
@@ -21,7 +22,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.8";
+        readonly string __version__ = "1.1.9";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -89,9 +90,9 @@ namespace MDRG_Analyzer
             for (int i = 1; i <= numberOfFiles; i++)
             {
                 System.Windows.Forms.RadioButton radioButton = new System.Windows.Forms.RadioButton();
-                //radioButton.Text = "File " + i;
-                radioButton.Text = Strings.GenericFileWithSpace + i;
-                radioButton.Name = "radioButton" + i.ToString(); // Do NOT localize this! The user never sees this! This is important for the function of the program!
+                radioButton.Text = string.Format(Strings.RadioButtonFileText, i); // Localized text
+                radioButton.Name = "radioButton" + i.ToString();
+                radioButton.Tag = i; // Store the number in the Tag property
                 radioButton.AutoSize = true;
 
                 radioButton.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
@@ -105,10 +106,7 @@ namespace MDRG_Analyzer
             System.Windows.Forms.RadioButton radioButton = sender as System.Windows.Forms.RadioButton;
             if (radioButton.Checked)
             {
-                string buttonText = radioButton.Text;
-                string saveNumberString = buttonText.Substring(buttonText.LastIndexOf(' ') + 1);
-
-                if (int.TryParse(saveNumberString, out int saveNumber))
+                if (radioButton.Tag is int saveNumber)
                 {
                     selectedSaveFile = saveNumber - 1;
                 }
@@ -116,13 +114,11 @@ namespace MDRG_Analyzer
             reloadValues();
         }
 
+
         public void loadToolStripMenuItem_Click(object sender, EventArgs e) // On clicking "Load File"
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
 
-            // Set properties of the OpenFileDialog to only accept "mdrg" files
-            //openFileDialog.Filter = "MDRG Files (*.mdrg)|*.mdrg|All Files (*.*)|*.*";
-            //openFileDialog.Title = "Select a .mdrg File";
             openFileDialog.Filter = Strings.openFileDialogFilter;
             openFileDialog.Title = Strings.openFileDialogTitle;
 
@@ -151,11 +147,6 @@ namespace MDRG_Analyzer
 
                 debugTextBox.Text = fileContent; // Pump entire JSon into Debug
 
-                
-
-                /* TODO
-                 * Add more stuff and tabs
-                 */
             }
         }
         private void reloadValues()
@@ -173,7 +164,7 @@ namespace MDRG_Analyzer
                 catch (Exception ex)
                 {
                     MessageBox.Show(
-                        caption: "Error!",
+                        caption: Strings.GenericErrorCaption,
                         text: Strings.SavedataLoadingErrorText,
                         buttons: MessageBoxButtons.OK,
                         icon: MessageBoxIcon.Error);
@@ -878,6 +869,11 @@ namespace MDRG_Analyzer
         private void deutschToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ChangeLanguage("de");
+        }
+
+        private void TraditionalChineseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeLanguage("zh");
         }
     }
 }

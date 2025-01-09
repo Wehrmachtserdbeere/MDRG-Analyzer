@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExtraCreditsText" xml:space="preserve">
+    <value>额外荣誉归于
+
+MDRG Discord - 代码帮助
+italy2003 / PixivID: 66835722 - 艺术
+bgrmystr2 - Linux 测试
+小夜 - 中文翻译
+您正在使用此程序，谢谢 :D</value>
+  </data>
+  <data name="ExtraCreditsCaption" xml:space="preserve">
+    <value>额外学生</value>
+  </data>
+  <data name="openFileDialogTitle" xml:space="preserve">
+    <value>选择 .mdrg 文件。</value>
+  </data>
+  <data name="WeekDaysUnknown" xml:space="preserve">
+    <value>未知日期</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="saveFilesChoosingBox.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>游戏版本</value>
+  </data>
+  <data name="EditInfoButtonText" xml:space="preserve">
+    <value>已添加保存编辑功能，请享用！</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>其他成就</value>
+  </data>
+  <data name="WeekDaysSunday" xml:space="preserve">
+    <value>星期日</value>
+  </data>
+  <data name="GuideAndInstructionsText" xml:space="preserve">
+    <value>创建备份： 这是您应该做的第一件事。它将创建一个备份，而不是覆盖它（除非您有超过 2147483647 个备份，否则会出错... 我认为）。
+
+按照条目编号进行操作。例如 如果值是 “42,927”，则使用十进制值，如 “83,145”。
+
+目前还不清楚特殊字符是否会破坏名称，所以为了安全起见，只能使用字母 “A-Z ”和 “a-z”。如果您有时间进行测试，请将您的测试结果与问题一并提交。
+
+建议不要更改游戏阶段。
+
+如果某个值旁边有星号，则表示该值存在某种相关问题。问题将列在选项卡底部。
+
+数值通常是整数，因此假定最大值为 2147483647（2,147,483,647）</value>
+  </data>
+  <data name="WeekDaysSaturday" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
+    <value>发现新版本！
+
+
+您的版本 </value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>玩家姓名</value>
+  </data>
+  <data name="WeekDaysMonday" xml:space="preserve">
+    <value>星期一</value>
+  </data>
+  <data name="WeekDaysWednesday" xml:space="preserve">
+    <value>星期三</value>
+  </data>
+  <data name="openFileDialogFilter" xml:space="preserve">
+    <value>MDRG 日期 (*.mdrg)|*.mdrg|所有文件 (*.*)|*.*</value>
+  </data>
+  <data name="GuideAndInstructionsCaption" xml:space="preserve">
+    <value>指南和说明</value>
+  </data>
+  <data name="debugTextBox.Text" xml:space="preserve">
+    <value>加载保存文件。保存文件的内容将显示在此处。</value>
+  </data>
+  <data name="infoSaveBox.Text" xml:space="preserve">
+    <value>加载文件</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>加载文件</value>
+  </data>
+  <data name="GitResponseInvalidVersionFormatText" xml:space="preserve">
+    <value>无法检查更新：
+
+版本格式无效。</value>
+  </data>
+  <data name="GitResponseCouldNotCheckForUpdateText" xml:space="preserve">
+    <value>无法检查更新！
+错误：</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>教会成就</value>
+  </data>
+  <data name="GitResponseNewestVersionCaption" xml:space="preserve">
+    <value>未找到新版本！</value>
+  </data>
+  <data name="BackupNoFileSelectedText" xml:space="preserve">
+    <value>未选择文件。请在创建备份前选择保存文件。</value>
+  </data>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>无文件</value>
+  </data>
+  <data name="saveSlotBoxBot.Text" xml:space="preserve">
+    <value>无文件</value>
+  </data>
+  <data name="saveSlotBox.Text" xml:space="preserve">
+    <value>无文件</value>
+  </data>
+  <data name="EditInfoButtonCaption" xml:space="preserve">
+    <value>通知！</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="SavedataLoadingUnknownError" xml:space="preserve">
+    <value>程序出现未知错误。请在 Discord 上联系我或打开问题。
+
+错误：
+</value>
+  </data>
+  <data name="WeekDaysFriday" xml:space="preserve">
+    <value>星期五</value>
+  </data>
+  <data name="GenericErrorCaption" xml:space="preserve">
+    <value>错误！</value>
+  </data>
+  <data name="groupBox72.Text" xml:space="preserve">
+    <value>额外学分</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SavedataLoadingOverflowErrorText" xml:space="preserve">
+    <value>您的一个保存文件条目导致了整数溢出！请在尝试将其加载到程序之前修复这个问题。
+
+如果您的保存文件完全是虚构的，且之前未被编辑过，请在 MDRG Discord 上打开一个问题或给我留言。否则，你已经知道自己做了什么，我不会因为你破坏了自己的保存而给予支持。</value>
+  </data>
+  <data name="GitResponseNewestVersionText" xml:space="preserve">
+    <value>您已经在使用最新版本。</value>
+  </data>
+  <data name="WeekDaysThursday" xml:space="preserve">
+    <value>星期四</value>
+  </data>
+  <data name="WeekDaysTuesday" xml:space="preserve">
+    <value>星期二</value>
+  </data>
+  <data name="HttpRequestExceptionMessageText" xml:space="preserve">
+    <value>程序出现以下错误:
+
+</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
+    <value>加载文件...</value>
+  </data>
+  <data name="SavedataSavingSuccessText" xml:space="preserve">
+    <value>文件已成功保存！</value>
+  </data>
+  <data name="RadioButtonFileText" xml:space="preserve">
+    <value>日期 {0}</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>学分</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>机器人姓名</value>
+  </data>
+  <data name="SavedataSavingErrorText" xml:space="preserve">
+    <value>保存文件时发生错误！
+
+错误：</value>
+  </data>
+  <data name="SavedataLoadingErrorText" xml:space="preserve">
+    <value>加载您的保存时出了问题。请重新导出保存并再试一次。
+
+如果还是不行，请将保存文件粘贴到 “JSON 美化器 ”中，检查 “savedata ”中是否有任何数据。如果没有，您的保存文件可能已损坏。
+
+如果有数据，但程序无法运行，请在 MDRG Discord 服务器 (https://discord.com/invite/SwpQUFWreW) 上联系我，或在 GitHub (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer) 上打开一个问题。
+
+重新导出文件后，您必须通过 “文件”-&gt;“载入文件 ”重新载入文件。</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>应用程序版本</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableCaption" xml:space="preserve">
+    <value>发现更新！</value>
+  </data>
+  <data name="richTextBox12.Text" xml:space="preserve">
+    <value>“美好的结局”</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText2" xml:space="preserve">
+    <value>
+最新版本： </value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText3" xml:space="preserve">
+    <value>
+您想打开 GitHub 获取最新版本吗？</value>
+  </data>
+</root>

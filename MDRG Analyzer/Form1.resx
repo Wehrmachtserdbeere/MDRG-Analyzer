@@ -120,12 +120,18 @@
   <data name="&gt;&gt;groupBox68.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="groupBox41.Text" xml:space="preserve">
+    <value>Formatted(2)</value>
+  </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>Last cuddled at(1)</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lastOutsideWithBotAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
   <data name="&gt;&gt;groupBox60.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -143,9 +149,6 @@
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
     <value>Casino Tokens</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxGen.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -328,9 +331,6 @@
   <data name="&gt;&gt;vinegaraEndBox.Parent" xml:space="preserve">
     <value>groupBox61</value>
   </data>
-  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
   <data name="nunPointsBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -388,14 +388,14 @@
   <data name="groupBox60.Text" xml:space="preserve">
     <value>"Search"(4)</value>
   </data>
-  <data name="gameTimeRaw.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
-  </data>
   <data name="&gt;&gt;timesRanAwayOldMaidBox.Name" xml:space="preserve">
     <value>timesRanAwayOldMaidBox</value>
   </data>
   <data name="&gt;&gt;playerNameBox.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="timesLostWordChainBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
   <data name="&gt;&gt;groupBox20.Name" xml:space="preserve">
     <value>groupBox20</value>
@@ -472,11 +472,11 @@
   <data name="&gt;&gt;saveEditConsentBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="currentStaminaBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="mlCameInMouthBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="lastBotStartedTalkAtBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -501,6 +501,9 @@
   </data>
   <data name="searchTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
+  </data>
+  <data name="&gt;&gt;longestStreamRawBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="botIntBox.Text" xml:space="preserve">
     <value />
@@ -637,14 +640,11 @@
   <data name="lastOutsideWithBotAtBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
-  <data name="groupBox30.Text" xml:space="preserve">
-    <value>Formatted(2)</value>
-  </data>
-  <data name="&gt;&gt;groupBox34.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;nunPointsBox.Parent" xml:space="preserve">
     <value>groupBox78</value>
+  </data>
+  <data name="&gt;&gt;totalStreamTimeRawBox.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;weekdayTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -652,11 +652,8 @@
   <data name="gameVersionBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="mlCameInMouthBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="groupBox21.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+  <data name="&gt;&gt;deathGripEffectEndBox.Parent" xml:space="preserve">
+    <value>groupBox62</value>
   </data>
   <data name="botNameBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -687,6 +684,9 @@
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 47</value>
+  </data>
+  <data name="&gt;&gt;groupBox67.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;timesCumInsideOral.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -730,8 +730,8 @@
   <data name="&gt;&gt;groupBox73.Name" xml:space="preserve">
     <value>groupBox73</value>
   </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>Misc Info</value>
+  <data name="groupBox23.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
   </data>
   <data name="checkedListBox1.Items3" xml:space="preserve">
     <value>church-endJustGoThereGood</value>
@@ -817,14 +817,14 @@
   <data name="groupBox39.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="groupBox59.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="cumInPussy.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check for Updates</value>
+  <data name="&gt;&gt;timesCumInsideVag.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;mlCumWastedBox.Parent" xml:space="preserve">
     <value>groupBox59</value>
@@ -853,9 +853,6 @@
   <data name="lastBotStartedTalkAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="&gt;&gt;groupBox66.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="groupBox18.Text" xml:space="preserve">
     <value>Sympathy</value>
   </data>
@@ -868,8 +865,8 @@
   <data name="&gt;&gt;tabPage6.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;timesCumInsideVag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;gameStageBox.Name" xml:space="preserve">
+    <value>gameStageBox</value>
   </data>
   <data name="&gt;&gt;botNameBox.Name" xml:space="preserve">
     <value>botNameBox</value>
@@ -889,9 +886,6 @@
   <data name="botNameBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="groupBox29.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
@@ -900,6 +894,9 @@
   </data>
   <data name="&gt;&gt;groupBox80.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lastInteractAtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="currentStaminaBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -922,9 +919,6 @@
   <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 44</value>
   </data>
-  <data name="&gt;&gt;groupBox22.Name" xml:space="preserve">
-    <value>groupBox22</value>
-  </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
   </data>
@@ -943,23 +937,20 @@
   <data name="&gt;&gt;followersTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="timesWonChessBox.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
     <value>Save Files</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Church Achievements</value>
   </data>
-  <data name="infoSaveBox.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="achievementsPanel.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="&gt;&gt;websitesCheckBoxes.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastHeadpatedAtBox.Name" xml:space="preserve">
+    <value>lastHeadpatedAtBox</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 24</value>
@@ -981,6 +972,9 @@
   </data>
   <data name="groupBox20.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 70</value>
+  </data>
+  <data name="gameTimeFormatted.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
   <data name="groupBox70.Location" type="System.Drawing.Point, System.Drawing">
     <value>241, 220</value>
@@ -1021,17 +1015,14 @@
   <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="richTextBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 20</value>
+  </data>
   <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
     <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;groupBox29.ZOrder" xml:space="preserve">
     <value>17</value>
-  </data>
-  <data name="groupBox57.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;churchAmountBox.Name" xml:space="preserve">
-    <value>churchAmountBox</value>
   </data>
   <data name="groupBox35.Text" xml:space="preserve">
     <value>Raw</value>
@@ -1053,12 +1044,6 @@
   </data>
   <data name="saveSlotBoxGen.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
-  </data>
-  <data name="&gt;&gt;tabPage8.Name" xml:space="preserve">
-    <value>tabPage8</value>
-  </data>
-  <data name="&gt;&gt;lastFuckedAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1117,8 +1102,8 @@
   <data name="currentCumBox.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="&gt;&gt;botLongingBox.Name" xml:space="preserve">
-    <value>botLongingBox</value>
+  <data name="cameOutsideBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>groupBox3</value>
@@ -1126,29 +1111,23 @@
   <data name="groupBox57.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
   </data>
-  <data name="&gt;&gt;groupBox18.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
   <data name="lastOutsideWithBotAtBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="longestStreamFormattedBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
+  <data name="cumInStomach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
   <data name="groupBox56.Location" type="System.Drawing.Point, System.Drawing">
     <value>123, 19</value>
-  </data>
-  <data name="casinoTokenBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;groupBox66.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
   <data name="&gt;&gt;groupBox38.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="maxCumBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
   </data>
   <data name="&gt;&gt;saveFilesChoosingBox.Parent" xml:space="preserve">
     <value>tabPage1</value>
@@ -1201,9 +1180,6 @@
   <data name="&gt;&gt;lastMentalHealthInfoAtBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
   <data name="&gt;&gt;gameStageBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -1214,6 +1190,9 @@
     <value>groupBox15</value>
   </data>
   <data name="&gt;&gt;groupBox77.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="totalStreamTimeRawBox.Text" xml:space="preserve">
@@ -1228,6 +1207,9 @@
   <data name="deathGripEffectEndBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
+  <data name="groupBox20.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
   <data name="&gt;&gt;debugTextBox.Name" xml:space="preserve">
     <value>debugTextBox</value>
   </data>
@@ -1240,23 +1222,29 @@
   <data name="&gt;&gt;timesLostChessBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cameOutsideBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="gameTimeRaw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
   </data>
   <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
   </data>
-  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="richTextBox6.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;groupBox71.Name" xml:space="preserve">
     <value>groupBox71</value>
+  </data>
+  <data name="groupBox36.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
   <data name="&gt;&gt;groupBox12.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
   <data name="lastFuckedAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
+  </data>
+  <data name="timesCumInsideVag.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="richTextBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 82</value>
@@ -1287,6 +1275,12 @@
   </data>
   <data name="&gt;&gt;richTextBox4.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="groupBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>786, 393</value>
+  </data>
+  <data name="timesLostWordChainBox.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox29.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 120</value>
@@ -1327,11 +1321,17 @@
   <data name="&gt;&gt;maxCumBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="richTextBox4.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="suggestAFeatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
   </data>
   <data name="&gt;&gt;saveFilesChoosingBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox31.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
   </data>
   <data name="groupBox36.Text" xml:space="preserve">
     <value>Came inside Vag</value>
@@ -1357,11 +1357,14 @@
   <data name="&gt;&gt;groupBox14.Parent" xml:space="preserve">
     <value>groupBox25</value>
   </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
   <data name="&gt;&gt;cumInAss.Name" xml:space="preserve">
     <value>cumInAss</value>
+  </data>
+  <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 44</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;debugTextBox.Parent" xml:space="preserve">
     <value>tabPage3</value>
@@ -1486,11 +1489,14 @@
   <data name="&gt;&gt;groupBox46.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="groupBox30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 19</value>
+  </data>
   <data name="timesWonWordChainBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="groupBox59.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;groupBox26.Name" xml:space="preserve">
+    <value>groupBox26</value>
   </data>
   <data name="infoSaveBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1503,9 +1509,6 @@
   </data>
   <data name="botLongingBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="timesLostWordChainBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1527,6 +1530,9 @@
   </data>
   <data name="timesWonWordChainBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
+  </data>
+  <data name="groupBox77.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
   <data name="playerHealthBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1555,8 +1561,14 @@
   <data name="streamDonations.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
-    <value>tabPage5</value>
+  <data name="casinoTokenBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;moneyTextBox.Name" xml:space="preserve">
+    <value>moneyTextBox</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>Longest Stream</value>
   </data>
   <data name="richTextBox5.Text" xml:space="preserve">
     <value>"The worst ending"</value>
@@ -1579,14 +1591,8 @@
   <data name="&gt;&gt;gameTimeRaw.Name" xml:space="preserve">
     <value>gameTimeRaw</value>
   </data>
-  <data name="rentTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>groupBox25</value>
-  </data>
-  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>792, 169</value>
   </data>
   <data name="&gt;&gt;groupBox71.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1633,6 +1639,9 @@
   <data name="&gt;&gt;longestStreamFormattedBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="lastInteractAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
   <data name="priestBotPointsBox.Text" xml:space="preserve">
     <value />
   </data>
@@ -1648,9 +1657,6 @@
   <data name="groupBox63.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="groupBox38.Text" xml:space="preserve">
-    <value>Came inside Mouth</value>
-  </data>
   <data name="&gt;&gt;groupBox32.Name" xml:space="preserve">
     <value>groupBox32</value>
   </data>
@@ -1662,9 +1668,6 @@
   </data>
   <data name="casinoTokenBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="richTextBox3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1714,8 +1717,8 @@
   <data name="&gt;&gt;totalStreamTimeRawBox.Name" xml:space="preserve">
     <value>totalStreamTimeRawBox</value>
   </data>
-  <data name="&gt;&gt;moneyTextBox.Name" xml:space="preserve">
-    <value>moneyTextBox</value>
+  <data name="groupBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
   <data name="saveButton.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1729,17 +1732,14 @@
   <data name="followersTextBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;groupBox64.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox54.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox11.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
   <data name="timesCumInsideVag.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
-  </data>
-  <data name="groupBox53.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 120</value>
   </data>
   <data name="&gt;&gt;cumInStomach.Parent" xml:space="preserve">
     <value>groupBox24</value>
@@ -1756,6 +1756,9 @@
   <data name="groupBox31.Text" xml:space="preserve">
     <value>Raw</value>
   </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;lastEquipmentAtBox.Parent" xml:space="preserve">
     <value>groupBox76</value>
   </data>
@@ -1765,17 +1768,14 @@
   <data name="&gt;&gt;tabPage7.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="timesRanAwayOldMaidBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
+  <data name="&gt;&gt;botLongingBox.Name" xml:space="preserve">
+    <value>botLongingBox</value>
   </data>
   <data name="&gt;&gt;mlCumWastedBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox24.Text" xml:space="preserve">
     <value>Cum in Stomach</value>
-  </data>
-  <data name="gameTimeRaw.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
   </data>
   <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
     <value>fileToolStripMenuItem</value>
@@ -1784,7 +1784,7 @@
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>122, 22</value>
   </data>
   <data name="&gt;&gt;groupBox19.Name" xml:space="preserve">
     <value>groupBox19</value>
@@ -1900,8 +1900,14 @@
   <data name="&gt;&gt;rentTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;checkedListBox1.Name" xml:space="preserve">
+    <value>checkedListBox1</value>
+  </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
+  </data>
+  <data name="versionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -1918,6 +1924,9 @@
   <data name="&gt;&gt;groupBox78.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="groupBox66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 44</value>
+  </data>
   <data name="&gt;&gt;cumInAss.Parent" xml:space="preserve">
     <value>groupBox23</value>
   </data>
@@ -1926,9 +1935,6 @@
   </data>
   <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
     <value>menuStrip1</value>
-  </data>
-  <data name="editInfoButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 19</value>
   </data>
   <data name="englishToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt, style=Bold</value>
@@ -1954,6 +1960,9 @@
   <data name="&gt;&gt;lastWokeUpAtBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>Longing</value>
+  </data>
   <data name="&gt;&gt;groupBox24.Name" xml:space="preserve">
     <value>groupBox24</value>
   </data>
@@ -1975,23 +1984,26 @@
   <data name="&gt;&gt;saveSlotBoxBot.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="followersTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;richTextBox5.Parent" xml:space="preserve">
     <value>groupBox4</value>
   </data>
+  <data name="vinegaraEndBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
   <data name="lastHungerInfoAtBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
-  </data>
-  <data name="botNameBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
   </data>
   <data name="&gt;&gt;visitedWebsiteGroupBox.Name" xml:space="preserve">
     <value>visitedWebsiteGroupBox</value>
   </data>
   <data name="visitedWebsiteGroupBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 33</value>
+  </data>
+  <data name="websitesCheckBoxes.Items26" xml:space="preserve">
+    <value>patriciascookingblog.food/main</value>
   </data>
   <data name="checkedListBox1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2011,6 +2023,9 @@
   <data name="&gt;&gt;groupBox76.Parent" xml:space="preserve">
     <value>groupBox15</value>
   </data>
+  <data name="mentalHealthBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>Debug</value>
   </data>
@@ -2020,20 +2035,14 @@
   <data name="&gt;&gt;groupBox19.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lastInteractAtBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="checkedListBox2.Items8" xml:space="preserve">
-    <value>ending-fedEnd</value>
-  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Show Websites</value>
   </data>
   <data name="&gt;&gt;priestBotPointsBox.Parent" xml:space="preserve">
     <value>groupBox79</value>
   </data>
-  <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>461, 30</value>
+  <data name="lastWokeUpAtBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="botSympathyBox.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -2068,8 +2077,8 @@
   <data name="&gt;&gt;richTextBox6.Name" xml:space="preserve">
     <value>richTextBox6</value>
   </data>
-  <data name="&gt;&gt;groupBox59.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="mlCameInMouthBox.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
     <value>358, 70</value>
@@ -2077,8 +2086,11 @@
   <data name="groupBox23.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 120</value>
   </data>
-  <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 44</value>
+  <data name="saveFilesChoosingBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>782, 114</value>
+  </data>
+  <data name="groupBox39.Text" xml:space="preserve">
+    <value>Came outside</value>
   </data>
   <data name="groupBox73.Location" type="System.Drawing.Point, System.Drawing">
     <value>124, 220</value>
@@ -2119,11 +2131,14 @@
   <data name="&gt;&gt;groupBox30.Name" xml:space="preserve">
     <value>groupBox30</value>
   </data>
+  <data name="saveEditGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 88</value>
+  </data>
   <data name="&gt;&gt;botLustBox.Name" xml:space="preserve">
     <value>botLustBox</value>
   </data>
-  <data name="websitesCheckBoxes.Items26" xml:space="preserve">
-    <value>patriciascookingblog.food/main</value>
+  <data name="&gt;&gt;lastBotStartedTalkAtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="playerHealthBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2148,6 +2163,9 @@
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>Quick Link to GitHub</value>
+  </data>
+  <data name="lastWentToChurchAtBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="&gt;&gt;groupBox27.ZOrder" xml:space="preserve">
     <value>19</value>
@@ -2194,8 +2212,14 @@
   <data name="groupBox80.Text" xml:space="preserve">
     <value>Weekday(1)</value>
   </data>
+  <data name="&gt;&gt;groupBox69.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="tabPage6.Text" xml:space="preserve">
     <value>Bot Info</value>
+  </data>
+  <data name="saveEditConsentBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 52</value>
   </data>
   <data name="&gt;&gt;groupBox27.Parent" xml:space="preserve">
     <value>groupBox25</value>
@@ -2215,9 +2239,6 @@
   <data name="botLongingBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="websitesCheckBoxes.Items6" xml:space="preserve">
-    <value>cockcockcockcockcock.ic</value>
-  </data>
   <data name="&gt;&gt;timesWonOldMaidBox.Name" xml:space="preserve">
     <value>timesWonOldMaidBox</value>
   </data>
@@ -2229,9 +2250,6 @@
   </data>
   <data name="&gt;&gt;groupBox13.Name" xml:space="preserve">
     <value>groupBox13</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
-    <value>Deutsch</value>
   </data>
   <data name="&gt;&gt;groupBox49.Parent" xml:space="preserve">
     <value>groupBox48</value>
@@ -2253,6 +2271,9 @@
   </data>
   <data name="&gt;&gt;lastEquipmentAtBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="versionBox.Text" xml:space="preserve">
     <value />
@@ -2307,6 +2328,9 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="websitesCheckBoxes.Items" xml:space="preserve">
     <value>adredirect.ic</value>
   </data>
+  <data name="&gt;&gt;groupBox33.Parent" xml:space="preserve">
+    <value>groupBox25</value>
+  </data>
   <data name="extraCreditsButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 18</value>
   </data>
@@ -2333,9 +2357,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="&gt;&gt;richTextBox7.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lastHeadpatedAtBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="richTextBox5.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2376,11 +2397,11 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox43.Text" xml:space="preserve">
     <value>Save Slot</value>
   </data>
+  <data name="&gt;&gt;groupBox53.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="richTextBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;loadToolStripMenuItem.Name" xml:space="preserve">
     <value>loadToolStripMenuItem</value>
@@ -2463,14 +2484,14 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;groupBox57.Parent" xml:space="preserve">
     <value>groupBox53</value>
   </data>
-  <data name="&gt;&gt;longestStreamFormattedBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
   </data>
   <data name="lastFuckedAtBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="richTextBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 20</value>
+  <data name="lastWorkedAtDayBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
   </data>
   <data name="checkedListBox1.Items" xml:space="preserve">
     <value>church-endSpotkanie2B</value>
@@ -2529,8 +2550,8 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox15.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;groupBox29.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox42.Text" xml:space="preserve">
+    <value>Raw</value>
   </data>
   <data name="&gt;&gt;groupBox74.Name" xml:space="preserve">
     <value>groupBox74</value>
@@ -2547,11 +2568,20 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox33.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 69</value>
+  <data name="cameOutsideBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="richTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;groupBox49.Name" xml:space="preserve">
+    <value>groupBox49</value>
   </data>
   <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
     <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;TraditionalChineseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;streamCountBox.Parent" xml:space="preserve">
     <value>groupBox47</value>
@@ -2568,8 +2598,8 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;timesWonWordChainBox.Parent" xml:space="preserve">
     <value>groupBox57</value>
   </data>
-  <data name="&gt;&gt;groupBox43.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;nunPointsBox.Name" xml:space="preserve">
+    <value>nunPointsBox</value>
   </data>
   <data name="visitedWebsiteGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2589,26 +2619,20 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox15.Text" xml:space="preserve">
     <value>Bot Values</value>
   </data>
-  <data name="groupBox37.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 170</value>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="richTextBox3.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="groupBox76.Text" xml:space="preserve">
-    <value>Last equipm. at(1)</value>
-  </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="websitesCheckBoxes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
+  <data name="&gt;&gt;timesWonChessBox.Parent" xml:space="preserve">
+    <value>groupBox55</value>
   </data>
-  <data name="&gt;&gt;totalStreamTimeRawBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lastEquipmentAtBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;gameTimeRaw.Parent" xml:space="preserve">
+    <value>groupBox42</value>
   </data>
   <data name="botLongingBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2631,9 +2655,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="timesCumInsideVag.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="botLongingBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
-  </data>
   <data name="&gt;&gt;groupBox62.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -2649,8 +2670,8 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="cumInStomach.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>792, 399</value>
+  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch</value>
   </data>
   <data name="&gt;&gt;groupBox72.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2660,6 +2681,9 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="&gt;&gt;lastInteractAtBox.Parent" xml:space="preserve">
     <value>groupBox68</value>
+  </data>
+  <data name="&gt;&gt;groupBox8.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
   <data name="websitesCheckBoxes.Items17" xml:space="preserve">
     <value>dickcheese.ic/1</value>
@@ -2679,14 +2703,11 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;lastCuddledAtBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
   <data name="richTextBox4.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;groupBox51.Name" xml:space="preserve">
-    <value>groupBox51</value>
+  <data name="priestBotPointsBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
   <data name="&gt;&gt;timesCumInsideOral.Parent" xml:space="preserve">
     <value>groupBox38</value>
@@ -2700,9 +2721,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
     <value>achievementsPanel</value>
   </data>
-  <data name="&gt;&gt;groupBox26.Name" xml:space="preserve">
-    <value>groupBox26</value>
-  </data>
   <data name="groupBox24.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
   </data>
@@ -2711,9 +2729,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesCumInsideAss.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
-  </data>
-  <data name="lastWorkedAtDayBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
   </data>
   <data name="mlCumWastedBox.Text" xml:space="preserve">
     <value />
@@ -2745,17 +2760,11 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;groupBox51.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
   <data name="groupBox73.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
   </data>
-  <data name="richTextBox4.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="richTextBox12.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="groupBox80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 20</value>
   </data>
   <data name="&gt;&gt;lastEquipmentAtBox.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -2781,8 +2790,8 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="&gt;&gt;groupBox52.Parent" xml:space="preserve">
-    <value>groupBox25</value>
+  <data name="nunPointsBox.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="currentStaminaBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -2823,9 +2832,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="nunPointsBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="&gt;&gt;gameStageBox.Name" xml:space="preserve">
-    <value>gameStageBox</value>
-  </data>
   <data name="groupBox43.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
@@ -2847,9 +2853,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="streamDonations.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="groupBox6.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
@@ -2859,8 +2862,8 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="websitesCheckBoxes.Items24" xml:space="preserve">
     <value>patriciascookingblog.food/blog</value>
   </data>
-  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
-    <value>cocktwitch.ic/leaderboard</value>
+  <data name="checkedListBox2.Items14" xml:space="preserve">
+    <value>ending-theyKnow</value>
   </data>
   <data name="checkedListBox2.Items15" xml:space="preserve">
     <value>bigdaddyhurtSecretEpilogue</value>
@@ -2898,8 +2901,11 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
     <value>flowLayoutPanel1</value>
   </data>
-  <data name="groupBox79.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
+  <data name="timesCumInsideVag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="groupBox64.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="groupBox75.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -2913,8 +2919,11 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;groupBox21.Name" xml:space="preserve">
     <value>groupBox21</value>
   </data>
-  <data name="currentCumBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="groupBox32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 70</value>
+  </data>
+  <data name="&gt;&gt;groupBox14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2977,9 +2986,6 @@ saveEdited --- Used the iamacheater website.</value>
   <data name="weekdayTextBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="timesWonOldMaidBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
-  </data>
   <data name="&gt;&gt;lastHungerInfoAtBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -2991,6 +2997,9 @@ saveEdited --- Used the iamacheater website.</value>
   </data>
   <data name="websitesCheckBoxes.Items13" xml:space="preserve">
     <value>cocktwitch.ic</value>
+  </data>
+  <data name="&gt;&gt;timesLostWordChainBox.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox73.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3010,14 +3019,14 @@ saveEdited --- Used the iamacheater website.</value>
   <data name="&gt;&gt;botLustBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;lastBotStartedTalkAtBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;groupBox29.Parent" xml:space="preserve">
     <value>groupBox25</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
-  </data>
-  <data name="&gt;&gt;groupBox63.Name" xml:space="preserve">
-    <value>groupBox63</value>
   </data>
   <data name="groupBox17.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
@@ -3027,9 +3036,6 @@ saveEdited --- Used the iamacheater website.</value>
   </data>
   <data name="vinegaraEndBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
   </data>
   <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -3053,14 +3059,14 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="groupBox17.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
+  <data name="&gt;&gt;gameStageBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="groupBox63.Text" xml:space="preserve">
-    <value>Times to Church</value>
+  <data name="timesWonWordChainBox.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox23.Text" xml:space="preserve">
     <value>Cum in Ass</value>
@@ -3077,8 +3083,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;groupBox37.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="groupBox80.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 20</value>
+  <data name="casinoTokenBox.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;groupBox70.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3086,6 +3092,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="label7.Text" xml:space="preserve">
     <value>(1) Uses Game Time
 </value>
+  </data>
+  <data name="&gt;&gt;playerNameBox.Name" xml:space="preserve">
+    <value>playerNameBox</value>
   </data>
   <data name="&gt;&gt;checkedListBox2.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -3099,9 +3108,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="longestStreamFormattedBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="debugTextBox.Text" xml:space="preserve">
-    <value>Load a Save File. The content of the Save File will be displayed here.</value>
-  </data>
   <data name="&gt;&gt;saveSlotBox.Name" xml:space="preserve">
     <value>saveSlotBox</value>
   </data>
@@ -3113,12 +3119,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="&gt;&gt;infoSaveBox.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="timesCumInsideOral.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="mlCumWastedBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
   </data>
   <data name="timesCumInsideAss.Text" xml:space="preserve">
     <value />
@@ -3155,9 +3155,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="&gt;&gt;groupBox26.Parent" xml:space="preserve">
     <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox78.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="&gt;&gt;botIntBox.Parent" xml:space="preserve">
     <value>groupBox21</value>
@@ -3201,9 +3198,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="lastEquipmentAtBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
-  <data name="&gt;&gt;lastWokeUpAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="followersTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
@@ -3216,8 +3210,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;editInfoButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;saveEditGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="gameTimeRaw.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="websitesCheckBoxes.Items25" xml:space="preserve">
     <value>patriciascookingblog.food/login</value>
@@ -3243,6 +3237,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="moneyTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="groupBox37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 170</value>
+  </data>
   <data name="playerNameBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
@@ -3252,8 +3249,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="nunPointsBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
-  <data name="versionBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 22</value>
+  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
+    <value>cocktwitch.ic/leaderboard</value>
   </data>
   <data name="&gt;&gt;groupBox21.ZOrder" xml:space="preserve">
     <value>14</value>
@@ -3264,6 +3261,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
   <data name="&gt;&gt;groupBox21.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -3272,6 +3272,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="saveButton.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 44</value>
   </data>
   <data name="websitesCheckBoxes.Items28" xml:space="preserve">
     <value>pixelglasses.ic</value>
@@ -3321,8 +3324,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;groupBox50.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;groupBox36.Name" xml:space="preserve">
+    <value>groupBox36</value>
   </data>
   <data name="&gt;&gt;streamDonations.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3339,8 +3342,14 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;cameOutsideBox.Name" xml:space="preserve">
     <value>cameOutsideBox</value>
   </data>
+  <data name="achievementsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
   <data name="gameTimeFormatted.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
+  </data>
+  <data name="&gt;&gt;saveEditGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox13.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 70</value>
@@ -3393,8 +3402,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="label6.Text" xml:space="preserve">
     <value>Remember to keep her safe (and filled)</value>
   </data>
-  <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 22</value>
+  <data name="richTextBox12.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;groupBox66.Name" xml:space="preserve">
     <value>groupBox66</value>
@@ -3405,8 +3414,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;lastFuckedAtBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="priestBotPointsBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+  <data name="&gt;&gt;groupBox66.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="botLustBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -3414,8 +3423,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="groupBox77.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="timesCumInsideOral.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;lastFuckedAtBox.Parent" xml:space="preserve">
     <value>groupBox77</value>
@@ -3426,11 +3435,14 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
     <value>792, 399</value>
   </data>
-  <data name="&gt;&gt;groupBox77.Name" xml:space="preserve">
-    <value>groupBox77</value>
+  <data name="&gt;&gt;timesCumInsideVag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="weekdayTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
+  </data>
+  <data name="&gt;&gt;groupBox20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="mlCumWastedBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -3449,9 +3461,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="groupBox10.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;gameTimeRaw.Parent" xml:space="preserve">
-    <value>groupBox42</value>
   </data>
   <data name="subsTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3513,9 +3522,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="groupBox65.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="groupBox79.Text" xml:space="preserve">
-    <value>PriestBot Point(4,5)</value>
-  </data>
   <data name="lastCuddledAtBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
@@ -3533,6 +3539,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="gameStageBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
+  </data>
+  <data name="&gt;&gt;groupBox31.Name" xml:space="preserve">
+    <value>groupBox31</value>
   </data>
   <data name="extraCreditsButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 21</value>
@@ -3582,6 +3591,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="timesWonChessBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
+  <data name="timesWonOldMaidBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="tabPage7.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
@@ -3594,26 +3606,20 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;playerHealthBox.Parent" xml:space="preserve">
     <value>groupBox12</value>
   </data>
-  <data name="lastMentalHealthInfoAtBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Name</value>
-  </data>
-  <data name="checkedListBox2.Items14" xml:space="preserve">
-    <value>ending-theyKnow</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lightswitchCheckbox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;priestBotPointsBox.Name" xml:space="preserve">
     <value>priestBotPointsBox</value>
   </data>
-  <data name="groupBox19.Text" xml:space="preserve">
-    <value>Longing</value>
+  <data name="priestBotPointsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 399</value>
   </data>
   <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3660,9 +3666,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;groupBox25.Parent" xml:space="preserve">
     <value>tabPage7</value>
   </data>
-  <data name="&gt;&gt;groupBox36.Name" xml:space="preserve">
-    <value>groupBox36</value>
-  </data>
   <data name="checkedListBox2.Items3" xml:space="preserve">
     <value>ending-badEnd2</value>
   </data>
@@ -3675,6 +3678,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="groupBox72.Text" xml:space="preserve">
+    <value>Extra Credits</value>
+  </data>
   <data name="&gt;&gt;groupBox22.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
@@ -3684,8 +3690,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="groupBox12.Text" xml:space="preserve">
     <value>Health</value>
   </data>
-  <data name="&gt;&gt;groupBox74.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="lastCuddledAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
   </data>
   <data name="botMoodBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -3732,11 +3738,11 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="richTextBox3.Text" xml:space="preserve">
     <value>"I don't Know" Ending</value>
   </data>
+  <data name="richTextBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 20</value>
+  </data>
   <data name="extraCreditsButton.Text" xml:space="preserve">
     <value>Credits</value>
-  </data>
-  <data name="&gt;&gt;groupBox15.Name" xml:space="preserve">
-    <value>groupBox15</value>
   </data>
   <data name="gameTimeFormatted.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3746,9 +3752,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="gameTimeFormatted.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="groupBox34.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 44</value>
   </data>
   <data name="groupBox38.Location" type="System.Drawing.Point, System.Drawing">
     <value>241, 170</value>
@@ -3783,17 +3786,14 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="groupBox60.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
   </data>
-  <data name="&gt;&gt;lastStreamedAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="richTextBox6.Text" xml:space="preserve">
     <value>"The not good enough ending"</value>
   </data>
   <data name="&gt;&gt;playerHealthBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="timesCumInsideOral.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="timesWonOldMaidBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
   </data>
   <data name="&gt;&gt;saveEditConsentBox.Name" xml:space="preserve">
     <value>saveEditConsentBox</value>
@@ -3812,9 +3812,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="&gt;&gt;groupBox60.Parent" xml:space="preserve">
     <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;saveEditConsentBox.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="groupBox70.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -3879,14 +3876,14 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;groupBox28.Parent" xml:space="preserve">
     <value>groupBox25</value>
   </data>
+  <data name="cumInAss.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="followersTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.Name" xml:space="preserve">
-    <value>checkedListBox1</value>
+  <data name="lastHeadpatedAtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="groupBox62.Location" type="System.Drawing.Point, System.Drawing">
     <value>241, 120</value>
@@ -3905,6 +3902,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="&gt;&gt;streamCountBox.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="lastCuddledAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -3954,14 +3954,20 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="groupBox45.Text" xml:space="preserve">
     <value>Save Slot</value>
   </data>
-  <data name="richTextBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 20</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="groupBox54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 19</value>
   </data>
   <data name="vinegaraEndBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Max. Cum</value>
+  </data>
+  <data name="lastHungerInfoAtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
     <value>tabPage1</value>
@@ -4037,9 +4043,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
     <value>groupBox5</value>
-  </data>
-  <data name="saveFilesChoosingBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>782, 114</value>
   </data>
   <data name="&gt;&gt;groupBox27.Name" xml:space="preserve">
     <value>groupBox27</value>
@@ -4119,11 +4122,11 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;lastWokeUpAtBox.Name" xml:space="preserve">
     <value>lastWokeUpAtBox</value>
   </data>
-  <data name="lastHeadpatedAtBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
   <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
   </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4158,6 +4161,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="weekdayTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
+  <data name="&gt;&gt;mlCumWastedBox.Name" xml:space="preserve">
+    <value>mlCumWastedBox</value>
+  </data>
   <data name="priestBotPointsBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -4170,14 +4176,17 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
     <value>helpToolStripMenuItem</value>
   </data>
-  <data name="groupBox15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;lastWentToChurchAtBox.Parent" xml:space="preserve">
     <value>groupBox70</value>
   </data>
   <data name="groupBox75.Text" xml:space="preserve">
     <value>Last outside at(1)</value>
+  </data>
+  <data name="&gt;&gt;churchAmountBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="maxCumBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -4196,9 +4205,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="checkedListBox1.Items4" xml:space="preserve">
     <value>church-endJustGoThereBad</value>
-  </data>
-  <data name="&gt;&gt;timesRanAwayOldMaidBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox43.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -4229,9 +4235,6 @@ my save games, and I assume full responsibility for any potential loss of progre
   </data>
   <data name="mlCameInMouthBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
-  </data>
-  <data name="&gt;&gt;groupBox35.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;checkedListBox2.Parent" xml:space="preserve">
     <value>groupBox5</value>
@@ -4281,14 +4284,20 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="groupBox79.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
   </data>
-  <data name="richTextBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="&gt;&gt;groupBox74.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="lastStreamedAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
   <data name="&gt;&gt;mentalHealthBox.Parent" xml:space="preserve">
     <value>groupBox13</value>
+  </data>
+  <data name="websitesCheckBoxes.Items5" xml:space="preserve">
+    <value>casino.ic/tokens</value>
   </data>
   <data name="checkedListBox2.Items9" xml:space="preserve">
     <value>ending-schizoEnd</value>
@@ -4305,6 +4314,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="cumInAss.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
+  <data name="timesWonOldMaidBox.Text" xml:space="preserve">
+    <value />
+  </data>
   <data name="groupBox25.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
@@ -4317,8 +4329,14 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="checkedListBox2.Items5" xml:space="preserve">
     <value>ending-badEnd4.1</value>
   </data>
-  <data name="groupBox75.Location" type="System.Drawing.Point, System.Drawing">
-    <value>241, 70</value>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;groupBox38.Parent" xml:space="preserve">
+    <value>groupBox15</value>
   </data>
   <data name="&gt;&gt;rentTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4353,6 +4371,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="lastWokeUpAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
   <data name="&gt;&gt;richTextBox12.Name" xml:space="preserve">
     <value>richTextBox12</value>
   </data>
@@ -4371,11 +4392,11 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="lastStreamedAtBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="groupBox31.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
   </data>
-  <data name="lastWokeUpAtBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
+  <data name="groupBox30.Text" xml:space="preserve">
+    <value>Formatted(2)</value>
   </data>
   <data name="&gt;&gt;deutschToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4386,8 +4407,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="subsTextBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;followersTextBox.Parent" xml:space="preserve">
-    <value>groupBox27</value>
+  <data name="&gt;&gt;groupBox48.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;currentCumBox.Parent" xml:space="preserve">
     <value>groupBox10</value>
@@ -4399,10 +4420,10 @@ my save games, and I assume full responsibility for any potential loss of progre
     <value>27</value>
   </data>
   <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>122, 22</value>
   </data>
-  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="editInfoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 19</value>
   </data>
   <data name="&gt;&gt;lastInteractAtBox.Name" xml:space="preserve">
     <value>lastInteractAtBox</value>
@@ -4416,6 +4437,9 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;cameOutsideBox.Parent" xml:space="preserve">
+    <value>groupBox39</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>(1) Cannot be changed, rent is always on Monday
 (2) Converted for readability, not an actual value
@@ -4425,17 +4449,23 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="&gt;&gt;button2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox30.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 19</value>
+  <data name="&gt;&gt;groupBox59.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;searchTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;groupBox15.Name" xml:space="preserve">
+    <value>groupBox15</value>
   </data>
-  <data name="&gt;&gt;groupBox33.Parent" xml:space="preserve">
-    <value>groupBox25</value>
+  <data name="&gt;&gt;saveEditConsentBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lastStreamedAtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
   <data name="groupBox41.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
+  </data>
+  <data name="&gt;&gt;groupBox77.Name" xml:space="preserve">
+    <value>groupBox77</value>
   </data>
   <data name="&gt;&gt;timesWonOldMaidBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4452,8 +4482,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="groupBox27.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 70</value>
   </data>
-  <data name="&gt;&gt;groupBox53.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="groupBox76.Text" xml:space="preserve">
+    <value>Last equipm. at(1)</value>
   </data>
   <data name="groupBox77.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 220</value>
@@ -4470,8 +4500,8 @@ my save games, and I assume full responsibility for any potential loss of progre
   <data name="lastCuddledAtBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;groupBox69.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="timesCumInsideAss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
   </data>
   <data name="guideButton.Text" xml:space="preserve">
     <value>Guide</value>
@@ -4532,23 +4562,26 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;groupBox59.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
+  <data name="&gt;&gt;groupBox76.Name" xml:space="preserve">
+    <value>groupBox76</value>
+  </data>
   <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="deathGripEffectEndBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;groupBox8.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="saveSlotBoxGen.Text" xml:space="preserve">
-    <value>No File</value>
-  </data>
-  <data name="lastStreamedAtBox.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+  <data name="&gt;&gt;groupBox64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;groupBox35.Parent" xml:space="preserve">
     <value>groupBox33</value>
@@ -4559,8 +4592,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="groupBox25.Text" xml:space="preserve">
     <value>Misc Values</value>
   </data>
-  <data name="timesCumInsideVag.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="lastInteractAtBox.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="groupBox54.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
@@ -4598,35 +4631,32 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
   </data>
-  <data name="&gt;&gt;groupBox11.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;TraditionalChineseToolStripMenuItem.Name" xml:space="preserve">
+    <value>TraditionalChineseToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;streamDonations.Name" xml:space="preserve">
     <value>streamDonations</value>
   </data>
-  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;playerNameBox.Name" xml:space="preserve">
-    <value>playerNameBox</value>
-  </data>
-  <data name="cumInAss.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;groupBox52.Parent" xml:space="preserve">
+    <value>groupBox25</value>
   </data>
   <data name="groupBox48.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
-  <data name="groupBox66.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 44</value>
+  <data name="lightswitchCheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;groupBox10.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox38.Text" xml:space="preserve">
+    <value>Came inside Mouth</value>
   </data>
-  <data name="groupBox19.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+  <data name="&gt;&gt;groupBox78.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;groupBox23.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4667,8 +4697,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="streamDonations.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;groupBox67.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
   </data>
   <data name="mlCumWastedBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
@@ -4679,23 +4709,20 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="websitesCheckBoxes.Items11" xml:space="preserve">
     <value>cocktracts.ic/partner</value>
   </data>
-  <data name="cameOutsideBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;timesLostWordChainBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="groupBox34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 44</value>
   </data>
-  <data name="timesWonOldMaidBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="groupBox41.Text" xml:space="preserve">
-    <value>Formatted(2)</value>
+  <data name="&gt;&gt;groupBox51.Name" xml:space="preserve">
+    <value>groupBox51</value>
   </data>
-  <data name="&gt;&gt;gameStageBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastOutsideWithBotAtBox.Name" xml:space="preserve">
-    <value>lastOutsideWithBotAtBox</value>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -4703,14 +4730,17 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;groupBox40.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox20.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="botIntBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="lastHeadpatedAtBox.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="maxCumBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;groupBox31.Name" xml:space="preserve">
-    <value>groupBox31</value>
+  <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 30</value>
   </data>
   <data name="churchAmountBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -4724,17 +4754,17 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="groupBox42.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
-  <data name="&gt;&gt;groupBox20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>21</value>
   </data>
-  <data name="groupBox15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 393</value>
+  <data name="&gt;&gt;groupBox54.Parent" xml:space="preserve">
+    <value>groupBox52</value>
   </data>
   <data name="lightswitchCheckbox.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="achievementsPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 34</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4775,20 +4805,23 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="versionBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="groupBox39.Text" xml:space="preserve">
-    <value>Came outside</value>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="richTextBox6.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;saveSlotBoxGen.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="botMoodBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="timesLostWordChainBox.Text" xml:space="preserve">
-    <value />
+  <data name="groupBox47.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
   </data>
-  <data name="saveEditGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 88</value>
+  <data name="&gt;&gt;achievementsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>groupBox25</value>
@@ -4808,8 +4841,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;groupBox52.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;groupBox38.Parent" xml:space="preserve">
-    <value>groupBox15</value>
+  <data name="currentCumBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="gameVersionBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -4826,8 +4859,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;timesWonChessBox.Name" xml:space="preserve">
     <value>timesWonChessBox</value>
   </data>
-  <data name="groupBox64.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="maxCumBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;groupBox25.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -4871,20 +4904,20 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;deathGripEffectEndBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;currentStaminaBox.Name" xml:space="preserve">
+    <value>currentStaminaBox</value>
+  </data>
   <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="timesLostWordChainBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
   </data>
-  <data name="groupBox33.Text" xml:space="preserve">
-    <value>Longest Stream</value>
+  <data name="checkedListBox2.Items8" xml:space="preserve">
+    <value>ending-fedEnd</value>
   </data>
   <data name="&gt;&gt;createBackupButton.Name" xml:space="preserve">
     <value>createBackupButton</value>
-  </data>
-  <data name="timesWonWordChainBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="botSympathyBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 19</value>
@@ -4892,7 +4925,7 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="gameStageBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;lastBotStartedTalkAtBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;timesRanAwayOldMaidBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="debugTextBox.Size" type="System.Drawing.Size, System.Drawing">
@@ -4901,11 +4934,11 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="groupBox26.Text" xml:space="preserve">
     <value>Game Stage(3)</value>
   </data>
-  <data name="lastHungerInfoAtBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;groupBox18.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Info</value>
+  <data name="maxCumBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
   </data>
   <data name="groupBox62.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -4913,14 +4946,14 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="priestBotPointsBox.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+  <data name="lastMentalHealthInfoAtBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="groupBox33.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
-  <data name="lastInteractAtBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="websitesCheckBoxes.Items6" xml:space="preserve">
+    <value>cockcockcockcockcock.ic</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
@@ -4940,8 +4973,11 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;saveButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;cameOutsideBox.Parent" xml:space="preserve">
-    <value>groupBox39</value>
+  <data name="&gt;&gt;currentStaminaBox.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
   </data>
   <data name="infoSaveBox.Text" xml:space="preserve">
     <value>Load a File</value>
@@ -4958,17 +4994,14 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;visitedWebsiteGroupBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox54.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 19</value>
-  </data>
   <data name="groupBox49.Text" xml:space="preserve">
     <value>Times Lost</value>
   </data>
-  <data name="&gt;&gt;lastHeadpatedAtBox.Name" xml:space="preserve">
-    <value>lastHeadpatedAtBox</value>
+  <data name="&gt;&gt;groupBox34.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 13</value>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
   </data>
   <data name="websitesCheckBoxes.Items16" xml:space="preserve">
     <value>dickcheese.ic</value>
@@ -4980,16 +5013,16 @@ The options will be unlocked when you agree that you have read this text and ack
     <value>0</value>
   </data>
   <data name="richTextBox12.Text" xml:space="preserve">
-    <value>"Das gute Ende"</value>
+    <value>"The good ending"</value>
   </data>
-  <data name="nunPointsBox.Text" xml:space="preserve">
-    <value />
+  <data name="botNameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
   </data>
   <data name="groupBox64.Text" xml:space="preserve">
     <value>Last Mental Info(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox49.Name" xml:space="preserve">
-    <value>groupBox49</value>
+  <data name="infoSaveBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;currentStaminaBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5006,8 +5039,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
     <value>tabControl1</value>
   </data>
-  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
-    <value>tabPage3</value>
+  <data name="groupBox21.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
   <data name="&gt;&gt;saveButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5024,8 +5057,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;groupBox66.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="groupBox42.Text" xml:space="preserve">
-    <value>Raw</value>
+  <data name="groupBox79.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
   </data>
   <data name="&gt;&gt;richTextBox12.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5045,8 +5078,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
     <value>tabPage4</value>
   </data>
-  <data name="timesLostWordChainBox.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+  <data name="&gt;&gt;longestStreamFormattedBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="rentTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5054,8 +5087,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;lastStreamedAtBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="websitesCheckBoxes.Items5" xml:space="preserve">
-    <value>casino.ic/tokens</value>
+  <data name="&gt;&gt;groupBox35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>My Dystopian Robot Girlfriend Save Analyzer</value>
@@ -5063,16 +5096,13 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;saveSlotBox.Parent" xml:space="preserve">
     <value>groupBox14</value>
   </data>
-  <data name="&gt;&gt;deathGripEffectEndBox.Parent" xml:space="preserve">
-    <value>groupBox62</value>
+  <data name="&gt;&gt;groupBox29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox44.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 44</value>
   </data>
   <data name="&gt;&gt;currentCumBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideVag.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="lastFuckedAtBox.Text" xml:space="preserve">
@@ -5092,9 +5122,6 @@ The options will be unlocked when you agree that you have read this text and ack
   </data>
   <data name="groupBox52.Location" type="System.Drawing.Point, System.Drawing">
     <value>252, 195</value>
-  </data>
-  <data name="&gt;&gt;botSympathyBox.Name" xml:space="preserve">
-    <value>botSympathyBox</value>
   </data>
   <data name="&gt;&gt;groupBox31.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5117,20 +5144,17 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>saveEditGroupBox</value>
   </data>
-  <data name="&gt;&gt;groupBox54.Parent" xml:space="preserve">
-    <value>groupBox52</value>
+  <data name="&gt;&gt;groupBox63.Name" xml:space="preserve">
+    <value>groupBox63</value>
   </data>
-  <data name="groupBox36.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="mentalHealthBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="timesRanAwayOldMaidBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
   </data>
   <data name="&gt;&gt;groupBox8.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="casinoTokenBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="timesWonChessBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
   <data name="&gt;&gt;gameVersionBox.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -5162,11 +5186,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="currentCumBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="deathGripEffectEndBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="gameVersionBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 22</value>
+  <data name="&gt;&gt;botSympathyBox.Name" xml:space="preserve">
+    <value>botSympathyBox</value>
   </data>
   <data name="&gt;&gt;groupBox51.Parent" xml:space="preserve">
     <value>groupBox48</value>
@@ -5186,20 +5207,17 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;playerHealthBox.Name" xml:space="preserve">
     <value>playerHealthBox</value>
   </data>
-  <data name="groupBox47.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
+  <data name="&gt;&gt;followersTextBox.Parent" xml:space="preserve">
+    <value>groupBox27</value>
   </data>
   <data name="groupBox13.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
   </data>
-  <data name="timesCumInsideAss.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
-  </data>
   <data name="groupBox64.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 170</value>
   </data>
-  <data name="gameTimeFormatted.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+  <data name="groupBox79.Text" xml:space="preserve">
+    <value>PriestBot Point(4,5)</value>
   </data>
   <data name="groupBox24.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -5207,23 +5225,23 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="groupBox48.Location" type="System.Drawing.Point, System.Drawing">
     <value>252, 270</value>
   </data>
-  <data name="&gt;&gt;churchAmountBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>No File</value>
   </data>
   <data name="&gt;&gt;playerNameBox.Parent" xml:space="preserve">
     <value>groupBox6</value>
   </data>
-  <data name="timesCumInsideVag.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
+  <data name="groupBox75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 70</value>
   </data>
   <data name="&gt;&gt;richTextBox12.Parent" xml:space="preserve">
     <value>groupBox4</value>
   </data>
-  <data name="&gt;&gt;groupBox76.Name" xml:space="preserve">
-    <value>groupBox76</value>
+  <data name="&gt;&gt;lastOutsideWithBotAtBox.Name" xml:space="preserve">
+    <value>lastOutsideWithBotAtBox</value>
   </data>
-  <data name="&gt;&gt;mlCumWastedBox.Name" xml:space="preserve">
-    <value>mlCumWastedBox</value>
+  <data name="rentTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
     <value>Save Slot</value>
@@ -5231,8 +5249,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;maxCumBox.Name" xml:space="preserve">
     <value>maxCumBox</value>
   </data>
-  <data name="botIntBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+  <data name="groupBox53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 120</value>
   </data>
   <data name="&gt;&gt;groupBox19.Parent" xml:space="preserve">
     <value>groupBox15</value>
@@ -5243,14 +5261,14 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>tabPage5</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="richTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox17.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="&gt;&gt;groupBox54.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;groupBox22.Name" xml:space="preserve">
+    <value>groupBox22</value>
   </data>
   <data name="websitesCheckBoxes.Size" type="System.Drawing.Size, System.Drawing">
     <value>599, 289</value>
@@ -5258,8 +5276,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;nunPointsBox.Name" xml:space="preserve">
-    <value>nunPointsBox</value>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
   </data>
   <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
     <value>792, 399</value>
@@ -5270,8 +5288,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Misc Achievements</value>
   </data>
-  <data name="lastWentToChurchAtBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="timesCumInsideOral.Text" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;groupBox33.ZOrder" xml:space="preserve">
     <value>14</value>
@@ -5282,17 +5300,17 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="saveSlotBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="groupBox72.Text" xml:space="preserve">
-    <value>Extra Credits</value>
+  <data name="&gt;&gt;tabPage8.Name" xml:space="preserve">
+    <value>tabPage8</value>
   </data>
   <data name="lastHeadpatedAtBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 44</value>
+  <data name="websitesCheckBoxes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
-  <data name="&gt;&gt;longestStreamRawBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="mlCumWastedBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -5303,8 +5321,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;lastOutsideWithBotAtBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;achievementsPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox63.Text" xml:space="preserve">
+    <value>Times to Church</value>
   </data>
   <data name="createBackupButton.Text" xml:space="preserve">
     <value>Create Backup</value>
@@ -5321,17 +5339,14 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="saveEditConsentBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="mlCameInMouthBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="botLongingBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
   </data>
   <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
     <value>tabPage1</value>
   </data>
-  <data name="lastCuddledAtBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="groupBox52.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="&gt;&gt;lastWokeUpAtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox62.Text" xml:space="preserve">
     <value>Deathgrip End(1)</value>
@@ -5342,8 +5357,11 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;groupBox17.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="maxCumBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
+  <data name="debugTextBox.Text" xml:space="preserve">
+    <value>Load a Save File. The content of the Save File will be displayed here.</value>
+  </data>
+  <data name="TraditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文</value>
   </data>
   <data name="botLongingBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -5354,8 +5372,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;groupBox32.Parent" xml:space="preserve">
     <value>groupBox25</value>
   </data>
-  <data name="&gt;&gt;currentStaminaBox.Name" xml:space="preserve">
-    <value>currentStaminaBox</value>
+  <data name="&gt;&gt;lastStreamedAtBox.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="groupBox50.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -5384,14 +5402,14 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="streamCountBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="cumInStomach.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
+  <data name="&gt;&gt;lastFuckedAtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="groupBox33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 69</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="lastEquipmentAtBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="lastMentalHealthInfoAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -5402,14 +5420,14 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="groupBox13.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="lastWokeUpAtBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="groupBox66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 170</value>
   </data>
   <data name="saveSlotBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;currentStaminaBox.Parent" xml:space="preserve">
-    <value>groupBox11</value>
+  <data name="TraditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
   </data>
   <data name="lastBotStartedTalkAtBox.Multiline" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5417,8 +5435,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;groupBox30.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;groupBox14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="timesLostWordChainBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mlCumWastedBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -5501,8 +5519,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="tabPage8.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="&gt;&gt;timesWonChessBox.Parent" xml:space="preserve">
-    <value>groupBox55</value>
+  <data name="&gt;&gt;churchAmountBox.Name" xml:space="preserve">
+    <value>churchAmountBox</value>
   </data>
   <data name="&gt;&gt;tabPage7.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5513,8 +5531,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox48.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="groupBox52.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
   <data name="&gt;&gt;groupBox36.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5531,14 +5549,14 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="timesRanAwayOldMaidBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="groupBox23.TabIndex" type="System.Int32, mscorlib">
+  <data name="groupBox57.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
   <data name="groupBox31.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
-  <data name="groupBox32.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 70</value>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Misc Info</value>
   </data>
   <data name="&gt;&gt;tabPage6.Name" xml:space="preserve">
     <value>tabPage6</value>
@@ -5552,8 +5570,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="casinoTokenBox.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="timesWonOldMaidBox.Text" xml:space="preserve">
-    <value />
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 169</value>
   </data>
   <data name="groupBox16.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 44</value>
@@ -5561,11 +5579,8 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;richTextBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lastBotStartedTalkAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="saveEditConsentBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 52</value>
+  <data name="groupBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
   <data name="groupBox16.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 20</value>
@@ -5579,17 +5594,14 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="&gt;&gt;websitesCheckBoxes.Name" xml:space="preserve">
     <value>websitesCheckBoxes</value>
   </data>
-  <data name="vinegaraEndBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
   <data name="longestStreamRawBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="lastInteractAtBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="groupBox66.Location" type="System.Drawing.Point, System.Drawing">
-    <value>241, 170</value>
+  <data name="gameVersionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -5598,7 +5610,7 @@ The options will be unlocked when you agree that you have read this text and ack
     <value>132, 17</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>de</value>
+    <value>zh</value>
   </metadata>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

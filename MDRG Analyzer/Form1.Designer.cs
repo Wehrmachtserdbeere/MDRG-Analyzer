@@ -233,6 +233,7 @@
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deutschToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TraditionalChineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -1808,7 +1809,8 @@
             resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
-            this.deutschToolStripMenuItem});
+            this.deutschToolStripMenuItem,
+            this.TraditionalChineseToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
             // 
             // englishToolStripMenuItem
@@ -1826,6 +1828,12 @@
             this.deutschToolStripMenuItem.CheckOnClick = true;
             this.deutschToolStripMenuItem.Name = "deutschToolStripMenuItem";
             this.deutschToolStripMenuItem.Click += new System.EventHandler(this.deutschToolStripMenuItem_Click);
+            // 
+            // TraditionalChineseToolStripMenuItem
+            // 
+            resources.ApplyResources(this.TraditionalChineseToolStripMenuItem, "TraditionalChineseToolStripMenuItem");
+            this.TraditionalChineseToolStripMenuItem.Name = "TraditionalChineseToolStripMenuItem";
+            this.TraditionalChineseToolStripMenuItem.Click += new System.EventHandler(this.TraditionalChineseToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
@@ -2153,6 +2161,7 @@
         private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deutschToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem TraditionalChineseToolStripMenuItem;
     }
 }
 

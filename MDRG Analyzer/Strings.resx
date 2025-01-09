@@ -153,6 +153,7 @@
 The MDRG Discord - Coding help
 italy2003 / PixivID: 66835722 - Art
 bgrmystr2 - Linux Testing
+小夜 - Chinese Translation
 You - For using this program. Thank you :D</value>
   </data>
   <data name="ExtraCreditsCaption" xml:space="preserve">
@@ -549,8 +550,8 @@ If your save is completely vanilla and has not been previously edited, open an I
   <data name="SavedataSavingSuccessText" xml:space="preserve">
     <value>File successfully saved!</value>
   </data>
-  <data name="GenericFileWithSpace" xml:space="preserve">
-    <value>File </value>
+  <data name="RadioButtonFileText" xml:space="preserve">
+    <value>File {0}</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>
