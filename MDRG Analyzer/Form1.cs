@@ -34,7 +34,6 @@ namespace MDRG_Analyzer
         {
             InitializeComponent();
             ChangeLanguage("en");
-            versionBox.Text = $"{__version__}";
             CheckForUpdate(true);
         }
 
@@ -47,6 +46,7 @@ namespace MDRG_Analyzer
             // Refresh UI elements (you may need to manually reload your form or update controls)
             this.Controls.Clear();
             InitializeComponent(); // Reinitialize form
+            versionBox.Text = $"{__version__}";
             foreach (ToolStripMenuItem toolItem in languageToolStripMenuItem.DropDownItems)
             {
                 toolItem.Checked = false;

@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ExtraCreditsText" xml:space="preserve">
-    <value>额外荣誉归于
+    <value>额外学分(额外积分)
 
 MDRG Discord - 代码帮助
 italy2003 / PixivID: 66835722 - 艺术
 bgrmystr2 - Linux 测试
 小夜 - 中文翻译
-您正在使用此程序，谢谢 :D</value>
+您正在使用此程序，谢谢</value>
   </data>
   <data name="ExtraCreditsCaption" xml:space="preserve">
-    <value>额外学生</value>
+    <value>额外学分(额外积分)</value>
   </data>
   <data name="openFileDialogTitle" xml:space="preserve">
     <value>选择 .mdrg 文件。</value>
@@ -243,7 +243,7 @@ bgrmystr2 - Linux 测试
     <value>错误！</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
-    <value>额外学分</value>
+    <value>额外学分(额外积分)</value>
   </data>
   <data name="tabPage5.Text" xml:space="preserve">
     <value />
@@ -283,7 +283,7 @@ bgrmystr2 - Linux 测试
     <value>日期</value>
   </data>
   <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>学分</value>
+    <value>额外学分(额外积分)</value>
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
     <value>机器人姓名</value>

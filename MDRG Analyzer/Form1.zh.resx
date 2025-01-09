@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>学分</value>
+    <value>额外学分(额外积分)</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
-    <value>额外学生</value>
+    <value>额外学分(额外积分)</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
     <value>保存编辑信息</value>
