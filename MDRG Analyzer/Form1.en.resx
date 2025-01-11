@@ -1,0 +1,2734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="保存存档ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="保存存档ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save the save</value>
+  </data>
+  <data name="读取存档ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="读取存档ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reading a Save</value>
+  </data>
+  <data name="fileToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt, style=Bold</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open the file</value>
+  </data>
+  <data name="简体ToolStripMenuItem.Text" xml:space="preserve">
+    <value>简体</value>
+  </data>
+  <data name="繁体ToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体</value>
+  </data>
+  <data name="中文简体ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="中文简体ToolStripMenuItem.Text" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="deutschSpracheToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="deutschSpracheToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="englishlanguageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="englishlanguageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="语言ToolStripMenuItem.Text" xml:space="preserve">
+    <value>language</value>
+  </data>
+  <data name="正在创建中ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Creating</value>
+  </data>
+  <data name="toolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt, style=Bold</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 20</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 22</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
+    <value>Report a bug (Comments)</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 22</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
+    <value>Source code link</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 22</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Text" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="helpToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt, style=Bold</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>help</value>
+  </data>
+  <data name="退出ToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt, style=Bold</value>
+  </data>
+  <data name="退出ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="退出ToolStripMenuItem.Text" xml:space="preserve">
+    <value>quit</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>5120, 24</value>
+  </data>
+  <data name="debugTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="debugTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1316, 582</value>
+  </data>
+  <data name="debugTextBox.Text" xml:space="preserve">
+    <value>Read and save the file.
+The content of the saved file will be displayed here.</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>debug </value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1135, 441</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 14</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Remember to keep her safe and well fed</value>
+  </data>
+  <data name="saveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 118</value>
+  </data>
+  <data name="saveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 55</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>Save the current save file.</value>
+  </data>
+  <data name="guideButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="guideButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 74</value>
+  </data>
+  <data name="guideButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="guideButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 37</value>
+  </data>
+  <data name="guideButton.Text" xml:space="preserve">
+    <value>guide</value>
+  </data>
+  <data name="createBackupButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createBackupButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 74</value>
+  </data>
+  <data name="createBackupButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="createBackupButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 37</value>
+  </data>
+  <data name="createBackupButton.Text" xml:space="preserve">
+    <value>Create a backup</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1030, 165</value>
+  </data>
+  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 300</value>
+  </data>
+  <data name="saveEditGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 129</value>
+  </data>
+  <data name="saveEditGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveEditGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveEditGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1320, 455</value>
+  </data>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>Archive Edit List</value>
+  </data>
+  <data name="saveEditConsentBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="saveEditConsentBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 76</value>
+  </data>
+  <data name="saveEditConsentBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1682, 20</value>
+  </data>
+  <data name="saveEditConsentBox.Text" xml:space="preserve">
+    <value>I acknowledge and understand that using this feature may cause my saved game to become corrupted or damaged, and that I am fully responsible for any potential loss of progress or data.</value>
+  </data>
+  <data name="richTextBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1316, 65</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>WARNING! This feature is in testing and your saves will most likely be corrupted! Please keep backups!
+These options will be unlocked when you agree that you have read this text and acknowledge that any data loss is your fault and sole responsibility, and that this feature will most likely corrupt selected saves (if not all saves).</value>
+  </data>
+  <data name="tabPage8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Save Edit </value>
+  </data>
+  <data name="richTextBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 48</value>
+  </data>
+  <data name="richTextBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 27</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>'The worst ending'</value>
+  </data>
+  <data name="richTextBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 23</value>
+  </data>
+  <data name="richTextBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 27</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>"The Forgotten Ending"</value>
+  </data>
+  <data name="richTextBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 72</value>
+  </data>
+  <data name="richTextBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 27</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>The "I Don't Know" Ending</value>
+  </data>
+  <data name="richTextBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 95</value>
+  </data>
+  <data name="richTextBox12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 27</value>
+  </data>
+  <data name="richTextBox12.Text" xml:space="preserve">
+    <value>"Happy Ending"</value>
+  </data>
+  <data name="richTextBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 121</value>
+  </data>
+  <data name="richTextBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 27</value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>"The ending wasn't good enough"</value>
+  </data>
+  <data name="checkedListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 28</value>
+  </data>
+  <data name="checkedListBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="checkedListBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 88</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 4</value>
+  </data>
+  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>730, 159</value>
+  </data>
+  <data name="richTextBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 28</value>
+  </data>
+  <data name="richTextBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>746, 289</value>
+  </data>
+  <data name="richTextBox7.Text" xml:space="preserve">
+    <value>Ending-Balls Exploded --- "Too much cum..."
+Ending-Good Ending --- "Sell your robot"
+Ending-Bad Ending --- "Terminate the lease"
+Ending-Bad Ending --- "Failure..."
+Ending-Bad Ending --- "Coward..."
+Ending-Bad Ending --- "Terminate the lease v2: Tramp"
+Ending-Bad Ending --- "Terminate the lease v2: Murder"
+Ending-Healthy Ending --- "Hungry"
+Ending-Feeding Ending ---- "Caught..."
+Ending-Schizophrenia Ending ---- "I'm not crazy..."
+Ending-Regular Schizophrenia ---- "Wall Man"
+Ending-Killed by Dirty Cop --- "Never trust the police..."
+Ending-Killed by Dirty Cop -- -- "Never trust the police... again"
+Ending-They Know Not to Know ---- "They know... (Indifference)"
+Ending-They Know ---- "They know..."
+The Secret Ending of Daddy's Injury --- is not a separate ending, but part of "They Know..." - Encountered Big Daddy injured, but did not continue his storyline
+Archive Edit --- Used iamacheater website.</value>
+  </data>
+  <data name="checkedListBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 28</value>
+  </data>
+  <data name="checkedListBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="checkedListBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>495, 277</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 171</value>
+  </data>
+  <data name="groupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1292, 332</value>
+  </data>
+  <data name="achievementsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 49</value>
+  </data>
+  <data name="achievementsPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="achievementsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1309, 530</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 7</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Show your achievements</value>
+  </data>
+  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Achievement </value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 7</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Display website</value>
+  </data>
+  <data name="websitesCheckBoxes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="websitesCheckBoxes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="websitesCheckBoxes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>995, 394</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 48</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1018, 467</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>website </value>
+  </data>
+  <data name="weekdayTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="weekdayTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="weekdayTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 28</value>
+  </data>
+  <data name="groupBox80.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox80.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox80.Text" xml:space="preserve">
+    <value>Working Day</value>
+  </data>
+  <data name="priestBotPointsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="priestBotPointsBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="priestBotPointsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1117, 177</value>
+  </data>
+  <data name="groupBox79.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox79.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="nunPointsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="nunPointsBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="nunPointsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1117, 103</value>
+  </data>
+  <data name="groupBox78.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox78.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 551</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Game time</value>
+  </data>
+  <data name="lastStreamedAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastStreamedAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastStreamedAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 103</value>
+  </data>
+  <data name="groupBox74.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox74.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox74.Text" xml:space="preserve">
+    <value>Last live broadcast time</value>
+  </data>
+  <data name="searchTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="searchTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="searchTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1117, 28</value>
+  </data>
+  <data name="groupBox60.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox60.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox60.Text" xml:space="preserve">
+    <value>search</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 494</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 64</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>(1) Cannot be changed, rent is always on Monday
+(2) Converted for readability, not actual value
+(3) Will not be supported if changed
+(4) Related to the church questline in some way</value>
+  </data>
+  <data name="timesLostWordChainBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesLostWordChainBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesLostWordChainBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="groupBox56.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox56.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox56.Text" xml:space="preserve">
+    <value>frequency</value>
+  </data>
+  <data name="timesWonWordChainBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesWonWordChainBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesWonWordChainBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="groupBox57.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox57.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox57.Text" xml:space="preserve">
+    <value>Number of wins</value>
+  </data>
+  <data name="groupBox53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 177</value>
+  </data>
+  <data name="groupBox53.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox53.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 102</value>
+  </data>
+  <data name="timesLostChessBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesLostChessBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesLostChessBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="groupBox54.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox54.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="timesWonChessBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesWonChessBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesWonChessBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="groupBox55.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox55.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 285</value>
+  </data>
+  <data name="groupBox52.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox52.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 102</value>
+  </data>
+  <data name="timesRanAwayOldMaidBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesRanAwayOldMaidBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesRanAwayOldMaidBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 28</value>
+  </data>
+  <data name="groupBox51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox51.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="timesLostOldMaidBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesLostOldMaidBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesLostOldMaidBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="groupBox49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox49.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="timesWonOldMaidBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesWonOldMaidBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesWonOldMaidBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="groupBox50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox50.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 395</value>
+  </data>
+  <data name="groupBox48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox48.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>597, 102</value>
+  </data>
+  <data name="streamCountBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="streamCountBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="streamCountBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 103</value>
+  </data>
+  <data name="groupBox47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox47.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox47.Text" xml:space="preserve">
+    <value>Live streaming traffic</value>
+  </data>
+  <data name="rentTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="rentTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rentTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 28</value>
+  </data>
+  <data name="groupBox46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox46.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox46.Text" xml:space="preserve">
+    <value>Renting</value>
+  </data>
+  <data name="gameTimeFormatted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="gameTimeFormatted.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gameTimeFormatted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="groupBox41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox41.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox41.Text" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="gameTimeRaw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="gameTimeRaw.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gameTimeRaw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="groupBox42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox42.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox42.Text" xml:space="preserve">
+    <value>experience</value>
+  </data>
+  <data name="groupBox40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 395</value>
+  </data>
+  <data name="groupBox40.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox40.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 102</value>
+  </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>Game time</value>
+  </data>
+  <data name="lightswitchCheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lightswitchCheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 542</value>
+  </data>
+  <data name="lightswitchCheckbox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 20</value>
+  </data>
+  <data name="lightswitchCheckbox.Text" xml:space="preserve">
+    <value>Light switch</value>
+  </data>
+  <data name="longestStreamFormattedBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="longestStreamFormattedBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="longestStreamFormattedBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="groupBox34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox34.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox34.Text" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="longestStreamRawBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="longestStreamRawBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="longestStreamRawBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="groupBox35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox35.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox35.Text" xml:space="preserve">
+    <value>experience</value>
+  </data>
+  <data name="groupBox33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 285</value>
+  </data>
+  <data name="groupBox33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox33.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 102</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>Longest time</value>
+  </data>
+  <data name="saveSlotBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="saveSlotBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveSlotBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="groupBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1198, 511</value>
+  </data>
+  <data name="groupBox14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox14.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 65</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Archive location</value>
+  </data>
+  <data name="streamDonations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="streamDonations.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="streamDonations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 103</value>
+  </data>
+  <data name="groupBox32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox32.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox32.Text" xml:space="preserve">
+    <value>Live Donor</value>
+  </data>
+  <data name="totalStreamTimeFormattedBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="totalStreamTimeFormattedBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="totalStreamTimeFormattedBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="groupBox30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox30.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox30.Text" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="totalStreamTimeRawBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="totalStreamTimeRawBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="totalStreamTimeRawBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="groupBox31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox31.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox31.Text" xml:space="preserve">
+    <value>experience</value>
+  </data>
+  <data name="groupBox29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 177</value>
+  </data>
+  <data name="groupBox29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox29.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 102</value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>Total playback time</value>
+  </data>
+  <data name="subsTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="subsTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="subsTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="groupBox28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox28.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="followersTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="followersTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="followersTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 103</value>
+  </data>
+  <data name="groupBox27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox27.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox27.Text" xml:space="preserve">
+    <value>Live Followers</value>
+  </data>
+  <data name="gameStageBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="gameStageBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gameStageBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="groupBox26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox26.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="groupBox25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox25.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1310, 574</value>
+  </data>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>Additional Information</value>
+  </data>
+  <data name="tabPage7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Miscellaneous Information </value>
+  </data>
+  <data name="lastCuddledAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastCuddledAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastCuddledAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 322</value>
+  </data>
+  <data name="groupBox73.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox73.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox73.Text" xml:space="preserve">
+    <value>Last Hug</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 551</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Game time</value>
+  </data>
+  <data name="lastFuckedAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastFuckedAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastFuckedAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 322</value>
+  </data>
+  <data name="groupBox77.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox77.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox77.Text" xml:space="preserve">
+    <value>Last sexual act</value>
+  </data>
+  <data name="lastEquipmentAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastEquipmentAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastEquipmentAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 103</value>
+  </data>
+  <data name="groupBox76.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox76.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox76.Text" xml:space="preserve">
+    <value>Last equipment time</value>
+  </data>
+  <data name="lastOutsideWithBotAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastOutsideWithBotAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastOutsideWithBotAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 103</value>
+  </data>
+  <data name="groupBox75.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox75.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox75.Text" xml:space="preserve">
+    <value>Last time out</value>
+  </data>
+  <data name="mlCameInMouthBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="mlCameInMouthBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="mlCameInMouthBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 177</value>
+  </data>
+  <data name="groupBox58.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox58.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox58.Text" xml:space="preserve">
+    <value>Semen measurement</value>
+  </data>
+  <data name="saveSlotBoxBot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="saveSlotBoxBot.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveSlotBoxBot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="groupBox44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1198, 511</value>
+  </data>
+  <data name="groupBox44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox44.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 65</value>
+  </data>
+  <data name="groupBox44.Text" xml:space="preserve">
+    <value>Archive location</value>
+  </data>
+  <data name="cameOutsideBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="cameOutsideBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cameOutsideBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 248</value>
+  </data>
+  <data name="groupBox39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox39.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox39.Text" xml:space="preserve">
+    <value>Cum outside</value>
+  </data>
+  <data name="timesCumInsideOral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesCumInsideOral.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesCumInsideOral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 248</value>
+  </data>
+  <data name="groupBox38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox38.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox38.Text" xml:space="preserve">
+    <value>Mouth sex</value>
+  </data>
+  <data name="timesCumInsideAss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesCumInsideAss.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesCumInsideAss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 248</value>
+  </data>
+  <data name="groupBox37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox37.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox37.Text" xml:space="preserve">
+    <value>Ass sex</value>
+  </data>
+  <data name="timesCumInsideVag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="timesCumInsideVag.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="timesCumInsideVag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 248</value>
+  </data>
+  <data name="groupBox36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox36.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox36.Text" xml:space="preserve">
+    <value>Vaginal sex</value>
+  </data>
+  <data name="cumInStomach.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="cumInStomach.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cumInStomach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 177</value>
+  </data>
+  <data name="groupBox24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox24.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox24.Text" xml:space="preserve">
+    <value>Cum in mouth</value>
+  </data>
+  <data name="cumInAss.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="cumInAss.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cumInAss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 177</value>
+  </data>
+  <data name="groupBox23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox23.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox23.Text" xml:space="preserve">
+    <value>Asshole cumshot</value>
+  </data>
+  <data name="cumInPussy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="cumInPussy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cumInPussy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 177</value>
+  </data>
+  <data name="groupBox22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox22.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox22.Text" xml:space="preserve">
+    <value>Vaginal ejaculation</value>
+  </data>
+  <data name="botIntBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="botIntBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botIntBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 103</value>
+  </data>
+  <data name="groupBox21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox21.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox21.Text" xml:space="preserve">
+    <value>Intelligence value</value>
+  </data>
+  <data name="botMoodBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="botMoodBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botMoodBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 103</value>
+  </data>
+  <data name="groupBox20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox20.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox20.Text" xml:space="preserve">
+    <value>Emotional value</value>
+  </data>
+  <data name="botLongingBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="botLongingBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botLongingBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 28</value>
+  </data>
+  <data name="groupBox19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox19.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>Desire value</value>
+  </data>
+  <data name="botSympathyBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 56</value>
+  </data>
+  <data name="botSympathyBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botSympathyBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 28</value>
+  </data>
+  <data name="groupBox18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox18.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>Sympathy value</value>
+  </data>
+  <data name="botLustBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="botLustBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botLustBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 28</value>
+  </data>
+  <data name="groupBox17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox17.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>Desire value</value>
+  </data>
+  <data name="botNameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="botNameBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="botNameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 28</value>
+  </data>
+  <data name="groupBox16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox16.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>Robot name</value>
+  </data>
+  <data name="groupBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="groupBox15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox15.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1310, 574</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>List of robot information</value>
+  </data>
+  <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Robot Information </value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 551</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Game time</value>
+  </data>
+  <data name="lastWorkedAtDayBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastWorkedAtDayBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastWorkedAtDayBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 322</value>
+  </data>
+  <data name="groupBox71.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox71.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox71.Text" xml:space="preserve">
+    <value>Last place of work</value>
+  </data>
+  <data name="lastWentToChurchAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastWentToChurchAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastWentToChurchAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 322</value>
+  </data>
+  <data name="groupBox70.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox70.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 65</value>
+  </data>
+  <data name="groupBox70.Text" xml:space="preserve">
+    <value>Last church visit</value>
+  </data>
+  <data name="lastWokeUpAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastWokeUpAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastWokeUpAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 322</value>
+  </data>
+  <data name="groupBox69.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox69.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 65</value>
+  </data>
+  <data name="groupBox69.Text" xml:space="preserve">
+    <value>Last wake-up time</value>
+  </data>
+  <data name="lastInteractAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastInteractAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastInteractAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 322</value>
+  </data>
+  <data name="groupBox68.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox68.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox68.Text" xml:space="preserve">
+    <value>Last interaction</value>
+  </data>
+  <data name="lastBotStartedTalkAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastBotStartedTalkAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastBotStartedTalkAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 248</value>
+  </data>
+  <data name="groupBox67.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox67.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 65</value>
+  </data>
+  <data name="groupBox67.Text" xml:space="preserve">
+    <value>The last robot talk</value>
+  </data>
+  <data name="lastHeadpatedAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastHeadpatedAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastHeadpatedAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 248</value>
+  </data>
+  <data name="groupBox66.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox66.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox66.Text" xml:space="preserve">
+    <value>The last head shot</value>
+  </data>
+  <data name="lastHungerInfoAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastHungerInfoAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastHungerInfoAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 248</value>
+  </data>
+  <data name="groupBox65.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox65.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox65.Text" xml:space="preserve">
+    <value>The last hunger message</value>
+  </data>
+  <data name="lastMentalHealthInfoAtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="lastMentalHealthInfoAtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lastMentalHealthInfoAtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 248</value>
+  </data>
+  <data name="groupBox64.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox64.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox64.Text" xml:space="preserve">
+    <value>Final Psychological Message</value>
+  </data>
+  <data name="churchAmountBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="churchAmountBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="churchAmountBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 177</value>
+  </data>
+  <data name="groupBox63.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox63.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox63.Text" xml:space="preserve">
+    <value>Church hours</value>
+  </data>
+  <data name="deathGripEffectEndBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="deathGripEffectEndBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="deathGripEffectEndBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 177</value>
+  </data>
+  <data name="groupBox62.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox62.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 65</value>
+  </data>
+  <data name="groupBox62.Text" xml:space="preserve">
+    <value>Death Grip Effect</value>
+  </data>
+  <data name="vinegaraEndBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="vinegaraEndBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="vinegaraEndBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 177</value>
+  </data>
+  <data name="groupBox61.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox61.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox61.Text" xml:space="preserve">
+    <value>Viagra efficacy</value>
+  </data>
+  <data name="mlCumWastedBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="mlCumWastedBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="mlCumWastedBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 177</value>
+  </data>
+  <data name="groupBox59.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox59.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox59.Text" xml:space="preserve">
+    <value>Wasted semen</value>
+  </data>
+  <data name="saveSlotBoxGen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="saveSlotBoxGen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveSlotBoxGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="groupBox45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1198, 511</value>
+  </data>
+  <data name="groupBox45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox45.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 65</value>
+  </data>
+  <data name="groupBox45.Text" xml:space="preserve">
+    <value>Archive location</value>
+  </data>
+  <data name="mentalHealthBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 28</value>
+  </data>
+  <data name="mentalHealthBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="mentalHealthBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 103</value>
+  </data>
+  <data name="groupBox13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Mental health</value>
+  </data>
+  <data name="playerHealthBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="playerHealthBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="playerHealthBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 103</value>
+  </data>
+  <data name="groupBox12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>health</value>
+  </data>
+  <data name="currentStaminaBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="currentStaminaBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="currentStaminaBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 103</value>
+  </data>
+  <data name="groupBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Current physical strength</value>
+  </data>
+  <data name="currentCumBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="currentCumBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="currentCumBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 103</value>
+  </data>
+  <data name="groupBox10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Current semen</value>
+  </data>
+  <data name="maxCumBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="maxCumBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="maxCumBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 28</value>
+  </data>
+  <data name="groupBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Maximum ejaculate volume</value>
+  </data>
+  <data name="casinoTokenBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="casinoTokenBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="casinoTokenBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 28</value>
+  </data>
+  <data name="groupBox8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Casino tokens</value>
+  </data>
+  <data name="moneyTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="moneyTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="moneyTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 28</value>
+  </data>
+  <data name="groupBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>money</value>
+  </data>
+  <data name="playerNameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="playerNameBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="playerNameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 28</value>
+  </data>
+  <data name="groupBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 65</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Player's name</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1310, 574</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>List of player information</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Player Information </value>
+  </data>
+  <data name="extraCreditsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="extraCreditsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 27</value>
+  </data>
+  <data name="extraCreditsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="extraCreditsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 39</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Thank
+MDRG Discord - Code Help
+italy2003 / PixivID: 66835722 - Art
+bgrmystr2 - Linux testing
+From discord
+Author: Strawberry Mk.VI Strawberry
+Translator: Xiao Yan
+You are using this program, thank you.</value>
+  </data>
+  <data name="groupBox72.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 11pt, style=Bold</value>
+  </data>
+  <data name="groupBox72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>532, 502</value>
+  </data>
+  <data name="groupBox72.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox72.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 99</value>
+  </data>
+  <data name="groupBox72.Text" xml:space="preserve">
+    <value>Acknowledgements</value>
+  </data>
+  <data name="editInfoButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="editInfoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 28</value>
+  </data>
+  <data name="editInfoButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="editInfoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 31</value>
+  </data>
+  <data name="editInfoButton.Text" xml:space="preserve">
+    <value>Archive editing information</value>
+  </data>
+  <data name="infoSaveBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="infoSaveBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="infoSaveBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 31</value>
+  </data>
+  <data name="groupBox43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 514</value>
+  </data>
+  <data name="groupBox43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox43.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 68</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>Archive location</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="flowLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 190</value>
+  </data>
+  <data name="saveFilesChoosingBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="saveFilesChoosingBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveFilesChoosingBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="saveFilesChoosingBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1310, 216</value>
+  </data>
+  <data name="saveFilesChoosingBox.Text" xml:space="preserve">
+    <value>Archive List</value>
+  </data>
+  <data name="versionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="versionBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="versionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 31</value>
+  </data>
+  <data name="versionBox.Text" xml:space="preserve">
+    <value>Test version</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1162, 514</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 68</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Software version</value>
+  </data>
+  <data name="gameVersionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 28</value>
+  </data>
+  <data name="gameVersionBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gameVersionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 31</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1002, 514</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 68</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Game version</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 473</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 113</value>
+  </data>
+  <data name="richTextBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 11pt, style=Bold</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 224</value>
+  </data>
+  <data name="richTextBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1316, 244</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Instructions:
+This tool is made for the game "!Ω Omega: My Dystopian Robot Girlfriend".
+
+Warning - Spoilers! This tool lists a lot of information, so it contains spoilers. Please note!
+
+To get started, select "Open File" -&gt; "Read Save" and open your save file. Then select the save you want to check. This does not include automatic saves.
+If you want to save the save after modifying the data. Open "File" -&gt; "Save Save, then start the game and import your modified save into the game.
+
+Save Edits" -&gt; "Save Overwrite Current Save"
+Prior to 0.90, your save files are in the following directory:
+[C:\Users\&lt;YOUR USERNAME&gt; (your user name)\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves
+In versions 0.90 and later, your exported save files will be located in the location where you save the file.
+
+Copyright © 2023-2024 Strawberry Software. All rights reserved.
+"My Dystopian Robot Girlfriend Analyzer" is an independent work of Strawberry Software and is not affiliated with or endorsed by Incontinent Cell. The game content and related intellectual property rights are owned by Incontinent Cell.</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Archive Information </value>
+  </data>
+  <data name="richTextBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12.75pt, style=Bold</value>
+  </data>
+  <data name="richTextBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="richTextBox8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="richTextBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1316, 578</value>
+  </data>
+  <data name="richTextBox8.Text" xml:space="preserve">
+    <value>Acknowledgements
+MDRG Discord - Code Help
+italy2003 / PixivID: 66835722 - Art
+bgrmystr2 - Linux Test
+From discord
+Author: Strawberry Mk.VI Strawberry
+Translator: Xiaoye
+You are using this program, thank you
+If you have any problems using this program or the translation is wrong, please go to GIT or discord for feedback
+GIT Comments on this post are translation errors or untranslated, please create a link to this post
+https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11
+discord MDRG-Analyzer post link
+https://discord.com/channels/813853552400138261/1325878602205626420
+GIT comment link
+https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions
+discord MDRG-Analyzer post link
+https://discord.com/channels/813853552400138261/1325878602205626420
+Program download link:
+https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/releases/tag/v1.1.9
+This is for developers and program creators, learners, and prepare.
+Source code download link:
+https://github.com/Wehrmachtserdbeere/MDRG-Analyzer</value>
+  </data>
+  <data name="tabPage9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabPage9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1324, 590</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>Readme </value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 12pt, style=Bold</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1332, 620</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="$this.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
+    <value>2560, 1440</value>
+  </data>
+  <data name="$this.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>2560, 1440</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1483, 801</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 11pt, style=Bold, Italic, Underline, Strikeout</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AAAiICj/IR4n/yIeJv8jICf/IRwl/xwWHf86OUD/gYmS/6exvf+xvMn/sb3J/7C8yP+wvcj/sr7K/6m1
+        wP+LlJ7/mqOt/6WwvP9MUof/P0WN/z5Caf8gIS3/Wl5r/7rFz/+9yNP/wcvV/7rF0P/I097/0dTY/4WF
+        hf+xtrr/q7XA/yIeJv8hHib/Ix8o/x8aI/8lIin/YWVr/6Crtf+2ws//s7/L/7K/y/+tucT/sr7K/7K9
+        yv+wu8f/sr3J/666x/+apK//i5Sa/09Vfv8/RYz/QEWD/ywuQv8iIi//fYSQ/8XQ2/+7xdH/y9Xg/8/T
+        1/8tLCz/AAAA/yYmJv+TlZj/Ih4n/yIeJ/8hHif/Hhki/25zfP+ksLr/s8DM/7G9yf+qtsH/m6ax/6av
+        uf+msLv/qLS//7C7x/+vu8f/sb3J/665xv+XoKb/W2GE/z1Dh/9ESo//Nzpk/yQlMP8qKjr/h5Cc/9Tg
+        6//P09f/KSgo/wAAAP8AAAD/ICAf/5STlv8hHib/IyAo/xgUG/9ERk7/prG9/5+qtf+yvsr/r7vH/665
+        xf+lsLv/prG8/6ezvv+suMT/sbzI/7G8yP+yv8v/nKay/7G8xf96gqT/O0CE/0RLjv89Qnr/LS88/xwc
+        Kv9ERlP/xsnM/ywrK/8AAAD/AgIC/woKCv+Ki4z/VlZc/yEeJv8iHyf/GhQd/3d9h/+zv8v/maSu/56o
+        tP+uucX/sb3J/7O/yv+wvMj/rbnG/6u4xP+ptsL/q7fE/5ijrv+Tnaf/uMTO/32Go/89Q4b/Q0mM/0RK
+        i/8oK0f/NTZA/5aWnP8rKir/AAAA/wICAv8LCgr/jYyP/1pXX/8cGCL/IR4m/yIfJ/8ZERj/jZah/627
+        yP+RmqP/tr/J/7bBzf+vu8f/rLjF/7jDz//E0Nv/zNbg/9Xe5//Fz9n/pKy2/623w/+xvcj/hY6n/0BG
+        iP9ESo3/PUSJ/0NGc/+Wlpn/MDAw/wAAAP8CAgL/CwsK/4yMjv9YWmL/Gxoo/ysnM/8iHyf/IBwk/x8b
+        I/+Ol6H/tLzD/6Knrf+7xMv/vMfT/9Da5P/h5+7/yc3Q/6Kkpf+Ghof/fn5+/4SFhf+dn6D/yMvP/9zk
+        6v+hqsL/OD2B/zk/g/9PVZb/n6G4/y8vLf8AAAD/AgIC/wsKCv+MjI7/WVtj/xYYIf8pKzb/KCk2/yIf
+        KP8bFx//XF9m/8zP0f+rqar/aGls/5afqP/n7vX/rK2u/0dHR/8LCwr/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8LCgr/R0dH/6Chpv+IjLj/WV6f/5+huv8vLyz/AAAA/wICAv8KCgr/jY2P/1laZf8ZGST/KCkx/yUm
+        Lf8nKDT/Hhki/zU0PP+usbX/h4WH/0RHTP9dZGn/vL7B/1dWV/8AAAD/AQEB/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/1JSVP+srbn/LS0t/wAAAP8CAgL/CgoK/4yNj/9bXWj/GRso/ygp
+        M/8mJzH/JCYu/yUnL/8gHCP/bG90/3h7gf8oLTD/lauw/6+0tv8rKir/AAAA/wQEBP8AAAD/CgoK/0FB
+        Qf93d3f/ioqK/3l5ef9LS0v/Dw8P/wAAAP8CAgL/AAAA/wcHBv8BAQL/AAAA/wsLCv+NjY//W11n/xsd
+        K/8qKzj/JCYw/yYnMv8kJS//JCYu/xcXHv9WWF3/LC0v/zo+Qv+3u77/LSws/wAAAP8EBQX/AwIC/2Zm
+        Zv/X1tb//////9fY2f+foKL/oKGj/6utr/+7vL7/a2xs/wICAf8CAgP/AwMD/wAAAP8MDAz/ioqP/1td
+        Z/8bHSv/Ky06/ygpNv8kJS//JScw/yUmMf8jJCz/Ghoi/xUWG/8UFRv/nZ+j/2FhYv8AAAD/AwMD/w0M
+        DP+bnZ//0tfd/+Pl6P+SlZj/ODg7/zk2M/8uKiz/Ly4x/1BSVf/EytH/oqOm/wsLCv8CAgL/AAAA/1FR
+        UP+lprT/FBYk/ywuO/8oKjf/KCo3/yMkLv8kJS3/Jig0/yMkLf8oKjb/HiAr/0NEUP+ampz/AgIB/wEB
+        Af8AAAD/lpeY/6mwuP+aprH/jJSe/yYnLP88Ozz/TE1M/3B8gf9bY2f/KSYo/09UWP+osMr/hoaT/wIC
+        AP8AAAD/AAAA/5aWmf9FRlH/IiQx/ykrOP8oKjj/JCYv/yQlLf8nKTX/JCYw/yUnM/8bHSv/jI2V/1dX
+        V/8AAAD/AAAA/2NjY/+Gh47/MTU6/6Ktt/9SVlz/Gxod/yopLP+Zs7n/2P///8nt8v8+Q0j/Li4t/01V
+        ff+IjL7/ZWVk/wAAAP8AAAD/WFdX/4uMlP8bHSv/Kiw5/ygqOP8kJi//JCQs/yYoM/8mKDT/HyAr/yQm
+        Mv+io6f/GRgY/wAAAP8MCwv/oqOm/zIzQP8SExr/PUBE/y0uMf8dHR//KzAz/8zu8P/U+v//rs3T/ztB
+        Rf9aXmL/XWSP/0ZLkf+pq7v/CwsI/wAAAP8YGBf/oKGl/ystOv8nKTb/KCo4/yUmL/8kJCz/Jigz/ycp
+        Nv8fIC3/PD5K/4qKjf8AAAD/AAAA/0dHRv+Xl5z/HB0r/ystOv8aGiT/ICIm/xgYGf8UExX/UV5i/15r
+        cP9KTlL/eX+I/5qkrf9YX4z/MjiB/6iszP9GRkL/AAAA/wAAAP+Oj5H/QkRR/yIkMf8pKzj/JSYv/yQk
+        LP8mKDP/KCo3/yIkMf9FR1T/cnJ0/wAAAP8AAAD/cnJx/4+PlP8XGSX/LC47/yYnNf9VWmX/eoKK/2lw
+        d/9wdn//kpql/6m1wP+hrLb/jJWe/0hOfv8zOoP/oaXL/3Fxbv8AAAD/AAAA/3+AgP9UVmH/HyEu/ykr
+        OP8lJi7/JCUt/ycpNf8pKjX/GRsp/05QW/9qamv/AAAA/wAAAP+Hh4f/hYaL/xQWIP8iIiz/HR4o/yot
+        N/90e4P/l6Cq/7O/y/+0wc3/m6aw/52nsf9yeIL/OT1x/zY9hf+WmsX/hoaE/wAAAP8AAAD/fX19/3Bx
+        e/8bHSv/Kis3/yQlLv8lJi//KCk3/ykqNf8UFiT/PT5L/25ucP8AAAD/AAAA/3x8e/+NjpX/FhYh/yAh
+        Kv8bHCL/Fhcc/w8OEv9ZXmP/mqOu/5qjrv+bpa//h4+Z/zU4SP89Q33/Nj2F/52hyP97e3j/AAAA/wAA
+        AP99fX7/XmBr/x4fLf8pKjb/JCUu/yYoM/8oKjf/LCwz/4qLj/9oaXL/gYKE/wAAAP8AAAD/V1dW/5iY
+        oP8YGiX/Kis3/ygqN/8iIzD/Oz1F/5CYof+Zoq3/maKs/5OdqP88Pkf/Jic+/0VMjP82PIL/pqnN/1dW
+        U/8AAAD/AAAA/4iIiv9ISVX/ISMx/ygpNP8kJS7/Jyk2/yosNf8uLjL/fX6J/zg5R/+dnqD/Dg4O/wAA
+        AP8fHh7/oaKm/yUnMf8nKDL/Kis3/ykrN/8uLzn/foWO/5ymsf+bpa//V1xp/x4eJf80OFn/QkiN/0BH
+        i/+qrMT/Hh4a/wAAAP8NDQ3/n5+i/zY3Q/8mKDX/Jicx/yYnMv8oKzf/LS4y/y4uMv9UVV3/DxAd/5GR
+        l/8+Pj7/AAAA/wAAAP+BgYL/Xl9o/xgZIv8uLjT/MDE6/ycnMP9jaG//o664/3d/iv8oKTb/Kisw/zY7
+        bv8tNH7/cXav/4ODh/8AAAD/AAAA/z8/P/+hoqX/JCUv/yorOP8mKDL/KCo2/ywtNP8uLjL/Li4y/z9A
+        S/8hIiz/YmNr/4uMjP8AAAD/AAAA/xoaGf+YmZ3/NDU+/x8gJf83Nzz/LS0y/1peZP+Zo63/REZS/y0u
+        M/8zND//Jy1v/0NKkf+eoLf/GRkX/wAAAP8AAAD/jIyN/2hobf8jJS//Ky05/yorN/8rLDT/Li4y/y4u
+        Mv8uLjL/NTY9/zw+Rf81Nz//pqap/zk4OP8AAAD/AAAA/zY2Nf+Zmp3/QEFI/yYnLP8kJCn/REdN/2Fn
+        cf8lJi//KCkp/ygrR/9ZYaP/oaS9/zU1Mv8AAAD/AAAA/zg4N/+hoaP/LzA1/zAxOf8wMTn/Kyw3/y0t
+        Mv8uLjL/Li4z/y4uMv89PkP/REZL/z5ARv9cXmP/paWm/wwMDP8BAQH/AAAA/yUlJf+NjY//mJib/3d4
+        e/9kZWr/WVtj/2JkZ/9yc3X/oaS4/6Cjrv8lJCL/AAAA/wEBAf8NDQz/oKCh/05OVP8tLjT/ODk+/zM0
+        Ov8rLDT/Li4z/y4uM/8uLjP/Li80/0hLTv9FR0z/SUxS/z1ARf90dnr/i4uM/wYGBv8AAAD/AQEB/wQE
+        BP9HR0f/j5CQ/7Kzs/+6urv/tLS0/46Oj/9GRkX/AwMC/wEBAv8AAAD/BgYG/4mJif9qa2//MDE3/z0+
+        Q/9AQEX/MTI3/y4vM/8wMDT/Li40/y8vNP8xMTb/S01S/0lLUP9IS1D/Sk1T/z5BRv90dnv/mpqb/x0d
+        HP8AAAD/AQEB/wAAAP8AAAD/AQEB/wUFBf8BAQH/AAAA/wAAAP8BAQH/AAAA/xsbG/+XmJn/cnR3/zo8
+        QP9FRkv/RkhM/zo8P/8uLzP/NTY6/zEyNv8vLzT/MjI3/zIyN/9KTFH/SkxR/0lMUf9JS1H/S01T/0BD
+        SP9ucHX/rKyu/2hoaP8RERH/AAAA/wEBAf8AAAD/AAAA/wAAAP8BAQH/AAAA/xEREP9jYmT/oqOk/2pr
+        cP9AQkb/SkxR/0pLUf9BQ0f/Li8z/zg5Pv87PUH/MDA0/zIyN/82Nzz/MjI2/0pMUf9LTFL/S01S/0pM
+        Uf9JS1H/S01S/0FDSP9OUFb/kpSX/6ytrv+IiIn/Wlpb/0NDQ/88PDv/RENA/1taWv+Gho//o6Wz/4eI
+        jv9NT1P/QUNI/0pMUf9KTFH/RUZM/zIzN/84OT3/Q0VJ/zU2Ov8zNDn/OzxB/zo7QP8vLzL/RUZK/0pM
+        Uv9LTVL/Sk1S/0lMUf9IS1D/SkxR/0dJTv89P0T/TE5S/3F0d/+KjJD/lpea/6eprP+Tlrf/hYq//2tv
+        nv9MT1z/P0BF/0lLT/9KTFH/SUxQ/0dJTv84Oj7/OjtA/0hKT/89PkP/Ojs//0NFSv9CREj/MTE1/yko
+        Lf9AQUT/RUZK/0pMUv9LTVH/SkxR/0hLUf9HSk7/SEpO/0tNUv9GSU3/QEJH/zs9Q/88P0H/PkJl/zc+
+        iP8yN23/PD9L/0lKTf9LTVL/SUtR/0lLUP9JS1D/QkNI/0FDR/9KTFH/REVK/0FDR/9KTFH/RUdM/zEy
+        Nv8nJiz/Lykt/zg5O/8+P0L/Q0RI/0lLUP9KTFH/SEtQ/0hLUP9GSEz/SElO/0dKTv9ER0z/P0FD/0NG
+        WP9DSYf/Oj9u/zc4Qf9ERUb/SUtR/0lLUP9JS1D/SUtQ/0hKT/9HSU7/SkxR/0hJTv9DRUr/SUtQ/0ZH
+        TP8yMzf/JSQq/y4oLP9DOTf/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>My Dystopian Robot Girlfriend Saves the Analyzer</value>
+  </data>
+</root>

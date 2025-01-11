@@ -236,6 +236,9 @@ bgrmystr2 - Linux 测试
 错误：
 </value>
   </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>记住要保证她的安全（并填饱肚子）</value>
+  </data>
   <data name="WeekDaysFriday" xml:space="preserve">
     <value>星期五</value>
   </data>
@@ -318,5 +321,11 @@ bgrmystr2 - Linux 测试
   <data name="GitResponseNewVersionAvailableText3" xml:space="preserve">
     <value>
 您想打开 GitHub 获取最新版本吗？</value>
+  </data>
+  <data name="label6HorrorText" xml:space="preserve">
+    <value>出去出去出去出去出去出去出去出去出去出去出去出去出去出去出去出去</value>
+  </data>
+  <data name="label6NormalText" xml:space="preserve">
+    <value>记住要保证她的安全（并填饱肚子）</value>
   </data>
 </root>

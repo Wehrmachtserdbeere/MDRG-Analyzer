@@ -117,440 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="editInfoButton.Text" xml:space="preserve">
-    <value>Bearbeit. Info</value>
-  </data>
-  <data name="groupBox43.Text" xml:space="preserve">
-    <value>Speicherslot</value>
-  </data>
-  <data name="saveFilesChoosingBox.Text" xml:space="preserve">
-    <value>Speicherstände</value>
-  </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>Lade eine Datei</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Spielversion</value>
-  </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Dieses Programm wurde für das Spiel "!Ω Factorial Omega: My Dystopian Robot Girlfriend" entwickelt.
-
-WARNUNG – Spoiler! Dieses Programm enthält Spoiler, da es viele nicht angezeigte Informationen auflistet. Sei gewarnt!
-
-Um es zu verwenden, wähle "Datei" -&gt; "Datei öffnen..." und öffne deine Speicherdatei. Wähle dann den Speicherstand aus, den du überprüfen möchtest. Diese schließen automatische Speicherungen nicht ein.
-
-Vor 0.90 wurden deine Speicherdateien im folgenden Verzeichnis gespeichert:
-[ C:\Benutzer\&lt;DEIN BENUTZERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves ]
-In Version 0.90 und höher befindet sich deine exportierte Speicherdatei an dem Speicherort, an dem du diese gespeichert hast.
-
-Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
-"MDRG Analyzer" ist eine unabhängige Kreation von Strawberry Software und ist weder mit Incontinent Cell verbunden noch wird es von Incontinent Cell unterstützt. Die Spielinhalte und das damit verbundene geistige Eigentum sind das alleinige Eigentum von Incontinent Cell.</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>(1) Benutzt Spielzeit</value>
-  </data>
-  <data name="groupBox71.Text" xml:space="preserve">
-    <value>Zuletzt Arbeit(1)</value>
-  </data>
-  <data name="groupBox70.Text" xml:space="preserve">
-    <value>Ltzt. Kirchgang(1)</value>
-  </data>
-  <data name="groupBox69.Text" xml:space="preserve">
-    <value>Zuletzt aufgew(1)</value>
-  </data>
-  <data name="groupBox68.Text" xml:space="preserve">
-    <value>Letzte Interakt.(1)</value>
-  </data>
-  <data name="groupBox67.Text" xml:space="preserve">
-    <value>Letzte Botkonvo(1)</value>
-  </data>
-  <data name="groupBox66.Text" xml:space="preserve">
-    <value>Letzter Headpat(1)</value>
-  </data>
-  <data name="groupBox65.Text" xml:space="preserve">
-    <value>Ltzt. Hungr Info(1)</value>
-  </data>
-  <data name="groupBox64.Text" xml:space="preserve">
-    <value>Ltzt. Geist.info(1)</value>
-  </data>
-  <data name="groupBox63.Text" xml:space="preserve">
-    <value>Kirchengänge</value>
-  </data>
-  <data name="groupBox62.Text" xml:space="preserve">
-    <value>Deathgrip Ende(1)</value>
-  </data>
-  <data name="groupBox61.Text" xml:space="preserve">
-    <value>Vinegara Ende(1)</value>
-  </data>
-  <data name="groupBox59.Text" xml:space="preserve">
-    <value>Samen verschw.</value>
-  </data>
-  <data name="groupBox45.Text" xml:space="preserve">
-    <value>Slot</value>
-  </data>
-  <data name="groupBox13.Text" xml:space="preserve">
-    <value>Geist. Gesundh.</value>
-  </data>
-  <data name="groupBox12.Text" xml:space="preserve">
-    <value>Gesundheit</value>
-  </data>
-  <data name="groupBox11.Text" xml:space="preserve">
-    <value>Derz. Ausdauer</value>
-  </data>
-  <data name="groupBox10.Text" xml:space="preserve">
-    <value>Derz. Samen</value>
-  </data>
-  <data name="groupBox9.Text" xml:space="preserve">
-    <value>Max. Samen</value>
-  </data>
-  <data name="groupBox8.Text" xml:space="preserve">
-    <value>Kasinotoken</value>
-  </data>
-  <data name="groupBox7.Text" xml:space="preserve">
-    <value>Geld</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Spielerwerte</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>Spielerinfo</value>
+  <data name="groupBox41.Text" xml:space="preserve">
+    <value>Formatiert(2)</value>
   </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>Ltztes Knuddeln(1)</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Kasinotoken</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>(1) Benutzt Spielzeit</value>
-  </data>
-  <data name="groupBox77.Text" xml:space="preserve">
-    <value>Letzter Sex(1)</value>
-  </data>
-  <data name="groupBox76.Text" xml:space="preserve">
-    <value>Letztes Equipm.(1)</value>
-  </data>
-  <data name="groupBox75.Text" xml:space="preserve">
-    <value>Zuletzt draußen(1)</value>
-  </data>
-  <data name="groupBox58.Text" xml:space="preserve">
-    <value>ML Mund gekom.</value>
-  </data>
-  <data name="groupBox44.Text" xml:space="preserve">
-    <value>Slot</value>
-  </data>
-  <data name="groupBox39.Text" xml:space="preserve">
-    <value>Außen gekommen</value>
-  </data>
-  <data name="groupBox38.Text" xml:space="preserve">
-    <value>In Mund gekom.</value>
-  </data>
-  <data name="groupBox37.Text" xml:space="preserve">
-    <value>In Hintern gekom.</value>
-  </data>
-  <data name="groupBox36.Text" xml:space="preserve">
-    <value>In Pussy gekom.</value>
-  </data>
-  <data name="groupBox24.Text" xml:space="preserve">
-    <value>Samen in Magen</value>
-  </data>
-  <data name="groupBox23.Text" xml:space="preserve">
-    <value>Samen in Hintern</value>
-  </data>
-  <data name="groupBox22.Text" xml:space="preserve">
-    <value>Samen in Pussy</value>
-  </data>
-  <data name="groupBox21.Text" xml:space="preserve">
-    <value>Intelligenz</value>
-  </data>
-  <data name="groupBox20.Text" xml:space="preserve">
-    <value>Laune</value>
-  </data>
-  <data name="groupBox19.Text" xml:space="preserve">
-    <value>Sehnsucht</value>
-  </data>
-  <data name="groupBox18.Text" xml:space="preserve">
-    <value>Sympathie</value>
-  </data>
-  <data name="groupBox17.Text" xml:space="preserve">
-    <value>Verlangen</value>
-  </data>
-  <data name="groupBox15.Text" xml:space="preserve">
-    <value>Botwerte</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>Botinfo</value>
-  </data>
-  <data name="groupBox80.Text" xml:space="preserve">
-    <value>Wochentag(1)</value>
-  </data>
-  <data name="groupBox79.Text" xml:space="preserve">
-    <value>Priesterpunkte(4,5)</value>
-  </data>
-  <data name="groupBox78.Text" xml:space="preserve">
-    <value>Nonne Punkte(4,5)</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>(5) Benutzt Spielzeit</value>
-  </data>
-  <data name="groupBox74.Text" xml:space="preserve">
-    <value>Letzter Stream(5)</value>
-  </data>
-  <data name="groupBox60.Text" xml:space="preserve">
-    <value>"Suche"(4)</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 52</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>(1) Kann nicht geändert werden, Miete ist immer montags
-(2) Umgerechnet zur besseren Lesbarkeit, kein tatsächlicher Wert
-(3) Änderung = kein Support
-(4) Mit der Questreihe der Kirche verbunden</value>
-  </data>
-  <data name="groupBox56.Text" xml:space="preserve">
-    <value>Verloren</value>
-  </data>
-  <data name="groupBox57.Text" xml:space="preserve">
-    <value>Gewonnen</value>
-  </data>
-  <data name="groupBox53.Text" xml:space="preserve">
-    <value>Wörterkette</value>
-  </data>
-  <data name="groupBox54.Text" xml:space="preserve">
-    <value>Verloren</value>
-  </data>
-  <data name="groupBox55.Text" xml:space="preserve">
-    <value>Gewonnen</value>
-  </data>
-  <data name="groupBox52.Text" xml:space="preserve">
-    <value>Schach</value>
-  </data>
-  <data name="groupBox51.Text" xml:space="preserve">
-    <value>Weggerannt</value>
-  </data>
-  <data name="groupBox49.Text" xml:space="preserve">
-    <value>Verloren</value>
-  </data>
-  <data name="groupBox50.Text" xml:space="preserve">
-    <value>Gewonnen</value>
-  </data>
-  <data name="groupBox48.Text" xml:space="preserve">
-    <value>Alte Jungfer</value>
-  </data>
-  <data name="groupBox47.Text" xml:space="preserve">
-    <value>Anzahl Streams</value>
-  </data>
-  <data name="groupBox46.Text" xml:space="preserve">
-    <value>Miete in(1)</value>
-  </data>
-  <data name="groupBox41.Text" xml:space="preserve">
-    <value>Formatiert(2)</value>
-  </data>
-  <data name="groupBox42.Text" xml:space="preserve">
-    <value>Roh</value>
-  </data>
-  <data name="groupBox40.Text" xml:space="preserve">
-    <value>Spielzeit</value>
-  </data>
-  <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 17</value>
-  </data>
-  <data name="lightswitchCheckbox.Text" xml:space="preserve">
-    <value>Licht an/aus</value>
-  </data>
-  <data name="groupBox34.Text" xml:space="preserve">
-    <value>Formatiert(2)</value>
-  </data>
-  <data name="groupBox35.Text" xml:space="preserve">
-    <value>Roh</value>
-  </data>
-  <data name="groupBox33.Text" xml:space="preserve">
-    <value>Längster Stream</value>
-  </data>
-  <data name="groupBox14.Text" xml:space="preserve">
-    <value>Slot</value>
-  </data>
-  <data name="groupBox32.Text" xml:space="preserve">
-    <value>Streamspenden</value>
-  </data>
-  <data name="groupBox30.Text" xml:space="preserve">
-    <value>Formatiert(2)</value>
-  </data>
-  <data name="groupBox31.Text" xml:space="preserve">
-    <value>Roh</value>
-  </data>
-  <data name="groupBox29.Text" xml:space="preserve">
-    <value>Gesamte Streamzeit</value>
-  </data>
-  <data name="groupBox28.Text" xml:space="preserve">
-    <value>Abos</value>
-  </data>
-  <data name="groupBox27.Text" xml:space="preserve">
-    <value>Folgt dir</value>
-  </data>
-  <data name="groupBox26.Text" xml:space="preserve">
-    <value>Spielphase(3)</value>
-  </data>
-  <data name="groupBox25.Text" xml:space="preserve">
-    <value>Sonstige Werte</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>Sonst. Info</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Zeig Webseiten</value>
-  </data>
-  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
-    <value>Besuchte Webseiten</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>Webseiten</value>
-  </data>
-  <data name="richTextBox5.Text" xml:space="preserve">
-    <value>"Das schlimmste Ende"</value>
-  </data>
-  <data name="richTextBox4.Text" xml:space="preserve">
-    <value>"Das unwissende Ende"</value>
-  </data>
-  <data name="richTextBox3.Text" xml:space="preserve">
-    <value>"Ich weiß nicht" Ende</value>
-  </data>
-  <data name="richTextBox12.Text" xml:space="preserve">
-    <value>"Das gute Ende"</value>
-  </data>
-  <data name="richTextBox6.Text" xml:space="preserve">
-    <value>"Das nicht gut genug Ende"</value>
-  </data>
-  <data name="richTextBox7.Text" xml:space="preserve">
-    <value>ending-ballsexploded --- "Zu viel Saft..."
-ending-goodEnd1 --- "Verkaufe deinen Bot"
-ending-badEnd1 --- "Kündigung des Mietverhältnisses"
-ending-badEnd2 --- "Mietfehler..."
-ending-badEnd3 --- "Feigling..."
-ending-badEnd4.1 --- "Kündigung des Mietverhältnisses v2: Penner"
-ending-badEnd4.2 --- "Kündigung des Mietverhältnisses v2: Mord"
-ending-healthEnd --- "Verhungern"
-ending-fedEnd --- "Wurde erwischt..."
-ending-schizoEnd --- "Ich bin nicht verrückt..."
-ending-genericSchizoEnd --- "Wall-kun"
-ending-KilledByADirtyCop1 --- "Vertraue niemals den Bullen..."
-ending-KilledByADirtyCop2 --- "Vertraue niemals den Bullen... WIEDER"
-ending-theyKnowOblivious --- "Sie wissen... (ahnungslos)"
-ending-theyKnow --- "Sie wissen..."
-bigdaddyhurtSecretEpilogue --- Kein eigenständiges Ende, sondern Teil von "Sie wissen...". - Habe bigdaddyhurt getroffen, aber seine Geschichte nicht fortgesetzt
-saveEdited --- Habe die iamacheater-Website verwendet.</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Zeig Errungensch.</value>
-  </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>Errungenschaften</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 13</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Halte sie sicher (und gefüllt)</value>
-  </data>
-  <data name="saveButton.Text" xml:space="preserve">
-    <value>Spielstand überschreiben</value>
-  </data>
-  <data name="guideButton.Text" xml:space="preserve">
-    <value>Leitfaden</value>
-  </data>
-  <data name="createBackupButton.Text" xml:space="preserve">
-    <value>Sichern</value>
-  </data>
-  <data name="saveEditGroupBox.Text" xml:space="preserve">
-    <value>Speicherstandbearbeitung</value>
-  </data>
-  <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>616, 30</value>
-  </data>
-  <data name="saveEditConsentBox.Text" xml:space="preserve">
-    <value>Ich bin mir darüber im Klaren, dass die Verwendung dieser Funktion zur Beschädigung oder Beeinträchtigung meiner
-gespeicherten Spiele führen kann, und übernehme die volle Verantwortung für etwaige Verluste von Fortschritten oder Daten.</value>
-  </data>
-  <data name="richTextBox2.Text" xml:space="preserve">
-    <value>WARNUNG! Diese Funktion wird gerade getestet und dein Speicherstand wird höchstwahrscheinlich beschädigt! Mach ein Backup!</value>
-  </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>Speicherstandbearbeitung</value>
-  </data>
-  <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Datei Laden...</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Programm schließen</value>
-  </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Datei</value>
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nach Aktualisierungen suchen</value>
-  </data>
-  <data name="openReadmeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Liesmich öffnen</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 6</value>
-  </data>
-  <data name="reportABugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
-    <value>Fehler melden</value>
-  </data>
-  <data name="suggestAFeatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
-    <value>Vorschlag machen</value>
-  </data>
-  <data name="quickLinkToGitHubToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub Schnelllink</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hilfe</value>
-  </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sprache</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
@@ -626,5 +202,473 @@ gespeicherten Spiele führen kann, und übernehme die volle Verantwortung für e
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>Gesamte Streamzeit</value>
+  </data>
+  <data name="groupBox22.Text" xml:space="preserve">
+    <value>Samen in Pussy</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>Verlangen</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>(1) Benutzt Spielzeit</value>
+  </data>
+  <data name="groupBox60.Text" xml:space="preserve">
+    <value>"Suche"(4)</value>
+  </data>
+  <data name="openReadmeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="groupBox70.Text" xml:space="preserve">
+    <value>Ltzt. Kirchgang(1)</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Speicherstandbearbeitung</value>
+  </data>
+  <data name="groupBox68.Text" xml:space="preserve">
+    <value>Letzte Interakt.(1)</value>
+  </data>
+  <data name="groupBox56.Text" xml:space="preserve">
+    <value>Verloren</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nach Aktualisierungen suchen</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>Sympathie</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="saveFilesChoosingBox.Text" xml:space="preserve">
+    <value>Speicherstände</value>
+  </data>
+  <data name="groupBox35.Text" xml:space="preserve">
+    <value>Roh</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Geist. Gesundh.</value>
+  </data>
+  <data name="lightswitchCheckbox.Text" xml:space="preserve">
+    <value>Licht an/aus</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>Lade eine Datei</value>
+  </data>
+  <data name="groupBox51.Text" xml:space="preserve">
+    <value>Weggerannt</value>
+  </data>
+  <data name="editInfoButton.Text" xml:space="preserve">
+    <value>Bearbeit. Info</value>
+  </data>
+  <data name="groupBox44.Text" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="groupBox55.Text" xml:space="preserve">
+    <value>Gewonnen</value>
+  </data>
+  <data name="suggestAFeatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="groupBox36.Text" xml:space="preserve">
+    <value>In Pussy gekom.</value>
+  </data>
+  <data name="groupBox59.Text" xml:space="preserve">
+    <value>Samen verschw.</value>
+  </data>
+  <data name="groupBox74.Text" xml:space="preserve">
+    <value>Letzter Stream(5)</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
+    <value>Besuchte Webseiten</value>
+  </data>
+  <data name="groupBox52.Text" xml:space="preserve">
+    <value>Schach</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>"Das unwissende Ende"</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>Längster Stream</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>"Das schlimmste Ende"</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>Speicherstandbearbeitung</value>
+  </data>
+  <data name="groupBox47.Text" xml:space="preserve">
+    <value>Anzahl Streams</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Programm schließen</value>
+  </data>
+  <data name="groupBox31.Text" xml:space="preserve">
+    <value>Roh</value>
+  </data>
+  <data name="groupBox24.Text" xml:space="preserve">
+    <value>Samen in Magen</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="groupBox77.Text" xml:space="preserve">
+    <value>Letzter Sex(1)</value>
+  </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>Spielzeit</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Geld</value>
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>Sehnsucht</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Spielerwerte</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Zeig Webseiten</value>
+  </data>
+  <data name="groupBox32.Text" xml:space="preserve">
+    <value>Streamspenden</value>
+  </data>
+  <data name="groupBox39.Text" xml:space="preserve">
+    <value>Außen gekommen</value>
+  </data>
+  <data name="groupBox48.Text" xml:space="preserve">
+    <value>Alte Jungfer</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
+    <value>GitHub Schnelllink</value>
+  </data>
+  <data name="groupBox80.Text" xml:space="preserve">
+    <value>Wochentag(1)</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Botinfo</value>
+  </data>
+  <data name="groupBox27.Text" xml:space="preserve">
+    <value>Folgt dir</value>
+  </data>
+  <data name="groupBox37.Text" xml:space="preserve">
+    <value>In Hintern gekom.</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Dieses Programm wurde für das Spiel "!Ω Factorial Omega: My Dystopian Robot Girlfriend" entwickelt.
+
+WARNUNG – Spoiler! Dieses Programm enthält Spoiler, da es viele nicht angezeigte Informationen auflistet. Sei gewarnt!
+
+Um es zu verwenden, wähle "Datei" -&gt; "Datei öffnen..." und öffne deine Speicherdatei. Wähle dann den Speicherstand aus, den du überprüfen möchtest. Diese schließen automatische Speicherungen nicht ein.
+
+Vor 0.90 wurden deine Speicherdateien im folgenden Verzeichnis gespeichert:
+[ C:\Benutzer\&lt;DEIN BENUTZERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves ]
+In Version 0.90 und höher befindet sich deine exportierte Speicherdatei an dem Speicherort, an dem du diese gespeichert hast.
+
+Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
+"MDRG Analyzer" ist eine unabhängige Kreation von Strawberry Software und ist weder mit Incontinent Cell verbunden noch wird es von Incontinent Cell unterstützt. Die Spielinhalte und das damit verbundene geistige Eigentum sind das alleinige Eigentum von Incontinent Cell.</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 52</value>
+  </data>
+  <data name="groupBox65.Text" xml:space="preserve">
+    <value>Ltzt. Hungr Info(1)</value>
+  </data>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>Spielstand überschreiben</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>Speicherslot</value>
+  </data>
+  <data name="groupBox78.Text" xml:space="preserve">
+    <value>Nonne Punkte(4,5)</value>
+  </data>
+  <data name="groupBox42.Text" xml:space="preserve">
+    <value>Roh</value>
+  </data>
+  <data name="groupBox20.Text" xml:space="preserve">
+    <value>Laune</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>Botwerte</value>
+  </data>
+  <data name="groupBox66.Text" xml:space="preserve">
+    <value>Letzter Headpat(1)</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="groupBox28.Text" xml:space="preserve">
+    <value>Abos</value>
+  </data>
+  <data name="richTextBox7.Text" xml:space="preserve">
+    <value>ending-ballsexploded --- "Zu viel Saft..."
+ending-goodEnd1 --- "Verkaufe deinen Bot"
+ending-badEnd1 --- "Kündigung des Mietverhältnisses"
+ending-badEnd2 --- "Mietfehler..."
+ending-badEnd3 --- "Feigling..."
+ending-badEnd4.1 --- "Kündigung des Mietverhältnisses v2: Penner"
+ending-badEnd4.2 --- "Kündigung des Mietverhältnisses v2: Mord"
+ending-healthEnd --- "Verhungern"
+ending-fedEnd --- "Wurde erwischt..."
+ending-schizoEnd --- "Ich bin nicht verrückt..."
+ending-genericSchizoEnd --- "Wall-kun"
+ending-KilledByADirtyCop1 --- "Vertraue niemals den Bullen..."
+ending-KilledByADirtyCop2 --- "Vertraue niemals den Bullen... WIEDER"
+ending-theyKnowOblivious --- "Sie wissen... (ahnungslos)"
+ending-theyKnow --- "Sie wissen..."
+bigdaddyhurtSecretEpilogue --- Kein eigenständiges Ende, sondern Teil von "Sie wissen...". - Habe bigdaddyhurt getroffen, aber seine Geschichte nicht fortgesetzt
+saveEdited --- Habe die iamacheater-Website verwendet.</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="groupBox54.Text" xml:space="preserve">
+    <value>Verloren</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Spielerinfo</value>
+  </data>
+  <data name="saveEditConsentBox.Text" xml:space="preserve">
+    <value>Ich bin mir darüber im Klaren, dass die Verwendung dieser Funktion zur Beschädigung oder Beeinträchtigung meiner
+gespeicherten Spiele führen kann, und übernehme die volle Verantwortung für etwaige Verluste von Fortschritten oder Daten.</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="groupBox63.Text" xml:space="preserve">
+    <value>Kirchengänge</value>
+  </data>
+  <data name="groupBox23.Text" xml:space="preserve">
+    <value>Samen in Hintern</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>(1) Benutzt Spielzeit</value>
+  </data>
+  <data name="groupBox61.Text" xml:space="preserve">
+    <value>Vinegara Ende(1)</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Derz. Samen</value>
+  </data>
+  <data name="groupBox69.Text" xml:space="preserve">
+    <value>Zuletzt aufgew(1)</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Derz. Ausdauer</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Halte sie sicher (und gefüllt)</value>
+  </data>
+  <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="groupBox57.Text" xml:space="preserve">
+    <value>Gewonnen</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>(5) Benutzt Spielzeit</value>
+  </data>
+  <data name="groupBox34.Text" xml:space="preserve">
+    <value>Formatiert(2)</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Spielversion</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Gesundheit</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 22</value>
+  </data>
+  <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Liesmich öffnen</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Zeig Errungensch.</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>"Ich weiß nicht" Ende</value>
+  </data>
+  <data name="groupBox50.Text" xml:space="preserve">
+    <value>Gewonnen</value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>"Das nicht gut genug Ende"</value>
+  </data>
+  <data name="groupBox45.Text" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Max. Samen</value>
+  </data>
+  <data name="groupBox58.Text" xml:space="preserve">
+    <value>ML Mund gekom.</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Errungenschaften</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="groupBox75.Text" xml:space="preserve">
+    <value>Zuletzt draußen(1)</value>
+  </data>
+  <data name="groupBox53.Text" xml:space="preserve">
+    <value>Wörterkette</value>
+  </data>
+  <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Vorschlag machen</value>
+  </data>
+  <data name="groupBox46.Text" xml:space="preserve">
+    <value>Miete in(1)</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="groupBox30.Text" xml:space="preserve">
+    <value>Formatiert(2)</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>(1) Kann nicht geändert werden, Miete ist immer montags
+(2) Umgerechnet zur besseren Lesbarkeit, kein tatsächlicher Wert
+(3) Änderung = kein Support
+(4) Mit der Questreihe der Kirche verbunden</value>
+  </data>
+  <data name="groupBox76.Text" xml:space="preserve">
+    <value>Letztes Equipm.(1)</value>
+  </data>
+  <data name="guideButton.Text" xml:space="preserve">
+    <value>Leitfaden</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>WARNUNG! Diese Funktion wird gerade getestet und dein Speicherstand wird höchstwahrscheinlich beschädigt! Mach ein Backup!</value>
+  </data>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>Sonstige Werte</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fehler melden</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="groupBox38.Text" xml:space="preserve">
+    <value>In Mund gekom.</value>
+  </data>
+  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datei Laden...</value>
+  </data>
+  <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 30</value>
+  </data>
+  <data name="groupBox26.Text" xml:space="preserve">
+    <value>Spielphase(3)</value>
+  </data>
+  <data name="groupBox49.Text" xml:space="preserve">
+    <value>Verloren</value>
+  </data>
+  <data name="groupBox71.Text" xml:space="preserve">
+    <value>Zuletzt Arbeit(1)</value>
+  </data>
+  <data name="richTextBox12.Text" xml:space="preserve">
+    <value>"Das gute Ende"</value>
+  </data>
+  <data name="groupBox64.Text" xml:space="preserve">
+    <value>Ltzt. Geist.info(1)</value>
+  </data>
+  <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="groupBox79.Text" xml:space="preserve">
+    <value>Priesterpunkte(4,5)</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="createBackupButton.Text" xml:space="preserve">
+    <value>Sichern</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 13</value>
+  </data>
+  <data name="groupBox62.Text" xml:space="preserve">
+    <value>Deathgrip Ende(1)</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Webseiten</value>
+  </data>
+  <data name="groupBox21.Text" xml:space="preserve">
+    <value>Intelligenz</value>
+  </data>
+  <data name="groupBox67.Text" xml:space="preserve">
+    <value>Letzte Botkonvo(1)</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 6</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Sonst. Info</value>
+  </data>
+  <data name="TraditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文</value>
+  </data>
+  <data name="TraditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spenden</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="commandsTextBox.Text" xml:space="preserve">
+    <value>"C:\system\debug\reports\report_1.txt" --- Sys-Bericht 1 - Virenangriff, DT?
+"C:\system\debug\reports\report_2.txt" --- Sys-Bericht 2 – wenn 3, muss es 2 und 1 sein
+"C:\system\debug\reports\report_3.txt" --- Sys-Bericht 3 – Gefunden nach Prolog, Zwischensequenz der Konsole.
+"F:\files\research\journal\1574_12_12.txt" --- Tagebuchtext von Derry Tavis
+"F:\Jun\system\safety\Asimov3.xftt" --- Zugriff verweigert
+F:\files\research\journal\1578_12_16.txt
+F:\files\research\journal\1580_12_18.txt
+
+Verwendet Dateipfad, um ein bestimmtes Video abzuspielen (z. B. [ PlayVideo "C:\Videos\Meruccubus.mp4" ] )
+
+"VV"-Eingabeaufforderungen (füge "vv" und ein Leerzeichen vor dem Befehl hinzu)
+
+lust
+sympathy
+mood
+isNaked
+cumInsideAnalMl
+cumInsideVaginaMl
+cumInsideStomachMl
+masterCumExtractedMl
+timeSinceLastHeadpat
+timeSinceLastSex
+timeSinceLastTalkWithMaster
+Horniness
+MasterName
+SelfName
+timesCameMouth
+timeCameInsideVagina
+timeCameInsideAnal</value>
   </data>
 </root>

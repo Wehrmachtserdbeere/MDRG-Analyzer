@@ -649,4 +649,10 @@ Do you want to open GitHub to get the latest release?</value>
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>Language</value>
   </data>
+  <data name="label6HorrorText" xml:space="preserve">
+    <value>get out get out get out get out get out get out get out get out get out get out</value>
+  </data>
+  <data name="label6NormalText" xml:space="preserve">
+    <value>Remember to keep her safe (and filled)</value>
+  </data>
 </root>

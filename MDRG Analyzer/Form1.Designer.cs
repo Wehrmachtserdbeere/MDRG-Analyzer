@@ -217,6 +217,9 @@
             this.createBackupButton = new System.Windows.Forms.Button();
             this.saveEditConsentBox = new System.Windows.Forms.CheckBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.commandsGroupBox = new System.Windows.Forms.GroupBox();
+            this.commandsTextBox = new System.Windows.Forms.RichTextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.debugTextBox = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -234,6 +237,7 @@
             this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deutschToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TraditionalChineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.donateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -328,13 +332,14 @@
             this.tabPage8.SuspendLayout();
             this.saveEditGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tabPage9.SuspendLayout();
+            this.commandsGroupBox.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
-            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage6);
@@ -342,13 +347,15 @@
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage8);
+            this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Controls.Add(this.tabPage3);
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
-            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Controls.Add(this.groupBox72);
             this.tabPage1.Controls.Add(this.groupBox43);
             this.tabPage1.Controls.Add(this.saveFilesChoosingBox);
@@ -356,13 +363,14 @@
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.richTextBox1);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox72
             // 
-            resources.ApplyResources(this.groupBox72, "groupBox72");
             this.groupBox72.Controls.Add(this.extraCreditsButton);
+            resources.ApplyResources(this.groupBox72, "groupBox72");
             this.groupBox72.Name = "groupBox72";
             this.groupBox72.TabStop = false;
             // 
@@ -375,9 +383,9 @@
             // 
             // groupBox43
             // 
-            resources.ApplyResources(this.groupBox43, "groupBox43");
             this.groupBox43.Controls.Add(this.editInfoButton);
             this.groupBox43.Controls.Add(this.infoSaveBox);
+            resources.ApplyResources(this.groupBox43, "groupBox43");
             this.groupBox43.Name = "groupBox43";
             this.groupBox43.TabStop = false;
             // 
@@ -396,8 +404,8 @@
             // 
             // saveFilesChoosingBox
             // 
-            resources.ApplyResources(this.saveFilesChoosingBox, "saveFilesChoosingBox");
             this.saveFilesChoosingBox.Controls.Add(this.flowLayoutPanel1);
+            resources.ApplyResources(this.saveFilesChoosingBox, "saveFilesChoosingBox");
             this.saveFilesChoosingBox.Name = "saveFilesChoosingBox";
             this.saveFilesChoosingBox.TabStop = false;
             // 
@@ -408,8 +416,8 @@
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.versionBox);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -421,8 +429,8 @@
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.gameVersionBox);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -434,8 +442,8 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::MDRG_Analyzer.Properties.Resources.logo;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -447,14 +455,13 @@
             // 
             // tabPage2
             // 
-            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Controls.Add(this.groupBox3);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.groupBox71);
             this.groupBox3.Controls.Add(this.groupBox70);
@@ -477,6 +484,7 @@
             this.groupBox3.Controls.Add(this.groupBox8);
             this.groupBox3.Controls.Add(this.groupBox7);
             this.groupBox3.Controls.Add(this.groupBox6);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -487,8 +495,8 @@
             // 
             // groupBox71
             // 
-            resources.ApplyResources(this.groupBox71, "groupBox71");
             this.groupBox71.Controls.Add(this.lastWorkedAtDayBox);
+            resources.ApplyResources(this.groupBox71, "groupBox71");
             this.groupBox71.Name = "groupBox71";
             this.groupBox71.TabStop = false;
             // 
@@ -500,8 +508,8 @@
             // 
             // groupBox70
             // 
-            resources.ApplyResources(this.groupBox70, "groupBox70");
             this.groupBox70.Controls.Add(this.lastWentToChurchAtBox);
+            resources.ApplyResources(this.groupBox70, "groupBox70");
             this.groupBox70.Name = "groupBox70";
             this.groupBox70.TabStop = false;
             // 
@@ -513,8 +521,8 @@
             // 
             // groupBox69
             // 
-            resources.ApplyResources(this.groupBox69, "groupBox69");
             this.groupBox69.Controls.Add(this.lastWokeUpAtBox);
+            resources.ApplyResources(this.groupBox69, "groupBox69");
             this.groupBox69.Name = "groupBox69";
             this.groupBox69.TabStop = false;
             // 
@@ -526,8 +534,8 @@
             // 
             // groupBox68
             // 
-            resources.ApplyResources(this.groupBox68, "groupBox68");
             this.groupBox68.Controls.Add(this.lastInteractAtBox);
+            resources.ApplyResources(this.groupBox68, "groupBox68");
             this.groupBox68.Name = "groupBox68";
             this.groupBox68.TabStop = false;
             // 
@@ -539,8 +547,8 @@
             // 
             // groupBox67
             // 
-            resources.ApplyResources(this.groupBox67, "groupBox67");
             this.groupBox67.Controls.Add(this.lastBotStartedTalkAtBox);
+            resources.ApplyResources(this.groupBox67, "groupBox67");
             this.groupBox67.Name = "groupBox67";
             this.groupBox67.TabStop = false;
             // 
@@ -552,8 +560,8 @@
             // 
             // groupBox66
             // 
-            resources.ApplyResources(this.groupBox66, "groupBox66");
             this.groupBox66.Controls.Add(this.lastHeadpatedAtBox);
+            resources.ApplyResources(this.groupBox66, "groupBox66");
             this.groupBox66.Name = "groupBox66";
             this.groupBox66.TabStop = false;
             // 
@@ -565,8 +573,8 @@
             // 
             // groupBox65
             // 
-            resources.ApplyResources(this.groupBox65, "groupBox65");
             this.groupBox65.Controls.Add(this.lastHungerInfoAtBox);
+            resources.ApplyResources(this.groupBox65, "groupBox65");
             this.groupBox65.Name = "groupBox65";
             this.groupBox65.TabStop = false;
             // 
@@ -578,8 +586,8 @@
             // 
             // groupBox64
             // 
-            resources.ApplyResources(this.groupBox64, "groupBox64");
             this.groupBox64.Controls.Add(this.lastMentalHealthInfoAtBox);
+            resources.ApplyResources(this.groupBox64, "groupBox64");
             this.groupBox64.Name = "groupBox64";
             this.groupBox64.TabStop = false;
             // 
@@ -591,8 +599,8 @@
             // 
             // groupBox63
             // 
-            resources.ApplyResources(this.groupBox63, "groupBox63");
             this.groupBox63.Controls.Add(this.churchAmountBox);
+            resources.ApplyResources(this.groupBox63, "groupBox63");
             this.groupBox63.Name = "groupBox63";
             this.groupBox63.TabStop = false;
             // 
@@ -604,8 +612,8 @@
             // 
             // groupBox62
             // 
-            resources.ApplyResources(this.groupBox62, "groupBox62");
             this.groupBox62.Controls.Add(this.deathGripEffectEndBox);
+            resources.ApplyResources(this.groupBox62, "groupBox62");
             this.groupBox62.Name = "groupBox62";
             this.groupBox62.TabStop = false;
             // 
@@ -617,8 +625,8 @@
             // 
             // groupBox61
             // 
-            resources.ApplyResources(this.groupBox61, "groupBox61");
             this.groupBox61.Controls.Add(this.vinegaraEndBox);
+            resources.ApplyResources(this.groupBox61, "groupBox61");
             this.groupBox61.Name = "groupBox61";
             this.groupBox61.TabStop = false;
             // 
@@ -630,8 +638,8 @@
             // 
             // groupBox59
             // 
-            resources.ApplyResources(this.groupBox59, "groupBox59");
             this.groupBox59.Controls.Add(this.mlCumWastedBox);
+            resources.ApplyResources(this.groupBox59, "groupBox59");
             this.groupBox59.Name = "groupBox59";
             this.groupBox59.TabStop = false;
             // 
@@ -643,8 +651,8 @@
             // 
             // groupBox45
             // 
-            resources.ApplyResources(this.groupBox45, "groupBox45");
             this.groupBox45.Controls.Add(this.saveSlotBoxGen);
+            resources.ApplyResources(this.groupBox45, "groupBox45");
             this.groupBox45.Name = "groupBox45";
             this.groupBox45.TabStop = false;
             // 
@@ -656,8 +664,8 @@
             // 
             // groupBox13
             // 
-            resources.ApplyResources(this.groupBox13, "groupBox13");
             this.groupBox13.Controls.Add(this.mentalHealthBox);
+            resources.ApplyResources(this.groupBox13, "groupBox13");
             this.groupBox13.Name = "groupBox13";
             this.groupBox13.TabStop = false;
             // 
@@ -669,8 +677,8 @@
             // 
             // groupBox12
             // 
-            resources.ApplyResources(this.groupBox12, "groupBox12");
             this.groupBox12.Controls.Add(this.playerHealthBox);
+            resources.ApplyResources(this.groupBox12, "groupBox12");
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.TabStop = false;
             // 
@@ -682,8 +690,8 @@
             // 
             // groupBox11
             // 
-            resources.ApplyResources(this.groupBox11, "groupBox11");
             this.groupBox11.Controls.Add(this.currentStaminaBox);
+            resources.ApplyResources(this.groupBox11, "groupBox11");
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.TabStop = false;
             // 
@@ -695,8 +703,8 @@
             // 
             // groupBox10
             // 
-            resources.ApplyResources(this.groupBox10, "groupBox10");
             this.groupBox10.Controls.Add(this.currentCumBox);
+            resources.ApplyResources(this.groupBox10, "groupBox10");
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.TabStop = false;
             // 
@@ -708,8 +716,8 @@
             // 
             // groupBox9
             // 
-            resources.ApplyResources(this.groupBox9, "groupBox9");
             this.groupBox9.Controls.Add(this.maxCumBox);
+            resources.ApplyResources(this.groupBox9, "groupBox9");
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.TabStop = false;
             // 
@@ -721,22 +729,22 @@
             // 
             // groupBox8
             // 
-            resources.ApplyResources(this.groupBox8, "groupBox8");
             this.groupBox8.Controls.Add(this.casinoTokenBox);
+            resources.ApplyResources(this.groupBox8, "groupBox8");
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.TabStop = false;
             // 
             // casinoTokenBox
             // 
-            resources.ApplyResources(this.casinoTokenBox, "casinoTokenBox");
             this.casinoTokenBox.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.casinoTokenBox, "casinoTokenBox");
             this.casinoTokenBox.Name = "casinoTokenBox";
             this.casinoTokenBox.ReadOnly = true;
             // 
             // groupBox7
             // 
-            resources.ApplyResources(this.groupBox7, "groupBox7");
             this.groupBox7.Controls.Add(this.moneyTextBox);
+            resources.ApplyResources(this.groupBox7, "groupBox7");
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.TabStop = false;
             // 
@@ -761,15 +769,14 @@
             // 
             // tabPage6
             // 
-            resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.BackColor = System.Drawing.Color.Transparent;
             this.tabPage6.Controls.Add(this.groupBox15);
+            resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // groupBox15
             // 
-            resources.ApplyResources(this.groupBox15, "groupBox15");
             this.groupBox15.BackColor = System.Drawing.Color.Transparent;
             this.groupBox15.Controls.Add(this.groupBox73);
             this.groupBox15.Controls.Add(this.label7);
@@ -792,13 +799,14 @@
             this.groupBox15.Controls.Add(this.groupBox18);
             this.groupBox15.Controls.Add(this.groupBox17);
             this.groupBox15.Controls.Add(this.groupBox16);
+            resources.ApplyResources(this.groupBox15, "groupBox15");
             this.groupBox15.Name = "groupBox15";
             this.groupBox15.TabStop = false;
             // 
             // groupBox73
             // 
-            resources.ApplyResources(this.groupBox73, "groupBox73");
             this.groupBox73.Controls.Add(this.lastCuddledAtBox);
+            resources.ApplyResources(this.groupBox73, "groupBox73");
             this.groupBox73.Name = "groupBox73";
             this.groupBox73.TabStop = false;
             // 
@@ -815,8 +823,8 @@
             // 
             // groupBox77
             // 
-            resources.ApplyResources(this.groupBox77, "groupBox77");
             this.groupBox77.Controls.Add(this.lastFuckedAtBox);
+            resources.ApplyResources(this.groupBox77, "groupBox77");
             this.groupBox77.Name = "groupBox77";
             this.groupBox77.TabStop = false;
             // 
@@ -828,8 +836,8 @@
             // 
             // groupBox76
             // 
-            resources.ApplyResources(this.groupBox76, "groupBox76");
             this.groupBox76.Controls.Add(this.lastEquipmentAtBox);
+            resources.ApplyResources(this.groupBox76, "groupBox76");
             this.groupBox76.Name = "groupBox76";
             this.groupBox76.TabStop = false;
             // 
@@ -841,8 +849,8 @@
             // 
             // groupBox75
             // 
-            resources.ApplyResources(this.groupBox75, "groupBox75");
             this.groupBox75.Controls.Add(this.lastOutsideWithBotAtBox);
+            resources.ApplyResources(this.groupBox75, "groupBox75");
             this.groupBox75.Name = "groupBox75";
             this.groupBox75.TabStop = false;
             // 
@@ -854,8 +862,8 @@
             // 
             // groupBox58
             // 
-            resources.ApplyResources(this.groupBox58, "groupBox58");
             this.groupBox58.Controls.Add(this.mlCameInMouthBox);
+            resources.ApplyResources(this.groupBox58, "groupBox58");
             this.groupBox58.Name = "groupBox58";
             this.groupBox58.TabStop = false;
             // 
@@ -867,8 +875,8 @@
             // 
             // groupBox44
             // 
-            resources.ApplyResources(this.groupBox44, "groupBox44");
             this.groupBox44.Controls.Add(this.saveSlotBoxBot);
+            resources.ApplyResources(this.groupBox44, "groupBox44");
             this.groupBox44.Name = "groupBox44";
             this.groupBox44.TabStop = false;
             // 
@@ -880,8 +888,8 @@
             // 
             // groupBox39
             // 
-            resources.ApplyResources(this.groupBox39, "groupBox39");
             this.groupBox39.Controls.Add(this.cameOutsideBox);
+            resources.ApplyResources(this.groupBox39, "groupBox39");
             this.groupBox39.Name = "groupBox39";
             this.groupBox39.TabStop = false;
             // 
@@ -893,8 +901,8 @@
             // 
             // groupBox38
             // 
-            resources.ApplyResources(this.groupBox38, "groupBox38");
             this.groupBox38.Controls.Add(this.timesCumInsideOral);
+            resources.ApplyResources(this.groupBox38, "groupBox38");
             this.groupBox38.Name = "groupBox38";
             this.groupBox38.TabStop = false;
             // 
@@ -906,8 +914,8 @@
             // 
             // groupBox37
             // 
-            resources.ApplyResources(this.groupBox37, "groupBox37");
             this.groupBox37.Controls.Add(this.timesCumInsideAss);
+            resources.ApplyResources(this.groupBox37, "groupBox37");
             this.groupBox37.Name = "groupBox37";
             this.groupBox37.TabStop = false;
             // 
@@ -919,8 +927,8 @@
             // 
             // groupBox36
             // 
-            resources.ApplyResources(this.groupBox36, "groupBox36");
             this.groupBox36.Controls.Add(this.timesCumInsideVag);
+            resources.ApplyResources(this.groupBox36, "groupBox36");
             this.groupBox36.Name = "groupBox36";
             this.groupBox36.TabStop = false;
             // 
@@ -932,8 +940,8 @@
             // 
             // groupBox24
             // 
-            resources.ApplyResources(this.groupBox24, "groupBox24");
             this.groupBox24.Controls.Add(this.cumInStomach);
+            resources.ApplyResources(this.groupBox24, "groupBox24");
             this.groupBox24.Name = "groupBox24";
             this.groupBox24.TabStop = false;
             // 
@@ -945,8 +953,8 @@
             // 
             // groupBox23
             // 
-            resources.ApplyResources(this.groupBox23, "groupBox23");
             this.groupBox23.Controls.Add(this.cumInAss);
+            resources.ApplyResources(this.groupBox23, "groupBox23");
             this.groupBox23.Name = "groupBox23";
             this.groupBox23.TabStop = false;
             // 
@@ -958,8 +966,8 @@
             // 
             // groupBox22
             // 
-            resources.ApplyResources(this.groupBox22, "groupBox22");
             this.groupBox22.Controls.Add(this.cumInPussy);
+            resources.ApplyResources(this.groupBox22, "groupBox22");
             this.groupBox22.Name = "groupBox22";
             this.groupBox22.TabStop = false;
             // 
@@ -971,8 +979,8 @@
             // 
             // groupBox21
             // 
-            resources.ApplyResources(this.groupBox21, "groupBox21");
             this.groupBox21.Controls.Add(this.botIntBox);
+            resources.ApplyResources(this.groupBox21, "groupBox21");
             this.groupBox21.Name = "groupBox21";
             this.groupBox21.TabStop = false;
             // 
@@ -984,8 +992,8 @@
             // 
             // groupBox20
             // 
-            resources.ApplyResources(this.groupBox20, "groupBox20");
             this.groupBox20.Controls.Add(this.botMoodBox);
+            resources.ApplyResources(this.groupBox20, "groupBox20");
             this.groupBox20.Name = "groupBox20";
             this.groupBox20.TabStop = false;
             // 
@@ -997,8 +1005,8 @@
             // 
             // groupBox19
             // 
-            resources.ApplyResources(this.groupBox19, "groupBox19");
             this.groupBox19.Controls.Add(this.botLongingBox);
+            resources.ApplyResources(this.groupBox19, "groupBox19");
             this.groupBox19.Name = "groupBox19";
             this.groupBox19.TabStop = false;
             // 
@@ -1022,8 +1030,8 @@
             // 
             // groupBox17
             // 
-            resources.ApplyResources(this.groupBox17, "groupBox17");
             this.groupBox17.Controls.Add(this.botLustBox);
+            resources.ApplyResources(this.groupBox17, "groupBox17");
             this.groupBox17.Name = "groupBox17";
             this.groupBox17.TabStop = false;
             // 
@@ -1035,8 +1043,8 @@
             // 
             // groupBox16
             // 
-            resources.ApplyResources(this.groupBox16, "groupBox16");
             this.groupBox16.Controls.Add(this.botNameBox);
+            resources.ApplyResources(this.groupBox16, "groupBox16");
             this.groupBox16.Name = "groupBox16";
             this.groupBox16.TabStop = false;
             // 
@@ -1048,14 +1056,13 @@
             // 
             // tabPage7
             // 
-            resources.ApplyResources(this.tabPage7, "tabPage7");
             this.tabPage7.Controls.Add(this.groupBox25);
+            resources.ApplyResources(this.tabPage7, "tabPage7");
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // groupBox25
             // 
-            resources.ApplyResources(this.groupBox25, "groupBox25");
             this.groupBox25.Controls.Add(this.groupBox80);
             this.groupBox25.Controls.Add(this.groupBox79);
             this.groupBox25.Controls.Add(this.groupBox78);
@@ -1077,13 +1084,14 @@
             this.groupBox25.Controls.Add(this.groupBox28);
             this.groupBox25.Controls.Add(this.groupBox27);
             this.groupBox25.Controls.Add(this.groupBox26);
+            resources.ApplyResources(this.groupBox25, "groupBox25");
             this.groupBox25.Name = "groupBox25";
             this.groupBox25.TabStop = false;
             // 
             // groupBox80
             // 
-            resources.ApplyResources(this.groupBox80, "groupBox80");
             this.groupBox80.Controls.Add(this.weekdayTextBox);
+            resources.ApplyResources(this.groupBox80, "groupBox80");
             this.groupBox80.Name = "groupBox80";
             this.groupBox80.TabStop = false;
             // 
@@ -1095,8 +1103,8 @@
             // 
             // groupBox79
             // 
-            resources.ApplyResources(this.groupBox79, "groupBox79");
             this.groupBox79.Controls.Add(this.priestBotPointsBox);
+            resources.ApplyResources(this.groupBox79, "groupBox79");
             this.groupBox79.Name = "groupBox79";
             this.groupBox79.TabStop = false;
             // 
@@ -1108,8 +1116,8 @@
             // 
             // groupBox78
             // 
-            resources.ApplyResources(this.groupBox78, "groupBox78");
             this.groupBox78.Controls.Add(this.nunPointsBox);
+            resources.ApplyResources(this.groupBox78, "groupBox78");
             this.groupBox78.Name = "groupBox78";
             this.groupBox78.TabStop = false;
             // 
@@ -1126,8 +1134,8 @@
             // 
             // groupBox74
             // 
-            resources.ApplyResources(this.groupBox74, "groupBox74");
             this.groupBox74.Controls.Add(this.lastStreamedAtBox);
+            resources.ApplyResources(this.groupBox74, "groupBox74");
             this.groupBox74.Name = "groupBox74";
             this.groupBox74.TabStop = false;
             // 
@@ -1139,8 +1147,8 @@
             // 
             // groupBox60
             // 
-            resources.ApplyResources(this.groupBox60, "groupBox60");
             this.groupBox60.Controls.Add(this.searchTextBox);
+            resources.ApplyResources(this.groupBox60, "groupBox60");
             this.groupBox60.Name = "groupBox60";
             this.groupBox60.TabStop = false;
             // 
@@ -1157,16 +1165,16 @@
             // 
             // groupBox53
             // 
-            resources.ApplyResources(this.groupBox53, "groupBox53");
             this.groupBox53.Controls.Add(this.groupBox56);
             this.groupBox53.Controls.Add(this.groupBox57);
+            resources.ApplyResources(this.groupBox53, "groupBox53");
             this.groupBox53.Name = "groupBox53";
             this.groupBox53.TabStop = false;
             // 
             // groupBox56
             // 
-            resources.ApplyResources(this.groupBox56, "groupBox56");
             this.groupBox56.Controls.Add(this.timesLostWordChainBox);
+            resources.ApplyResources(this.groupBox56, "groupBox56");
             this.groupBox56.Name = "groupBox56";
             this.groupBox56.TabStop = false;
             // 
@@ -1178,8 +1186,8 @@
             // 
             // groupBox57
             // 
-            resources.ApplyResources(this.groupBox57, "groupBox57");
             this.groupBox57.Controls.Add(this.timesWonWordChainBox);
+            resources.ApplyResources(this.groupBox57, "groupBox57");
             this.groupBox57.Name = "groupBox57";
             this.groupBox57.TabStop = false;
             // 
@@ -1191,16 +1199,16 @@
             // 
             // groupBox52
             // 
-            resources.ApplyResources(this.groupBox52, "groupBox52");
             this.groupBox52.Controls.Add(this.groupBox54);
             this.groupBox52.Controls.Add(this.groupBox55);
+            resources.ApplyResources(this.groupBox52, "groupBox52");
             this.groupBox52.Name = "groupBox52";
             this.groupBox52.TabStop = false;
             // 
             // groupBox54
             // 
-            resources.ApplyResources(this.groupBox54, "groupBox54");
             this.groupBox54.Controls.Add(this.timesLostChessBox);
+            resources.ApplyResources(this.groupBox54, "groupBox54");
             this.groupBox54.Name = "groupBox54";
             this.groupBox54.TabStop = false;
             // 
@@ -1212,8 +1220,8 @@
             // 
             // groupBox55
             // 
-            resources.ApplyResources(this.groupBox55, "groupBox55");
             this.groupBox55.Controls.Add(this.timesWonChessBox);
+            resources.ApplyResources(this.groupBox55, "groupBox55");
             this.groupBox55.Name = "groupBox55";
             this.groupBox55.TabStop = false;
             // 
@@ -1225,17 +1233,17 @@
             // 
             // groupBox48
             // 
-            resources.ApplyResources(this.groupBox48, "groupBox48");
             this.groupBox48.Controls.Add(this.groupBox51);
             this.groupBox48.Controls.Add(this.groupBox49);
             this.groupBox48.Controls.Add(this.groupBox50);
+            resources.ApplyResources(this.groupBox48, "groupBox48");
             this.groupBox48.Name = "groupBox48";
             this.groupBox48.TabStop = false;
             // 
             // groupBox51
             // 
-            resources.ApplyResources(this.groupBox51, "groupBox51");
             this.groupBox51.Controls.Add(this.timesRanAwayOldMaidBox);
+            resources.ApplyResources(this.groupBox51, "groupBox51");
             this.groupBox51.Name = "groupBox51";
             this.groupBox51.TabStop = false;
             // 
@@ -1247,8 +1255,8 @@
             // 
             // groupBox49
             // 
-            resources.ApplyResources(this.groupBox49, "groupBox49");
             this.groupBox49.Controls.Add(this.timesLostOldMaidBox);
+            resources.ApplyResources(this.groupBox49, "groupBox49");
             this.groupBox49.Name = "groupBox49";
             this.groupBox49.TabStop = false;
             // 
@@ -1260,8 +1268,8 @@
             // 
             // groupBox50
             // 
-            resources.ApplyResources(this.groupBox50, "groupBox50");
             this.groupBox50.Controls.Add(this.timesWonOldMaidBox);
+            resources.ApplyResources(this.groupBox50, "groupBox50");
             this.groupBox50.Name = "groupBox50";
             this.groupBox50.TabStop = false;
             // 
@@ -1273,8 +1281,8 @@
             // 
             // groupBox47
             // 
-            resources.ApplyResources(this.groupBox47, "groupBox47");
             this.groupBox47.Controls.Add(this.streamCountBox);
+            resources.ApplyResources(this.groupBox47, "groupBox47");
             this.groupBox47.Name = "groupBox47";
             this.groupBox47.TabStop = false;
             // 
@@ -1286,8 +1294,8 @@
             // 
             // groupBox46
             // 
-            resources.ApplyResources(this.groupBox46, "groupBox46");
             this.groupBox46.Controls.Add(this.rentTextBox);
+            resources.ApplyResources(this.groupBox46, "groupBox46");
             this.groupBox46.Name = "groupBox46";
             this.groupBox46.TabStop = false;
             // 
@@ -1299,16 +1307,16 @@
             // 
             // groupBox40
             // 
-            resources.ApplyResources(this.groupBox40, "groupBox40");
             this.groupBox40.Controls.Add(this.groupBox41);
             this.groupBox40.Controls.Add(this.groupBox42);
+            resources.ApplyResources(this.groupBox40, "groupBox40");
             this.groupBox40.Name = "groupBox40";
             this.groupBox40.TabStop = false;
             // 
             // groupBox41
             // 
-            resources.ApplyResources(this.groupBox41, "groupBox41");
             this.groupBox41.Controls.Add(this.gameTimeFormatted);
+            resources.ApplyResources(this.groupBox41, "groupBox41");
             this.groupBox41.Name = "groupBox41";
             this.groupBox41.TabStop = false;
             // 
@@ -1320,8 +1328,8 @@
             // 
             // groupBox42
             // 
-            resources.ApplyResources(this.groupBox42, "groupBox42");
             this.groupBox42.Controls.Add(this.gameTimeRaw);
+            resources.ApplyResources(this.groupBox42, "groupBox42");
             this.groupBox42.Name = "groupBox42";
             this.groupBox42.TabStop = false;
             // 
@@ -1339,16 +1347,16 @@
             // 
             // groupBox33
             // 
-            resources.ApplyResources(this.groupBox33, "groupBox33");
             this.groupBox33.Controls.Add(this.groupBox34);
             this.groupBox33.Controls.Add(this.groupBox35);
+            resources.ApplyResources(this.groupBox33, "groupBox33");
             this.groupBox33.Name = "groupBox33";
             this.groupBox33.TabStop = false;
             // 
             // groupBox34
             // 
-            resources.ApplyResources(this.groupBox34, "groupBox34");
             this.groupBox34.Controls.Add(this.longestStreamFormattedBox);
+            resources.ApplyResources(this.groupBox34, "groupBox34");
             this.groupBox34.Name = "groupBox34";
             this.groupBox34.TabStop = false;
             // 
@@ -1360,8 +1368,8 @@
             // 
             // groupBox35
             // 
-            resources.ApplyResources(this.groupBox35, "groupBox35");
             this.groupBox35.Controls.Add(this.longestStreamRawBox);
+            resources.ApplyResources(this.groupBox35, "groupBox35");
             this.groupBox35.Name = "groupBox35";
             this.groupBox35.TabStop = false;
             // 
@@ -1373,8 +1381,8 @@
             // 
             // groupBox14
             // 
-            resources.ApplyResources(this.groupBox14, "groupBox14");
             this.groupBox14.Controls.Add(this.saveSlotBox);
+            resources.ApplyResources(this.groupBox14, "groupBox14");
             this.groupBox14.Name = "groupBox14";
             this.groupBox14.TabStop = false;
             // 
@@ -1386,8 +1394,8 @@
             // 
             // groupBox32
             // 
-            resources.ApplyResources(this.groupBox32, "groupBox32");
             this.groupBox32.Controls.Add(this.streamDonations);
+            resources.ApplyResources(this.groupBox32, "groupBox32");
             this.groupBox32.Name = "groupBox32";
             this.groupBox32.TabStop = false;
             // 
@@ -1399,16 +1407,16 @@
             // 
             // groupBox29
             // 
-            resources.ApplyResources(this.groupBox29, "groupBox29");
             this.groupBox29.Controls.Add(this.groupBox30);
             this.groupBox29.Controls.Add(this.groupBox31);
+            resources.ApplyResources(this.groupBox29, "groupBox29");
             this.groupBox29.Name = "groupBox29";
             this.groupBox29.TabStop = false;
             // 
             // groupBox30
             // 
-            resources.ApplyResources(this.groupBox30, "groupBox30");
             this.groupBox30.Controls.Add(this.totalStreamTimeFormattedBox);
+            resources.ApplyResources(this.groupBox30, "groupBox30");
             this.groupBox30.Name = "groupBox30";
             this.groupBox30.TabStop = false;
             // 
@@ -1420,8 +1428,8 @@
             // 
             // groupBox31
             // 
-            resources.ApplyResources(this.groupBox31, "groupBox31");
             this.groupBox31.Controls.Add(this.totalStreamTimeRawBox);
+            resources.ApplyResources(this.groupBox31, "groupBox31");
             this.groupBox31.Name = "groupBox31";
             this.groupBox31.TabStop = false;
             // 
@@ -1433,8 +1441,8 @@
             // 
             // groupBox28
             // 
-            resources.ApplyResources(this.groupBox28, "groupBox28");
             this.groupBox28.Controls.Add(this.subsTextBox);
+            resources.ApplyResources(this.groupBox28, "groupBox28");
             this.groupBox28.Name = "groupBox28";
             this.groupBox28.TabStop = false;
             // 
@@ -1446,8 +1454,8 @@
             // 
             // groupBox27
             // 
-            resources.ApplyResources(this.groupBox27, "groupBox27");
             this.groupBox27.Controls.Add(this.followersTextBox);
+            resources.ApplyResources(this.groupBox27, "groupBox27");
             this.groupBox27.Name = "groupBox27";
             this.groupBox27.TabStop = false;
             // 
@@ -1459,8 +1467,8 @@
             // 
             // groupBox26
             // 
-            resources.ApplyResources(this.groupBox26, "groupBox26");
             this.groupBox26.Controls.Add(this.gameStageBox);
+            resources.ApplyResources(this.groupBox26, "groupBox26");
             this.groupBox26.Name = "groupBox26";
             this.groupBox26.TabStop = false;
             // 
@@ -1472,9 +1480,9 @@
             // 
             // tabPage4
             // 
-            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Controls.Add(this.button2);
             this.tabPage4.Controls.Add(this.visitedWebsiteGroupBox);
+            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
@@ -1487,8 +1495,8 @@
             // 
             // visitedWebsiteGroupBox
             // 
-            resources.ApplyResources(this.visitedWebsiteGroupBox, "visitedWebsiteGroupBox");
             this.visitedWebsiteGroupBox.Controls.Add(this.websitesCheckBoxes);
+            resources.ApplyResources(this.visitedWebsiteGroupBox, "visitedWebsiteGroupBox");
             this.visitedWebsiteGroupBox.Name = "visitedWebsiteGroupBox";
             this.visitedWebsiteGroupBox.TabStop = false;
             // 
@@ -1536,28 +1544,28 @@
             // 
             // tabPage5
             // 
-            resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.Controls.Add(this.achievementsPanel);
             this.tabPage5.Controls.Add(this.button1);
+            resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // achievementsPanel
             // 
-            resources.ApplyResources(this.achievementsPanel, "achievementsPanel");
             this.achievementsPanel.Controls.Add(this.groupBox4);
             this.achievementsPanel.Controls.Add(this.groupBox5);
+            resources.ApplyResources(this.achievementsPanel, "achievementsPanel");
             this.achievementsPanel.Name = "achievementsPanel";
             // 
             // groupBox4
             // 
-            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.richTextBox5);
             this.groupBox4.Controls.Add(this.richTextBox4);
             this.groupBox4.Controls.Add(this.richTextBox3);
             this.groupBox4.Controls.Add(this.richTextBox12);
             this.groupBox4.Controls.Add(this.richTextBox6);
             this.groupBox4.Controls.Add(this.checkedListBox1);
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
             // 
@@ -1593,8 +1601,8 @@
             // 
             // checkedListBox1
             // 
-            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
             this.checkedListBox1.CheckOnClick = true;
+            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
             resources.GetString("checkedListBox1.Items"),
@@ -1606,9 +1614,9 @@
             // 
             // groupBox5
             // 
-            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Controls.Add(this.richTextBox7);
             this.groupBox5.Controls.Add(this.checkedListBox2);
+            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.TabStop = false;
             // 
@@ -1619,8 +1627,8 @@
             // 
             // checkedListBox2
             // 
-            resources.ApplyResources(this.checkedListBox2, "checkedListBox2");
             this.checkedListBox2.CheckOnClick = true;
+            resources.ApplyResources(this.checkedListBox2, "checkedListBox2");
             this.checkedListBox2.FormattingEnabled = true;
             this.checkedListBox2.Items.AddRange(new object[] {
             resources.GetString("checkedListBox2.Items"),
@@ -1652,21 +1660,21 @@
             // 
             // tabPage8
             // 
-            resources.ApplyResources(this.tabPage8, "tabPage8");
             this.tabPage8.Controls.Add(this.saveEditGroupBox);
             this.tabPage8.Controls.Add(this.saveEditConsentBox);
             this.tabPage8.Controls.Add(this.richTextBox2);
+            resources.ApplyResources(this.tabPage8, "tabPage8");
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // saveEditGroupBox
             // 
-            resources.ApplyResources(this.saveEditGroupBox, "saveEditGroupBox");
             this.saveEditGroupBox.Controls.Add(this.label6);
             this.saveEditGroupBox.Controls.Add(this.pictureBox2);
             this.saveEditGroupBox.Controls.Add(this.saveButton);
             this.saveEditGroupBox.Controls.Add(this.guideButton);
             this.saveEditGroupBox.Controls.Add(this.createBackupButton);
+            resources.ApplyResources(this.saveEditGroupBox, "saveEditGroupBox");
             this.saveEditGroupBox.Name = "saveEditGroupBox";
             this.saveEditGroupBox.TabStop = false;
             // 
@@ -1677,8 +1685,8 @@
             // 
             // pictureBox2
             // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
@@ -1715,10 +1723,30 @@
             resources.ApplyResources(this.richTextBox2, "richTextBox2");
             this.richTextBox2.Name = "richTextBox2";
             // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.commandsGroupBox);
+            resources.ApplyResources(this.tabPage9, "tabPage9");
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // commandsGroupBox
+            // 
+            this.commandsGroupBox.Controls.Add(this.commandsTextBox);
+            resources.ApplyResources(this.commandsGroupBox, "commandsGroupBox");
+            this.commandsGroupBox.Name = "commandsGroupBox";
+            this.commandsGroupBox.TabStop = false;
+            // 
+            // commandsTextBox
+            // 
+            resources.ApplyResources(this.commandsTextBox, "commandsTextBox");
+            this.commandsTextBox.Name = "commandsTextBox";
+            this.commandsTextBox.ReadOnly = true;
+            // 
             // tabPage3
             // 
-            resources.ApplyResources(this.tabPage3, "tabPage3");
             this.tabPage3.Controls.Add(this.debugTextBox);
+            resources.ApplyResources(this.tabPage3, "tabPage3");
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
@@ -1730,36 +1758,36 @@
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.helpToolStripMenuItem,
-            this.languageToolStripMenuItem});
+            this.languageToolStripMenuItem,
+            this.donateToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
-            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loadToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             // 
             // loadToolStripMenuItem
             // 
-            resources.ApplyResources(this.loadToolStripMenuItem, "loadToolStripMenuItem");
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            resources.ApplyResources(this.loadToolStripMenuItem, "loadToolStripMenuItem");
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
-            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
-            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkForUpdatesToolStripMenuItem,
             this.openReadmeToolStripMenuItem,
@@ -1768,77 +1796,83 @@
             this.suggestAFeatureToolStripMenuItem,
             this.quickLinkToGitHubToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             // 
             // checkForUpdatesToolStripMenuItem
             // 
-            resources.ApplyResources(this.checkForUpdatesToolStripMenuItem, "checkForUpdatesToolStripMenuItem");
             this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
+            resources.ApplyResources(this.checkForUpdatesToolStripMenuItem, "checkForUpdatesToolStripMenuItem");
             this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
             // 
             // openReadmeToolStripMenuItem
             // 
-            resources.ApplyResources(this.openReadmeToolStripMenuItem, "openReadmeToolStripMenuItem");
             this.openReadmeToolStripMenuItem.Name = "openReadmeToolStripMenuItem";
+            resources.ApplyResources(this.openReadmeToolStripMenuItem, "openReadmeToolStripMenuItem");
             this.openReadmeToolStripMenuItem.Click += new System.EventHandler(this.openReadmeToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // reportABugToolStripMenuItem
             // 
-            resources.ApplyResources(this.reportABugToolStripMenuItem, "reportABugToolStripMenuItem");
             this.reportABugToolStripMenuItem.Name = "reportABugToolStripMenuItem";
+            resources.ApplyResources(this.reportABugToolStripMenuItem, "reportABugToolStripMenuItem");
             this.reportABugToolStripMenuItem.Click += new System.EventHandler(this.reportABugToolStripMenuItem_Click);
             // 
             // suggestAFeatureToolStripMenuItem
             // 
-            resources.ApplyResources(this.suggestAFeatureToolStripMenuItem, "suggestAFeatureToolStripMenuItem");
             this.suggestAFeatureToolStripMenuItem.Name = "suggestAFeatureToolStripMenuItem";
+            resources.ApplyResources(this.suggestAFeatureToolStripMenuItem, "suggestAFeatureToolStripMenuItem");
             this.suggestAFeatureToolStripMenuItem.Click += new System.EventHandler(this.suggestAFeatureToolStripMenuItem_Click);
             // 
             // quickLinkToGitHubToolStripMenuItem
             // 
-            resources.ApplyResources(this.quickLinkToGitHubToolStripMenuItem, "quickLinkToGitHubToolStripMenuItem");
             this.quickLinkToGitHubToolStripMenuItem.Name = "quickLinkToGitHubToolStripMenuItem";
+            resources.ApplyResources(this.quickLinkToGitHubToolStripMenuItem, "quickLinkToGitHubToolStripMenuItem");
             this.quickLinkToGitHubToolStripMenuItem.Click += new System.EventHandler(this.quickLinkToGitHubToolStripMenuItem_Click);
             // 
             // languageToolStripMenuItem
             // 
-            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
             this.deutschToolStripMenuItem,
             this.TraditionalChineseToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
+            resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             // 
             // englishToolStripMenuItem
             // 
-            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             this.englishToolStripMenuItem.Checked = true;
             this.englishToolStripMenuItem.CheckOnClick = true;
             this.englishToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // deutschToolStripMenuItem
             // 
-            resources.ApplyResources(this.deutschToolStripMenuItem, "deutschToolStripMenuItem");
             this.deutschToolStripMenuItem.CheckOnClick = true;
             this.deutschToolStripMenuItem.Name = "deutschToolStripMenuItem";
+            resources.ApplyResources(this.deutschToolStripMenuItem, "deutschToolStripMenuItem");
             this.deutschToolStripMenuItem.Click += new System.EventHandler(this.deutschToolStripMenuItem_Click);
             // 
             // TraditionalChineseToolStripMenuItem
             // 
-            resources.ApplyResources(this.TraditionalChineseToolStripMenuItem, "TraditionalChineseToolStripMenuItem");
             this.TraditionalChineseToolStripMenuItem.Name = "TraditionalChineseToolStripMenuItem";
+            resources.ApplyResources(this.TraditionalChineseToolStripMenuItem, "TraditionalChineseToolStripMenuItem");
             this.TraditionalChineseToolStripMenuItem.Click += new System.EventHandler(this.TraditionalChineseToolStripMenuItem_Click);
+            // 
+            // donateToolStripMenuItem
+            // 
+            this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
+            resources.ApplyResources(this.donateToolStripMenuItem, "donateToolStripMenuItem");
+            this.donateToolStripMenuItem.Click += new System.EventHandler(this.donateToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            resources.ApplyResources(this.openFileDialog1, "openFileDialog1");
             // 
             // Form1
             // 
@@ -1846,6 +1880,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.tabControl1.ResumeLayout(false);
@@ -1946,6 +1981,8 @@
             this.saveEditGroupBox.ResumeLayout(false);
             this.saveEditGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tabPage9.ResumeLayout(false);
+            this.commandsGroupBox.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -2162,6 +2199,10 @@
         private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deutschToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TraditionalChineseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem donateToolStripMenuItem;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.GroupBox commandsGroupBox;
+        private System.Windows.Forms.RichTextBox commandsTextBox;
     }
 }
 

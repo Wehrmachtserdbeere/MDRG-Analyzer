@@ -14,6 +14,11 @@ using System.Text;
 using System.Globalization;
 using System.Threading;
 using MDRG_Analyzer.Properties;
+using System.Drawing;
+using System.Threading.Tasks;
+using MDRG_Analyzer;
+using System.Reflection.Emit;
+using System.Resources;
 
 namespace MDRG_Analyzer
 {
@@ -22,16 +27,19 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.9";
+        readonly string __version__ = "1.1.10";
         int selectedSaveFile = -1;
         string filePath;
         string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
         string botName = "your Bot";
         dynamic jsonData;
-
+        Random rand = new Random();
+        public int eventInitiator = 0;
+        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 
         public Form1()
         {
+            eventInitiator = rand.Next( minValue: 0, maxValue: 999 );
             InitializeComponent();
             ChangeLanguage("en");
             CheckForUpdate(true);
@@ -60,6 +68,10 @@ namespace MDRG_Analyzer
             {
                 case "de":
                     SetLanguageAppearanceBoldCHecked(deutschToolStripMenuItem);
+                    break;
+
+                case "zh":
+                    SetLanguageAppearanceBoldCHecked(TraditionalChineseToolStripMenuItem);
                     break;
 
                 default:
@@ -856,6 +868,11 @@ namespace MDRG_Analyzer
                 );
         }
 
+        private void donateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openWebsite("https://ko-fi.com/strawberrysoftware");
+        }
+
         private void closeFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -874,6 +891,19 @@ namespace MDRG_Analyzer
         private void TraditionalChineseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ChangeLanguage("zh");
+        }
+
+        private async void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabControl1.SelectedIndex == 6) // Save Editing
+            {
+                if (eventInitiator == 444)
+                {
+                    AsynchonousTasks asynchonousTasks = new AsynchonousTasks();
+                    await asynchonousTasks.MDRGImageSwitcher(label: label6, pictureBox: pictureBox2);
+                    eventInitiator = 0;
+                }
+            }
         }
     }
 }
@@ -921,3 +951,32 @@ public static class ControlExtensions
     }
 }
 
+class AsynchonousTasks
+{
+    public async Task MDRGImageSwitcher(System.Windows.Forms.Label label, PictureBox pictureBox)
+    {
+        // Create an instance of ComponentResourceManager to handle resource updates
+        var resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+
+        // Change the pictureBox image and update its resources
+        pictureBox.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl_2;
+        resources.ApplyResources(pictureBox, "pictureBox2");
+        pictureBox.Name = "pictureBox2";
+        pictureBox.TabStop = false;
+
+        // Update the label text
+        label.Text = Strings.label6HorrorText;
+
+        // Wait for 50ms asynchronously
+        await Task.Delay(50);
+
+        // Change back the pictureBox image and update its resources
+        pictureBox.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl;
+        resources.ApplyResources(pictureBox, "pictureBox2");
+        pictureBox.Name = "pictureBox2";
+        pictureBox.TabStop = false;
+
+        // Revert the label text
+        label.Text = Strings.label6NormalText;
+    }
+}

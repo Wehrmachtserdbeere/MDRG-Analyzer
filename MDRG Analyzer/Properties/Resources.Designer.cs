@@ -81,6 +81,16 @@ namespace MDRG_Analyzer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mdrg_girl_2 {
+            get {
+                object obj = ResourceManager.GetObject("mdrg_girl_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ending-ballsexploded --- &quot;Too much juice...&quot;
         ///ending-goodEnd1 --- &quot;Selling your bot&quot;
         ///ending-badEnd1 --- &quot;Termination of tenancy&quot;

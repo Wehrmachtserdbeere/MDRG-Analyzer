@@ -648,4 +648,10 @@ Möchtest du GitHub öffnen, um die neueste Version zu erhalten?</value>
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>Sprache</value>
   </data>
+  <data name="label6HorrorText" xml:space="preserve">
+    <value>renn weg renn weg renn weg renn weg renn weg renn weg </value>
+  </data>
+  <data name="label6NormalText" xml:space="preserve">
+    <value>Halte sie sicher (und gefüllt)</value>
+  </data>
 </root>
