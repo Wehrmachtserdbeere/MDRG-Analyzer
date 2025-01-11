@@ -5411,16 +5411,16 @@ The options will be unlocked when you agree that you have read this text and ack
   <data name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
   </data>
-  <data name="&gt;&gt;TraditionalChineseToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;traditionalChineseToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TraditionalChineseToolStripMenuItem.Name" xml:space="preserve">
-    <value>TraditionalChineseToolStripMenuItem</value>
+  <data name="&gt;&gt;traditionalChineseToolStripMenuItem.Name" xml:space="preserve">
+    <value>traditionalChineseToolStripMenuItem</value>
   </data>
-  <data name="TraditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
     <value>繁体中文</value>
   </data>
-  <data name="TraditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 22</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">

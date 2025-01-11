@@ -237,7 +237,7 @@ bgrmystr2 - Linux 测试
 </value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>记住要保证她的安全（并填饱肚子）</value>
+    <value>记得保证她的安全（和饱腹感）</value>
   </data>
   <data name="WeekDaysFriday" xml:space="preserve">
     <value>星期五</value>
@@ -323,9 +323,9 @@ bgrmystr2 - Linux 测试
 您想打开 GitHub 获取最新版本吗？</value>
   </data>
   <data name="label6HorrorText" xml:space="preserve">
-    <value>出去出去出去出去出去出去出去出去出去出去出去出去出去出去出去出去</value>
+    <value>逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑</value>
   </data>
   <data name="label6NormalText" xml:space="preserve">
-    <value>记住要保证她的安全（并填饱肚子）</value>
+    <value>记得保证她的安全（和饱腹感）</value>
   </data>
 </root>

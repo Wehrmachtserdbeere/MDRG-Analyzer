@@ -480,7 +480,7 @@
     <value>当前体力</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>记得保证她的安全（并让她饱腹）</value>
+    <value>记得保证她的安全（和饱腹感）</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 22</value>
@@ -674,5 +674,36 @@
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>捐赠</value>
+  </data>
+  <data name="commandsTextBox.Text" xml:space="preserve">
+    <value>"C:\system\debug\reports\report_1.txt" --- 系统报告 1 病毒攻击，DT？
+"C:\system\debug\reports\report_2.txt" --- 系统报告 2 - 如果是 3，则必须是 2 和 1
+"C:\system\debug\reports\report_3.txt" --- 系统报告 3 - 在序言、控制台过场动画后发现。
+"F:\files\research\journal\1574_12_12.txt" --- Derry Tavis 的日记文本
+"F:\Jun\system\safety\Asimov3.xftt" --- 访问被拒绝
+F:\files\research\journal\1578_12_16.txt
+F:\files\research\journal\1580_12_18.txt
+
+使用文件路径播放给定的视频（例如 [PlayVideo "C:\Videos\Meruccubus.mp4" ] ）
+
+“VV”提示（在命令前添加“vv”）
+
+lust
+sympathy
+mood
+isNaked
+cumInsideAnalMl
+cumInsideVaginaMl
+cumInsideStomachMl
+masterCumExtractedMl
+timeSinceLastHeadpat
+timeSinceLastSex
+timeSinceLastTalkWithMaster
+Horniness
+MasterName
+SelfName
+timesCameMouth
+timeCameInsideVagina
+timeCameInsideAnal</value>
   </data>
 </root>

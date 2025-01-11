@@ -236,7 +236,7 @@
             this.languageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deutschToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.TraditionalChineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.traditionalChineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.donateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1.SuspendLayout();
@@ -1838,7 +1838,7 @@
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
             this.deutschToolStripMenuItem,
-            this.TraditionalChineseToolStripMenuItem});
+            this.traditionalChineseToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
             resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             // 
@@ -1860,9 +1860,9 @@
             // 
             // TraditionalChineseToolStripMenuItem
             // 
-            this.TraditionalChineseToolStripMenuItem.Name = "TraditionalChineseToolStripMenuItem";
-            resources.ApplyResources(this.TraditionalChineseToolStripMenuItem, "TraditionalChineseToolStripMenuItem");
-            this.TraditionalChineseToolStripMenuItem.Click += new System.EventHandler(this.TraditionalChineseToolStripMenuItem_Click);
+            this.traditionalChineseToolStripMenuItem.Name = "traditionalChineseToolStripMenuItem";
+            resources.ApplyResources(this.traditionalChineseToolStripMenuItem, "traditionalChineseToolStripMenuItem");
+            this.traditionalChineseToolStripMenuItem.Click += new System.EventHandler(this.traditionalChineseToolStripMenuItem_Click);
             // 
             // donateToolStripMenuItem
             // 
@@ -2198,7 +2198,7 @@
         private System.Windows.Forms.ToolStripMenuItem languageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deutschToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem TraditionalChineseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem traditionalChineseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem donateToolStripMenuItem;
         private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.GroupBox commandsGroupBox;

@@ -627,10 +627,10 @@ gespeicherten Spiele führen kann, und übernehme die volle Verantwortung für e
   <data name="tabPage7.Text" xml:space="preserve">
     <value>Sonst. Info</value>
   </data>
-  <data name="TraditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
     <value>繁体中文</value>
   </data>
-  <data name="TraditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 22</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">

@@ -71,7 +71,7 @@ namespace MDRG_Analyzer
                     break;
 
                 case "zh":
-                    SetLanguageAppearanceBoldCHecked(TraditionalChineseToolStripMenuItem);
+                    SetLanguageAppearanceBoldCHecked(traditionalChineseToolStripMenuItem);
                     break;
 
                 default:
@@ -888,7 +888,7 @@ namespace MDRG_Analyzer
             ChangeLanguage("de");
         }
 
-        private void TraditionalChineseToolStripMenuItem_Click(object sender, EventArgs e)
+        private void traditionalChineseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ChangeLanguage("zh");
         }
