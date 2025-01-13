@@ -1,24 +1,16 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Diagnostics;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Globalization;
 using System.Threading;
-using MDRG_Analyzer.Properties;
-using System.Drawing;
 using System.Threading.Tasks;
 using MDRG_Analyzer;
-using System.Reflection.Emit;
-using System.Resources;
 
 namespace MDRG_Analyzer
 {
@@ -30,12 +22,12 @@ namespace MDRG_Analyzer
         readonly string __version__ = "1.1.10";
         int selectedSaveFile = -1;
         string filePath;
-        string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
-        string botName = "your Bot";
+        readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
+        readonly string developerWebsite = "https://wehrmachtserdbeere.github.io/";
         dynamic jsonData;
-        Random rand = new Random();
+        readonly Random rand = new Random();
         public int eventInitiator = 0;
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+        readonly System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 
         public Form1()
         {
@@ -173,7 +165,7 @@ namespace MDRG_Analyzer
                     savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
                     achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString()); // Achievements
                 }
-                catch (Exception ex)
+                catch
                 {
                     MessageBox.Show(
                         caption: Strings.GenericErrorCaption,
@@ -454,7 +446,7 @@ namespace MDRG_Analyzer
             catch (System.OverflowException)
             {
                 MessageBox.Show(
-                    caption: "Error!",
+                    caption: Strings.GenericErrorCaption,
                     text: Strings.SavedataLoadingOverflowErrorText,
                     buttons: MessageBoxButtons.OK,
                     icon: MessageBoxIcon.Error
@@ -463,7 +455,7 @@ namespace MDRG_Analyzer
             catch (Exception ex)
             {
                 MessageBox.Show(
-                    caption: "Error!",
+                    caption: Strings.GenericErrorCaption,
                     text: Strings.SavedataLoadingUnknownError + ex.ToString(),
                     buttons: MessageBoxButtons.OK,
                     icon: MessageBoxIcon.Error
@@ -544,7 +536,7 @@ namespace MDRG_Analyzer
                         else
                         {
                             MessageBox.Show(
-                                caption: "Error!",
+                                caption: Strings.GenericErrorCaption,
                                 text: Strings.GitResponseInvalidVersionFormatText
                                 );
                         }
@@ -552,7 +544,7 @@ namespace MDRG_Analyzer
                     else
                     {
                         MessageBox.Show(
-                            caption: "Error!",
+                            caption: Strings.GenericErrorCaption,
                             text: Strings.GitResponseCouldNotCheckForUpdateText + gitResponse.StatusCode.ToString()
                             );
                     }
@@ -561,7 +553,7 @@ namespace MDRG_Analyzer
             catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
             {
                 DialogResult result = MessageBox.Show(
-                    caption: "Error!",
+                    caption: Strings.GenericErrorCaption,
                     text: Strings.HttpRequestExceptionMessageText + exep.Message,
                     buttons: MessageBoxButtons.RetryCancel,
                     icon: MessageBoxIcon.Error
@@ -656,7 +648,7 @@ namespace MDRG_Analyzer
             if (filePath == null)
             {
                 MessageBox.Show(
-                    caption: "Error!",
+                    caption: Strings.GenericErrorCaption,
                     text: Strings.BackupNoFileSelectedText
                     );
             }
@@ -846,16 +838,19 @@ namespace MDRG_Analyzer
                             text: Strings.SavedataSavingSuccessText
                             );
                     }
-                    catch (Exception ex)
+                    catch
                     {
                         MessageBox.Show(
-                            caption: "Error!",
+                            caption: Strings.GenericErrorCaption,
                             text: Strings.SavedataSavingErrorText
                             );
                     }
                 }
                 catch (Exception ex) {
-                    MessageBox.Show(caption: "Error", text: $"Error: {ex}");
+                    MessageBox.Show(
+                        caption: Strings.GenericErrorCaption,
+                        text: Strings.SavedataLoadingUnknownError + ex
+                        );
                 }
             }
         }
@@ -904,6 +899,11 @@ namespace MDRG_Analyzer
                     eventInitiator = 0;
                 }
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            openWebsite(developerWebsite);
         }
     }
 }
@@ -957,25 +957,25 @@ class AsynchonousTasks
     {
         // Create an instance of ComponentResourceManager to handle resource updates
         var resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-
+    
         // Change the pictureBox image and update its resources
         pictureBox.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl_2;
         resources.ApplyResources(pictureBox, "pictureBox2");
         pictureBox.Name = "pictureBox2";
         pictureBox.TabStop = false;
-
+    
         // Update the label text
         label.Text = Strings.label6HorrorText;
-
+    
         // Wait for 50ms asynchronously
         await Task.Delay(50);
-
+    
         // Change back the pictureBox image and update its resources
         pictureBox.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl;
         resources.ApplyResources(pictureBox, "pictureBox2");
         pictureBox.Name = "pictureBox2";
         pictureBox.TabStop = false;
-
+    
         // Revert the label text
         label.Text = Strings.label6NormalText;
     }

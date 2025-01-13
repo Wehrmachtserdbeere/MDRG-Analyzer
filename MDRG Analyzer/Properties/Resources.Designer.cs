@@ -22,7 +22,7 @@ namespace MDRG_Analyzer.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace MDRG_Analyzer.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MDRG_Analyzer.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace MDRG_Analyzer.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,17 +63,7 @@ namespace MDRG_Analyzer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logo {
-            get {
-                object obj = ResourceManager.GetObject("logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mdrg_girl {
+        public static System.Drawing.Bitmap mdrg_girl {
             get {
                 object obj = ResourceManager.GetObject("mdrg_girl", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +73,7 @@ namespace MDRG_Analyzer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mdrg_girl_2 {
+        public static System.Drawing.Bitmap mdrg_girl_2 {
             get {
                 object obj = ResourceManager.GetObject("mdrg_girl_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -91,22 +81,11 @@ namespace MDRG_Analyzer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ending-ballsexploded --- &quot;Too much juice...&quot;
-        ///ending-goodEnd1 --- &quot;Selling your bot&quot;
-        ///ending-badEnd1 --- &quot;Termination of tenancy&quot;
-        ///ending-badEnd2 --- &quot;Failure...&quot;
-        ///ending-badEnd3 --- &quot;Coward...&quot;
-        ///ending-badEnd4.1 --- &quot;Termination of tenancy v2: hobo&quot;
-        ///ending-badEnd4.2 --- &quot;Termination of tenancy v2: murder&quot;
-        ///ending-healthEnd --- &quot;Starvation&quot;
-        ///ending-fedEnd --- &quot;Got caught...&quot;
-        ///ending-schizoEnd --- &quot;I&apos;m not crazy...&quot;
-        ///ending-genericSchizoEnd --- &quot;Wall-kun&quot;
-        ///ending-KilledByADirtyCop1 --- &quot;Never trust the cops [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to 1.
         /// </summary>
-        internal static string richTextBox7_Text {
+        public static string test {
             get {
-                return ResourceManager.GetString("richTextBox7.Text", resourceCulture);
+                return ResourceManager.GetString("test", resourceCulture);
             }
         }
     }
