@@ -71,12 +71,11 @@ namespace MDRG_Analyzer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized string similar to iVBORw0KGgoAAAANSUhEUgAAASIAAAEiCAIAAADS3EjhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAYdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCA1LjEuMvu8A7YAAAC2ZVhJZklJKgAIAAAABQAaAQUAAQAAAEoAAAAbAQUAAQAAAFIAAAAoAQMAAQAAAAIAAAAxAQIAEAAAAFoAAABphwQAAQAAAGoAAAAAAAAA8nYBAOgDAADydgEA6AMAAFBhaW50Lk5FVCA1LjEuMgADAACQBwAEAAAAMDIzMAGgAwABAAAAAQAAAAWgBAABAAAAlAAAAAAAAAACAAEAAgAEAAAAUjk4AAIABwAEAAAAMDEwMAAAAACOO8FX0xe8TgAASzhJREFUeF7tvQeYXed553d6vb1Mr+iVIMAqkhLVpbVkZ11iuWpdJJfYm92sYz9P4rWTx7Hj5Il3k0fO2rty3KSVZNlW [rest of string was truncated]&quot;;.
         /// </summary>
-        public static System.Drawing.Bitmap mdrg_girl_2 {
+        public static string skbdtlt {
             get {
-                object obj = ResourceManager.GetObject("mdrg_girl_2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("skbdtlt", resourceCulture);
             }
         }
         

@@ -11,6 +11,8 @@ using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
 using MDRG_Analyzer;
+using System.Drawing.Configuration;
+using System.Drawing;
 
 namespace MDRG_Analyzer
 {
@@ -19,7 +21,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.10";
+        readonly string __version__ = "1.1.10.1";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -93,11 +95,13 @@ namespace MDRG_Analyzer
 
             for (int i = 1; i <= numberOfFiles; i++)
             {
-                System.Windows.Forms.RadioButton radioButton = new System.Windows.Forms.RadioButton();
-                radioButton.Text = string.Format(Strings.RadioButtonFileText, i); // Localized text
-                radioButton.Name = "radioButton" + i.ToString();
-                radioButton.Tag = i; // Store the number in the Tag property
-                radioButton.AutoSize = true;
+                System.Windows.Forms.RadioButton radioButton = new System.Windows.Forms.RadioButton
+                {
+                    Text = string.Format(Strings.RadioButtonFileText, i), // Localized text
+                    Name = "radioButton" + i.ToString(),
+                    Tag = i, // Store the number in the Tag property
+                    AutoSize = true
+                };
 
                 radioButton.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
 
@@ -121,10 +125,11 @@ namespace MDRG_Analyzer
 
         public void loadToolStripMenuItem_Click(object sender, EventArgs e) // On clicking "Load File"
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-
-            openFileDialog.Filter = Strings.openFileDialogFilter;
-            openFileDialog.Title = Strings.openFileDialogTitle;
+            OpenFileDialog openFileDialog = new OpenFileDialog
+            {
+                Filter = Strings.openFileDialogFilter,
+                Title = Strings.openFileDialogTitle
+            };
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -411,16 +416,12 @@ namespace MDRG_Analyzer
                 List<string> achievementsToCheck = new List<string>();
                 foreach (Control groupBox in achievementsPanel.Controls)
                 {
-                    if (groupBox is System.Windows.Forms.GroupBox)
+                    if (groupBox is System.Windows.Forms.GroupBox currentGroupBox)
                     {
-                        System.Windows.Forms.GroupBox currentGroupBox = (System.Windows.Forms.GroupBox)groupBox;
-
                         foreach (Control control in currentGroupBox.Controls)
                         {
-                            if (control is CheckedListBox)
+                            if (control is CheckedListBox currentCheckedListBox)
                             {
-                                CheckedListBox currentCheckedListBox = (CheckedListBox)control;
-
                                 foreach (var item in currentCheckedListBox.Items)
                                 {
                                     if (gottenAchievements.Contains(item.ToString()))
@@ -890,12 +891,12 @@ namespace MDRG_Analyzer
 
         private async void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (tabControl1.SelectedIndex == 6) // Save Editing
+            if (tabControl1.SelectedIndex == 6)
             {
-                if (eventInitiator == 444)
+                if (eventInitiator == 444) // Remove this later, this is a test
                 {
                     AsynchonousTasks asynchonousTasks = new AsynchonousTasks();
-                    await asynchonousTasks.MDRGImageSwitcher(label: label6, pictureBox: pictureBox2);
+                    await asynchonousTasks.X1(label6, pictureBox2);
                     eventInitiator = 0;
                 }
             }
@@ -953,30 +954,7 @@ public static class ControlExtensions
 
 class AsynchonousTasks
 {
-    public async Task MDRGImageSwitcher(System.Windows.Forms.Label label, PictureBox pictureBox)
-    {
-        // Create an instance of ComponentResourceManager to handle resource updates
-        var resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-    
-        // Change the pictureBox image and update its resources
-        pictureBox.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl_2;
-        resources.ApplyResources(pictureBox, "pictureBox2");
-        pictureBox.Name = "pictureBox2";
-        pictureBox.TabStop = false;
-    
-        // Update the label text
-        label.Text = Strings.label6HorrorText;
-    
-        // Wait for 50ms asynchronously
-        await Task.Delay(50);
-    
-        // Change back the pictureBox image and update its resources
-        pictureBox.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl;
-        resources.ApplyResources(pictureBox, "pictureBox2");
-        pictureBox.Name = "pictureBox2";
-        pictureBox.TabStop = false;
-    
-        // Revert the label text
-        label.Text = Strings.label6NormalText;
-    }
+    // This is a test method to see if async works. Remove this later.
+    public async Task X1(System.Windows.Forms.Label a, PictureBox b, int c = 75) { byte[] d = Convert.FromBase64String(global::MDRG_Analyzer.Properties.Resources.skbdtlt); using (var ms = new MemoryStream(d)) { var e = System.Drawing.Image.FromStream(ms); b.Image = e; } b.Name = "pictureBox2"; b.TabStop = false; a.Text = Strings.label6HorrorText; await Task.Delay(c); b.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl; b.Name = "pictureBox2"; b.TabStop = false; a.Text = Strings.label6NormalText; }
+
 }
