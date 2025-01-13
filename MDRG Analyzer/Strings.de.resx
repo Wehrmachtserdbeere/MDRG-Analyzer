@@ -654,4 +654,10 @@ Möchtest du GitHub öffnen, um die neueste Version zu erhalten?</value>
   <data name="label6NormalText" xml:space="preserve">
     <value>Halte sie sicher (und gefüllt)</value>
   </data>
+  <data name="HttpRequestUnknownErrorMessageText" xml:space="preserve">
+    <value>Ein unbekannter Fehler ist beim automatischen überprüfen auf eine neue Aktualisierung aufgetreten.
+
+Fehler:
+</value>
+  </data>
 </root>

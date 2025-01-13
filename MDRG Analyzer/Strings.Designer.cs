@@ -1083,6 +1083,18 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to An unknown error happened when automatically checking for an update:
+        ///
+        ///Error:
+        ///.
+        /// </summary>
+        internal static string HttpRequestUnknownErrorMessageText {
+            get {
+                return ResourceManager.GetString("HttpRequestUnknownErrorMessageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Load a File.
         /// </summary>
         internal static string infoSaveBox_Text {

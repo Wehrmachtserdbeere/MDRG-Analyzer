@@ -655,4 +655,10 @@ Do you want to open GitHub to get the latest release?</value>
   <data name="label6NormalText" xml:space="preserve">
     <value>Remember to keep her safe (and filled)</value>
   </data>
+  <data name="HttpRequestUnknownErrorMessageText" xml:space="preserve">
+    <value>An unknown error happened when automatically checking for an update:
+
+Error:
+</value>
+  </data>
 </root>

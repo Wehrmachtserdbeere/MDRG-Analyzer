@@ -328,4 +328,10 @@ bgrmystr2 - Linux 测试
   <data name="label6NormalText" xml:space="preserve">
     <value>记得保证她的安全（和饱腹感）</value>
   </data>
+  <data name="HttpRequestUnknownErrorMessageText" xml:space="preserve">
+    <value>自动检查更新时发生未知错误。
+
+错误:
+</value>
+  </data>
 </root>

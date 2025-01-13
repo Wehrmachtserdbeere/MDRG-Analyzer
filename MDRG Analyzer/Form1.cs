@@ -39,6 +39,19 @@ namespace MDRG_Analyzer
             CheckForUpdate(true);
         }
 
+        private void ResetLanguageMenuItems()
+        {
+            foreach (ToolStripMenuItem toolItem in languageToolStripMenuItem.DropDownItems)
+            {
+                toolItem.Checked = false;
+                toolItem.Font = new System.Drawing.Font(
+                    toolItem.Font.FontFamily,
+                    toolItem.Font.Size,
+                    System.Drawing.FontStyle.Regular
+                );
+            }
+        }
+
         private void ChangeLanguage(string cultureCode)
         {
             // Set the culture for the current thread
@@ -49,25 +62,17 @@ namespace MDRG_Analyzer
             this.Controls.Clear();
             InitializeComponent(); // Reinitialize form
             versionBox.Text = $"{__version__}";
-            foreach (ToolStripMenuItem toolItem in languageToolStripMenuItem.DropDownItems)
-            {
-                toolItem.Checked = false;
-                toolItem.Font = new System.Drawing.Font(
-                    toolItem.Font.FontFamily,
-                    toolItem.Font.Size,
-                    System.Drawing.FontStyle.Regular
-                    );
-            }
+
+            ResetLanguageMenuItems();
+
             switch (cultureCode)
             {
                 case "de":
                     SetLanguageAppearanceBoldCHecked(deutschToolStripMenuItem);
                     break;
-
                 case "zh":
                     SetLanguageAppearanceBoldCHecked(traditionalChineseToolStripMenuItem);
                     break;
-
                 default:
                     SetLanguageAppearanceBoldCHecked(englishToolStripMenuItem);
                     break;
@@ -92,10 +97,11 @@ namespace MDRG_Analyzer
         private void AddRadioButtons(int numberOfFiles)
         {
             flowLayoutPanel1.Controls.Clear(); // Clear existing controls
+            var radioButtons = new List<RadioButton>();
 
             for (int i = 1; i <= numberOfFiles; i++)
             {
-                System.Windows.Forms.RadioButton radioButton = new System.Windows.Forms.RadioButton
+                var radioButton = new RadioButton
                 {
                     Text = string.Format(Strings.RadioButtonFileText, i), // Localized text
                     Name = "radioButton" + i.ToString(),
@@ -104,9 +110,10 @@ namespace MDRG_Analyzer
                 };
 
                 radioButton.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
-
-                flowLayoutPanel1.Controls.Add(radioButton);
+                radioButtons.Add(radioButton);
             }
+
+            flowLayoutPanel1.Controls.AddRange(radioButtons.ToArray());
         }
 
         private void RadioButton_CheckedChanged(object sender, EventArgs e)
@@ -151,7 +158,7 @@ namespace MDRG_Analyzer
                     slots.Add((int)save.slot);
                 }
                 int[] slotsArray = slots.ToArray(); // Convert List to Array
-                int slotsAmount = slotsArray.Length;
+                int slotsAmount = saves.Count;
                 AddRadioButtons(slotsAmount);
 
                 debugTextBox.Text = fileContent; // Pump entire JSon into Debug
@@ -349,39 +356,19 @@ namespace MDRG_Analyzer
 
                 // 0.90 New stuff
 
-                string weekDay;
-
-                switch (rentText.ToLower())
+                var rentDaysMapping = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
                 {
-                    // I feel like YandereDev doing it this way...
-                    case "rent today!":
-                        weekDay = Strings.WeekDaysMonday;
-                        break;
-                    case "rent in 1 day":
-                        weekDay = Strings.WeekDaysSunday;
-                        break;
-                    case "rent in 2 days":
-                        weekDay = Strings.WeekDaysSaturday;
-                        break;
-                    case "rent in 3 days":
-                        weekDay = Strings.WeekDaysFriday;
-                        break;
-                    case "rent in 4 days":
-                        weekDay = Strings.WeekDaysThursday;
-                        break;
-                    case "rent in 5 days":
-                        weekDay = Strings.WeekDaysWednesday;
-                        break;
-                    case "rent in 6 days":
-                        weekDay = Strings.WeekDaysTuesday;
-                        break;
-                    case "rent in 7 days":
-                        weekDay = Strings.WeekDaysMonday;
-                        break;
-                    default:
-                        weekDay = Strings.WeekDaysUnknown;
-                        break;
-                }
+                    { "rent today!", Strings.WeekDaysMonday },
+                    { "rent in 1 day", Strings.WeekDaysSunday },
+                    { "rent in 2 days", Strings.WeekDaysSaturday },
+                    { "rent in 3 days", Strings.WeekDaysFriday },
+                    { "rent in 4 days", Strings.WeekDaysThursday },
+                    { "rent in 5 days", Strings.WeekDaysWednesday },
+                    { "rent in 6 days", Strings.WeekDaysTuesday },
+                    { "rent in 7 days", Strings.WeekDaysMonday }
+                };
+
+                string weekDay = rentDaysMapping.TryGetValue(rentText, out var day) ? day : Strings.WeekDaysUnknown;
 
                 weekdayTextBox.Text = $"{weekDay}";
 
@@ -413,7 +400,6 @@ namespace MDRG_Analyzer
                 }
 
                 // Gotten Achievements checker
-                List<string> achievementsToCheck = new List<string>();
                 foreach (Control groupBox in achievementsPanel.Controls)
                 {
                     if (groupBox is System.Windows.Forms.GroupBox currentGroupBox)
@@ -422,26 +408,19 @@ namespace MDRG_Analyzer
                         {
                             if (control is CheckedListBox currentCheckedListBox)
                             {
-                                foreach (var item in currentCheckedListBox.Items)
+                                for (int i = 0; i < currentCheckedListBox.Items.Count; i++)
                                 {
-                                    if (gottenAchievements.Contains(item.ToString()))
+                                    var item = currentCheckedListBox.Items[i].ToString();
+                                    if (gottenAchievements.Contains(item))
                                     {
-                                        achievementsToCheck.Add(item.ToString());
-                                    }
-                                }
-
-                                foreach (var item in achievementsToCheck)
-                                {
-                                    int index = currentCheckedListBox.Items.IndexOf(item);
-                                    if (index != -1)
-                                    {
-                                        currentCheckedListBox.SetItemChecked(currentCheckedListBox.Items.IndexOf(item), true);
+                                        currentCheckedListBox.SetItemChecked(i, true);
                                     }
                                 }
                             }
                         }
                     }
                 }
+
             }
 
             catch (System.OverflowException)
@@ -505,10 +484,10 @@ namespace MDRG_Analyzer
         {
             string owner = "Wehrmachtserdbeere";
             string repo = "MDRG-Analyzer";
-            HttpClient thisProgram = new HttpClient();
 
-            try
+            using (HttpClient thisProgram = new HttpClient())
             {
+                try
                 {
                     thisProgram.DefaultRequestHeaders.Add("User-Agent", "request"); // Required for GitHub API
 
@@ -517,8 +496,8 @@ namespace MDRG_Analyzer
                     if (gitResponse.IsSuccessStatusCode)
                     {
                         string gitResponseBody = await gitResponse.Content.ReadAsStringAsync();
-                        dynamic gitResponseInfo = JsonConvert.DeserializeObject(gitResponseBody);
-                        string gitLatestVersion = gitResponseInfo.tag_name;
+                        var gitResponseInfo = JsonConvert.DeserializeObject<JObject>(gitResponseBody);
+                        string gitLatestVersion = gitResponseInfo["tag_name"].ToString();
 
                         Console.WriteLine(gitLatestVersion);
 
@@ -539,7 +518,7 @@ namespace MDRG_Analyzer
                             MessageBox.Show(
                                 caption: Strings.GenericErrorCaption,
                                 text: Strings.GitResponseInvalidVersionFormatText
-                                );
+                            );
                         }
                     }
                     else
@@ -547,33 +526,49 @@ namespace MDRG_Analyzer
                         MessageBox.Show(
                             caption: Strings.GenericErrorCaption,
                             text: Strings.GitResponseCouldNotCheckForUpdateText + gitResponse.StatusCode.ToString()
-                            );
+                        );
+                    }
+                }
+                catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
+                {
+                    DialogResult result = MessageBox.Show(
+                        caption: Strings.GenericErrorCaption,
+                        text: Strings.HttpRequestExceptionMessageText + exep.Message,
+                        buttons: MessageBoxButtons.RetryCancel,
+                        icon: MessageBoxIcon.Error
+                    );
+
+                    switch (result)
+                    {
+                        case DialogResult.Retry:
+                            CheckForUpdate(false);
+                            break;
+                        case DialogResult.Cancel:
+                            break;
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                    DialogResult result = MessageBox.Show(
+                        caption: Strings.GenericErrorCaption,
+                        text: Strings.HttpRequestUnknownErrorMessageText + ex.Message,
+                        buttons: MessageBoxButtons.RetryCancel,
+                        icon: MessageBoxIcon.Error
+                    );
+
+                    switch (result)
+                    {
+                        case DialogResult.Retry:
+                            CheckForUpdate(false);
+                            break;
+                        case DialogResult.Cancel:
+                            break;
                     }
                 }
             }
-            catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
-            {
-                DialogResult result = MessageBox.Show(
-                    caption: Strings.GenericErrorCaption,
-                    text: Strings.HttpRequestExceptionMessageText + exep.Message,
-                    buttons: MessageBoxButtons.RetryCancel,
-                    icon: MessageBoxIcon.Error
-                    );
-
-                switch (result)
-                {
-                    case DialogResult.Retry:
-                        CheckForUpdate(false);
-                        break;
-                    case DialogResult.Cancel:
-                        break;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -722,7 +717,7 @@ namespace MDRG_Analyzer
                 try
                 {
                     JObject savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
-                    JObject achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString()); // Achievements
+                    JObject achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString());
 
                     savedataObject["playerName"] = playerNameBox.Text;
                     savedataObject["botName"] = botNameBox.Text;
@@ -915,37 +910,28 @@ public static class ControlExtensions
     {
         if (control is System.Windows.Forms.GroupBox groupBox)
         {
-            // Loop through each control inside the GroupBox
             foreach (Control childControl in groupBox.Controls)
             {
-                // If the child control is another GroupBox, recursively call the method
-                if (childControl is System.Windows.Forms.GroupBox subGroupBox)
+                switch (childControl)
                 {
-                    ToggleControlsEnabled(subGroupBox);
-                }
-                else
-                {
-                    // Toggle the ReadOnly property if the control is a RichTextBox or TextBox
-                    if (childControl is RichTextBox richTextBox && childControl.Name != "weekdayTextBox" && childControl.Name != "rentTextBox")
-                    {
+                    case RichTextBox richTextBox when childControl.Name != "weekdayTextBox" && childControl.Name != "rentTextBox":
                         richTextBox.ReadOnly = !richTextBox.ReadOnly;
-                    }
-                    else if (childControl is TextBox textBox && childControl.Name != "weekdayTextBox" && childControl.Name != "rentTextBox")
-                    {
+                        break;
+                    case TextBox textBox when childControl.Name != "weekdayTextBox" && childControl.Name != "rentTextBox":
                         textBox.ReadOnly = !textBox.ReadOnly;
-                    }
-                    else if (childControl is Button button)
-                    {
+                        break;
+                    case Button button:
                         button.Enabled = !button.Enabled;
-                    }
-                    else if (childControl is System.Windows.Forms.CheckBox checkBox)
-                    {
+                        break;
+                    case System.Windows.Forms.CheckBox checkBox:
                         checkBox.Enabled = !checkBox.Enabled;
-                    }
-                    else if (childControl is CheckedListBox checkListBox)
-                    {
+                        break;
+                    case CheckedListBox checkListBox:
                         checkListBox.Enabled = !checkListBox.Enabled;
-                    }
+                        break;
+                    case System.Windows.Forms.GroupBox subGroupBox:
+                        ToggleControlsEnabled(subGroupBox);
+                        break;
                 }
             }
         }
