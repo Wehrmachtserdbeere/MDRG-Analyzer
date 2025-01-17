@@ -1321,6 +1321,19 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The file you tried to load doesn&apos;t contain any saved game data. This means that the save you are attempting to open is empty or not properly exported. Here&apos;s what you need to do to fix this:
+        ///
+        ///First, double-check that you actually exported your save correctly before trying to load it. If you&apos;re not sure, make sure you followed all the proper steps to export the save file. This is important because if the save hasn&apos;t been exported properly, it will not work when you try to load it.
+        ///
+        ///If you&apos;re sure you exp [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SavedataLoadingNoSavedataErrorText {
+            get {
+                return ResourceManager.GetString("SavedataLoadingNoSavedataErrorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to One of your save file entries caused an integer overflow! Please fix this before trying to load it into the program.
         ///
         ///If your save is completely vanilla and has not been previously edited, open an Issue of message me on the MDRG Discord. Otherwise, you already know what you did, and I won&apos;t give your support for you breaking your own save..

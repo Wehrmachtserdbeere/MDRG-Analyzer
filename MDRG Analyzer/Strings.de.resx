@@ -660,4 +660,13 @@ Möchtest du GitHub öffnen, um die neueste Version zu erhalten?</value>
 Fehler:
 </value>
   </data>
+  <data name="SavedataLoadingNoSavedataErrorText" xml:space="preserve">
+    <value>Die Datei, die du versucht hast zu laden, enthält keine Spieldaten. Das bedeutet, dass der Speicherstand, den du öffnen möchtest, leer ist oder nicht richtig exportiert wurde. Hier ist, was du tun musst, um das zu beheben:
+
+Überprüfe zuerst, ob du deinen Speicherstand richtig exportiert hast, bevor du versuchst, ihn zu laden. Wenn du dir nicht sicher bist, stelle sicher, dass du alle richtigen Schritte zum Exportieren der Datei befolgt hast. Das ist wichtig, weil der Speicherstand nicht funktioniert, wenn er nicht korrekt exportiert wurde.
+
+Falls du sicher bist, dass du deinen Speicherstand exportiert hast und trotzdem diese Meldung bekommst, könnte es ein Problem mit der Struktur der Daten in der Datei geben. Um das zu überprüfen, solltest du online nach einem "JSON Beautifier" suchen. Mit diesem Tool kannst du den Inhalt deiner Datei in einem besseren Format ansehen. Schau dir dann den Abschnitt "savedata" in der Datei an. Wenn dieser Abschnitt komplett leer ist, bedeutet das, dass die Daten nicht richtig gespeichert wurden. In diesem Fall musst du den Speicherstand noch einmal exportieren und es dann erneut versuchen.
+
+Falls der Abschnitt "savedata" nicht leer ist und es trotzdem nicht funktioniert, melde dich einfach bei mir. Du kannst ein Problem auf GitHub öffnen, und ich helfe dir weiter, oder du kannst mich direkt im MDRG Discord-Server kontaktieren. Im Discord-Server findest du einen Thread mit dem Titel "MDRG Analyzer" im neuesten Mods-Forum. Schreib mir dort die Details zu deinem Problem, und ich werde dir weiterhelfen.</value>
+  </data>
 </root>

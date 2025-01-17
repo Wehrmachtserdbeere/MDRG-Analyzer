@@ -179,12 +179,23 @@ namespace MDRG_Analyzer
                 }
                 catch
                 {
-                    MessageBox.Show(
-                        caption: Strings.GenericErrorCaption,
-                        text: Strings.SavedataLoadingErrorText,
-                        buttons: MessageBoxButtons.OK,
-                        icon: MessageBoxIcon.Error);
-                    return;
+                    if (savedataObject == null)
+                    {
+                        MessageBox.Show(
+                            caption: Strings.GenericErrorCaption,
+                            text: Strings.SavedataLoadingNoSavedataErrorText,
+                            buttons: MessageBoxButtons.OK,
+                            icon: MessageBoxIcon.Error);
+                        return;
+                    }
+                    else {
+                        MessageBox.Show(
+                            caption: Strings.GenericErrorCaption,
+                            text: Strings.SavedataLoadingErrorText,
+                            buttons: MessageBoxButtons.OK,
+                            icon: MessageBoxIcon.Error);
+                        return;
+                    }
                 }
 
                 // Set the variables
