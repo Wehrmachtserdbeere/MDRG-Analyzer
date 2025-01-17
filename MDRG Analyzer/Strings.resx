@@ -153,7 +153,7 @@
 The MDRG Discord - Coding help
 italy2003 / PixivID: 66835722 - Art
 bgrmystr2 - Linux Testing
-小夜 - Chinese Translation
+小夜 - Chinese and Spanish Translation
 You - For using this program. Thank you :D</value>
   </data>
   <data name="ExtraCreditsCaption" xml:space="preserve">
@@ -669,5 +669,212 @@ First, double-check that you actually exported your save correctly before trying
 If you're sure you exported your save and you're still seeing this message, then there might be a problem with how the data is structured inside the file. To check this, you should search online for something called a "JSON Beautifier." This tool will help you view the contents of your save file in a more readable format. Once you do that, look for the "savedata" section inside the file. If this section is completely empty, that means the data wasn't saved properly, and you need to go back, re-export your save file, and try again.
 
 If your "savedata" section is not empty and it still doesn't work, please don't hesitate to reach out for help. You can open an issue on GitHub where I can assist you further, or you can contact me directly on the MDRG Discord Server. On the Discord Server, you'll find a thread titled "MDRG Analyzer" located in the most recent Mods forum. Please let me know the details of your issue there, and I'll help you troubleshoot further.</value>
+  </data>
+  <data name="pictureBox1.Image" xml:space="preserve">
+    <value />
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Location" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lightswitchCheckbox.Location" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lightswitchCheckbox.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="websitesCheckBoxes.Items15" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox1.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox1.Items1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox1.Items2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox1.Items3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox1.Items4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="richTextBox7.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items12" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items15" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkedListBox2.Items16" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBox2.Image" xml:space="preserve">
+    <value />
+  </data>
+  <data name="saveEditConsentBox.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="commandsGroupBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="loadToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="exitToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="openReadmeToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripSeparator1.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reportABugToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="suggestAFeatureToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="helpToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="englishToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="deutschToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="españolToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="languageToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="donateToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Icon" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="commandsTextBox.Text" xml:space="preserve">
+    <value />
   </data>
 </root>

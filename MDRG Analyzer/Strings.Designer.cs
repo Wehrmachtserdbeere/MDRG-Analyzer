@@ -97,11 +97,236 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox1_Items {
+            get {
+                return ResourceManager.GetString("checkedListBox1.Items", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox1_Items1 {
+            get {
+                return ResourceManager.GetString("checkedListBox1.Items1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox1_Items2 {
+            get {
+                return ResourceManager.GetString("checkedListBox1.Items2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox1_Items3 {
+            get {
+                return ResourceManager.GetString("checkedListBox1.Items3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox1_Items4 {
+            get {
+                return ResourceManager.GetString("checkedListBox1.Items4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items1 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items10 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items11 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items12 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items13 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items14 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items15 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items16 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items2 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items3 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items4 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items5 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items6 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items7 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items8 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkedListBox2_Items9 {
+            get {
+                return ResourceManager.GetString("checkedListBox2.Items9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string checkForUpdatesToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("checkForUpdatesToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Check for Updates.
         /// </summary>
         internal static string checkForUpdatesToolStripMenuItem_Text {
             get {
                 return ResourceManager.GetString("checkForUpdatesToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string commandsGroupBox_Text {
+            get {
+                return ResourceManager.GetString("commandsGroupBox.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string commandsTextBox_Text {
+            get {
+                return ResourceManager.GetString("commandsTextBox.Text", resourceCulture);
             }
         }
         
@@ -120,6 +345,33 @@ namespace MDRG_Analyzer {
         internal static string debugTextBox_Text {
             get {
                 return ResourceManager.GetString("debugTextBox.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string deutschToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("deutschToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string donateToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("donateToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string donateToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("donateToolStripMenuItem.Text", resourceCulture);
             }
         }
         
@@ -147,6 +399,42 @@ namespace MDRG_Analyzer {
         internal static string EditInfoButtonText {
             get {
                 return ResourceManager.GetString("EditInfoButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string englishToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("englishToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string españolToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("españolToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string españolToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("españolToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string exitToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("exitToolStripMenuItem.Size", resourceCulture);
             }
         }
         
@@ -183,12 +471,21 @@ namespace MDRG_Analyzer {
         ///The MDRG Discord - Coding help
         ///italy2003 / PixivID: 66835722 - Art
         ///bgrmystr2 - Linux Testing
-        ///小夜 - Chinese Translation
+        ///小夜 - Chinese and Spanish Translation
         ///You - For using this program. Thank you :D.
         /// </summary>
         internal static string ExtraCreditsText {
             get {
                 return ResourceManager.GetString("ExtraCreditsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string fileToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("fileToolStripMenuItem.Size", resourceCulture);
             }
         }
         
@@ -1063,6 +1360,15 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string helpToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("helpToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Help.
         /// </summary>
         internal static string helpToolStripMenuItem_Text {
@@ -1104,6 +1410,15 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string label1_Size {
+            get {
+                return ResourceManager.GetString("label1.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to (1) Cannot be changed, rent is always on Monday
         ///(2) Converted for readability, not an actual value
         ///(3) No support will be given if changed
@@ -1112,6 +1427,15 @@ namespace MDRG_Analyzer {
         internal static string label1_Text {
             get {
                 return ResourceManager.GetString("label1.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string label4_Size {
+            get {
+                return ResourceManager.GetString("label4.Size", resourceCulture);
             }
         }
         
@@ -1125,11 +1449,38 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string label5_Location {
+            get {
+                return ResourceManager.GetString("label5.Location", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string label5_Size {
+            get {
+                return ResourceManager.GetString("label5.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to (5) Uses Game Time.
         /// </summary>
         internal static string label5_Text {
             get {
                 return ResourceManager.GetString("label5.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string label6_Size {
+            get {
+                return ResourceManager.GetString("label6.Size", resourceCulture);
             }
         }
         
@@ -1161,6 +1512,15 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string label7_Size {
+            get {
+                return ResourceManager.GetString("label7.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to (1) Uses Game Time
         ///.
         /// </summary>
@@ -1180,11 +1540,56 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string languageToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("languageToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string languageToolStripMenuItem_Text {
+            get {
+                return ResourceManager.GetString("languageToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string lightswitchCheckbox_Location {
+            get {
+                return ResourceManager.GetString("lightswitchCheckbox.Location", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string lightswitchCheckbox_Size {
+            get {
+                return ResourceManager.GetString("lightswitchCheckbox.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lightswitch.
         /// </summary>
         internal static string lightswitchCheckbox_Text {
             get {
                 return ResourceManager.GetString("lightswitchCheckbox.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string loadToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("loadToolStripMenuItem.Size", resourceCulture);
             }
         }
         
@@ -1216,11 +1621,47 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string openReadmeToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("openReadmeToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open Readme.
         /// </summary>
         internal static string openReadmeToolStripMenuItem_Text {
             get {
                 return ResourceManager.GetString("openReadmeToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string pictureBox1_Image {
+            get {
+                return ResourceManager.GetString("pictureBox1.Image", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string pictureBox2_Image {
+            get {
+                return ResourceManager.GetString("pictureBox2.Image", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string quickLinkToGitHubToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("quickLinkToGitHubToolStripMenuItem.Size", resourceCulture);
             }
         }
         
@@ -1243,6 +1684,15 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string reportABugToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("reportABugToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Report a Bug.
         /// </summary>
         internal static string reportABugToolStripMenuItem_Text {
@@ -1252,11 +1702,29 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string richTextBox1_Text {
+            get {
+                return ResourceManager.GetString("richTextBox1.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &quot;The good ending&quot;.
         /// </summary>
         internal static string richTextBox12_Text {
             get {
                 return ResourceManager.GetString("richTextBox12.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string richTextBox2_Text {
+            get {
+                return ResourceManager.GetString("richTextBox2.Text", resourceCulture);
             }
         }
         
@@ -1293,6 +1761,15 @@ namespace MDRG_Analyzer {
         internal static string richTextBox6_Text {
             get {
                 return ResourceManager.GetString("richTextBox6.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string richTextBox7_Text {
+            get {
+                return ResourceManager.GetString("richTextBox7.Text", resourceCulture);
             }
         }
         
@@ -1378,6 +1855,15 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string saveEditConsentBox_Size {
+            get {
+                return ResourceManager.GetString("saveEditConsentBox.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to I acknowledge and understand that using this feature may result in breaking or compromising
         ///my save games, and I assume full responsibility for any potential loss of progress or data..
         /// </summary>
@@ -1429,6 +1915,15 @@ namespace MDRG_Analyzer {
         internal static string saveSlotBoxGen_Text {
             get {
                 return ResourceManager.GetString("saveSlotBoxGen.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string suggestAFeatureToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("suggestAFeatureToolStripMenuItem.Size", resourceCulture);
             }
         }
         
@@ -1514,6 +2009,15 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string tabPage9_Text {
+            get {
+                return ResourceManager.GetString("tabPage9.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lorem Ipsum! English!.
         /// </summary>
         internal static string testString {
@@ -1523,11 +2027,110 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string toolStripSeparator1_Size {
+            get {
+                return ResourceManager.GetString("toolStripSeparator1.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string traditionalChineseToolStripMenuItem_Size {
+            get {
+                return ResourceManager.GetString("traditionalChineseToolStripMenuItem.Size", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Visited Websites.
         /// </summary>
         internal static string visitedWebsiteGroupBox_Text {
             get {
                 return ResourceManager.GetString("visitedWebsiteGroupBox.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items10 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items11 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items12 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items13 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items14 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items15 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items2 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items8 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string websitesCheckBoxes_Items9 {
+            get {
+                return ResourceManager.GetString("websitesCheckBoxes.Items9", resourceCulture);
             }
         }
         

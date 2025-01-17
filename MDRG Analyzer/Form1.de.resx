@@ -117,11 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="groupBox72.Text" xml:space="preserve">
+    <value>Extra Credits</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Weitere Credits gehen an:
+
+Den MDRG-Discord-Server - Programmierhilfe
+italy2003 / PixivID: 66835722 - Bilder / Kunst
+bgrmystr2 - Linux Testing
+小夜 - Chinesische und Spanische Übersetzung
+Dich - Für das benutzen des Programms. Danke :D</value>
+  </data>
   <data name="groupBox43.Text" xml:space="preserve">
     <value>Speicherslot</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
     <value>Bearbeit. Info</value>
+  </data>
+  <data name="infoSaveBox.Text" xml:space="preserve">
+    <value>Lade eine Datei</value>
   </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
     <value>Speicherstände</value>
@@ -198,6 +213,9 @@ Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
   <data name="groupBox45.Text" xml:space="preserve">
     <value>Slot</value>
   </data>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>Keine Datei</value>
+  </data>
   <data name="groupBox13.Text" xml:space="preserve">
     <value>Geist. Gesundh.</value>
   </data>
@@ -248,6 +266,9 @@ Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
   </data>
   <data name="groupBox44.Text" xml:space="preserve">
     <value>Slot</value>
+  </data>
+  <data name="saveSlotBoxBot.Text" xml:space="preserve">
+    <value>Keine Datei</value>
   </data>
   <data name="groupBox39.Text" xml:space="preserve">
     <value>Außen gekommen</value>
@@ -384,6 +405,9 @@ Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
   <data name="groupBox14.Text" xml:space="preserve">
     <value>Slot</value>
   </data>
+  <data name="saveSlotBox.Text" xml:space="preserve">
+    <value>Keine Datei</value>
+  </data>
   <data name="groupBox32.Text" xml:space="preserve">
     <value>Streamspenden</value>
   </data>
@@ -515,6 +539,9 @@ SelfName
 timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
+  </data>
+  <data name="debugTextBox.Text" xml:space="preserve">
+    <value>Lade eine Speicherdatei. Die Inhalte dieser wird hier angezeigt.</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>

@@ -239,6 +239,7 @@
             this.traditionalChineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.donateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox72.SuspendLayout();
@@ -1837,7 +1838,8 @@
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
             this.deutschToolStripMenuItem,
-            this.traditionalChineseToolStripMenuItem});
+            this.traditionalChineseToolStripMenuItem,
+            this.españolToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
             resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             // 
@@ -1857,7 +1859,7 @@
             resources.ApplyResources(this.deutschToolStripMenuItem, "deutschToolStripMenuItem");
             this.deutschToolStripMenuItem.Click += new System.EventHandler(this.deutschToolStripMenuItem_Click);
             // 
-            // TraditionalChineseToolStripMenuItem
+            // traditionalChineseToolStripMenuItem
             // 
             this.traditionalChineseToolStripMenuItem.Name = "traditionalChineseToolStripMenuItem";
             resources.ApplyResources(this.traditionalChineseToolStripMenuItem, "traditionalChineseToolStripMenuItem");
@@ -1872,6 +1874,12 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // españolToolStripMenuItem
+            // 
+            this.españolToolStripMenuItem.Name = "españolToolStripMenuItem";
+            resources.ApplyResources(this.españolToolStripMenuItem, "españolToolStripMenuItem");
+            this.españolToolStripMenuItem.Click += new System.EventHandler(this.españolToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -2202,6 +2210,7 @@
         private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.GroupBox commandsGroupBox;
         private System.Windows.Forms.RichTextBox commandsTextBox;
+        private System.Windows.Forms.ToolStripMenuItem españolToolStripMenuItem;
     }
 }
 

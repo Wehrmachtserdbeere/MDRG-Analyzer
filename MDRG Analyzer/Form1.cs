@@ -21,7 +21,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.10.1";
+        readonly string __version__ = "1.1.11";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -72,6 +72,9 @@ namespace MDRG_Analyzer
                     break;
                 case "zh":
                     SetLanguageAppearanceBoldCHecked(traditionalChineseToolStripMenuItem);
+                    break;
+                case "es":
+                    SetLanguageAppearanceBoldCHecked(españolToolStripMenuItem);
                     break;
                 default:
                     SetLanguageAppearanceBoldCHecked(englishToolStripMenuItem);
@@ -893,6 +896,11 @@ namespace MDRG_Analyzer
         private void traditionalChineseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ChangeLanguage("zh");
+        }
+
+        private void españolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeLanguage("es");
         }
 
         private async void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
