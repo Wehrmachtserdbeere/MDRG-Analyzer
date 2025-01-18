@@ -479,10 +479,10 @@ namespace MDRG_Analyzer {
         ///MDRG Discord - Coding Help
         ///italy2003 / PixivID: 66835722 - Art
         ///bgrmystr2 - Linux Testing
-        ///Xiaoye - Chinese and Spanish Translation
+        ///Xiaoye - Chinese, Spanish, and Portugese Translation
         ///You - For using the program :)
         ///
-        ///The Creator of this Program, as well as Xiaoye (Chinese and Spanish Translation) are on the MDRG Discord Server. If there are translation errors or missing translations, please report these either on the MDRG Analyzer GitHub page by opening a new Issue, by posting in this (https://github.com/Wehrmachtserdbeere/MDRG-Anal [rest of string was truncated]&quot;;.
+        ///The Creator of this Program, as well as Xiaoye (Chinese, Spanish, and Portugese Translation) are on the MDRG Discord Server. If there are translation errors or missing translations, please report these either on the MDRG Analyzer GitHub page by opening a new Issue, by posting in this (https://github.com/Wehr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ExtraCreditsText {
             get {
