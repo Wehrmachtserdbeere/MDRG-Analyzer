@@ -97,7 +97,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to church-endSpotkanie2B.
         /// </summary>
         internal static string checkedListBox1_Items {
             get {
@@ -106,7 +106,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to church-endTheWorstEnd.
         /// </summary>
         internal static string checkedListBox1_Items1 {
             get {
@@ -115,7 +115,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to church-endIdontknow.
         /// </summary>
         internal static string checkedListBox1_Items2 {
             get {
@@ -124,7 +124,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to church-endJustGoThereGood.
         /// </summary>
         internal static string checkedListBox1_Items3 {
             get {
@@ -133,7 +133,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to church-endJustGoThereBad.
         /// </summary>
         internal static string checkedListBox1_Items4 {
             get {
@@ -142,7 +142,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-ballsexploded.
         /// </summary>
         internal static string checkedListBox2_Items {
             get {
@@ -151,7 +151,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-goodEnd1.
         /// </summary>
         internal static string checkedListBox2_Items1 {
             get {
@@ -160,7 +160,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-genericSchizoEnd.
         /// </summary>
         internal static string checkedListBox2_Items10 {
             get {
@@ -169,7 +169,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-KilledByADirtyCop1.
         /// </summary>
         internal static string checkedListBox2_Items11 {
             get {
@@ -178,7 +178,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-KilledByADirtyCop2.
         /// </summary>
         internal static string checkedListBox2_Items12 {
             get {
@@ -187,7 +187,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-theyKnowOblivious.
         /// </summary>
         internal static string checkedListBox2_Items13 {
             get {
@@ -196,7 +196,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-theyKnow.
         /// </summary>
         internal static string checkedListBox2_Items14 {
             get {
@@ -205,7 +205,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to bigdaddyhurtSecretEpilogue.
         /// </summary>
         internal static string checkedListBox2_Items15 {
             get {
@@ -214,7 +214,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to saveEdited.
         /// </summary>
         internal static string checkedListBox2_Items16 {
             get {
@@ -223,7 +223,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-badEnd1.
         /// </summary>
         internal static string checkedListBox2_Items2 {
             get {
@@ -232,7 +232,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-badEnd2.
         /// </summary>
         internal static string checkedListBox2_Items3 {
             get {
@@ -241,7 +241,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-badEnd3.
         /// </summary>
         internal static string checkedListBox2_Items4 {
             get {
@@ -250,7 +250,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-badEnd4.1.
         /// </summary>
         internal static string checkedListBox2_Items5 {
             get {
@@ -259,7 +259,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-badEnd4.2.
         /// </summary>
         internal static string checkedListBox2_Items6 {
             get {
@@ -268,7 +268,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-healthEnd.
         /// </summary>
         internal static string checkedListBox2_Items7 {
             get {
@@ -277,7 +277,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-fedEnd.
         /// </summary>
         internal static string checkedListBox2_Items8 {
             get {
@@ -286,7 +286,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-schizoEnd.
         /// </summary>
         internal static string checkedListBox2_Items9 {
             get {
@@ -313,7 +313,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Commands.
         /// </summary>
         internal static string commandsGroupBox_Text {
             get {
@@ -322,7 +322,15 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to &quot;C:\system\debug\reports\report_1.txt&quot; --- Sys Report 1 Virus attack, DT?
+        ///&quot;C:\system\debug\reports\report_2.txt&quot; --- Sys Report 2 - if 3, must be 2 and 1
+        ///&quot;C:\system\debug\reports\report_3.txt&quot; --- Sys Report 3 - Found after prologue, cutscene of console.
+        ///&quot;F:\files\research\journal\1574_12_12.txt&quot; --- Journal Text of Derry Tavis
+        ///&quot;F:\Jun\system\safety\Asimov3.xftt&quot; --- Access Denied
+        ///F:\files\research\journal\1578_12_16.txt
+        ///F:\files\research\journal\1580_12_18.txt
+        ///
+        ///PlayVideo --- Uses file path to play a given  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string commandsTextBox_Text {
             get {
@@ -367,7 +375,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Donate.
         /// </summary>
         internal static string donateToolStripMenuItem_Text {
             get {
@@ -421,7 +429,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Español.
         /// </summary>
         internal static string españolToolStripMenuItem_Text {
             get {
@@ -466,13 +474,15 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extra Credits go to:
+        ///   Looks up a localized string similar to Extra credits go to
         ///
-        ///The MDRG Discord - Coding help
+        ///MDRG Discord - Coding Help
         ///italy2003 / PixivID: 66835722 - Art
         ///bgrmystr2 - Linux Testing
-        ///小夜 - Chinese and Spanish Translation
-        ///You - For using this program. Thank you :D.
+        ///Xiaoye - Chinese and Spanish Translation
+        ///You - For using the program :)
+        ///
+        ///The Creator of this Program, as well as Xiaoye (Chinese and Spanish Translation) are on the MDRG Discord Server. If there are translation errors or missing translations, please report these either on the MDRG Analyzer GitHub page by opening a new Issue, by posting in this (https://github.com/Wehrmachtserdbeere/MDRG-Anal [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ExtraCreditsText {
             get {
@@ -527,6 +537,7 @@ namespace MDRG_Analyzer {
         
         /// <summary>
         ///   Looks up a localized string similar to Could not check for Update!
+        ///
         ///Error:
         ///
         ///.
@@ -1549,7 +1560,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Language.
         /// </summary>
         internal static string languageToolStripMenuItem_Text {
             get {
@@ -1702,7 +1713,14 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to This tool is made for the game &quot;!Ω Factorial Omega: My Dystopian Robot Girlfriend&quot;.
+        ///
+        ///WARNING - Spoilers! This tool will include spoilers by the fact that it lists a lot of information. Please be warned!
+        ///
+        ///To begin using it, select &quot;File&quot; -&gt; &quot;Open File&quot; and open your save file. Then select which slot you want to check. This does not include autosaves.
+        ///
+        ///Prior to 0.90, your save files were saved in the following directory:
+        ///[ C:\Users\&lt;YOUR USERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string richTextBox1_Text {
             get {
@@ -1720,7 +1738,9 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to WARNING! This feature is in testing and your save will most likely be corrupted! Keep a backup!
+        ///The options will be unlocked when you agree that you have read this text and acknowledge that any loss of data will be your fault, will be on you alone, and that this feature more likely than not corrupt the selected save, if not every save.
+        ///.
         /// </summary>
         internal static string richTextBox2_Text {
             get {
@@ -1765,7 +1785,19 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ending-ballsexploded --- &quot;Too much juice...&quot;
+        ///ending-goodEnd1 --- &quot;Selling your bot&quot;
+        ///ending-badEnd1 --- &quot;Termination of tenancy&quot;
+        ///ending-badEnd2 --- &quot;Failure...&quot;
+        ///ending-badEnd3 --- &quot;Coward...&quot;
+        ///ending-badEnd4.1 --- &quot;Termination of tenancy v2: hobo&quot;
+        ///ending-badEnd4.2 --- &quot;Termination of tenancy v2: murder&quot;
+        ///ending-healthEnd --- &quot;Starvation&quot;
+        ///ending-fedEnd --- &quot;Got caught...&quot;
+        ///ending-schizoEnd --- &quot;I&apos;m not crazy...&quot;
+        ///ending-genericSchizoEnd --- &quot;Wall-kun&quot;
+        ///ending-KilledByADirtyCop1 --- &quot;Never trust the cops...&quot;
+        ///ending [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string richTextBox7_Text {
             get {
@@ -2009,7 +2041,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Commands.
         /// </summary>
         internal static string tabPage9_Text {
             get {
@@ -2054,7 +2086,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to cocktracts.ic/help.
         /// </summary>
         internal static string websitesCheckBoxes_Items10 {
             get {
@@ -2063,7 +2095,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to cocktracts.ic/partner.
         /// </summary>
         internal static string websitesCheckBoxes_Items11 {
             get {
@@ -2072,7 +2104,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to cocktracts.ic/partners.
         /// </summary>
         internal static string websitesCheckBoxes_Items12 {
             get {
@@ -2081,7 +2113,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to cocktwitch.ic.
         /// </summary>
         internal static string websitesCheckBoxes_Items13 {
             get {
@@ -2090,7 +2122,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to cocktwitch.ic/leaderboard.
         /// </summary>
         internal static string websitesCheckBoxes_Items14 {
             get {
@@ -2099,7 +2131,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to cocktwitch.ic/stats.
         /// </summary>
         internal static string websitesCheckBoxes_Items15 {
             get {
@@ -2108,7 +2140,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to bang.ic/email.
         /// </summary>
         internal static string websitesCheckBoxes_Items2 {
             get {
@@ -2117,7 +2149,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to cocktracts.ic/available.
         /// </summary>
         internal static string websitesCheckBoxes_Items8 {
             get {
@@ -2126,7 +2158,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to cocktracts.ic/contract.
         /// </summary>
         internal static string websitesCheckBoxes_Items9 {
             get {

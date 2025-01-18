@@ -118,600 +118,609 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="groupBox73.Text" xml:space="preserve">
-    <value>Last cuddled at(1)</value>
+    <value>Último abraço em</value>
   </data>
   <data name="groupBox74.Text" xml:space="preserve">
-    <value>Last Stream at(5)</value>
+    <value>Última transmissão em</value>
   </data>
   <data name="groupBox69.Text" xml:space="preserve">
-    <value>Last woke up at(1)</value>
+    <value>Acordei pela última vez às</value>
   </data>
   <data name="groupBox75.Text" xml:space="preserve">
-    <value>Last outside at(1)</value>
+    <value>Último fora às</value>
   </data>
   <data name="groupBox71.Text" xml:space="preserve">
-    <value>Last worked at(1)</value>
+    <value>Último trabalho realizado em</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
-    <value>Show Websites</value>
+    <value>Mostrar sites</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
-    <value>Show Achievements</value>
+    <value>Mostrar Conquistas</value>
   </data>
   <data name="groupBox47.Text" xml:space="preserve">
-    <value>Amount Streams</value>
+    <value>Quantidade de fluxos</value>
   </data>
   <data name="groupBox53.Text" xml:space="preserve">
-    <value>Word Chain</value>
+    <value>Cadeia de palavras</value>
   </data>
   <data name="groupBox80.Text" xml:space="preserve">
-    <value>Weekday(1)</value>
+    <value>Dia da semana</value>
   </data>
   <data name="ExtraCreditsText" xml:space="preserve">
-    <value>Extra credits go to
+    <value>Os créditos extras vão para
 
-MDRG Discord - Coding Help
-italy2003 / PixivID: 66835722 - Art
-bgrmystr2 - Linux Testing
-Xiaoye - Chinese and Spanish Translation
-You - For using the program :)
 
-The Creator of this Program, as well as Xiaoye (Chinese and Spanish Translation) are on the MDRG Discord Server. If there are translation errors or missing translations, please report these either on the MDRG Analyzer GitHub page by opening a new Issue, by posting in this (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11) discussion, or by pinging either me (@strawberrymk.vi) or Xiaoye (@lin007257) on the MDRG Analyzer thread on the MDRG Discord Server.
+MDRG Discord - Ajuda na codificação
 
-If you wish to translate the program into another language, contact me on either of those.</value>
+italy2003 / PixivID: 66835722 - Arte
+
+bgrmystr2 - Teste de Linux
+
+Xiaoye - Tradução de chinês e espanhol
+
+Você - Por usar o programa :)
+
+
+O Criador deste Programa, bem como Xiaoye (Tradução de Chinês e Espanhol) estão no Servidor Discord do MDRG. Se houver erros de tradução ou traduções em falta, por favor comunique-os na página do GitHub do MDRG Analyzer abrindo uma nova Issue, publicando nesta discussão (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11), ou enviando um ping para mim (@strawberrymk.vi) ou para a Xiaoye (@lin007257) no tópico do MDRG Analyzer no Servidor Discord do MDRG.
+
+
+Se quiser traduzir o programa para outra língua, contacte-me em qualquer um dos dois.</value>
   </data>
   <data name="ExtraCreditsCaption" xml:space="preserve">
-    <value>Extra Credits</value>
+    <value>Créditos extra</value>
   </data>
   <data name="groupBox51.Text" xml:space="preserve">
-    <value>Times Ran Away</value>
+    <value>Os tempos fugiram</value>
   </data>
   <data name="tabPage4.Text" xml:space="preserve">
-    <value>Websites</value>
+    <value>Sites</value>
   </data>
   <data name="openFileDialogTitle" xml:space="preserve">
-    <value>Select a .mdrg file.</value>
+    <value>Selecione um ficheiro .mdrg.</value>
   </data>
   <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
-    <value>Suggest a Feature</value>
+    <value>Sugira um recurso</value>
   </data>
   <data name="groupBox61.Text" xml:space="preserve">
-    <value>Vinegara End(1)</value>
+    <value>Fim do Vinagre(1)</value>
   </data>
   <data name="groupBox56.Text" xml:space="preserve">
-    <value>Times Lost</value>
+    <value>Tempos Perdidos</value>
   </data>
   <data name="groupBox54.Text" xml:space="preserve">
-    <value>Times Lost</value>
+    <value>Tempos Perdidos</value>
   </data>
   <data name="groupBox49.Text" xml:space="preserve">
-    <value>Times Lost</value>
+    <value>Tempos Perdidos</value>
   </data>
   <data name="groupBox17.Text" xml:space="preserve">
-    <value>Lust</value>
+    <value>Luxúria</value>
   </data>
   <data name="WeekDaysUnknown" xml:space="preserve">
-    <value>Unknown</value>
+    <value>Desconhecido</value>
   </data>
   <data name="groupBox18.Text" xml:space="preserve">
-    <value>Sympathy</value>
+    <value>Simpatia</value>
   </data>
   <data name="groupBox32.Text" xml:space="preserve">
     <value>Stream Donos</value>
   </data>
   <data name="groupBox40.Text" xml:space="preserve">
-    <value>Gametime</value>
+    <value>Hora do jogo</value>
   </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
-    <value>Save Files</value>
+    <value>Salvar ficheiros</value>
   </data>
   <data name="tabPage8.Text" xml:space="preserve">
-    <value>Save Editing</value>
+    <value>Guardar edição</value>
   </data>
   <data name="saveEditGroupBox.Text" xml:space="preserve">
-    <value>Save Editing</value>
+    <value>Guardar edição</value>
   </data>
   <data name="saveButton.Text" xml:space="preserve">
-    <value>Save (Overwrites current save!)</value>
+    <value>Guardar (Substitui o guardar atual!)</value>
   </data>
   <data name="groupBox26.Text" xml:space="preserve">
-    <value>Game Stage(3)</value>
+    <value>Estágio do jogo</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Player Values</value>
+    <value>Valores do Jogador</value>
   </data>
   <data name="tabPage2.Text" xml:space="preserve">
-    <value>Player Info</value>
+    <value>Informações do jogador</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Game Version</value>
+    <value>Versão do jogo</value>
   </data>
   <data name="EditInfoButtonText" xml:space="preserve">
-    <value>Save Editing has been added, enjoy!</value>
+    <value>A opção Salvar edição foi adicionada, divirta-se!</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Misc Achievements</value>
+    <value>Conquistas diversas</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
-    <value>Misc Values</value>
+    <value>Valores diversos</value>
   </data>
   <data name="tabPage7.Text" xml:space="preserve">
-    <value>Misc Info</value>
+    <value>Informações diversas</value>
   </data>
   <data name="WeekDaysSunday" xml:space="preserve">
-    <value>Sunday</value>
+    <value>Domingo</value>
   </data>
   <data name="groupBox45.Text" xml:space="preserve">
-    <value>Save Slot</value>
+    <value>Guardar Slot</value>
   </data>
   <data name="groupBox44.Text" xml:space="preserve">
-    <value>Save Slot</value>
+    <value>Guardar Slot</value>
   </data>
   <data name="groupBox43.Text" xml:space="preserve">
-    <value>Save Slot</value>
+    <value>Guardar Slot</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Save Slot</value>
+    <value>Guardar Slot</value>
   </data>
   <data name="BackupSuccessText" xml:space="preserve">
-    <value>Backup completed successfully! Your backup is saved as: </value>
+    <value>Cópia de segurança concluída com êxito! A sua cópia de segurança é guardada como: </value>
   </data>
   <data name="GuideAndInstructionsText" xml:space="preserve">
-    <value>Create Backup: This is the first thing you should do. It will create a backup, not overwrite it (unless you have more than 2147483647 backups, which will error out... I think).
+    <value>Criar cópia de segurança: Esta é a primeira coisa que deve fazer. Irá criar uma cópia de segurança e não substituí-la (a não ser que tenha mais de 2147483647 cópias de segurança, o que dará erro... Eu acho).
 
-Follow the entry numbering. For example: If the value is "42,927", then use a decimal value like "83,145".
 
-It is unknown if special characters break the Names, so to be safe, only use letters "A-Z" and "a-z". If you have the time to test it, please open an issue with your findings on what works and what doesn't.
+Siga a numeração da entrada. Por exemplo: Se o valor for “42.927”, use um valor decimal como “83.145”.
 
-It is recommended to not change the Game Stage.
 
-If a value has an asterisk next to it, it has some sort of issue associated with it. The issue(s) will be listed at the bottom of the tab.
+Não se sabe se os caracteres especiais quebram os Nomes, por isso, por segurança, utilize apenas letras “A-Z” e “a-z”. Se tiveres tempo para testar, abre uma issue com as tuas descobertas sobre o que funciona e o que não funciona.
 
-Values are usually integers, so assume the max. value to be 2147483647 (2,147,483,647)</value>
+
+Recomenda-se que não alteres a Fase do Jogo.
+
+
+Se um valor tiver um asterisco ao lado, ele tem algum tipo de problema associado. O(s) problema(s) será(ão) listado(s) na parte inferior do separador.
+
+
+Os valores são normalmente números inteiros, por isso assume que o valor máximo é 2147483647 (2.147.483.647)</value>
   </data>
   <data name="createBackupButton.Text" xml:space="preserve">
-    <value>Create Backup</value>
+    <value>Criar backup</value>
   </data>
   <data name="groupBox19.Text" xml:space="preserve">
-    <value>Longing</value>
+    <value>Saudade</value>
   </data>
   <data name="groupBox52.Text" xml:space="preserve">
-    <value>Chess</value>
+    <value>Xadrez</value>
   </data>
   <data name="WeekDaysSaturday" xml:space="preserve">
-    <value>Saturday</value>
+    <value>Sábado</value>
   </data>
   <data name="groupBox59.Text" xml:space="preserve">
-    <value>Cum Wasted</value>
+    <value>Desperdício de esperma</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>Cum in Pussy</value>
+    <value>Gozada na cona</value>
   </data>
   <data name="groupBox24.Text" xml:space="preserve">
-    <value>Cum in Stomach</value>
+    <value>Gozo no estômago</value>
   </data>
   <data name="groupBox23.Text" xml:space="preserve">
-    <value>Cum in Ass</value>
+    <value>Gozada no Cu</value>
   </data>
   <data name="groupBox42.Text" xml:space="preserve">
-    <value>Raw</value>
+    <value>Crua</value>
   </data>
   <data name="groupBox35.Text" xml:space="preserve">
-    <value>Raw</value>
+    <value>Crua</value>
   </data>
   <data name="groupBox31.Text" xml:space="preserve">
-    <value>Raw</value>
+    <value>Cru</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Exit</value>
+    <value>Saída</value>
   </data>
   <data name="groupBox79.Text" xml:space="preserve">
-    <value>PriestBot Point(4,5)</value>
+    <value>Ponto PriestBot</value>
   </data>
   <data name="groupBox78.Text" xml:space="preserve">
-    <value>Nun Points(4,5)</value>
+    <value>Pontos de freira</value>
   </data>
   <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
-    <value>New version found!
+    <value>Nova versão encontrada!
 
-Your Version: </value>
+A sua versão: </value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
-    <value>Name</value>
+    <value>Nome</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Check for Updates</value>
+    <value>Verificar atualizações</value>
   </data>
   <data name="WeekDaysMonday" xml:space="preserve">
-    <value>Monday</value>
+    <value>Segunda-feira</value>
   </data>
   <data name="groupBox58.Text" xml:space="preserve">
-    <value>ML came in Mouth</value>
+    <value>O ML chegou à boca</value>
   </data>
   <data name="WeekDaysWednesday" xml:space="preserve">
-    <value>Wednesday</value>
+    <value>Quarta-feira</value>
   </data>
   <data name="groupBox46.Text" xml:space="preserve">
-    <value>Rent in(1)</value>
+    <value>Alugar em</value>
   </data>
   <data name="openFileDialogFilter" xml:space="preserve">
-    <value>MDRG Files (*.mdrg)|*.mdrg|All Files (*.*)|*.*</value>
+    <value>Ficheiros MDRG (*.mdrg)|*.mdrg|Todos os ficheiros (*.*)|*.*</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>Max. Cum</value>
+    <value>Máx. Gozar</value>
   </data>
   <data name="groupBox67.Text" xml:space="preserve">
-    <value>Last Bot Talk(1)</value>
+    <value>Última conversa do bot</value>
   </data>
   <data name="groupBox76.Text" xml:space="preserve">
-    <value>Last equipm. at(1)</value>
+    <value>Último equipamento em</value>
   </data>
   <data name="groupBox70.Text" xml:space="preserve">
-    <value>Last church visit(1)</value>
+    <value>Última visita à igreja</value>
   </data>
   <data name="groupBox66.Text" xml:space="preserve">
-    <value>Last Headpat at(1)</value>
+    <value>Último toque na cabeça em</value>
   </data>
   <data name="groupBox68.Text" xml:space="preserve">
-    <value>Last Interact.(1)</value>
+    <value>Última interação</value>
   </data>
   <data name="groupBox65.Text" xml:space="preserve">
-    <value>LastHunger Info(1)</value>
+    <value>Informações sobre LastHunger</value>
   </data>
   <data name="groupBox64.Text" xml:space="preserve">
-    <value>Last Mental Info(1)</value>
-  </data>
-  <data name="testString" xml:space="preserve">
-    <value>Lorem Ipsum! English!</value>
+    <value>Última informação mental</value>
   </data>
   <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Open Readme</value>
+    <value>Abrir Leia-me</value>
   </data>
   <data name="lightswitchCheckbox.Text" xml:space="preserve">
-    <value>Lightswitch</value>
+    <value>Interruptor de luz</value>
   </data>
   <data name="groupBox77.Text" xml:space="preserve">
-    <value>Last sex at(1)</value>
+    <value>Último sexo em</value>
   </data>
   <data name="guideButton.Text" xml:space="preserve">
-    <value>Guide</value>
+    <value>Guia</value>
   </data>
   <data name="GuideAndInstructionsCaption" xml:space="preserve">
-    <value>Guide and Instructions</value>
+    <value>Guia</value>
   </data>
   <data name="groupBox20.Text" xml:space="preserve">
-    <value>Mood</value>
+    <value>Humor</value>
   </data>
   <data name="groupBox33.Text" xml:space="preserve">
-    <value>Longest Stream</value>
+    <value>Fluxo mais longo</value>
   </data>
   <data name="debugTextBox.Text" xml:space="preserve">
-    <value>Load a Save File. The content of the Save File will be displayed here.</value>
+    <value>Carregar um ficheiro guardado. O conteúdo do ficheiro guardado será exibido aqui.</value>
   </data>
   <data name="infoSaveBox.Text" xml:space="preserve">
-    <value>Load a File</value>
+    <value>Carregar um ficheiro</value>
   </data>
   <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>Load a File</value>
+    <value>Carregar um ficheiro</value>
   </data>
   <data name="GitResponseInvalidVersionFormatText" xml:space="preserve">
-    <value>Could not check for Update:
+    <value>Não foi possível verificar a atualização:
 
-Invalid version format.</value>
+
+Formato de versão inválido.</value>
   </data>
   <data name="GitResponseCouldNotCheckForUpdateText" xml:space="preserve">
-    <value>Could not check for Update!
+    <value>Não foi possível verificar a atualização!
 
-Error:
+Erro:
 
 </value>
   </data>
   <data name="groupBox63.Text" xml:space="preserve">
-    <value>Times to Church</value>
+    <value>Horários para a Igreja</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Church Achievements</value>
+    <value>Conquistas da Igreja</value>
   </data>
   <data name="GitResponseNewestVersionCaption" xml:space="preserve">
-    <value>No new version found!</value>
+    <value>Não foi encontrada nenhuma versão nova!</value>
   </data>
   <data name="BackupNoFileSelectedText" xml:space="preserve">
-    <value>No file selected. Please select a save file before creating a backup.</value>
+    <value>Nenhum ficheiro selecionado. Selecione um ficheiro para guardar antes de criar uma cópia de segurança.</value>
   </data>
   <data name="saveSlotBoxGen.Text" xml:space="preserve">
-    <value>No File</value>
+    <value>Nenhum ficheiro</value>
   </data>
   <data name="saveSlotBoxBot.Text" xml:space="preserve">
-    <value>No File</value>
+    <value>Nenhum ficheiro</value>
   </data>
   <data name="saveSlotBox.Text" xml:space="preserve">
-    <value>No File</value>
+    <value>Nenhum ficheiro</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>Casino Tokens</value>
+    <value>Fichas de casino</value>
   </data>
   <data name="groupBox21.Text" xml:space="preserve">
-    <value>Intelligence</value>
+    <value>Inteligência</value>
   </data>
   <data name="EditInfoButtonCaption" xml:space="preserve">
-    <value>Notice!</value>
+    <value>Aviso!</value>
   </data>
   <data name="tabPage1.Text" xml:space="preserve">
-    <value>Info</value>
+    <value>Informações</value>
   </data>
   <data name="groupBox36.Text" xml:space="preserve">
-    <value>Came inside Vag</value>
+    <value>Entrou no Vag</value>
   </data>
   <data name="groupBox38.Text" xml:space="preserve">
-    <value>Came inside Mouth</value>
+    <value>Entrou na boca</value>
   </data>
   <data name="groupBox37.Text" xml:space="preserve">
-    <value>Came inside Ass</value>
+    <value>Entrou no rabo</value>
   </data>
   <data name="SavedataLoadingUnknownError" xml:space="preserve">
-    <value>The program ran into an unknown error. Please contact me on Discord or open an Issue.
+    <value>O programa deparou-se com um erro desconhecido. Entre em contacto comigo no Discord ou abra um problema.
 
-Error:
+Erro:
+
 </value>
   </data>
   <data name="saveEditConsentBox.Text" xml:space="preserve">
-    <value>I acknowledge and understand that using this feature may result in breaking or compromising
-my save games, and I assume full responsibility for any potential loss of progress or data.</value>
+    <value>Reconheço e compreendo que o uso deste recurso pode resultar na quebra ou comprometimento
+os meus jogos guardados e assumo total responsabilidade por qualquer potencial perda de progresso ou de dados.</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Help</value>
+    <value>Ajuda</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Remember to keep her safe (and filled)</value>
+    <value>Lembre-se de a manter segura (e satisfeita)</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
-    <value>Quick Link to GitHub</value>
+    <value>Link rápido para o GitHub</value>
   </data>
   <data name="groupBox57.Text" xml:space="preserve">
-    <value>Times Won</value>
+    <value>Vezes Ganhas</value>
   </data>
   <data name="groupBox55.Text" xml:space="preserve">
-    <value>Times Won</value>
+    <value>Vezes Ganhas</value>
   </data>
   <data name="groupBox50.Text" xml:space="preserve">
-    <value>Times Won</value>
+    <value>Vezes Ganhas</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
-    <value>Health</value>
+    <value>Saúde</value>
   </data>
   <data name="groupBox29.Text" xml:space="preserve">
-    <value>Total Streamtime</value>
+    <value>Tempo total de transmissão</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Money</value>
+    <value>Dinheiro</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
-    <value>Mental Health</value>
+    <value>Saúde mental</value>
   </data>
   <data name="WeekDaysFriday" xml:space="preserve">
-    <value>Friday</value>
+    <value>Sexta-feira</value>
   </data>
   <data name="groupBox41.Text" xml:space="preserve">
-    <value>Formatted(2)</value>
+    <value>Formatado(2)</value>
   </data>
   <data name="groupBox34.Text" xml:space="preserve">
-    <value>Formatted(2)</value>
+    <value>Formatado(2)</value>
   </data>
   <data name="groupBox30.Text" xml:space="preserve">
-    <value>Formatted(2)</value>
+    <value>Formatado(2)</value>
   </data>
   <data name="groupBox27.Text" xml:space="preserve">
-    <value>Followers</value>
+    <value>Seguidores</value>
   </data>
   <data name="GenericErrorCaption" xml:space="preserve">
-    <value>Error!</value>
+    <value>Erro!</value>
   </data>
   <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
-    <value>Report a Bug</value>
+    <value>Reportar um erro</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
-    <value>Extra Credits</value>
+    <value>Créditos extras</value>
   </data>
   <data name="tabPage5.Text" xml:space="preserve">
-    <value>Achievements</value>
+    <value>Conquistas</value>
   </data>
   <data name="GenericSuccessCaption" xml:space="preserve">
-    <value>Success!</value>
+    <value>Sucesso!</value>
   </data>
   <data name="SavedataLoadingOverflowErrorText" xml:space="preserve">
-    <value>One of your save file entries caused an integer overflow! Please fix this before trying to load it into the program.
+    <value>Uma das entradas do teu ficheiro de gravação causou um estouro de número inteiro! Corrige isso antes de tentares carregar o ficheiro no programa.
 
-If your save is completely vanilla and has not been previously edited, open an Issue of message me on the MDRG Discord. Otherwise, you already know what you did, and I won't give your support for you breaking your own save.</value>
+Se o teu save for completamente vanilla e não tiver sido editado anteriormente, abre uma Issue ou envia-me uma mensagem no Discord do MDRG. Caso contrário, já sabes o que fizeste e não te vou dar apoio por estragares o teu próprio save.</value>
   </data>
   <data name="GitResponseNewestVersionText" xml:space="preserve">
-    <value>You are already on the newest version.</value>
+    <value>Já está a utilizar a versão mais recente.</value>
   </data>
   <data name="WeekDaysThursday" xml:space="preserve">
-    <value>Thursday</value>
+    <value>Quinta-feira</value>
   </data>
   <data name="WeekDaysTuesday" xml:space="preserve">
-    <value>Tuesday</value>
+    <value>Terça-feira</value>
   </data>
   <data name="groupBox10.Text" xml:space="preserve">
-    <value>Current Cum</value>
+    <value>Cum atual</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>Current Stamina</value>
+    <value>Resistência atual</value>
   </data>
   <data name="HttpRequestExceptionMessageText" xml:space="preserve">
-    <value>The program has run into the following error:
+    <value>O programa deparou-se com o seguinte erro:
 
 </value>
   </data>
   <data name="tabPage3.Text" xml:space="preserve">
-    <value>Debug</value>
+    <value>Depurar</value>
   </data>
   <data name="groupBox62.Text" xml:space="preserve">
-    <value>Deathgrip End(1)</value>
+    <value>Fim do Aperto Mortal(1)</value>
   </data>
   <data name="loadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Load File...</value>
+    <value>Carregar ficheiro...</value>
   </data>
   <data name="SavedataSavingSuccessText" xml:space="preserve">
-    <value>File successfully saved!</value>
+    <value>Ficheiro guardado com sucesso!</value>
   </data>
   <data name="RadioButtonFileText" xml:space="preserve">
-    <value>File {0}</value>
+    <value>Ficheiro {0}</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
+    <value>Ficheiro</value>
   </data>
   <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>Credits</value>
+    <value>Agradecimentos
+MDRG Discord - Ajuda de código
+italy2003 / PixivID: 66835722 - Arte
+bgrmystr2 - Teste Linux
+Autor: Strawberry Mk.VI Strawberry Mk.VI
+Tradutor: Xiaoye
+O autor e o tradutor são do servidor Discord.
+Se existirem erros de tradução ou não traduzidos,
+Por favor, reporte erros num destes dois locais ou em ambos para executar o relatório de erros.
+Esta publicação é para erros de tradução ou não traduzida. Link para este post:
+https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11
+discord MDRG-Analyzer Link
+https://discord.com/channels/813853552400138261/1325878602205626420
+Link da página inicial da discussão:
+https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions
+Este é o endereço do post no servidor Discord:
+https://discord.com/channels/813853552400138261/1325878602205626420
+Os links para download e código-fonte desta aplicação são os seguintes:
+Link para download do código fonte:
+https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
+Para descarregar esta aplicação, vá para o canto inferior esquerdo da página inicial do código-fonte. Existe uma dinâmica chamada Releases, que é o link para download desta aplicação.
+O código-fonte é adequado apenas para programadores. Criadores de programas e editores de aprendizagem.
+Está a usar este programa, obrigado</value>
   </data>
   <data name="groupBox15.Text" xml:space="preserve">
-    <value>Bot Values</value>
+    <value>Valores do bot</value>
   </data>
   <data name="tabPage6.Text" xml:space="preserve">
-    <value>Bot Info</value>
+    <value>Informações do bot</value>
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
-    <value>Bot Name</value>
+    <value>Nome do bot</value>
   </data>
   <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
-    <value>Visited Websites</value>
+    <value>Sites visitados</value>
   </data>
   <data name="SavedataSavingErrorText" xml:space="preserve">
-    <value>An error happened while saving your file!
+    <value>Ocorreu um erro ao guardar o seu ficheiro!
 
-Error:
+Erro:
+
 </value>
   </data>
   <data name="SavedataLoadingErrorText" xml:space="preserve">
-    <value>Something went wrong when loading your save. Please re-export your save and try again.
+    <value>Algo correu mal ao carregar a tua gravação. Volta a exportar o teu ficheiro guardado e tenta novamente.
 
-If it still does not work, paste your save file into a "JSON Beautifier" and check if there is any data inside "savedata". If there is not, your save might be corrupt.
+Se mesmo assim não funcionar, cola o teu ficheiro guardado num “JSON Beautifier” e verifica se existem dados dentro de “savedata”. Se não houver, seu arquivo salvo pode estar corrompido.
 
-If there is data, and the program does not work, please contact me on the MDRG Discord Server (https://discord.com/invite/SwpQUFWreW), or open an Issue on GitHub (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer).
+Se houver dados e o programa não funcionar, entre em contato comigo no servidor do Discord do MDRG (https://discord.com/invite/SwpQUFWreW) ou abra uma Issue no GitHub (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer).
 
-You have to reload the file via "File" -&gt; "Load File" when you have re-exported your file.</value>
+Tens de recarregar o ficheiro através de “Ficheiro” -&gt; “Carregar ficheiro” quando tiveres reexportado o teu ficheiro.</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
-    <value>Save Edit Info</value>
+    <value>Guardar Editar Informações</value>
   </data>
   <data name="groupBox39.Text" xml:space="preserve">
-    <value>Came outside</value>
+    <value>Veio para fora</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>App Version</value>
+    <value>Versão do aplicativo</value>
   </data>
   <data name="groupBox48.Text" xml:space="preserve">
-    <value>Old Maid</value>
+    <value>Solteirona</value>
   </data>
   <data name="GitResponseNewVersionAvailableCaption" xml:space="preserve">
-    <value>Update found!</value>
+    <value>Atualização encontrada!</value>
   </data>
   <data name="groupBox28.Text" xml:space="preserve">
-    <value>Subs</value>
+    <value>Subscritores</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>(5) Uses Game Time</value>
+    <value>(1)Hora do jogo</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>(1) Cannot be changed, rent is always on Monday
-(2) Converted for readability, not an actual value
-(3) No support will be given if changed
-(4) In some way related to the Church Questline</value>
+    <value>(1) Não pode ser alterado, o aluguer é sempre à segunda-feira
+(2) Convertido para legibilidade, não é um valor real
+(3) Não será dado apoio se alterado
+(4) De alguma forma relacionado com a Linha de Busca da Igreja</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>(1) Uses Game Time
-</value>
+    <value>(1)Hora do jogo</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>(1) Uses Game Time</value>
+    <value>(1)Hora do jogo</value>
   </data>
   <data name="groupBox60.Text" xml:space="preserve">
-    <value>"Search"(4)</value>
+    <value>Pesquisa(4)</value>
   </data>
   <data name="richTextBox3.Text" xml:space="preserve">
-    <value>"I don't Know" Ending</value>
+    <value>"Não sei" final</value>
   </data>
   <data name="richTextBox4.Text" xml:space="preserve">
-    <value>"The oblivious ending"</value>
+    <value>"O final alheio"</value>
   </data>
   <data name="richTextBox5.Text" xml:space="preserve">
-    <value>"The worst ending"</value>
+    <value>"O pior final"</value>
   </data>
   <data name="richTextBox6.Text" xml:space="preserve">
-    <value>"The not good enough ending"</value>
+    <value>"O final não é suficientemente bom"</value>
   </data>
   <data name="richTextBox12.Text" xml:space="preserve">
-    <value>"The good ending"</value>
+    <value>"O bom final"</value>
   </data>
   <data name="GitResponseNewVersionAvailableText2" xml:space="preserve">
     <value>
-Newest Version: </value>
+Versão mais recente: </value>
   </data>
   <data name="GitResponseNewVersionAvailableText3" xml:space="preserve">
     <value>
-Do you want to open GitHub to get the latest release?</value>
+Pretende abrir o GitHub para obter a versão mais recente?</value>
   </data>
   <data name="languageToolStripMenuItem" xml:space="preserve">
-    <value>Language</value>
+    <value>Idioma</value>
   </data>
   <data name="label6HorrorText" xml:space="preserve">
-    <value>get out get out get out get out get out get out get out get out get out get out</value>
+    <value>fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir</value>
   </data>
   <data name="label6NormalText" xml:space="preserve">
-    <value>Remember to keep her safe (and filled)</value>
+    <value>Lembre-se de a manter segura (e satisfeita)</value>
   </data>
   <data name="HttpRequestUnknownErrorMessageText" xml:space="preserve">
-    <value>An unknown error happened when automatically checking for an update:
+    <value>Ocorreu um erro desconhecido durante a verificação automática de uma atualização:
 
-Error:
+Erro:
 </value>
   </data>
   <data name="SavedataLoadingNoSavedataErrorText" xml:space="preserve">
-    <value>The file you tried to load doesn't contain any saved game data. This means that the save you are attempting to open is empty or not properly exported. Here's what you need to do to fix this:
+    <value>O ficheiro que tentaste carregar não contém quaisquer dados de jogos guardados. Isto significa que o ficheiro guardado que estás a tentar abrir está vazio ou não foi exportado corretamente. Eis o que tens de fazer para resolver isto:
 
-First, double-check that you actually exported your save correctly before trying to load it. If you're not sure, make sure you followed all the proper steps to export the save file. This is important because if the save hasn't been exported properly, it will not work when you try to load it.
+Primeiro, verifique se você exportou o jogo salvo corretamente antes de tentar carregá-lo. Se não tiveres a certeza, certifica-te de que seguiste todos os passos corretos para exportar o ficheiro guardado. Isso é importante porque, se o arquivo salvo não tiver sido exportado corretamente, ele não funcionará quando você tentar carregá-lo.
 
-If you're sure you exported your save and you're still seeing this message, then there might be a problem with how the data is structured inside the file. To check this, you should search online for something called a "JSON Beautifier." This tool will help you view the contents of your save file in a more readable format. Once you do that, look for the "savedata" section inside the file. If this section is completely empty, that means the data wasn't saved properly, and you need to go back, re-export your save file, and try again.
+Se tiveres a certeza de que exportaste o ficheiro guardado e continuares a ver esta mensagem, pode haver um problema com a estrutura dos dados no ficheiro. Para verificar isso, deve procurar online algo chamado “JSON Beautifier”. Esta ferramenta irá ajudá-lo a visualizar o conteúdo do seu ficheiro guardado num formato mais legível. Depois de fazeres isso, procura a secção “savedata” dentro do ficheiro. Se esta secção estiver completamente vazia, isso significa que os dados não foram guardados corretamente e que é necessário voltar atrás, reexportar o ficheiro guardado e tentar novamente.
 
-If your "savedata" section is not empty and it still doesn't work, please don't hesitate to reach out for help. You can open an issue on GitHub where I can assist you further, or you can contact me directly on the MDRG Discord Server. On the Discord Server, you'll find a thread titled "MDRG Analyzer" located in the most recent Mods forum. Please let me know the details of your issue there, and I'll help you troubleshoot further.</value>
-  </data>
-  <data name="pictureBox1.Image" xml:space="preserve">
-    <value />
+Se a secção “savedata” não estiver vazia e continuar a não funcionar, não hesite em pedir ajuda. Você pode abrir um problema no GitHub, onde eu posso ajudá-lo mais, ou pode entrar em contato comigo diretamente no servidor do Discord do MDRG. No servidor Discord, você encontrará um tópico intitulado “MDRG Analyzer” localizado no fórum Mods mais recente. Por favor, me informe os detalhes do seu problema lá, e eu vou ajudá-lo a solucionar o problema.</value>
   </data>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>This tool is made for the game "!Ω Factorial Omega: My Dystopian Robot Girlfriend".
+    <value>Esta ferramenta foi feita para o jogo "!Ω Factorial Omega: My Dystopian Robot Girlfriend".
 
-WARNING - Spoilers! This tool will include spoilers by the fact that it lists a lot of information. Please be warned!
+AVISO - Spoilers! Esta ferramenta incluirá spoilers pelo facto de listar muita informação. Por favor, esteja avisado!
 
-To begin using it, select "File" -&gt; "Open File" and open your save file. Then select which slot you want to check. This does not include autosaves.
+Para começar a utilizá-lo, selecione "Ficheiro" -&gt; "Abrir ficheiro" e abra o seu ficheiro guardado. Em seguida, selecione o slot que pretende verificar. Isto não inclui salvamentos automáticos.
 
-Prior to 0.90, your save files were saved in the following directory:
-[ C:\Users\&lt;YOUR USERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
-In version 0.90 and later, your exported save file will be in the location you saved it at.
+Antes da versão 0.90, os seus ficheiros guardados eram guardados no seguinte diretório:
+[ C:\Utilizadores\&lt;O TEU NOME DE UTILIZADOR&gt;\AppData\LocalLow\IncontinentCell\A minha namorada robô distópica\Saves]
+Na versão 0.90 e seguintes, o ficheiro guardado exportado estará no local onde o guardou.
 
-Copyright © 2023-2024 Strawberry Software. All rights reserved.
-"MDRG Analyzer" is an independent creation by Strawberry Software and is not affiliated with or endorsed by Incontinent Cell. The game content and related intellectual property are the sole property of Incontinent Cell.</value>
-  </data>
-  <data name="label4.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label7.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label5.Location" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label5.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="label1.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lightswitchCheckbox.Location" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lightswitchCheckbox.Size" xml:space="preserve">
-    <value />
+Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados.
+"MDRG Analyser" é uma criação independente da Strawberry Software e não é afiliado nem endossado pela Incontinent Cell. O conteúdo do jogo e a propriedade intelectual relacionada são propriedade exclusiva da Incontinent Cell.</value>
   </data>
   <data name="websitesCheckBoxes.Items2" xml:space="preserve">
     <value>bang.ic/email</value>
@@ -756,23 +765,23 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
     <value>church-endJustGoThereBad</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
-    <value>ending-ballsexploded --- "Too much juice..."
-ending-goodEnd1 --- "Selling your bot"
-ending-badEnd1 --- "Termination of tenancy"
-ending-badEnd2 --- "Failure..."
-ending-badEnd3 --- "Coward..."
-ending-badEnd4.1 --- "Termination of tenancy v2: hobo"
-ending-badEnd4.2 --- "Termination of tenancy v2: murder"
-ending-healthEnd --- "Starvation"
-ending-fedEnd --- "Got caught..."
-ending-schizoEnd --- "I'm not crazy..."
-ending-genericSchizoEnd --- "Wall-kun"
-ending-KilledByADirtyCop1 --- "Never trust the cops..."
-ending-KilledByADirtyCop2 --- "Never trust the cops... AGAIN"
-ending-theyKnowOblivious --- "They know... (oblivious)"
-ending-theyKnow --- "They know..."
-bigdaddyhurtSecretEpilogue --- Not an ending by itself but part of "They know...". - Met bigdaddyhurt but didn't continue his storyline
-saveEdited --- Used the iamacheater website.</value>
+    <value>ending-ballsexploded --- "Muito sumo..."
+ending-goodEnd1 --- "Vendendo o seu bot"
+ending-badEnd1 --- "Rescisão de arrendamento"
+final-mauFim2 --- "Falha..."
+final-mauFim3 --- "Covarde..."
+ending-badEnd4.1 --- "Rescisão de arrendamento v2: vagabundo"
+final-mauFim4.2 --- "Rescisão de localização v2: assassinato"
+final-saúdeFim --- "Fome"
+final-fedEnd --- "Fui apanhado..."
+final-esquizoFim --- "Eu não sou louco..."
+final-genéricoSchizoEnd --- "Wall-kun"
+final-KilledByADirtyCop1 --- "Nunca confies nos polícias..."
+final-KilledByADirtyCop2 --- "Nunca mais confies nos polícias... OUTRA VEZ"
+final-theyKnowOblivious --- "Eles sabem... (alheios)"
+final-elesSabem --- "Eles sabem..."
+bigdaddyhurtSecretEpilogue --- Não é um final propriamente dito, mas faz parte de "Eles sabem...". - Conheci o bigdaddyhurt mas não continuei a sua história
+guardarEditado --- Utilizei o site iamacheater.</value>
   </data>
   <data name="checkedListBox2.Items" xml:space="preserve">
     <value>ending-ballsexploded</value>
@@ -825,118 +834,37 @@ saveEdited --- Used the iamacheater website.</value>
   <data name="checkedListBox2.Items16" xml:space="preserve">
     <value>saveEdited</value>
   </data>
-  <data name="label6.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pictureBox2.Image" xml:space="preserve">
-    <value />
-  </data>
-  <data name="saveEditConsentBox.Size" xml:space="preserve">
-    <value />
-  </data>
   <data name="richTextBox2.Text" xml:space="preserve">
-    <value>WARNING! This feature is in testing and your save will most likely be corrupted! Keep a backup!
-The options will be unlocked when you agree that you have read this text and acknowledge that any loss of data will be your fault, will be on you alone, and that this feature more likely than not corrupt the selected save, if not every save.
-</value>
+    <value>AVISO! Este recurso está em teste e o seu ficheiro guardado provavelmente estará corrompido! Mantenha um backup!
+As opções serão desbloqueadas quando concordar que leu este texto e reconhecer que qualquer perda de dados será culpa sua, será apenas sua e que esta funcionalidade provavelmente corromperá o salvamento selecionado, se não todos os salvamentos.</value>
   </data>
   <data name="commandsGroupBox.Text" xml:space="preserve">
-    <value>Commands</value>
+    <value>Comandos</value>
   </data>
   <data name="tabPage9.Text" xml:space="preserve">
-    <value>Commands</value>
-  </data>
-  <data name="loadToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="exitToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="fileToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="openReadmeToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="toolStripSeparator1.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="reportABugToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="suggestAFeatureToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="quickLinkToGitHubToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="helpToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="englishToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="deutschToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="españolToolStripMenuItem.Size" xml:space="preserve">
-    <value />
+    <value>Comandos</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
     <value>Español</value>
   </data>
-  <data name="languageToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="donateToolStripMenuItem.Size" xml:space="preserve">
-    <value />
+    <value>Idioma</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Donate</value>
-  </data>
-  <data name="$this.Icon" xml:space="preserve">
-    <value />
+    <value>Doar</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>My Dystopian Robot Girlfriend Save Analyzer</value>
+    <value>A minha namorada robô distópica Guardar Analisador</value>
   </data>
   <data name="commandsTextBox.Text" xml:space="preserve">
-    <value>"C:\system\debug\reports\report_1.txt" --- Sys Report 1 Virus attack, DT?
-"C:\system\debug\reports\report_2.txt" --- Sys Report 2 - if 3, must be 2 and 1
-"C:\system\debug\reports\report_3.txt" --- Sys Report 3 - Found after prologue, cutscene of console.
-"F:\files\research\journal\1574_12_12.txt" --- Journal Text of Derry Tavis
-"F:\Jun\system\safety\Asimov3.xftt" --- Access Denied
-F:\files\research\journal\1578_12_16.txt
-F:\files\research\journal\1580_12_18.txt
+    <value>"C:\system\debug\reports\report_1.txt" --- Relatório do Sistema 1 Ataque de vírus, DT?
+"C:\system\debug\reports\report_2.txt" --- Relatório do Sistema 2 - Se 3, deve ser 2 e 1
+"C:\system\debug\reports\report_3.txt" --- Relatório do Sistema 3 - Encontrado após o prólogo, cena da consola.
+"F:\files\research\journal\1574_12_12.txt" --- Texto do diário de Derry Tavis
+"F:\Jun\system\safety\Asimov3. xftt" --- Acesso negado
+F:\ficheiros\pesquisa\diário\1578_12_16.txt
+F:\ficheiros\pesquisa\diário\1580_12_18.txt
 
-PlayVideo --- Uses file path to play a given video (e.g. [ PlayVideo "C:\Videos\Meruccubus.mp4" ] )
-
-VV Prompts (add "vv" before the command)
-
-lust
-sympathy
-mood
-isNaked
-cumInsideAnalMl
-cumInsideVaginaMl
-cumInsideStomachMl
-masterCumExtractedMl
-timeSinceLastHeadpat
-timeSinceLastSex
-timeSinceLastTalkWithMaster
-Horniness
-MasterName
-SelfName
-timesCameMouth
-timeCameInsideVagina
-timeCameInsideAnal</value>
+Reproduza um determinado vídeo utilizando um caminho de ficheiro (por exemplo, [PlayVideo "C:\Videos\Meruccubus. mp4" ] ) Prompt "VV" (adicionar "vv" antes do comando) luxúria simpatia humor éNu gozarDentroAnalMl gozarDentroVaginaMl gozarDentroEstômagoMl mestreGozoExtraídoMl tempoDesdeÚltimoTapinhaNaCabeceira tempoDesdeÚltimoSexo tempoDesdeÚltimoConversaComMestre Tesão MestreNome SelfName timesCameMouth timeCameInsideVagina timeCameInsideAnal</value>
   </data>
 </root>

@@ -148,20 +148,36 @@
     <value>Díadelasemana(1)</value>
   </data>
   <data name="ExtraCreditsText" xml:space="preserve">
-    <value>Créditos extra para:
+    <value>Créditos extra para
 
 
-The MDRG Discord - Ayuda con el código
+MDRG Discord - Ayuda de codificación
+
 italy2003 / PixivID: 66835722 - Arte
+
 bgrmystr2 - Pruebas de Linux
-小夜 - Traducción al chino y español
-You - Por usar este programa. Gracias :D</value>
+
+Xiaoye - Traducción chino y español
+
+Tú - Por usar el programa :)
+
+
+El Creador de este Programa, así como Xiaoye (Traducción Chino y Español) están en el MDRG Discord Server. Si hay errores de traducción o traducciones que faltan, por favor informe de ellos, ya sea en la página MDRG Analyzer GitHub mediante la apertura de un nuevo tema, mediante la publicación en este (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11) discusión, o por ping ya sea yo (@strawberrymk.vi) o Xiaoye (@lin007257) en el hilo MDRG Analyzer en el MDRG Discord Server.
+
+
+Si deseas traducir el programa a otro idioma, ponte en contacto conmigo.</value>
+  </data>
+  <data name="ExtraCreditsCaption" xml:space="preserve">
+    <value>Créditos</value>
   </data>
   <data name="groupBox51.Text" xml:space="preserve">
     <value>VecesHuyó</value>
   </data>
   <data name="tabPage4.Text" xml:space="preserve">
     <value>Sitiosweb</value>
+  </data>
+  <data name="openFileDialogTitle" xml:space="preserve">
+    <value>Seleccione un archivo .mdrg.</value>
   </data>
   <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
     <value>Sugerirunafunción</value>
@@ -180,6 +196,9 @@ You - Por usar este programa. Gracias :D</value>
   </data>
   <data name="groupBox17.Text" xml:space="preserve">
     <value>Lujuria</value>
+  </data>
+  <data name="WeekDaysUnknown" xml:space="preserve">
+    <value>Desconocido</value>
   </data>
   <data name="groupBox18.Text" xml:space="preserve">
     <value>Simpatía</value>
@@ -226,6 +245,9 @@ You - Por usar este programa. Gracias :D</value>
   <data name="tabPage7.Text" xml:space="preserve">
     <value>Informacióndiversa</value>
   </data>
+  <data name="WeekDaysSunday" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
   <data name="groupBox45.Text" xml:space="preserve">
     <value>SlotdeGuardado</value>
   </data>
@@ -263,6 +285,9 @@ Los valores suelen ser números enteros, así que asume que el valor máximo es 
   <data name="groupBox52.Text" xml:space="preserve">
     <value>Ajedrez</value>
   </data>
+  <data name="WeekDaysSaturday" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
   <data name="groupBox59.Text" xml:space="preserve">
     <value>CumDesperdiciado</value>
   </data>
@@ -293,17 +318,31 @@ Los valores suelen ser números enteros, así que asume que el valor máximo es 
   <data name="groupBox78.Text" xml:space="preserve">
     <value>PuntosdeMonja(1)</value>
   </data>
+  <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
+    <value>¡Nueva versión encontrada!
+
+Su versión: </value>
+  </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Nombre</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Buscaractualizaciones</value>
   </data>
+  <data name="WeekDaysMonday" xml:space="preserve">
+    <value>Lunes</value>
+  </data>
   <data name="groupBox58.Text" xml:space="preserve">
     <value>Vinoenlaboca</value>
   </data>
+  <data name="WeekDaysWednesday" xml:space="preserve">
+    <value>Miércoles</value>
+  </data>
   <data name="groupBox46.Text" xml:space="preserve">
     <value>Alquileren(1)</value>
+  </data>
+  <data name="openFileDialogFilter" xml:space="preserve">
+    <value>Archivos MDRG (*.mdrg)|*.mdrg|Todos los archivos (*.*)|*.*</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Máx.Cum</value>
@@ -359,11 +398,27 @@ Los valores suelen ser números enteros, así que asume que el valor máximo es 
   <data name="gameVersionBox.Text" xml:space="preserve">
     <value>Cargar un archivo</value>
   </data>
+  <data name="GitResponseInvalidVersionFormatText" xml:space="preserve">
+    <value>No se ha podido comprobar la actualización:
+
+
+Formato de versión no válido.</value>
+  </data>
+  <data name="GitResponseCouldNotCheckForUpdateText" xml:space="preserve">
+    <value>No se ha podido comprobar la actualización.
+
+Error:
+
+</value>
+  </data>
   <data name="groupBox63.Text" xml:space="preserve">
     <value>VecesalaIglesia</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>LogrosdelaIglesia</value>
+  </data>
+  <data name="GitResponseNewestVersionCaption" xml:space="preserve">
+    <value>No se ha encontrado ninguna versión nueva.</value>
   </data>
   <data name="BackupNoFileSelectedText" xml:space="preserve">
     <value>No se ha seleccionado ningún archivo. Seleccione un archivo de almacenamiento antes de crear una copia de seguridad.</value>
@@ -382,6 +437,9 @@ Los valores suelen ser números enteros, así que asume que el valor máximo es 
   </data>
   <data name="groupBox21.Text" xml:space="preserve">
     <value>Inteligencia</value>
+  </data>
+  <data name="EditInfoButtonCaption" xml:space="preserve">
+    <value>¡Atención!</value>
   </data>
   <data name="tabPage1.Text" xml:space="preserve">
     <value>Información</value>
@@ -434,6 +492,9 @@ de mis partidas guardadas, y asumo toda la responsabilidad por cualquier posible
   <data name="groupBox13.Text" xml:space="preserve">
     <value>Saludmental</value>
   </data>
+  <data name="WeekDaysFriday" xml:space="preserve">
+    <value>Viernes</value>
+  </data>
   <data name="groupBox41.Text" xml:space="preserve">
     <value>Formateado(2)</value>
   </data>
@@ -446,6 +507,9 @@ de mis partidas guardadas, y asumo toda la responsabilidad por cualquier posible
   <data name="groupBox27.Text" xml:space="preserve">
     <value>Seguidores</value>
   </data>
+  <data name="GenericErrorCaption" xml:space="preserve">
+    <value>¡Error!</value>
+  </data>
   <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
     <value>Reportarunerror</value>
   </data>
@@ -455,17 +519,33 @@ de mis partidas guardadas, y asumo toda la responsabilidad por cualquier posible
   <data name="tabPage5.Text" xml:space="preserve">
     <value>Logros</value>
   </data>
+  <data name="GenericSuccessCaption" xml:space="preserve">
+    <value>¡Éxito!</value>
+  </data>
   <data name="SavedataLoadingOverflowErrorText" xml:space="preserve">
     <value>Una de las entradas de tu archivo de guardado ha causado un desbordamiento de enteros. Por favor, corrígelo antes de intentar cargarlo en el programa.
 
-
 Si tu archivo guardado es completamente vainilla y no ha sido editado previamente, abre una incidencia o envíame un mensaje en el Discord del MDRG. Si no, ya sabes lo que has hecho, y no te daré soporte por haber roto tu propio save.</value>
+  </data>
+  <data name="GitResponseNewestVersionText" xml:space="preserve">
+    <value>Ya está en la versión más reciente.</value>
+  </data>
+  <data name="WeekDaysThursday" xml:space="preserve">
+    <value>Jueves</value>
+  </data>
+  <data name="WeekDaysTuesday" xml:space="preserve">
+    <value>Martes</value>
   </data>
   <data name="groupBox10.Text" xml:space="preserve">
     <value>CumActual</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
     <value>Resistenciaactual</value>
+  </data>
+  <data name="HttpRequestExceptionMessageText" xml:space="preserve">
+    <value>El programa se ha encontrado con el siguiente error:
+
+</value>
   </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>Depurar</value>
@@ -479,33 +559,14 @@ Si tu archivo guardado es completamente vainilla y no ha sido editado previament
   <data name="SavedataSavingSuccessText" xml:space="preserve">
     <value>¡Archivo guardado correctamente!</value>
   </data>
+  <data name="RadioButtonFileText" xml:space="preserve">
+    <value>Archivo {0}</value>
+  </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Archivo</value>
   </data>
   <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>Agradecimientos  
-MDRG Discord - Ayuda con el código  
-italy2003 / PixivID: 66835722 - Arte  
-bgrmystr2 - Pruebas de Linux  
-Autor: Strawberry Mk.VI  
-Traductor: Xiao Ye  
-Tanto el autor como el traductor provienen del servidor de Discord.  
-Si hay errores de traducción o partes no traducidas,  
-por favor reporta el error en cualquiera de estos dos lugares, o en ambos,  
-este hilo se ha creado para reportar errores de traducción o partes no traducidas:  
-https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11  
-Enlace de Discord MDRG-Analyzer  
-https://discord.com/channels/813853552400138261/1325878602205626420  
-Enlace a la página de discusión:  
-https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions
-Esta es la dirección del mensaje en el servidor de Discord:
-https://discord.com/channels/813853552400138261/1325878602205626420
-El enlace para descargar la aplicación y el código fuente es el siguiente:
-Enlace para descargar el código fuente:
-https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
-Para descargar la aplicación, por favor dirígete a la esquina inferior izquierda de la página principal del código fuente, donde hay una sección llamada Releases, que contiene el enlace de descarga de la aplicación.
-El código fuente es solo para desarrolladores, programadores y personas que deseen aprender a editar.
-Gracias por usar este programa.</value>
+    <value>Créditos</value>
   </data>
   <data name="groupBox15.Text" xml:space="preserve">
     <value>ValoresdelBot</value>
@@ -542,6 +603,12 @@ Si tu archivo guardado es completamente vainilla y no ha sido editado previament
   <data name="groupBox48.Text" xml:space="preserve">
     <value>Viejadoncella</value>
   </data>
+  <data name="GitResponseNewVersionAvailableCaption" xml:space="preserve">
+    <value>¡Actualización encontrada!</value>
+  </data>
+  <data name="groupBox28.Text" xml:space="preserve">
+    <value>Abonados</value>
+  </data>
   <data name="label5.Text" xml:space="preserve">
     <value>(5)TiempodeJuego</value>
   </data>
@@ -574,6 +641,29 @@ Si tu archivo guardado es completamente vainilla y no ha sido editado previament
   </data>
   <data name="richTextBox12.Text" xml:space="preserve">
     <value>"El buen final"</value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText2" xml:space="preserve">
+    <value>
+La versión más reciente: </value>
+  </data>
+  <data name="GitResponseNewVersionAvailableText3" xml:space="preserve">
+    <value>
+¿Quieres abrir GitHub para obtener la última versión?</value>
+  </data>
+  <data name="languageToolStripMenuItem" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="label6HorrorText" xml:space="preserve">
+    <value>huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir</value>
+  </data>
+  <data name="label6NormalText" xml:space="preserve">
+    <value>Recuerda mantenerla segura (y llena)</value>
+  </data>
+  <data name="HttpRequestUnknownErrorMessageText" xml:space="preserve">
+    <value>Se ha producido un error desconocido al buscar automáticamente una actualización:
+
+Error:
+</value>
   </data>
   <data name="SavedataLoadingNoSavedataErrorText" xml:space="preserve">
     <value>Crear copia de seguridad: esto es lo primero que debes hacer. Creará una copia de seguridad, no la sobrescribirá (a menos que tengas más de 2147483647 copias de seguridad, lo que generará un error... creo).
@@ -712,46 +802,46 @@ Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
     <value>120, 16</value>
   </data>
   <data name="websitesCheckBoxes.Items2" xml:space="preserve">
-    <value>bang.ic/correo electrónico</value>
+    <value>bang.ic/email</value>
   </data>
   <data name="websitesCheckBoxes.Items8" xml:space="preserve">
-    <value>cocktracts.ic/ayuda</value>
+    <value>cocktracts.ic/available</value>
   </data>
   <data name="websitesCheckBoxes.Items9" xml:space="preserve">
-    <value>cocktracts.ic/contrato</value>
+    <value>cocktracts.ic/contract</value>
   </data>
   <data name="websitesCheckBoxes.Items10" xml:space="preserve">
-    <value>cocktracts.ic/disponible</value>
+    <value>cocktracts.ic/help</value>
   </data>
   <data name="websitesCheckBoxes.Items11" xml:space="preserve">
-    <value>cocktracts.ic/socio</value>
+    <value>cocktracts.ic/partner</value>
   </data>
   <data name="websitesCheckBoxes.Items12" xml:space="preserve">
-    <value>cocktracts.ic/socios</value>
+    <value>cocktracts.ic/partners</value>
   </data>
   <data name="websitesCheckBoxes.Items13" xml:space="preserve">
-    <value>cocktwitch. ic/stats</value>
-  </data>
-  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
     <value>cocktwitch.ic</value>
   </data>
+  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
+    <value>cocktwitch.ic/leaderboard</value>
+  </data>
   <data name="websitesCheckBoxes.Items15" xml:space="preserve">
-    <value>cocktwitch.ic/tabla de clasificación</value>
+    <value>cocktwitch.ic/stats</value>
   </data>
   <data name="checkedListBox1.Items" xml:space="preserve">
-    <value>iglesia-finalSpotkanie2B</value>
+    <value>church-endSpotkanie2B</value>
   </data>
   <data name="checkedListBox1.Items1" xml:space="preserve">
-    <value>iglesia-finalElPeorFinal</value>
+    <value>church-endTheWorstEnd</value>
   </data>
   <data name="checkedListBox1.Items2" xml:space="preserve">
-    <value>iglesia-finalNosé</value>
+    <value>church-endIdontknow</value>
   </data>
   <data name="checkedListBox1.Items3" xml:space="preserve">
-    <value>iglesia-finalSoloVeAllíBueno</value>
+    <value>church-endJustGoThereGood</value>
   </data>
   <data name="checkedListBox1.Items4" xml:space="preserve">
-    <value>iglesia-finalSoloVeAllíMalo</value>
+    <value>church-endJustGoThereBad</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
     <value>"El final no es lo suficientemente bueno" final-bolasexplotadas --- "Demasiado jugo..."
@@ -773,55 +863,55 @@ bigdaddyhurtSecretEpilogue --- No es un final por sí mismo, sino parte de "Ello
 saveEdited --- Usé el sitio web iamacheater.</value>
   </data>
   <data name="checkedListBox2.Items" xml:space="preserve">
-    <value>final-bolasexplotadas</value>
+    <value>ending-ballsexploded</value>
   </data>
   <data name="checkedListBox2.Items1" xml:space="preserve">
-    <value>final-buenoFinal1</value>
+    <value>ending-goodEnd1</value>
   </data>
   <data name="checkedListBox2.Items2" xml:space="preserve">
-    <value>final-maloFinal1</value>
+    <value>ending-badEnd1</value>
   </data>
   <data name="checkedListBox2.Items3" xml:space="preserve">
-    <value>final-maloFinal2</value>
+    <value>ending-badEnd2</value>
   </data>
   <data name="checkedListBox2.Items4" xml:space="preserve">
-    <value>final-maloFinal3</value>
+    <value>ending-badEnd3</value>
   </data>
   <data name="checkedListBox2.Items5" xml:space="preserve">
-    <value>final-maloFinal4.1</value>
+    <value>ending-badEnd4.1</value>
   </data>
   <data name="checkedListBox2.Items6" xml:space="preserve">
-    <value>final-maloFinal4.2</value>
+    <value>ending-badEnd4.2</value>
   </data>
   <data name="checkedListBox2.Items7" xml:space="preserve">
-    <value>final-saludFinal</value>
+    <value>ending-healthEnd</value>
   </data>
   <data name="checkedListBox2.Items8" xml:space="preserve">
-    <value>final-alimentadoFinal</value>
+    <value>ending-fedEnd</value>
   </data>
   <data name="checkedListBox2.Items9" xml:space="preserve">
-    <value>final-esquizofreniaFinal</value>
+    <value>ending-schizoEnd</value>
   </data>
   <data name="checkedListBox2.Items10" xml:space="preserve">
-    <value>final-esquizofreniagenéricaFinal</value>
+    <value>ending-genericSchizoEnd</value>
   </data>
   <data name="checkedListBox2.Items11" xml:space="preserve">
-    <value>final-MatadoPorUnPolicíaSucio1</value>
+    <value>ending-KilledByADirtyCop1</value>
   </data>
   <data name="checkedListBox2.Items12" xml:space="preserve">
-    <value>final-MatadoPorUnPolicíaSucio2</value>
+    <value>ending-KilledByADirtyCop2</value>
   </data>
   <data name="checkedListBox2.Items13" xml:space="preserve">
-    <value>final-ellosSabenOblivious</value>
+    <value>ending-theyKnowOblivious</value>
   </data>
   <data name="checkedListBox2.Items14" xml:space="preserve">
-    <value>final-ellosSaben</value>
+    <value>ending-theyKnow</value>
   </data>
   <data name="checkedListBox2.Items15" xml:space="preserve">
-    <value>bigdaddyhurtSecretoEpílogo</value>
+    <value>bigdaddyhurtSecretEpilogue</value>
   </data>
   <data name="checkedListBox2.Items16" xml:space="preserve">
-    <value>guardarEditado</value>
+    <value>saveEdited</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 12</value>
@@ -3502,5 +3592,36 @@ Las opciones se desbloquearán cuando aceptes que has leído este texto y recono
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Mi Analizador de Guardado de Novia Robot Distópica</value>
+  </data>
+  <data name="commandsTextBox.Text" xml:space="preserve">
+    <value>«C:\system\debug\reports\report_1.txt» --- Sys Report 1 ¿Ataque de virus, DT?
+«C:\system\debug\reports\report_2.txt» --- Sys Report 2 - si es 3, debe ser 2 y 1
+«C:\system\debug\reports\report_3.txt» --- Sys Report 3 - Encontrado después del prólogo, cutscene de consola.
+«F:\files\research\journal\1574_12_12.txt» --- Texto del diario de Derry Tavis
+«F:³³Jun³system³safety³Asimov3.xftt» --- Acceso denegado
+F:\files\research\journal\1578_12_16.txt
+F:\files\research\journal\1580_12_18.txt
+
+PlayVideo --- Utiliza la ruta del archivo para reproducir un vídeo determinado (por ejemplo, [ PlayVideo «C:\Videos\Meruccubus.mp4» ] )
+
+VV Prompts (añada «vv» antes del comando)
+
+lujuria
+simpatía
+humor
+isNaked
+cumInsideAnalMl
+cumInsideVaginaMl
+cumInsideStomachMl
+masterCumExtractedMl
+timeSinceLastHeadpat
+timeSinceLastSex
+timeSinceLastTalkWithMaster
+Sensación de calor
+MasterName
+AutoNombre
+timesCameBoca
+timeCameInsideVagina
+timeCameInsideAnal</value>
   </data>
 </root>

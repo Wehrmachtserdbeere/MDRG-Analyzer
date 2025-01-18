@@ -148,13 +148,17 @@
     <value>Wochentag(1)</value>
   </data>
   <data name="ExtraCreditsText" xml:space="preserve">
-    <value>Weitere Credits gehen an:
+    <value>usätzliche Credits gehen an:
 
-Den MDRG-Discord-Server - Programmierhilfe
-italy2003 / PixivID: 66835722 - Bilder / Kunst
-bgrmystr2 - Linux Testing
-小夜 - Chinesische und Spanische Übersetzung
-Dich - Für das benutzen des Programms. Danke :D</value>
+MDRG Discord - Coding-Hilfe
+italy2003 / PixivID: 66835722 - Kunst
+bgrmystr2 - Linux-Tests
+Xiaoye - Chinesische und Spanische Übersetzung
+Und an dich - Dafür, dass du das Programm benutzt! :)
+
+Der Ersteller dieses Programms sowie Xiaoye (Chinesische und Spanische Übersetzung) sind auf dem MDRG Discord-Server. Falls dir Übersetzungsfehler oder fehlende Übersetzungen auffallen, melde diese bitte entweder auf der MDRG Analyzer GitHub-Seite, indem du ein neues Issue eröffnest, in dieser Diskussion (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11) postest, oder mich (@strawberrymk.vi) oder Xiaoye (@lin007257) im MDRG Analyzer-Thread auf dem MDRG Discord-Server pingst.
+
+Falls du das Programm in eine andere Sprache übersetzen möchtest, melde dich einfach bei mir über eine der genannten Möglichkeiten!</value>
   </data>
   <data name="ExtraCreditsCaption" xml:space="preserve">
     <value>Weitere Credits</value>
@@ -397,6 +401,7 @@ Ungültige Versionenformatierung.</value>
   </data>
   <data name="GitResponseCouldNotCheckForUpdateText" xml:space="preserve">
     <value>Konnte nicht nach Aktualisierung suchen!
+
 Fehler:
 
 </value>
@@ -668,5 +673,183 @@ Fehler:
 Falls du sicher bist, dass du deinen Speicherstand exportiert hast und trotzdem diese Meldung bekommst, könnte es ein Problem mit der Struktur der Daten in der Datei geben. Um das zu überprüfen, solltest du online nach einem "JSON Beautifier" suchen. Mit diesem Tool kannst du den Inhalt deiner Datei in einem besseren Format ansehen. Schau dir dann den Abschnitt "savedata" in der Datei an. Wenn dieser Abschnitt komplett leer ist, bedeutet das, dass die Daten nicht richtig gespeichert wurden. In diesem Fall musst du den Speicherstand noch einmal exportieren und es dann erneut versuchen.
 
 Falls der Abschnitt "savedata" nicht leer ist und es trotzdem nicht funktioniert, melde dich einfach bei mir. Du kannst ein Problem auf GitHub öffnen, und ich helfe dir weiter, oder du kannst mich direkt im MDRG Discord-Server kontaktieren. Im Discord-Server findest du einen Thread mit dem Titel "MDRG Analyzer" im neuesten Mods-Forum. Schreib mir dort die Details zu deinem Problem, und ich werde dir weiterhelfen.</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Dieses Programm wurde für das Spiel "!Ω Factorial Omega: My Dystopian Robot Girlfriend" entwickelt.
+
+WARNUNG – Spoiler! Dieses Programm enthält Spoiler, da es viele nicht angezeigte Informationen auflistet. Sei gewarnt!
+
+Um es zu verwenden, wähle "Datei" -&gt; "Datei öffnen..." und öffne deine Speicherdatei. Wähle dann den Speicherstand aus, den du überprüfen möchtest. Diese schließen automatische Speicherungen nicht ein.
+
+Vor 0.90 wurden deine Speicherdateien im folgenden Verzeichnis gespeichert:
+[ C:\Benutzer\&lt;DEIN BENUTZERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves ]
+In Version 0.90 und höher befindet sich deine exportierte Speicherdatei an dem Speicherort, an dem du diese gespeichert hast.
+
+Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
+"MDRG Analyzer" ist eine unabhängige Kreation von Strawberry Software und ist weder mit Incontinent Cell verbunden noch wird es von Incontinent Cell unterstützt. Die Spielinhalte und das damit verbundene geistige Eigentum sind das alleinige Eigentum von Incontinent Cell.</value>
+  </data>
+  <data name="websitesCheckBoxes.Items2" xml:space="preserve">
+    <value>bang.ic/email</value>
+  </data>
+  <data name="websitesCheckBoxes.Items8" xml:space="preserve">
+    <value>cocktracts.ic/available</value>
+  </data>
+  <data name="websitesCheckBoxes.Items9" xml:space="preserve">
+    <value>cocktracts.ic/contract</value>
+  </data>
+  <data name="websitesCheckBoxes.Items10" xml:space="preserve">
+    <value>cocktracts.ic/help</value>
+  </data>
+  <data name="websitesCheckBoxes.Items11" xml:space="preserve">
+    <value>cocktracts.ic/partner</value>
+  </data>
+  <data name="websitesCheckBoxes.Items12" xml:space="preserve">
+    <value>cocktracts.ic/partners</value>
+  </data>
+  <data name="websitesCheckBoxes.Items13" xml:space="preserve">
+    <value>cocktwitch.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
+    <value>cocktwitch.ic/leaderboard</value>
+  </data>
+  <data name="websitesCheckBoxes.Items15" xml:space="preserve">
+    <value>cocktwitch.ic/stats</value>
+  </data>
+  <data name="checkedListBox1.Items" xml:space="preserve">
+    <value>church-endSpotkanie2B</value>
+  </data>
+  <data name="checkedListBox1.Items1" xml:space="preserve">
+    <value>church-endTheWorstEnd</value>
+  </data>
+  <data name="checkedListBox1.Items2" xml:space="preserve">
+    <value>church-endIdontknow</value>
+  </data>
+  <data name="checkedListBox1.Items3" xml:space="preserve">
+    <value>church-endJustGoThereGood</value>
+  </data>
+  <data name="checkedListBox1.Items4" xml:space="preserve">
+    <value>church-endJustGoThereBad</value>
+  </data>
+  <data name="richTextBox7.Text" xml:space="preserve">
+    <value>ending-ballsexploded --- "Zu viel Saft..."
+ending-goodEnd1 --- "Verkaufe deinen Bot"
+ending-badEnd1 --- "Kündigung des Mietverhältnisses"
+ending-badEnd2 --- "Mietfehler..."
+ending-badEnd3 --- "Feigling..."
+ending-badEnd4.1 --- "Kündigung des Mietverhältnisses v2: Penner"
+ending-badEnd4.2 --- "Kündigung des Mietverhältnisses v2: Mord"
+ending-healthEnd --- "Verhungern"
+ending-fedEnd --- "Wurde erwischt..."
+ending-schizoEnd --- "Ich bin nicht verrückt..."
+ending-genericSchizoEnd --- "Wall-kun"
+ending-KilledByADirtyCop1 --- "Vertraue niemals den Bullen..."
+ending-KilledByADirtyCop2 --- "Vertraue niemals den Bullen... WIEDER"
+ending-theyKnowOblivious --- "Sie wissen... (ahnungslos)"
+ending-theyKnow --- "Sie wissen..."
+bigdaddyhurtSecretEpilogue --- Kein eigenständiges Ende, sondern Teil von "Sie wissen...". - Habe bigdaddyhurt getroffen, aber seine Geschichte nicht fortgesetzt
+saveEdited --- Habe die iamacheater-Website verwendet.</value>
+  </data>
+  <data name="checkedListBox2.Items" xml:space="preserve">
+    <value>ending-ballsexploded</value>
+  </data>
+  <data name="checkedListBox2.Items1" xml:space="preserve">
+    <value>ending-goodEnd1</value>
+  </data>
+  <data name="checkedListBox2.Items2" xml:space="preserve">
+    <value>ending-badEnd1</value>
+  </data>
+  <data name="checkedListBox2.Items3" xml:space="preserve">
+    <value>ending-badEnd2</value>
+  </data>
+  <data name="checkedListBox2.Items4" xml:space="preserve">
+    <value>ending-badEnd3</value>
+  </data>
+  <data name="checkedListBox2.Items5" xml:space="preserve">
+    <value>ending-badEnd4.1</value>
+  </data>
+  <data name="checkedListBox2.Items6" xml:space="preserve">
+    <value>ending-badEnd4.2</value>
+  </data>
+  <data name="checkedListBox2.Items7" xml:space="preserve">
+    <value>ending-healthEnd</value>
+  </data>
+  <data name="checkedListBox2.Items8" xml:space="preserve">
+    <value>ending-fedEnd</value>
+  </data>
+  <data name="checkedListBox2.Items9" xml:space="preserve">
+    <value>ending-schizoEnd</value>
+  </data>
+  <data name="checkedListBox2.Items10" xml:space="preserve">
+    <value>ending-genericSchizoEnd</value>
+  </data>
+  <data name="checkedListBox2.Items11" xml:space="preserve">
+    <value>ending-KilledByADirtyCop1</value>
+  </data>
+  <data name="checkedListBox2.Items12" xml:space="preserve">
+    <value>ending-KilledByADirtyCop2</value>
+  </data>
+  <data name="checkedListBox2.Items13" xml:space="preserve">
+    <value>ending-theyKnowOblivious</value>
+  </data>
+  <data name="checkedListBox2.Items14" xml:space="preserve">
+    <value>ending-theyKnow</value>
+  </data>
+  <data name="checkedListBox2.Items15" xml:space="preserve">
+    <value>bigdaddyhurtSecretEpilogue</value>
+  </data>
+  <data name="checkedListBox2.Items16" xml:space="preserve">
+    <value>saveEdited</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>WARNUNG! Diese Funktion wird gerade getestet und dein Speicherstand wird höchstwahrscheinlich beschädigt! Mach ein Backup!</value>
+  </data>
+  <data name="commandsGroupBox.Text" xml:space="preserve">
+    <value>Kommandos</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>Kommandos</value>
+  </data>
+  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spenden</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>My Dystopian Robot Girlfriend Speicherstand Analysierer</value>
+  </data>
+  <data name="commandsTextBox.Text" xml:space="preserve">
+    <value>"C:\system\debug\reports\report_1.txt" --- Sys-Bericht 1 - Virenangriff, DT?
+"C:\system\debug\reports\report_2.txt" --- Sys-Bericht 2 – wenn 3, muss es 2 und 1 sein
+"C:\system\debug\reports\report_3.txt" --- Sys-Bericht 3 – Gefunden nach Prolog, Zwischensequenz der Konsole.
+"F:\files\research\journal\1574_12_12.txt" --- Tagebuchtext von Derry Tavis
+"F:\Jun\system\safety\Asimov3.xftt" --- Zugriff verweigert
+F:\files\research\journal\1578_12_16.txt
+F:\files\research\journal\1580_12_18.txt
+
+Verwendet Dateipfad, um ein bestimmtes Video abzuspielen (z. B. [ PlayVideo "C:\Videos\Meruccubus.mp4" ] )
+
+"VV"-Eingabeaufforderungen (füge "vv" und ein Leerzeichen vor dem Befehl hinzu)
+
+lust
+sympathy
+mood
+isNaked
+cumInsideAnalMl
+cumInsideVaginaMl
+cumInsideStomachMl
+masterCumExtractedMl
+timeSinceLastHeadpat
+timeSinceLastSex
+timeSinceLastTalkWithMaster
+Horniness
+MasterName
+SelfName
+timesCameMouth
+timeCameInsideVagina
+timeCameInsideAnal</value>
   </data>
 </root>

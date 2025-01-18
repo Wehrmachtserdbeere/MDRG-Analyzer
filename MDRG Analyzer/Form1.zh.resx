@@ -117,39 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>存档信息</value>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>致谢</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
     <value>致谢</value>
-  </data>
-  <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>致谢
-MDRG Discord  - 代码帮助
-italy2003  / PixivID ： 66835722  - 艺术
-bgrmystr2  - Linux 测试
-作者:Strawberry Mk.VI  草莓 Mk.VI
-翻译人员:小夜
-作者和翻译人员都来自discord服务器里.
-如有翻译错误和未翻译,
-请到这两处其中一处报告错误或两处都可以进入运行报告错误,
-此贴子为翻译出现错误或未翻译尔开建此贴链接:
-https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11
-discord MDRG-Analyzer 链接
-https://discord.com/channels/813853552400138261/1325878602205626420
-讨论主页链接:
-https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions
-这是discord服务器里贴子地址:
-https://discord.com/channels/813853552400138261/1325878602205626420
-本应用程序下载和源代码链接如下:
-源代码下载链接:
-https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
-本应用程序下载,请进入源代码主页里的左下角有个叫Releases的动态里,是本应用程序下载链接.
-源代码只适合开发人员.制作程序人员和学习编辑人员.,
-您正在使用此程序，谢谢</value>
-  </data>
-  <data name="groupBox43.Text" xml:space="preserve">
-    <value>存档位置</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
     <value>保存编辑信息</value>
@@ -157,17 +129,20 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="infoSaveBox.Text" xml:space="preserve">
     <value>上傳檔案</value>
   </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>存档位置</value>
+  </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
     <value>保存文件</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>应用程序版本</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>游戏版本</value>
-  </data>
   <data name="gameVersionBox.Text" xml:space="preserve">
     <value>上傳檔案</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>游戏版本</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -269,11 +244,8 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
 版权所有 © 2023-2024 Strawberry Software。保留所有权利。
 “MDRG Analyzer”是由 Strawberry Software 独立创作的，与 Incontinent Cell 没有任何关联或认可。游戏内容和相关知识产权均为 Incontinent Cell 的唯一财产。</value>
   </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>玩家信息</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>玩家信息</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>存档信息</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 12</value>
@@ -317,11 +289,11 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox59.Text" xml:space="preserve">
     <value>精液浪费</value>
   </data>
-  <data name="groupBox45.Text" xml:space="preserve">
-    <value>存档位置</value>
-  </data>
   <data name="saveSlotBoxGen.Text" xml:space="preserve">
     <value>无计算机文件</value>
+  </data>
+  <data name="groupBox45.Text" xml:space="preserve">
+    <value>存档位置</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
     <value>心理健康</value>
@@ -347,11 +319,11 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox6.Text" xml:space="preserve">
     <value>玩家姓名</value>
   </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>机器人信息</value>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>玩家信息</value>
   </data>
-  <data name="groupBox15.Text" xml:space="preserve">
-    <value>机器人信息</value>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>玩家信息</value>
   </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>最后一次拥抱(1)</value>
@@ -374,11 +346,11 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox58.Text" xml:space="preserve">
     <value>精液总计</value>
   </data>
-  <data name="groupBox44.Text" xml:space="preserve">
-    <value>存档位置</value>
-  </data>
   <data name="saveSlotBoxBot.Text" xml:space="preserve">
     <value>无计算机文件</value>
+  </data>
+  <data name="groupBox44.Text" xml:space="preserve">
+    <value>存档位置</value>
   </data>
   <data name="groupBox39.Text" xml:space="preserve">
     <value>外面射精</value>
@@ -419,11 +391,11 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox16.Text" xml:space="preserve">
     <value>机器人姓名</value>
   </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>其他信息</value>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>机器人信息</value>
   </data>
-  <data name="groupBox25.Text" xml:space="preserve">
-    <value>其他信息</value>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>机器人信息</value>
   </data>
   <data name="groupBox80.Text" xml:space="preserve">
     <value>工作日(1)</value>
@@ -455,17 +427,14 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
 (3) 如果更改，将不提供支持
 (4) 在某种程度上与教会任务线相关</value>
   </data>
-  <data name="groupBox53.Text" xml:space="preserve">
-    <value>字链</value>
-  </data>
   <data name="groupBox56.Text" xml:space="preserve">
     <value>失败次数</value>
   </data>
   <data name="groupBox57.Text" xml:space="preserve">
     <value>获胜次数</value>
   </data>
-  <data name="groupBox52.Text" xml:space="preserve">
-    <value>国际象棋</value>
+  <data name="groupBox53.Text" xml:space="preserve">
+    <value>字链</value>
   </data>
   <data name="groupBox54.Text" xml:space="preserve">
     <value>失败次数</value>
@@ -473,8 +442,8 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox55.Text" xml:space="preserve">
     <value>获胜次数</value>
   </data>
-  <data name="groupBox48.Text" xml:space="preserve">
-    <value>机器人</value>
+  <data name="groupBox52.Text" xml:space="preserve">
+    <value>国际象棋</value>
   </data>
   <data name="groupBox51.Text" xml:space="preserve">
     <value>逃跑</value>
@@ -485,14 +454,14 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox50.Text" xml:space="preserve">
     <value>获胜次数</value>
   </data>
+  <data name="groupBox48.Text" xml:space="preserve">
+    <value>机器人</value>
+  </data>
   <data name="groupBox47.Text" xml:space="preserve">
     <value>直播流量</value>
   </data>
   <data name="groupBox46.Text" xml:space="preserve">
     <value>租金(1)</value>
-  </data>
-  <data name="groupBox40.Text" xml:space="preserve">
-    <value>游戏时间</value>
   </data>
   <data name="groupBox41.Text" xml:space="preserve">
     <value>计划(2)</value>
@@ -500,14 +469,14 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox42.Text" xml:space="preserve">
     <value>做爱</value>
   </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>游戏时间</value>
+  </data>
   <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 16</value>
   </data>
   <data name="lightswitchCheckbox.Text" xml:space="preserve">
     <value>电灯开关</value>
-  </data>
-  <data name="groupBox33.Text" xml:space="preserve">
-    <value>最长的时间</value>
   </data>
   <data name="groupBox34.Text" xml:space="preserve">
     <value>计划(2)</value>
@@ -515,23 +484,26 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox35.Text" xml:space="preserve">
     <value>做爱</value>
   </data>
-  <data name="groupBox14.Text" xml:space="preserve">
-    <value>存档位置</value>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>最长的时间</value>
   </data>
   <data name="saveSlotBox.Text" xml:space="preserve">
     <value>无计算机文件</value>
   </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>存档位置</value>
+  </data>
   <data name="groupBox32.Text" xml:space="preserve">
     <value>直播所有者</value>
-  </data>
-  <data name="groupBox29.Text" xml:space="preserve">
-    <value>总播放时间</value>
   </data>
   <data name="groupBox30.Text" xml:space="preserve">
     <value>计划(2)</value>
   </data>
   <data name="groupBox31.Text" xml:space="preserve">
     <value>做爱</value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>总播放时间</value>
   </data>
   <data name="groupBox28.Text" xml:space="preserve">
     <value>直播订阅者</value>
@@ -542,20 +514,116 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="groupBox26.Text" xml:space="preserve">
     <value>游戏阶段(3)</value>
   </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>网站信息</value>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>其他信息</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>其他信息</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>显示网站</value>
   </data>
+  <data name="websitesCheckBoxes.Items" xml:space="preserve">
+    <value>adredirect.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items1" xml:space="preserve">
+    <value>bang.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items2" xml:space="preserve">
+    <value>bang.ic/email</value>
+  </data>
+  <data name="websitesCheckBoxes.Items3" xml:space="preserve">
+    <value>blackjack.casino.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items4" xml:space="preserve">
+    <value>casino.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items5" xml:space="preserve">
+    <value>casino.ic/tokens</value>
+  </data>
+  <data name="websitesCheckBoxes.Items6" xml:space="preserve">
+    <value>cockcockcockcockcock.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items7" xml:space="preserve">
+    <value>cocktracts.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items8" xml:space="preserve">
+    <value>cocktracts.ic/available</value>
+  </data>
+  <data name="websitesCheckBoxes.Items9" xml:space="preserve">
+    <value>cocktracts.ic/contract</value>
+  </data>
+  <data name="websitesCheckBoxes.Items10" xml:space="preserve">
+    <value>cocktracts.ic/help</value>
+  </data>
+  <data name="websitesCheckBoxes.Items11" xml:space="preserve">
+    <value>cocktracts.ic/partner</value>
+  </data>
+  <data name="websitesCheckBoxes.Items12" xml:space="preserve">
+    <value>cocktracts.ic/partners</value>
+  </data>
+  <data name="websitesCheckBoxes.Items13" xml:space="preserve">
+    <value>cocktwitch.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
+    <value>cocktwitch.ic/leaderboard</value>
+  </data>
+  <data name="websitesCheckBoxes.Items15" xml:space="preserve">
+    <value>cocktwitch.ic/stats</value>
+  </data>
+  <data name="websitesCheckBoxes.Items16" xml:space="preserve">
+    <value>dickcheese.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items17" xml:space="preserve">
+    <value>dickcheese.ic/1</value>
+  </data>
+  <data name="websitesCheckBoxes.Items18" xml:space="preserve">
+    <value>dickcheese.ic/2</value>
+  </data>
+  <data name="websitesCheckBoxes.Items19" xml:space="preserve">
+    <value>duck.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items20" xml:space="preserve">
+    <value>fedup.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items21" xml:space="preserve">
+    <value>hotanimebabes.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items22" xml:space="preserve">
+    <value>ladyparts.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items23" xml:space="preserve">
+    <value>losefatquickly.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items24" xml:space="preserve">
+    <value>patriciascookingblog.food/blog</value>
+  </data>
+  <data name="websitesCheckBoxes.Items25" xml:space="preserve">
+    <value>patriciascookingblog.food/login</value>
+  </data>
+  <data name="websitesCheckBoxes.Items26" xml:space="preserve">
+    <value>patriciascookingblog.food/main</value>
+  </data>
+  <data name="websitesCheckBoxes.Items27" xml:space="preserve">
+    <value>peepee.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items28" xml:space="preserve">
+    <value>pixelglasses.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items29" xml:space="preserve">
+    <value>realmenfishing.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items30" xml:space="preserve">
+    <value>slots.casino.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items31" xml:space="preserve">
+    <value>stonks.ic</value>
+  </data>
   <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
     <value>访问过的网站</value>
   </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>成就信息</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>教会成就</value>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>网站信息</value>
   </data>
   <data name="richTextBox5.Text" xml:space="preserve">
     <value>“最糟糕的结局”</value>
@@ -572,8 +640,23 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="richTextBox6.Text" xml:space="preserve">
     <value>“结局不够好”</value>
   </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>其他成就</value>
+  <data name="checkedListBox1.Items" xml:space="preserve">
+    <value>church-endSpotkanie2B</value>
+  </data>
+  <data name="checkedListBox1.Items1" xml:space="preserve">
+    <value>church-endTheWorstEnd</value>
+  </data>
+  <data name="checkedListBox1.Items2" xml:space="preserve">
+    <value>church-endIdontknow</value>
+  </data>
+  <data name="checkedListBox1.Items3" xml:space="preserve">
+    <value>church-endJustGoThereGood</value>
+  </data>
+  <data name="checkedListBox1.Items4" xml:space="preserve">
+    <value>church-endJustGoThereBad</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>教会成就</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
     <value>结局球爆炸了——“果汁太多了……”
@@ -594,14 +677,65 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
 老爹受伤的秘密尾声 --- 本身不是结局，而是“他们知道……”的一部分。 - 遇到了 大爸爸受伤了，但没有继续他的故事情节
 保存编辑 --- 使用了 作弊者 网站。</value>
   </data>
+  <data name="checkedListBox2.Items" xml:space="preserve">
+    <value>ending-ballsexploded</value>
+  </data>
+  <data name="checkedListBox2.Items1" xml:space="preserve">
+    <value>ending-goodEnd1</value>
+  </data>
+  <data name="checkedListBox2.Items2" xml:space="preserve">
+    <value>ending-badEnd1</value>
+  </data>
+  <data name="checkedListBox2.Items3" xml:space="preserve">
+    <value>ending-badEnd2</value>
+  </data>
+  <data name="checkedListBox2.Items4" xml:space="preserve">
+    <value>ending-badEnd3</value>
+  </data>
+  <data name="checkedListBox2.Items5" xml:space="preserve">
+    <value>ending-badEnd4.1</value>
+  </data>
+  <data name="checkedListBox2.Items6" xml:space="preserve">
+    <value>ending-badEnd4.2</value>
+  </data>
+  <data name="checkedListBox2.Items7" xml:space="preserve">
+    <value>ending-healthEnd</value>
+  </data>
+  <data name="checkedListBox2.Items8" xml:space="preserve">
+    <value>ending-fedEnd</value>
+  </data>
+  <data name="checkedListBox2.Items9" xml:space="preserve">
+    <value>ending-schizoEnd</value>
+  </data>
+  <data name="checkedListBox2.Items10" xml:space="preserve">
+    <value>ending-genericSchizoEnd</value>
+  </data>
+  <data name="checkedListBox2.Items11" xml:space="preserve">
+    <value>ending-KilledByADirtyCop1</value>
+  </data>
+  <data name="checkedListBox2.Items12" xml:space="preserve">
+    <value>ending-KilledByADirtyCop2</value>
+  </data>
+  <data name="checkedListBox2.Items13" xml:space="preserve">
+    <value>ending-theyKnowOblivious</value>
+  </data>
+  <data name="checkedListBox2.Items14" xml:space="preserve">
+    <value>ending-theyKnow</value>
+  </data>
+  <data name="checkedListBox2.Items15" xml:space="preserve">
+    <value>bigdaddyhurtSecretEpilogue</value>
+  </data>
+  <data name="checkedListBox2.Items16" xml:space="preserve">
+    <value>saveEdited</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>其他成就</value>
+  </data>
   <data name="button1.Text" xml:space="preserve">
     <value>展示成就</value>
   </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>保存编辑</value>
-  </data>
-  <data name="saveEditGroupBox.Text" xml:space="preserve">
-    <value>保存编辑</value>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>成就信息</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 12</value>
@@ -3146,6 +3280,9 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
   <data name="createBackupButton.Text" xml:space="preserve">
     <value>创建备份</value>
   </data>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>保存编辑</value>
+  </data>
   <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>648, 16</value>
   </data>
@@ -3156,11 +3293,8 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
     <value>警告！此功能正在测试中，您的保存很可能会被损坏！请保留备份！
 当您同意您已阅读此文本并承认任何数据丢失都是您的错、由您独自承担责任，并且此功能很可能会损坏所选保存（如果不是所有保存）时，这些选项将被解锁。</value>
   </data>
-  <data name="tabPage9.Text" xml:space="preserve">
-    <value>命令信息</value>
-  </data>
-  <data name="commandsGroupBox.Text" xml:space="preserve">
-    <value>命令</value>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>保存编辑</value>
   </data>
   <data name="commandsTextBox.Text" xml:space="preserve">
     <value>"C:\system\debug\reports\report_1.txt" --- 系统报告 1 病毒攻击，DT？
@@ -3193,17 +3327,17 @@ timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
   </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>调试信息</value>
+  <data name="commandsGroupBox.Text" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>命令信息</value>
   </data>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>加载保存文件。保存文件的内容将显示在此处。</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>文件</value>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>调试信息</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
@@ -3217,11 +3351,11 @@ timeCameInsideAnal</value>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>退出</value>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>帮助</value>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>存档</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -3256,26 +3390,50 @@ timeCameInsideAnal</value>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>GitHub链接</value>
   </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文</value>
+  </data>
+  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
+    <value>Español</value>
+  </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>语言</value>
   </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>捐款</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3356,10 +3514,7 @@ timeCameInsideAnal</value>
   <data name="$this.Text" xml:space="preserve">
     <value>我的反乌托邦机器人女友存档分析器</value>
   </data>
-  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español</value>
+  <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Português</value>
   </data>
 </root>

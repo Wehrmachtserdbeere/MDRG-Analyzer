@@ -104,6 +104,9 @@
     <EmbeddedResource Include="Form1.es.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.pt.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -123,10 +126,11 @@
       <LastGenOutput>Strings.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings.es.resx" />
+    <EmbeddedResource Include="Strings.pt.resx" />
     <EmbeddedResource Include="Strings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Strings.zh.resx">
       <Generator>ResXFileCodeGenerator</Generator>
