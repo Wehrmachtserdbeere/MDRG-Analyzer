@@ -237,9 +237,10 @@
             this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deutschToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.traditionalChineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.donateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.portuguesaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox72.SuspendLayout();
@@ -1839,7 +1840,8 @@
             this.englishToolStripMenuItem,
             this.deutschToolStripMenuItem,
             this.traditionalChineseToolStripMenuItem,
-            this.españolToolStripMenuItem});
+            this.españolToolStripMenuItem,
+            this.portuguesaToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
             resources.ApplyResources(this.languageToolStripMenuItem, "languageToolStripMenuItem");
             // 
@@ -1865,6 +1867,12 @@
             resources.ApplyResources(this.traditionalChineseToolStripMenuItem, "traditionalChineseToolStripMenuItem");
             this.traditionalChineseToolStripMenuItem.Click += new System.EventHandler(this.traditionalChineseToolStripMenuItem_Click);
             // 
+            // españolToolStripMenuItem
+            // 
+            this.españolToolStripMenuItem.Name = "españolToolStripMenuItem";
+            resources.ApplyResources(this.españolToolStripMenuItem, "españolToolStripMenuItem");
+            this.españolToolStripMenuItem.Click += new System.EventHandler(this.españolToolStripMenuItem_Click);
+            // 
             // donateToolStripMenuItem
             // 
             this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
@@ -1875,11 +1883,11 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // españolToolStripMenuItem
+            // portuguesaToolStripMenuItem
             // 
-            this.españolToolStripMenuItem.Name = "españolToolStripMenuItem";
-            resources.ApplyResources(this.españolToolStripMenuItem, "españolToolStripMenuItem");
-            this.españolToolStripMenuItem.Click += new System.EventHandler(this.españolToolStripMenuItem_Click);
+            this.portuguesaToolStripMenuItem.Name = "portuguesaToolStripMenuItem";
+            resources.ApplyResources(this.portuguesaToolStripMenuItem, "portuguesaToolStripMenuItem");
+            this.portuguesaToolStripMenuItem.Click += new System.EventHandler(this.portuguesaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -2211,6 +2219,7 @@
         private System.Windows.Forms.GroupBox commandsGroupBox;
         private System.Windows.Forms.RichTextBox commandsTextBox;
         private System.Windows.Forms.ToolStripMenuItem españolToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem portuguesaToolStripMenuItem;
     }
 }
 
