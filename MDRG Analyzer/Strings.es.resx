@@ -313,10 +313,10 @@ Los valores suelen ser números enteros, así que asume que el valor máximo es 
     <value>Salir</value>
   </data>
   <data name="groupBox79.Text" xml:space="preserve">
-    <value>PuntodeSacerdoteBot(1)</value>
+    <value>PuntodeSacerdoteBot(4,5)</value>
   </data>
   <data name="groupBox78.Text" xml:space="preserve">
-    <value>PuntosdeMonja(1)</value>
+    <value>PuntosdeMonja(4,5)</value>
   </data>
   <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
     <value>¡Nueva versión encontrada!

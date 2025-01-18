@@ -318,10 +318,10 @@ https://github.com/Wehrmachtserdbeere/MDRG-Analyzer
     <value>退出</value>
   </data>
   <data name="groupBox79.Text" xml:space="preserve">
-    <value>牧师机器人积分(1)</value>
+    <value>牧师机器人积分(4,5)</value>
   </data>
   <data name="groupBox78.Text" xml:space="preserve">
-    <value>修女积分(1)</value>
+    <value>修女积分(4,5)</value>
   </data>
   <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
     <value>找到新版本！

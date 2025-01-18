@@ -138,9 +138,6 @@
   <data name="groupBox1.Text" xml:space="preserve">
     <value>应用程序版本</value>
   </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>上傳檔案</value>
-  </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>游戏版本</value>
   </data>
@@ -247,6 +244,36 @@
   <data name="tabPage1.Text" xml:space="preserve">
     <value>存档信息</value>
   </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>玩家信息</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>机器人信息</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>其他信息</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>网站信息</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>成就信息</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>保存编辑</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>命令信息</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>调试信息</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>上傳檔案</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>玩家信息</value>
+  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 12</value>
   </data>
@@ -289,11 +316,11 @@
   <data name="groupBox59.Text" xml:space="preserve">
     <value>精液浪费</value>
   </data>
-  <data name="saveSlotBoxGen.Text" xml:space="preserve">
-    <value>无计算机文件</value>
-  </data>
   <data name="groupBox45.Text" xml:space="preserve">
     <value>存档位置</value>
+  </data>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>无计算机文件</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
     <value>心理健康</value>
@@ -319,11 +346,8 @@
   <data name="groupBox6.Text" xml:space="preserve">
     <value>玩家姓名</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>玩家信息</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>玩家信息</value>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>机器人信息</value>
   </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>最后一次拥抱(1)</value>
@@ -346,11 +370,11 @@
   <data name="groupBox58.Text" xml:space="preserve">
     <value>精液总计</value>
   </data>
-  <data name="saveSlotBoxBot.Text" xml:space="preserve">
-    <value>无计算机文件</value>
-  </data>
   <data name="groupBox44.Text" xml:space="preserve">
     <value>存档位置</value>
+  </data>
+  <data name="saveSlotBoxBot.Text" xml:space="preserve">
+    <value>无计算机文件</value>
   </data>
   <data name="groupBox39.Text" xml:space="preserve">
     <value>外面射精</value>
@@ -391,20 +415,17 @@
   <data name="groupBox16.Text" xml:space="preserve">
     <value>机器人姓名</value>
   </data>
-  <data name="groupBox15.Text" xml:space="preserve">
-    <value>机器人信息</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>机器人信息</value>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>其他信息</value>
   </data>
   <data name="groupBox80.Text" xml:space="preserve">
     <value>工作日(1)</value>
   </data>
   <data name="groupBox79.Text" xml:space="preserve">
-    <value>牧师机器人积分</value>
+    <value>牧师机器人积分(4,5)</value>
   </data>
   <data name="groupBox78.Text" xml:space="preserve">
-    <value>修女积分</value>
+    <value>修女积分(4,5)</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 12</value>
@@ -427,14 +448,17 @@
 (3) 如果更改，将不提供支持
 (4) 在某种程度上与教会任务线相关</value>
   </data>
+  <data name="groupBox53.Text" xml:space="preserve">
+    <value>字链</value>
+  </data>
   <data name="groupBox56.Text" xml:space="preserve">
     <value>失败次数</value>
   </data>
   <data name="groupBox57.Text" xml:space="preserve">
     <value>获胜次数</value>
   </data>
-  <data name="groupBox53.Text" xml:space="preserve">
-    <value>字链</value>
+  <data name="groupBox52.Text" xml:space="preserve">
+    <value>国际象棋</value>
   </data>
   <data name="groupBox54.Text" xml:space="preserve">
     <value>失败次数</value>
@@ -442,8 +466,8 @@
   <data name="groupBox55.Text" xml:space="preserve">
     <value>获胜次数</value>
   </data>
-  <data name="groupBox52.Text" xml:space="preserve">
-    <value>国际象棋</value>
+  <data name="groupBox48.Text" xml:space="preserve">
+    <value>机器人</value>
   </data>
   <data name="groupBox51.Text" xml:space="preserve">
     <value>逃跑</value>
@@ -454,14 +478,14 @@
   <data name="groupBox50.Text" xml:space="preserve">
     <value>获胜次数</value>
   </data>
-  <data name="groupBox48.Text" xml:space="preserve">
-    <value>机器人</value>
-  </data>
   <data name="groupBox47.Text" xml:space="preserve">
     <value>直播流量</value>
   </data>
   <data name="groupBox46.Text" xml:space="preserve">
     <value>租金(1)</value>
+  </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>游戏时间</value>
   </data>
   <data name="groupBox41.Text" xml:space="preserve">
     <value>计划(2)</value>
@@ -469,14 +493,14 @@
   <data name="groupBox42.Text" xml:space="preserve">
     <value>做爱</value>
   </data>
-  <data name="groupBox40.Text" xml:space="preserve">
-    <value>游戏时间</value>
-  </data>
   <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 16</value>
   </data>
   <data name="lightswitchCheckbox.Text" xml:space="preserve">
     <value>电灯开关</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>最长的时间</value>
   </data>
   <data name="groupBox34.Text" xml:space="preserve">
     <value>计划(2)</value>
@@ -484,26 +508,23 @@
   <data name="groupBox35.Text" xml:space="preserve">
     <value>做爱</value>
   </data>
-  <data name="groupBox33.Text" xml:space="preserve">
-    <value>最长的时间</value>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>存档位置</value>
   </data>
   <data name="saveSlotBox.Text" xml:space="preserve">
     <value>无计算机文件</value>
   </data>
-  <data name="groupBox14.Text" xml:space="preserve">
-    <value>存档位置</value>
-  </data>
   <data name="groupBox32.Text" xml:space="preserve">
     <value>直播所有者</value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>总播放时间</value>
   </data>
   <data name="groupBox30.Text" xml:space="preserve">
     <value>计划(2)</value>
   </data>
   <data name="groupBox31.Text" xml:space="preserve">
     <value>做爱</value>
-  </data>
-  <data name="groupBox29.Text" xml:space="preserve">
-    <value>总播放时间</value>
   </data>
   <data name="groupBox28.Text" xml:space="preserve">
     <value>直播订阅者</value>
@@ -514,14 +535,11 @@
   <data name="groupBox26.Text" xml:space="preserve">
     <value>游戏阶段(3)</value>
   </data>
-  <data name="groupBox25.Text" xml:space="preserve">
-    <value>其他信息</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>其他信息</value>
-  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>显示网站</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
+    <value>访问过的网站</value>
   </data>
   <data name="websitesCheckBoxes.Items" xml:space="preserve">
     <value>adredirect.ic</value>
@@ -619,11 +637,8 @@
   <data name="websitesCheckBoxes.Items31" xml:space="preserve">
     <value>stonks.ic</value>
   </data>
-  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
-    <value>访问过的网站</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>网站信息</value>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>教会成就</value>
   </data>
   <data name="richTextBox5.Text" xml:space="preserve">
     <value>“最糟糕的结局”</value>
@@ -655,8 +670,8 @@
   <data name="checkedListBox1.Items4" xml:space="preserve">
     <value>church-endJustGoThereBad</value>
   </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>教会成就</value>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>其他成就</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
     <value>结局球爆炸了——“果汁太多了……”
@@ -728,14 +743,11 @@
   <data name="checkedListBox2.Items16" xml:space="preserve">
     <value>saveEdited</value>
   </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>其他成就</value>
-  </data>
   <data name="button1.Text" xml:space="preserve">
     <value>展示成就</value>
   </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>成就信息</value>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>保存编辑</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 12</value>
@@ -3280,9 +3292,6 @@
   <data name="createBackupButton.Text" xml:space="preserve">
     <value>创建备份</value>
   </data>
-  <data name="saveEditGroupBox.Text" xml:space="preserve">
-    <value>保存编辑</value>
-  </data>
   <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>648, 16</value>
   </data>
@@ -3293,8 +3302,8 @@
     <value>警告！此功能正在测试中，您的保存很可能会被损坏！请保留备份！
 当您同意您已阅读此文本并承认任何数据丢失都是您的错、由您独自承担责任，并且此功能很可能会损坏所选保存（如果不是所有保存）时，这些选项将被解锁。</value>
   </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>保存编辑</value>
+  <data name="commandsGroupBox.Text" xml:space="preserve">
+    <value>命令</value>
   </data>
   <data name="commandsTextBox.Text" xml:space="preserve">
     <value>"C:\system\debug\reports\report_1.txt" --- 系统报告 1 病毒攻击，DT？
@@ -3327,17 +3336,17 @@ timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
   </data>
-  <data name="commandsGroupBox.Text" xml:space="preserve">
-    <value>命令</value>
-  </data>
-  <data name="tabPage9.Text" xml:space="preserve">
-    <value>命令信息</value>
-  </data>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>加载保存文件。保存文件的内容将显示在此处。</value>
   </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>调试信息</value>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>存档</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
@@ -3351,11 +3360,11 @@ timeCameInsideAnal</value>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>退出</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>存档</value>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -3390,11 +3399,11 @@ timeCameInsideAnal</value>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>GitHub链接</value>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>帮助</value>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>语言</value>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
@@ -3420,20 +3429,11 @@ timeCameInsideAnal</value>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
     <value>Español</value>
   </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>语言</value>
-  </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>捐款</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -306,7 +306,7 @@ Werte sind normalerweise Integer, also erwarte, dass der Höchstwert 2147483647 
     <value>Programm schließen</value>
   </data>
   <data name="groupBox79.Text" xml:space="preserve">
-    <value>Predigerpunkte(1)</value>
+    <value>Predigerpunkte(4,5)</value>
   </data>
   <data name="groupBox78.Text" xml:space="preserve">
     <value>Nonnepunkte(1)</value>

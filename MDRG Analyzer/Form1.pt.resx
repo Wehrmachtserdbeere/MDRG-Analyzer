@@ -160,9 +160,6 @@ Está a usar este programa, obrigado</value>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Versão do aplicativo</value>
   </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>Carregar um ficheiro</value>
-  </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Versão do jogo</value>
   </data>
@@ -269,6 +266,36 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="tabPage1.Text" xml:space="preserve">
     <value>Informações</value>
   </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Informações do jogador</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Informações do bot</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Informações diversas</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Sites</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Conquistas</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Guardar edição</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>Comandos</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Depurar</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>Carregar um ficheiro</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Valores do Jogador</value>
+  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 12</value>
   </data>
@@ -311,11 +338,11 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox59.Text" xml:space="preserve">
     <value>Desperdício de esperma</value>
   </data>
-  <data name="saveSlotBoxGen.Text" xml:space="preserve">
-    <value>Nenhum ficheiro</value>
-  </data>
   <data name="groupBox45.Text" xml:space="preserve">
     <value>Guardar Slot</value>
+  </data>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>Nenhum ficheiro</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
     <value>Saúde mental</value>
@@ -341,11 +368,8 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Nome</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Valores do Jogador</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>Informações do jogador</value>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>Valores do bot</value>
   </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>Último abraço em</value>
@@ -368,11 +392,11 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox58.Text" xml:space="preserve">
     <value>O ML chegou à boca</value>
   </data>
-  <data name="saveSlotBoxBot.Text" xml:space="preserve">
-    <value>Nenhum ficheiro</value>
-  </data>
   <data name="groupBox44.Text" xml:space="preserve">
     <value>Guardar Slot</value>
+  </data>
+  <data name="saveSlotBoxBot.Text" xml:space="preserve">
+    <value>Nenhum ficheiro</value>
   </data>
   <data name="groupBox39.Text" xml:space="preserve">
     <value>Veio para fora</value>
@@ -413,20 +437,17 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox16.Text" xml:space="preserve">
     <value>Nome do bot</value>
   </data>
-  <data name="groupBox15.Text" xml:space="preserve">
-    <value>Valores do bot</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>Informações do bot</value>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>Valores diversos</value>
   </data>
   <data name="groupBox80.Text" xml:space="preserve">
     <value>Dia da semana</value>
   </data>
   <data name="groupBox79.Text" xml:space="preserve">
-    <value>Ponto PriestBot</value>
+    <value>Ponto PriestBot(4,5)</value>
   </data>
   <data name="groupBox78.Text" xml:space="preserve">
-    <value>Pontos de freira</value>
+    <value>Pontos de freira(4,5)</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 12</value>
@@ -449,14 +470,17 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
 (3) Não será dado apoio se alterado
 (4) De alguma forma relacionado com a Linha de Busca da Igreja</value>
   </data>
+  <data name="groupBox53.Text" xml:space="preserve">
+    <value>Cadeia de palavras</value>
+  </data>
   <data name="groupBox56.Text" xml:space="preserve">
     <value>Tempos Perdidos</value>
   </data>
   <data name="groupBox57.Text" xml:space="preserve">
     <value>Vezes Ganhas</value>
   </data>
-  <data name="groupBox53.Text" xml:space="preserve">
-    <value>Cadeia de palavras</value>
+  <data name="groupBox52.Text" xml:space="preserve">
+    <value>Xadrez</value>
   </data>
   <data name="groupBox54.Text" xml:space="preserve">
     <value>Tempos Perdidos</value>
@@ -464,8 +488,8 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox55.Text" xml:space="preserve">
     <value>Vezes Ganhas</value>
   </data>
-  <data name="groupBox52.Text" xml:space="preserve">
-    <value>Xadrez</value>
+  <data name="groupBox48.Text" xml:space="preserve">
+    <value>Solteirona</value>
   </data>
   <data name="groupBox51.Text" xml:space="preserve">
     <value>Os tempos fugiram</value>
@@ -476,14 +500,14 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox50.Text" xml:space="preserve">
     <value>Vezes Ganhas</value>
   </data>
-  <data name="groupBox48.Text" xml:space="preserve">
-    <value>Solteirona</value>
-  </data>
   <data name="groupBox47.Text" xml:space="preserve">
     <value>Quantidade de fluxos</value>
   </data>
   <data name="groupBox46.Text" xml:space="preserve">
     <value>Alugar em</value>
+  </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>Hora do jogo</value>
   </data>
   <data name="groupBox41.Text" xml:space="preserve">
     <value>Formatado(2)</value>
@@ -491,14 +515,14 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox42.Text" xml:space="preserve">
     <value>Crua</value>
   </data>
-  <data name="groupBox40.Text" xml:space="preserve">
-    <value>Hora do jogo</value>
-  </data>
   <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 16</value>
   </data>
   <data name="lightswitchCheckbox.Text" xml:space="preserve">
     <value>Interruptor de luz</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>Fluxo mais longo</value>
   </data>
   <data name="groupBox34.Text" xml:space="preserve">
     <value>Formatado(2)</value>
@@ -506,26 +530,23 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox35.Text" xml:space="preserve">
     <value>Crua</value>
   </data>
-  <data name="groupBox33.Text" xml:space="preserve">
-    <value>Fluxo mais longo</value>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Guardar Slot</value>
   </data>
   <data name="saveSlotBox.Text" xml:space="preserve">
     <value>Nenhum ficheiro</value>
   </data>
-  <data name="groupBox14.Text" xml:space="preserve">
-    <value>Guardar Slot</value>
-  </data>
   <data name="groupBox32.Text" xml:space="preserve">
     <value>Stream Donos</value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>Tempo total de transmissão</value>
   </data>
   <data name="groupBox30.Text" xml:space="preserve">
     <value>Formatado(2)</value>
   </data>
   <data name="groupBox31.Text" xml:space="preserve">
     <value>Cru</value>
-  </data>
-  <data name="groupBox29.Text" xml:space="preserve">
-    <value>Tempo total de transmissão</value>
   </data>
   <data name="groupBox28.Text" xml:space="preserve">
     <value>Subscritores</value>
@@ -536,14 +557,11 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="groupBox26.Text" xml:space="preserve">
     <value>Estágio do jogo</value>
   </data>
-  <data name="groupBox25.Text" xml:space="preserve">
-    <value>Valores diversos</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>Informações diversas</value>
-  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Mostrar sites</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
+    <value>Sites visitados</value>
   </data>
   <data name="websitesCheckBoxes.Items" xml:space="preserve">
     <value>adredirect.ic</value>
@@ -641,11 +659,8 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="websitesCheckBoxes.Items31" xml:space="preserve">
     <value>stonks.ic</value>
   </data>
-  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
-    <value>Sites visitados</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>Sites</value>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Conquistas da Igreja</value>
   </data>
   <data name="richTextBox5.Text" xml:space="preserve">
     <value>"O pior final"</value>
@@ -677,8 +692,8 @@ Direitos de autor © 2023-2024 Strawberry Software. Todos os direitos reservados
   <data name="checkedListBox1.Items4" xml:space="preserve">
     <value>church-endJustGoThereBad</value>
   </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>Conquistas da Igreja</value>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Conquistas diversas</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
     <value>ending-ballsexploded --- "Muito sumo..."
@@ -750,14 +765,11 @@ guardarEditado --- Utilizei o site iamacheater.</value>
   <data name="checkedListBox2.Items16" xml:space="preserve">
     <value>saveEdited</value>
   </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>Conquistas diversas</value>
-  </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Mostrar Conquistas</value>
   </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>Conquistas</value>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>Guardar edição</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>263, 12</value>
@@ -3302,9 +3314,6 @@ guardarEditado --- Utilizei o site iamacheater.</value>
   <data name="createBackupButton.Text" xml:space="preserve">
     <value>Criar backup</value>
   </data>
-  <data name="saveEditGroupBox.Text" xml:space="preserve">
-    <value>Guardar edição</value>
-  </data>
   <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>684, 28</value>
   </data>
@@ -3316,8 +3325,8 @@ os meus jogos guardados e assumo total responsabilidade por qualquer potencial p
     <value>AVISO! Este recurso está em teste e o seu ficheiro guardado provavelmente estará corrompido! Mantenha um backup!
 As opções serão desbloqueadas quando concordar que leu este texto e reconhecer que qualquer perda de dados será culpa sua, será apenas sua e que esta funcionalidade provavelmente corromperá o salvamento selecionado, se não todos os salvamentos.</value>
   </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>Guardar edição</value>
+  <data name="commandsGroupBox.Text" xml:space="preserve">
+    <value>Comandos</value>
   </data>
   <data name="commandsTextBox.Text" xml:space="preserve">
     <value>"C:\system\debug\reports\report_1.txt" --- Sys Report 1 Ataque de vírus, DT?
@@ -3350,17 +3359,17 @@ timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
   </data>
-  <data name="commandsGroupBox.Text" xml:space="preserve">
-    <value>Comandos</value>
-  </data>
-  <data name="tabPage9.Text" xml:space="preserve">
-    <value>Comandos</value>
-  </data>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>Carregar um ficheiro guardado. O conteúdo do ficheiro guardado será exibido aqui.</value>
   </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>Depurar</value>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ficheiro</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
@@ -3374,11 +3383,11 @@ timeCameInsideAnal</value>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Saída</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 21</value>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
   </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ficheiro</value>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ajuda</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>229, 22</value>
@@ -3413,11 +3422,11 @@ timeCameInsideAnal</value>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>Link rápido para o GitHub</value>
   </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 21</value>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ajuda</value>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Idioma</value>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -3440,20 +3449,11 @@ timeCameInsideAnal</value>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
     <value>Español</value>
   </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 21</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Idioma</value>
-  </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>Doar</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3534,11 +3534,11 @@ timeCameInsideAnal</value>
   <data name="$this.Text" xml:space="preserve">
     <value>A minha namorada robô distópica Guardar Analisador</value>
   </data>
-  <data name="polskiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
   <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
     <value>Português</value>
+  </data>
+  <data name="polskiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="portuguêsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>

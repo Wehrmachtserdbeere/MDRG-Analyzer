@@ -318,10 +318,10 @@ Os valores são normalmente números inteiros, por isso assume que o valor máxi
     <value>Saída</value>
   </data>
   <data name="groupBox79.Text" xml:space="preserve">
-    <value>Ponto PriestBot</value>
+    <value>Ponto PriestBot(4,5)</value>
   </data>
   <data name="groupBox78.Text" xml:space="preserve">
-    <value>Pontos de freira</value>
+    <value>Pontos de freira(4,5)</value>
   </data>
   <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
     <value>Nova versão encontrada!

@@ -124,8 +124,8 @@
             this.botMoodBox = new System.Windows.Forms.RichTextBox();
             this.groupBox19 = new System.Windows.Forms.GroupBox();
             this.botLongingBox = new System.Windows.Forms.RichTextBox();
-            this.botSympathyBox = new System.Windows.Forms.RichTextBox();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.botSympathyBox = new System.Windows.Forms.RichTextBox();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
             this.botLustBox = new System.Windows.Forms.RichTextBox();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
@@ -238,9 +238,9 @@
             this.deutschToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.traditionalChineseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.portuguesaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.donateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.portuguesaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox72.SuspendLayout();
@@ -290,6 +290,7 @@
             this.groupBox21.SuspendLayout();
             this.groupBox20.SuspendLayout();
             this.groupBox19.SuspendLayout();
+            this.groupBox18.SuspendLayout();
             this.groupBox17.SuspendLayout();
             this.groupBox16.SuspendLayout();
             this.tabPage7.SuspendLayout();
@@ -797,7 +798,6 @@
             this.groupBox15.Controls.Add(this.groupBox21);
             this.groupBox15.Controls.Add(this.groupBox20);
             this.groupBox15.Controls.Add(this.groupBox19);
-            this.groupBox15.Controls.Add(this.botSympathyBox);
             this.groupBox15.Controls.Add(this.groupBox18);
             this.groupBox15.Controls.Add(this.groupBox17);
             this.groupBox15.Controls.Add(this.groupBox16);
@@ -1018,17 +1018,18 @@
             this.botLongingBox.Name = "botLongingBox";
             this.botLongingBox.ReadOnly = true;
             // 
+            // groupBox18
+            // 
+            this.groupBox18.Controls.Add(this.botSympathyBox);
+            resources.ApplyResources(this.groupBox18, "groupBox18");
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.TabStop = false;
+            // 
             // botSympathyBox
             // 
             resources.ApplyResources(this.botSympathyBox, "botSympathyBox");
             this.botSympathyBox.Name = "botSympathyBox";
             this.botSympathyBox.ReadOnly = true;
-            // 
-            // groupBox18
-            // 
-            resources.ApplyResources(this.groupBox18, "groupBox18");
-            this.groupBox18.Name = "groupBox18";
-            this.groupBox18.TabStop = false;
             // 
             // groupBox17
             // 
@@ -1873,6 +1874,12 @@
             resources.ApplyResources(this.españolToolStripMenuItem, "españolToolStripMenuItem");
             this.españolToolStripMenuItem.Click += new System.EventHandler(this.españolToolStripMenuItem_Click);
             // 
+            // portuguesaToolStripMenuItem
+            // 
+            this.portuguesaToolStripMenuItem.Name = "portuguesaToolStripMenuItem";
+            resources.ApplyResources(this.portuguesaToolStripMenuItem, "portuguesaToolStripMenuItem");
+            this.portuguesaToolStripMenuItem.Click += new System.EventHandler(this.portuguesaToolStripMenuItem_Click);
+            // 
             // donateToolStripMenuItem
             // 
             this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
@@ -1882,12 +1889,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // portuguesaToolStripMenuItem
-            // 
-            this.portuguesaToolStripMenuItem.Name = "portuguesaToolStripMenuItem";
-            resources.ApplyResources(this.portuguesaToolStripMenuItem, "portuguesaToolStripMenuItem");
-            this.portuguesaToolStripMenuItem.Click += new System.EventHandler(this.portuguesaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -1949,6 +1950,7 @@
             this.groupBox21.ResumeLayout(false);
             this.groupBox20.ResumeLayout(false);
             this.groupBox19.ResumeLayout(false);
+            this.groupBox18.ResumeLayout(false);
             this.groupBox17.ResumeLayout(false);
             this.groupBox16.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
