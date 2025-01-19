@@ -429,7 +429,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Español.
+        ///   Looks up a localized string similar to Español (MT).
         /// </summary>
         internal static string españolToolStripMenuItem_Text {
             get {
@@ -1610,6 +1610,29 @@ namespace MDRG_Analyzer {
         internal static string loadToolStripMenuItem_Text {
             get {
                 return ResourceManager.GetString("loadToolStripMenuItem.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Translation Notice!.
+        /// </summary>
+        internal static string MachineLanguageNoticeCaption {
+            get {
+                return ResourceManager.GetString("MachineLanguageNoticeCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Warning: The selected translation was machine translated.
+        ///
+        ///If you wish to help improve the translation, please contact Strawberry (@strawberrymk.vi) on the MDRG Discord Server, or open a GitHub Issue at https://github.com/Wehrmachtserdbeere/MDRG-Analyzer.
+        ///
+        ///When submitting fixes, please state the language and attach the corrected localization files:
+        ///&lt;Form1.language.resx&gt; and &lt;Strings.language.resx&gt;..
+        /// </summary>
+        internal static string MachineLanguageNoticeText {
+            get {
+                return ResourceManager.GetString("MachineLanguageNoticeText", resourceCulture);
             }
         }
         

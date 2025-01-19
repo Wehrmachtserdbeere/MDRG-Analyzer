@@ -837,23 +837,23 @@ Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
     <value>church-endJustGoThereBad</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
-    <value>"El final no es lo suficientemente bueno" final-bolasexplotadas --- "Demasiado jugo..."
-final-buenFin1 --- "Vender tu bot"
-final-maloFin1 --- "Terminación del contrato de arrendamiento"
-final-maloFin2 --- "Fracaso..."
-final-maloFin3 --- "Cobarde..."
-final-maloFin4.1 --- "Terminación del contrato de arrendamiento v2: vagabundo"
-final-maloFin4.2 --- "Terminación del contrato de arrendamiento v2: asesinato"
-final-saludFin --- "Hambre"
-final-alimentadoFin --- "Me atraparon..."
-terminando-schizoEnd --- "No estoy loco..."
-terminando-genericSchizoEnd --- "Wall-kun"
-terminando-KilledByADirtyCop1 --- "Nunca confíes en los policías..."
-terminando-KilledByADirtyCop2 --- "Nunca confíes en los policías... OTRA VEZ"
-terminando-theyKnowOblivious --- "Ellos saben... (ajeno)"
-terminando-theyKnow --- "Ellos saben..."
-bigdaddyhurtSecretEpilogue --- No es un final por sí mismo, sino parte de "Ellos saben...". - Conocí a bigdaddyhurt pero no continué su historia.
-saveEdited --- Usé el sitio web iamacheater.</value>
+    <value>saveEdited --- "Demasiado jugo..."
+bigdaddyhurtSecretEpilogue --- "Vender tu bot"
+ending-theyKnow --- "Terminación del contrato de arrendamiento"
+ending-theyKnowOblivious --- "Fracaso..."
+ending-KilledByADirtyCop2 --- "Cobarde..."
+ending-KilledByADirtyCop1.1 --- "Terminación del contrato de arrendamiento v2: vagabundo"
+ending-genericSchizoEnd.2 --- "Terminación del contrato de arrendamiento v2: asesinato"
+ending-schizoEnd --- "Hambre"
+ending-fedEnd --- "Me atraparon..."
+ending-healthEnd --- "No estoy loco..."
+ending-badEnd4 --- "Wall-kun"
+ending-badEnd4 --- "Nunca confíes en los policías..."
+ending-badEnd3 --- "Nunca confíes en los policías... OTRA VEZ"
+ending-badEnd2 --- "Ellos saben... (ajeno)"
+ending-badEnd1 --- "Ellos saben..."
+ending-goodEnd1 --- No es un final por sí mismo, sino parte de "Ellos saben...". - Conocí a bigdaddyhurt pero no continué su historia.
+ending-ballsexploded --- Usé el sitio web iamacheater.</value>
   </data>
   <data name="checkedListBox2.Items" xml:space="preserve">
     <value>ending-ballsexploded</value>
@@ -3493,7 +3493,7 @@ Las opciones se desbloquearán cuando aceptes que has leído este texto y recono
     <value>124, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español</value>
+    <value>Español (MT)</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 21</value>
@@ -3599,9 +3599,9 @@ PlayVideo --- Utiliza la ruta del archivo para reproducir un vídeo determinado 
 
 VV Prompts (añada «vv» antes del comando)
 
-lujuria
-simpatía
-humor
+lust
+sympathy
+mood
 isNaked
 cumInsideAnalMl
 cumInsideVaginaMl
@@ -3610,11 +3610,30 @@ masterCumExtractedMl
 timeSinceLastHeadpat
 timeSinceLastSex
 timeSinceLastTalkWithMaster
-Sensación de calor
+Horniness
 MasterName
-AutoNombre
-timesCameBoca
+SelfName
+timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
+  </data>
+  <data name="MachineLanguageNoticeText" xml:space="preserve">
+    <value>Warning: The selected translation was machine translated.
+
+If you wish to help improve the translation, please contact Strawberry (@strawberrymk.vi) on the MDRG Discord Server, or open a GitHub Issue at https://github.com/Wehrmachtserdbeere/MDRG-Analyzer.
+
+When submitting fixes, please state the language and attach the corrected localization files:
+&lt;Form1.language.resx&gt; and &lt;Strings.language.resx&gt;.
+
+
+Advertencia: La traducción seleccionada fue realizada por una máquina.
+
+Si deseas ayudar a mejorar la traducción, por favor contacta a Strawberry (@strawberrymk.vi) en el servidor de Discord de MDRG, o abre un Issue en GitHub en &lt;https://github.com/Wehrmachtserdbeere/MDRG-Analyzer&gt;.
+
+Al enviar correcciones, indica el idioma y adjunta los archivos de localización corregidos:  
+&lt;Form1.language.resx&gt; y &lt;Strings.language.resx&gt;.</value>
+  </data>
+  <data name="MachineLanguageNoticeCaption" xml:space="preserve">
+    <value>¡Aviso de Traducción!</value>
   </data>
 </root>

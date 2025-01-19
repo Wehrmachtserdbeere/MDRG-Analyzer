@@ -34,6 +34,6 @@ If you don't provide a name you want to be credited as, your Discord Username wi
 
 Wehrmachtserdbeere / Strawberry
 
-### Chinese, Spanish, Portuguese
+### Chinese, Spanish, Portuguese, Japanese
 
-Xiaoye / 442877450
+Xiaoye / 442877450 (Machine Translations)

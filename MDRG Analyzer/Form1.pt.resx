@@ -3443,11 +3443,17 @@ timeCameInsideAnal</value>
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文</value>
+  </data>
   <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español</value>
+    <value>Español (MT)</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguesa (MT)</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
@@ -3535,12 +3541,15 @@ timeCameInsideAnal</value>
     <value>A minha namorada robô distópica Guardar Analisador</value>
   </data>
   <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Português</value>
+    <value>Português (MT)</value>
   </data>
   <data name="polskiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="portuguêsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
+  </data>
+  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
+    <value>日本語 (MT)</value>
   </data>
 </root>

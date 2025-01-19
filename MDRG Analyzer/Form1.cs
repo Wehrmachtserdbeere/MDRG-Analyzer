@@ -75,9 +75,15 @@ namespace MDRG_Analyzer
                     break;
                 case "es":
                     SetLanguageAppearanceBoldCHecked(españolToolStripMenuItem);
+                    MachineLanguageNotice();
                     break;
                 case "pt":
                     SetLanguageAppearanceBoldCHecked(portuguesaToolStripMenuItem);
+                    MachineLanguageNotice();
+                    break;
+                case "ja":
+                    SetLanguageAppearanceBoldCHecked(japaneseToolStripMenuItem);
+                    MachineLanguageNotice();
                     break;
                 default:
                     SetLanguageAppearanceBoldCHecked(englishToolStripMenuItem);
@@ -92,6 +98,16 @@ namespace MDRG_Analyzer
                 menuIten.Font.FontFamily,
                 menuIten.Font.Size,
                 System.Drawing.FontStyle.Bold
+                );
+        }
+
+        public static void MachineLanguageNotice()
+        {
+            MessageBox.Show(
+                caption: Strings.MachineLanguageNoticeCaption,
+                text: Strings.MachineLanguageNoticeText,
+                buttons: MessageBoxButtons.OK,
+                icon: MessageBoxIcon.Information
                 );
         }
 
@@ -163,7 +179,6 @@ namespace MDRG_Analyzer
                 {
                     slots.Add((int)save.slot);
                 }
-                int[] slotsArray = slots.ToArray(); // Convert List to Array
                 int slotsAmount = saves.Count;
                 AddRadioButtons(slotsAmount);
 
@@ -909,6 +924,10 @@ namespace MDRG_Analyzer
         private void portuguesaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ChangeLanguage("pt");
+        }
+        private void japaneseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeLanguage("ja");
         }
 
         private async void tabControl1_SelectedIndexChanged(object sender, EventArgs e)

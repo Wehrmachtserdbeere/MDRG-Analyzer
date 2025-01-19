@@ -674,23 +674,23 @@
     <value>其他成就</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
-    <value>结局球爆炸了——“果汁太多了……”
-结局-好结局1 ---“出售你的机器人”
-结局-坏结局1 --- “终止租赁”
-结局-坏结局2 ---“失败……”
-结局-坏结局3 --- “胆小鬼……”
-结局-坏结局4.1 --- “终止租赁 v2：流浪汉”
-结局-坏结局4.2 --- “终止租赁 v2：谋杀”
-结局-健康结束---“饥饿”
-结局-联邦 --- “被抓住了……”
-结局-精神分裂症 --- “我没有疯……”
-结局-普通精神分裂症 --- “Wall-kun”
-结局-被肮脏警察杀死1 ---“永远不要相信警察......”
-结局-被肮脏警察杀死2 ---“永远不要再相信警察......”
-结局-他们知道遗忘 --- “他们知道……（无知）”
-结局-他们知道 --- “他们知道……”
-老爹受伤的秘密尾声 --- 本身不是结局，而是“他们知道……”的一部分。 - 遇到了 大爸爸受伤了，但没有继续他的故事情节
-保存编辑 --- 使用了 作弊者 网站。</value>
+    <value>ending-ballsexploded --- “果汁太多了...”
+ending-goodEnd1 --- “出售你的机器人”
+ending-badEnd1 --- “终止租赁”
+ending-badEnd2 --- “失败...”
+ending-badEnd3 --- “胆小鬼...”
+ending-badEnd4.1 --- “终止租赁 v2：流浪汉”
+ending-badEnd4.2 --- “终止租赁 v2：谋杀”
+ending-healthEnd --- “饥饿”
+ending-fedEnd --- “被抓住了...”
+ending-schizoEnd --- “我没有疯...”
+ending-genericSchizoEnd --- “Wall-kun”
+ending-KilledByADirtyCop1 --- “永远不要相信警察...”
+ending-KilledByADirtyCop2 --- “永远不要再相信警察...”
+ending-theyKnowOblivious --- “他们知道...（无知）”
+ending-theyKnow --- “他们知道...”
+bigdaddyhurtSecretEpilogue --- 本身不是结局，而是“他们知道...”的一部分。 - 遇到了 大爸爸受伤了，但没有继续他的故事情节
+saveEdited --- 使用了 作弊者 网站。</value>
   </data>
   <data name="checkedListBox2.Items" xml:space="preserve">
     <value>ending-ballsexploded</value>
@@ -3427,7 +3427,10 @@ timeCameInsideAnal</value>
     <value>124, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español</value>
+    <value>Español (MT)</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguesa (MT)</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
@@ -3515,6 +3518,9 @@ timeCameInsideAnal</value>
     <value>我的反乌托邦机器人女友存档分析器</value>
   </data>
   <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Português</value>
+    <value>Português (MT)</value>
+  </data>
+  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
+    <value>日本語 (MT)</value>
   </data>
 </root>

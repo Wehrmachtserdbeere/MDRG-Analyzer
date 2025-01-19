@@ -888,7 +888,7 @@ The options will be unlocked when you agree that you have read this text and ack
     <value />
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español</value>
+    <value>Español (MT)</value>
   </data>
   <data name="languageToolStripMenuItem.Size" xml:space="preserve">
     <value />
@@ -938,5 +938,16 @@ SelfName
 timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
+  </data>
+  <data name="MachineLanguageNoticeText" xml:space="preserve">
+    <value>Warning: The selected translation was machine translated.
+
+If you wish to help improve the translation, please contact Strawberry (@strawberrymk.vi) on the MDRG Discord Server, or open a GitHub Issue at https://github.com/Wehrmachtserdbeere/MDRG-Analyzer.
+
+When submitting fixes, please state the language and attach the corrected localization files:
+&lt;Form1.language.resx&gt; and &lt;Strings.language.resx&gt;.</value>
+  </data>
+  <data name="MachineLanguageNoticeCaption" xml:space="preserve">
+    <value>Translation Notice!</value>
   </data>
 </root>

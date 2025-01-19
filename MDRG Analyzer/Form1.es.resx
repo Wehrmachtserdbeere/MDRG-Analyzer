@@ -682,23 +682,23 @@ Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
     <value>Logros varios</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
-    <value>"El final no es lo suficientemente bueno" final-bolasexplotadas --- "Demasiado jugo..."
-final-buenFin1 --- "Vender tu bot"
-final-maloFin1 --- "Terminación del contrato de arrendamiento"
-final-maloFin2 --- "Fracaso..."
-final-maloFin3 --- "Cobarde..."
-final-maloFin4.1 --- "Terminación del contrato de arrendamiento v2: vagabundo"
-final-maloFin4.2 --- "Terminación del contrato de arrendamiento v2: asesinato"
-final-saludFin --- "Hambre"
-final-alimentadoFin --- "Me atraparon..."
-terminando-schizoEnd --- "No estoy loco..."
-terminando-genericSchizoEnd --- "Wall-kun"
-terminando-KilledByADirtyCop1 --- "Nunca confíes en los policías..."
-terminando-KilledByADirtyCop2 --- "Nunca confíes en los policías... OTRA VEZ"
-terminando-theyKnowOblivious --- "Ellos saben... (ajeno)"
-terminando-theyKnow --- "Ellos saben..."
-bigdaddyhurtSecretEpilogue --- No es un final por sí mismo, sino parte de "Ellos saben...". - Conocí a bigdaddyhurt pero no continué su historia.
-saveEdited --- Usé el sitio web iamacheater.</value>
+    <value>saveEdited --- "Demasiado jugo..."
+bigdaddyhurtSecretEpilogue --- "Vender tu bot"
+ending-theyKnow --- "Terminación del contrato de arrendamiento"
+ending-theyKnowOblivious --- "Fracaso..."
+ending-KilledByADirtyCop2 --- "Cobarde..."
+ending-KilledByADirtyCop1.1 --- "Terminación del contrato de arrendamiento v2: vagabundo"
+ending-genericSchizoEnd.2 --- "Terminación del contrato de arrendamiento v2: asesinato"
+ending-schizoEnd --- "Hambre"
+ending-fedEnd --- "Me atraparon..."
+ending-healthEnd --- "No estoy loco..."
+ending-badEnd4 --- "Wall-kun"
+ending-badEnd4 --- "Nunca confíes en los policías..."
+ending-badEnd3 --- "Nunca confíes en los policías... OTRA VEZ"
+ending-badEnd2 --- "Ellos saben... (ajeno)"
+ending-badEnd1 --- "Ellos saben..."
+ending-goodEnd1 --- No es un final por sí mismo, sino parte de "Ellos saben...". - Conocí a bigdaddyhurt pero no continué su historia.
+ending-ballsexploded --- Usé el sitio web iamacheater.</value>
   </data>
   <data name="checkedListBox2.Items" xml:space="preserve">
     <value>ending-ballsexploded</value>
@@ -3436,17 +3436,16 @@ timeCameInsideAnal</value>
     <value>124, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español</value>
+    <value>Español (MT)</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguesa (MT)</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 21</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>Donar</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.AutoScaleDimensions" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3528,6 +3527,9 @@ timeCameInsideAnal</value>
     <value>Mi Analizador de Guardado de Novia Robot Distópica</value>
   </data>
   <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Português</value>
+    <value>Português (MT)</value>
+  </data>
+  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
+    <value>日本語 (MT)</value>
   </data>
 </root>

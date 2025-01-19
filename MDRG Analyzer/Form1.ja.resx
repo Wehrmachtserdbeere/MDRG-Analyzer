@@ -117,555 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="groupBox73.Text" xml:space="preserve">
-    <value>最后一次拥抱(1)</value>
-  </data>
-  <data name="groupBox74.Text" xml:space="preserve">
-    <value>最后直播(5)</value>
-  </data>
-  <data name="groupBox69.Text" xml:space="preserve">
-    <value>最后醒来时间(1)</value>
-  </data>
-  <data name="groupBox75.Text" xml:space="preserve">
-    <value>最后一次离开(1)</value>
-  </data>
-  <data name="groupBox71.Text" xml:space="preserve">
-    <value>最后工作地点(1)</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>显示网站</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>展示成就</value>
-  </data>
-  <data name="groupBox47.Text" xml:space="preserve">
-    <value>直播流量</value>
-  </data>
-  <data name="groupBox53.Text" xml:space="preserve">
-    <value>字链</value>
-  </data>
-  <data name="groupBox80.Text" xml:space="preserve">
-    <value>工作日(1)</value>
-  </data>
-  <data name="ExtraCreditsText" xml:space="preserve">
-    <value>致谢
-
-MDRG Discord - 编码帮助
-italy2003 / PixivID: 66835722 - 艺术
-bgrmystr2 - Linux 测试
-Xiaoye - 中文、西班牙语和葡萄牙语翻译
-您 - 使用该程序 :)
-
-此程序的创建者以及 Xiaoye（中文、西班牙语和葡萄牙语翻译）都在 MDRG Discord 服务器上。如果有翻译错误或缺少翻译，请在 MDRG Analyzer GitHub 页面上打开新问题进行报告，在此 (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11) 讨论中发布，或者在 MDRG Discord 服务器上的 MDRG Analyzer 线程上 ping 我 (@strawberrymk.vi) 或 Little Night (@442877450)。
-
-如果您希望将该程序翻译成其他语言，请通过其中任何一种方式与我联系。</value>
-  </data>
-  <data name="ExtraCreditsCaption" xml:space="preserve">
-    <value>致谢</value>
-  </data>
-  <data name="groupBox51.Text" xml:space="preserve">
-    <value>逃跑</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>网站信息</value>
-  </data>
-  <data name="openFileDialogTitle" xml:space="preserve">
-    <value>請選擇一個 .mdrg 檔案。</value>
-  </data>
-  <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
-    <value>功能推荐</value>
-  </data>
-  <data name="groupBox61.Text" xml:space="preserve">
-    <value>伟哥药效(1)</value>
-  </data>
-  <data name="groupBox56.Text" xml:space="preserve">
-    <value>失败次数</value>
-  </data>
-  <data name="groupBox54.Text" xml:space="preserve">
-    <value>失败次数</value>
-  </data>
-  <data name="groupBox49.Text" xml:space="preserve">
-    <value>失败次数</value>
-  </data>
-  <data name="groupBox17.Text" xml:space="preserve">
-    <value>欲望</value>
-  </data>
-  <data name="WeekDaysUnknown" xml:space="preserve">
-    <value>未知</value>
-  </data>
-  <data name="groupBox18.Text" xml:space="preserve">
-    <value>同情</value>
-  </data>
-  <data name="groupBox32.Text" xml:space="preserve">
-    <value>直播所有者</value>
-  </data>
-  <data name="groupBox40.Text" xml:space="preserve">
-    <value>游戏时间</value>
-  </data>
-  <data name="saveFilesChoosingBox.Text" xml:space="preserve">
-    <value>保存文件</value>
-  </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>保存编辑</value>
-  </data>
-  <data name="saveEditGroupBox.Text" xml:space="preserve">
-    <value>保存编辑</value>
-  </data>
-  <data name="saveButton.Text" xml:space="preserve">
-    <value>保存（覆盖当前保存！）</value>
-  </data>
-  <data name="groupBox26.Text" xml:space="preserve">
-    <value>游戏阶段(3)</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>玩家信息</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>玩家信息</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>游戏版本</value>
-  </data>
-  <data name="EditInfoButtonText" xml:space="preserve">
-    <value>已新增「保存編輯」功能，請享受使用！</value>
-  </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>其他成就</value>
-  </data>
-  <data name="groupBox25.Text" xml:space="preserve">
-    <value>其他信息</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>其他信息</value>
-  </data>
-  <data name="WeekDaysSunday" xml:space="preserve">
-    <value>星期日</value>
-  </data>
-  <data name="groupBox45.Text" xml:space="preserve">
-    <value>存档位置</value>
-  </data>
-  <data name="groupBox44.Text" xml:space="preserve">
-    <value>存档位置</value>
-  </data>
-  <data name="groupBox43.Text" xml:space="preserve">
-    <value>存档位置</value>
-  </data>
-  <data name="groupBox14.Text" xml:space="preserve">
-    <value>存档位置</value>
-  </data>
-  <data name="BackupSuccessText" xml:space="preserve">
-    <value>备份已成功完成！您的备份已保存为：</value>
-  </data>
-  <data name="GuideAndInstructionsText" xml:space="preserve">
-    <value>创建备份：这是您应该做的第一件事。它将创建一个备份，而不是覆盖它（除非您有超过 2147483647 个备份，否则会出错……我想）。
-
-遵循条目编号。例如：如果值为“42,927”，则使用十进制值，如“83,145”。
-
-不知道特殊字符是否会破坏名称，因此为了安全起见，只使用字母“A-Z”和“a-z”。如果您有时间测试它，请打开一个问题，并说明您发现哪些有效，哪些无效。
-
-建议不要更改游戏阶段。
-
-如果值旁边有星号，则表示它存在某种问题。问题将列在选项卡底部。
-
-值通常是整数，因此假设最大值为 2147483647（2,147,483,647）</value>
-  </data>
-  <data name="createBackupButton.Text" xml:space="preserve">
-    <value>创建备份</value>
-  </data>
-  <data name="groupBox19.Text" xml:space="preserve">
-    <value>渴望</value>
-  </data>
-  <data name="groupBox52.Text" xml:space="preserve">
-    <value>国际象棋</value>
-  </data>
-  <data name="WeekDaysSaturday" xml:space="preserve">
-    <value>星期六</value>
-  </data>
-  <data name="groupBox59.Text" xml:space="preserve">
-    <value>精液浪费</value>
-  </data>
-  <data name="groupBox22.Text" xml:space="preserve">
-    <value>阴道射精</value>
-  </data>
-  <data name="groupBox24.Text" xml:space="preserve">
-    <value>嘴巴射精</value>
-  </data>
-  <data name="groupBox23.Text" xml:space="preserve">
-    <value>屁眼射精</value>
-  </data>
-  <data name="groupBox42.Text" xml:space="preserve">
-    <value>做爱</value>
-  </data>
-  <data name="groupBox35.Text" xml:space="preserve">
-    <value>做爱</value>
-  </data>
-  <data name="groupBox31.Text" xml:space="preserve">
-    <value>做爱</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>退出</value>
-  </data>
-  <data name="groupBox79.Text" xml:space="preserve">
-    <value>牧师机器人积分(4,5)</value>
-  </data>
-  <data name="groupBox78.Text" xml:space="preserve">
-    <value>修女积分(4,5)</value>
-  </data>
-  <data name="GitResponseNewVersionAvailableText1" xml:space="preserve">
-    <value>找到新版本！
-
-您的版本： </value>
-  </data>
-  <data name="groupBox6.Text" xml:space="preserve">
-    <value>玩家姓名</value>
-  </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>检查更新</value>
-  </data>
-  <data name="WeekDaysMonday" xml:space="preserve">
-    <value>星期一</value>
-  </data>
-  <data name="groupBox58.Text" xml:space="preserve">
-    <value>精液总计</value>
-  </data>
-  <data name="WeekDaysWednesday" xml:space="preserve">
-    <value>星期三</value>
-  </data>
-  <data name="groupBox46.Text" xml:space="preserve">
-    <value>租金(1)</value>
-  </data>
-  <data name="openFileDialogFilter" xml:space="preserve">
-    <value>MDRG 檔案 (*.mdrg)|*.mdrg|所有檔案 (*.*)|*.*</value>
-  </data>
-  <data name="groupBox9.Text" xml:space="preserve">
-    <value>最大射精量</value>
-  </data>
-  <data name="groupBox67.Text" xml:space="preserve">
-    <value>最后机器人谈话(1)</value>
-  </data>
-  <data name="groupBox76.Text" xml:space="preserve">
-    <value>最后装备(1)</value>
-  </data>
-  <data name="groupBox70.Text" xml:space="preserve">
-    <value>最后一次到教堂(1)</value>
-  </data>
-  <data name="groupBox66.Text" xml:space="preserve">
-    <value>最后拍拍头(1)</value>
-  </data>
-  <data name="groupBox68.Text" xml:space="preserve">
-    <value>最后一次互动(1)</value>
-  </data>
-  <data name="groupBox65.Text" xml:space="preserve">
-    <value>最后的饥饿信息(1)</value>
-  </data>
-  <data name="groupBox64.Text" xml:space="preserve">
-    <value>最后心理信息(1)</value>
-  </data>
-  <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
-    <value>自述文件</value>
-  </data>
-  <data name="lightswitchCheckbox.Text" xml:space="preserve">
-    <value>电灯开关</value>
-  </data>
-  <data name="groupBox77.Text" xml:space="preserve">
-    <value>最后一次性行为(1)</value>
-  </data>
-  <data name="guideButton.Text" xml:space="preserve">
-    <value>指南</value>
-  </data>
-  <data name="GuideAndInstructionsCaption" xml:space="preserve">
-    <value>指南</value>
-  </data>
-  <data name="groupBox20.Text" xml:space="preserve">
-    <value>情绪</value>
-  </data>
-  <data name="groupBox33.Text" xml:space="preserve">
-    <value>最长的时间</value>
-  </data>
-  <data name="debugTextBox.Text" xml:space="preserve">
-    <value>加载保存文件。保存文件的内容将显示在此处。</value>
-  </data>
-  <data name="infoSaveBox.Text" xml:space="preserve">
-    <value>上傳檔案</value>
-  </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>上傳檔案</value>
-  </data>
-  <data name="GitResponseInvalidVersionFormatText" xml:space="preserve">
-    <value>無法檢查更新：
-
-
-無效版本格式。</value>
-  </data>
-  <data name="GitResponseCouldNotCheckForUpdateText" xml:space="preserve">
-    <value>無法檢查更新！
-
-錯誤：
-
-</value>
-  </data>
-  <data name="groupBox63.Text" xml:space="preserve">
-    <value>教堂时间</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>教会成就</value>
-  </data>
-  <data name="GitResponseNewestVersionCaption" xml:space="preserve">
-    <value>未找到新版本！</value>
-  </data>
-  <data name="BackupNoFileSelectedText" xml:space="preserve">
-    <value>尚未選擇任何檔案。請選擇一個存儲檔案後再執行備份。</value>
-  </data>
-  <data name="saveSlotBoxGen.Text" xml:space="preserve">
-    <value>无计算机文件</value>
-  </data>
-  <data name="saveSlotBoxBot.Text" xml:space="preserve">
-    <value>无计算机文件</value>
-  </data>
-  <data name="saveSlotBox.Text" xml:space="preserve">
-    <value>无计算机文件</value>
-  </data>
-  <data name="groupBox8.Text" xml:space="preserve">
-    <value>赌场代币</value>
-  </data>
-  <data name="groupBox21.Text" xml:space="preserve">
-    <value>智力</value>
-  </data>
-  <data name="EditInfoButtonCaption" xml:space="preserve">
-    <value>通知！</value>
-  </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>存档信息</value>
-  </data>
-  <data name="groupBox36.Text" xml:space="preserve">
-    <value>阴道做爱</value>
-  </data>
-  <data name="groupBox38.Text" xml:space="preserve">
-    <value>嘴巴做爱</value>
-  </data>
-  <data name="groupBox37.Text" xml:space="preserve">
-    <value>屁股做爱</value>
-  </data>
-  <data name="SavedataLoadingUnknownError" xml:space="preserve">
-    <value>儲存檔案時發生錯誤。
-
-錯誤：</value>
-  </data>
-  <data name="saveEditConsentBox.Text" xml:space="preserve">
-    <value>我承认并理解使用此功能可能会导致我的游戏存档被破坏或受损，并且我对任何潜在的进度或数据损失承担全部责任。</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>帮助</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>记得保证她的安全（和饱腹感）</value>
-  </data>
-  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHub链接</value>
-  </data>
-  <data name="groupBox57.Text" xml:space="preserve">
-    <value>获胜次数</value>
-  </data>
-  <data name="groupBox55.Text" xml:space="preserve">
-    <value>获胜次数</value>
-  </data>
-  <data name="groupBox50.Text" xml:space="preserve">
-    <value>获胜次数</value>
-  </data>
-  <data name="groupBox12.Text" xml:space="preserve">
-    <value>身体健康</value>
-  </data>
-  <data name="groupBox29.Text" xml:space="preserve">
-    <value>总播放时间</value>
-  </data>
-  <data name="groupBox7.Text" xml:space="preserve">
-    <value>金钱</value>
-  </data>
-  <data name="groupBox13.Text" xml:space="preserve">
-    <value>心理健康</value>
-  </data>
-  <data name="WeekDaysFriday" xml:space="preserve">
-    <value>星期五</value>
-  </data>
-  <data name="groupBox41.Text" xml:space="preserve">
-    <value>计划(2)</value>
-  </data>
-  <data name="groupBox34.Text" xml:space="preserve">
-    <value>计划(2)</value>
-  </data>
-  <data name="groupBox30.Text" xml:space="preserve">
-    <value>计划(2)</value>
-  </data>
-  <data name="groupBox27.Text" xml:space="preserve">
-    <value>直播关注者</value>
-  </data>
-  <data name="GenericErrorCaption" xml:space="preserve">
-    <value>錯誤！</value>
-  </data>
-  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
-    <value>报告错误</value>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Créditos</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
-    <value>致谢</value>
-  </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>成就信息</value>
-  </data>
-  <data name="GenericSuccessCaption" xml:space="preserve">
-    <value>成功！</value>
-  </data>
-  <data name="SavedataLoadingOverflowErrorText" xml:space="preserve">
-    <value>你的存檔中的某個條目導致了整數溢出。請在嘗試加載到程式之前修正此問題。
-
-如果你的存檔是完全原版且未經過任何編輯，請提交問題或在 MDRG 的 Discord 上傳訊息給我。
-否則，你應該清楚自己做了什麼，我不會為你破壞自己的存檔提供支援。</value>
-  </data>
-  <data name="GitResponseNewestVersionText" xml:space="preserve">
-    <value>您已使用最新版本。</value>
-  </data>
-  <data name="WeekDaysThursday" xml:space="preserve">
-    <value>星期四</value>
-  </data>
-  <data name="WeekDaysTuesday" xml:space="preserve">
-    <value>星期二</value>
-  </data>
-  <data name="groupBox10.Text" xml:space="preserve">
-    <value>精液</value>
-  </data>
-  <data name="groupBox11.Text" xml:space="preserve">
-    <value>体力</value>
-  </data>
-  <data name="HttpRequestExceptionMessageText" xml:space="preserve">
-    <value>程式發生以下錯誤：
-
-</value>
-  </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>调试信息</value>
-  </data>
-  <data name="groupBox62.Text" xml:space="preserve">
-    <value>死亡之握药效(1)</value>
-  </data>
-  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
-    <value>加载存档</value>
-  </data>
-  <data name="SavedataSavingSuccessText" xml:space="preserve">
-    <value>檔案已成功保存！</value>
-  </data>
-  <data name="RadioButtonFileText" xml:space="preserve">
-    <value>存档 {0}</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>存档</value>
-  </data>
-  <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>致谢</value>
-  </data>
-  <data name="groupBox15.Text" xml:space="preserve">
-    <value>机器人信息</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>机器人信息</value>
-  </data>
-  <data name="groupBox16.Text" xml:space="preserve">
-    <value>机器人姓名</value>
-  </data>
-  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
-    <value>访问过的网站</value>
-  </data>
-  <data name="SavedataSavingErrorText" xml:space="preserve">
-    <value>儲存檔案時發生錯誤。
-
-錯誤：</value>
-  </data>
-  <data name="SavedataLoadingErrorText" xml:space="preserve">
-    <value>你的存檔中的某個條目導致了整數溢出。請在嘗試加載到程式之前修正此問題。
-
-如果你的存檔是完全原版且未經過任何編輯，請提交問題或在 MDRG 的 Discord 上傳訊息給我。
-否則，你應該清楚自己做了什麼，我不會為你破壞自己的存檔提供支援。</value>
+    <value>謝辞</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
-    <value>保存编辑信息</value>
+    <value>編集情報を保存</value>
   </data>
-  <data name="groupBox39.Text" xml:space="preserve">
-    <value>外面射精</value>
+  <data name="infoSaveBox.Text" xml:space="preserve">
+    <value>ファイルを読み込む</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>保存スロット</value>
+  </data>
+  <data name="saveFilesChoosingBox.Text" xml:space="preserve">
+    <value>ファイルを保存</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>应用程序版本</value>
+    <value>アプリバージョン</value>
   </data>
-  <data name="groupBox48.Text" xml:space="preserve">
-    <value>机器人</value>
-  </data>
-  <data name="GitResponseNewVersionAvailableCaption" xml:space="preserve">
-    <value>發現更新！</value>
-  </data>
-  <data name="groupBox28.Text" xml:space="preserve">
-    <value>直播订阅者</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>(5)游戏时间</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>(1) 无法更改，租金始终在周一
-(2) 为便于阅读而转换，不是实际值
-(3) 如果更改，将不提供支持
-(4) 在某种程度上与教会任务线相关</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>(1)游戏时间</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>(1)游戏时间</value>
-  </data>
-  <data name="groupBox60.Text" xml:space="preserve">
-    <value>搜索(4)</value>
-  </data>
-  <data name="richTextBox3.Text" xml:space="preserve">
-    <value>“我不知道”结局</value>
-  </data>
-  <data name="richTextBox4.Text" xml:space="preserve">
-    <value>“遗忘的结局”</value>
-  </data>
-  <data name="richTextBox5.Text" xml:space="preserve">
-    <value>“最糟糕的结局”</value>
-  </data>
-  <data name="richTextBox6.Text" xml:space="preserve">
-    <value>“结局不够好”</value>
-  </data>
-  <data name="richTextBox12.Text" xml:space="preserve">
-    <value>“美好的结局”</value>
-  </data>
-  <data name="GitResponseNewVersionAvailableText2" xml:space="preserve">
-    <value>
-最新版本： </value>
-  </data>
-  <data name="GitResponseNewVersionAvailableText3" xml:space="preserve">
-    <value>
-您想打開 GitHub 取得最新的發行版本嗎？</value>
-  </data>
-  <data name="languageToolStripMenuItem" xml:space="preserve">
-    <value>语言</value>
-  </data>
-  <data name="label6HorrorText" xml:space="preserve">
-    <value>逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑</value>
-  </data>
-  <data name="label6NormalText" xml:space="preserve">
-    <value>记得保证她的安全（和饱腹感）</value>
-  </data>
-  <data name="HttpRequestUnknownErrorMessageText" xml:space="preserve">
-    <value>自動檢查更新時發生未知錯誤：
-
-錯誤：
-</value>
-  </data>
-  <data name="SavedataLoadingNoSavedataErrorText" xml:space="preserve">
-    <value>您尝试加载的文件不包含任何已保存的游戏数据。 这意味着您尝试打开的保存文件为空或未正确导出。 以下是您需要执行的操作来修复此问题： 
-
-首先，在尝试加载保存文件之前，请仔细检查您是否确实正确导出了保存文件。 如果您不确定，请确保您按照所有正确的步骤导出保存文件。 这很重要，因为如果保存文件未正确导出，则在您尝试加载时它将无法工作。
-
-如果您确定已导出保存文件但仍然看到此消息，则文件内部的数据结构可能存在问题。 要检查这一点，您应该在线搜索名为“JSON Beautifier”的东西。 此工具将帮助您以更易读的格式查看保存文件的内容。 完成此操作后，查找文件内的“savedata”部分。 如果此部分完全为空，则表示数据未正确保存，您需要返回，重新导出保存文件，然后重试。
-
-如果您的“savedata”部分不为空但仍然无法正常工作，请随时联系我们寻求帮助。 您可以在 GitHub 上打开一个问题，我可以为您提供进一步的帮助，或者您可以直接在 MDRG Discord 服务器上联系我。 在 Discord 服务器上，您会在最新的 Mods 论坛中找到一个名为“MDRG Analyzer”的帖子。 请在那里告诉我您的问题的详细信息，我会帮助您进一步排除故障。</value>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>ゲームバージョン</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -754,36 +228,327 @@ Xiaoye - 中文、西班牙语和葡萄牙语翻译
 </value>
   </data>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>此工具专为游戏“!Ω 阶乘欧米茄：我的反乌托邦机器人女友”制作。
+    <value>このツールは、ゲーム「!Ω Factorial Omega: My Dystopian Robot Girlfriend」用に作成されています。
 
-警告 - 剧透！此工具会包含剧透，因为它列出了大量信息。请注意！
+警告 - ネタバレ！このツールには、多くの情報が記載されているため、ネタバレが含まれます。ご注意ください！
 
-要开始使用它，请选择“文件”-&gt;“加载存档”并打开您的保存存档文件。然后选择您要检查的插槽。这不包括自动存档。
+使用を開始するには、「ファイル」-&gt;「ファイルを開く」を選択して、保存ファイルを開きます。次に、チェックするスロットを選択します。これには自動保存は含まれません。
 
-在 0.90 之前，您的存档文件,保存在以下目录中：
-[ C:\Users\&lt;您的用户名&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
-在 0.90 及更高版本中，您导出的存档文件将位于您保存它的位置。
+0.90より前では、保存ファイルは次のディレクトリに保存されていました：
+[C:\Users\&lt;ユーザー名&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
+バージョン0.90以降では、エクスポートされた保存ファイルは、保存した場所にあります。
 
-版权所有 © 2023-2024 Strawberry Software。保留所有权利。
-“MDRG Analyzer”是由 Strawberry Software 独立创作的，与 Incontinent Cell 没有任何关联或认可。游戏内容和相关知识产权均为 Incontinent Cell 的唯一财产。</value>
+Copyright © 2023-2024 Strawberry Software。無断複写・転載を禁じます。
+「MDRG Analyzer」は、Strawberry Softwareによる独立した作品であり、Incontinent Cellとは提携しておらず、承認もされていません。ゲームコンテンツおよび関連する知的財産は、Incontinent Cell の独占所有物です。</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 12</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>情報</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 12</value>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>プレイヤー情報</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 12</value>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>ボット情報</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 48</value>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>その他情報</value>
   </data>
-  <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 16</value>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>ウェブサイト</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>実績</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>編集を保存</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>デバッグ</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>ファイルを読み込む</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>プレイヤーの価値</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>（１）ゲーム時間を使う</value>
+  </data>
+  <data name="groupBox71.Text" xml:space="preserve">
+    <value>最後に勤務した場所(1)</value>
+  </data>
+  <data name="groupBox70.Text" xml:space="preserve">
+    <value>最後の教会訪問(1)</value>
+  </data>
+  <data name="groupBox69.Text" xml:space="preserve">
+    <value>最後に起きた時間(1)</value>
+  </data>
+  <data name="groupBox68.Text" xml:space="preserve">
+    <value>最後のインタラクト。(1)</value>
+  </data>
+  <data name="groupBox67.Text" xml:space="preserve">
+    <value>最後のボットトーク(1)</value>
+  </data>
+  <data name="groupBox66.Text" xml:space="preserve">
+    <value>最後のヘッドパット(1)</value>
+  </data>
+  <data name="groupBox65.Text" xml:space="preserve">
+    <value>LastHunger情報(1)</value>
+  </data>
+  <data name="groupBox64.Text" xml:space="preserve">
+    <value>最後のメンタル情報(1)</value>
+  </data>
+  <data name="groupBox63.Text" xml:space="preserve">
+    <value>教会に行く時間</value>
+  </data>
+  <data name="groupBox62.Text" xml:space="preserve">
+    <value>デスグリップエンド(1)</value>
+  </data>
+  <data name="groupBox61.Text" xml:space="preserve">
+    <value>酢エンド(1)</value>
+  </data>
+  <data name="groupBox59.Text" xml:space="preserve">
+    <value>無駄な精液</value>
+  </data>
+  <data name="groupBox45.Text" xml:space="preserve">
+    <value>保存スロット</value>
+  </data>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>ファイルなし</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>メンタルヘルス</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>ヘルス</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>現在のスタミナ</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>現在の合計</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>マックス。 精液</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>カジノトークン</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>お金</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>ボットの価値</value>
+  </data>
+  <data name="groupBox73.Text" xml:space="preserve">
+    <value>最後に抱き合ったのは(1)</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>（１）ゲーム時間を使う</value>
+  </data>
+  <data name="groupBox77.Text" xml:space="preserve">
+    <value>最後のセックスは(1)</value>
+  </data>
+  <data name="groupBox76.Text" xml:space="preserve">
+    <value>最終装備(1)</value>
+  </data>
+  <data name="groupBox75.Text" xml:space="preserve">
+    <value>最後の屋外(1)</value>
+  </data>
+  <data name="groupBox58.Text" xml:space="preserve">
+    <value>MLが口の中に入ってきた</value>
+  </data>
+  <data name="groupBox44.Text" xml:space="preserve">
+    <value>保存スロット</value>
+  </data>
+  <data name="saveSlotBoxBot.Text" xml:space="preserve">
+    <value>ファイルなし</value>
+  </data>
+  <data name="groupBox39.Text" xml:space="preserve">
+    <value>外に出た</value>
+  </data>
+  <data name="groupBox38.Text" xml:space="preserve">
+    <value>口の中に入ってきた</value>
+  </data>
+  <data name="groupBox37.Text" xml:space="preserve">
+    <value>お尻の中に入ってきた</value>
+  </data>
+  <data name="groupBox36.Text" xml:space="preserve">
+    <value>膣の中に入った</value>
+  </data>
+  <data name="groupBox24.Text" xml:space="preserve">
+    <value>お腹の中に射精</value>
+  </data>
+  <data name="groupBox23.Text" xml:space="preserve">
+    <value>お尻に射精</value>
+  </data>
+  <data name="groupBox22.Text" xml:space="preserve">
+    <value>マンコに射精</value>
+  </data>
+  <data name="groupBox21.Text" xml:space="preserve">
+    <value>インテリジェンス</value>
+  </data>
+  <data name="groupBox20.Text" xml:space="preserve">
+    <value>気分</value>
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>憧れ</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>Sympathy</value>
+  </data>
+  <data name="groupBox17.Text" xml:space="preserve">
+    <value>欲望</value>
+  </data>
+  <data name="groupBox16.Text" xml:space="preserve">
+    <value>ボット名</value>
+  </data>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>その他の値</value>
+  </data>
+  <data name="groupBox80.Text" xml:space="preserve">
+    <value>平日(1)</value>
+  </data>
+  <data name="groupBox79.Text" xml:space="preserve">
+    <value>プリーストボットポイント(4,5)</value>
+  </data>
+  <data name="groupBox78.Text" xml:space="preserve">
+    <value>修道女ポイント(4,5)</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>（５）ゲーム時間を使う</value>
+  </data>
+  <data name="groupBox74.Text" xml:space="preserve">
+    <value>最終ストリーム(5)</value>
+  </data>
+  <data name="groupBox60.Text" xml:space="preserve">
+    <value>「検索」(4)</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>(1) 変更できません。家賃は常に月曜日です
+(2) 読みやすさのために変換されており、実際の値ではありません
+(3) 変更してもサポートは提供されません
+(4) 教会のクエストラインに何らかの形で関連しています</value>
+  </data>
+  <data name="groupBox53.Text" xml:space="preserve">
+    <value>単語連鎖</value>
+  </data>
+  <data name="groupBox56.Text" xml:space="preserve">
+    <value>失われた時代</value>
+  </data>
+  <data name="groupBox57.Text" xml:space="preserve">
+    <value>勝利回数</value>
+  </data>
+  <data name="groupBox52.Text" xml:space="preserve">
+    <value>チェス</value>
+  </data>
+  <data name="groupBox54.Text" xml:space="preserve">
+    <value>失われた時代</value>
+  </data>
+  <data name="groupBox55.Text" xml:space="preserve">
+    <value>勝利回数</value>
+  </data>
+  <data name="groupBox48.Text" xml:space="preserve">
+    <value>オールドメイド</value>
+  </data>
+  <data name="groupBox51.Text" xml:space="preserve">
+    <value>時代は去った</value>
+  </data>
+  <data name="groupBox49.Text" xml:space="preserve">
+    <value>失われた時代</value>
+  </data>
+  <data name="groupBox50.Text" xml:space="preserve">
+    <value>勝利回数</value>
+  </data>
+  <data name="groupBox47.Text" xml:space="preserve">
+    <value>ストリーム量</value>
+  </data>
+  <data name="groupBox46.Text" xml:space="preserve">
+    <value>賃貸(1)</value>
+  </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>ゲームタイム</value>
+  </data>
+  <data name="groupBox41.Text" xml:space="preserve">
+    <value>フォーマット済み(2)</value>
+  </data>
+  <data name="groupBox42.Text" xml:space="preserve">
+    <value>生のもの</value>
+  </data>
+  <data name="lightswitchCheckbox.Text" xml:space="preserve">
+    <value>ライトスイッチ</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>最長ストリーム</value>
+  </data>
+  <data name="groupBox34.Text" xml:space="preserve">
+    <value>フォーマット済み(2)</value>
+  </data>
+  <data name="groupBox35.Text" xml:space="preserve">
+    <value>生のもの</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>保存スロット</value>
+  </data>
+  <data name="saveSlotBox.Text" xml:space="preserve">
+    <value>ファイルなし</value>
+  </data>
+  <data name="groupBox32.Text" xml:space="preserve">
+    <value>Stream Donos</value>
+  </data>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>総ストリーミング時間</value>
+  </data>
+  <data name="groupBox30.Text" xml:space="preserve">
+    <value>フォーマット済み(2)</value>
+  </data>
+  <data name="groupBox31.Text" xml:space="preserve">
+    <value>生のもの</value>
+  </data>
+  <data name="groupBox28.Text" xml:space="preserve">
+    <value>サブ</value>
+  </data>
+  <data name="groupBox27.Text" xml:space="preserve">
+    <value>フォロワー</value>
+  </data>
+  <data name="groupBox26.Text" xml:space="preserve">
+    <value>ゲームステージ(3)</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>ウェブサイトを表示</value>
+  </data>
+  <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
+    <value>訪問したウェブサイト</value>
+  </data>
+  <data name="websitesCheckBoxes.Items" xml:space="preserve">
+    <value>adredirect.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items1" xml:space="preserve">
+    <value>bang.ic</value>
   </data>
   <data name="websitesCheckBoxes.Items2" xml:space="preserve">
     <value>bang.ic/email</value>
+  </data>
+  <data name="websitesCheckBoxes.Items3" xml:space="preserve">
+    <value>blackjack.casino.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items4" xml:space="preserve">
+    <value>casino.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items5" xml:space="preserve">
+    <value>casino.ic/tokens</value>
+  </data>
+  <data name="websitesCheckBoxes.Items6" xml:space="preserve">
+    <value>cockcockcockcockcock.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items7" xml:space="preserve">
+    <value>cocktracts.ic</value>
   </data>
   <data name="websitesCheckBoxes.Items8" xml:space="preserve">
     <value>cocktracts.ic/available</value>
@@ -792,7 +557,7 @@ Xiaoye - 中文、西班牙语和葡萄牙语翻译
     <value>cocktracts.ic/contract</value>
   </data>
   <data name="websitesCheckBoxes.Items10" xml:space="preserve">
-    <value>cocktracts.ic/help</value>
+    <value>cocktracts.ic/contract</value>
   </data>
   <data name="websitesCheckBoxes.Items11" xml:space="preserve">
     <value>cocktracts.ic/partner</value>
@@ -804,10 +569,76 @@ Xiaoye - 中文、西班牙语和葡萄牙语翻译
     <value>cocktwitch.ic</value>
   </data>
   <data name="websitesCheckBoxes.Items14" xml:space="preserve">
-    <value>cocktwitch.ic/leaderboard</value>
+    <value>cocktwitch.ic</value>
   </data>
   <data name="websitesCheckBoxes.Items15" xml:space="preserve">
     <value>cocktwitch.ic/stats</value>
+  </data>
+  <data name="websitesCheckBoxes.Items16" xml:space="preserve">
+    <value>dickcheese.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items17" xml:space="preserve">
+    <value>dickcheese.ic/1</value>
+  </data>
+  <data name="websitesCheckBoxes.Items18" xml:space="preserve">
+    <value>dickcheese.ic/2</value>
+  </data>
+  <data name="websitesCheckBoxes.Items19" xml:space="preserve">
+    <value>duck.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items20" xml:space="preserve">
+    <value>fedup.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items21" xml:space="preserve">
+    <value>hotanimebabes.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items22" xml:space="preserve">
+    <value>ladyparts.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items23" xml:space="preserve">
+    <value>losefatquickly.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items24" xml:space="preserve">
+    <value>patriciascookingblog.food/blog</value>
+  </data>
+  <data name="websitesCheckBoxes.Items25" xml:space="preserve">
+    <value>patriciascookingblog.food/login</value>
+  </data>
+  <data name="websitesCheckBoxes.Items26" xml:space="preserve">
+    <value>patriciascookingblog.food/main</value>
+  </data>
+  <data name="websitesCheckBoxes.Items27" xml:space="preserve">
+    <value>peepee.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items28" xml:space="preserve">
+    <value>pixelglasses.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items29" xml:space="preserve">
+    <value>realmenfishing.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items30" xml:space="preserve">
+    <value>slots.casino.ic</value>
+  </data>
+  <data name="websitesCheckBoxes.Items31" xml:space="preserve">
+    <value>stonks.ic</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>教会の功績</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>「最悪の結末」</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>「忘れ去られた結末」</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>「分からない」エンディング</value>
+  </data>
+  <data name="richTextBox12.Text" xml:space="preserve">
+    <value>「良い結末」</value>
+  </data>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>「十分ではない結末」</value>
   </data>
   <data name="checkedListBox1.Items" xml:space="preserve">
     <value>church-endSpotkanie2B</value>
@@ -824,24 +655,27 @@ Xiaoye - 中文、西班牙语和葡萄牙语翻译
   <data name="checkedListBox1.Items4" xml:space="preserve">
     <value>church-endJustGoThereBad</value>
   </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>その他の実績</value>
+  </data>
   <data name="richTextBox7.Text" xml:space="preserve">
-    <value>ending-ballsexploded --- “果汁太多了...”
-ending-goodEnd1 --- “出售你的机器人”
-ending-badEnd1 --- “终止租赁”
-ending-badEnd2 --- “失败...”
-ending-badEnd3 --- “胆小鬼...”
-ending-badEnd4.1 --- “终止租赁 v2：流浪汉”
-ending-badEnd4.2 --- “终止租赁 v2：谋杀”
-ending-healthEnd --- “饥饿”
-ending-fedEnd --- “被抓住了...”
-ending-schizoEnd --- “我没有疯...”
-ending-genericSchizoEnd --- “Wall-kun”
-ending-KilledByADirtyCop1 --- “永远不要相信警察...”
-ending-KilledByADirtyCop2 --- “永远不要再相信警察...”
-ending-theyKnowOblivious --- “他们知道...（无知）”
-ending-theyKnow --- “他们知道...”
-bigdaddyhurtSecretEpilogue --- 本身不是结局，而是“他们知道...”的一部分。 - 遇到了 大爸爸受伤了，但没有继续他的故事情节
-saveEdited --- 使用了 作弊者 网站。</value>
+    <value>ending-ballsexploded --- 「ジュースが多すぎる...」
+ending-goodEnd1 --- 「ボットを売る」
+ending-badEnd1 --- 「賃貸契約の終了」
+ending-badEnd2 --- 「失敗...」
+ending-badEnd3 --- 「臆病者...」
+ending-badEnd4.1 --- 「賃貸契約の終了 v2: 浮浪者」
+ending-badEnd4.2 --- 「賃貸契約の終了 v2: 殺人」
+ending-healthEnd --- 「飢餓」
+ending-fedEnd --- 「捕まった...」
+ending-schizoEnd --- 「私は狂っていません...」
+ending-genericSchizoEnd --- 「壁くん」
+ending-KilledByADirtyCop1 --- 「警察を決して信用しない...」
+ending-KilledByADirtyCop2 --- 「警察を決して信用しない... もう一度」
+ending-theyKnowOblivious --- 「彼らは知っている... (無知)"
+ending-theyKnow --- 「彼らは知っている...」
+bigdaddyhurtSecretEpilogue --- それ自体はエンディングではありませんが、「彼らは知っている...」の一部です。 - bigdaddyhurt に会いましたが、彼のストーリーラインは続きませんでした
+saveEdited --- iamacheater の Web サイトを使用しました。</value>
   </data>
   <data name="checkedListBox2.Items" xml:space="preserve">
     <value>ending-ballsexploded</value>
@@ -883,7 +717,7 @@ saveEdited --- 使用了 作弊者 网站。</value>
     <value>ending-KilledByADirtyCop2</value>
   </data>
   <data name="checkedListBox2.Items13" xml:space="preserve">
-    <value>ending-theyKnowOblivious</value>
+    <value>結末-theyKnowOblivious</value>
   </data>
   <data name="checkedListBox2.Items14" xml:space="preserve">
     <value>ending-theyKnow</value>
@@ -892,10 +726,16 @@ saveEdited --- 使用了 作弊者 网站。</value>
     <value>bigdaddyhurtSecretEpilogue</value>
   </data>
   <data name="checkedListBox2.Items16" xml:space="preserve">
-    <value>saveEdited</value>
+    <value>保存編集済み</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 12</value>
+  <data name="button1.Text" xml:space="preserve">
+    <value>実績を表示</value>
+  </data>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>編集を保存</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>彼女を安全（そして満たす）に保つことを忘れないでください</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3425,63 +3265,121 @@ saveEdited --- 使用了 作弊者 网站。</value>
         rkJggg==
 </value>
   </data>
-  <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>648, 16</value>
+  <data name="saveButton.Text" xml:space="preserve">
+    <value>保存（現在の保存を上書きします）</value>
+  </data>
+  <data name="guideButton.Text" xml:space="preserve">
+    <value>ガイド</value>
+  </data>
+  <data name="createBackupButton.Text" xml:space="preserve">
+    <value>バックアップを作成</value>
+  </data>
+  <data name="saveEditConsentBox.Text" xml:space="preserve">
+    <value>この機能を使用すると、保存したゲームが破損したり、危険にさらされたりする可能性があることを認識し、理解しています。また、進行状況やデータが失われる可能性について、私は全責任を負います。</value>
   </data>
   <data name="richTextBox2.Text" xml:space="preserve">
-    <value>警告！此功能正在测试中，您的保存很可能会被损坏！请保留备份！
-当您同意您已阅读此文本并承认任何数据丢失都是您的错、由您独自承担责任，并且此功能很可能会损坏所选保存（如果不是所有保存）时，这些选项将被解锁。</value>
+    <value>警告! この機能はテスト中であり、保存データが破損する可能性があります。バックアップを保存してください。
+このテキストを読み、データの損失はすべてお客様の責任であり、お客様自身の責任であること、およびこの機能により、すべての保存データではないにしても、選択した保存データが破損する可能性が高いことを認めると、オプションがロック解除されます。</value>
   </data>
   <data name="commandsGroupBox.Text" xml:space="preserve">
-    <value>命令</value>
+    <value>コマンド</value>
   </data>
-  <data name="tabPage9.Text" xml:space="preserve">
-    <value>命令信息</value>
+  <data name="commandsTextBox.Text" xml:space="preserve">
+    <value>"C:\system\debug\reports\report_1.txt" --- Sys Report 1 Virus attack, DT?
+"C:\system\debug\reports\report_2.txt" --- Sys Report 2 - if 3, must be 2 and 1
+"C:\system\debug\reports\report_3.txt" --- Sys Report 3 - Found after prologue, cutscene of console.
+"F:\files\research\journal\1574_12_12.txt" --- Journal Text of Derry Tavis
+"F:\Jun\system\safety\Asimov3.xftt" --- Access Denied
+F:\files\research\journal\1578_12_16.txt
+F:\files\research\journal\1580_12_18.txt
+
+PlayVideo --- Uses file path to play a given video (e.g. [ PlayVideo "C:\Videos\Meruccubus.mp4" ] )
+
+VV Prompts (add "vv" before the command)
+
+lust
+sympathy
+mood
+isNaked
+cumInsideAnalMl
+cumInsideVaginaMl
+cumInsideStomachMl
+masterCumExtractedMl
+timeSinceLastHeadpat
+timeSinceLastSex
+timeSinceLastTalkWithMaster
+Horniness
+MasterName
+SelfName
+timesCameMouth
+timeCameInsideVagina
+timeCameInsideAnal</value>
   </data>
-  <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="debugTextBox.Text" xml:space="preserve">
+    <value>保存ファイルをロードします。保存ファイルの内容がここに表示されます。</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>メニューストリップ1</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイルをロード...</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>アップデートを確認する</value>
+  </data>
+  <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Readmeを開く</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
+    <value>バグを報告する</value>
+  </data>
+  <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>機能を提案する</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
+    <value>GitHubへのクイックリンク</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
   </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch</value>
   </data>
-  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
+  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
   </data>
-  <data name="openReadmeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文</value>
   </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 6</value>
-  </data>
-  <data name="reportABugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="suggestAFeatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="quickLinkToGitHubToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
     <value>Español (MT)</value>
   </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>语言</value>
-  </data>
-  <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguesa (MT)</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
-    <value>捐款</value>
+    <value>寄付する</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3560,56 +3458,12 @@ saveEdited --- 使用了 作弊者 网站。</value>
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>我的反乌托邦机器人女友存档分析器</value>
+    <value>私のディストピアロボットガールフレンド保存アナライザー</value>
   </data>
-  <data name="commandsTextBox.Text" xml:space="preserve">
-    <value>"C:\system\debug\reports\report_1.txt" --- 系统报告 1 病毒攻击，DT？
-"C:\system\debug\reports\report_2.txt" --- 系统报告 2 - 如果是 3，则必须是 2 和 1
-"C:\system\debug\reports\report_3.txt" --- 系统报告 3 - 在序言、控制台过场动画后发现。
-"F:\files\research\journal\1574_12_12.txt" --- Derry Tavis 的日记文本
-"F:\Jun\system\safety\Asimov3.xftt" --- 访问被拒绝
-F:\files\research\journal\1578_12_16.txt
-F:\files\research\journal\1580_12_18.txt
-
-使用文件路径播放给定的视频（例如 [PlayVideo "C:\Videos\Meruccubus.mp4" ] ）
-
-“VV”提示（在命令前添加“vv”）
-
-lust
-sympathy
-mood
-isNaked
-cumInsideAnalMl
-cumInsideVaginaMl
-cumInsideStomachMl
-masterCumExtractedMl
-timeSinceLastHeadpat
-timeSinceLastSex
-timeSinceLastTalkWithMaster
-Horniness
-MasterName
-SelfName
-timesCameMouth
-timeCameInsideVagina
-timeCameInsideAnal</value>
+  <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Português (MT)</value>
   </data>
-  <data name="MachineLanguageNoticeText" xml:space="preserve">
-    <value>Warning: The selected translation was machine translated.
-
-If you wish to help improve the translation, please contact Strawberry (@strawberrymk.vi) on the MDRG Discord Server, or open a GitHub Issue at https://github.com/Wehrmachtserdbeere/MDRG-Analyzer.
-
-When submitting fixes, please state the language and attach the corrected localization files:
-&lt;Form1.language.resx&gt; and &lt;Strings.language.resx&gt;.
-
-
-警告：選擇的翻譯是機器翻譯的。
-
-如果您希望幫助改進翻譯，請聯繫Strawberry (@strawberrymk.vi) 在MDRG Discord伺服器，或者在GitHub上開啟Issue (&lt;https://github.com/Wehrmachtserdbeere/MDRG-Analyzer&gt;)。
-
-提交修正時，請說明語言並附上修正後的本地化檔案：  
-&lt;Form1.language.resx&gt; 和 &lt;Strings.language.resx&gt;。</value>
-  </data>
-  <data name="MachineLanguageNoticeCaption" xml:space="preserve">
-    <value>翻譯通知！</value>
+  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
+    <value>日本語 (MT)</value>
   </data>
 </root>

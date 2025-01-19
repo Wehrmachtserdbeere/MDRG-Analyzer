@@ -533,10 +533,10 @@ Wenn deine Speicherdatei komplett Vanilla ist und nicht zuvor bearbeitet wurde, 
     <value>Dienstag</value>
   </data>
   <data name="groupBox10.Text" xml:space="preserve">
-    <value>Derz. Samen</value>
+    <value>Derzeitige Samenmenge</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>Derz. Ausdauer</value>
+    <value>Derzeitige Ausdauer</value>
   </data>
   <data name="HttpRequestExceptionMessageText" xml:space="preserve">
     <value>Der folgende Fehler ist aufgetreten:
@@ -810,7 +810,7 @@ saveEdited --- Habe die iamacheater-Website verwendet.</value>
     <value>Kommandos</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español</value>
+    <value>Español (MT)</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Sprache</value>
@@ -851,5 +851,24 @@ SelfName
 timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
+  </data>
+  <data name="MachineLanguageNoticeText" xml:space="preserve">
+    <value>Warning: The selected translation was machine translated.
+
+If you wish to help improve the translation, please contact Strawberry (@strawberrymk.vi) on the MDRG Discord Server, or open a GitHub Issue at https://github.com/Wehrmachtserdbeere/MDRG-Analyzer.
+
+When submitting fixes, please state the language and attach the corrected localization files:
+&lt;Form1.language.resx&gt; and &lt;Strings.language.resx&gt;.
+
+
+Warnung: Die ausgewählte Übersetzung wurde mit einem Übersetzungsprogramm übersetzt.
+
+Wenn du mit der verbesserung der Übersetzung helfen willst, bitte kontaktiere Strawberry (@strawberry.vi) auf dem MDRG Discord Server, oder öffne ein GitHub Issue in https://github.com/Wehrmachtserdbeere/MDRG-Analyzer.
+
+Wenn du Verbesserungen schicken möchtest, dann gib die Sprache an, und füge die korregierten Sprachdateien hinzu:
+&lt;Form1.language.resx&gt; and &lt;Strings.language.resx&gt;.</value>
+  </data>
+  <data name="MachineLanguageNoticeCaption" xml:space="preserve">
+    <value>Übersetzungswarnung!</value>
   </data>
 </root>
