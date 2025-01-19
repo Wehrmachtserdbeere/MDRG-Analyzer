@@ -30,6 +30,10 @@ If you don't provide a name you want to be credited as, your Discord Username wi
 
 # Current Translators
 
-### German
+### German, English
 
 Wehrmachtserdbeere / Strawberry
+
+### Chinese, Spanish, Portuguese
+
+Xiaoye / 442877450

@@ -353,7 +353,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAP0AAAB5CAYAAADyFCcyAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIDUuMS4y+7wDtgAAJJxJREFUeF7tnQnY
+        vgAADr4B6kKxwAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIDUuMS4y+7wDtgAAJJxJREFUeF7tnQnY
         b181x0PmeYwMqZAMkZQolExFs8xTIaE0yFBKf5LIkKGUoaIICUUhNCh/kgyVFJkqZZ7JPKxPT6u77rrf
         tc4+5ze8933v/j7P57nPfX97n/f3nnPWOXuvvfZaV5iampqampqampqampqampqampqampqauoT07sZn
         Gj9lfCk/aHQL4//2xJcb6CcN9XnHzxqj+mLjj40XCn7X+FtD/Q54mNHp5w3VL/JM4/UM1y8Zql2E43qf
@@ -975,18 +975,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
-    <value>saveFilesChoosingBox</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="versionBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1002,18 +990,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="versionBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;versionBox.Name" xml:space="preserve">
-    <value>versionBox</value>
-  </data>
-  <data name="&gt;&gt;versionBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;versionBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;versionBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="gameVersionBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1028,18 +1004,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="gameVersionBox.Text" xml:space="preserve">
     <value>Load a File</value>
-  </data>
-  <data name="&gt;&gt;gameVersionBox.Name" xml:space="preserve">
-    <value>gameVersionBox</value>
-  </data>
-  <data name="&gt;&gt;gameVersionBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gameVersionBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;gameVersionBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -1317,18 +1281,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Player Values</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1343,18 +1295,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>(1) Uses Game Time</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastWorkedAtDayBox.Name" xml:space="preserve">
     <value>lastWorkedAtDayBox</value>
@@ -1380,18 +1320,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox71.Text" xml:space="preserve">
     <value>Last worked at(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox71.Name" xml:space="preserve">
-    <value>groupBox71</value>
-  </data>
-  <data name="&gt;&gt;groupBox71.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox71.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox71.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="lastWorkedAtDayBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1409,18 +1337,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastWorkedAtDayBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastWorkedAtDayBox.Name" xml:space="preserve">
-    <value>lastWorkedAtDayBox</value>
-  </data>
-  <data name="&gt;&gt;lastWorkedAtDayBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastWorkedAtDayBox.Parent" xml:space="preserve">
-    <value>groupBox71</value>
-  </data>
-  <data name="&gt;&gt;lastWorkedAtDayBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastWentToChurchAtBox.Name" xml:space="preserve">
     <value>lastWentToChurchAtBox</value>
@@ -1446,18 +1362,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox70.Text" xml:space="preserve">
     <value>Last church visit(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox70.Name" xml:space="preserve">
-    <value>groupBox70</value>
-  </data>
-  <data name="&gt;&gt;groupBox70.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox70.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox70.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="lastWentToChurchAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1475,18 +1379,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastWentToChurchAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastWentToChurchAtBox.Name" xml:space="preserve">
-    <value>lastWentToChurchAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastWentToChurchAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastWentToChurchAtBox.Parent" xml:space="preserve">
-    <value>groupBox70</value>
-  </data>
-  <data name="&gt;&gt;lastWentToChurchAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastWokeUpAtBox.Name" xml:space="preserve">
     <value>lastWokeUpAtBox</value>
@@ -1512,18 +1404,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox69.Text" xml:space="preserve">
     <value>Last woke up at(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox69.Name" xml:space="preserve">
-    <value>groupBox69</value>
-  </data>
-  <data name="&gt;&gt;groupBox69.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox69.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox69.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="lastWokeUpAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1541,18 +1421,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastWokeUpAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastWokeUpAtBox.Name" xml:space="preserve">
-    <value>lastWokeUpAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastWokeUpAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastWokeUpAtBox.Parent" xml:space="preserve">
-    <value>groupBox69</value>
-  </data>
-  <data name="&gt;&gt;lastWokeUpAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastInteractAtBox.Name" xml:space="preserve">
     <value>lastInteractAtBox</value>
@@ -1578,18 +1446,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox68.Text" xml:space="preserve">
     <value>Last Interact.(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox68.Name" xml:space="preserve">
-    <value>groupBox68</value>
-  </data>
-  <data name="&gt;&gt;groupBox68.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox68.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox68.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="lastInteractAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1607,18 +1463,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastInteractAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastInteractAtBox.Name" xml:space="preserve">
-    <value>lastInteractAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastInteractAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastInteractAtBox.Parent" xml:space="preserve">
-    <value>groupBox68</value>
-  </data>
-  <data name="&gt;&gt;lastInteractAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastBotStartedTalkAtBox.Name" xml:space="preserve">
     <value>lastBotStartedTalkAtBox</value>
@@ -1644,18 +1488,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox67.Text" xml:space="preserve">
     <value>Last Bot Talk(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox67.Name" xml:space="preserve">
-    <value>groupBox67</value>
-  </data>
-  <data name="&gt;&gt;groupBox67.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox67.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox67.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="lastBotStartedTalkAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1673,18 +1505,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastBotStartedTalkAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastBotStartedTalkAtBox.Name" xml:space="preserve">
-    <value>lastBotStartedTalkAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastBotStartedTalkAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastBotStartedTalkAtBox.Parent" xml:space="preserve">
-    <value>groupBox67</value>
-  </data>
-  <data name="&gt;&gt;lastBotStartedTalkAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastHeadpatedAtBox.Name" xml:space="preserve">
     <value>lastHeadpatedAtBox</value>
@@ -1710,18 +1530,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox66.Text" xml:space="preserve">
     <value>Last Headpat at(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox66.Name" xml:space="preserve">
-    <value>groupBox66</value>
-  </data>
-  <data name="&gt;&gt;groupBox66.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox66.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox66.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="lastHeadpatedAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1739,18 +1547,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastHeadpatedAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastHeadpatedAtBox.Name" xml:space="preserve">
-    <value>lastHeadpatedAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastHeadpatedAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastHeadpatedAtBox.Parent" xml:space="preserve">
-    <value>groupBox66</value>
-  </data>
-  <data name="&gt;&gt;lastHeadpatedAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastHungerInfoAtBox.Name" xml:space="preserve">
     <value>lastHungerInfoAtBox</value>
@@ -1776,18 +1572,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox65.Text" xml:space="preserve">
     <value>LastHunger Info(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox65.Name" xml:space="preserve">
-    <value>groupBox65</value>
-  </data>
-  <data name="&gt;&gt;groupBox65.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox65.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox65.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="lastHungerInfoAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1805,18 +1589,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastHungerInfoAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastHungerInfoAtBox.Name" xml:space="preserve">
-    <value>lastHungerInfoAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastHungerInfoAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastHungerInfoAtBox.Parent" xml:space="preserve">
-    <value>groupBox65</value>
-  </data>
-  <data name="&gt;&gt;lastHungerInfoAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastMentalHealthInfoAtBox.Name" xml:space="preserve">
     <value>lastMentalHealthInfoAtBox</value>
@@ -1842,18 +1614,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox64.Text" xml:space="preserve">
     <value>Last Mental Info(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox64.Name" xml:space="preserve">
-    <value>groupBox64</value>
-  </data>
-  <data name="&gt;&gt;groupBox64.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox64.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox64.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
   <data name="lastMentalHealthInfoAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1871,18 +1631,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastMentalHealthInfoAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastMentalHealthInfoAtBox.Name" xml:space="preserve">
-    <value>lastMentalHealthInfoAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastMentalHealthInfoAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastMentalHealthInfoAtBox.Parent" xml:space="preserve">
-    <value>groupBox64</value>
-  </data>
-  <data name="&gt;&gt;lastMentalHealthInfoAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;churchAmountBox.Name" xml:space="preserve">
     <value>churchAmountBox</value>
@@ -1908,18 +1656,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox63.Text" xml:space="preserve">
     <value>Times to Church</value>
   </data>
-  <data name="&gt;&gt;groupBox63.Name" xml:space="preserve">
-    <value>groupBox63</value>
-  </data>
-  <data name="&gt;&gt;groupBox63.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox63.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox63.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <data name="churchAmountBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -1937,18 +1673,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="churchAmountBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;churchAmountBox.Name" xml:space="preserve">
-    <value>churchAmountBox</value>
-  </data>
-  <data name="&gt;&gt;churchAmountBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;churchAmountBox.Parent" xml:space="preserve">
-    <value>groupBox63</value>
-  </data>
-  <data name="&gt;&gt;churchAmountBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;deathGripEffectEndBox.Name" xml:space="preserve">
     <value>deathGripEffectEndBox</value>
@@ -1974,18 +1698,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox62.Text" xml:space="preserve">
     <value>Deathgrip End(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox62.Name" xml:space="preserve">
-    <value>groupBox62</value>
-  </data>
-  <data name="&gt;&gt;groupBox62.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox62.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox62.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="deathGripEffectEndBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2003,18 +1715,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="deathGripEffectEndBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;deathGripEffectEndBox.Name" xml:space="preserve">
-    <value>deathGripEffectEndBox</value>
-  </data>
-  <data name="&gt;&gt;deathGripEffectEndBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;deathGripEffectEndBox.Parent" xml:space="preserve">
-    <value>groupBox62</value>
-  </data>
-  <data name="&gt;&gt;deathGripEffectEndBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;vinegaraEndBox.Name" xml:space="preserve">
     <value>vinegaraEndBox</value>
@@ -2040,18 +1740,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox61.Text" xml:space="preserve">
     <value>Vinegara End(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox61.Name" xml:space="preserve">
-    <value>groupBox61</value>
-  </data>
-  <data name="&gt;&gt;groupBox61.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox61.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox61.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
   <data name="vinegaraEndBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2069,18 +1757,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="vinegaraEndBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;vinegaraEndBox.Name" xml:space="preserve">
-    <value>vinegaraEndBox</value>
-  </data>
-  <data name="&gt;&gt;vinegaraEndBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;vinegaraEndBox.Parent" xml:space="preserve">
-    <value>groupBox61</value>
-  </data>
-  <data name="&gt;&gt;vinegaraEndBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;mlCumWastedBox.Name" xml:space="preserve">
     <value>mlCumWastedBox</value>
@@ -2106,18 +1782,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox59.Text" xml:space="preserve">
     <value>Cum Wasted</value>
   </data>
-  <data name="&gt;&gt;groupBox59.Name" xml:space="preserve">
-    <value>groupBox59</value>
-  </data>
-  <data name="&gt;&gt;groupBox59.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox59.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox59.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="mlCumWastedBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2135,18 +1799,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="mlCumWastedBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;mlCumWastedBox.Name" xml:space="preserve">
-    <value>mlCumWastedBox</value>
-  </data>
-  <data name="&gt;&gt;mlCumWastedBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mlCumWastedBox.Parent" xml:space="preserve">
-    <value>groupBox59</value>
-  </data>
-  <data name="&gt;&gt;mlCumWastedBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;saveSlotBoxGen.Name" xml:space="preserve">
     <value>saveSlotBoxGen</value>
@@ -2172,18 +1824,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox45.Text" xml:space="preserve">
     <value>Save Slot</value>
   </data>
-  <data name="&gt;&gt;groupBox45.Name" xml:space="preserve">
-    <value>groupBox45</value>
-  </data>
-  <data name="&gt;&gt;groupBox45.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox45.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox45.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
   <data name="saveSlotBoxGen.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2198,18 +1838,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="saveSlotBoxGen.Text" xml:space="preserve">
     <value>No File</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxGen.Name" xml:space="preserve">
-    <value>saveSlotBoxGen</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxGen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxGen.Parent" xml:space="preserve">
-    <value>groupBox45</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxGen.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;mentalHealthBox.Name" xml:space="preserve">
     <value>mentalHealthBox</value>
@@ -2235,18 +1863,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox13.Text" xml:space="preserve">
     <value>Mental Health</value>
   </data>
-  <data name="&gt;&gt;groupBox13.Name" xml:space="preserve">
-    <value>groupBox13</value>
-  </data>
-  <data name="&gt;&gt;groupBox13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox13.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox13.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="mentalHealthBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 19</value>
   </data>
@@ -2264,18 +1880,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="mentalHealthBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;mentalHealthBox.Name" xml:space="preserve">
-    <value>mentalHealthBox</value>
-  </data>
-  <data name="&gt;&gt;mentalHealthBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mentalHealthBox.Parent" xml:space="preserve">
-    <value>groupBox13</value>
-  </data>
-  <data name="&gt;&gt;mentalHealthBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;playerHealthBox.Name" xml:space="preserve">
     <value>playerHealthBox</value>
@@ -2301,18 +1905,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox12.Text" xml:space="preserve">
     <value>Health</value>
   </data>
-  <data name="&gt;&gt;groupBox12.Name" xml:space="preserve">
-    <value>groupBox12</value>
-  </data>
-  <data name="&gt;&gt;groupBox12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox12.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox12.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
   <data name="playerHealthBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2330,18 +1922,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="playerHealthBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;playerHealthBox.Name" xml:space="preserve">
-    <value>playerHealthBox</value>
-  </data>
-  <data name="&gt;&gt;playerHealthBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;playerHealthBox.Parent" xml:space="preserve">
-    <value>groupBox12</value>
-  </data>
-  <data name="&gt;&gt;playerHealthBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;currentStaminaBox.Name" xml:space="preserve">
     <value>currentStaminaBox</value>
@@ -2367,18 +1947,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox11.Text" xml:space="preserve">
     <value>Current Stamina</value>
   </data>
-  <data name="&gt;&gt;groupBox11.Name" xml:space="preserve">
-    <value>groupBox11</value>
-  </data>
-  <data name="&gt;&gt;groupBox11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox11.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox11.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
   <data name="currentStaminaBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2396,18 +1964,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="currentStaminaBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;currentStaminaBox.Name" xml:space="preserve">
-    <value>currentStaminaBox</value>
-  </data>
-  <data name="&gt;&gt;currentStaminaBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;currentStaminaBox.Parent" xml:space="preserve">
-    <value>groupBox11</value>
-  </data>
-  <data name="&gt;&gt;currentStaminaBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;currentCumBox.Name" xml:space="preserve">
     <value>currentCumBox</value>
@@ -2433,18 +1989,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox10.Text" xml:space="preserve">
     <value>Current Cum</value>
   </data>
-  <data name="&gt;&gt;groupBox10.Name" xml:space="preserve">
-    <value>groupBox10</value>
-  </data>
-  <data name="&gt;&gt;groupBox10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox10.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox10.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
   <data name="currentCumBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2462,18 +2006,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="currentCumBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;currentCumBox.Name" xml:space="preserve">
-    <value>currentCumBox</value>
-  </data>
-  <data name="&gt;&gt;currentCumBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;currentCumBox.Parent" xml:space="preserve">
-    <value>groupBox10</value>
-  </data>
-  <data name="&gt;&gt;currentCumBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;maxCumBox.Name" xml:space="preserve">
     <value>maxCumBox</value>
@@ -2499,18 +2031,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Max. Cum</value>
   </data>
-  <data name="&gt;&gt;groupBox9.Name" xml:space="preserve">
-    <value>groupBox9</value>
-  </data>
-  <data name="&gt;&gt;groupBox9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox9.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
   <data name="maxCumBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2528,18 +2048,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="maxCumBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;maxCumBox.Name" xml:space="preserve">
-    <value>maxCumBox</value>
-  </data>
-  <data name="&gt;&gt;maxCumBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;maxCumBox.Parent" xml:space="preserve">
-    <value>groupBox9</value>
-  </data>
-  <data name="&gt;&gt;maxCumBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;casinoTokenBox.Name" xml:space="preserve">
     <value>casinoTokenBox</value>
@@ -2565,18 +2073,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox8.Text" xml:space="preserve">
     <value>Casino Tokens</value>
   </data>
-  <data name="&gt;&gt;groupBox8.Name" xml:space="preserve">
-    <value>groupBox8</value>
-  </data>
-  <data name="&gt;&gt;groupBox8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox8.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox8.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
   <data name="casinoTokenBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2594,18 +2090,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="casinoTokenBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;casinoTokenBox.Name" xml:space="preserve">
-    <value>casinoTokenBox</value>
-  </data>
-  <data name="&gt;&gt;casinoTokenBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;casinoTokenBox.Parent" xml:space="preserve">
-    <value>groupBox8</value>
-  </data>
-  <data name="&gt;&gt;casinoTokenBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;moneyTextBox.Name" xml:space="preserve">
     <value>moneyTextBox</value>
@@ -2631,18 +2115,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox7.Text" xml:space="preserve">
     <value>Money</value>
   </data>
-  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
-    <value>groupBox7</value>
-  </data>
-  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
   <data name="moneyTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2660,18 +2132,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="moneyTextBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;moneyTextBox.Name" xml:space="preserve">
-    <value>moneyTextBox</value>
-  </data>
-  <data name="&gt;&gt;moneyTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;moneyTextBox.Parent" xml:space="preserve">
-    <value>groupBox7</value>
-  </data>
-  <data name="&gt;&gt;moneyTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="groupBox6.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -2700,18 +2160,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Name</value>
   </data>
-  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
   <data name="playerNameBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2729,18 +2177,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="playerNameBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;playerNameBox.Name" xml:space="preserve">
-    <value>playerNameBox</value>
-  </data>
-  <data name="&gt;&gt;playerNameBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;playerNameBox.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;playerNameBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox73.Name" xml:space="preserve">
     <value>groupBox73</value>
@@ -2994,18 +2430,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox15.Text" xml:space="preserve">
     <value>Bot Values</value>
   </data>
-  <data name="&gt;&gt;groupBox15.Name" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox15.Parent" xml:space="preserve">
-    <value>tabPage6</value>
-  </data>
-  <data name="&gt;&gt;groupBox15.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;lastCuddledAtBox.Name" xml:space="preserve">
     <value>lastCuddledAtBox</value>
   </data>
@@ -3030,18 +2454,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox73.Text" xml:space="preserve">
     <value>Last cuddled at(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox73.Name" xml:space="preserve">
-    <value>groupBox73</value>
-  </data>
-  <data name="&gt;&gt;groupBox73.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox73.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox73.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="lastCuddledAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3060,18 +2472,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastCuddledAtBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;lastCuddledAtBox.Name" xml:space="preserve">
-    <value>lastCuddledAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastCuddledAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastCuddledAtBox.Parent" xml:space="preserve">
-    <value>groupBox73</value>
-  </data>
-  <data name="&gt;&gt;lastCuddledAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -3087,18 +2487,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="label7.Text" xml:space="preserve">
     <value>(1) Uses Game Time
 </value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="&gt;&gt;lastFuckedAtBox.Name" xml:space="preserve">
     <value>lastFuckedAtBox</value>
@@ -3124,18 +2512,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox77.Text" xml:space="preserve">
     <value>Last sex at(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox77.Name" xml:space="preserve">
-    <value>groupBox77</value>
-  </data>
-  <data name="&gt;&gt;groupBox77.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox77.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox77.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="lastFuckedAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3153,18 +2529,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastFuckedAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastFuckedAtBox.Name" xml:space="preserve">
-    <value>lastFuckedAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastFuckedAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastFuckedAtBox.Parent" xml:space="preserve">
-    <value>groupBox77</value>
-  </data>
-  <data name="&gt;&gt;lastFuckedAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastEquipmentAtBox.Name" xml:space="preserve">
     <value>lastEquipmentAtBox</value>
@@ -3190,18 +2554,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox76.Text" xml:space="preserve">
     <value>Last equipm. at(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox76.Name" xml:space="preserve">
-    <value>groupBox76</value>
-  </data>
-  <data name="&gt;&gt;groupBox76.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox76.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox76.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="lastEquipmentAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3219,18 +2571,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastEquipmentAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastEquipmentAtBox.Name" xml:space="preserve">
-    <value>lastEquipmentAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastEquipmentAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastEquipmentAtBox.Parent" xml:space="preserve">
-    <value>groupBox76</value>
-  </data>
-  <data name="&gt;&gt;lastEquipmentAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;lastOutsideWithBotAtBox.Name" xml:space="preserve">
     <value>lastOutsideWithBotAtBox</value>
@@ -3256,18 +2596,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox75.Text" xml:space="preserve">
     <value>Last outside at(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox75.Name" xml:space="preserve">
-    <value>groupBox75</value>
-  </data>
-  <data name="&gt;&gt;groupBox75.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox75.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox75.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="lastOutsideWithBotAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3285,18 +2613,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastOutsideWithBotAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastOutsideWithBotAtBox.Name" xml:space="preserve">
-    <value>lastOutsideWithBotAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastOutsideWithBotAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastOutsideWithBotAtBox.Parent" xml:space="preserve">
-    <value>groupBox75</value>
-  </data>
-  <data name="&gt;&gt;lastOutsideWithBotAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;mlCameInMouthBox.Name" xml:space="preserve">
     <value>mlCameInMouthBox</value>
@@ -3322,18 +2638,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox58.Text" xml:space="preserve">
     <value>ML came in Mouth</value>
   </data>
-  <data name="&gt;&gt;groupBox58.Name" xml:space="preserve">
-    <value>groupBox58</value>
-  </data>
-  <data name="&gt;&gt;groupBox58.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox58.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox58.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="mlCameInMouthBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3351,18 +2655,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="mlCameInMouthBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;mlCameInMouthBox.Name" xml:space="preserve">
-    <value>mlCameInMouthBox</value>
-  </data>
-  <data name="&gt;&gt;mlCameInMouthBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mlCameInMouthBox.Parent" xml:space="preserve">
-    <value>groupBox58</value>
-  </data>
-  <data name="&gt;&gt;mlCameInMouthBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;saveSlotBoxBot.Name" xml:space="preserve">
     <value>saveSlotBoxBot</value>
@@ -3388,18 +2680,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox44.Text" xml:space="preserve">
     <value>Save Slot</value>
   </data>
-  <data name="&gt;&gt;groupBox44.Name" xml:space="preserve">
-    <value>groupBox44</value>
-  </data>
-  <data name="&gt;&gt;groupBox44.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox44.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox44.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="saveSlotBoxBot.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3414,18 +2694,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="saveSlotBoxBot.Text" xml:space="preserve">
     <value>No File</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxBot.Name" xml:space="preserve">
-    <value>saveSlotBoxBot</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxBot.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxBot.Parent" xml:space="preserve">
-    <value>groupBox44</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBoxBot.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;cameOutsideBox.Name" xml:space="preserve">
     <value>cameOutsideBox</value>
@@ -3451,18 +2719,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox39.Text" xml:space="preserve">
     <value>Came outside</value>
   </data>
-  <data name="&gt;&gt;groupBox39.Name" xml:space="preserve">
-    <value>groupBox39</value>
-  </data>
-  <data name="&gt;&gt;groupBox39.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox39.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox39.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="cameOutsideBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3480,18 +2736,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="cameOutsideBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;cameOutsideBox.Name" xml:space="preserve">
-    <value>cameOutsideBox</value>
-  </data>
-  <data name="&gt;&gt;cameOutsideBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cameOutsideBox.Parent" xml:space="preserve">
-    <value>groupBox39</value>
-  </data>
-  <data name="&gt;&gt;cameOutsideBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;timesCumInsideOral.Name" xml:space="preserve">
     <value>timesCumInsideOral</value>
@@ -3517,18 +2761,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox38.Text" xml:space="preserve">
     <value>Came inside Mouth</value>
   </data>
-  <data name="&gt;&gt;groupBox38.Name" xml:space="preserve">
-    <value>groupBox38</value>
-  </data>
-  <data name="&gt;&gt;groupBox38.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox38.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox38.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
   <data name="timesCumInsideOral.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3546,18 +2778,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesCumInsideOral.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesCumInsideOral.Name" xml:space="preserve">
-    <value>timesCumInsideOral</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideOral.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideOral.Parent" xml:space="preserve">
-    <value>groupBox38</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideOral.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;timesCumInsideAss.Name" xml:space="preserve">
     <value>timesCumInsideAss</value>
@@ -3583,18 +2803,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox37.Text" xml:space="preserve">
     <value>Came inside Ass</value>
   </data>
-  <data name="&gt;&gt;groupBox37.Name" xml:space="preserve">
-    <value>groupBox37</value>
-  </data>
-  <data name="&gt;&gt;groupBox37.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox37.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox37.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <data name="timesCumInsideAss.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3612,18 +2820,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesCumInsideAss.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesCumInsideAss.Name" xml:space="preserve">
-    <value>timesCumInsideAss</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideAss.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideAss.Parent" xml:space="preserve">
-    <value>groupBox37</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideAss.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;timesCumInsideVag.Name" xml:space="preserve">
     <value>timesCumInsideVag</value>
@@ -3649,18 +2845,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox36.Text" xml:space="preserve">
     <value>Came inside Vag</value>
   </data>
-  <data name="&gt;&gt;groupBox36.Name" xml:space="preserve">
-    <value>groupBox36</value>
-  </data>
-  <data name="&gt;&gt;groupBox36.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox36.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox36.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="timesCumInsideVag.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3678,18 +2862,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesCumInsideVag.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesCumInsideVag.Name" xml:space="preserve">
-    <value>timesCumInsideVag</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideVag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideVag.Parent" xml:space="preserve">
-    <value>groupBox36</value>
-  </data>
-  <data name="&gt;&gt;timesCumInsideVag.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;cumInStomach.Name" xml:space="preserve">
     <value>cumInStomach</value>
@@ -3715,18 +2887,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox24.Text" xml:space="preserve">
     <value>Cum in Stomach</value>
   </data>
-  <data name="&gt;&gt;groupBox24.Name" xml:space="preserve">
-    <value>groupBox24</value>
-  </data>
-  <data name="&gt;&gt;groupBox24.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox24.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox24.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
   <data name="cumInStomach.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3744,18 +2904,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="cumInStomach.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;cumInStomach.Name" xml:space="preserve">
-    <value>cumInStomach</value>
-  </data>
-  <data name="&gt;&gt;cumInStomach.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cumInStomach.Parent" xml:space="preserve">
-    <value>groupBox24</value>
-  </data>
-  <data name="&gt;&gt;cumInStomach.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;cumInAss.Name" xml:space="preserve">
     <value>cumInAss</value>
@@ -3781,18 +2929,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox23.Text" xml:space="preserve">
     <value>Cum in Ass</value>
   </data>
-  <data name="&gt;&gt;groupBox23.Name" xml:space="preserve">
-    <value>groupBox23</value>
-  </data>
-  <data name="&gt;&gt;groupBox23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox23.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox23.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="cumInAss.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3810,18 +2946,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="cumInAss.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;cumInAss.Name" xml:space="preserve">
-    <value>cumInAss</value>
-  </data>
-  <data name="&gt;&gt;cumInAss.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cumInAss.Parent" xml:space="preserve">
-    <value>groupBox23</value>
-  </data>
-  <data name="&gt;&gt;cumInAss.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;cumInPussy.Name" xml:space="preserve">
     <value>cumInPussy</value>
@@ -3847,18 +2971,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox22.Text" xml:space="preserve">
     <value>Cum in Pussy</value>
   </data>
-  <data name="&gt;&gt;groupBox22.Name" xml:space="preserve">
-    <value>groupBox22</value>
-  </data>
-  <data name="&gt;&gt;groupBox22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox22.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox22.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
   <data name="cumInPussy.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3876,18 +2988,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="cumInPussy.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;cumInPussy.Name" xml:space="preserve">
-    <value>cumInPussy</value>
-  </data>
-  <data name="&gt;&gt;cumInPussy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cumInPussy.Parent" xml:space="preserve">
-    <value>groupBox22</value>
-  </data>
-  <data name="&gt;&gt;cumInPussy.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;botIntBox.Name" xml:space="preserve">
     <value>botIntBox</value>
@@ -3913,18 +3013,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox21.Text" xml:space="preserve">
     <value>Intelligence</value>
   </data>
-  <data name="&gt;&gt;groupBox21.Name" xml:space="preserve">
-    <value>groupBox21</value>
-  </data>
-  <data name="&gt;&gt;groupBox21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox21.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox21.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="botIntBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -3942,18 +3030,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botIntBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;botIntBox.Name" xml:space="preserve">
-    <value>botIntBox</value>
-  </data>
-  <data name="&gt;&gt;botIntBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;botIntBox.Parent" xml:space="preserve">
-    <value>groupBox21</value>
-  </data>
-  <data name="&gt;&gt;botIntBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;botMoodBox.Name" xml:space="preserve">
     <value>botMoodBox</value>
@@ -3979,18 +3055,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox20.Text" xml:space="preserve">
     <value>Mood</value>
   </data>
-  <data name="&gt;&gt;groupBox20.Name" xml:space="preserve">
-    <value>groupBox20</value>
-  </data>
-  <data name="&gt;&gt;groupBox20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox20.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox20.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
   <data name="botMoodBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4008,18 +3072,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botMoodBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;botMoodBox.Name" xml:space="preserve">
-    <value>botMoodBox</value>
-  </data>
-  <data name="&gt;&gt;botMoodBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;botMoodBox.Parent" xml:space="preserve">
-    <value>groupBox20</value>
-  </data>
-  <data name="&gt;&gt;botMoodBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;botLongingBox.Name" xml:space="preserve">
     <value>botLongingBox</value>
@@ -4045,18 +3097,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox19.Text" xml:space="preserve">
     <value>Longing</value>
   </data>
-  <data name="&gt;&gt;groupBox19.Name" xml:space="preserve">
-    <value>groupBox19</value>
-  </data>
-  <data name="&gt;&gt;groupBox19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox19.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox19.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
   <data name="botLongingBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4074,18 +3114,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botLongingBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;botLongingBox.Name" xml:space="preserve">
-    <value>botLongingBox</value>
-  </data>
-  <data name="&gt;&gt;botLongingBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;botLongingBox.Parent" xml:space="preserve">
-    <value>groupBox19</value>
-  </data>
-  <data name="&gt;&gt;botLongingBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;botSympathyBox.Name" xml:space="preserve">
     <value>botSympathyBox</value>
@@ -4111,18 +3139,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox18.Text" xml:space="preserve">
     <value>Sympathy</value>
   </data>
-  <data name="&gt;&gt;groupBox18.Name" xml:space="preserve">
-    <value>groupBox18</value>
-  </data>
-  <data name="&gt;&gt;groupBox18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox18.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox18.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
   <data name="botSympathyBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4140,18 +3156,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botSympathyBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;botSympathyBox.Name" xml:space="preserve">
-    <value>botSympathyBox</value>
-  </data>
-  <data name="&gt;&gt;botSympathyBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;botSympathyBox.Parent" xml:space="preserve">
-    <value>groupBox18</value>
-  </data>
-  <data name="&gt;&gt;botSympathyBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;botLustBox.Name" xml:space="preserve">
     <value>botLustBox</value>
@@ -4177,18 +3181,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox17.Text" xml:space="preserve">
     <value>Lust</value>
   </data>
-  <data name="&gt;&gt;groupBox17.Name" xml:space="preserve">
-    <value>groupBox17</value>
-  </data>
-  <data name="&gt;&gt;groupBox17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox17.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox17.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
   <data name="botLustBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4206,18 +3198,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botLustBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;botLustBox.Name" xml:space="preserve">
-    <value>botLustBox</value>
-  </data>
-  <data name="&gt;&gt;botLustBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;botLustBox.Parent" xml:space="preserve">
-    <value>groupBox17</value>
-  </data>
-  <data name="&gt;&gt;botLustBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;botNameBox.Name" xml:space="preserve">
     <value>botNameBox</value>
@@ -4243,18 +3223,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox16.Text" xml:space="preserve">
     <value>Bot Name</value>
   </data>
-  <data name="&gt;&gt;groupBox16.Name" xml:space="preserve">
-    <value>groupBox16</value>
-  </data>
-  <data name="&gt;&gt;groupBox16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox16.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox16.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
   <data name="botNameBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4272,18 +3240,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botNameBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;botNameBox.Name" xml:space="preserve">
-    <value>botNameBox</value>
-  </data>
-  <data name="&gt;&gt;botNameBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;botNameBox.Parent" xml:space="preserve">
-    <value>groupBox16</value>
-  </data>
-  <data name="&gt;&gt;botNameBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox80.Name" xml:space="preserve">
     <value>groupBox80</value>
@@ -4549,18 +3505,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox25.Text" xml:space="preserve">
     <value>Misc Values</value>
   </data>
-  <data name="&gt;&gt;groupBox25.Name" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox25.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox25.Parent" xml:space="preserve">
-    <value>tabPage7</value>
-  </data>
-  <data name="&gt;&gt;groupBox25.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;weekdayTextBox.Name" xml:space="preserve">
     <value>weekdayTextBox</value>
   </data>
@@ -4585,18 +3529,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox80.Text" xml:space="preserve">
     <value>Weekday(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox80.Name" xml:space="preserve">
-    <value>groupBox80</value>
-  </data>
-  <data name="&gt;&gt;groupBox80.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox80.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox80.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="weekdayTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4611,18 +3543,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="weekdayTextBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;weekdayTextBox.Name" xml:space="preserve">
-    <value>weekdayTextBox</value>
-  </data>
-  <data name="&gt;&gt;weekdayTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;weekdayTextBox.Parent" xml:space="preserve">
-    <value>groupBox80</value>
-  </data>
-  <data name="&gt;&gt;weekdayTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;priestBotPointsBox.Name" xml:space="preserve">
     <value>priestBotPointsBox</value>
@@ -4648,18 +3568,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox79.Text" xml:space="preserve">
     <value>PriestBot Point(4,5)</value>
   </data>
-  <data name="&gt;&gt;groupBox79.Name" xml:space="preserve">
-    <value>groupBox79</value>
-  </data>
-  <data name="&gt;&gt;groupBox79.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox79.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox79.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="priestBotPointsBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4674,18 +3582,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="priestBotPointsBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;priestBotPointsBox.Name" xml:space="preserve">
-    <value>priestBotPointsBox</value>
-  </data>
-  <data name="&gt;&gt;priestBotPointsBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;priestBotPointsBox.Parent" xml:space="preserve">
-    <value>groupBox79</value>
-  </data>
-  <data name="&gt;&gt;priestBotPointsBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;nunPointsBox.Name" xml:space="preserve">
     <value>nunPointsBox</value>
@@ -4711,18 +3607,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox78.Text" xml:space="preserve">
     <value>Nun Points(4,5)</value>
   </data>
-  <data name="&gt;&gt;groupBox78.Name" xml:space="preserve">
-    <value>groupBox78</value>
-  </data>
-  <data name="&gt;&gt;groupBox78.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox78.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox78.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="nunPointsBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4738,18 +3622,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="nunPointsBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;nunPointsBox.Name" xml:space="preserve">
-    <value>nunPointsBox</value>
-  </data>
-  <data name="&gt;&gt;nunPointsBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nunPointsBox.Parent" xml:space="preserve">
-    <value>groupBox78</value>
-  </data>
-  <data name="&gt;&gt;nunPointsBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -4764,18 +3636,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>(5) Uses Game Time</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;lastStreamedAtBox.Name" xml:space="preserve">
     <value>lastStreamedAtBox</value>
@@ -4801,18 +3661,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox74.Text" xml:space="preserve">
     <value>Last Stream at(5)</value>
   </data>
-  <data name="&gt;&gt;groupBox74.Name" xml:space="preserve">
-    <value>groupBox74</value>
-  </data>
-  <data name="&gt;&gt;groupBox74.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox74.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox74.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="lastStreamedAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4827,18 +3675,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastStreamedAtBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;lastStreamedAtBox.Name" xml:space="preserve">
-    <value>lastStreamedAtBox</value>
-  </data>
-  <data name="&gt;&gt;lastStreamedAtBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lastStreamedAtBox.Parent" xml:space="preserve">
-    <value>groupBox74</value>
-  </data>
-  <data name="&gt;&gt;lastStreamedAtBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;searchTextBox.Name" xml:space="preserve">
     <value>searchTextBox</value>
@@ -4864,18 +3700,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox60.Text" xml:space="preserve">
     <value>"Search"(4)</value>
   </data>
-  <data name="&gt;&gt;groupBox60.Name" xml:space="preserve">
-    <value>groupBox60</value>
-  </data>
-  <data name="&gt;&gt;groupBox60.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox60.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox60.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="searchTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -4890,18 +3714,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="searchTextBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;searchTextBox.Name" xml:space="preserve">
-    <value>searchTextBox</value>
-  </data>
-  <data name="&gt;&gt;searchTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;searchTextBox.Parent" xml:space="preserve">
-    <value>groupBox60</value>
-  </data>
-  <data name="&gt;&gt;searchTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4920,18 +3732,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
 (2) Converted for readability, not an actual value
 (3) No support will be given if changed
 (4) In some way related to the Church Questline</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <data name="&gt;&gt;groupBox56.Name" xml:space="preserve">
     <value>groupBox56</value>
@@ -4969,18 +3769,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox53.Text" xml:space="preserve">
     <value>Word Chain</value>
   </data>
-  <data name="&gt;&gt;groupBox53.Name" xml:space="preserve">
-    <value>groupBox53</value>
-  </data>
-  <data name="&gt;&gt;groupBox53.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox53.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox53.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="&gt;&gt;timesLostWordChainBox.Name" xml:space="preserve">
     <value>timesLostWordChainBox</value>
   </data>
@@ -5005,18 +3793,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox56.Text" xml:space="preserve">
     <value>Times Lost</value>
   </data>
-  <data name="&gt;&gt;groupBox56.Name" xml:space="preserve">
-    <value>groupBox56</value>
-  </data>
-  <data name="&gt;&gt;groupBox56.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox56.Parent" xml:space="preserve">
-    <value>groupBox53</value>
-  </data>
-  <data name="&gt;&gt;groupBox56.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="timesLostWordChainBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5034,18 +3810,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesLostWordChainBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesLostWordChainBox.Name" xml:space="preserve">
-    <value>timesLostWordChainBox</value>
-  </data>
-  <data name="&gt;&gt;timesLostWordChainBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesLostWordChainBox.Parent" xml:space="preserve">
-    <value>groupBox56</value>
-  </data>
-  <data name="&gt;&gt;timesLostWordChainBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;timesWonWordChainBox.Name" xml:space="preserve">
     <value>timesWonWordChainBox</value>
@@ -5071,18 +3835,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox57.Text" xml:space="preserve">
     <value>Times Won</value>
   </data>
-  <data name="&gt;&gt;groupBox57.Name" xml:space="preserve">
-    <value>groupBox57</value>
-  </data>
-  <data name="&gt;&gt;groupBox57.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox57.Parent" xml:space="preserve">
-    <value>groupBox53</value>
-  </data>
-  <data name="&gt;&gt;groupBox57.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="timesWonWordChainBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5100,18 +3852,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesWonWordChainBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesWonWordChainBox.Name" xml:space="preserve">
-    <value>timesWonWordChainBox</value>
-  </data>
-  <data name="&gt;&gt;timesWonWordChainBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesWonWordChainBox.Parent" xml:space="preserve">
-    <value>groupBox57</value>
-  </data>
-  <data name="&gt;&gt;timesWonWordChainBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox54.Name" xml:space="preserve">
     <value>groupBox54</value>
@@ -5149,18 +3889,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox52.Text" xml:space="preserve">
     <value>Chess</value>
   </data>
-  <data name="&gt;&gt;groupBox52.Name" xml:space="preserve">
-    <value>groupBox52</value>
-  </data>
-  <data name="&gt;&gt;groupBox52.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox52.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox52.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
   <data name="&gt;&gt;timesLostChessBox.Name" xml:space="preserve">
     <value>timesLostChessBox</value>
   </data>
@@ -5185,18 +3913,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox54.Text" xml:space="preserve">
     <value>Times Lost</value>
   </data>
-  <data name="&gt;&gt;groupBox54.Name" xml:space="preserve">
-    <value>groupBox54</value>
-  </data>
-  <data name="&gt;&gt;groupBox54.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox54.Parent" xml:space="preserve">
-    <value>groupBox52</value>
-  </data>
-  <data name="&gt;&gt;groupBox54.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="timesLostChessBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5214,18 +3930,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesLostChessBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesLostChessBox.Name" xml:space="preserve">
-    <value>timesLostChessBox</value>
-  </data>
-  <data name="&gt;&gt;timesLostChessBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesLostChessBox.Parent" xml:space="preserve">
-    <value>groupBox54</value>
-  </data>
-  <data name="&gt;&gt;timesLostChessBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;timesWonChessBox.Name" xml:space="preserve">
     <value>timesWonChessBox</value>
@@ -5251,18 +3955,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox55.Text" xml:space="preserve">
     <value>Times Won</value>
   </data>
-  <data name="&gt;&gt;groupBox55.Name" xml:space="preserve">
-    <value>groupBox55</value>
-  </data>
-  <data name="&gt;&gt;groupBox55.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox55.Parent" xml:space="preserve">
-    <value>groupBox52</value>
-  </data>
-  <data name="&gt;&gt;groupBox55.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="timesWonChessBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5280,18 +3972,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesWonChessBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesWonChessBox.Name" xml:space="preserve">
-    <value>timesWonChessBox</value>
-  </data>
-  <data name="&gt;&gt;timesWonChessBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesWonChessBox.Parent" xml:space="preserve">
-    <value>groupBox55</value>
-  </data>
-  <data name="&gt;&gt;timesWonChessBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox51.Name" xml:space="preserve">
     <value>groupBox51</value>
@@ -5341,18 +4021,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox48.Text" xml:space="preserve">
     <value>Old Maid</value>
   </data>
-  <data name="&gt;&gt;groupBox48.Name" xml:space="preserve">
-    <value>groupBox48</value>
-  </data>
-  <data name="&gt;&gt;groupBox48.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox48.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox48.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
   <data name="&gt;&gt;timesRanAwayOldMaidBox.Name" xml:space="preserve">
     <value>timesRanAwayOldMaidBox</value>
   </data>
@@ -5377,18 +4045,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox51.Text" xml:space="preserve">
     <value>Times Ran Away</value>
   </data>
-  <data name="&gt;&gt;groupBox51.Name" xml:space="preserve">
-    <value>groupBox51</value>
-  </data>
-  <data name="&gt;&gt;groupBox51.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox51.Parent" xml:space="preserve">
-    <value>groupBox48</value>
-  </data>
-  <data name="&gt;&gt;groupBox51.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="timesRanAwayOldMaidBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5406,18 +4062,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesRanAwayOldMaidBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesRanAwayOldMaidBox.Name" xml:space="preserve">
-    <value>timesRanAwayOldMaidBox</value>
-  </data>
-  <data name="&gt;&gt;timesRanAwayOldMaidBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesRanAwayOldMaidBox.Parent" xml:space="preserve">
-    <value>groupBox51</value>
-  </data>
-  <data name="&gt;&gt;timesRanAwayOldMaidBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;timesLostOldMaidBox.Name" xml:space="preserve">
     <value>timesLostOldMaidBox</value>
@@ -5443,18 +4087,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox49.Text" xml:space="preserve">
     <value>Times Lost</value>
   </data>
-  <data name="&gt;&gt;groupBox49.Name" xml:space="preserve">
-    <value>groupBox49</value>
-  </data>
-  <data name="&gt;&gt;groupBox49.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox49.Parent" xml:space="preserve">
-    <value>groupBox48</value>
-  </data>
-  <data name="&gt;&gt;groupBox49.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="timesLostOldMaidBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5472,18 +4104,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesLostOldMaidBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesLostOldMaidBox.Name" xml:space="preserve">
-    <value>timesLostOldMaidBox</value>
-  </data>
-  <data name="&gt;&gt;timesLostOldMaidBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesLostOldMaidBox.Parent" xml:space="preserve">
-    <value>groupBox49</value>
-  </data>
-  <data name="&gt;&gt;timesLostOldMaidBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;timesWonOldMaidBox.Name" xml:space="preserve">
     <value>timesWonOldMaidBox</value>
@@ -5509,18 +4129,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox50.Text" xml:space="preserve">
     <value>Times Won</value>
   </data>
-  <data name="&gt;&gt;groupBox50.Name" xml:space="preserve">
-    <value>groupBox50</value>
-  </data>
-  <data name="&gt;&gt;groupBox50.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox50.Parent" xml:space="preserve">
-    <value>groupBox48</value>
-  </data>
-  <data name="&gt;&gt;groupBox50.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="timesWonOldMaidBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5538,18 +4146,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesWonOldMaidBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;timesWonOldMaidBox.Name" xml:space="preserve">
-    <value>timesWonOldMaidBox</value>
-  </data>
-  <data name="&gt;&gt;timesWonOldMaidBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timesWonOldMaidBox.Parent" xml:space="preserve">
-    <value>groupBox50</value>
-  </data>
-  <data name="&gt;&gt;timesWonOldMaidBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;streamCountBox.Name" xml:space="preserve">
     <value>streamCountBox</value>
@@ -5575,18 +4171,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox47.Text" xml:space="preserve">
     <value>Amount Streams</value>
   </data>
-  <data name="&gt;&gt;groupBox47.Name" xml:space="preserve">
-    <value>groupBox47</value>
-  </data>
-  <data name="&gt;&gt;groupBox47.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox47.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox47.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="streamCountBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5601,18 +4185,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="streamCountBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;streamCountBox.Name" xml:space="preserve">
-    <value>streamCountBox</value>
-  </data>
-  <data name="&gt;&gt;streamCountBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;streamCountBox.Parent" xml:space="preserve">
-    <value>groupBox47</value>
-  </data>
-  <data name="&gt;&gt;streamCountBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;rentTextBox.Name" xml:space="preserve">
     <value>rentTextBox</value>
@@ -5638,18 +4210,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox46.Text" xml:space="preserve">
     <value>Rent in(1)</value>
   </data>
-  <data name="&gt;&gt;groupBox46.Name" xml:space="preserve">
-    <value>groupBox46</value>
-  </data>
-  <data name="&gt;&gt;groupBox46.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox46.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox46.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
   <data name="rentTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5664,18 +4224,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="rentTextBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;rentTextBox.Name" xml:space="preserve">
-    <value>rentTextBox</value>
-  </data>
-  <data name="&gt;&gt;rentTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rentTextBox.Parent" xml:space="preserve">
-    <value>groupBox46</value>
-  </data>
-  <data name="&gt;&gt;rentTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox41.Name" xml:space="preserve">
     <value>groupBox41</value>
@@ -5713,18 +4261,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox40.Text" xml:space="preserve">
     <value>Gametime</value>
   </data>
-  <data name="&gt;&gt;groupBox40.Name" xml:space="preserve">
-    <value>groupBox40</value>
-  </data>
-  <data name="&gt;&gt;groupBox40.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox40.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox40.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="&gt;&gt;gameTimeFormatted.Name" xml:space="preserve">
     <value>gameTimeFormatted</value>
   </data>
@@ -5749,18 +4285,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox41.Text" xml:space="preserve">
     <value>Formatted(2)</value>
   </data>
-  <data name="&gt;&gt;groupBox41.Name" xml:space="preserve">
-    <value>groupBox41</value>
-  </data>
-  <data name="&gt;&gt;groupBox41.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox41.Parent" xml:space="preserve">
-    <value>groupBox40</value>
-  </data>
-  <data name="&gt;&gt;groupBox41.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="gameTimeFormatted.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5778,18 +4302,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="gameTimeFormatted.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;gameTimeFormatted.Name" xml:space="preserve">
-    <value>gameTimeFormatted</value>
-  </data>
-  <data name="&gt;&gt;gameTimeFormatted.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gameTimeFormatted.Parent" xml:space="preserve">
-    <value>groupBox41</value>
-  </data>
-  <data name="&gt;&gt;gameTimeFormatted.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;gameTimeRaw.Name" xml:space="preserve">
     <value>gameTimeRaw</value>
@@ -5815,18 +4327,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox42.Text" xml:space="preserve">
     <value>Raw</value>
   </data>
-  <data name="&gt;&gt;groupBox42.Name" xml:space="preserve">
-    <value>groupBox42</value>
-  </data>
-  <data name="&gt;&gt;groupBox42.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox42.Parent" xml:space="preserve">
-    <value>groupBox40</value>
-  </data>
-  <data name="&gt;&gt;groupBox42.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="gameTimeRaw.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5845,18 +4345,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="gameTimeRaw.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;gameTimeRaw.Name" xml:space="preserve">
-    <value>gameTimeRaw</value>
-  </data>
-  <data name="&gt;&gt;gameTimeRaw.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gameTimeRaw.Parent" xml:space="preserve">
-    <value>groupBox42</value>
-  </data>
-  <data name="&gt;&gt;gameTimeRaw.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="lightswitchCheckbox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -5874,18 +4362,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lightswitchCheckbox.Text" xml:space="preserve">
     <value>Lightswitch</value>
-  </data>
-  <data name="&gt;&gt;lightswitchCheckbox.Name" xml:space="preserve">
-    <value>lightswitchCheckbox</value>
-  </data>
-  <data name="&gt;&gt;lightswitchCheckbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lightswitchCheckbox.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;lightswitchCheckbox.ZOrder" xml:space="preserve">
-    <value>13</value>
   </data>
   <data name="&gt;&gt;groupBox34.Name" xml:space="preserve">
     <value>groupBox34</value>
@@ -5923,18 +4399,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox33.Text" xml:space="preserve">
     <value>Longest Stream</value>
   </data>
-  <data name="&gt;&gt;groupBox33.Name" xml:space="preserve">
-    <value>groupBox33</value>
-  </data>
-  <data name="&gt;&gt;groupBox33.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox33.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox33.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="&gt;&gt;longestStreamFormattedBox.Name" xml:space="preserve">
     <value>longestStreamFormattedBox</value>
   </data>
@@ -5959,18 +4423,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox34.Text" xml:space="preserve">
     <value>Formatted(2)</value>
   </data>
-  <data name="&gt;&gt;groupBox34.Name" xml:space="preserve">
-    <value>groupBox34</value>
-  </data>
-  <data name="&gt;&gt;groupBox34.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox34.Parent" xml:space="preserve">
-    <value>groupBox33</value>
-  </data>
-  <data name="&gt;&gt;groupBox34.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="longestStreamFormattedBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -5988,18 +4440,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="longestStreamFormattedBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;longestStreamFormattedBox.Name" xml:space="preserve">
-    <value>longestStreamFormattedBox</value>
-  </data>
-  <data name="&gt;&gt;longestStreamFormattedBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;longestStreamFormattedBox.Parent" xml:space="preserve">
-    <value>groupBox34</value>
-  </data>
-  <data name="&gt;&gt;longestStreamFormattedBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;longestStreamRawBox.Name" xml:space="preserve">
     <value>longestStreamRawBox</value>
@@ -6025,18 +4465,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox35.Text" xml:space="preserve">
     <value>Raw</value>
   </data>
-  <data name="&gt;&gt;groupBox35.Name" xml:space="preserve">
-    <value>groupBox35</value>
-  </data>
-  <data name="&gt;&gt;groupBox35.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox35.Parent" xml:space="preserve">
-    <value>groupBox33</value>
-  </data>
-  <data name="&gt;&gt;groupBox35.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="longestStreamRawBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -6054,18 +4482,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="longestStreamRawBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;longestStreamRawBox.Name" xml:space="preserve">
-    <value>longestStreamRawBox</value>
-  </data>
-  <data name="&gt;&gt;longestStreamRawBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;longestStreamRawBox.Parent" xml:space="preserve">
-    <value>groupBox35</value>
-  </data>
-  <data name="&gt;&gt;longestStreamRawBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;saveSlotBox.Name" xml:space="preserve">
     <value>saveSlotBox</value>
@@ -6091,18 +4507,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox14.Text" xml:space="preserve">
     <value>Save Slot</value>
   </data>
-  <data name="&gt;&gt;groupBox14.Name" xml:space="preserve">
-    <value>groupBox14</value>
-  </data>
-  <data name="&gt;&gt;groupBox14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox14.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox14.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
   <data name="saveSlotBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -6117,18 +4521,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="saveSlotBox.Text" xml:space="preserve">
     <value>No File</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBox.Name" xml:space="preserve">
-    <value>saveSlotBox</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBox.Parent" xml:space="preserve">
-    <value>groupBox14</value>
-  </data>
-  <data name="&gt;&gt;saveSlotBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;streamDonations.Name" xml:space="preserve">
     <value>streamDonations</value>
@@ -6154,18 +4546,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox32.Text" xml:space="preserve">
     <value>Stream Donos</value>
   </data>
-  <data name="&gt;&gt;groupBox32.Name" xml:space="preserve">
-    <value>groupBox32</value>
-  </data>
-  <data name="&gt;&gt;groupBox32.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox32.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox32.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
   <data name="streamDonations.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -6183,18 +4563,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="streamDonations.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;streamDonations.Name" xml:space="preserve">
-    <value>streamDonations</value>
-  </data>
-  <data name="&gt;&gt;streamDonations.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;streamDonations.Parent" xml:space="preserve">
-    <value>groupBox32</value>
-  </data>
-  <data name="&gt;&gt;streamDonations.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox30.Name" xml:space="preserve">
     <value>groupBox30</value>
@@ -6232,18 +4600,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox29.Text" xml:space="preserve">
     <value>Total Streamtime</value>
   </data>
-  <data name="&gt;&gt;groupBox29.Name" xml:space="preserve">
-    <value>groupBox29</value>
-  </data>
-  <data name="&gt;&gt;groupBox29.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox29.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox29.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
   <data name="&gt;&gt;totalStreamTimeFormattedBox.Name" xml:space="preserve">
     <value>totalStreamTimeFormattedBox</value>
   </data>
@@ -6268,18 +4624,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox30.Text" xml:space="preserve">
     <value>Formatted(2)</value>
   </data>
-  <data name="&gt;&gt;groupBox30.Name" xml:space="preserve">
-    <value>groupBox30</value>
-  </data>
-  <data name="&gt;&gt;groupBox30.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox30.Parent" xml:space="preserve">
-    <value>groupBox29</value>
-  </data>
-  <data name="&gt;&gt;groupBox30.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="totalStreamTimeFormattedBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -6297,18 +4641,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="totalStreamTimeFormattedBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;totalStreamTimeFormattedBox.Name" xml:space="preserve">
-    <value>totalStreamTimeFormattedBox</value>
-  </data>
-  <data name="&gt;&gt;totalStreamTimeFormattedBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;totalStreamTimeFormattedBox.Parent" xml:space="preserve">
-    <value>groupBox30</value>
-  </data>
-  <data name="&gt;&gt;totalStreamTimeFormattedBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;totalStreamTimeRawBox.Name" xml:space="preserve">
     <value>totalStreamTimeRawBox</value>
@@ -6334,18 +4666,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox31.Text" xml:space="preserve">
     <value>Raw</value>
   </data>
-  <data name="&gt;&gt;groupBox31.Name" xml:space="preserve">
-    <value>groupBox31</value>
-  </data>
-  <data name="&gt;&gt;groupBox31.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox31.Parent" xml:space="preserve">
-    <value>groupBox29</value>
-  </data>
-  <data name="&gt;&gt;groupBox31.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="totalStreamTimeRawBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -6363,18 +4683,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="totalStreamTimeRawBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;totalStreamTimeRawBox.Name" xml:space="preserve">
-    <value>totalStreamTimeRawBox</value>
-  </data>
-  <data name="&gt;&gt;totalStreamTimeRawBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;totalStreamTimeRawBox.Parent" xml:space="preserve">
-    <value>groupBox31</value>
-  </data>
-  <data name="&gt;&gt;totalStreamTimeRawBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;subsTextBox.Name" xml:space="preserve">
     <value>subsTextBox</value>
@@ -6400,18 +4708,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox28.Text" xml:space="preserve">
     <value>Subs</value>
   </data>
-  <data name="&gt;&gt;groupBox28.Name" xml:space="preserve">
-    <value>groupBox28</value>
-  </data>
-  <data name="&gt;&gt;groupBox28.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox28.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox28.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
   <data name="subsTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -6429,18 +4725,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="subsTextBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;subsTextBox.Name" xml:space="preserve">
-    <value>subsTextBox</value>
-  </data>
-  <data name="&gt;&gt;subsTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;subsTextBox.Parent" xml:space="preserve">
-    <value>groupBox28</value>
-  </data>
-  <data name="&gt;&gt;subsTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;followersTextBox.Name" xml:space="preserve">
     <value>followersTextBox</value>
@@ -6466,18 +4750,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox27.Text" xml:space="preserve">
     <value>Followers</value>
   </data>
-  <data name="&gt;&gt;groupBox27.Name" xml:space="preserve">
-    <value>groupBox27</value>
-  </data>
-  <data name="&gt;&gt;groupBox27.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox27.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox27.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
   <data name="followersTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -6495,18 +4767,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="followersTextBox.Text" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;followersTextBox.Name" xml:space="preserve">
-    <value>followersTextBox</value>
-  </data>
-  <data name="&gt;&gt;followersTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;followersTextBox.Parent" xml:space="preserve">
-    <value>groupBox27</value>
-  </data>
-  <data name="&gt;&gt;followersTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;gameStageBox.Name" xml:space="preserve">
     <value>gameStageBox</value>
@@ -6532,18 +4792,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox26.Text" xml:space="preserve">
     <value>Game Stage(3)</value>
   </data>
-  <data name="&gt;&gt;groupBox26.Name" xml:space="preserve">
-    <value>groupBox26</value>
-  </data>
-  <data name="&gt;&gt;groupBox26.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox26.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox26.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
   <data name="gameStageBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -6562,18 +4810,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="gameStageBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;gameStageBox.Name" xml:space="preserve">
-    <value>gameStageBox</value>
-  </data>
-  <data name="&gt;&gt;gameStageBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gameStageBox.Parent" xml:space="preserve">
-    <value>groupBox26</value>
-  </data>
-  <data name="&gt;&gt;gameStageBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
@@ -6585,18 +4821,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Show Websites</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;websitesCheckBoxes.Name" xml:space="preserve">
     <value>websitesCheckBoxes</value>
@@ -6624,18 +4848,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="visitedWebsiteGroupBox.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="&gt;&gt;visitedWebsiteGroupBox.Name" xml:space="preserve">
-    <value>visitedWebsiteGroupBox</value>
-  </data>
-  <data name="&gt;&gt;visitedWebsiteGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;visitedWebsiteGroupBox.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;visitedWebsiteGroupBox.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="websitesCheckBoxes.ColumnWidth" type="System.Int32, mscorlib">
     <value>200</value>
@@ -6754,18 +4966,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="websitesCheckBoxes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;websitesCheckBoxes.Name" xml:space="preserve">
-    <value>websitesCheckBoxes</value>
-  </data>
-  <data name="&gt;&gt;websitesCheckBoxes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;websitesCheckBoxes.Parent" xml:space="preserve">
-    <value>visitedWebsiteGroupBox</value>
-  </data>
-  <data name="&gt;&gt;websitesCheckBoxes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
     <value>groupBox4</value>
   </data>
@@ -6801,18 +5001,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="achievementsPanel.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="&gt;&gt;achievementsPanel.Name" xml:space="preserve">
-    <value>achievementsPanel</value>
-  </data>
-  <data name="&gt;&gt;achievementsPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;achievementsPanel.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;achievementsPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;richTextBox5.Name" xml:space="preserve">
     <value>richTextBox5</value>
@@ -6898,18 +5086,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Church Achievements</value>
   </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
-    <value>achievementsPanel</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="richTextBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 36</value>
   </data>
@@ -6924,18 +5100,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="richTextBox5.Text" xml:space="preserve">
     <value>"The worst ending"</value>
-  </data>
-  <data name="&gt;&gt;richTextBox5.Name" xml:space="preserve">
-    <value>richTextBox5</value>
-  </data>
-  <data name="&gt;&gt;richTextBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richTextBox5.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;richTextBox5.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="richTextBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 19</value>
@@ -6952,18 +5116,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="richTextBox4.Text" xml:space="preserve">
     <value>"The oblivious ending"</value>
   </data>
-  <data name="&gt;&gt;richTextBox4.Name" xml:space="preserve">
-    <value>richTextBox4</value>
-  </data>
-  <data name="&gt;&gt;richTextBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richTextBox4.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;richTextBox4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="richTextBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 52</value>
   </data>
@@ -6978,18 +5130,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="richTextBox3.Text" xml:space="preserve">
     <value>"I don't Know" Ending</value>
-  </data>
-  <data name="&gt;&gt;richTextBox3.Name" xml:space="preserve">
-    <value>richTextBox3</value>
-  </data>
-  <data name="&gt;&gt;richTextBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richTextBox3.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;richTextBox3.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="richTextBox12.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 68</value>
@@ -7006,18 +5146,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="richTextBox12.Text" xml:space="preserve">
     <value>"The good ending"</value>
   </data>
-  <data name="&gt;&gt;richTextBox12.Name" xml:space="preserve">
-    <value>richTextBox12</value>
-  </data>
-  <data name="&gt;&gt;richTextBox12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richTextBox12.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;richTextBox12.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="richTextBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>181, 85</value>
   </data>
@@ -7032,18 +5160,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="richTextBox6.Text" xml:space="preserve">
     <value>"The not good enough ending"</value>
-  </data>
-  <data name="&gt;&gt;richTextBox6.Name" xml:space="preserve">
-    <value>richTextBox6</value>
-  </data>
-  <data name="&gt;&gt;richTextBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richTextBox6.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;richTextBox6.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="checkedListBox1.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -7071,18 +5187,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="checkedListBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.Name" xml:space="preserve">
-    <value>checkedListBox1</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="&gt;&gt;richTextBox7.Name" xml:space="preserve">
     <value>richTextBox7</value>
@@ -7120,18 +5224,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Misc Achievements</value>
   </data>
-  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
-    <value>achievementsPanel</value>
-  </data>
-  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="richTextBox7.Location" type="System.Drawing.Point, System.Drawing">
     <value>444, 19</value>
   </data>
@@ -7159,18 +5251,6 @@ ending-theyKnowOblivious --- "They know... (oblivious)"
 ending-theyKnow --- "They know..."
 bigdaddyhurtSecretEpilogue --- Not an ending by itself but part of "They know...". - Met bigdaddyhurt but didn't continue his storyline
 saveEdited --- Used the iamacheater website.</value>
-  </data>
-  <data name="&gt;&gt;richTextBox7.Name" xml:space="preserve">
-    <value>richTextBox7</value>
-  </data>
-  <data name="&gt;&gt;richTextBox7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richTextBox7.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;richTextBox7.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="checkedListBox2.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -7235,18 +5315,6 @@ saveEdited --- Used the iamacheater website.</value>
   <data name="checkedListBox2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;checkedListBox2.Name" xml:space="preserve">
-    <value>checkedListBox2</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox2.Parent" xml:space="preserve">
-    <value>groupBox5</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>
   </data>
@@ -7258,18 +5326,6 @@ saveEdited --- Used the iamacheater website.</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Show Achievements</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -7343,18 +5399,6 @@ saveEdited --- Used the iamacheater website.</value>
   <data name="saveEditGroupBox.Text" xml:space="preserve">
     <value>Save Editing</value>
   </data>
-  <data name="&gt;&gt;saveEditGroupBox.Name" xml:space="preserve">
-    <value>saveEditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;saveEditGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveEditGroupBox.Parent" xml:space="preserve">
-    <value>tabPage8</value>
-  </data>
-  <data name="&gt;&gt;saveEditGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -7369,18 +5413,6 @@ saveEdited --- Used the iamacheater website.</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Remember to keep her safe (and filled)</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>saveEditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9919,18 +7951,6 @@ saveEdited --- Used the iamacheater website.</value>
   <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>saveEditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="saveButton.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -9945,18 +7965,6 @@ saveEdited --- Used the iamacheater website.</value>
   </data>
   <data name="saveButton.Text" xml:space="preserve">
     <value>Save (Overwrites current save!)</value>
-  </data>
-  <data name="&gt;&gt;saveButton.Name" xml:space="preserve">
-    <value>saveButton</value>
-  </data>
-  <data name="&gt;&gt;saveButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveButton.Parent" xml:space="preserve">
-    <value>saveEditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;saveButton.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="guideButton.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -9973,18 +7981,6 @@ saveEdited --- Used the iamacheater website.</value>
   <data name="guideButton.Text" xml:space="preserve">
     <value>Guide</value>
   </data>
-  <data name="&gt;&gt;guideButton.Name" xml:space="preserve">
-    <value>guideButton</value>
-  </data>
-  <data name="&gt;&gt;guideButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;guideButton.Parent" xml:space="preserve">
-    <value>saveEditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;guideButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="createBackupButton.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -9999,18 +7995,6 @@ saveEdited --- Used the iamacheater website.</value>
   </data>
   <data name="createBackupButton.Text" xml:space="preserve">
     <value>Create Backup</value>
-  </data>
-  <data name="&gt;&gt;createBackupButton.Name" xml:space="preserve">
-    <value>createBackupButton</value>
-  </data>
-  <data name="&gt;&gt;createBackupButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;createBackupButton.Parent" xml:space="preserve">
-    <value>saveEditGroupBox</value>
-  </data>
-  <data name="&gt;&gt;createBackupButton.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="saveEditConsentBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -10028,18 +8012,6 @@ saveEdited --- Used the iamacheater website.</value>
     <value>I acknowledge and understand that using this feature may result in breaking or compromising
 my save games, and I assume full responsibility for any potential loss of progress or data.</value>
   </data>
-  <data name="&gt;&gt;saveEditConsentBox.Name" xml:space="preserve">
-    <value>saveEditConsentBox</value>
-  </data>
-  <data name="&gt;&gt;saveEditConsentBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveEditConsentBox.Parent" xml:space="preserve">
-    <value>tabPage8</value>
-  </data>
-  <data name="&gt;&gt;saveEditConsentBox.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="richTextBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -10056,18 +8028,6 @@ my save games, and I assume full responsibility for any potential loss of progre
     <value>WARNING! This feature is in testing and your save will most likely be corrupted! Keep a backup!
 The options will be unlocked when you agree that you have read this text and acknowledge that any loss of data will be your fault, will be on you alone, and that this feature more likely than not corrupt the selected save, if not every save.
 </value>
-  </data>
-  <data name="&gt;&gt;richTextBox2.Name" xml:space="preserve">
-    <value>richTextBox2</value>
-  </data>
-  <data name="&gt;&gt;richTextBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richTextBox2.Parent" xml:space="preserve">
-    <value>tabPage8</value>
-  </data>
-  <data name="&gt;&gt;richTextBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="&gt;&gt;commandsTextBox.Name" xml:space="preserve">
     <value>commandsTextBox</value>
@@ -10092,18 +8052,6 @@ The options will be unlocked when you agree that you have read this text and ack
   </data>
   <data name="commandsGroupBox.Text" xml:space="preserve">
     <value>Commands</value>
-  </data>
-  <data name="&gt;&gt;commandsGroupBox.Name" xml:space="preserve">
-    <value>commandsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;commandsGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;commandsGroupBox.Parent" xml:space="preserve">
-    <value>tabPage9</value>
-  </data>
-  <data name="&gt;&gt;commandsGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="commandsTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 19</value>
@@ -10145,18 +8093,6 @@ timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
   </data>
-  <data name="&gt;&gt;commandsTextBox.Name" xml:space="preserve">
-    <value>commandsTextBox</value>
-  </data>
-  <data name="&gt;&gt;commandsTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;commandsTextBox.Parent" xml:space="preserve">
-    <value>commandsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;commandsTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="debugTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -10169,21 +8105,9 @@ timeCameInsideAnal</value>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>Load a Save File. The content of the Save File will be displayed here.</value>
   </data>
-  <data name="&gt;&gt;debugTextBox.Name" xml:space="preserve">
-    <value>debugTextBox</value>
-  </data>
-  <data name="&gt;&gt;debugTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;debugTextBox.Parent" xml:space="preserve">
-    <value>tabPage3</value>
-  </data>
-  <data name="&gt;&gt;debugTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -10310,12 +8234,12 @@ timeCameInsideAnal</value>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>Donate</value>
   </data>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>132, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -10520,5 +8444,14 @@ timeCameInsideAnal</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="polskiToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="portuguêsToolStripMenuItem.Size" xml:space="preserve">
+    <value />
   </data>
 </root>

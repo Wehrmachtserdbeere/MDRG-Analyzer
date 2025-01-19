@@ -148,17 +148,17 @@
     <value>工作日(1)</value>
   </data>
   <data name="ExtraCreditsText" xml:space="preserve">
-    <value>額外的鳴謝致：
+    <value>致谢
 
-MDRG Discord - 程式編碼協助  
-italy2003 / PixivID: 66835722 - 美術設計  
-bgrmystr2 - Linux 測試  
-小葉 - 中文、西班牙文及葡萄牙文翻譯  
-以及你 - 使用此程式 :)
+MDRG Discord - 编码帮助
+italy2003 / PixivID: 66835722 - 艺术
+bgrmystr2 - Linux 测试
+Xiaoye - 中文、西班牙语和葡萄牙语翻译
+您 - 使用该程序 :)
 
-此程式的創作者及小葉（中文、西班牙文及葡萄牙文翻譯）皆在 MDRG Discord 伺服器內。如果發現翻譯錯誤或遺漏，請通過以下方式回報：在 MDRG Analyzer 的 GitHub 頁面開立新的 Issue、參與此討論（https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11），或於 MDRG Discord 伺服器的 MDRG Analyzer 頻道標註我（@strawberrymk.vi）或小葉（@lin007257）。
+此程序的创建者以及 Xiaoye（中文、西班牙语和葡萄牙语翻译）都在 MDRG Discord 服务器上。如果有翻译错误或缺少翻译，请在 MDRG Analyzer GitHub 页面上打开新问题进行报告，在此 (https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/11) 讨论中发布，或者在 MDRG Discord 服务器上的 MDRG Analyzer 线程上 ping 我 (@strawberrymk.vi) 或 Little Night (@442877450)。
 
-若希望將此程式翻譯成其他語言，請通過上述任一方式聯繫我。</value>
+如果您希望将该程序翻译成其他语言，请通过其中任何一种方式与我联系。</value>
   </data>
   <data name="ExtraCreditsCaption" xml:space="preserve">
     <value>致谢</value>
