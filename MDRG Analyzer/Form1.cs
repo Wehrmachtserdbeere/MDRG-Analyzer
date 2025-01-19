@@ -21,7 +21,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.12";
+        readonly string __version__ = "1.1.13";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -41,16 +41,20 @@ namespace MDRG_Analyzer
 
         private void ResetLanguageMenuItems()
         {
-            foreach (ToolStripMenuItem toolItem in languageToolStripMenuItem.DropDownItems)
+            foreach (var item in languageToolStripMenuItem.DropDownItems)
             {
-                toolItem.Checked = false;
-                toolItem.Font = new System.Drawing.Font(
-                    toolItem.Font.FontFamily,
-                    toolItem.Font.Size,
-                    System.Drawing.FontStyle.Regular
-                );
+                if (item is ToolStripMenuItem toolItem)
+                {
+                    toolItem.Checked = false;
+                    toolItem.Font = new System.Drawing.Font(
+                        toolItem.Font.FontFamily,
+                        toolItem.Font.Size,
+                        System.Drawing.FontStyle.Regular
+                    );
+                }
             }
         }
+
 
         private void ChangeLanguage(string cultureCode)
         {

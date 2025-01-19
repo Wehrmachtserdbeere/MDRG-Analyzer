@@ -3427,7 +3427,7 @@ saveEdited --- iamacheater の Web サイトを使用しました。</value>
     <value>124, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
+    <value>Español (MT) | スペイン語</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>言語</value>

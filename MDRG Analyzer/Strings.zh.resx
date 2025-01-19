@@ -3469,7 +3469,7 @@ saveEdited --- 使用了 作弊者 网站。</value>
     <value>44, 21</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
+    <value>Español (MT) | 西班牙語</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>

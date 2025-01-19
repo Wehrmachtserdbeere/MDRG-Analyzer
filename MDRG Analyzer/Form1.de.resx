@@ -117,20 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>Credits</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Info</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
     <value>Extra Credits</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>Speicherslot</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
     <value>Bearbeit. Info</value>
   </data>
   <data name="infoSaveBox.Text" xml:space="preserve">
     <value>Lade eine Datei</value>
-  </data>
-  <data name="groupBox43.Text" xml:space="preserve">
-    <value>Speicherslot</value>
   </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
     <value>Speicherstände</value>
@@ -140,6 +143,9 @@
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Spielversion</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>Lade eine Datei</value>
   </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>Dieses Programm wurde für das Spiel "!Ω Factorial Omega: My Dystopian Robot Girlfriend" entwickelt.
@@ -155,35 +161,8 @@ In Version 0.90 und höher befindet sich deine exportierte Speicherdatei an dem 
 Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
 "MDRG Analyzer" ist eine unabhängige Kreation von Strawberry Software und ist weder mit Incontinent Cell verbunden noch wird es von Incontinent Cell unterstützt. Die Spielinhalte und das damit verbundene geistige Eigentum sind das alleinige Eigentum von Incontinent Cell.</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Info</value>
-  </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>Spielerinfo</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>Botinfo</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>Sonst. Info</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>Webseiten</value>
-  </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>Errungenschaften</value>
-  </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>Speicherstandbearbeitung</value>
-  </data>
-  <data name="tabPage9.Text" xml:space="preserve">
-    <value>Kommandos</value>
-  </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>Debug</value>
-  </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>Lade eine Datei</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Spielerwerte</value>
@@ -261,6 +240,9 @@ Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Botinfo</value>
+  </data>
   <data name="groupBox15.Text" xml:space="preserve">
     <value>Botwerte</value>
   </data>
@@ -329,6 +311,9 @@ Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
     <value>Bot Name</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Sonst. Info</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
     <value>Sonstige Werte</value>
@@ -423,10 +408,6 @@ Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
   <data name="groupBox35.Text" xml:space="preserve">
     <value>Roh</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="longestStreamRawBox.TabIndex" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
   <data name="groupBox14.Text" xml:space="preserve">
     <value>Slot</value>
   </data>
@@ -453,6 +434,9 @@ Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
   </data>
   <data name="groupBox26.Text" xml:space="preserve">
     <value>Spielphase(3)</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Webseiten</value>
   </data>
   <data name="button2.Text" xml:space="preserve">
     <value>Zeig Webseiten</value>
@@ -555,6 +539,9 @@ Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
   </data>
   <data name="websitesCheckBoxes.Items31" xml:space="preserve">
     <value>stonks.ic</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Errungenschaften</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Kirchenerrung.</value>
@@ -665,6 +652,9 @@ saveEdited --- Habe die iamacheater-Website verwendet.</value>
   <data name="button1.Text" xml:space="preserve">
     <value>Zeig Errungensch.</value>
   </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Speicherstandbearbeitung</value>
+  </data>
   <data name="saveEditGroupBox.Text" xml:space="preserve">
     <value>Speicherstandbearbeitung</value>
   </data>
@@ -692,6 +682,9 @@ gespeicherten Spiele führen kann, und übernehme die volle Verantwortung für e
   </data>
   <data name="richTextBox2.Text" xml:space="preserve">
     <value>WARNUNG! Diese Funktion wird gerade getestet und dein Speicherstand wird höchstwahrscheinlich beschädigt! Mach ein Backup!</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>Kommandos</value>
   </data>
   <data name="commandsGroupBox.Text" xml:space="preserve">
     <value>Kommandos</value>
@@ -727,17 +720,59 @@ timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
   </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Debug</value>
+  </data>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>Lade eine Speicherdatei. Die Inhalte dieser wird hier angezeigt.</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Datei</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文 | Chinesisch (Trad.)</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English | Englisch</value>
+  </data>
+  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
+    <value>Español (MT) | Spanisch</value>
+  </data>
+  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
+    <value>日本語 (MT) | Japanisch</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguesa (MT) | Portugiesisch</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spenden</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
@@ -750,9 +785,6 @@ timeCameInsideAnal</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Programm schließen</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hilfe</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>235, 22</value>
@@ -786,39 +818,6 @@ timeCameInsideAnal</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>GitHub Schnelllink</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sprache</value>
-  </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
-  </data>
-  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
-    <value>Deutsch</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
-    <value>繁体中文</value>
-  </data>
-  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
-  </data>
-  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Portuguesa (MT)</value>
-  </data>
-  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Spenden</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -896,16 +895,11 @@ timeCameInsideAnal</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>My Dystopian Robot Girlfriend Speicherstand Analysierer</value>
-  </data>
-  <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Português (MT)</value>
-  </data>
-  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
-    <value>日本語 (MT)</value>
   </data>
 </root>

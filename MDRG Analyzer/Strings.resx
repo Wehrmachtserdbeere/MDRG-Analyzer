@@ -888,7 +888,7 @@ The options will be unlocked when you agree that you have read this text and ack
     <value />
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
+    <value>Español (MT) | Spanish</value>
   </data>
   <data name="languageToolStripMenuItem.Size" xml:space="preserve">
     <value />

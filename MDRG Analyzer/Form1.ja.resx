@@ -117,20 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>Créditos</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>情報</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
     <value>謝辞</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Créditos</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>保存スロット</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
     <value>編集情報を保存</value>
   </data>
   <data name="infoSaveBox.Text" xml:space="preserve">
     <value>ファイルを読み込む</value>
-  </data>
-  <data name="groupBox43.Text" xml:space="preserve">
-    <value>保存スロット</value>
   </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
     <value>ファイルを保存</value>
@@ -140,6 +143,9 @@
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>ゲームバージョン</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>ファイルを読み込む</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -241,35 +247,8 @@
 Copyright © 2023-2024 Strawberry Software。無断複写・転載を禁じます。
 「MDRG Analyzer」は、Strawberry Softwareによる独立した作品であり、Incontinent Cellとは提携しておらず、承認もされていません。ゲームコンテンツおよび関連する知的財産は、Incontinent Cell の独占所有物です。</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>情報</value>
-  </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>プレイヤー情報</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>ボット情報</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>その他情報</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>ウェブサイト</value>
-  </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>実績</value>
-  </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>編集を保存</value>
-  </data>
-  <data name="tabPage9.Text" xml:space="preserve">
-    <value>コマンド</value>
-  </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>デバッグ</value>
-  </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>ファイルを読み込む</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>プレイヤーの価値</value>
@@ -343,6 +322,9 @@ Copyright © 2023-2024 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox6.Text" xml:space="preserve">
     <value>名前</value>
   </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>ボット情報</value>
+  </data>
   <data name="groupBox15.Text" xml:space="preserve">
     <value>ボットの価値</value>
   </data>
@@ -408,6 +390,9 @@ Copyright © 2023-2024 Strawberry Software。無断複写・転載を禁じま�
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
     <value>ボット名</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>その他情報</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
     <value>その他の値</value>
@@ -520,6 +505,9 @@ Copyright © 2023-2024 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox26.Text" xml:space="preserve">
     <value>ゲームステージ(3)</value>
   </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>ウェブサイト</value>
+  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>ウェブサイトを表示</value>
   </data>
@@ -621,6 +609,9 @@ Copyright © 2023-2024 Strawberry Software。無断複写・転載を禁じま�
   </data>
   <data name="websitesCheckBoxes.Items31" xml:space="preserve">
     <value>stonks.ic</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>実績</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>教会の功績</value>
@@ -730,6 +721,9 @@ saveEdited --- iamacheater の Web サイトを使用しました。</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>実績を表示</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>編集を保存</value>
   </data>
   <data name="saveEditGroupBox.Text" xml:space="preserve">
     <value>編集を保存</value>
@@ -3281,6 +3275,9 @@ saveEdited --- iamacheater の Web サイトを使用しました。</value>
     <value>警告! この機能はテスト中であり、保存データが破損する可能性があります。バックアップを保存してください。
 このテキストを読み、データの損失はすべてお客様の責任であり、お客様自身の責任であること、およびこの機能により、すべての保存データではないにしても、選択した保存データが破損する可能性が高いことを認めると、オプションがロック解除されます。</value>
   </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
   <data name="commandsGroupBox.Text" xml:space="preserve">
     <value>コマンド</value>
   </data>
@@ -3315,23 +3312,62 @@ timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
   </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>デバッグ</value>
+  </data>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>保存ファイルをロードします。保存ファイルの内容がここに表示されます。</value>
   </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>メニューストリップ1</value>
-  </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>ファイル</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文 | 中国語（繁体字）</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch | ドイツ語</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English | 英語</value>
+  </data>
+  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
+    <value>Español (MT) | スペイン語</value>
+  </data>
+  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
+    <value>日本語 (MT)</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguesa (MT) | ポルトガル語</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
+    <value>寄付する</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>メニューストリップ1</value>
   </data>
   <data name="loadToolStripMenuItem.Text" xml:space="preserve">
     <value>ファイルをロード...</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>終了</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>ヘルプ</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>アップデートを確認する</value>
@@ -3347,39 +3383,6 @@ timeCameInsideAnal</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>GitHubへのクイックリンク</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>言語</value>
-  </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
-    <value>Deutsch</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
-    <value>繁体中文</value>
-  </data>
-  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
-  </data>
-  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Portuguesa (MT)</value>
-  </data>
-  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
-    <value>寄付する</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3459,11 +3462,5 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>私のディストピアロボットガールフレンド保存アナライザー</value>
-  </data>
-  <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Português (MT)</value>
-  </data>
-  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
-    <value>日本語 (MT)</value>
   </data>
 </root>

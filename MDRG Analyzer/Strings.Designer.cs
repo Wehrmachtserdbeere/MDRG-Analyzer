@@ -429,7 +429,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Español (MT).
+        ///   Looks up a localized string similar to Español (MT) | Spanish.
         /// </summary>
         internal static string españolToolStripMenuItem_Text {
             get {

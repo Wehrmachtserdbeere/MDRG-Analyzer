@@ -117,20 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>Créditos</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Información</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
     <value>Créditos</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Créditos</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>Ranuradeguardado</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
     <value>Informacióndeedicióndeguardado</value>
   </data>
   <data name="infoSaveBox.Text" xml:space="preserve">
     <value>Cargar un archivo</value>
-  </data>
-  <data name="groupBox43.Text" xml:space="preserve">
-    <value>Ranuradeguardado</value>
   </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
     <value>Archivosguardados</value>
@@ -140,6 +143,9 @@
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Versióndeljuego</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>Cargar un archivo</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -243,35 +249,8 @@ En la versión 0.90 y posteriores, tu archivo de guardado exportado estará en l
 Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
 "MDRG Analyzer" es una creación independiente de Strawberry Software y no está afiliada ni respaldada por Incontinent Cell. El contenido del juego y la propiedad intelectual relacionada son propiedad exclusiva de Incontinent Cell.</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Información</value>
-  </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>Informacióndeljugador</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>Informacióndelbot</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>Informacióndiversa</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>Sitiosweb</value>
-  </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>Logros</value>
-  </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>Edicióndeguardado</value>
-  </data>
-  <data name="tabPage9.Text" xml:space="preserve">
-    <value>Comandos</value>
-  </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>Depurar</value>
-  </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>Cargar un archivo</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Valoresdeljugador</value>
@@ -348,6 +327,9 @@ Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Nombre</value>
   </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Informacióndelbot</value>
+  </data>
   <data name="groupBox15.Text" xml:space="preserve">
     <value>ValoresdelBot</value>
   </data>
@@ -416,6 +398,9 @@ Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
     <value>NombredelBot</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Informacióndiversa</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
     <value>Valoresvarios</value>
@@ -543,6 +528,9 @@ Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
   <data name="groupBox26.Text" xml:space="preserve">
     <value>Etapadeljuego(3)</value>
   </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Sitiosweb</value>
+  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>MostrarSitiosWeb</value>
   </data>
@@ -644,6 +632,9 @@ Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
   </data>
   <data name="websitesCheckBoxes.Items31" xml:space="preserve">
     <value>stonks.ic</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Logros</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>LogrosdelaIglesia</value>
@@ -753,6 +744,9 @@ ending-ballsexploded --- Usé el sitio web iamacheater.</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>MostrarLogros</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Edicióndeguardado</value>
   </data>
   <data name="saveEditGroupBox.Text" xml:space="preserve">
     <value>EdicióndeGuardado</value>
@@ -3311,6 +3305,9 @@ de mis partidas guardadas, y asumo toda la responsabilidad por cualquier posible
     <value>¡ADVERTENCIA! Esta función está en prueba y es muy probable que tu guardado se corrompa. ¡Mantén una copia de seguridad! 
 Las opciones se desbloquearán cuando aceptes que has leído este texto y reconozcas que cualquier pérdida de datos será tu responsabilidad, solo tuya, y que esta función probablemente corrompa el guardado seleccionado, si no todos los guardados.</value>
   </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>Comandos</value>
+  </data>
   <data name="commandsGroupBox.Text" xml:space="preserve">
     <value>Comandos</value>
   </data>
@@ -3345,17 +3342,68 @@ timesCameBoca
 timeCameInsideVagina
 timeCameInsideAnal</value>
   </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Depurar</value>
+  </data>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>Cargar un archivo guardado. El contenido del archivo guardado se mostrará aquí.</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 21</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Archivo</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文 | Chino (Trad.)</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch | Alemana</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English | Inglesa</value>
+  </data>
+  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
+    <value>Español (MT)</value>
+  </data>
+  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
+    <value>日本語 (MT) | Japonés</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguesa (MT) | Portuguesa</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Donar</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 22</value>
@@ -3368,12 +3416,6 @@ timeCameInsideAnal</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Salir</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 21</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ayuda</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>202, 22</value>
@@ -3407,45 +3449,6 @@ timeCameInsideAnal</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>EnlacerápidoaGitHub</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 21</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Idioma</value>
-  </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
-    <value>Deutsch</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
-    <value>繁体中文</value>
-  </data>
-  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
-  </data>
-  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Portuguesa (MT)</value>
-  </data>
-  <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 21</value>
-  </data>
-  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Donar</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3525,11 +3528,5 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Mi Analizador de Guardado de Novia Robot Distópica</value>
-  </data>
-  <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Português (MT)</value>
-  </data>
-  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
-    <value>日本語 (MT)</value>
   </data>
 </root>

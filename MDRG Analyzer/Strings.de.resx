@@ -810,7 +810,7 @@ saveEdited --- Habe die iamacheater-Website verwendet.</value>
     <value>Kommandos</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
+    <value>Español (MT) | Spanisch</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Sprache</value>

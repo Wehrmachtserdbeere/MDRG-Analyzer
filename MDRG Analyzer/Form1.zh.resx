@@ -117,20 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>致谢</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>存档信息</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
     <value>致谢</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>致谢</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>存档位置</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
     <value>保存编辑信息</value>
   </data>
   <data name="infoSaveBox.Text" xml:space="preserve">
     <value>上傳檔案</value>
-  </data>
-  <data name="groupBox43.Text" xml:space="preserve">
-    <value>存档位置</value>
   </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
     <value>保存文件</value>
@@ -140,6 +143,9 @@
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>游戏版本</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>上傳檔案</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -241,35 +247,8 @@
 版权所有 © 2023-2024 Strawberry Software。保留所有权利。
 “MDRG Analyzer”是由 Strawberry Software 独立创作的，与 Incontinent Cell 没有任何关联或认可。游戏内容和相关知识产权均为 Incontinent Cell 的唯一财产。</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>存档信息</value>
-  </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>玩家信息</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>机器人信息</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>其他信息</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>网站信息</value>
-  </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>成就信息</value>
-  </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>保存编辑</value>
-  </data>
-  <data name="tabPage9.Text" xml:space="preserve">
-    <value>命令信息</value>
-  </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>调试信息</value>
-  </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>上傳檔案</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>玩家信息</value>
@@ -346,6 +325,9 @@
   <data name="groupBox6.Text" xml:space="preserve">
     <value>玩家姓名</value>
   </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>机器人信息</value>
+  </data>
   <data name="groupBox15.Text" xml:space="preserve">
     <value>机器人信息</value>
   </data>
@@ -414,6 +396,9 @@
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
     <value>机器人姓名</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>其他信息</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
     <value>其他信息</value>
@@ -535,6 +520,9 @@
   <data name="groupBox26.Text" xml:space="preserve">
     <value>游戏阶段(3)</value>
   </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>网站信息</value>
+  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>显示网站</value>
   </data>
@@ -636,6 +624,9 @@
   </data>
   <data name="websitesCheckBoxes.Items31" xml:space="preserve">
     <value>stonks.ic</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>成就信息</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>教会成就</value>
@@ -745,6 +736,9 @@ saveEdited --- 使用了 作弊者 网站。</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>展示成就</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>保存编辑</value>
   </data>
   <data name="saveEditGroupBox.Text" xml:space="preserve">
     <value>保存编辑</value>
@@ -3302,6 +3296,9 @@ saveEdited --- 使用了 作弊者 网站。</value>
     <value>警告！此功能正在测试中，您的保存很可能会被损坏！请保留备份！
 当您同意您已阅读此文本并承认任何数据丢失都是您的错、由您独自承担责任，并且此功能很可能会损坏所选保存（如果不是所有保存）时，这些选项将被解锁。</value>
   </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>命令信息</value>
+  </data>
   <data name="commandsGroupBox.Text" xml:space="preserve">
     <value>命令</value>
   </data>
@@ -3336,17 +3333,68 @@ timesCameMouth
 timeCameInsideVagina
 timeCameInsideAnal</value>
   </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>调试信息</value>
+  </data>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>加载保存文件。保存文件的内容将显示在此处。</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>存档</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
+    <value>繁体中文</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
+    <value>Deutsch | 德語</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English | 英語</value>
+  </data>
+  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
+    <value>Español (MT) | 西班牙語</value>
+  </data>
+  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
+    <value>日本語 (MT) | 日語</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Portuguesa (MT) | 葡萄牙語</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
+    <value>捐款</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
@@ -3359,12 +3407,6 @@ timeCameInsideAnal</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>退出</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>帮助</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -3398,45 +3440,6 @@ timeCameInsideAnal</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>GitHub链接</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>语言</value>
-  </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
-    <value>Deutsch</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
-    <value>繁体中文</value>
-  </data>
-  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
-  <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
-  </data>
-  <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Portuguesa (MT)</value>
-  </data>
-  <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
-  </data>
-  <data name="donateToolStripMenuItem.Text" xml:space="preserve">
-    <value>捐款</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3516,11 +3519,5 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>我的反乌托邦机器人女友存档分析器</value>
-  </data>
-  <data name="portuguêsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Português (MT)</value>
-  </data>
-  <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
-    <value>日本語 (MT)</value>
   </data>
 </root>

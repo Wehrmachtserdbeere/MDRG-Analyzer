@@ -838,7 +838,7 @@ As opções serão desbloqueadas quando concordar que leu este texto e reconhece
     <value>Comandos</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Español (MT)</value>
+    <value>Español (MT) | Espanhola</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Idioma</value>
