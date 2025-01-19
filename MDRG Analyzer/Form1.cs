@@ -69,29 +69,27 @@ namespace MDRG_Analyzer
 
             ResetLanguageMenuItems();
 
-            switch (cultureCode)
+            var languageMappings = new Dictionary<string, ToolStripMenuItem>
             {
-                case "de":
-                    SetLanguageAppearanceBoldCHecked(deutschToolStripMenuItem);
-                    break;
-                case "zh":
-                    SetLanguageAppearanceBoldCHecked(traditionalChineseToolStripMenuItem);
-                    break;
-                case "es":
-                    SetLanguageAppearanceBoldCHecked(españolToolStripMenuItem);
+                { "de", deutschToolStripMenuItem },
+                { "zh", traditionalChineseToolStripMenuItem },
+                { "es", españolToolStripMenuItem },
+                { "pt", portuguesaToolStripMenuItem },
+                { "ja", japaneseToolStripMenuItem },
+                { "en", englishToolStripMenuItem }
+            };
+
+            if (languageMappings.TryGetValue(cultureCode, out var menuItem))
+            {
+                SetLanguageAppearanceBoldCHecked(menuItem);
+                if (cultureCode != "en" && cultureCode != "de" && cultureCode != "zh")
+                {
                     MachineLanguageNotice();
-                    break;
-                case "pt":
-                    SetLanguageAppearanceBoldCHecked(portuguesaToolStripMenuItem);
-                    MachineLanguageNotice();
-                    break;
-                case "ja":
-                    SetLanguageAppearanceBoldCHecked(japaneseToolStripMenuItem);
-                    MachineLanguageNotice();
-                    break;
-                default:
-                    SetLanguageAppearanceBoldCHecked(englishToolStripMenuItem);
-                    break;
+                }
+            }
+            else
+            {
+                SetLanguageAppearanceBoldCHecked(englishToolStripMenuItem);
             }
         }
 
@@ -115,7 +113,7 @@ namespace MDRG_Analyzer
                 );
         }
 
-        public static void openWebsite(string x)
+        public static void OpenWebsite(string x)
         {
             System.Diagnostics.Process.Start("cmd", "/C start" + " " + x);
         }
@@ -123,23 +121,22 @@ namespace MDRG_Analyzer
         private void AddRadioButtons(int numberOfFiles)
         {
             flowLayoutPanel1.Controls.Clear(); // Clear existing controls
-            var radioButtons = new List<RadioButton>();
-
-            for (int i = 1; i <= numberOfFiles; i++)
+            var radioButtons = Enumerable.Range(1, numberOfFiles)
+            .Select(i => new RadioButton
             {
-                var radioButton = new RadioButton
-                {
-                    Text = string.Format(Strings.RadioButtonFileText, i), // Localized text
-                    Name = "radioButton" + i.ToString(),
-                    Tag = i, // Store the number in the Tag property
-                    AutoSize = true
-                };
+                Text = string.Format(Strings.RadioButtonFileText, i),
+                Name = "radioButton" + i.ToString(),
+                Tag = i,
+                AutoSize = true
+            })
+            .ToArray();
 
+            foreach (var radioButton in radioButtons)
+            {
                 radioButton.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
-                radioButtons.Add(radioButton);
             }
 
-            flowLayoutPanel1.Controls.AddRange(radioButtons.ToArray());
+            flowLayoutPanel1.Controls.AddRange(radioButtons);
         }
 
         private void RadioButton_CheckedChanged(object sender, EventArgs e)
@@ -152,7 +149,7 @@ namespace MDRG_Analyzer
                     selectedSaveFile = saveNumber - 1;
                 }
             }
-            reloadValues();
+            ReloadValues();
         }
 
 
@@ -190,7 +187,7 @@ namespace MDRG_Analyzer
 
             }
         }
-        private void reloadValues()
+        private void ReloadValues()
         {
             try
             {
@@ -468,6 +465,15 @@ namespace MDRG_Analyzer
                     icon: MessageBoxIcon.Error
                     );
             }
+            catch (System.NullReferenceException)
+            {
+                MessageBox.Show(
+                    caption: Strings.GenericErrorCaption,
+                    text: Strings.SavedataLoadingNullErrorText,
+                    buttons: MessageBoxButtons.OK,
+                    icon: MessageBoxIcon.Error
+                    );
+            }
             catch (Exception ex)
             {
                 MessageBox.Show(
@@ -492,7 +498,7 @@ namespace MDRG_Analyzer
                 switch (result)
                 {
                     case DialogResult.Yes:
-                        openWebsite(repoUrl + "/releases/latest");
+                        OpenWebsite(repoUrl + "/releases/latest");
                         break;
                     case DialogResult.No: // Just close
                         break;
@@ -632,17 +638,17 @@ namespace MDRG_Analyzer
 
         private void reportABugToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            openWebsite(repoUrl + "/issues");
+            OpenWebsite(repoUrl + "/issues");
         }
 
         private void suggestAFeatureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            openWebsite(repoUrl + "/discussions/categories/ideas");
+            OpenWebsite(repoUrl + "/discussions/categories/ideas");
         }
 
         private void quickLinkToGitHubToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            openWebsite(repoUrl);
+            OpenWebsite(repoUrl);
         }
 
         private void openReadmeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -897,12 +903,7 @@ namespace MDRG_Analyzer
 
         private void donateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            openWebsite("https://ko-fi.com/strawberrysoftware");
-        }
-
-        private void closeFileToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
+            OpenWebsite("https://ko-fi.com/strawberrysoftware");
         }
 
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
@@ -949,7 +950,7 @@ namespace MDRG_Analyzer
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            openWebsite(developerWebsite);
+            OpenWebsite(developerWebsite);
         }
     }
 }

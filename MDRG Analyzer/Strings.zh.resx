@@ -335,7 +335,7 @@ Xiaoye - 中文、西班牙语和葡萄牙语翻译
     <value>租金(1)</value>
   </data>
   <data name="openFileDialogFilter" xml:space="preserve">
-    <value>MDRG 檔案 (*.mdrg)|*.mdrg|所有檔案 (*.*)|*.*</value>
+    <value>MDRG 檔案 (*.mdrg)|*.mdrg</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>最大射精量</value>
@@ -764,7 +764,7 @@ Xiaoye - 中文、西班牙语和葡萄牙语翻译
 [ C:\Users\&lt;您的用户名&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
 在 0.90 及更高版本中，您导出的存档文件将位于您保存它的位置。
 
-版权所有 © 2023-2024 Strawberry Software。保留所有权利。
+版权所有 © 2023-2025 Strawberry Software。保留所有权利。
 “MDRG Analyzer”是由 Strawberry Software 独立创作的，与 Incontinent Cell 没有任何关联或认可。游戏内容和相关知识产权均为 Incontinent Cell 的唯一财产。</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
@@ -3611,5 +3611,10 @@ When submitting fixes, please state the language and attach the corrected locali
   </data>
   <data name="MachineLanguageNoticeCaption" xml:space="preserve">
     <value>翻譯通知！</value>
+  </data>
+  <data name="SavedataLoadingNullErrorText" xml:space="preserve">
+    <value>您的存檔數據為“null”。請重新匯出您的存檔文件並再試一次。請確保只載入.mdrg文件，且僅限匯出的文件。
+
+如果您的“savedata”部分不為空且仍然無法正常工作，請不要猶豫尋求幫助。您可以在GitHub上開啟一個issue，我會進一步協助您，或者直接在MDRG Discord伺服器上聯繫我。在Discord伺服器上，您可以在最新的模組論壇中找到一個名為“MDRG Analyzer”的討論串。請在那裡告訴我您的問題詳情，我將協助您進一步排查問題。</value>
   </data>
 </root>

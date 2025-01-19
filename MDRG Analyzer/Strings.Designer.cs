@@ -1637,7 +1637,7 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MDRG Files (*.mdrg)|*.mdrg|All Files (*.*)|*.*.
+        ///   Looks up a localized string similar to MDRG Files (*.mdrg)|*.mdrg.
         /// </summary>
         internal static string openFileDialogFilter {
             get {
@@ -1862,6 +1862,17 @@ namespace MDRG_Analyzer {
         internal static string SavedataLoadingNoSavedataErrorText {
             get {
                 return ResourceManager.GetString("SavedataLoadingNoSavedataErrorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your savedata is &quot;null&quot;. Please re-export your save file and try again. Make sure to only load .mdrg files, and only exported files.
+        ///
+        ///If your &quot;savedata&quot; section is not empty and it still doesn&apos;t work, please don&apos;t hesitate to reach out for help. You can open an issue on GitHub where I can assist you further, or you can contact me directly on the MDRG Discord Server. On the Discord Server, you&apos;ll find a thread titled &quot;MDRG Analyzer&quot; located in the most recent Mods forum. Please let me know the details of y [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string SavedataLoadingNullErrorText {
+            get {
+                return ResourceManager.GetString("SavedataLoadingNullErrorText", resourceCulture);
             }
         }
         

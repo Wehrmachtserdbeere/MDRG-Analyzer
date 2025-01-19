@@ -299,9 +299,6 @@
   <data name="versionBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="versionBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;versionBox.Name" xml:space="preserve">
     <value>versionBox</value>
   </data>
@@ -600,7 +597,7 @@ Prior to 0.90, your save files were saved in the following directory:
 [ C:\Users\&lt;YOUR USERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
 In version 0.90 and later, your exported save file will be in the location you saved it at.
 
-Copyright © 2023-2024 Strawberry Software. All rights reserved.
+Copyright © 2023-2025 Strawberry Software. All rights reserved.
 "MDRG Analyzer" is an independent creation by Strawberry Software and is not affiliated with or endorsed by Incontinent Cell. The game content and related intellectual property are the sole property of Incontinent Cell.</value>
   </data>
   <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
@@ -684,9 +681,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastWorkedAtDayBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="lastWorkedAtDayBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lastWorkedAtDayBox.Name" xml:space="preserve">
     <value>lastWorkedAtDayBox</value>
   </data>
@@ -737,9 +731,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastWentToChurchAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="lastWentToChurchAtBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;lastWentToChurchAtBox.Name" xml:space="preserve">
     <value>lastWentToChurchAtBox</value>
@@ -792,9 +783,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastWokeUpAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="lastWokeUpAtBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lastWokeUpAtBox.Name" xml:space="preserve">
     <value>lastWokeUpAtBox</value>
   </data>
@@ -845,9 +833,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastInteractAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="lastInteractAtBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;lastInteractAtBox.Name" xml:space="preserve">
     <value>lastInteractAtBox</value>
@@ -900,9 +885,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastBotStartedTalkAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="lastBotStartedTalkAtBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lastBotStartedTalkAtBox.Name" xml:space="preserve">
     <value>lastBotStartedTalkAtBox</value>
   </data>
@@ -953,9 +935,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastHeadpatedAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="lastHeadpatedAtBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;lastHeadpatedAtBox.Name" xml:space="preserve">
     <value>lastHeadpatedAtBox</value>
@@ -1008,9 +987,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastHungerInfoAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="lastHungerInfoAtBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lastHungerInfoAtBox.Name" xml:space="preserve">
     <value>lastHungerInfoAtBox</value>
   </data>
@@ -1061,9 +1037,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastMentalHealthInfoAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="lastMentalHealthInfoAtBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;lastMentalHealthInfoAtBox.Name" xml:space="preserve">
     <value>lastMentalHealthInfoAtBox</value>
@@ -1116,9 +1089,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="churchAmountBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="churchAmountBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;churchAmountBox.Name" xml:space="preserve">
     <value>churchAmountBox</value>
   </data>
@@ -1169,9 +1139,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="deathGripEffectEndBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="deathGripEffectEndBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;deathGripEffectEndBox.Name" xml:space="preserve">
     <value>deathGripEffectEndBox</value>
@@ -1224,9 +1191,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="vinegaraEndBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="vinegaraEndBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;vinegaraEndBox.Name" xml:space="preserve">
     <value>vinegaraEndBox</value>
   </data>
@@ -1277,9 +1241,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="mlCumWastedBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="mlCumWastedBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;mlCumWastedBox.Name" xml:space="preserve">
     <value>mlCumWastedBox</value>
@@ -1383,9 +1344,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="mentalHealthBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="mentalHealthBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;mentalHealthBox.Name" xml:space="preserve">
     <value>mentalHealthBox</value>
   </data>
@@ -1436,9 +1394,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="playerHealthBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="playerHealthBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;playerHealthBox.Name" xml:space="preserve">
     <value>playerHealthBox</value>
@@ -1491,9 +1446,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="currentStaminaBox.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="currentStaminaBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;currentStaminaBox.Name" xml:space="preserve">
     <value>currentStaminaBox</value>
   </data>
@@ -1544,9 +1496,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="currentCumBox.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
-  </data>
-  <data name="currentCumBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;currentCumBox.Name" xml:space="preserve">
     <value>currentCumBox</value>
@@ -1599,9 +1548,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="maxCumBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="maxCumBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;maxCumBox.Name" xml:space="preserve">
     <value>maxCumBox</value>
   </data>
@@ -1653,9 +1599,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="casinoTokenBox.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="casinoTokenBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;casinoTokenBox.Name" xml:space="preserve">
     <value>casinoTokenBox</value>
   </data>
@@ -1706,9 +1649,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="moneyTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="moneyTextBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;moneyTextBox.Name" xml:space="preserve">
     <value>moneyTextBox</value>
@@ -1763,9 +1703,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="playerNameBox.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
-  </data>
-  <data name="playerNameBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;playerNameBox.Name" xml:space="preserve">
     <value>playerNameBox</value>
@@ -1869,9 +1806,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastCuddledAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="lastCuddledAtBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lastCuddledAtBox.Name" xml:space="preserve">
     <value>lastCuddledAtBox</value>
   </data>
@@ -1951,9 +1885,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastFuckedAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="lastFuckedAtBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lastFuckedAtBox.Name" xml:space="preserve">
     <value>lastFuckedAtBox</value>
   </data>
@@ -2004,9 +1935,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="lastEquipmentAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="lastEquipmentAtBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;lastEquipmentAtBox.Name" xml:space="preserve">
     <value>lastEquipmentAtBox</value>
@@ -2059,9 +1987,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastOutsideWithBotAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="lastOutsideWithBotAtBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lastOutsideWithBotAtBox.Name" xml:space="preserve">
     <value>lastOutsideWithBotAtBox</value>
   </data>
@@ -2112,9 +2037,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="mlCameInMouthBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="mlCameInMouthBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;mlCameInMouthBox.Name" xml:space="preserve">
     <value>mlCameInMouthBox</value>
@@ -2218,9 +2140,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="cameOutsideBox.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="cameOutsideBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;cameOutsideBox.Name" xml:space="preserve">
     <value>cameOutsideBox</value>
   </data>
@@ -2271,9 +2190,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesCumInsideOral.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
-  </data>
-  <data name="timesCumInsideOral.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;timesCumInsideOral.Name" xml:space="preserve">
     <value>timesCumInsideOral</value>
@@ -2326,9 +2242,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="timesCumInsideAss.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="timesCumInsideAss.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;timesCumInsideAss.Name" xml:space="preserve">
     <value>timesCumInsideAss</value>
   </data>
@@ -2379,9 +2292,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesCumInsideVag.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
-  </data>
-  <data name="timesCumInsideVag.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;timesCumInsideVag.Name" xml:space="preserve">
     <value>timesCumInsideVag</value>
@@ -2434,9 +2344,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="cumInStomach.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="cumInStomach.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;cumInStomach.Name" xml:space="preserve">
     <value>cumInStomach</value>
   </data>
@@ -2487,9 +2394,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="cumInAss.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="cumInAss.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;cumInAss.Name" xml:space="preserve">
     <value>cumInAss</value>
@@ -2542,9 +2446,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="cumInPussy.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="cumInPussy.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;cumInPussy.Name" xml:space="preserve">
     <value>cumInPussy</value>
   </data>
@@ -2595,9 +2496,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botIntBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="botIntBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;botIntBox.Name" xml:space="preserve">
     <value>botIntBox</value>
@@ -2650,9 +2548,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="botMoodBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="botMoodBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;botMoodBox.Name" xml:space="preserve">
     <value>botMoodBox</value>
   </data>
@@ -2703,9 +2598,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botLongingBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
-  </data>
-  <data name="botLongingBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;botLongingBox.Name" xml:space="preserve">
     <value>botLongingBox</value>
@@ -2758,9 +2650,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="botSympathyBox.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="botSympathyBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;botSympathyBox.Name" xml:space="preserve">
     <value>botSympathyBox</value>
   </data>
@@ -2812,9 +2701,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="botLustBox.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="botLustBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;botLustBox.Name" xml:space="preserve">
     <value>botLustBox</value>
   </data>
@@ -2865,9 +2751,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="botNameBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="botNameBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;botNameBox.Name" xml:space="preserve">
     <value>botNameBox</value>
@@ -2965,9 +2848,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="weekdayTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="weekdayTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;weekdayTextBox.Name" xml:space="preserve">
     <value>weekdayTextBox</value>
   </data>
@@ -3016,9 +2896,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="priestBotPointsBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="priestBotPointsBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;priestBotPointsBox.Name" xml:space="preserve">
     <value>priestBotPointsBox</value>
   </data>
@@ -3066,9 +2943,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="nunPointsBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
-  </data>
-  <data name="nunPointsBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;nunPointsBox.Name" xml:space="preserve">
     <value>nunPointsBox</value>
@@ -3145,9 +3019,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="lastStreamedAtBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="lastStreamedAtBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;lastStreamedAtBox.Name" xml:space="preserve">
     <value>lastStreamedAtBox</value>
   </data>
@@ -3195,9 +3066,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="searchTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
-  </data>
-  <data name="searchTextBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;searchTextBox.Name" xml:space="preserve">
     <value>searchTextBox</value>
@@ -3280,9 +3148,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="timesLostWordChainBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="timesLostWordChainBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;timesLostWordChainBox.Name" xml:space="preserve">
     <value>timesLostWordChainBox</value>
   </data>
@@ -3333,9 +3198,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesWonWordChainBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
-  </data>
-  <data name="timesWonWordChainBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;timesWonWordChainBox.Name" xml:space="preserve">
     <value>timesWonWordChainBox</value>
@@ -3412,9 +3274,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="timesLostChessBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="timesLostChessBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;timesLostChessBox.Name" xml:space="preserve">
     <value>timesLostChessBox</value>
   </data>
@@ -3465,9 +3324,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesWonChessBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
-  </data>
-  <data name="timesWonChessBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;timesWonChessBox.Name" xml:space="preserve">
     <value>timesWonChessBox</value>
@@ -3544,9 +3400,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="timesRanAwayOldMaidBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="timesRanAwayOldMaidBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;timesRanAwayOldMaidBox.Name" xml:space="preserve">
     <value>timesRanAwayOldMaidBox</value>
   </data>
@@ -3598,9 +3451,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="timesLostOldMaidBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="timesLostOldMaidBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;timesLostOldMaidBox.Name" xml:space="preserve">
     <value>timesLostOldMaidBox</value>
   </data>
@@ -3651,9 +3501,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="timesWonOldMaidBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
-  </data>
-  <data name="timesWonOldMaidBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;timesWonOldMaidBox.Name" xml:space="preserve">
     <value>timesWonOldMaidBox</value>
@@ -3727,9 +3574,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="streamCountBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="streamCountBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;streamCountBox.Name" xml:space="preserve">
     <value>streamCountBox</value>
   </data>
@@ -3777,9 +3621,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="rentTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
-  </data>
-  <data name="rentTextBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;rentTextBox.Name" xml:space="preserve">
     <value>rentTextBox</value>
@@ -3832,9 +3673,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="gameTimeFormatted.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="gameTimeFormatted.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;gameTimeFormatted.Name" xml:space="preserve">
     <value>gameTimeFormatted</value>
   </data>
@@ -3885,9 +3723,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="gameTimeRaw.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
-  </data>
-  <data name="gameTimeRaw.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;gameTimeRaw.Name" xml:space="preserve">
     <value>gameTimeRaw</value>
@@ -3994,9 +3829,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="longestStreamFormattedBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="longestStreamFormattedBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;longestStreamFormattedBox.Name" xml:space="preserve">
     <value>longestStreamFormattedBox</value>
   </data>
@@ -4047,9 +3879,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="longestStreamRawBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
-  </data>
-  <data name="longestStreamRawBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;longestStreamRawBox.Name" xml:space="preserve">
     <value>longestStreamRawBox</value>
@@ -4177,9 +4006,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="streamDonations.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="streamDonations.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;streamDonations.Name" xml:space="preserve">
     <value>streamDonations</value>
   </data>
@@ -4231,9 +4057,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="totalStreamTimeFormattedBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="totalStreamTimeFormattedBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;totalStreamTimeFormattedBox.Name" xml:space="preserve">
     <value>totalStreamTimeFormattedBox</value>
   </data>
@@ -4284,9 +4107,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="totalStreamTimeRawBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
-  </data>
-  <data name="totalStreamTimeRawBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;totalStreamTimeRawBox.Name" xml:space="preserve">
     <value>totalStreamTimeRawBox</value>
@@ -4363,9 +4183,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="subsTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="subsTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;subsTextBox.Name" xml:space="preserve">
     <value>subsTextBox</value>
   </data>
@@ -4417,9 +4234,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   <data name="followersTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="followersTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;followersTextBox.Name" xml:space="preserve">
     <value>followersTextBox</value>
   </data>
@@ -4470,9 +4284,6 @@ Copyright © 2023-2024 Strawberry Software. All rights reserved.
   </data>
   <data name="gameStageBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
-  </data>
-  <data name="gameStageBox.Text" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;gameStageBox.Name" xml:space="preserve">
     <value>gameStageBox</value>
@@ -8105,9 +7916,9 @@ timeCameInsideAnal</value>
   <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
+  </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 22</value>
   </data>
@@ -8243,12 +8054,12 @@ timeCameInsideAnal</value>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>132, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -8465,5 +8276,11 @@ timeCameInsideAnal</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="polskiToolStripMenuItem.Size" xml:space="preserve">
+    <value />
+  </data>
+  <data name="portuguêsToolStripMenuItem.Size" xml:space="preserve">
+    <value />
   </data>
 </root>

@@ -10,8 +10,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Strawberry Software")]
 [assembly: AssemblyProduct("MDRG Analyzer")]
-[assembly: AssemblyCopyright("Copyright ©  2023-2024")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright ©  2023-2025")]
+[assembly: AssemblyTrademark("Strawberry Software")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -33,4 +33,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.1.12.0")]
+[assembly: AssemblyFileVersion("1.1.13.0")]

@@ -335,7 +335,7 @@ Derzeitige Version: </value>
     <value>Miete in(1)</value>
   </data>
   <data name="openFileDialogFilter" xml:space="preserve">
-    <value>MDRG Dateien (*.mdrg)|*.mdrg|Alle Dateien (*.*)|*.*</value>
+    <value>MDRG Dateien (*.mdrg)|*.mdrg</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Max. Samen</value>
@@ -685,7 +685,7 @@ Vor 0.90 wurden deine Speicherdateien im folgenden Verzeichnis gespeichert:
 [ C:\Benutzer\&lt;DEIN BENUTZERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves ]
 In Version 0.90 und höher befindet sich deine exportierte Speicherdatei an dem Speicherort, an dem du diese gespeichert hast.
 
-Copyright © 2023-2024 Strawberry Software. Alle Rechte vorbehalten.
+Copyright © 2023-2025 Strawberry Software. Alle Rechte vorbehalten.
 "MDRG Analyzer" ist eine unabhängige Kreation von Strawberry Software und ist weder mit Incontinent Cell verbunden noch wird es von Incontinent Cell unterstützt. Die Spielinhalte und das damit verbundene geistige Eigentum sind das alleinige Eigentum von Incontinent Cell.</value>
   </data>
   <data name="websitesCheckBoxes.Items2" xml:space="preserve">
@@ -870,5 +870,10 @@ Wenn du Verbesserungen schicken möchtest, dann gib die Sprache an, und füge di
   </data>
   <data name="MachineLanguageNoticeCaption" xml:space="preserve">
     <value>Übersetzungswarnung!</value>
+  </data>
+  <data name="SavedataLoadingNullErrorText" xml:space="preserve">
+    <value>Deine Speicherdatei ist "null". Bitte exportiere deine Speicherdatei erneut und versuche es nochmal. Geh sicher, dass du nur exportierte .mdrg Dateien lädst.
+
+Falls der Abschnitt "savedata" nicht leer ist und es trotzdem nicht funktioniert, melde dich einfach bei mir. Du kannst ein Problem auf GitHub öffnen, und ich helfe dir weiter, oder du kannst mich direkt im MDRG Discord-Server kontaktieren. Im Discord-Server findest du einen Thread mit dem Titel "MDRG Analyzer" im neuesten Mods-Forum. Schreib mir dort die Details zu deinem Problem, und ich werde dir weiterhelfen.</value>
   </data>
 </root>

@@ -335,7 +335,7 @@ Your Version: </value>
     <value>Rent in(1)</value>
   </data>
   <data name="openFileDialogFilter" xml:space="preserve">
-    <value>MDRG Files (*.mdrg)|*.mdrg|All Files (*.*)|*.*</value>
+    <value>MDRG Files (*.mdrg)|*.mdrg</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Max. Cum</value>
@@ -689,7 +689,7 @@ Prior to 0.90, your save files were saved in the following directory:
 [ C:\Users\&lt;YOUR USERNAME&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
 In version 0.90 and later, your exported save file will be in the location you saved it at.
 
-Copyright © 2023-2024 Strawberry Software. All rights reserved.
+Copyright © 2023-2025 Strawberry Software. All rights reserved.
 "MDRG Analyzer" is an independent creation by Strawberry Software and is not affiliated with or endorsed by Incontinent Cell. The game content and related intellectual property are the sole property of Incontinent Cell.</value>
   </data>
   <data name="label4.Size" xml:space="preserve">
@@ -949,5 +949,10 @@ When submitting fixes, please state the language and attach the corrected locali
   </data>
   <data name="MachineLanguageNoticeCaption" xml:space="preserve">
     <value>Translation Notice!</value>
+  </data>
+  <data name="SavedataLoadingNullErrorText" xml:space="preserve">
+    <value>Your savedata is "null". Please re-export your save file and try again. Make sure to only load .mdrg files, and only exported files.
+
+If your "savedata" section is not empty and it still doesn't work, please don't hesitate to reach out for help. You can open an issue on GitHub where I can assist you further, or you can contact me directly on the MDRG Discord Server. On the Discord Server, you'll find a thread titled "MDRG Analyzer" located in the most recent Mods forum. Please let me know the details of your issue there, and I'll help you troubleshoot further.</value>
   </data>
 </root>

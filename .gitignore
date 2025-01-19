@@ -362,5 +362,8 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /*.zip
-/MDRG Analyzer 1.1.10.7z
-/MDRG Analyzer 1.1.12.7z
+/*.7z
+
+# Other stuff
+Flags.pdn
+Flag Template.png

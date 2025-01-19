@@ -335,7 +335,7 @@ Xiaoye - 中国語、スペイン語、ポルトガル語の翻訳
     <value>賃貸(1)</value>
   </data>
   <data name="openFileDialogFilter" xml:space="preserve">
-    <value>MDRG ファイル (*.mdrg)|*.mdrg|すべてのファイル (*.*)|*.*</value>
+    <value>MDRG ファイル (*.mdrg)|*.mdrg</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>マックス。 精液</value>
@@ -761,7 +761,7 @@ Xiaoye - 中国語、スペイン語、ポルトガル語の翻訳
 [C:\Users\&lt;ユーザー名&gt;\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves]
 バージョン0.90以降では、エクスポートされた保存ファイルは、保存した場所にあります。
 
-Copyright © 2023-2024 Strawberry Software。無断複写・転載を禁じます。
+Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じます。
 「MDRG Analyzer」は、Strawberry Softwareによる独立した作品であり、Incontinent Cellとは提携しておらず、承認もされていません。ゲームコンテンツおよび関連する知的財産は、Incontinent Cell の独占所有物です。</value>
   </data>
   <data name="websitesCheckBoxes.Items2" xml:space="preserve">
@@ -3563,5 +3563,10 @@ When submitting fixes, please state the language and attach the corrected locali
   </data>
   <data name="MachineLanguageNoticeCaption" xml:space="preserve">
     <value>翻訳注意！</value>
+  </data>
+  <data name="SavedataLoadingNullErrorText" xml:space="preserve">
+    <value>保存データが「null」です。セーブデータを再エクスポートして、もう一度お試しください。必ず.mdrgファイルのみ、そしてエクスポートされたファイルのみを読み込んでください。
+
+「savedata」セクションが空でなく、それでも動作しない場合は、ぜひサポートを求めてください。GitHubでIssueを作成していただければ、さらにお手伝いします。または、MDRG Discordサーバーで直接ご連絡ください。Discordサーバー内には、最新のModsフォーラムに「MDRG Analyzer」というスレッドがあります。問題の詳細をそちらにお知らせいただければ、さらにサポートいたします。</value>
   </data>
 </root>

@@ -335,7 +335,7 @@ Su versión: </value>
     <value>Alquileren(1)</value>
   </data>
   <data name="openFileDialogFilter" xml:space="preserve">
-    <value>Archivos MDRG (*.mdrg)|*.mdrg|Todos los archivos (*.*)|*.*</value>
+    <value>Archivos MDRG (*.mdrg)|*.mdrg</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Máx.Cum</value>
@@ -770,7 +770,7 @@ Antes de la versión 0.90, tus archivos de guardado se guardaban en el siguiente
 
 En la versión 0.90 y posteriores, tu archivo de guardado exportado estará en la ubicación donde lo guardaste.
 
-Copyright © 2023-2024 Strawberry Software. Todos los derechos reservados.
+Copyright © 2023-2025 Strawberry Software. Todos los derechos reservados.
 "MDRG Analyzer" es una creación independiente de Strawberry Software y no está afiliada ni respaldada por Incontinent Cell. El contenido del juego y la propiedad intelectual relacionada son propiedad exclusiva de Incontinent Cell.</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
@@ -3635,5 +3635,10 @@ Al enviar correcciones, indica el idioma y adjunta los archivos de localización
   </data>
   <data name="MachineLanguageNoticeCaption" xml:space="preserve">
     <value>¡Aviso de Traducción!</value>
+  </data>
+  <data name="SavedataLoadingNullErrorText" xml:space="preserve">
+    <value>Tu archivo de guardado es "null". Por favor, vuelve a exportar tu archivo de guardado e inténtalo de nuevo. Asegúrate de cargar solo archivos .mdrg y únicamente archivos exportados.
+
+Si tu sección "savedata" no está vacía y aún así no funciona, no dudes en pedir ayuda. Puedes abrir un issue en GitHub donde puedo asistirte, o puedes contactarme directamente en el servidor de Discord de MDRG. En el servidor de Discord, encontrarás un hilo titulado "MDRG Analyzer" en el foro de Mods más reciente. Por favor, indícame los detalles de tu problema allí, y te ayudaré a solucionarlo.</value>
   </data>
 </root>
