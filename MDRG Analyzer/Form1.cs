@@ -30,6 +30,7 @@ namespace MDRG_Analyzer
         readonly Random rand = new Random();
         public int eventInitiator = 0;
         readonly System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+        Dictionary<string, RichTextBox> dataBindings = new Dictionary<string, RichTextBox>{};
 
         public Form1()
         {
@@ -222,48 +223,81 @@ namespace MDRG_Analyzer
 
                 // Set the variables
 
+                dataBindings = new Dictionary<string, RichTextBox>
+                {
+                    { "botName", botNameBox },
+                    { "money", moneyTextBox },
+                    { "gameVersion", gameVersionBox },
+                    { "playerName", playerNameBox },
+                    { "casinoTokens", casinoTokenBox },
+                    { "_lust", botLustBox },
+                    { "_sympathy", botSympathyBox },
+                    { "_longing", botLongingBox },
+                    { "inteligence", botIntBox },
+                    { "stage", gameStageBox },
+                    { "subs", subsTextBox },
+                    { "followers", followersTextBox },
+                    { "streamedFor", totalStreamTimeRawBox },
+                    { "moneyEarnedFromDonations", streamDonations },
+                    { "longestStream", longestStreamRawBox },
+                    { "timesCameInside", timesCumInsideVag },
+                    { "timesCameInsideAnal", timesCumInsideAss },
+                    { "timesCameInMouth", timesCumInsideOral },
+                    { "timesCameOutside", cameOutsideBox },
+                    { "streamCount", streamCountBox },
+                    { "timesLostChess", timesLostChessBox },
+                    { "timesWonChess", timesWonChessBox },
+                    { "timesLostOldMaid", timesLostOldMaidBox },
+                    { "timesWonOldMaid", timesWonOldMaidBox },
+                    { "timesRanAwayOldMaid", timesRanAwayOldMaidBox },
+                    { "timesLostWordChain", timesLostWordChainBox },
+                    { "timesWonWordChain", timesWonWordChainBox },
+                    { "vinegaraEffectEnd", vinegaraEndBox },
+                    { "deathGripEffectEnd", deathGripEffectEndBox },
+                    { "timesWentToChurch", churchAmountBox },
+                    { "lastMentalHealthInfoAt", lastMentalHealthInfoAtBox },
+                    { "lastHungerInfoAt", lastHungerInfoAtBox },
+                    { "lastHeadpatedAt", lastHeadpatedAtBox },
+                    { "lastBotStartedTalkAt", lastBotStartedTalkAtBox },
+                    { "lastStreamedAt", lastStreamedAtBox },
+                    { "lastOutsideWithBotAt", lastOutsideWithBotAtBox },
+                    { "lastEquipmentAt", lastEquipmentAtBox },
+                    { "lastInteractAt", lastInteractAtBox },
+                    { "lastFuckedAt", lastFuckedAtBox },
+                    { "lastWokeUpAt", lastWokeUpAtBox },
+                    { "lastWentToChurchAt", lastWentToChurchAtBox },
+                    { "lastWorkedAtDay", lastWorkedAtDayBox },
+                    { "nunPoints", nunPointsBox },
+                    { "priestBotPoints", priestBotPointsBox },
+                    { "lastCuddledAt", lastCuddledAtBox },
+                    { "_maxCum", maxCumBox },
+                    { "_remainingCum", currentCumBox },
+                    { "_health", playerHealthBox },
+                    { "_stamina", currentStaminaBox },
+                    { "_mentalHealth", mentalHealthBox },
+                    { "_mood", botMoodBox },
+                    { "_cumInside", cumInPussy },
+                    { "_cumInsideAnal", cumInAss },
+                    { "_cumInsideStomach", cumInStomach },
+                    { "mlCameInMouth", mlCameInMouthBox },
+                    { "mlOfCumWasted", mlCumWastedBox },
+                    { "search", searchTextBox },
+                };
 
-                string botName = savedataObject.Value<string>("botName");
-                string moneyVal = savedataObject.Value<string>("money");
-                string gameVersion = savedataObject.Value<string>("gameVersion");
-                string playerName = savedataObject.Value<string>("playerName");
-                string rentText = savedataObject.Value<string>("statusText");
+                foreach (var pair in dataBindings)
+                {
+                    string key = pair.Key; // Explicitly access the key
+                    RichTextBox value = pair.Value; // Explicitly access the value
+                    if (savedataObject[key] != null)
+                    {
+                        value.Text = savedataObject.Value<string>(key).ToString();
+                    }
+                }
+
+                rentTextBox.Text = savedataObject["statusText"].ToString();
 
                 int saveSlot = saveFileJson["saves"][selectedSaveFile].Value<int>("slot");
-                int casinoTokensVal = savedataObject.Value<int>("casinoTokens");
-                int botLust = savedataObject.Value<int>("_lust");
-                int botSympathy = savedataObject.Value<int>("_sympathy");
-                int botLonging = savedataObject.Value<int>("_longing");
-                int botInt = savedataObject.Value<int>("inteligence"); // The grammar error is in the base game.
-                int gameStage = savedataObject.Value<int>("stage");
-                int subs = savedataObject.Value<int>("subs");
-                int followers = savedataObject.Value<int>("followers");
-                int totalStreamtime = savedataObject.Value<int>("streamedFor");
-                int streamDonationsVal = savedataObject.Value<int>("moneyEarnedFromDonations");
-                int longestStreamtime = savedataObject.Value<int>("longestStream");
-                int timesCameInsideVal = savedataObject.Value<int>("timesCameInside");
-                int timesCameInsideAnalVal = savedataObject.Value<int>("timesCameInsideAnal");
-                int timesCameInMouthVal = savedataObject.Value<int>("timesCameInMouth");
-                int timesCameOutside = savedataObject.Value<int>("timesCameOutside");
                 int ingameTime = saveFileJson["saves"][selectedSaveFile].Value<int>("ingameTime");
-                int streamCount = savedataObject.Value<int>("streamCount");
-                int timesLostChess = savedataObject.Value<int>("timesLostChess");
-                int timesWonChess = savedataObject.Value<int>("timesWonChess");
-                int timesLostOldMaid = savedataObject.Value<int>("timesLostOldMaid");
-                int timesWonOldMaid = savedataObject.Value<int>("timesWonOldMaid");
-                int timesRanAwayOldMaid = savedataObject.Value<int>("timesRanAwayOldMaid");
-                int timesLostWordChain = savedataObject.Value<int>("timesLostWordChain");
-                int timesWonWordChain = savedataObject.Value<int>("timesWonWordChain");
-
-                double maxCumVal = savedataObject.Value<double>("_maxCum");
-                double currentCumVal = savedataObject.Value<double>("_remainingCum");
-                double health = savedataObject.Value<double>("_health");
-                double currentStamina = savedataObject.Value<double>("_stamina");
-                double mentalHealth = savedataObject.Value<double>("_mentalHealth");
-                double botMood = savedataObject.Value<double>("_mood");
-                double cumInPussyVal = savedataObject.Value<double>("_cumInside");
-                double cumInAssVal = savedataObject.Value<double>("_cumInsideAnal");
-                double cumInStomachVal = savedataObject.Value<double>("_cumInsideStomach");
 
                 JArray jsVisitedWebsites = (JArray)saveFileJson["visitedWebsites"];
                 JArray jsGottenAchievements = (JArray)achievementsObject["values"];
@@ -274,120 +308,28 @@ namespace MDRG_Analyzer
                 bool lightSwitchOn = savedataObject.Value<bool>("lightSwitchOn");
 
                 // Convert raw time into days, hours, and minutes
-                int streamDays = totalStreamtime / (24 * 60);
-                int streamHours = (totalStreamtime % (24 * 60)) / 60;
-                int streamMinutes = totalStreamtime % 60;
-
-                int longestStreamDays = longestStreamtime / (24 * 60);
-                int longestStreamHours = (longestStreamtime % (24 * 60)) / 60;
-                int longestStreamMinutes = longestStreamtime % 60;
-
+                int streamDays = savedataObject.Value<int>("streamedFor") / (24 * 60);
+                int streamHours = (savedataObject.Value<int>("streamedFor") % (24 * 60)) / 60;
+                int streamMinutes = savedataObject.Value<int>("streamedFor") % 60;
+                
+                int longestStreamDays = savedataObject.Value<int>("streamedFor") / (24 * 60);
+                int longestStreamHours = (savedataObject.Value<int>("streamedFor") % (24 * 60)) / 60;
+                int longestStreamMinutes = savedataObject.Value<int>("streamedFor") % 60;
+                
                 int ingameTimeDays = ingameTime / (24 * 60);
                 int ingameTimeHours = (ingameTime % (24 * 60)) / 60;
                 int ingameTimeMinutes = ingameTime % 60;
 
-                // 1.1.0 New stuff
-                double mlCameInMouth = savedataObject.Value<double>("mlCameInMouth");
-                double mlOfCumWasted = savedataObject.Value<double>("mlOfCumWasted");
-                double search = savedataObject.Value<double>("search"); // In the savegame it's in the church events, so it might be part of it.
-
-                // All depend on gametime I think
-                int vinegaraEffectEnd = savedataObject.Value<int>("vinegaraEffectEnd");
-                int deathGripEffectEnd = savedataObject.Value<int>("deathGripEffectEnd");
-                int timesWentToChurch = savedataObject.Value<int>("timesWentToChurch");
-                int lastMentalHealthInfoAt = savedataObject.Value<int>("lastMentalHealthInfoAt");
-                int lastHungerInfoAt = savedataObject.Value<int>("lastHungerInfoAt");
-                int lastHeadpatedAt = savedataObject.Value<int>("lastHeadpatedAt");
-                int lastBotStartedTalkAt = savedataObject.Value<int>("lastBotStartedTalkAt");
-                int lastStreamedAt = savedataObject.Value<int>("lastStreamedAt");
-                int lastOutsideWithBotAt = savedataObject.Value<int>("lastOutsideWithBotAt");
-                int lastEquipmentAt = savedataObject.Value<int>("lastEquipmentAt");
-                int lastInteractAt = savedataObject.Value<int>("lastInteractAt");
-                int lastFuckedAt = savedataObject.Value<int>("lastFuckedAt");
-                int lastWokeUpAt = savedataObject.Value<int>("lastWokeUpAt");
-                int lastWentToChurchAt = savedataObject.Value<int>("lastWentToChurchAt");
-                int lastWorkedAtDay = savedataObject.Value<int>("lastWorkedAtDay");
-                int nunPoints = savedataObject.Value<int>("nunPoints");
-                int priestBotPoints = savedataObject.Value<int>("priestBotPoints");
-
-                // 0.87.4 new stuff
-                int lastCuddleAt = savedataObject.Value<int>("lastCuddledAt");
 
                 // Change box text to the variables
                 saveSlotBox.Text = $"{saveSlot + 1}"; // +1 to represent the in-game save slot number.
                 saveSlotBoxBot.Text = $"{saveSlot + 1}";
                 saveSlotBoxGen.Text = $"{saveSlot + 1}";
                 infoSaveBox.Text = $"{saveSlot + 1}";
-                botNameBox.Text = $"{botName}";
-                moneyTextBox.Text = $"{moneyVal}";
-                casinoTokenBox.Text = $"{casinoTokensVal}";
-                maxCumBox.Text = $"{maxCumVal}";
-                currentCumBox.Text = $"{currentCumVal}";
-                gameVersionBox.Text = $"{gameVersion}";
-                currentStaminaBox.Text = $"{currentStamina * 100}"; // Do "* 100" to make it an "x out of 100" value instead of a "0.xxxx<...>" value for readability.
-                playerNameBox.Text = $"{playerName}";
-                playerHealthBox.Text = $"{health * 100}"; // Do "* 100" to make it an "x out of 100" value instead of a "0.xxxx<...>" value for readability.
-                mentalHealthBox.Text = $"{mentalHealth * 100}"; // Do "* 100" to make it an "x out of 100" value instead of a "0.xxxx<...>" value for readability.
-                botLustBox.Text = $"{botLust}";
-                botSympathyBox.Text = $"{botSympathy}";
-                botLongingBox.Text = $"{botLonging}";
-                botMoodBox.Text = $"{botMood}";
-                botIntBox.Text = $"{botInt}";
-                cumInPussy.Text = $"{cumInPussyVal}";
-                cumInAss.Text = $"{cumInAssVal}";
-                cumInStomach.Text = $"{cumInStomachVal}";
-                gameStageBox.Text = $"{gameStage}";
-                subsTextBox.Text = $"{subs}";
-                followersTextBox.Text = $"{followers}";
-                totalStreamTimeRawBox.Text = $"{totalStreamtime}";
                 totalStreamTimeFormattedBox.Text = $"{streamDays}d;{streamHours}h;{streamMinutes}m";
-                streamDonations.Text = $"{streamDonationsVal}";
-                longestStreamRawBox.Text = $"{longestStreamtime}";
                 longestStreamFormattedBox.Text = $"{longestStreamDays}d;{longestStreamHours}h;{longestStreamMinutes}m";
-                timesCumInsideVag.Text = $"{timesCameInsideVal}";
-                timesCumInsideAss.Text = $"{timesCameInsideAnalVal}";
-                timesCumInsideOral.Text = $"{timesCameInMouthVal}";
-                cameOutsideBox.Text = $"{timesCameOutside}";
                 gameTimeRaw.Text = $"{ingameTime}";
                 gameTimeFormatted.Text = $"{ingameTimeDays}d;{ingameTimeHours}h;{ingameTimeMinutes}m";
-                rentTextBox.Text = $"{rentText}";
-                streamCountBox.Text = $"{streamCount}";
-                timesWonOldMaidBox.Text = $"{timesWonOldMaid}";
-                timesLostOldMaidBox.Text = $"{timesLostOldMaid}";
-                timesRanAwayOldMaidBox.Text = $"{timesRanAwayOldMaid}";
-                timesWonChessBox.Text = $"{timesWonChess}";
-                timesLostChessBox.Text = $"{timesLostChess}";
-                timesLostWordChainBox.Text = $"{timesLostWordChain}";
-                timesWonWordChainBox.Text = $"{timesWonWordChain}";
-
-                // 1.1.0 New Stuff
-
-                mlCameInMouthBox.Text = $"{mlCameInMouth}";
-                mlCumWastedBox.Text = $"{mlOfCumWasted}";
-                searchTextBox.Text = $"{search}";
-                vinegaraEndBox.Text = $"{vinegaraEffectEnd}";
-                deathGripEffectEndBox.Text = $"{deathGripEffectEnd}";
-                churchAmountBox.Text = $"{timesWentToChurch}";
-                lastMentalHealthInfoAtBox.Text = $"{lastMentalHealthInfoAt}";
-                lastHungerInfoAtBox.Text = $"{lastHungerInfoAt}";
-                lastHeadpatedAtBox.Text = $"{lastHeadpatedAt}";
-                lastBotStartedTalkAtBox.Text = $"{lastBotStartedTalkAt}";
-                lastStreamedAtBox.Text = $"{lastStreamedAt}";
-                lastOutsideWithBotAtBox.Text = $"{lastOutsideWithBotAt}";
-                lastEquipmentAtBox.Text = $"{lastEquipmentAt}";
-                lastInteractAtBox.Text = $"{lastInteractAt}";
-                lastFuckedAtBox.Text = $"{lastFuckedAt}";
-                lastWokeUpAtBox.Text = $"{lastWokeUpAt}";
-                lastWentToChurchAtBox.Text = $"{lastWentToChurchAt}";
-                lastWorkedAtDayBox.Text = $"{lastWorkedAtDay}";
-                nunPointsBox.Text = $"{nunPoints}";
-                priestBotPointsBox.Text = $"{priestBotPoints}";
-
-                // 0.87.4 New stuff
-
-                lastCuddledAtBox.Text = $"{lastCuddleAt}";
-
-                // 0.90 New stuff
 
                 var rentDaysMapping = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
                 {
@@ -401,7 +343,7 @@ namespace MDRG_Analyzer
                     { "rent in 7 days", Strings.WeekDaysMonday }
                 };
 
-                string weekDay = rentDaysMapping.TryGetValue(rentText, out var day) ? day : Strings.WeekDaysUnknown;
+                string weekDay = rentDaysMapping.TryGetValue(savedataObject["statusText"].ToString(), out var day) ? day : Strings.WeekDaysUnknown;
 
                 weekdayTextBox.Text = $"{weekDay}";
 
@@ -761,69 +703,20 @@ namespace MDRG_Analyzer
                     JObject savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
                     JObject achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString());
 
-                    savedataObject["playerName"] = playerNameBox.Text;
-                    savedataObject["botName"] = botNameBox.Text;
-                    savedataObject["money"] = Int32.Parse(moneyTextBox.Text);
-                    savedataObject["casinoTokens"] = Int32.Parse(casinoTokenBox.Text);
-                    savedataObject["_lust"] = Int32.Parse(botLustBox.Text);
-                    savedataObject["_sympathy"] = Int32.Parse(botSympathyBox.Text);
-                    savedataObject["_longing"] = Int32.Parse(botLongingBox.Text);
-                    savedataObject["inteligence"] = Int32.Parse(botIntBox.Text);
-                    savedataObject["subs"] = Int32.Parse(subsTextBox.Text);
-                    savedataObject["followers"] = Int32.Parse(followersTextBox.Text);
-                    savedataObject["streamedFor"] = totalStreamTimeRawBox.Text;
-                    savedataObject["moneyEarnedFromDonations"] = streamDonations.Text;
-                    savedataObject["longestStream"] = longestStreamRawBox.Text;
-                    savedataObject["timesCameInside"] = timesCumInsideVag.Text;
-                    savedataObject["timesCameInsideAnal"] = timesCumInsideAss.Text;
-                    savedataObject["timesCameInMouth"] = timesCumInsideOral.Text;
-                    savedataObject["timesCameOutside"] = cameOutsideBox.Text;
-                    savedataObject["ingameTime"] = gameTimeRaw.Text;
-                    savedataObject["streamCount"] = streamCountBox.Text;
-                    savedataObject["timesLostChess"] = timesLostChessBox.Text;
-                    savedataObject["timesWonChess"] = timesWonChessBox.Text;
-                    savedataObject["timesLostOldMaid"] = timesLostOldMaidBox.Text;
-                    savedataObject["timesWonOldMaid"] = timesWonOldMaidBox.Text;
-                    savedataObject["timesRanAwayOldMaid"] = timesRanAwayOldMaidBox.Text;
-                    savedataObject["timesLostWordChain"] = timesLostWordChainBox.Text;
-                    savedataObject["timesWonWordChain"] = timesWonWordChainBox.Text;
+                    foreach (var pair in dataBindings)
+                    {
+                        string key = pair.Key;
+                        Control control = pair.Value;
 
-                    savedataObject["_maxCum"] = maxCumBox.Text;
-                    savedataObject["_remainingCum"] = currentCumBox.Text;
-                    savedataObject["_health"] = playerHealthBox.Text;
-                    savedataObject["_stamina"] = currentStaminaBox.Text;
-                    savedataObject["_mentalHealth"] = mentalHealthBox.Text;
-                    savedataObject["_mood"] = botMoodBox.Text;
-                    savedataObject["_cumInside"] = cumInPussy.Text;
-                    savedataObject["_cumInsideAnal"] = cumInAss.Text;
-                    savedataObject["_cumInsideStomach"] = cumInStomach.Text;
-
-                    savedataObject["mlCameInMouth"] = mlCameInMouthBox.Text;
-                    savedataObject["mlOfCumWasted"] = mlCumWastedBox.Text;
-                    savedataObject["search"] = searchTextBox.Text;
-                    savedataObject["vinegaraEffectEnd"] = vinegaraEndBox.Text;
-                    savedataObject["deathGripEffectEnd"] = deathGripEffectEndBox.Text;
-                    savedataObject["timesWentToChurch"] = churchAmountBox.Text;
-                    savedataObject["lastMentalHealthInfoAt"] = lastMentalHealthInfoAtBox.Text;
-                    savedataObject["lastHungerInfoAt"] = lastHungerInfoAtBox.Text;
-                    savedataObject["lastHeadpatedAt"] = lastHeadpatedAtBox.Text;
-                    savedataObject["lastBotStartedTalkAt"] = lastBotStartedTalkAtBox.Text;
-                    savedataObject["lastStreamedAt"] = lastStreamedAtBox.Text;
-                    savedataObject["lastOutsideWithBotAt"] = lastOutsideWithBotAtBox.Text;
-                    savedataObject["lastEquipmentAt"] = lastEquipmentAtBox.Text;
-                    savedataObject["lastInteractAt"] = lastInteractAtBox.Text;
-                    savedataObject["lastFuckedAt"] = lastFuckedAtBox.Text;
-                    savedataObject["lastWokeUpAt"] = lastWokeUpAtBox.Text;
-                    savedataObject["lastWentToChurchAt"] = lastWentToChurchAtBox.Text;
-                    savedataObject["lastWorkedAtDay"] = lastWorkedAtDayBox.Text;
-                    savedataObject["nunPoints"] = nunPointsBox.Text;
-                    savedataObject["priestBotPoints"] = priestBotPointsBox.Text;
-
-                    // 0.87
-
-                    savedataObject["lastCuddledAt"] = lastCuddledAtBox.Text;
-
-                    // Achievements (Temporarily disabled since I cannot figure out how to fix this right now.)
+                        if (control is TextBox textBox)
+                        {
+                            savedataObject[key] = textBox.Text;
+                        }
+                        else if (control is RichTextBox richTextBox)
+                        {
+                            savedataObject[key] = richTextBox.Text;
+                        }
+                    }
 
                     List<string> achievementsSelected = new List<string>();
 
