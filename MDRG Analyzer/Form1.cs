@@ -11,8 +11,6 @@ using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
 using MDRG_Analyzer;
-using System.Drawing.Configuration;
-using System.Drawing;
 
 namespace MDRG_Analyzer
 {
@@ -21,7 +19,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.13";
+        readonly string __version__ = "1.1.13.1";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -114,9 +112,9 @@ namespace MDRG_Analyzer
                 );
         }
 
-        public static void OpenWebsite(string x)
+        public static void OpenWebsite(string url)
         {
-            System.Diagnostics.Process.Start("cmd", "/C start" + " " + x);
+            Process.Start("cmd", $"/C start {url}");
         }
 
         private void AddRadioButtons(int numberOfFiles)
@@ -142,7 +140,7 @@ namespace MDRG_Analyzer
 
         private void RadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            System.Windows.Forms.RadioButton radioButton = sender as System.Windows.Forms.RadioButton;
+            RadioButton radioButton = sender as RadioButton;
             if (radioButton.Checked)
             {
                 if (radioButton.Tag is int saveNumber)
@@ -377,7 +375,7 @@ namespace MDRG_Analyzer
                 // Gotten Achievements checker
                 foreach (Control groupBox in achievementsPanel.Controls)
                 {
-                    if (groupBox is System.Windows.Forms.GroupBox currentGroupBox)
+                    if (groupBox is GroupBox currentGroupBox)
                     {
                         foreach (Control control in currentGroupBox.Controls)
                         {
@@ -427,36 +425,26 @@ namespace MDRG_Analyzer
             }
         }
 
-        private void ShowUpdatePopup(bool isNewest, System.Version current, System.Version latest, bool isStartup) // Show on clicking "Check for Updates", pass "isNewest" on whether there is or isn't a new version
+        private void ShowUpdatePopup(bool isNewest, Version current, Version latest, bool isStartup)
         {
-            if (!isNewest) // If not newest, show this
+            if (!isNewest)
             {
-                DialogResult result = MessageBox.Show(
+                if (MessageBox.Show(
                     caption: Strings.GitResponseNewVersionAvailableCaption,
-                    text: Strings.GitResponseNewVersionAvailableText1 + current.ToString() + Strings.GitResponseNewVersionAvailableText2 + latest.ToString() + Strings.GitResponseNewVersionAvailableText3,
+                    text: $"{Strings.GitResponseNewVersionAvailableText1}{current}{Strings.GitResponseNewVersionAvailableText2}{latest}{Strings.GitResponseNewVersionAvailableText3}",
                     buttons: MessageBoxButtons.YesNo,
-                    icon: MessageBoxIcon.Information);
-
-                switch (result)
+                    icon: MessageBoxIcon.Information) == DialogResult.Yes)
                 {
-                    case DialogResult.Yes:
-                        OpenWebsite(repoUrl + "/releases/latest");
-                        break;
-                    case DialogResult.No: // Just close
-                        break;
+                    OpenWebsite($"{repoUrl}/releases/latest");
                 }
             }
-            else // If newest, show this
+            else if (!isStartup)
             {
-                // Tell the User no new version found
-                if (!isStartup)
-                {
-                    MessageBox.Show(
-                        caption: Strings.GitResponseNewestVersionCaption,
-                        text: Strings.GitResponseNewestVersionText,
-                        buttons: MessageBoxButtons.OK,
-                        icon: MessageBoxIcon.Information);
-                }
+                MessageBox.Show(
+                    caption: Strings.GitResponseNewestVersionCaption,
+                    text: Strings.GitResponseNewestVersionText,
+                    buttons: MessageBoxButtons.OK,
+                    icon: MessageBoxIcon.Information);
             }
         }
 
@@ -799,35 +787,6 @@ namespace MDRG_Analyzer
             OpenWebsite("https://ko-fi.com/strawberrysoftware");
         }
 
-        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ChangeLanguage("en-US");
-        }
-
-        private void deutschToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ChangeLanguage("de");
-        }
-
-        private void traditionalChineseToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ChangeLanguage("zh");
-        }
-
-        private void españolToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ChangeLanguage("es");
-        }
-
-        private void portuguesaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ChangeLanguage("pt");
-        }
-        private void japaneseToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ChangeLanguage("ja");
-        }
-
         private async void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (tabControl1.SelectedIndex == 6)
@@ -845,6 +804,13 @@ namespace MDRG_Analyzer
         {
             OpenWebsite(developerWebsite);
         }
+        private void ChangeLanguageMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem)
+            {
+                ChangeLanguage(menuItem.Tag.ToString());
+            }
+        }
     }
 }
 
@@ -852,7 +818,7 @@ public static class ControlExtensions
 {
     public static void ToggleControlsEnabled(this Control control)
     {
-        if (control is System.Windows.Forms.GroupBox groupBox)
+        if (control is GroupBox groupBox)
         {
             foreach (Control childControl in groupBox.Controls)
             {
@@ -867,13 +833,13 @@ public static class ControlExtensions
                     case Button button:
                         button.Enabled = !button.Enabled;
                         break;
-                    case System.Windows.Forms.CheckBox checkBox:
+                    case CheckBox checkBox:
                         checkBox.Enabled = !checkBox.Enabled;
                         break;
                     case CheckedListBox checkListBox:
                         checkListBox.Enabled = !checkListBox.Enabled;
                         break;
-                    case System.Windows.Forms.GroupBox subGroupBox:
+                    case GroupBox subGroupBox:
                         ToggleControlsEnabled(subGroupBox);
                         break;
                 }
@@ -885,6 +851,6 @@ public static class ControlExtensions
 class AsynchonousTasks
 {
     // This is a test method to see if async works. Remove this later.
-    public async Task X1(System.Windows.Forms.Label a, PictureBox b, int c = 75) { byte[] d = Convert.FromBase64String(global::MDRG_Analyzer.Properties.Resources.skbdtlt); using (var ms = new MemoryStream(d)) { var e = System.Drawing.Image.FromStream(ms); b.Image = e; } b.Name = "pictureBox2"; b.TabStop = false; a.Text = Strings.label6HorrorText; await Task.Delay(c); b.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl; b.Name = "pictureBox2"; b.TabStop = false; a.Text = Strings.label6NormalText; }
+    public async Task X1(Label a, PictureBox b, int c = 100) { byte[] d = Convert.FromBase64String(global::MDRG_Analyzer.Properties.Resources.skbdtlt); using (var ms = new MemoryStream(d)) { var e = System.Drawing.Image.FromStream(ms); b.Image = e; } b.Name = "pictureBox2"; b.TabStop = false; a.Text = Strings.label6HorrorText; await Task.Delay(c); b.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl; b.Name = "pictureBox2"; b.TabStop = false; a.Text = Strings.label6NormalText; }
 
 }

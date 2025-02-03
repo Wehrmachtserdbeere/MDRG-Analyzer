@@ -1854,14 +1854,16 @@
             // 
             this.traditionalChineseToolStripMenuItem.Name = "traditionalChineseToolStripMenuItem";
             resources.ApplyResources(this.traditionalChineseToolStripMenuItem, "traditionalChineseToolStripMenuItem");
-            this.traditionalChineseToolStripMenuItem.Click += new System.EventHandler(this.traditionalChineseToolStripMenuItem_Click);
+            this.traditionalChineseToolStripMenuItem.Tag = "zh";
+            this.traditionalChineseToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguageMenuItem_Click);
             // 
             // deutschToolStripMenuItem
             // 
             this.deutschToolStripMenuItem.CheckOnClick = true;
             this.deutschToolStripMenuItem.Name = "deutschToolStripMenuItem";
             resources.ApplyResources(this.deutschToolStripMenuItem, "deutschToolStripMenuItem");
-            this.deutschToolStripMenuItem.Click += new System.EventHandler(this.deutschToolStripMenuItem_Click);
+            this.deutschToolStripMenuItem.Tag = "de";
+            this.deutschToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguageMenuItem_Click);
             // 
             // englishToolStripMenuItem
             // 
@@ -1870,7 +1872,8 @@
             this.englishToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
+            this.englishToolStripMenuItem.Tag = "en-US";
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguageMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
@@ -1881,19 +1884,22 @@
             // 
             this.españolToolStripMenuItem.Name = "españolToolStripMenuItem";
             resources.ApplyResources(this.españolToolStripMenuItem, "españolToolStripMenuItem");
-            this.españolToolStripMenuItem.Click += new System.EventHandler(this.españolToolStripMenuItem_Click);
+            this.españolToolStripMenuItem.Tag = "es";
+            this.españolToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguageMenuItem_Click);
             // 
             // japaneseToolStripMenuItem
             // 
             this.japaneseToolStripMenuItem.Name = "japaneseToolStripMenuItem";
             resources.ApplyResources(this.japaneseToolStripMenuItem, "japaneseToolStripMenuItem");
-            this.japaneseToolStripMenuItem.Click += new System.EventHandler(this.japaneseToolStripMenuItem_Click);
+            this.japaneseToolStripMenuItem.Tag = "ja";
+            this.japaneseToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguageMenuItem_Click);
             // 
             // portuguesaToolStripMenuItem
             // 
             this.portuguesaToolStripMenuItem.Name = "portuguesaToolStripMenuItem";
             resources.ApplyResources(this.portuguesaToolStripMenuItem, "portuguesaToolStripMenuItem");
-            this.portuguesaToolStripMenuItem.Click += new System.EventHandler(this.portuguesaToolStripMenuItem_Click);
+            this.portuguesaToolStripMenuItem.Tag = "pt";
+            this.portuguesaToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguageMenuItem_Click);
             // 
             // donateToolStripMenuItem
             // 
