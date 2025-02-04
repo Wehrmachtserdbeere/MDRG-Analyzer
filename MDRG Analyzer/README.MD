@@ -1,3 +1,8 @@
+# *Warning*
+You are viewing the UNCOMPLETED System.Text.Json branch! Save Editing is **NOT** working! This branch is currently **exclusively** for viewing!
+
+# Absolutely no support will be given if you ruin your save with this branch!
+
 # MDRG (My Dystopian Robot Girlfriend) Analyzer
 
 ### Usage
