@@ -1,22 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Deployment.Application;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MDRG_Analyzer;
 using System.Text.Json;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
 using System.Net.Http;
 using System.IO;
 using System.Text.Json.Nodes;
-using Newtonsoft.Json.Linq;
-using System.CodeDom;
 
 namespace MDRG_Analyzer
 {
@@ -37,7 +31,6 @@ namespace MDRG_Analyzer
         JsonNode savefileDataRoot;
         JsonNode savedataObject;
         JsonNode savefileRoot;
-        JsonNode saveDataObjectJson;
         JsonNode achievementsObject;
 
         JsonSerializerOptions options = new JsonSerializerOptions
