@@ -1,7 +1,7 @@
 # *Warning*
-You are viewing the UNCOMPLETED System.Text.Json branch! Save Editing is **NOT** working! This branch is currently **exclusively** for viewing!
+You are viewing the UNCOMPLETED and ABANDONED System.Text.Json branch! Save Editing is **NOT** working! This branch is currently **exclusively** for viewing!
 
-# Absolutely no support will be given if you ruin your save with this branch!
+# Absolutely no support will be given if you ruin your save with this branch! Use the [Up to Date Main Branch](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/tree/master)!
 
 # MDRG (My Dystopian Robot Girlfriend) Analyzer
 
