@@ -1,16 +1,22 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Forms;
-using Newtonsoft.Json.Linq;
-using System.Net.Http;
-using Newtonsoft.Json;
+using System.Deployment.Application;
 using System.Diagnostics;
 using System.Globalization;
+using System.Linq;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using MDRG_Analyzer;
+using System.Text.Json;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Net.Http;
+using System.IO;
+using System.Text.Json.Nodes;
+using Newtonsoft.Json.Linq;
+using System.CodeDom;
 
 namespace MDRG_Analyzer
 {
@@ -18,56 +24,69 @@ namespace MDRG_Analyzer
     {
         // Initialize some variables
         string fileContent;
-        JObject saveFileJson;
-        readonly string __version__ = "1.1.13.1";
-        int selectedSaveFile = -1;
+        readonly string __version__ = "1.2.0";
+        public int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
         readonly string developerWebsite = "https://wehrmachtserdbeere.github.io/";
-        dynamic jsonData;
         readonly Random rand = new Random();
         public int eventInitiator = 0;
         readonly System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-        Dictionary<string, RichTextBox> dataBindings = new Dictionary<string, RichTextBox>{};
+        Dictionary<(string, RichTextBox), Type> dataBindings = new Dictionary<(string, RichTextBox), Type> { };
+        JsonNode savefileData;
+        JsonNode savefileDataRoot;
+        JsonNode savedataObject;
+        JsonNode savefileRoot;
+        JsonNode saveDataObjectJson;
+        JsonNode achievementsObject;
+
+        JsonSerializerOptions options = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+            NumberHandling = System.Text.Json.Serialization.JsonNumberHandling.AllowReadingFromString
+        };
 
         public Form1()
         {
-            eventInitiator = rand.Next( minValue: 0, maxValue: 999 );
-            InitializeComponent();
-            ChangeLanguage("en");
-            CheckForUpdate(true);
+            // Initialize eventInitiator with a random between 0 and 99
+            eventInitiator = rand.Next(minValue: 0, maxValue: 999);
+            InitializeComponent(); // Initialize the form
+            ChangeLanguage("en"); // Set the default language to English (actually to Default)
+            CheckForUpdate(true); // Autocheck for updates
         }
 
         private void ResetLanguageMenuItems()
         {
-            foreach (var item in languageToolStripMenuItem.DropDownItems)
+            foreach (var item in languageToolStripMenuItem.DropDownItems) // For each item in the language menu
             {
-                if (item is ToolStripMenuItem toolItem)
+                if (item is ToolStripMenuItem toolItem) // If the item is a ToolStripMenuItem
                 {
-                    toolItem.Checked = false;
-                    toolItem.Font = new System.Drawing.Font(
-                        toolItem.Font.FontFamily,
-                        toolItem.Font.Size,
-                        System.Drawing.FontStyle.Regular
+                    toolItem.Checked = false; // Uncheck the item
+                    toolItem.Font = new System.Drawing.Font( // Set the font of the item
+                        toolItem.Font.FontFamily, // Default font family
+                        toolItem.Font.Size, // Default font size
+                        System.Drawing.FontStyle.Regular // Unbold the font
                     );
                 }
             }
         }
 
-
-        private void ChangeLanguage(string cultureCode)
+        private void ChangeLanguage(string cultureCode) // Method to change the language
         {
             // Set the culture for the current thread
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo(cultureCode);
-            Thread.CurrentThread.CurrentCulture = new CultureInfo(cultureCode);
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(cultureCode); // Set the UI culture
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(cultureCode); // Set the general culture
 
-            // Refresh UI elements (you may need to manually reload your form or update controls)
-            this.Controls.Clear();
+            // Refresh UI elements
+            this.Controls.Clear(); // Clear the controls
             InitializeComponent(); // Reinitialize form
-            versionBox.Text = $"{__version__}";
+            versionBox.Text = $"{__version__}"; // Ensure version is set
 
+            // Reset language menu items
             ResetLanguageMenuItems();
 
+            // Make a quick dictionary for all the languages and their associated ToolStripMenuItem
             var languageMappings = new Dictionary<string, ToolStripMenuItem>
             {
                 { "de", deutschToolStripMenuItem },
@@ -78,58 +97,114 @@ namespace MDRG_Analyzer
                 { "en", englishToolStripMenuItem }
             };
 
-            if (languageMappings.TryGetValue(cultureCode, out var menuItem))
+            if (languageMappings.TryGetValue(cultureCode, out var menuItem)) // If the language is in the dictionary
             {
-                SetLanguageAppearanceBoldCHecked(menuItem);
+                SetLanguageAppearanceBoldChecked(menuItem); // Set the appearance of the language to be bold and checked
+                // If the language is not English, German, or Chinese, show a machine translation notice
                 if (cultureCode != "en" && cultureCode != "de" && cultureCode != "zh")
                 {
                     MachineLanguageNotice();
                 }
             }
+            // If the language is invalid, default to English
             else
             {
-                SetLanguageAppearanceBoldCHecked(englishToolStripMenuItem);
+                SetLanguageAppearanceBoldChecked(englishToolStripMenuItem);
             }
         }
 
-        private void SetLanguageAppearanceBoldCHecked(ToolStripMenuItem menuIten)
+        // Make specified menuItem bold and checked
+        private void SetLanguageAppearanceBoldChecked(ToolStripMenuItem menuItem)
         {
-            menuIten.Checked = true;
-            menuIten.Font = new System.Drawing.Font(
-                menuIten.Font.FontFamily,
-                menuIten.Font.Size,
+            menuItem.Checked = true;
+            menuItem.Font = new System.Drawing.Font(
+                menuItem.Font.FontFamily,
+                menuItem.Font.Size,
                 System.Drawing.FontStyle.Bold
-                );
+            );
         }
 
-        public static void MachineLanguageNotice()
+        // Notice for machine translated language in English
+        private void MachineLanguageNotice()
         {
             MessageBox.Show(
-                caption: Strings.MachineLanguageNoticeCaption,
-                text: Strings.MachineLanguageNoticeText,
-                buttons: MessageBoxButtons.OK,
-                icon: MessageBoxIcon.Information
-                );
+                // Do NOT localize!
+                "This language is machine translated and may not be accurate.",
+                "Machine Translation",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information
+            );
         }
 
+        // Open website in the machine's default browser
         public static void OpenWebsite(string url)
         {
             Process.Start("cmd", $"/C start {url}");
         }
 
-        private void AddRadioButtons(int numberOfFiles)
+        // Load file on clicking loadfile
+        public void loadToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            flowLayoutPanel1.Controls.Clear(); // Clear existing controls
-            var radioButtons = Enumerable.Range(1, numberOfFiles)
-            .Select(i => new RadioButton
+            OpenFileDialog openFileDialog = new OpenFileDialog
             {
-                Text = string.Format(Strings.RadioButtonFileText, i),
-                Name = "radioButton" + i.ToString(),
-                Tag = i,
-                AutoSize = true
-            })
-            .ToArray();
+                Filter = Strings.openFileDialogFilter,
+                Title = Strings.openFileDialogTitle
+            };
 
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                // Get the selected file's path
+                filePath = openFileDialog.FileName;
+
+                // Load save file into variable
+                fileContent = System.IO.File.ReadAllText(filePath);
+
+                // Parse JSON into a JsonDocument
+                savefileData = JsonNode.Parse(fileContent);
+                savefileDataRoot = savefileData;
+
+                // Extract saves array
+                JsonArray? saves = savefileDataRoot["saves"] as JsonArray;
+                List<int> slots = new List<int>();
+
+                // For each save...
+                if (saves != null)
+                {
+                    foreach (JsonNode? save in saves)
+                    {
+                        // Ensure the node is not null and contains the "slot" property
+                        if (save?["slot"] is JsonValue slotValue && slotValue.TryGetValue(out int slotNumber))
+                        {
+                            // Add the slot number to the list
+                            slots.Add(slotNumber);
+                        }
+                    }
+                }
+
+                AddRadioButtons(slots.Count());
+
+                debugTextBox.Text = fileContent;
+            }
+        }
+
+        // Add radio buttons for each save slot
+        private void AddRadioButtons(int count)
+        {
+            // Clear the radio buttons
+            flowLayoutPanel1.Controls.Clear();
+            var radioButtons = Enumerable.Range(1, count)
+                .Select(i =>
+                {
+                    return new RadioButton
+                    {
+                        Text = string.Format(Strings.RadioButtonFileText, i),
+                        Name = $"radioButton {i.ToString()}",
+                        Tag = i,
+                        AutoSize = true
+                    };
+                }).ToArray();
+
+            // For each radio button, add an event handler
             foreach (var radioButton in radioButtons)
             {
                 radioButton.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);
@@ -138,6 +213,7 @@ namespace MDRG_Analyzer
             flowLayoutPanel1.Controls.AddRange(radioButtons);
         }
 
+        // When a radio button is checked, update the selected save file
         private void RadioButton_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton radioButton = sender as RadioButton;
@@ -151,56 +227,50 @@ namespace MDRG_Analyzer
             ReloadValues();
         }
 
-
-        public void loadToolStripMenuItem_Click(object sender, EventArgs e) // On clicking "Load File"
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog
-            {
-                Filter = Strings.openFileDialogFilter,
-                Title = Strings.openFileDialogTitle
-            };
-
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                // Get the selected file's path
-                filePath = openFileDialog.FileName;
-
-                // Load save file into variable, then parse the JSon
-                fileContent = File.ReadAllText(filePath);
-                saveFileJson = JObject.Parse(fileContent);
-
-                // Deserialize into dynamic object
-                jsonData = JsonConvert.DeserializeObject(fileContent);
-
-                // Extract Saves array
-                var saves = jsonData.saves;
-                List<int> slots = new List<int>();
-                foreach (var save in saves)
-                {
-                    slots.Add((int)save.slot);
-                }
-                int slotsAmount = saves.Count;
-                AddRadioButtons(slotsAmount);
-
-                debugTextBox.Text = fileContent; // Pump entire JSon into Debug
-
-            }
-        }
         private void ReloadValues()
         {
             try
             {
-                // Test that there is data
-                JObject savedataObject = null;
-                JObject achievementsObject = null;
                 try
                 {
-                    savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
-                    achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString()); // Achievements
+                    // Deserialize the saves array
+                    JsonArray? savesArray = savefileDataRoot["saves"] as JsonArray;
+
+                    if (savesArray != null)
+                    {
+                        foreach (JsonNode? save in savesArray)
+                        {
+                            if (save?["slot"] is JsonValue slotValue && slotValue.TryGetValue(out int slotNumber) && slotNumber == selectedSaveFile)
+                            {
+                                savefileRoot = save; // Store the matching save entry
+
+                                if (save["savedata"] is JsonValue savedataValue && savedataValue.TryGetValue(out string newRawJson))
+                                {
+                                    savedataObject = JsonNode.Parse(newRawJson); // Deserialize the JSON string inside "savedata"
+                                    Console.WriteLine(savedataObject);
+                                }
+
+                                break;
+                            }
+                        }
+                    }
+
+                    // Ensure savedataObject is treated as a proper JSON object, not a stringified JSON
+                    if (savedataObject is JsonValue savedataText && savedataText.TryGetValue(out string newerRawJson))
+                    {
+                        if (!string.IsNullOrEmpty(newerRawJson) && newerRawJson.StartsWith("{"))
+                        {
+                            savedataObject = JsonNode.Parse(newerRawJson);
+                        }
+                    }
+
+                    // Get the achievements object
+                    achievementsObject = savefileDataRoot["achievements"];
+
                 }
-                catch
+                catch (Exception)
                 {
-                    if (savedataObject == null)
+                    if (savedataObject.Equals(default))
                     {
                         MessageBox.Show(
                             caption: Strings.GenericErrorCaption,
@@ -209,7 +279,8 @@ namespace MDRG_Analyzer
                             icon: MessageBoxIcon.Error);
                         return;
                     }
-                    else {
+                    else
+                    {
                         MessageBox.Show(
                             caption: Strings.GenericErrorCaption,
                             text: Strings.SavedataLoadingErrorText,
@@ -219,146 +290,179 @@ namespace MDRG_Analyzer
                     }
                 }
 
-                // Set the variables
-
-                dataBindings = new Dictionary<string, RichTextBox>
+                // Set the variables as touple string
+                dataBindings = new Dictionary<(string, RichTextBox), Type>
                 {
-                    { "botName", botNameBox },
-                    { "money", moneyTextBox },
-                    { "gameVersion", gameVersionBox },
-                    { "playerName", playerNameBox },
-                    { "casinoTokens", casinoTokenBox },
-                    { "_lust", botLustBox },
-                    { "_sympathy", botSympathyBox },
-                    { "_longing", botLongingBox },
-                    { "inteligence", botIntBox },
-                    { "stage", gameStageBox },
-                    { "subs", subsTextBox },
-                    { "followers", followersTextBox },
-                    { "streamedFor", totalStreamTimeRawBox },
-                    { "moneyEarnedFromDonations", streamDonations },
-                    { "longestStream", longestStreamRawBox },
-                    { "timesCameInside", timesCumInsideVag },
-                    { "timesCameInsideAnal", timesCumInsideAss },
-                    { "timesCameInMouth", timesCumInsideOral },
-                    { "timesCameOutside", cameOutsideBox },
-                    { "streamCount", streamCountBox },
-                    { "timesLostChess", timesLostChessBox },
-                    { "timesWonChess", timesWonChessBox },
-                    { "timesLostOldMaid", timesLostOldMaidBox },
-                    { "timesWonOldMaid", timesWonOldMaidBox },
-                    { "timesRanAwayOldMaid", timesRanAwayOldMaidBox },
-                    { "timesLostWordChain", timesLostWordChainBox },
-                    { "timesWonWordChain", timesWonWordChainBox },
-                    { "vinegaraEffectEnd", vinegaraEndBox },
-                    { "deathGripEffectEnd", deathGripEffectEndBox },
-                    { "timesWentToChurch", churchAmountBox },
-                    { "lastMentalHealthInfoAt", lastMentalHealthInfoAtBox },
-                    { "lastHungerInfoAt", lastHungerInfoAtBox },
-                    { "lastHeadpatedAt", lastHeadpatedAtBox },
-                    { "lastBotStartedTalkAt", lastBotStartedTalkAtBox },
-                    { "lastStreamedAt", lastStreamedAtBox },
-                    { "lastOutsideWithBotAt", lastOutsideWithBotAtBox },
-                    { "lastEquipmentAt", lastEquipmentAtBox },
-                    { "lastInteractAt", lastInteractAtBox },
-                    { "lastFuckedAt", lastFuckedAtBox },
-                    { "lastWokeUpAt", lastWokeUpAtBox },
-                    { "lastWentToChurchAt", lastWentToChurchAtBox },
-                    { "lastWorkedAtDay", lastWorkedAtDayBox },
-                    { "nunPoints", nunPointsBox },
-                    { "priestBotPoints", priestBotPointsBox },
-                    { "lastCuddledAt", lastCuddledAtBox },
-                    { "_maxCum", maxCumBox },
-                    { "_remainingCum", currentCumBox },
-                    { "_health", playerHealthBox },
-                    { "_stamina", currentStaminaBox },
-                    { "_mentalHealth", mentalHealthBox },
-                    { "_mood", botMoodBox },
-                    { "_cumInside", cumInPussy },
-                    { "_cumInsideAnal", cumInAss },
-                    { "_cumInsideStomach", cumInStomach },
-                    { "mlCameInMouth", mlCameInMouthBox },
-                    { "mlOfCumWasted", mlCumWastedBox },
-                    { "search", searchTextBox },
+                    { ("botName", botNameBox), typeof(string) },
+                    { ("money", moneyTextBox), typeof(int) },
+                    { ("gameVersion", gameVersionBox), typeof(string) },
+                    { ("playerName", playerNameBox), typeof(string) },
+                    { ("casinoTokens", casinoTokenBox), typeof(int) },
+                    { ("_lust", botLustBox), typeof(int) },
+                    { ("_sympathy", botSympathyBox), typeof(int) },
+                    { ("_longing", botLongingBox), typeof(int) },
+                    { ("inteligence", botIntBox), typeof(int) },
+                    { ("stage", gameStageBox), typeof(int) },
+                    { ("subs", subsTextBox), typeof(int) },
+                    { ("followers", followersTextBox), typeof(int) },
+                    { ("streamedFor", totalStreamTimeRawBox), typeof(int) },
+                    { ("moneyEarnedFromDonations", streamDonations), typeof(int) },
+                    { ("longestStream", longestStreamRawBox), typeof(int) },
+                    { ("timesCameInside", timesCumInsideVag), typeof(int) },
+                    { ("timesCameInsideAnal", timesCumInsideAss), typeof(int) },
+                    { ("timesCameInMouth", timesCumInsideOral), typeof(int) },
+                    { ("timesCameOutside", cameOutsideBox), typeof(int) },
+                    { ("streamCount", streamCountBox), typeof(int) },
+                    { ("timesLostChess", timesLostChessBox), typeof(int) },
+                    { ("timesWonChess", timesWonChessBox), typeof(int) },
+                    { ("timesLostOldMaid", timesLostOldMaidBox), typeof(int) },
+                    { ("timesWonOldMaid", timesWonOldMaidBox), typeof(int) },
+                    { ("timesRanAwayOldMaid", timesRanAwayOldMaidBox), typeof(int) },
+                    { ("timesLostWordChain", timesLostWordChainBox), typeof(int) },
+                    { ("timesWonWordChain", timesWonWordChainBox), typeof(int) },
+                    { ("vinegaraEffectEnd", vinegaraEndBox), typeof(int) },
+                    { ("deathGripEffectEnd", deathGripEffectEndBox), typeof(int) },
+                    { ("timesWentToChurch", churchAmountBox), typeof(int) },
+                    { ("lastMentalHealthInfoAt", lastMentalHealthInfoAtBox), typeof(int) },
+                    { ("lastHungerInfoAt", lastHungerInfoAtBox), typeof(int) },
+                    { ("lastHeadpatedAt", lastHeadpatedAtBox), typeof(int) },
+                    { ("lastBotStartedTalkAt", lastBotStartedTalkAtBox), typeof(int) },
+                    { ("lastStreamedAt", lastStreamedAtBox), typeof(int) },
+                    { ("lastOutsideWithBotAt", lastOutsideWithBotAtBox), typeof(int) },
+                    { ("lastEquipmentAt", lastEquipmentAtBox), typeof(int) },
+                    { ("lastInteractAt", lastInteractAtBox), typeof(int) },
+                    { ("lastFuckedAt", lastFuckedAtBox), typeof(int) },
+                    { ("lastWokeUpAt", lastWokeUpAtBox), typeof(int) },
+                    { ("lastWentToChurchAt", lastWentToChurchAtBox), typeof(int) },
+                    { ("lastWorkedAtDay", lastWorkedAtDayBox), typeof(int) },
+                    { ("nunPoints", nunPointsBox), typeof(int) },
+                    { ("priestBotPoints", priestBotPointsBox), typeof(int) },
+                    { ("lastCuddledAt", lastCuddledAtBox), typeof(int) },
+                    { ("_maxCum", maxCumBox), typeof(int) },
+                    { ("_remainingCum", currentCumBox), typeof(int) },
+                    { ("_health", playerHealthBox), typeof(int) },
+                    { ("_stamina", currentStaminaBox), typeof(int) },
+                    { ("_mentalHealth", mentalHealthBox), typeof(int) },
+                    { ("_mood", botMoodBox), typeof(int) },
+                    { ("_cumInside", cumInPussy), typeof(int) },
+                    { ("_cumInsideAnal", cumInAss), typeof(int) },
+                    { ("_cumInsideStomach", cumInStomach), typeof(int) },
+                    { ("mlCameInMouth", mlCameInMouthBox), typeof(int) },
+                    { ("mlOfCumWasted", mlCumWastedBox), typeof(int) },
+                    { ("search", searchTextBox), typeof(int) },
                 };
 
                 foreach (var pair in dataBindings)
                 {
-                    string key = pair.Key; // Explicitly access the key
-                    RichTextBox value = pair.Value; // Explicitly access the value
-                    if (savedataObject[key] != null)
+                    // Explicitly access key
+                    var key = pair.Key;
+                    // Explicitly access value
+                    RichTextBox pairValue = key.Item2;
+                    Type entryType = pair.Value;
+
+                    if (savedataObject[key.Item1] is JsonNode element)
                     {
-                        value.Text = savedataObject.Value<string>(key).ToString();
+                        // Text is always String
+                        pairValue.Text = element.ToString();
+
+                        if (entryType == typeof(int))
+                        {
+                            pairValue.Tag = "int";
+                        }
+                        else if (entryType == typeof(string))
+                        { 
+                            pairValue.Tag = "string";
+                        }
+                        else if (entryType == typeof(double))
+                        {
+                            pairValue.Tag = "double";
+                        }
+                        else
+                        {
+                            // Don't apply a value
+                            pairValue.Tag = string.Empty;
+                        }
                     }
                 }
 
+                // Cover non-automatic fields
                 rentTextBox.Text = savedataObject["statusText"].ToString();
 
-                int saveSlot = saveFileJson["saves"][selectedSaveFile].Value<int>("slot");
-                int ingameTime = saveFileJson["saves"][selectedSaveFile].Value<int>("ingameTime");
+                int saveSlot = Int32.Parse(savefileRoot["slot"].ToString());
+                int ingameTime = Int32.Parse(savefileRoot["ingameTime"].ToString());
 
-                JArray jsVisitedWebsites = (JArray)saveFileJson["visitedWebsites"];
-                JArray jsGottenAchievements = (JArray)achievementsObject["values"];
-                string[] visitedWebsites = jsVisitedWebsites.ToObject<string[]>();
-                string[] gottenAchievements = jsGottenAchievements.ToObject<string[]>();
+                JsonNode jsVisitedWebsites = savefileDataRoot["visitedWebsites"];
+                JsonNode jsGottenAchievements = achievementsObject["values"];
 
-                // Continue various variables
-                bool lightSwitchOn = savedataObject.Value<bool>("lightSwitchOn");
+                // Get the visited websites into a nice array
+                string[] visitedWebsites = jsVisitedWebsites
+                    .AsArray()  // Convert to JsonArray
+                    .Select(element => element.ToString()) // Use ToString to get the string representation
+                    .ToArray();
 
-                // Convert raw time into days, hours, and minutes
-                int streamDays = savedataObject.Value<int>("streamedFor") / (24 * 60);
-                int streamHours = (savedataObject.Value<int>("streamedFor") % (24 * 60)) / 60;
-                int streamMinutes = savedataObject.Value<int>("streamedFor") % 60;
-                
-                int longestStreamDays = savedataObject.Value<int>("streamedFor") / (24 * 60);
-                int longestStreamHours = (savedataObject.Value<int>("streamedFor") % (24 * 60)) / 60;
-                int longestStreamMinutes = savedataObject.Value<int>("streamedFor") % 60;
-                
-                int ingameTimeDays = ingameTime / (24 * 60);
-                int ingameTimeHours = (ingameTime % (24 * 60)) / 60;
-                int ingameTimeMinutes = ingameTime % 60;
+                // Get the gotten achievements into a nice array
+                string[] gottenAchievements = jsGottenAchievements
+                    .AsArray()  // Convert to JsonArray
+                    .Select(element => element.ToString()) // Use ToString to get the string representation
+                    .ToArray();
 
+
+                // Continue with other variables
+                bool lightSwitchOn = bool.Parse(savedataObject["lightSwitchOn"].ToString());
+
+                // Convert raw time into days, hours, minutes
+                // streamedFor
+                int streamDays = Int32.Parse(savedataObject["streamedFor"].ToString()) / (24 * 60);
+                int streamHours = Int32.Parse(savedataObject["streamedFor"].ToString()) / 60 % 24;
+                int streamMinutes = Int32.Parse(savedataObject["streamedFor"].ToString()) % 60;
+
+                // longestStream
+                int longestStreamDays = Int32.Parse(savedataObject["longestStream"].ToString()) / (24 * 60);
+                int longestStreamHours = Int32.Parse(savedataObject["longestStream"].ToString()) / 60 % 24;
+                int longestStreamMinutes = Int32.Parse(savedataObject["longestStream"].ToString()) % 60;
+
+                // ingameTime
+                int ingameDays = ingameTime / (24 * 60);
+                int ingameHours = ingameTime / 60 % 24;
+                int ingameMinutes = ingameTime % 60;
 
                 // Change box text to the variables
-                saveSlotBox.Text = $"{saveSlot + 1}"; // +1 to represent the in-game save slot number.
-                saveSlotBoxBot.Text = $"{saveSlot + 1}";
-                saveSlotBoxGen.Text = $"{saveSlot + 1}";
-                infoSaveBox.Text = $"{saveSlot + 1}";
+                string displaySaveSlot = (saveSlot + 1).ToString();
+                saveSlotBox.Text = displaySaveSlot;
+                saveSlotBoxBot.Text = displaySaveSlot;
+                saveSlotBoxGen.Text = displaySaveSlot;
+                infoSaveBox.Text = displaySaveSlot;
+
                 totalStreamTimeFormattedBox.Text = $"{streamDays}d;{streamHours}h;{streamMinutes}m";
                 longestStreamFormattedBox.Text = $"{longestStreamDays}d;{longestStreamHours}h;{longestStreamMinutes}m";
-                gameTimeRaw.Text = $"{ingameTime}";
-                gameTimeFormatted.Text = $"{ingameTimeDays}d;{ingameTimeHours}h;{ingameTimeMinutes}m";
 
-                var rentDaysMapping = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+                gameTimeRaw.Text = ingameTime.ToString();
+                gameTimeRaw.Tag = "int";
+                gameTimeFormatted.Text = $"{ingameDays}d;{ingameHours}h;{ingameMinutes}m";
+
+                // Rent days mapping (automated)
+                var weekDays = new[]
                 {
-                    { "rent today!", Strings.WeekDaysMonday },
-                    { "rent in 1 day", Strings.WeekDaysSunday },
-                    { "rent in 2 days", Strings.WeekDaysSaturday },
-                    { "rent in 3 days", Strings.WeekDaysFriday },
-                    { "rent in 4 days", Strings.WeekDaysThursday },
-                    { "rent in 5 days", Strings.WeekDaysWednesday },
-                    { "rent in 6 days", Strings.WeekDaysTuesday },
-                    { "rent in 7 days", Strings.WeekDaysMonday }
+                    Strings.WeekDaysMonday, Strings.WeekDaysSunday, Strings.WeekDaysSaturday,
+                    Strings.WeekDaysFriday, Strings.WeekDaysThursday, Strings.WeekDaysWednesday,
+                    Strings.WeekDaysTuesday, Strings.WeekDaysMonday
                 };
 
-                string weekDay = rentDaysMapping.TryGetValue(savedataObject["statusText"].ToString(), out var day) ? day : Strings.WeekDaysUnknown;
+                var rentDaysMapping = Enumerable.Range(0, 8)
+                    // Just ask ChatGPT, lamda is confusing :(
+                    .ToDictionary(i => i == 0 ? "rent today!" : $"rent in {i} day{(i > 1 ? "s" : "")}",
+                                  i => weekDays[i],
+                                  StringComparer.OrdinalIgnoreCase);
 
-                weekdayTextBox.Text = $"{weekDay}";
+                // Get weekday
+                weekdayTextBox.Text = rentDaysMapping.TryGetValue(rentTextBox.Text, out string value) ? value : Strings.WeekDaysUnknown;
 
-
-                // If Lightswitch is on, set checked, else set unchecked.
-                if (lightSwitchOn)
-                {
-                    lightswitchCheckbox.Checked = true;
-                }
-                else
-                {
-                    lightswitchCheckbox.Checked = false;
-                }
+                // If lightswitch is on, set checked, else, set unchecked
+                lightswitchCheckbox.Checked = lightSwitchOn;
+                lightswitchCheckbox.Tag = "bool";
 
                 // Visited Websites checker
                 List<string> itemsToCheck = new List<string>();
-
                 foreach (var item in websitesCheckBoxes.Items)
                 {
                     if (visitedWebsites.Contains(item.ToString()))
@@ -366,36 +470,28 @@ namespace MDRG_Analyzer
                         itemsToCheck.Add(item.ToString());
                     }
                 }
-
+                // Check the visited websites
                 foreach (var item in itemsToCheck)
                 {
                     websitesCheckBoxes.SetItemChecked(websitesCheckBoxes.Items.IndexOf(item), true);
                 }
+                websitesCheckBoxes.Tag = "string";
 
-                // Gotten Achievements checker
-                foreach (Control groupBox in achievementsPanel.Controls)
+                // Gotten achievements checker
+                foreach (var checkedListBox in achievementsPanel.Controls.OfType<GroupBox>()
+                    .SelectMany(groupBox => groupBox.Controls.OfType<CheckedListBox>()))
                 {
-                    if (groupBox is GroupBox currentGroupBox)
+                    for (int i = 0; i < checkedListBox.Items.Count; i++)
                     {
-                        foreach (Control control in currentGroupBox.Controls)
+                        if (gottenAchievements.Contains(checkedListBox.Items[i].ToString()))
                         {
-                            if (control is CheckedListBox currentCheckedListBox)
-                            {
-                                for (int i = 0; i < currentCheckedListBox.Items.Count; i++)
-                                {
-                                    var item = currentCheckedListBox.Items[i].ToString();
-                                    if (gottenAchievements.Contains(item))
-                                    {
-                                        currentCheckedListBox.SetItemChecked(i, true);
-                                    }
-                                }
-                            }
+                            checkedListBox.SetItemChecked(i, true);
                         }
                     }
                 }
+                achievementsPanel.Tag = "string";
 
             }
-
             catch (System.OverflowException)
             {
                 MessageBox.Show(
@@ -452,8 +548,13 @@ namespace MDRG_Analyzer
         {
             CheckForUpdate(false);
         }
+
         private async void CheckForUpdate(bool isStartup)
         {
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                return;
+            }
             string owner = "Wehrmachtserdbeere";
             string repo = "MDRG-Analyzer";
 
@@ -468,8 +569,9 @@ namespace MDRG_Analyzer
                     if (gitResponse.IsSuccessStatusCode)
                     {
                         string gitResponseBody = await gitResponse.Content.ReadAsStringAsync();
-                        var gitResponseInfo = JsonConvert.DeserializeObject<JObject>(gitResponseBody);
-                        string gitLatestVersion = gitResponseInfo["tag_name"].ToString();
+                        //var gitResponseInfo = JsonConvert.DeserializeObject<JObject>(gitResponseBody);
+                        JsonDocument gitResponseInfo = JsonDocument.Parse(gitResponseBody);
+                        string gitLatestVersion = gitResponseInfo.RootElement.GetProperty("tag_name").ToString();
 
                         Console.WriteLine(gitLatestVersion);
 
@@ -540,7 +642,6 @@ namespace MDRG_Analyzer
                 }
             }
         }
-
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -671,7 +772,6 @@ namespace MDRG_Analyzer
             ControlExtensions.ToggleControlsEnabled(groupBox4); // Church Achievement Box
             ControlExtensions.ToggleControlsEnabled(groupBox5); // Misc Achievement Box
             websitesCheckBoxes.Enabled = !websitesCheckBoxes.Enabled; // Websites Visited Box
-
         }
 
         private void guideButton_Click(object sender, EventArgs e)
@@ -682,97 +782,141 @@ namespace MDRG_Analyzer
                 );
         }
 
+        // Save Handling
         private void saveButton_Click(object sender, EventArgs e)
         {
-            if (saveSlotBox.Text != null)
+            if (!saveSlotBox.Text.Equals("null"))
             {
                 try
                 {
-                    JObject savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
-                    JObject achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString());
+                    // Load "savefile" data into nestedData as JsonObject
+                    JsonObject nestedData = JsonSerializer.Deserialize<JsonObject>(savedataObject.ToString(), options);
 
                     foreach (var pair in dataBindings)
                     {
-                        string key = pair.Key;
-                        Control control = pair.Value;
+                        var pairCollection = pair.Key;
+                        string pairKey = pairCollection.Item1;
+                        Control control = pairCollection.Item2;
 
                         if (control is TextBox textBox)
                         {
-                            savedataObject[key] = textBox.Text;
+                            if (textBox.Tag.ToString() == "string")
+                            {
+                                nestedData[pairKey] = textBox.Text;
+                            }
+                            else if (textBox.Tag.ToString() == "int" && int.TryParse(textBox.Text, out int intValue))
+                            {
+                                nestedData[pairKey] = intValue;
+                            }
                         }
                         else if (control is RichTextBox richTextBox)
                         {
-                            savedataObject[key] = richTextBox.Text;
+                            if (richTextBox.Tag.ToString() == "string")
+                            {
+                                nestedData[pairKey] = richTextBox.Text;
+                            }
+                            else if (richTextBox.Tag.ToString() == "int" && int.TryParse(richTextBox.Text, out int intValue))
+                            {
+                                nestedData[pairKey] = intValue;
+                            }
                         }
+                        Console.WriteLine("Changed Value! --- " + nestedData[pairKey].ToString());
                     }
 
+                    // Create list for selected achievements
                     List<string> achievementsSelected = new List<string>();
 
+                    // Add the achievements
                     foreach (Object item in checkedListBox1.CheckedItems)
                     {
-                        achievementsSelected.Add($"{item}");
+                        achievementsSelected.Add(item.ToString());
                     }
                     foreach (Object item in checkedListBox2.CheckedItems)
                     {
-                        achievementsSelected.Add($"{item}");
+                        achievementsSelected.Add(item.ToString());
                     }
 
-                    JArray achievementsSelectedJArray = new JArray(achievementsSelected);
-                    
-                    foreach (string achievement in achievementsSelected)
+                    // Create a JsonArray for it and populate it
+                    JsonArray achievementsSelectedJsonArray = new JsonArray();
+                    foreach (var achievement in achievementsSelected)
                     {
-                        achievementsSelectedJArray.Add(achievement);
+                        achievementsSelectedJsonArray.Add(achievement);
                     }
 
-                    if (lightswitchCheckbox.Checked)
-                    {
-                        savedataObject["lightSwitchOn"] = true;
-                    }
-                    else
-                    {
-                        savedataObject["lightSwitchOn"] = false;
-                    }
+                    nestedData["lightSwitchOn"] = (bool)lightswitchCheckbox.Checked;
 
                     // Add Websites
-
                     List<string> visitedWebsites = new List<string>();
-
                     foreach (var item in websitesCheckBoxes.CheckedItems)
                     {
                         visitedWebsites.Add(item.ToString());
                     }
 
-                    JArray visitedWebsitesJArray = new JArray(visitedWebsites);
+                    // Create a new JsonArray for it and populate it too
+                    JsonArray visitedWebsitesJsonArray = new JsonArray();
+                    foreach (var website in visitedWebsites)
+                    {
+                        visitedWebsitesJsonArray.Add(website);
+                    }
 
+                    // Try to save
                     try
                     {
-                        string updatedSavedataJson = savedataObject.ToString();
-                        saveFileJson["saves"][selectedSaveFile]["savedata"] = updatedSavedataJson;
-                        saveFileJson["achievements"]["values"] = achievementsSelectedJArray;
-                        saveFileJson["visitedWebsites"] = visitedWebsitesJArray;
-                        string finalJson = saveFileJson.ToString();
-                        File.WriteAllText(filePath, finalJson);
+                        // Serialize for re-introduction
+                        string updatedWebsiteData = JsonSerializer.Serialize(visitedWebsitesJsonArray, options);
+                        string updatedAchievementData = JsonSerializer.Serialize(achievementsSelectedJsonArray, options);
+
+                        // Deserialize the root to access the data more easily
+                        JsonObject updatedRoot = JsonSerializer.Deserialize<JsonObject>(savefileDataRoot.ToString(), options);
+
+                        // Extract saves array and update relevant data
+                        var saves = updatedRoot["saves"].AsArray();  // Get the "saves" array from the JsonObject
+
+                        foreach (JsonObject save in saves)
+                        {
+                            if (save["slot"].GetValue<int>() == selectedSaveFile)
+                            {
+                                // Correctly set the "savedata" value to the updated data
+                                save["savedata"] = nestedData;  // Assign the serialized nested data directly to "savedata"
+                                save["notes"] = "Save Edited!";
+                            }
+                        }
+
+                        // Update websites and achievements data
+                        updatedRoot["visitedWebsites"] = JsonNode.Parse(updatedWebsiteData); // Ensure it's properly parsed
+                        updatedRoot["achievements"]["values"] = JsonNode.Parse(updatedAchievementData); // Also parsed here
+
+                        // Serialize the updated root back
+                        string updatedData = JsonSerializer.Serialize(updatedRoot, options);
+
+                        // Save the updated JSON string to the file
+                        File.WriteAllText(filePath, updatedData);
+
                         MessageBox.Show(
                             caption: Strings.GenericSuccessCaption,
                             text: Strings.SavedataSavingSuccessText
-                            );
+                        );
+
                     }
                     catch
                     {
                         MessageBox.Show(
                             caption: Strings.GenericErrorCaption,
                             text: Strings.SavedataSavingErrorText
-                            );
+                        );
                     }
                 }
-                catch (Exception ex) {
+                catch (Exception ex)
+                {
                     MessageBox.Show(
                         caption: Strings.GenericErrorCaption,
                         text: Strings.SavedataLoadingUnknownError + ex
-                        );
+                    );
                 }
             }
         }
+
+
 
         private void extraCreditsButton_Click(object sender, EventArgs e)
         {
