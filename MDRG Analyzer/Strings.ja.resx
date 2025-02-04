@@ -3430,7 +3430,7 @@ saveEdited --- iamacheater の Web サイトを使用しました。</value>
     <value>Español (MT) | スペイン語</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>言語</value>
+    <value>言語 | Language</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>寄付する</value>

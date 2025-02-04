@@ -3439,7 +3439,7 @@ timeCameInsideAnal</value>
     <value>61, 21</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Idioma</value>
+    <value>Idioma | Language</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 21</value>
@@ -3528,5 +3528,20 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Mi Analizador de Guardado de Novia Robot Distópica</value>
+  </data>
+  <data name="groupBox83.Text" xml:space="preserve">
+    <value>Saciedad</value>
+  </data>
+  <data name="groupBox82.Text" xml:space="preserve">
+    <value>Excitación actual</value>
+  </data>
+  <data name="groupBox81.Text" xml:space="preserve">
+    <value>Conversa. únicas rest.</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
+    <value>Alquiler semanal</value>
+  </data>
+  <data name="groupBox85.Text" xml:space="preserve">
+    <value>Notas</value>
   </data>
 </root>

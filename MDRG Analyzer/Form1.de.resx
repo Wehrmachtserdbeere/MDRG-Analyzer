@@ -811,7 +811,7 @@ timeCameInsideAnal</value>
     <value>61, 20</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sprache</value>
+    <value>Sprache | Language</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>Spenden</value>
@@ -901,5 +901,29 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>My Dystopian Robot Girlfriend Speicherstand Analysierer</value>
+  </data>
+  <data name="groupBox83.Text" xml:space="preserve">
+    <value>Sättigung</value>
+  </data>
+  <data name="groupBox82.Text" xml:space="preserve">
+    <value>Derzeitige Geilheit</value>
+  </data>
+  <data name="groupBox81.Text" xml:space="preserve">
+    <value>Verbleib. einm. Gespr.</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
+    <value>Wöchentliche Miete</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Parent" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="notesTextBox.Location" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;notesTextBox.ZOrder" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBox85.Text" xml:space="preserve">
+    <value>Notizen</value>
   </data>
 </root>

@@ -19,16 +19,17 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.13.1";
+        readonly string __version__ = "1.1.14";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
         readonly string developerWebsite = "https://wehrmachtserdbeere.github.io/";
         dynamic jsonData;
-        readonly Random rand = new Random();
+        readonly Random rand = new();
         public int eventInitiator = 0;
-        readonly System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-        Dictionary<string, RichTextBox> dataBindings = new Dictionary<string, RichTextBox>{};
+        readonly System.ComponentModel.ComponentResourceManager resources = new(typeof(Form1));
+        Dictionary<string, RichTextBox> dataBindings = [];
+        string notes = "";
 
         public Form1()
         {
@@ -152,9 +153,9 @@ namespace MDRG_Analyzer
         }
 
 
-        public void loadToolStripMenuItem_Click(object sender, EventArgs e) // On clicking "Load File"
+        public void LoadToolStripMenuItem_Click(object sender, EventArgs e) // On clicking "Load File"
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog
+            OpenFileDialog openFileDialog = new()
             {
                 Filter = Strings.openFileDialogFilter,
                 Title = Strings.openFileDialogTitle
@@ -174,7 +175,7 @@ namespace MDRG_Analyzer
 
                 // Extract Saves array
                 var saves = jsonData.saves;
-                List<int> slots = new List<int>();
+                List<int> slots = [];
                 foreach (var save in saves)
                 {
                     slots.Add((int)save.slot);
@@ -280,6 +281,10 @@ namespace MDRG_Analyzer
                     { "mlCameInMouth", mlCameInMouthBox },
                     { "mlOfCumWasted", mlCumWastedBox },
                     { "search", searchTextBox },
+                    { "_uniqueConversationsLeft", uniqueConversationsLeftTextBox },
+                    { "_currentHorniness", currentHorninessTextBox },
+                    { "_satiation", satiationTextBox },
+                    { "weeklyRent", weeklyRentTextBox },
                 };
 
                 foreach (var pair in dataBindings)
@@ -296,6 +301,8 @@ namespace MDRG_Analyzer
 
                 int saveSlot = saveFileJson["saves"][selectedSaveFile].Value<int>("slot");
                 int ingameTime = saveFileJson["saves"][selectedSaveFile].Value<int>("ingameTime");
+                notes = saveFileJson["saves"][selectedSaveFile].Value<string>("notes");
+                notesTextBox.Text = notes;
 
                 JArray jsVisitedWebsites = (JArray)saveFileJson["visitedWebsites"];
                 JArray jsGottenAchievements = (JArray)achievementsObject["values"];
@@ -341,32 +348,19 @@ namespace MDRG_Analyzer
                     { "rent in 7 days", Strings.WeekDaysMonday }
                 };
 
-                string weekDay = rentDaysMapping.TryGetValue(savedataObject["statusText"].ToString(), out var day) ? day : Strings.WeekDaysUnknown;
+                weekdayTextBox.Text = rentDaysMapping.TryGetValue(savedataObject["statusText"].ToString(), out var day)
+                    ? day
+                    : Strings.WeekDaysUnknown;
 
-                weekdayTextBox.Text = $"{weekDay}";
+                // Quick Checkbox assignment
+                lightswitchCheckbox.Checked = lightSwitchOn;
 
+                // Get a list of items to check without modifying the original collection while iterating
+                var itemsToCheck = websitesCheckBoxes.Items.Cast<string>()
+                    .Where(visitedWebsites.Contains)
+                    .ToList();
 
-                // If Lightswitch is on, set checked, else set unchecked.
-                if (lightSwitchOn)
-                {
-                    lightswitchCheckbox.Checked = true;
-                }
-                else
-                {
-                    lightswitchCheckbox.Checked = false;
-                }
-
-                // Visited Websites checker
-                List<string> itemsToCheck = new List<string>();
-
-                foreach (var item in websitesCheckBoxes.Items)
-                {
-                    if (visitedWebsites.Contains(item.ToString()))
-                    {
-                        itemsToCheck.Add(item.ToString());
-                    }
-                }
-
+                // Now modify the control safely
                 foreach (var item in itemsToCheck)
                 {
                     websitesCheckBoxes.SetItemChecked(websitesCheckBoxes.Items.IndexOf(item), true);
@@ -448,7 +442,7 @@ namespace MDRG_Analyzer
             }
         }
 
-        private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void CheckForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CheckForUpdate(false);
         }
@@ -457,131 +451,102 @@ namespace MDRG_Analyzer
             string owner = "Wehrmachtserdbeere";
             string repo = "MDRG-Analyzer";
 
-            using (HttpClient thisProgram = new HttpClient())
+            using HttpClient thisProgram = new();
+            try
             {
-                try
+                thisProgram.DefaultRequestHeaders.Add("User-Agent", "request"); // Required for GitHub API
+
+                HttpResponseMessage gitResponse = await thisProgram.GetAsync($"https://api.github.com/repos/{owner}/{repo}/releases/latest"); // Get the API URL
+
+                if (gitResponse.IsSuccessStatusCode)
                 {
-                    thisProgram.DefaultRequestHeaders.Add("User-Agent", "request"); // Required for GitHub API
+                    string gitLatestVersion = JsonConvert.DeserializeObject<JObject>(
+                        await gitResponse.Content.ReadAsStringAsync()
+                    )?["tag_name"]?.ToString();
 
-                    HttpResponseMessage gitResponse = await thisProgram.GetAsync($"https://api.github.com/repos/{owner}/{repo}/releases/latest"); // Get the API URL
-
-                    if (gitResponse.IsSuccessStatusCode)
+                    if (gitLatestVersion != null &&
+                        Version.TryParse(gitLatestVersion.TrimStart('v'), out Version latest) &&
+                        Version.TryParse(__version__, out Version current))
                     {
-                        string gitResponseBody = await gitResponse.Content.ReadAsStringAsync();
-                        var gitResponseInfo = JsonConvert.DeserializeObject<JObject>(gitResponseBody);
-                        string gitLatestVersion = gitResponseInfo["tag_name"].ToString();
-
-                        Console.WriteLine(gitLatestVersion);
-
-                        if (Version.TryParse(gitLatestVersion.TrimStart('v'), out Version latest) && Version.TryParse(__version__, out Version current))
-                        {
-                            int comparisonResult = current.CompareTo(latest);
-                            if (comparisonResult < 0)
-                            {
-                                ShowUpdatePopup(false, current, latest, isStartup);
-                            }
-                            else
-                            {
-                                ShowUpdatePopup(true, current, latest, isStartup);
-                            }
-                        }
-                        else
-                        {
-                            MessageBox.Show(
-                                caption: Strings.GenericErrorCaption,
-                                text: Strings.GitResponseInvalidVersionFormatText
-                            );
-                        }
+                        ShowUpdatePopup(current.CompareTo(latest) >= 0, current, latest, isStartup);
                     }
                     else
                     {
                         MessageBox.Show(
                             caption: Strings.GenericErrorCaption,
-                            text: Strings.GitResponseCouldNotCheckForUpdateText + gitResponse.StatusCode.ToString()
+                            text: Strings.GitResponseInvalidVersionFormatText
                         );
                     }
                 }
-                catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
+                else
                 {
-                    DialogResult result = MessageBox.Show(
+                    MessageBox.Show(
                         caption: Strings.GenericErrorCaption,
-                        text: Strings.HttpRequestExceptionMessageText + exep.Message,
-                        buttons: MessageBoxButtons.RetryCancel,
-                        icon: MessageBoxIcon.Error
+                        text: Strings.GitResponseCouldNotCheckForUpdateText + gitResponse.StatusCode.ToString()
                     );
-
-                    switch (result)
-                    {
-                        case DialogResult.Retry:
-                            CheckForUpdate(false);
-                            break;
-                        case DialogResult.Cancel:
-                            break;
-                    }
-                }
-                catch (Exception ex)
-                {
-
-                    DialogResult result = MessageBox.Show(
-                        caption: Strings.GenericErrorCaption,
-                        text: Strings.HttpRequestUnknownErrorMessageText + ex.Message,
-                        buttons: MessageBoxButtons.RetryCancel,
-                        icon: MessageBoxIcon.Error
-                    );
-
-                    switch (result)
-                    {
-                        case DialogResult.Retry:
-                            CheckForUpdate(false);
-                            break;
-                        case DialogResult.Cancel:
-                            break;
-                    }
                 }
             }
+            catch (HttpRequestException exep) // Exception Handler, tell User that there was an error
+            {
+                DialogResult result = MessageBox.Show(
+                    caption: Strings.GenericErrorCaption,
+                    text: Strings.HttpRequestExceptionMessageText + exep.Message,
+                    buttons: MessageBoxButtons.RetryCancel,
+                    icon: MessageBoxIcon.Error
+                );
+
+                switch (result)
+                {
+                    case DialogResult.Retry:
+                        CheckForUpdate(false);
+                        break;
+                    case DialogResult.Cancel:
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                DialogResult result = MessageBox.Show(
+                    caption: Strings.GenericErrorCaption,
+                    text: Strings.HttpRequestUnknownErrorMessageText + ex.Message,
+                    buttons: MessageBoxButtons.RetryCancel,
+                    icon: MessageBoxIcon.Error
+                );
+
+                switch (result)
+                {
+                    case DialogResult.Retry:
+                        CheckForUpdate(false);
+                        break;
+                    case DialogResult.Cancel:
+                        break;
+                }
+            }
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (!achievementsPanel.Visible)
-            {
-                achievementsPanel.Visible = true;
-            }
-            else if (achievementsPanel.Visible)
-            {
-                achievementsPanel.Visible = false;
-            }
-        }
+        // Quickly invert achievementsPanel and visitedWebsiteGrouBox visibility
+        private void Button1_Click(object sender, EventArgs e) => achievementsPanel.Visible = !achievementsPanel.Visible;
+        private void Button2_Click(object sender, EventArgs e) => visitedWebsiteGroupBox.Visible = !visitedWebsiteGroupBox.Visible;
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (!visitedWebsiteGroupBox.Visible)
-            {
-                visitedWebsiteGroupBox.Visible = true;
-            }
-            else if (visitedWebsiteGroupBox.Visible)
-            {
-                visitedWebsiteGroupBox.Visible = false;
-            }
-        }
 
-        private void reportABugToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ReportABugToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenWebsite(repoUrl + "/issues");
         }
 
-        private void suggestAFeatureToolStripMenuItem_Click(object sender, EventArgs e)
+        private void SuggestAFeatureToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenWebsite(repoUrl + "/discussions/categories/ideas");
         }
 
-        private void quickLinkToGitHubToolStripMenuItem_Click(object sender, EventArgs e)
+        private void QuickLinkToGitHubToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenWebsite(repoUrl);
         }
 
-        private void openReadmeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void OpenReadmeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string readmeFilePath = "README.md";
 
@@ -598,12 +563,12 @@ namespace MDRG_Analyzer
             }
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void editInfoButton_Click(object sender, EventArgs e)
+        private void EditInfoButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
                 caption: Strings.EditInfoButtonCaption,
@@ -611,7 +576,7 @@ namespace MDRG_Analyzer
                 );
         }
 
-        private void createBackupButton_Click(object sender, EventArgs e)
+        private void CreateBackupButton_Click(object sender, EventArgs e)
         {
             if (filePath == null)
             {
@@ -662,7 +627,7 @@ namespace MDRG_Analyzer
         }
 
 
-        private void saveEditConsentBox_CheckedChanged(object sender, EventArgs e)
+        private void SaveEditConsentBox_CheckedChanged(object sender, EventArgs e)
         {
             ControlExtensions.ToggleControlsEnabled(groupBox3); // General Info
             ControlExtensions.ToggleControlsEnabled(groupBox15); // Bot Info
@@ -674,7 +639,7 @@ namespace MDRG_Analyzer
 
         }
 
-        private void guideButton_Click(object sender, EventArgs e)
+        private void GuideButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
                 caption: Strings.GuideAndInstructionsCaption,
@@ -682,7 +647,7 @@ namespace MDRG_Analyzer
                 );
         }
 
-        private void saveButton_Click(object sender, EventArgs e)
+        private void SaveButton_Click(object sender, EventArgs e)
         {
             if (saveSlotBox.Text != null)
             {
@@ -706,7 +671,7 @@ namespace MDRG_Analyzer
                         }
                     }
 
-                    List<string> achievementsSelected = new List<string>();
+                    List<string> achievementsSelected = [];
 
                     foreach (Object item in checkedListBox1.CheckedItems)
                     {
@@ -717,7 +682,7 @@ namespace MDRG_Analyzer
                         achievementsSelected.Add($"{item}");
                     }
 
-                    JArray achievementsSelectedJArray = new JArray(achievementsSelected);
+                    JArray achievementsSelectedJArray = new(achievementsSelected);
                     
                     foreach (string achievement in achievementsSelected)
                     {
@@ -735,19 +700,20 @@ namespace MDRG_Analyzer
 
                     // Add Websites
 
-                    List<string> visitedWebsites = new List<string>();
+                    List<string> visitedWebsites = [];
 
                     foreach (var item in websitesCheckBoxes.CheckedItems)
                     {
                         visitedWebsites.Add(item.ToString());
                     }
 
-                    JArray visitedWebsitesJArray = new JArray(visitedWebsites);
+                    JArray visitedWebsitesJArray = new(visitedWebsites);
 
                     try
                     {
                         string updatedSavedataJson = savedataObject.ToString();
                         saveFileJson["saves"][selectedSaveFile]["savedata"] = updatedSavedataJson;
+                        saveFileJson["saves"][selectedSaveFile]["notes"] = notesTextBox.Text;
                         saveFileJson["achievements"]["values"] = achievementsSelectedJArray;
                         saveFileJson["visitedWebsites"] = visitedWebsitesJArray;
                         string finalJson = saveFileJson.ToString();
@@ -774,7 +740,7 @@ namespace MDRG_Analyzer
             }
         }
 
-        private void extraCreditsButton_Click(object sender, EventArgs e)
+        private void ExtraCreditsButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
                 caption: Strings.ExtraCreditsCaption,
@@ -782,25 +748,25 @@ namespace MDRG_Analyzer
                 );
         }
 
-        private void donateToolStripMenuItem_Click(object sender, EventArgs e)
+        private void DonateToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenWebsite("https://ko-fi.com/strawberrysoftware");
         }
 
-        private async void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        private async void TabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (tabControl1.SelectedIndex == 6)
             {
                 if (eventInitiator == 444) // Remove this later, this is a test
                 {
-                    AsynchonousTasks asynchonousTasks = new AsynchonousTasks();
+                    AsynchonousTasks asynchonousTasks = new();
                     await asynchonousTasks.X1(label6, pictureBox2);
                     eventInitiator = 0;
                 }
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void PictureBox1_Click(object sender, EventArgs e)
         {
             OpenWebsite(developerWebsite);
         }
@@ -824,12 +790,13 @@ public static class ControlExtensions
             {
                 switch (childControl)
                 {
-                    case RichTextBox richTextBox when childControl.Name != "weekdayTextBox" && childControl.Name != "rentTextBox":
+                    case RichTextBox richTextBox when richTextBox.Name != "weekdayTextBox" && richTextBox.Name != "rentTextBox":
                         richTextBox.ReadOnly = !richTextBox.ReadOnly;
                         break;
-                    case TextBox textBox when childControl.Name != "weekdayTextBox" && childControl.Name != "rentTextBox":
+                    case TextBox textBox when textBox.Name != "weekdayTextBox" && textBox.Name != "rentTextBox":
                         textBox.ReadOnly = !textBox.ReadOnly;
                         break;
+
                     case Button button:
                         button.Enabled = !button.Enabled;
                         break;
@@ -846,6 +813,7 @@ public static class ControlExtensions
             }
         }
     }
+
 }
 
 class AsynchonousTasks

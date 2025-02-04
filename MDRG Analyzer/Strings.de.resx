@@ -813,7 +813,7 @@ saveEdited --- Habe die iamacheater-Website verwendet.</value>
     <value>Español (MT) | Spanisch</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sprache</value>
+    <value>Sprache | Language</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>Spenden</value>

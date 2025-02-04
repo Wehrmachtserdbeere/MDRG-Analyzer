@@ -1,5 +1,9 @@
 # MDRG (My Dystopian Robot Girlfriend) Analyzer
 
+### Requirements
+
+You need very likely need the most recent [.NET Core 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) installed on your PC.
+
 ### Usage
 
 1. Extract the Application from the Archive

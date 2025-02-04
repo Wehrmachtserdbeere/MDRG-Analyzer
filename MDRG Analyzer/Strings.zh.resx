@@ -3475,7 +3475,7 @@ saveEdited --- 使用了 作弊者 网站。</value>
     <value>44, 21</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>语言</value>
+    <value>语言 | Language</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>

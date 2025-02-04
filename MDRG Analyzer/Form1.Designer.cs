@@ -46,6 +46,8 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox83 = new System.Windows.Forms.GroupBox();
+            this.satiationTextBox = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox71 = new System.Windows.Forms.GroupBox();
             this.lastWorkedAtDayBox = new System.Windows.Forms.RichTextBox();
@@ -91,6 +93,10 @@
             this.playerNameBox = new System.Windows.Forms.RichTextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.groupBox82 = new System.Windows.Forms.GroupBox();
+            this.currentHorninessTextBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox81 = new System.Windows.Forms.GroupBox();
+            this.uniqueConversationsLeftTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox73 = new System.Windows.Forms.GroupBox();
             this.lastCuddledAtBox = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -132,6 +138,10 @@
             this.botNameBox = new System.Windows.Forms.RichTextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.groupBox25 = new System.Windows.Forms.GroupBox();
+            this.groupBox85 = new System.Windows.Forms.GroupBox();
+            this.notesTextBox = new System.Windows.Forms.RichTextBox();
+            this.groupBox84 = new System.Windows.Forms.GroupBox();
+            this.weeklyRentTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox80 = new System.Windows.Forms.GroupBox();
             this.weekdayTextBox = new System.Windows.Forms.RichTextBox();
             this.groupBox79 = new System.Windows.Forms.GroupBox();
@@ -253,6 +263,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox83.SuspendLayout();
             this.groupBox71.SuspendLayout();
             this.groupBox70.SuspendLayout();
             this.groupBox69.SuspendLayout();
@@ -276,6 +287,8 @@
             this.groupBox6.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.groupBox15.SuspendLayout();
+            this.groupBox82.SuspendLayout();
+            this.groupBox81.SuspendLayout();
             this.groupBox73.SuspendLayout();
             this.groupBox77.SuspendLayout();
             this.groupBox76.SuspendLayout();
@@ -297,6 +310,8 @@
             this.groupBox16.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.groupBox25.SuspendLayout();
+            this.groupBox85.SuspendLayout();
+            this.groupBox84.SuspendLayout();
             this.groupBox80.SuspendLayout();
             this.groupBox79.SuspendLayout();
             this.groupBox78.SuspendLayout();
@@ -357,7 +372,7 @@
             resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.TabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -384,7 +399,7 @@
             resources.ApplyResources(this.extraCreditsButton, "extraCreditsButton");
             this.extraCreditsButton.Name = "extraCreditsButton";
             this.extraCreditsButton.UseVisualStyleBackColor = true;
-            this.extraCreditsButton.Click += new System.EventHandler(this.extraCreditsButton_Click);
+            this.extraCreditsButton.Click += new System.EventHandler(this.ExtraCreditsButton_Click);
             // 
             // groupBox43
             // 
@@ -399,7 +414,7 @@
             resources.ApplyResources(this.editInfoButton, "editInfoButton");
             this.editInfoButton.Name = "editInfoButton";
             this.editInfoButton.UseVisualStyleBackColor = true;
-            this.editInfoButton.Click += new System.EventHandler(this.editInfoButton_Click);
+            this.editInfoButton.Click += new System.EventHandler(this.EditInfoButton_Click);
             // 
             // infoSaveBox
             // 
@@ -450,7 +465,7 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // richTextBox1
             // 
@@ -467,6 +482,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.groupBox83);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.groupBox71);
             this.groupBox3.Controls.Add(this.groupBox70);
@@ -492,6 +508,19 @@
             resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
+            // 
+            // groupBox83
+            // 
+            this.groupBox83.Controls.Add(this.satiationTextBox);
+            resources.ApplyResources(this.groupBox83, "groupBox83");
+            this.groupBox83.Name = "groupBox83";
+            this.groupBox83.TabStop = false;
+            // 
+            // satiationTextBox
+            // 
+            resources.ApplyResources(this.satiationTextBox, "satiationTextBox");
+            this.satiationTextBox.Name = "satiationTextBox";
+            this.satiationTextBox.ReadOnly = true;
             // 
             // label4
             // 
@@ -783,6 +812,8 @@
             // groupBox15
             // 
             this.groupBox15.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox15.Controls.Add(this.groupBox82);
+            this.groupBox15.Controls.Add(this.groupBox81);
             this.groupBox15.Controls.Add(this.groupBox73);
             this.groupBox15.Controls.Add(this.label7);
             this.groupBox15.Controls.Add(this.groupBox77);
@@ -806,6 +837,32 @@
             resources.ApplyResources(this.groupBox15, "groupBox15");
             this.groupBox15.Name = "groupBox15";
             this.groupBox15.TabStop = false;
+            // 
+            // groupBox82
+            // 
+            this.groupBox82.Controls.Add(this.currentHorninessTextBox);
+            resources.ApplyResources(this.groupBox82, "groupBox82");
+            this.groupBox82.Name = "groupBox82";
+            this.groupBox82.TabStop = false;
+            // 
+            // currentHorninessTextBox
+            // 
+            resources.ApplyResources(this.currentHorninessTextBox, "currentHorninessTextBox");
+            this.currentHorninessTextBox.Name = "currentHorninessTextBox";
+            this.currentHorninessTextBox.ReadOnly = true;
+            // 
+            // groupBox81
+            // 
+            this.groupBox81.Controls.Add(this.uniqueConversationsLeftTextBox);
+            resources.ApplyResources(this.groupBox81, "groupBox81");
+            this.groupBox81.Name = "groupBox81";
+            this.groupBox81.TabStop = false;
+            // 
+            // uniqueConversationsLeftTextBox
+            // 
+            resources.ApplyResources(this.uniqueConversationsLeftTextBox, "uniqueConversationsLeftTextBox");
+            this.uniqueConversationsLeftTextBox.Name = "uniqueConversationsLeftTextBox";
+            this.uniqueConversationsLeftTextBox.ReadOnly = true;
             // 
             // groupBox73
             // 
@@ -1068,6 +1125,8 @@
             // 
             // groupBox25
             // 
+            this.groupBox25.Controls.Add(this.groupBox85);
+            this.groupBox25.Controls.Add(this.groupBox84);
             this.groupBox25.Controls.Add(this.groupBox80);
             this.groupBox25.Controls.Add(this.groupBox79);
             this.groupBox25.Controls.Add(this.groupBox78);
@@ -1092,6 +1151,32 @@
             resources.ApplyResources(this.groupBox25, "groupBox25");
             this.groupBox25.Name = "groupBox25";
             this.groupBox25.TabStop = false;
+            // 
+            // groupBox85
+            // 
+            this.groupBox85.Controls.Add(this.notesTextBox);
+            resources.ApplyResources(this.groupBox85, "groupBox85");
+            this.groupBox85.Name = "groupBox85";
+            this.groupBox85.TabStop = false;
+            // 
+            // notesTextBox
+            // 
+            resources.ApplyResources(this.notesTextBox, "notesTextBox");
+            this.notesTextBox.Name = "notesTextBox";
+            this.notesTextBox.ReadOnly = true;
+            // 
+            // groupBox84
+            // 
+            this.groupBox84.Controls.Add(this.weeklyRentTextBox);
+            resources.ApplyResources(this.groupBox84, "groupBox84");
+            this.groupBox84.Name = "groupBox84";
+            this.groupBox84.TabStop = false;
+            // 
+            // weeklyRentTextBox
+            // 
+            resources.ApplyResources(this.weeklyRentTextBox, "weeklyRentTextBox");
+            this.weeklyRentTextBox.Name = "weeklyRentTextBox";
+            this.weeklyRentTextBox.ReadOnly = true;
             // 
             // groupBox80
             // 
@@ -1496,7 +1581,7 @@
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // visitedWebsiteGroupBox
             // 
@@ -1661,7 +1746,7 @@
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // tabPage8
             // 
@@ -1699,28 +1784,28 @@
             resources.ApplyResources(this.saveButton, "saveButton");
             this.saveButton.Name = "saveButton";
             this.saveButton.UseVisualStyleBackColor = true;
-            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            this.saveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // guideButton
             // 
             resources.ApplyResources(this.guideButton, "guideButton");
             this.guideButton.Name = "guideButton";
             this.guideButton.UseVisualStyleBackColor = true;
-            this.guideButton.Click += new System.EventHandler(this.guideButton_Click);
+            this.guideButton.Click += new System.EventHandler(this.GuideButton_Click);
             // 
             // createBackupButton
             // 
             resources.ApplyResources(this.createBackupButton, "createBackupButton");
             this.createBackupButton.Name = "createBackupButton";
             this.createBackupButton.UseVisualStyleBackColor = true;
-            this.createBackupButton.Click += new System.EventHandler(this.createBackupButton_Click);
+            this.createBackupButton.Click += new System.EventHandler(this.CreateBackupButton_Click);
             // 
             // saveEditConsentBox
             // 
             resources.ApplyResources(this.saveEditConsentBox, "saveEditConsentBox");
             this.saveEditConsentBox.Name = "saveEditConsentBox";
             this.saveEditConsentBox.UseVisualStyleBackColor = true;
-            this.saveEditConsentBox.CheckedChanged += new System.EventHandler(this.saveEditConsentBox_CheckedChanged);
+            this.saveEditConsentBox.CheckedChanged += new System.EventHandler(this.SaveEditConsentBox_CheckedChanged);
             // 
             // richTextBox2
             // 
@@ -1782,13 +1867,13 @@
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
             resources.ApplyResources(this.loadToolStripMenuItem, "loadToolStripMenuItem");
-            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
+            this.loadToolStripMenuItem.Click += new System.EventHandler(this.LoadToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -1806,13 +1891,13 @@
             // 
             this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
             resources.ApplyResources(this.checkForUpdatesToolStripMenuItem, "checkForUpdatesToolStripMenuItem");
-            this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
+            this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.CheckForUpdatesToolStripMenuItem_Click);
             // 
             // openReadmeToolStripMenuItem
             // 
             this.openReadmeToolStripMenuItem.Name = "openReadmeToolStripMenuItem";
             resources.ApplyResources(this.openReadmeToolStripMenuItem, "openReadmeToolStripMenuItem");
-            this.openReadmeToolStripMenuItem.Click += new System.EventHandler(this.openReadmeToolStripMenuItem_Click);
+            this.openReadmeToolStripMenuItem.Click += new System.EventHandler(this.OpenReadmeToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -1823,19 +1908,19 @@
             // 
             this.reportABugToolStripMenuItem.Name = "reportABugToolStripMenuItem";
             resources.ApplyResources(this.reportABugToolStripMenuItem, "reportABugToolStripMenuItem");
-            this.reportABugToolStripMenuItem.Click += new System.EventHandler(this.reportABugToolStripMenuItem_Click);
+            this.reportABugToolStripMenuItem.Click += new System.EventHandler(this.ReportABugToolStripMenuItem_Click);
             // 
             // suggestAFeatureToolStripMenuItem
             // 
             this.suggestAFeatureToolStripMenuItem.Name = "suggestAFeatureToolStripMenuItem";
             resources.ApplyResources(this.suggestAFeatureToolStripMenuItem, "suggestAFeatureToolStripMenuItem");
-            this.suggestAFeatureToolStripMenuItem.Click += new System.EventHandler(this.suggestAFeatureToolStripMenuItem_Click);
+            this.suggestAFeatureToolStripMenuItem.Click += new System.EventHandler(this.SuggestAFeatureToolStripMenuItem_Click);
             // 
             // quickLinkToGitHubToolStripMenuItem
             // 
             this.quickLinkToGitHubToolStripMenuItem.Name = "quickLinkToGitHubToolStripMenuItem";
             resources.ApplyResources(this.quickLinkToGitHubToolStripMenuItem, "quickLinkToGitHubToolStripMenuItem");
-            this.quickLinkToGitHubToolStripMenuItem.Click += new System.EventHandler(this.quickLinkToGitHubToolStripMenuItem_Click);
+            this.quickLinkToGitHubToolStripMenuItem.Click += new System.EventHandler(this.QuickLinkToGitHubToolStripMenuItem_Click);
             // 
             // languageToolStripMenuItem
             // 
@@ -1905,7 +1990,7 @@
             // 
             this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
             resources.ApplyResources(this.donateToolStripMenuItem, "donateToolStripMenuItem");
-            this.donateToolStripMenuItem.Click += new System.EventHandler(this.donateToolStripMenuItem_Click);
+            this.donateToolStripMenuItem.Click += new System.EventHandler(this.DonateToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
@@ -1932,6 +2017,7 @@
             this.tabPage2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox83.ResumeLayout(false);
             this.groupBox71.ResumeLayout(false);
             this.groupBox70.ResumeLayout(false);
             this.groupBox69.ResumeLayout(false);
@@ -1956,6 +2042,8 @@
             this.tabPage6.ResumeLayout(false);
             this.groupBox15.ResumeLayout(false);
             this.groupBox15.PerformLayout();
+            this.groupBox82.ResumeLayout(false);
+            this.groupBox81.ResumeLayout(false);
             this.groupBox73.ResumeLayout(false);
             this.groupBox77.ResumeLayout(false);
             this.groupBox76.ResumeLayout(false);
@@ -1978,6 +2066,8 @@
             this.tabPage7.ResumeLayout(false);
             this.groupBox25.ResumeLayout(false);
             this.groupBox25.PerformLayout();
+            this.groupBox85.ResumeLayout(false);
+            this.groupBox84.ResumeLayout(false);
             this.groupBox80.ResumeLayout(false);
             this.groupBox79.ResumeLayout(false);
             this.groupBox78.ResumeLayout(false);
@@ -2246,6 +2336,16 @@
         private System.Windows.Forms.ToolStripMenuItem portuguesaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem japaneseToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.GroupBox groupBox81;
+        private System.Windows.Forms.RichTextBox uniqueConversationsLeftTextBox;
+        private System.Windows.Forms.GroupBox groupBox82;
+        private System.Windows.Forms.RichTextBox currentHorninessTextBox;
+        private System.Windows.Forms.GroupBox groupBox83;
+        private System.Windows.Forms.RichTextBox satiationTextBox;
+        private System.Windows.Forms.GroupBox groupBox84;
+        private System.Windows.Forms.RichTextBox weeklyRentTextBox;
+        private System.Windows.Forms.GroupBox groupBox85;
+        private System.Windows.Forms.RichTextBox notesTextBox;
     }
 }
 

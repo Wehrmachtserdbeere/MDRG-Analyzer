@@ -3376,7 +3376,7 @@ timeCameInsideAnal</value>
     <value>Portuguesa (MT) | ポルトガル語</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>言語</value>
+    <value>言語 | Language</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>寄付する</value>
@@ -3462,5 +3462,24 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>私のディストピアロボットガールフレンド保存アナライザー</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="satiationTextBox.Multiline" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBox83.Text" xml:space="preserve">
+    <value>飽食</value>
+  </data>
+  <data name="groupBox82.Text" xml:space="preserve">
+    <value>現在のムラムラ感</value>
+  </data>
+  <data name="groupBox81.Text" xml:space="preserve">
+    <value>残るユニークな会話</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
+    <value>週間賃料</value>
+  </data>
+  <data name="groupBox85.Text" xml:space="preserve">
+    <value>備考</value>
   </data>
 </root>

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MDRG Analyzer")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A save analyzer for the game My Dystopian Robot Girlfriend")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Strawberry Software")]
 [assembly: AssemblyProduct("MDRG Analyzer")]
@@ -33,4 +33,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.1.13.0")]
+[assembly: AssemblyFileVersion("1.1.14.0")]

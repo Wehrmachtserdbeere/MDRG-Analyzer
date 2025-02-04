@@ -361,8 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/*.zip
-/*.7z
+*.zip
+*.7z
 
 # Other stuff
 Flags.pdn
