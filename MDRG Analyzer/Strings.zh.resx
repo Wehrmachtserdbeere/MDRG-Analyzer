@@ -646,9 +646,6 @@ Xiaoye - 中文、西班牙语和葡萄牙语翻译
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>语言</value>
   </data>
-  <data name="label6HorrorText" xml:space="preserve">
-    <value>逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑逃跑</value>
-  </data>
   <data name="label6NormalText" xml:space="preserve">
     <value>记得保证她的安全（和饱腹感）</value>
   </data>

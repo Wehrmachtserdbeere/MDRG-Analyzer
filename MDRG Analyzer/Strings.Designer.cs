@@ -1505,15 +1505,6 @@ namespace MDRG_Analyzer {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to get out get out get out get out get out get out get out get out get out get out.
-        /// </summary>
-        internal static string label6HorrorText {
-            get {
-                return ResourceManager.GetString("label6HorrorText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Remember to keep her safe (and filled).
         /// </summary>
         internal static string label6NormalText {

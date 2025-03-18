@@ -742,7 +742,7 @@ timeCameInsideAnal</value>
     <value>46, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Datei</value>
+    <value>Datei...</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>235, 22</value>
@@ -778,7 +778,7 @@ timeCameInsideAnal</value>
     <value>GitHub Schnelllink</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hilfe</value>
+    <value>Hilfe...</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 22</value>
@@ -811,7 +811,7 @@ timeCameInsideAnal</value>
     <value>61, 20</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sprache | Language</value>
+    <value>Sprache | Language...</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>Spenden</value>

@@ -3325,7 +3325,7 @@ timeCameInsideAnal</value>
     <value>終了</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>ファイル</value>
+    <value>ファイル...</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>アップデートを確認する</value>
@@ -3343,7 +3343,7 @@ timeCameInsideAnal</value>
     <value>GitHubへのクイックリンク</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>ヘルプ</value>
+    <value>ヘルプ...</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
@@ -3376,7 +3376,7 @@ timeCameInsideAnal</value>
     <value>Portuguesa (MT) | ポルトガル語</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>言語 | Language</value>
+    <value>言語 | Language...</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>寄付する</value>

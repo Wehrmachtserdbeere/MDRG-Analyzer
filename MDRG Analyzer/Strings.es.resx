@@ -646,9 +646,6 @@ La versión más reciente: </value>
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>Idioma</value>
   </data>
-  <data name="label6HorrorText" xml:space="preserve">
-    <value>huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir huir</value>
-  </data>
   <data name="label6NormalText" xml:space="preserve">
     <value>Recuerda mantenerla segura (y llena)</value>
   </data>

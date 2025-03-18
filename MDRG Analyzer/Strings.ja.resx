@@ -644,9 +644,6 @@ Xiaoye - 中国語、スペイン語、ポルトガル語の翻訳
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>言語</value>
   </data>
-  <data name="label6HorrorText" xml:space="preserve">
-    <value>逃げろ、逃げろ…</value>
-  </data>
   <data name="label6NormalText" xml:space="preserve">
     <value>彼女を安全（そして満たす）に保つことを忘れないでください</value>
   </data>

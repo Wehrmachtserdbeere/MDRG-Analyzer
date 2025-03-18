@@ -71,15 +71,6 @@ namespace MDRG_Analyzer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to iVBORw0KGgoAAAANSUhEUgAABAAAAAQABAMAAACNMzawAAAAMFBMVEUAAABsa3XBws0hICjm5/KXlqBDQ0wXAABEAQL9/f/X2OOCgYtXVmCrq7UwLjcQDxde1Z4wAAAACXBIWXMAAA7DAAAOwwHHb6hkAABUbElEQVR4AezUUQ2AUBADsCUIOCuX4N/TcwAe+GStiAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAr9jQbDYYgF4nAAAAAMD/nQnF5n5Cr+tll45R3NaiMAAfEKSM+BlwIzPZgkGgKshbiRGcSihru81r7jS3UXVwtmAw3Gq4o2BwFUxs+Q1ZxPm/NXzlshe/qJr6Uy1u0ddcBscB6JaLtrtFyKkuF9XhLORUn3W0eVjE [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string skbdtlt {
-            get {
-                return ResourceManager.GetString("skbdtlt", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 1.
         /// </summary>
         public static string test {

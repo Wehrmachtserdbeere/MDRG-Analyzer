@@ -680,9 +680,6 @@ Pretende abrir o GitHub para obter a versão mais recente?</value>
   <data name="languageToolStripMenuItem" xml:space="preserve">
     <value>Idioma</value>
   </data>
-  <data name="label6HorrorText" xml:space="preserve">
-    <value>fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir fugir</value>
-  </data>
   <data name="label6NormalText" xml:space="preserve">
     <value>Lembre-se de a manter segura (e satisfeita)</value>
   </data>

@@ -642,6 +642,60 @@ Copyright © 2023-2025 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="satiationTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="satiationTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="satiationTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="satiationTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 19</value>
+  </data>
+  <data name="satiationTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="satiationTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;satiationTextBox.Name" xml:space="preserve">
+    <value>satiationTextBox</value>
+  </data>
+  <data name="&gt;&gt;satiationTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;satiationTextBox.Parent" xml:space="preserve">
+    <value>groupBox83</value>
+  </data>
+  <data name="&gt;&gt;satiationTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 269</value>
+  </data>
+  <data name="groupBox83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 44</value>
+  </data>
+  <data name="groupBox83.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="groupBox83.Text" xml:space="preserve">
+    <value>Satiation</value>
+  </data>
+  <data name="&gt;&gt;groupBox83.Name" xml:space="preserve">
+    <value>groupBox83</value>
+  </data>
+  <data name="&gt;&gt;groupBox83.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox83.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox83.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1854,6 +1908,114 @@ Copyright © 2023-2025 Strawberry Software. All rights reserved.
   <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="currentHorninessTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="currentHorninessTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="currentHorninessTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="currentHorninessTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 19</value>
+  </data>
+  <data name="currentHorninessTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="currentHorninessTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;currentHorninessTextBox.Name" xml:space="preserve">
+    <value>currentHorninessTextBox</value>
+  </data>
+  <data name="&gt;&gt;currentHorninessTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;currentHorninessTextBox.Parent" xml:space="preserve">
+    <value>groupBox82</value>
+  </data>
+  <data name="&gt;&gt;currentHorninessTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 219</value>
+  </data>
+  <data name="groupBox82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 44</value>
+  </data>
+  <data name="groupBox82.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="groupBox82.Text" xml:space="preserve">
+    <value>Current horniness</value>
+  </data>
+  <data name="&gt;&gt;groupBox82.Name" xml:space="preserve">
+    <value>groupBox82</value>
+  </data>
+  <data name="&gt;&gt;groupBox82.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox82.Parent" xml:space="preserve">
+    <value>groupBox15</value>
+  </data>
+  <data name="&gt;&gt;groupBox82.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uniqueConversationsLeftTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="uniqueConversationsLeftTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="uniqueConversationsLeftTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="uniqueConversationsLeftTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 19</value>
+  </data>
+  <data name="uniqueConversationsLeftTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="uniqueConversationsLeftTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;uniqueConversationsLeftTextBox.Name" xml:space="preserve">
+    <value>uniqueConversationsLeftTextBox</value>
+  </data>
+  <data name="&gt;&gt;uniqueConversationsLeftTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uniqueConversationsLeftTextBox.Parent" xml:space="preserve">
+    <value>groupBox81</value>
+  </data>
+  <data name="&gt;&gt;uniqueConversationsLeftTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 219</value>
+  </data>
+  <data name="groupBox81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 44</value>
+  </data>
+  <data name="groupBox81.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="groupBox81.Text" xml:space="preserve">
+    <value>Unique convos left</value>
+  </data>
+  <data name="&gt;&gt;groupBox81.Name" xml:space="preserve">
+    <value>groupBox81</value>
+  </data>
+  <data name="&gt;&gt;groupBox81.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox81.Parent" xml:space="preserve">
+    <value>groupBox15</value>
+  </data>
+  <data name="&gt;&gt;groupBox81.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="lastCuddledAtBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
   </data>
@@ -2952,6 +3114,108 @@ Copyright © 2023-2025 Strawberry Software. All rights reserved.
   </data>
   <data name="&gt;&gt;tabPage6.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="notesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="notesTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="notesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 19</value>
+  </data>
+  <data name="notesTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="notesTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;notesTextBox.Name" xml:space="preserve">
+    <value>notesTextBox</value>
+  </data>
+  <data name="&gt;&gt;notesTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notesTextBox.Parent" xml:space="preserve">
+    <value>groupBox85</value>
+  </data>
+  <data name="&gt;&gt;notesTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox85.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 120</value>
+  </data>
+  <data name="groupBox85.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 44</value>
+  </data>
+  <data name="groupBox85.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="groupBox85.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="&gt;&gt;groupBox85.Name" xml:space="preserve">
+    <value>groupBox85</value>
+  </data>
+  <data name="&gt;&gt;groupBox85.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox85.Parent" xml:space="preserve">
+    <value>groupBox25</value>
+  </data>
+  <data name="&gt;&gt;groupBox85.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="weeklyRentTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="weeklyRentTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="weeklyRentTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 19</value>
+  </data>
+  <data name="weeklyRentTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="weeklyRentTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
+    <value>weeklyRentTextBox</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Parent" xml:space="preserve">
+    <value>groupBox84</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 20</value>
+  </data>
+  <data name="groupBox84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 44</value>
+  </data>
+  <data name="groupBox84.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="groupBox84.Text" xml:space="preserve">
+    <value>Weekly Rent</value>
+  </data>
+  <data name="&gt;&gt;groupBox84.Name" xml:space="preserve">
+    <value>groupBox84</value>
+  </data>
+  <data name="&gt;&gt;groupBox84.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox84.Parent" xml:space="preserve">
+    <value>groupBox25</value>
+  </data>
+  <data name="&gt;&gt;groupBox84.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="weekdayTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -8105,26 +8369,26 @@ timeCameInsideAnal</value>
   <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </data>
+  </metadata>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="loadToolStripMenuItem.Text" xml:space="preserve">
     <value>Load File...</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+    <value>46, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
+    <value>File...</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -8160,10 +8424,10 @@ timeCameInsideAnal</value>
     <value>Quick Link to GitHub</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+    <value>53, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Help</value>
+    <value>Help...</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>231, 22</value>
@@ -8208,10 +8472,10 @@ timeCameInsideAnal</value>
     <value>Portuguesa (MT) | Portuguese</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 20</value>
+    <value>80, 20</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Language</value>
+    <value>Language...</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 20</value>
@@ -8243,12 +8507,12 @@ timeCameInsideAnal</value>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -8465,275 +8729,5 @@ timeCameInsideAnal</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="polskiToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="portuguêsToolStripMenuItem.Size" xml:space="preserve">
-    <value />
-  </data>
-  <data name="satiationTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="satiationTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="satiationTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="satiationTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 19</value>
-  </data>
-  <data name="satiationTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="satiationTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;satiationTextBox.Name" xml:space="preserve">
-    <value>satiationTextBox</value>
-  </data>
-  <data name="&gt;&gt;satiationTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;satiationTextBox.Parent" xml:space="preserve">
-    <value>groupBox83</value>
-  </data>
-  <data name="&gt;&gt;satiationTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox83.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 269</value>
-  </data>
-  <data name="groupBox83.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 44</value>
-  </data>
-  <data name="groupBox83.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="groupBox83.Text" xml:space="preserve">
-    <value>Satiation</value>
-  </data>
-  <data name="&gt;&gt;groupBox83.Name" xml:space="preserve">
-    <value>groupBox83</value>
-  </data>
-  <data name="&gt;&gt;groupBox83.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox83.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox83.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="currentHorninessTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="currentHorninessTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="currentHorninessTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="currentHorninessTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 19</value>
-  </data>
-  <data name="currentHorninessTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="currentHorninessTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;currentHorninessTextBox.Name" xml:space="preserve">
-    <value>currentHorninessTextBox</value>
-  </data>
-  <data name="&gt;&gt;currentHorninessTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;currentHorninessTextBox.Parent" xml:space="preserve">
-    <value>groupBox82</value>
-  </data>
-  <data name="&gt;&gt;currentHorninessTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox82.Location" type="System.Drawing.Point, System.Drawing">
-    <value>585, 219</value>
-  </data>
-  <data name="groupBox82.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 44</value>
-  </data>
-  <data name="groupBox82.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="groupBox82.Text" xml:space="preserve">
-    <value>Current horniness</value>
-  </data>
-  <data name="&gt;&gt;groupBox82.Name" xml:space="preserve">
-    <value>groupBox82</value>
-  </data>
-  <data name="&gt;&gt;groupBox82.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox82.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox82.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="uniqueConversationsLeftTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="uniqueConversationsLeftTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="uniqueConversationsLeftTextBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="uniqueConversationsLeftTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 19</value>
-  </data>
-  <data name="uniqueConversationsLeftTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="uniqueConversationsLeftTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;uniqueConversationsLeftTextBox.Name" xml:space="preserve">
-    <value>uniqueConversationsLeftTextBox</value>
-  </data>
-  <data name="&gt;&gt;uniqueConversationsLeftTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;uniqueConversationsLeftTextBox.Parent" xml:space="preserve">
-    <value>groupBox81</value>
-  </data>
-  <data name="&gt;&gt;uniqueConversationsLeftTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox81.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 219</value>
-  </data>
-  <data name="groupBox81.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 44</value>
-  </data>
-  <data name="groupBox81.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="groupBox81.Text" xml:space="preserve">
-    <value>Unique convos left</value>
-  </data>
-  <data name="&gt;&gt;groupBox81.Name" xml:space="preserve">
-    <value>groupBox81</value>
-  </data>
-  <data name="&gt;&gt;groupBox81.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox81.Parent" xml:space="preserve">
-    <value>groupBox15</value>
-  </data>
-  <data name="&gt;&gt;groupBox81.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="weeklyRentTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="weeklyRentTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="weeklyRentTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 19</value>
-  </data>
-  <data name="weeklyRentTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="weeklyRentTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
-    <value>weeklyRentTextBox</value>
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.Parent" xml:space="preserve">
-    <value>groupBox84</value>
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox84.Location" type="System.Drawing.Point, System.Drawing">
-    <value>585, 20</value>
-  </data>
-  <data name="groupBox84.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 44</value>
-  </data>
-  <data name="groupBox84.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="groupBox84.Text" xml:space="preserve">
-    <value>Weekly Rent</value>
-  </data>
-  <data name="&gt;&gt;groupBox84.Name" xml:space="preserve">
-    <value>groupBox84</value>
-  </data>
-  <data name="&gt;&gt;groupBox84.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox84.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox84.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="notesTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="notesTextBox.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="notesTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 19</value>
-  </data>
-  <data name="notesTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="notesTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;notesTextBox.Name" xml:space="preserve">
-    <value>notesTextBox</value>
-  </data>
-  <data name="&gt;&gt;notesTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;notesTextBox.Parent" xml:space="preserve">
-    <value>groupBox85</value>
-  </data>
-  <data name="&gt;&gt;notesTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupBox85.Location" type="System.Drawing.Point, System.Drawing">
-    <value>199, 120</value>
-  </data>
-  <data name="groupBox85.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 44</value>
-  </data>
-  <data name="groupBox85.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="groupBox85.Text" xml:space="preserve">
-    <value>Notes</value>
-  </data>
-  <data name="&gt;&gt;groupBox85.Name" xml:space="preserve">
-    <value>groupBox85</value>
-  </data>
-  <data name="&gt;&gt;groupBox85.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox85.Parent" xml:space="preserve">
-    <value>groupBox25</value>
-  </data>
-  <data name="&gt;&gt;groupBox85.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
 </root>

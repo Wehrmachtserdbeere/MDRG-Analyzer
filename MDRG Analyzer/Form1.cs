@@ -19,21 +19,19 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.14";
+        readonly string __version__ = "1.1.15";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
         readonly string developerWebsite = "https://wehrmachtserdbeere.github.io/";
         dynamic jsonData;
         readonly Random rand = new();
-        public int eventInitiator = 0;
         readonly System.ComponentModel.ComponentResourceManager resources = new(typeof(Form1));
         Dictionary<string, RichTextBox> dataBindings = [];
         string notes = "";
 
         public Form1()
         {
-            eventInitiator = rand.Next( minValue: 0, maxValue: 999 );
             InitializeComponent();
             ChangeLanguage("en");
             CheckForUpdate(true);
@@ -313,17 +311,13 @@ namespace MDRG_Analyzer
                 bool lightSwitchOn = savedataObject.Value<bool>("lightSwitchOn");
 
                 // Convert raw time into days, hours, and minutes
-                int streamDays = savedataObject.Value<int>("streamedFor") / (24 * 60);
-                int streamHours = (savedataObject.Value<int>("streamedFor") % (24 * 60)) / 60;
-                int streamMinutes = savedataObject.Value<int>("streamedFor") % 60;
-                
-                int longestStreamDays = savedataObject.Value<int>("streamedFor") / (24 * 60);
-                int longestStreamHours = (savedataObject.Value<int>("streamedFor") % (24 * 60)) / 60;
-                int longestStreamMinutes = savedataObject.Value<int>("streamedFor") % 60;
-                
-                int ingameTimeDays = ingameTime / (24 * 60);
-                int ingameTimeHours = (ingameTime % (24 * 60)) / 60;
-                int ingameTimeMinutes = ingameTime % 60;
+                const int MPD = 24 * 60, MPH = 60;
+                int streamTime = int.Parse(totalStreamTimeRawBox.Text);
+                int longestStream = int.Parse(longestStreamRawBox.Text);
+
+                int streamDays = streamTime / MPD, streamHours = (streamTime % MPD) / MPH, streamMinutes = streamTime % MPH;
+                int longestStreamDays = longestStream / MPD, longestStreamHours = (longestStream % MPD) / MPH, longestStreamMinutes = longestStream % MPH;
+                int ingameTimeDays = ingameTime / MPD, ingameTimeHours = (ingameTime % MPD) / MPH, ingameTimeMinutes = ingameTime % MPH;
 
 
                 // Change box text to the variables
@@ -448,6 +442,7 @@ namespace MDRG_Analyzer
         }
         private async void CheckForUpdate(bool isStartup)
         {
+
             string owner = "Wehrmachtserdbeere";
             string repo = "MDRG-Analyzer";
 
@@ -753,19 +748,6 @@ namespace MDRG_Analyzer
             OpenWebsite("https://ko-fi.com/strawberrysoftware");
         }
 
-        private async void TabControl1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (tabControl1.SelectedIndex == 6)
-            {
-                if (eventInitiator == 444) // Remove this later, this is a test
-                {
-                    AsynchonousTasks asynchonousTasks = new();
-                    await asynchonousTasks.X1(label6, pictureBox2);
-                    eventInitiator = 0;
-                }
-            }
-        }
-
         private void PictureBox1_Click(object sender, EventArgs e)
         {
             OpenWebsite(developerWebsite);
@@ -813,12 +795,5 @@ public static class ControlExtensions
             }
         }
     }
-
-}
-
-class AsynchonousTasks
-{
-    // This is a test method to see if async works. Remove this later.
-    public async Task X1(Label a, PictureBox b, int c = 100) { byte[] d = Convert.FromBase64String(global::MDRG_Analyzer.Properties.Resources.skbdtlt); using (var ms = new MemoryStream(d)) { var e = System.Drawing.Image.FromStream(ms); b.Image = e; } b.Name = "pictureBox2"; b.TabStop = false; a.Text = Strings.label6HorrorText; await Task.Delay(c); b.Image = global::MDRG_Analyzer.Properties.Resources.mdrg_girl; b.Name = "pictureBox2"; b.TabStop = false; a.Text = Strings.label6NormalText; }
 
 }

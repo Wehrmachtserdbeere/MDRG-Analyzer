@@ -3355,7 +3355,7 @@ timeCameInsideAnal</value>
     <value>44, 21</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>存档</value>
+    <value>存档...</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -3394,7 +3394,7 @@ timeCameInsideAnal</value>
     <value>44, 21</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>帮助</value>
+    <value>帮助...</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 22</value>
@@ -3430,7 +3430,7 @@ timeCameInsideAnal</value>
     <value>44, 21</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>语言 | Language</value>
+    <value>语言 | Language...</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 21</value>
