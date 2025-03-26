@@ -11,6 +11,7 @@ using System.Globalization;
 using System.Threading;
 using System.Threading.Tasks;
 using MDRG_Analyzer;
+using System.Drawing;
 
 namespace MDRG_Analyzer
 {
@@ -19,7 +20,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.15";
+        readonly string __version__ = "1.1.16";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -53,7 +54,114 @@ namespace MDRG_Analyzer
             }
         }
 
+        /// <summary>
+        /// Recursively sets the colors for the entire Application.
+        /// </summary>
+        /// <param name="parent">The parent Application. Usually a Form.</param>
+        /// <param name="backColor">Background Color as ARGB. Use `Color.FromArgb(alpha, red, green, blue)`.</param>
+        /// <param name="foreColor">Text/Foreground Color as ARGB. Use `Color.FromArgb(alpha, red, green, blue)`.</param>
+        private void SetAppColors(Control parent, Color backColor, Color foreColor)
+        {
 
+            this.BackColor = backColor;
+            this.ForeColor = foreColor;
+
+            foreach (Control control in parent.Controls)
+            {
+                control.BackColor = backColor;
+                control.ForeColor = foreColor;
+
+                // Special handling for MenuStrip and ToolStrip
+                if (control is MenuStrip menuStrip)
+                {
+                    menuStrip.BackColor = backColor;
+                    menuStrip.ForeColor = foreColor;
+                    foreach (ToolStripMenuItem item in menuStrip.Items)
+                    {
+                        ApplyMenuStripColors(item, backColor, foreColor);
+                    }
+                }
+                else if (control is ToolStrip toolStrip)
+                {
+                    toolStrip.BackColor = backColor;
+                    toolStrip.ForeColor = foreColor;
+                }
+                else if (control is TabControl tabControl)
+                {
+                    tabControl.BackColor = backColor;
+                    tabControl.ForeColor = foreColor;
+                    tabControl.DrawMode = TabDrawMode.OwnerDrawFixed;
+                    tabControl.DrawItem += (sender, e) => DrawTabItem(sender, e, backColor, foreColor);
+
+                    foreach (TabPage tabPage in tabControl.TabPages)
+                    {
+                        tabPage.BackColor = backColor;
+                        tabPage.ForeColor = foreColor;
+
+                        // Recursively update all controls inside the TabPage
+                        SetAppColors(tabPage, backColor, foreColor);
+                    }
+                }
+
+                // Recursive call for nested controls
+                if (control.HasChildren)
+                {
+                    SetAppColors(control, backColor, foreColor);
+                }
+            }
+
+        }
+
+        /// <summary>
+        /// Recursively sets the colors for menuItems. Usually called in a foreach loop.
+        /// </summary>
+        /// <param name="menuItem">The ToolStripMenuItem</param>
+        /// <param name="backColor">The background color as ARGB. Use `Color.FromArgb(alpha, red, green, blue)`.</param>
+        /// <param name="foreColor">The text/foreground color as ARGB. Use `Color.FromArgb(alpha, red, green, blue)`.</param>
+        private void ApplyMenuStripColors(ToolStripMenuItem menuItem, Color backColor, Color foreColor)
+        {
+            menuItem.BackColor = backColor;
+            menuItem.ForeColor = foreColor;
+
+            foreach (ToolStripItem subItem in menuItem.DropDownItems)
+            {
+                if (subItem is ToolStripMenuItem subMenuItem)
+                {
+                    ApplyMenuStripColors(subMenuItem, backColor, foreColor);
+                }
+                else
+                {
+                    subItem.BackColor = backColor;
+                    subItem.ForeColor = foreColor;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Customizes the appearance of a TabControl's tab items by applying the specified background and foreground colors.
+        /// This method is intended to be used with the DrawItem event of a TabControl set to OwnerDrawFixed.
+        /// </summary>
+        /// <param name="sender">The TabControl that triggered the DrawItem event.</param>
+        /// <param name="e">Provides data for the DrawItem event, including the index of the tab being drawn.</param>
+        /// <param name="backColor">The background color to apply to the tab.</param>
+        /// <param name="foreColor">The foreground (text) color to apply to the tab label.</param>
+        private void DrawTabItem(object sender, DrawItemEventArgs e, Color backColor, Color foreColor)
+        {
+            TabControl tabControl = sender as TabControl;
+            TabPage tabPage = tabControl.TabPages[e.Index];
+            Rectangle tabRect = tabControl.GetTabRect(e.Index);
+
+            using SolidBrush backBrush = new(backColor);
+            using SolidBrush foreBrush = new(foreColor);
+
+            e.Graphics.FillRectangle(backBrush, tabRect);
+            TextRenderer.DrawText(e.Graphics, tabPage.Text, tabPage.Font, tabRect, foreColor, TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
+        }
+
+        /// <summary>
+        /// Changes the Language of the program, and re-initializes the Form.
+        /// </summary>
+        /// <param name="cultureCode">Culture code, e.g. "de" or "zh".</param>
         private void ChangeLanguage(string cultureCode)
         {
             // Set the culture for the current thread
@@ -79,7 +187,7 @@ namespace MDRG_Analyzer
 
             if (languageMappings.TryGetValue(cultureCode, out var menuItem))
             {
-                SetLanguageAppearanceBoldCHecked(menuItem);
+                SetMenuItemAppearanceBoldChecked(menuItem);
                 if (cultureCode != "en" && cultureCode != "de" && cultureCode != "zh")
                 {
                     MachineLanguageNotice();
@@ -87,20 +195,27 @@ namespace MDRG_Analyzer
             }
             else
             {
-                SetLanguageAppearanceBoldCHecked(englishToolStripMenuItem);
+                SetMenuItemAppearanceBoldChecked(englishToolStripMenuItem);
             }
         }
 
-        private void SetLanguageAppearanceBoldCHecked(ToolStripMenuItem menuIten)
+        /// <summary>
+        /// Sets a menuItems text to Bold.
+        /// </summary>
+        /// <param name="menuItem"></param>
+        private void SetMenuItemAppearanceBoldChecked(ToolStripMenuItem menuItem)
         {
-            menuIten.Checked = true;
-            menuIten.Font = new System.Drawing.Font(
-                menuIten.Font.FontFamily,
-                menuIten.Font.Size,
+            menuItem.Checked = true;
+            menuItem.Font = new System.Drawing.Font(
+                menuItem.Font.FontFamily,
+                menuItem.Font.Size,
                 System.Drawing.FontStyle.Bold
                 );
         }
 
+        /// <summary>
+        /// Displays a notice that the language selected was translated using machines and/or AI.
+        /// </summary>
         public static void MachineLanguageNotice()
         {
             MessageBox.Show(
@@ -111,11 +226,19 @@ namespace MDRG_Analyzer
                 );
         }
 
+        /// <summary>
+        /// Opens a website.
+        /// </summary>
+        /// <param name="url">The website URL.</param>
         public static void OpenWebsite(string url)
         {
             Process.Start("cmd", $"/C start {url}");
         }
 
+        /// <summary>
+        /// Adds as many RadioButtons as there are files.
+        /// </summary>
+        /// <param name="numberOfFiles">How many RadioButtons to create. E.g. 7.</param>
         private void AddRadioButtons(int numberOfFiles)
         {
             flowLayoutPanel1.Controls.Clear(); // Clear existing controls
@@ -137,6 +260,12 @@ namespace MDRG_Analyzer
             flowLayoutPanel1.Controls.AddRange(radioButtons);
         }
 
+        /// <summary>
+        /// Manages the selection of the save file upon checking a RadioButton.
+        /// </summary>
+        /// <param name="sender">Itself</param>
+        /// <param name="e">Sent along the EventHandler?</param>
+        /// <example>radioButton.CheckedChanged += new EventHandler(RadioButton_CheckedChanged);</example>
         private void RadioButton_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton radioButton = sender as RadioButton;
@@ -185,6 +314,24 @@ namespace MDRG_Analyzer
 
             }
         }
+
+        /// <summary>
+        /// Reloads and updates the values displayed in the form based on the selected save file.
+        /// This method parses the save data and achievements from the JSON file, updates the UI elements,
+        /// and handles any errors that may occur during the process.
+        /// </summary>
+        /// <remarks>
+        /// This method performs the following steps:
+        /// 1. Parses the save data and achievements from the JSON file.
+        /// 2. Updates the UI elements with the parsed data.
+        /// 3. Converts raw time values into formatted strings.
+        /// 4. Maps rent status text to corresponding weekdays.
+        /// 5. Updates checkboxes and other controls based on the parsed data.
+        /// 6. Handles various exceptions and displays appropriate error messages.
+        /// </remarks>
+        /// <exception cref="System.OverflowException">Thrown when an overflow occurs during data processing.</exception>
+        /// <exception cref="System.NullReferenceException">Thrown when a null reference is encountered during data processing.</exception>
+        /// <exception cref="Exception">Thrown when an unknown error occurs during data processing.</exception>
         private void ReloadValues()
         {
             try
@@ -413,6 +560,13 @@ namespace MDRG_Analyzer
             }
         }
 
+        /// <summary>
+        /// Shows a popup about updates.
+        /// </summary>
+        /// <param name="isNewest">Is the app at its latest version?</param>
+        /// <param name="current">The current version.</param>
+        /// <param name="latest">The latest version on GitHub.</param>
+        /// <param name="isStartup">Was this called at Startup?</param>
         private void ShowUpdatePopup(bool isNewest, Version current, Version latest, bool isStartup)
         {
             if (!isNewest)
@@ -440,6 +594,11 @@ namespace MDRG_Analyzer
         {
             CheckForUpdate(false);
         }
+
+        /// <summary>
+        /// Checks for updates.
+        /// </summary>
+        /// <param name="isStartup">Is this called at Startup?</param>
         private async void CheckForUpdate(bool isStartup)
         {
 
@@ -759,11 +918,84 @@ namespace MDRG_Analyzer
                 ChangeLanguage(menuItem.Tag.ToString());
             }
         }
+
+        private void PureDarkToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
+            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
+            ResetMenuItem(parentItem);
+            SetMenuItemAppearanceBoldChecked(clickedItem);
+            SetAppColors(Form1.ActiveForm, Color.FromArgb(255, 0, 0, 0), Color.FromArgb(255, 255, 255, 255));
+        }
+
+        private void DarkToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
+            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
+            ResetMenuItem(parentItem);
+            SetMenuItemAppearanceBoldChecked(clickedItem);
+            SetAppColors(Form1.ActiveForm, Color.FromArgb(255, 48, 48, 48), Color.FromArgb(255, 220, 220, 220));
+        }
+
+        private void LightToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
+            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
+            ResetMenuItem(parentItem);
+            SetMenuItemAppearanceBoldChecked(clickedItem);
+            SetAppColors(Form1.ActiveForm, Color.FromName("Control"), Color.FromName("ControlText"));
+        }
+
+        private void PureLightToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
+            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
+            ResetMenuItem(parentItem);
+            SetMenuItemAppearanceBoldChecked(clickedItem);
+            SetAppColors(Form1.ActiveForm, Color.FromArgb(255, 255, 255, 255), Color.FromArgb(255, 0, 0, 0));
+
+        }
+
+        /// <summary>
+        /// Resets a ToolStripMenuItem to a default state. This means its previous size and Font Family, but without Bold or Italics, and not Checked.
+        /// </summary>
+        /// <param name="item">The ToolStripMenuItem to be reset.</param>
+        private void ResetMenuItem(ToolStripMenuItem item)
+        {
+            if (item.HasDropDownItems)
+            {
+                foreach (ToolStripMenuItem itemItem in item.DropDownItems)
+                {
+                    ResetMenuItem(itemItem);
+                }
+            }
+            else
+            {
+                item.Checked = false;
+                item.Font = new System.Drawing.Font(
+                    item.Font.FontFamily,
+                    item.Font.Size,
+                    System.Drawing.FontStyle.Bold
+                );
+            }
+        }
     }
 }
 
 public static class ControlExtensions
 {
+    /// <summary>
+    /// Toggles the enabled state of controls within a GroupBox.
+    /// This method recursively processes all child controls within the specified GroupBox,
+    /// toggling their enabled state or read-only state as appropriate.
+    /// </summary>
+    /// <param name="control">The GroupBox control whose child controls' states are to be toggled.</param>
+    /// <remarks>
+    /// This method performs the following actions:
+    /// 1. Toggles the ReadOnly property of RichTextBox and TextBox controls, excluding specific named controls.
+    /// 2. Toggles the Enabled property of Button, CheckBox, and CheckedListBox controls.
+    /// 3. Recursively processes nested GroupBox controls.
+    /// </remarks>
     public static void ToggleControlsEnabled(this Control control)
     {
         if (control is GroupBox groupBox)
