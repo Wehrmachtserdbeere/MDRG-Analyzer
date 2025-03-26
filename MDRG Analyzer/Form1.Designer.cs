@@ -251,12 +251,8 @@
             this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.japaneseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.portuguesaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.donateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.themeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pureDarkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.darkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pureLightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.donateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -1992,47 +1988,16 @@
             this.portuguesaToolStripMenuItem.Tag = "pt";
             this.portuguesaToolStripMenuItem.Click += new System.EventHandler(this.ChangeLanguageMenuItem_Click);
             // 
+            // themeToolStripMenuItem
+            // 
+            this.themeToolStripMenuItem.Name = "themeToolStripMenuItem";
+            resources.ApplyResources(this.themeToolStripMenuItem, "themeToolStripMenuItem");
+            // 
             // donateToolStripMenuItem
             // 
             this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
             resources.ApplyResources(this.donateToolStripMenuItem, "donateToolStripMenuItem");
             this.donateToolStripMenuItem.Click += new System.EventHandler(this.DonateToolStripMenuItem_Click);
-            // 
-            // themeToolStripMenuItem
-            // 
-            this.themeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pureDarkToolStripMenuItem,
-            this.darkToolStripMenuItem,
-            this.pureLightToolStripMenuItem,
-            this.lightToolStripMenuItem});
-            this.themeToolStripMenuItem.Name = "themeToolStripMenuItem";
-            resources.ApplyResources(this.themeToolStripMenuItem, "themeToolStripMenuItem");
-            // 
-            // pureDarkToolStripMenuItem
-            // 
-            this.pureDarkToolStripMenuItem.Name = "pureDarkToolStripMenuItem";
-            resources.ApplyResources(this.pureDarkToolStripMenuItem, "pureDarkToolStripMenuItem");
-            this.pureDarkToolStripMenuItem.Click += new System.EventHandler(this.PureDarkToolStripMenuItem_Click);
-            // 
-            // darkToolStripMenuItem
-            // 
-            this.darkToolStripMenuItem.Name = "darkToolStripMenuItem";
-            resources.ApplyResources(this.darkToolStripMenuItem, "darkToolStripMenuItem");
-            this.darkToolStripMenuItem.Click += new System.EventHandler(this.DarkToolStripMenuItem_Click);
-            // 
-            // pureLightToolStripMenuItem
-            // 
-            this.pureLightToolStripMenuItem.Name = "pureLightToolStripMenuItem";
-            resources.ApplyResources(this.pureLightToolStripMenuItem, "pureLightToolStripMenuItem");
-            this.pureLightToolStripMenuItem.Click += new System.EventHandler(this.PureLightToolStripMenuItem_Click);
-            // 
-            // lightToolStripMenuItem
-            // 
-            this.lightToolStripMenuItem.Checked = true;
-            this.lightToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.lightToolStripMenuItem.Name = "lightToolStripMenuItem";
-            resources.ApplyResources(this.lightToolStripMenuItem, "lightToolStripMenuItem");
-            this.lightToolStripMenuItem.Click += new System.EventHandler(this.LightToolStripMenuItem_Click);
             // 
             // openFileDialog1
             // 
@@ -2389,10 +2354,6 @@
         private System.Windows.Forms.GroupBox groupBox85;
         private System.Windows.Forms.RichTextBox notesTextBox;
         private System.Windows.Forms.ToolStripMenuItem themeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pureDarkToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem darkToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pureLightToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lightToolStripMenuItem;
     }
 }
 

@@ -12,6 +12,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using MDRG_Analyzer;
 using System.Drawing;
+using System.Diagnostics.Tracing;
 
 namespace MDRG_Analyzer
 {
@@ -20,7 +21,7 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.16";
+        readonly string __version__ = "1.1.17";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
@@ -34,7 +35,7 @@ namespace MDRG_Analyzer
         public Form1()
         {
             InitializeComponent();
-            ChangeLanguage("en");
+            ChangeLanguage("en"); // PopulateThemeMenu(); is located in here.
             CheckForUpdate(true);
         }
 
@@ -53,6 +54,224 @@ namespace MDRG_Analyzer
                 }
             }
         }
+
+        public class Theme
+        {
+            public string NameEN { get; set; }
+            public string NameDE { get; set; }
+            public string NameZH { get; set; }
+            public string NameJA { get; set; }
+            public string NameES { get; set; }
+            public string NamePT { get; set; }
+            public int BGA { get; set; }
+            public int BGR { get; set; }
+            public int BGG { get; set; }
+            public int BGB { get; set; }
+            public int FGA { get; set; }
+            public int FGR { get; set; }
+            public int FGG { get; set; }
+            public int FGB { get; set; }
+
+            /// <summary>
+            /// Gets the Foreground Color as a Color class
+            /// </summary>
+            /// <returns>Color</returns>
+            public Color GetForegroundColor()
+            {
+                return Color.FromArgb(FGA, FGR, FGG, FGB);
+            }
+
+            /// <summary>
+            /// Gets the Background Color as a Color class
+            /// </summary>
+            /// <returns>Color</returns>
+            public Color GetBackgroundColor()
+            {
+                return Color.FromArgb(BGA, BGR, BGG, BGB);
+            }
+
+            /// <summary>
+            /// Gets the localized Theme name.
+            /// </summary>
+            /// <param name="languageCode">the language code. e.g. "en" or "de"</param>
+            /// <returns>string</returns>
+            public string GetLocalizedName(string languageCode)
+            {
+                return languageCode switch
+                {
+                    "en" => string.IsNullOrEmpty(NameEN) ? "Unknown" : NameEN,
+                    "de" => string.IsNullOrEmpty(NameDE) ? NameEN : NameDE,
+                    "zh" => string.IsNullOrEmpty(NameZH) ? NameEN : NameZH,
+                    "ja" => string.IsNullOrEmpty(NameJA) ? NameEN : NameJA,
+                    "es" => string.IsNullOrEmpty(NameES) ? NameEN : NameES,
+                    "pt" => string.IsNullOrEmpty(NamePT) ? NameEN : NamePT,
+                    _ => NameEN // Default to English if the language is unsupported
+                };
+            }
+
+        }
+
+        /// <summary>
+        /// Load all Themes inside `.\themes`
+        /// </summary>
+        /// <returns>List\<Theme\> consisting of all themes.</returns>
+        private List<Theme> LoadThemes()
+        {
+            List<Theme> themes = new List<Theme>();
+            string themeDirectory = Path.Combine(Application.StartupPath, "themes");
+
+            if (!Directory.Exists(themeDirectory))
+            {
+                Directory.CreateDirectory(themeDirectory); // Ensure the "themes" directory exists
+                CreateDefaultThemes(themeDirectory); // Create default themes if the directory is empty
+            }
+            if (!Directory.Exists(Path.Combine(themeDirectory, "Default.mdrg_theme")))
+            {
+                CreateDefaultThemes(themeDirectory);
+            }
+
+            try
+            {
+                // Get all .mdrg_theme files in the theme directory
+                var themeFiles = Directory.GetFiles(themeDirectory, "*.mdrg_theme");
+
+                foreach (var themeFile in themeFiles)
+                {
+                    string json = File.ReadAllText(themeFile);
+
+                    // Deserialize the JSON array into a list of themes
+                    var themeList = JsonConvert.DeserializeObject<List<Theme>>(json);
+
+                    if (themeList != null)
+                    {
+                        themes.AddRange(themeList); // Add themes from this file to the list
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error loading theme from directory {themeDirectory}: {ex.Message}");
+            }
+
+            return themes;
+        }
+
+
+        /// <summary>
+        /// Creates Default Themes in `themeDirectory`.
+        /// </summary>
+        /// <param name="themeDirectory">Directory of themes.</param>
+        private void CreateDefaultThemes(string themeDirectory)
+        {
+            string defaultThemeFile = Path.Combine(themeDirectory, "Default.mdrg_theme");
+
+            if (File.Exists(defaultThemeFile))
+                return; // Avoid overwriting existing themes
+
+            var themes = new List<object>
+            {
+                new
+                {
+                    NameEN = "Very Dark",
+                    NameDE = "Sehr Dunkel",
+                    NameZH = "非常暗的",
+                    NameJA = "非常に暗い",
+                    NameES = "Muy Oscuro",
+                    NamePT = "Muito Escuro",
+                    BGA = 255,
+                    BGR = 0,
+                    BGG = 0,
+                    BGB = 0,
+                    FGA = 255,
+                    FGR = 255,
+                    FGG = 255,
+                    FGB = 255
+                },
+                new
+                {
+                    NameEN = "Dark",
+                    NameDE = "Dunkel",
+                    NameZH = "黑暗",
+                    NameJA = "ダーク",
+                    NameES = "Oscuro",
+                    NamePT = "Escuro",
+                    BGA = 255,
+                    BGR = 48,
+                    BGG = 48,
+                    BGB = 48,
+                    FGA = 255,
+                    FGR = 220,
+                    FGG = 220,
+                    FGB = 220
+                },
+                new
+                {
+                    NameEN = "Pure Light",
+                    NameDE = "Rein Hell",
+                    NameZH = "纯亮",
+                    NameJA = "ピュアライト",
+                    NameES = "Pura Luz",
+                    NamePT = "Luz Pura",
+                    BGA = 255,
+                    BGR = 255,
+                    BGG = 255,
+                    BGB = 255,
+                    FGA = 255,
+                    FGR = 0,
+                    FGG = 0,
+                    FGB = 0
+                },
+                new
+                {
+                    NameEN = "Light",
+                    NameDE = "Hell",
+                    NameZH = "光亮",
+                    NameJA = "ライト",
+                    NameES = "Claro",
+                    NamePT = "Claro",
+                    BGA = 255,
+                    BGR = 220,
+                    BGG = 220,
+                    BGB = 220,
+                    FGA = 255,
+                    FGR = 48,
+                    FGG = 48,
+                    FGB = 48
+                }
+            };
+
+            string json = JsonConvert.SerializeObject(themes, Formatting.Indented);
+            File.WriteAllText(defaultThemeFile, json);
+        }
+
+        private void PopulateThemeMenu()
+        {
+            themeToolStripMenuItem.DropDownItems.Clear(); // Clear existing items
+            List<Theme> themes = LoadThemes();
+
+            foreach (Theme theme in themes)
+            {
+                ToolStripMenuItem item = new ToolStripMenuItem(theme.GetLocalizedName(CultureInfo.CurrentCulture.ToString()));
+                item.Tag = theme; // Store the theme object
+                item.Click += ThemeMenuItem_Click;
+                themeToolStripMenuItem.DropDownItems.Add(item);
+            }
+        }
+
+        private void ThemeMenuItem_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
+            Theme selectedTheme = (Theme)clickedItem.Tag;  // Get the theme object
+
+            // Call methods to reset the appearance of the menu items and set the new theme's appearance
+            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
+            ResetMenuItem(parentItem);
+            SetMenuItemAppearanceBoldChecked(clickedItem);
+
+            // Set the app's background and foreground colors using the selected theme's colors
+            SetAppColors(ActiveForm, selectedTheme.GetBackgroundColor(), selectedTheme.GetForegroundColor());
+        }
+
 
         /// <summary>
         /// Recursively sets the colors for the entire Application.
@@ -197,6 +416,9 @@ namespace MDRG_Analyzer
             {
                 SetMenuItemAppearanceBoldChecked(englishToolStripMenuItem);
             }
+
+
+            PopulateThemeMenu();
         }
 
         /// <summary>
@@ -917,43 +1139,6 @@ namespace MDRG_Analyzer
             {
                 ChangeLanguage(menuItem.Tag.ToString());
             }
-        }
-
-        private void PureDarkToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
-            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
-            ResetMenuItem(parentItem);
-            SetMenuItemAppearanceBoldChecked(clickedItem);
-            SetAppColors(Form1.ActiveForm, Color.FromArgb(255, 0, 0, 0), Color.FromArgb(255, 255, 255, 255));
-        }
-
-        private void DarkToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
-            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
-            ResetMenuItem(parentItem);
-            SetMenuItemAppearanceBoldChecked(clickedItem);
-            SetAppColors(Form1.ActiveForm, Color.FromArgb(255, 48, 48, 48), Color.FromArgb(255, 220, 220, 220));
-        }
-
-        private void LightToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
-            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
-            ResetMenuItem(parentItem);
-            SetMenuItemAppearanceBoldChecked(clickedItem);
-            SetAppColors(Form1.ActiveForm, Color.FromName("Control"), Color.FromName("ControlText"));
-        }
-
-        private void PureLightToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
-            ToolStripMenuItem parentItem = clickedItem.OwnerItem as ToolStripMenuItem;
-            ResetMenuItem(parentItem);
-            SetMenuItemAppearanceBoldChecked(clickedItem);
-            SetAppColors(Form1.ActiveForm, Color.FromArgb(255, 255, 255, 255), Color.FromArgb(255, 0, 0, 0));
-
         }
 
         /// <summary>

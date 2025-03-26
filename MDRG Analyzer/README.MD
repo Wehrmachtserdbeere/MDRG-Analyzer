@@ -206,6 +206,31 @@ If this persists, go on the [Discord Server](https://discord.com/invite/SwpQUFWr
 
 If you get another error, report it either through the [Discord Server](https://discord.com/invite/SwpQUFWreW), or open an [Issue](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/issues).
 
+### How do I make my own theme?
+
+It's simple, really. This program uses JSON as a basis for themes. Check out [the Example](ExampleTheme.mdrg_theme) for
+your basis. You should include:
+
+- English Name
+- German Name
+- Chinese Name
+- Japanese Name
+- Spanish Name
+- Portuguese Name
+- Background Alpha `( 0 to 255 )`
+- Background Red `( 0 to 255 )`
+- Background Green `( 0 to 255 )`
+- Background Blue `( 0 to 255 )`
+- Foreground Alpha `( 0 to 255 )`
+- Foreground Red `( 0 to 255 )`
+- Foreground Green `( 0 to 255 )`
+- Foreground Blue `( 0 to 255 )`
+
+Please add localization. If a non-English field is empty or missing, the English text will be used. If NameEN is empty,
+it will default to 'Unknown' when running the program in English, even if other names are filled.
+
+Once done, put them into your `MDRG_Analyzer\themes` folder.
+
 ### I built this myself and get errors! (Visual Studio only)
 
 First off, have you modified anything? If yes, check it yourself. However, the following might fix your problem too:

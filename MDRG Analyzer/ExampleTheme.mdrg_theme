@@ -1,0 +1,18 @@
+[
+  {
+    "NameEN": "Very Dark",
+    "NameDE": "Sehr Dunkel",
+    "NameZH": "非常暗的",
+    "NameJA": "非常に暗い",
+    "NameES": "Muy Oscuro",
+    "NamePT": "Muito Escuro",
+    "BGA": 255,
+    "BGR": 0,
+    "BGG": 0,
+    "BGB": 0,
+    "FGA": 255,
+    "FGR": 255,
+    "FGG": 255,
+    "FGB": 255
+  }
+]

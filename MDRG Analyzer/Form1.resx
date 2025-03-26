@@ -8359,30 +8359,6 @@ timeCameInsideAnal</value>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Language...</value>
   </data>
-  <data name="pureDarkToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="pureDarkToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pure Dark</value>
-  </data>
-  <data name="darkToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="darkToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dark</value>
-  </data>
-  <data name="pureLightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="pureLightToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pure Light</value>
-  </data>
-  <data name="lightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="lightToolStripMenuItem.Text" xml:space="preserve">
-    <value>Light</value>
-  </data>
   <data name="themeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 20</value>
   </data>
@@ -8624,40 +8600,16 @@ timeCameInsideAnal</value>
   <data name="&gt;&gt;portuguesaToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;donateToolStripMenuItem.Name" xml:space="preserve">
-    <value>donateToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;donateToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;themeToolStripMenuItem.Name" xml:space="preserve">
     <value>themeToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;themeToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pureDarkToolStripMenuItem.Name" xml:space="preserve">
-    <value>pureDarkToolStripMenuItem</value>
+  <data name="&gt;&gt;donateToolStripMenuItem.Name" xml:space="preserve">
+    <value>donateToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;pureDarkToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;darkToolStripMenuItem.Name" xml:space="preserve">
-    <value>darkToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;darkToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pureLightToolStripMenuItem.Name" xml:space="preserve">
-    <value>pureLightToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;pureLightToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lightToolStripMenuItem.Name" xml:space="preserve">
-    <value>lightToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;lightToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;donateToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
