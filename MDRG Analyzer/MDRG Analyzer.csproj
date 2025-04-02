@@ -178,6 +178,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="TranslationGuide.md" />
+    <None Include="_PRIVACY_POLICY.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

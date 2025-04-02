@@ -117,7 +117,7 @@ namespace MDRG_Analyzer
         /// <returns>List\<Theme\> consisting of all themes.</returns>
         private List<Theme> LoadThemes()
         {
-            List<Theme> themes = new List<Theme>();
+            List<Theme> themes = [];
             string themeDirectory = Path.Combine(Application.StartupPath, "themes");
 
             if (!Directory.Exists(themeDirectory))
@@ -251,8 +251,10 @@ namespace MDRG_Analyzer
 
             foreach (Theme theme in themes)
             {
-                ToolStripMenuItem item = new ToolStripMenuItem(theme.GetLocalizedName(CultureInfo.CurrentCulture.ToString()));
-                item.Tag = theme; // Store the theme object
+                ToolStripMenuItem item = new(theme.GetLocalizedName(CultureInfo.CurrentCulture.ToString()))
+                {
+                    Tag = theme // Store the theme object
+                };
                 item.Click += ThemeMenuItem_Click;
                 themeToolStripMenuItem.DropDownItems.Add(item);
             }
