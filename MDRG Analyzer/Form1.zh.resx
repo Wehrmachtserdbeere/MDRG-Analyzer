@@ -230,6 +230,9 @@
         sZvCXgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 55</value>
+  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>此工具专为游戏“!Ω 阶乘欧米茄：我的反乌托邦机器人女友”制作。
 
@@ -247,8 +250,11 @@
   <data name="tabPage1.Text" xml:space="preserve">
     <value>存档信息</value>
   </data>
+  <data name="groupBox83.Text" xml:space="preserve">
+    <value>饱腹感</value>
+  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 12</value>
+    <value>67, 13</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>(1)游戏时间</value>
@@ -325,11 +331,21 @@
   <data name="tabPage2.Text" xml:space="preserve">
     <value>玩家信息</value>
   </data>
+  <data name="groupBox82.Text" xml:space="preserve">
+    <value>当前的性欲</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uniqueConversationsLeftTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox81.Text" xml:space="preserve">
+    <value>剩余的独特对话</value>
+  </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>最后一次拥抱(1)</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 12</value>
+    <value>67, 13</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>(1)游戏时间</value>
@@ -397,6 +413,9 @@
   <data name="tabPage6.Text" xml:space="preserve">
     <value>机器人信息</value>
   </data>
+  <data name="groupBox85.Text" xml:space="preserve">
+    <value>注意事项</value>
+  </data>
   <data name="groupBox80.Text" xml:space="preserve">
     <value>工作日(1)</value>
   </data>
@@ -407,7 +426,7 @@
     <value>修女积分(4,5)</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 12</value>
+    <value>67, 13</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>(5)游戏时间</value>
@@ -419,7 +438,7 @@
     <value>搜索(4)</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 48</value>
+    <value>190, 52</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>(1) 无法更改，租金始终在周一
@@ -473,7 +492,7 @@
     <value>游戏时间</value>
   </data>
   <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 16</value>
+    <value>74, 17</value>
   </data>
   <data name="lightswitchCheckbox.Text" xml:space="preserve">
     <value>电灯开关</value>
@@ -523,102 +542,6 @@
   <data name="button2.Text" xml:space="preserve">
     <value>显示网站</value>
   </data>
-  <data name="websitesCheckBoxes.Items" xml:space="preserve">
-    <value>adredirect.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items1" xml:space="preserve">
-    <value>bang.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items2" xml:space="preserve">
-    <value>bang.ic/email</value>
-  </data>
-  <data name="websitesCheckBoxes.Items3" xml:space="preserve">
-    <value>blackjack.casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items4" xml:space="preserve">
-    <value>casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items5" xml:space="preserve">
-    <value>casino.ic/tokens</value>
-  </data>
-  <data name="websitesCheckBoxes.Items6" xml:space="preserve">
-    <value>cockcockcockcockcock.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items7" xml:space="preserve">
-    <value>cocktracts.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items8" xml:space="preserve">
-    <value>cocktracts.ic/available</value>
-  </data>
-  <data name="websitesCheckBoxes.Items9" xml:space="preserve">
-    <value>cocktracts.ic/contract</value>
-  </data>
-  <data name="websitesCheckBoxes.Items10" xml:space="preserve">
-    <value>cocktracts.ic/help</value>
-  </data>
-  <data name="websitesCheckBoxes.Items11" xml:space="preserve">
-    <value>cocktracts.ic/partner</value>
-  </data>
-  <data name="websitesCheckBoxes.Items12" xml:space="preserve">
-    <value>cocktracts.ic/partners</value>
-  </data>
-  <data name="websitesCheckBoxes.Items13" xml:space="preserve">
-    <value>cocktwitch.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
-    <value>cocktwitch.ic/leaderboard</value>
-  </data>
-  <data name="websitesCheckBoxes.Items15" xml:space="preserve">
-    <value>cocktwitch.ic/stats</value>
-  </data>
-  <data name="websitesCheckBoxes.Items16" xml:space="preserve">
-    <value>dickcheese.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items17" xml:space="preserve">
-    <value>dickcheese.ic/1</value>
-  </data>
-  <data name="websitesCheckBoxes.Items18" xml:space="preserve">
-    <value>dickcheese.ic/2</value>
-  </data>
-  <data name="websitesCheckBoxes.Items19" xml:space="preserve">
-    <value>duck.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items20" xml:space="preserve">
-    <value>fedup.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items21" xml:space="preserve">
-    <value>hotanimebabes.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items22" xml:space="preserve">
-    <value>ladyparts.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items23" xml:space="preserve">
-    <value>losefatquickly.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items24" xml:space="preserve">
-    <value>patriciascookingblog.food/blog</value>
-  </data>
-  <data name="websitesCheckBoxes.Items25" xml:space="preserve">
-    <value>patriciascookingblog.food/login</value>
-  </data>
-  <data name="websitesCheckBoxes.Items26" xml:space="preserve">
-    <value>patriciascookingblog.food/main</value>
-  </data>
-  <data name="websitesCheckBoxes.Items27" xml:space="preserve">
-    <value>peepee.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items28" xml:space="preserve">
-    <value>pixelglasses.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items29" xml:space="preserve">
-    <value>realmenfishing.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items30" xml:space="preserve">
-    <value>slots.casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items31" xml:space="preserve">
-    <value>stonks.ic</value>
-  </data>
   <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
     <value>访问过的网站</value>
   </data>
@@ -639,21 +562,6 @@
   </data>
   <data name="richTextBox6.Text" xml:space="preserve">
     <value>“结局不够好”</value>
-  </data>
-  <data name="checkedListBox1.Items" xml:space="preserve">
-    <value>church-endSpotkanie2B</value>
-  </data>
-  <data name="checkedListBox1.Items1" xml:space="preserve">
-    <value>church-endTheWorstEnd</value>
-  </data>
-  <data name="checkedListBox1.Items2" xml:space="preserve">
-    <value>church-endIdontknow</value>
-  </data>
-  <data name="checkedListBox1.Items3" xml:space="preserve">
-    <value>church-endJustGoThereGood</value>
-  </data>
-  <data name="checkedListBox1.Items4" xml:space="preserve">
-    <value>church-endJustGoThereBad</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>教会成就</value>
@@ -677,57 +585,6 @@ ending-theyKnow --- “他们知道...”
 bigdaddyhurtSecretEpilogue --- 本身不是结局，而是“他们知道...”的一部分。 - 遇到了 大爸爸受伤了，但没有继续他的故事情节
 saveEdited --- 使用了 作弊者 网站。</value>
   </data>
-  <data name="checkedListBox2.Items" xml:space="preserve">
-    <value>ending-ballsexploded</value>
-  </data>
-  <data name="checkedListBox2.Items1" xml:space="preserve">
-    <value>ending-goodEnd1</value>
-  </data>
-  <data name="checkedListBox2.Items2" xml:space="preserve">
-    <value>ending-badEnd1</value>
-  </data>
-  <data name="checkedListBox2.Items3" xml:space="preserve">
-    <value>ending-badEnd2</value>
-  </data>
-  <data name="checkedListBox2.Items4" xml:space="preserve">
-    <value>ending-badEnd3</value>
-  </data>
-  <data name="checkedListBox2.Items5" xml:space="preserve">
-    <value>ending-badEnd4.1</value>
-  </data>
-  <data name="checkedListBox2.Items6" xml:space="preserve">
-    <value>ending-badEnd4.2</value>
-  </data>
-  <data name="checkedListBox2.Items7" xml:space="preserve">
-    <value>ending-healthEnd</value>
-  </data>
-  <data name="checkedListBox2.Items8" xml:space="preserve">
-    <value>ending-fedEnd</value>
-  </data>
-  <data name="checkedListBox2.Items9" xml:space="preserve">
-    <value>ending-schizoEnd</value>
-  </data>
-  <data name="checkedListBox2.Items10" xml:space="preserve">
-    <value>ending-genericSchizoEnd</value>
-  </data>
-  <data name="checkedListBox2.Items11" xml:space="preserve">
-    <value>ending-KilledByADirtyCop1</value>
-  </data>
-  <data name="checkedListBox2.Items12" xml:space="preserve">
-    <value>ending-KilledByADirtyCop2</value>
-  </data>
-  <data name="checkedListBox2.Items13" xml:space="preserve">
-    <value>ending-theyKnowOblivious</value>
-  </data>
-  <data name="checkedListBox2.Items14" xml:space="preserve">
-    <value>ending-theyKnow</value>
-  </data>
-  <data name="checkedListBox2.Items15" xml:space="preserve">
-    <value>bigdaddyhurtSecretEpilogue</value>
-  </data>
-  <data name="checkedListBox2.Items16" xml:space="preserve">
-    <value>saveEdited</value>
-  </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>其他成就</value>
   </data>
@@ -738,7 +595,7 @@ saveEdited --- 使用了 作弊者 网站。</value>
     <value>成就信息</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 12</value>
+    <value>163, 13</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>记得保证她的安全（和饱腹感）</value>
@@ -3284,7 +3141,7 @@ saveEdited --- 使用了 作弊者 网站。</value>
     <value>保存编辑</value>
   </data>
   <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>648, 16</value>
+    <value>642, 17</value>
   </data>
   <data name="saveEditConsentBox.Text" xml:space="preserve">
     <value>我承认并理解使用此功能可能会导致我的游戏存档被破坏或受损，并且我对任何潜在的进度或数据损失承担全部责任。</value>
@@ -3340,106 +3197,124 @@ timeCameInsideAnal</value>
     <value>调试信息</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
+    <value>123, 22</value>
   </data>
   <data name="loadToolStripMenuItem.Text" xml:space="preserve">
     <value>加载存档</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
+    <value>123, 22</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>退出</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+    <value>52, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>存档...</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>检查更新</value>
   </data>
   <data name="openReadmeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
     <value>自述文件</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 6</value>
+    <value>258, 6</value>
   </data>
   <data name="reportABugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
     <value>报告错误</value>
   </data>
   <data name="suggestAFeatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
     <value>功能推荐</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
+    <value>261, 22</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>GitHub链接</value>
   </data>
+  <data name="MDRGDiscordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 22</value>
+  </data>
+  <data name="MDRGDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>MDRG Discord 伺服器</value>
+  </data>
+  <data name="StrawberrySoftwareDiscordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 22</value>
+  </data>
+  <data name="StrawberrySoftwareDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Strawberry Software Discord 伺服器</value>
+  </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+    <value>52, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>帮助...</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
+    <value>219, 22</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
     <value>繁体中文</value>
   </data>
   <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
+    <value>219, 22</value>
   </data>
   <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
     <value>Deutsch | 德語</value>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
+    <value>219, 22</value>
   </data>
   <data name="englishToolStripMenuItem.Text" xml:space="preserve">
     <value>English | 英語</value>
   </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 6</value>
+  </data>
   <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
+    <value>219, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
     <value>Español (MT) | 西班牙語</value>
   </data>
+  <data name="japaneseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
   <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
     <value>日本語 (MT) | 日語</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
   </data>
   <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
     <value>Portuguesa (MT) | 葡萄牙語</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+    <value>114, 20</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>语言 | Language...</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+    <value>43, 20</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>捐款</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3519,33 +3394,5 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>我的反乌托邦机器人女友存档分析器</value>
-  </data>
-  <data name="groupBox83.Text" xml:space="preserve">
-    <value>饱腹感</value>
-  </data>
-  <data name="groupBox82.Text" xml:space="preserve">
-    <value>当前的性欲</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="uniqueConversationsLeftTextBox.Multiline" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="uniqueConversationsLeftTextBox.TabIndex" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="uniqueConversationsLeftTextBox.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="&gt;&gt;uniqueConversationsLeftTextBox.ZOrder" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="groupBox81.Text" xml:space="preserve">
-    <value>剩余的独特对话</value>
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
-    <value>周租</value>
-  </data>
-  <data name="groupBox85.Text" xml:space="preserve">
-    <value>注意事项</value>
   </data>
 </root>

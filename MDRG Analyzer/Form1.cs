@@ -9,10 +9,7 @@ using Newtonsoft.Json;
 using System.Diagnostics;
 using System.Globalization;
 using System.Threading;
-using System.Threading.Tasks;
-using MDRG_Analyzer;
 using System.Drawing;
-using System.Diagnostics.Tracing;
 
 namespace MDRG_Analyzer
 {
@@ -21,17 +18,18 @@ namespace MDRG_Analyzer
         // Initialize some variables
         string fileContent;
         JObject saveFileJson;
-        readonly string __version__ = "1.1.17";
+        readonly string __version__ = "1.1.18";
         int selectedSaveFile = -1;
         string filePath;
         readonly string repoUrl = "https://github.com/Wehrmachtserdbeere/MDRG-Analyzer";
         readonly string developerWebsite = "https://wehrmachtserdbeere.github.io/";
+        readonly string MDRG_Server_Link = "https://discord.gg/inccel";
+        readonly string strawberrySoftwareLink = "https://discord.gg/9EAGVZUt2Y";
         dynamic jsonData;
         readonly Random rand = new();
         readonly System.ComponentModel.ComponentResourceManager resources = new(typeof(Form1));
         Dictionary<string, RichTextBox> dataBindings = [];
         string notes = "";
-        // Test for Github
 
         public Form1()
         {
@@ -407,6 +405,11 @@ namespace MDRG_Analyzer
                 { "en", englishToolStripMenuItem }
             };
 
+            /// I have no idea why the hell I have to re-set this image, it does NOT
+            /// work when I just add it in the visual editor...
+            pictureBox1.Image = Properties.Resources.logo;
+            /// Continuing after this horrendous failure...
+
             if (languageMappings.TryGetValue(cultureCode, out var menuItem))
             {
                 SetMenuItemAppearanceBoldChecked(menuItem);
@@ -455,10 +458,7 @@ namespace MDRG_Analyzer
         /// Opens a website.
         /// </summary>
         /// <param name="url">The website URL.</param>
-        public static void OpenWebsite(string url)
-        {
-            Process.Start("cmd", $"/C start {url}");
-        }
+        public static void OpenWebsite(string url) => Process.Start("cmd", $"/C start {url}");
 
         /// <summary>
         /// Adds as many RadioButtons as there are files.
@@ -1166,6 +1166,16 @@ namespace MDRG_Analyzer
                     System.Drawing.FontStyle.Bold
                 );
             }
+        }
+
+        private void MDRGDiscordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenWebsite(MDRG_Server_Link);
+        }
+
+        private void StrawberrySoftwareDiscordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenWebsite(strawberrySoftwareLink);
         }
     }
 }

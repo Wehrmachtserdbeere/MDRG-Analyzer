@@ -161,6 +161,9 @@ Copyright © 2023-2025 Strawberry Software. Alle Rechte vorbehalten.
   <data name="tabPage1.Text" xml:space="preserve">
     <value>Info</value>
   </data>
+  <data name="groupBox83.Text" xml:space="preserve">
+    <value>Sättigung</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 13</value>
@@ -240,6 +243,12 @@ Copyright © 2023-2025 Strawberry Software. Alle Rechte vorbehalten.
   <data name="tabPage2.Text" xml:space="preserve">
     <value>Spielerinfo</value>
   </data>
+  <data name="groupBox82.Text" xml:space="preserve">
+    <value>Derzeitige Geilheit</value>
+  </data>
+  <data name="groupBox81.Text" xml:space="preserve">
+    <value>Verbleib. einm. Gespr.</value>
+  </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>Ltztes Knuddeln(1)</value>
   </data>
@@ -311,6 +320,22 @@ Copyright © 2023-2025 Strawberry Software. Alle Rechte vorbehalten.
   </data>
   <data name="tabPage6.Text" xml:space="preserve">
     <value>Botinfo</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="notesTextBox.Location" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;notesTextBox.ZOrder" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBox85.Text" xml:space="preserve">
+    <value>Notizen</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
+    <value>Wöchentliche Miete</value>
+  </data>
+  <data name="&gt;&gt;weeklyRentTextBox.Parent" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="groupBox80.Text" xml:space="preserve">
     <value>Wochentag(1)</value>
@@ -895,35 +920,16 @@ timeCameInsideAnal</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>My Dystopian Robot Girlfriend Speicherstand Analysierer</value>
   </data>
-  <data name="groupBox83.Text" xml:space="preserve">
-    <value>Sättigung</value>
+  <data name="mDRGDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>MDRG Discord Server</value>
   </data>
-  <data name="groupBox82.Text" xml:space="preserve">
-    <value>Derzeitige Geilheit</value>
-  </data>
-  <data name="groupBox81.Text" xml:space="preserve">
-    <value>Verbleib. einm. Gespr.</value>
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
-    <value>Wöchentliche Miete</value>
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.Parent" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="notesTextBox.Location" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="&gt;&gt;notesTextBox.ZOrder" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="groupBox85.Text" xml:space="preserve">
-    <value>Notizen</value>
+  <data name="strawberrySoftwareDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Strawberry Software Discord Server</value>
   </data>
 </root>

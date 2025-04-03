@@ -252,6 +252,9 @@ Está a usar este programa, obrigado</value>
         sZvCXgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 55</value>
+  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>Esta ferramenta foi feita para o jogo "!Ω Factorial Omega: My Dystopian Robot Girlfriend".
 
@@ -269,8 +272,11 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
   <data name="tabPage1.Text" xml:space="preserve">
     <value>Informações</value>
   </data>
+  <data name="groupBox83.Text" xml:space="preserve">
+    <value>Saciação</value>
+  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 12</value>
+    <value>80, 13</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>(1)Hora do jogo</value>
@@ -347,11 +353,24 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
   <data name="tabPage2.Text" xml:space="preserve">
     <value>Informações do jogador</value>
   </data>
+  <data name="groupBox82.Text" xml:space="preserve">
+    <value>Tesão atual</value>
+  </data>
+  <data name="uniqueConversationsLeftTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uniqueConversationsLeftTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox81.Text" xml:space="preserve">
+    <value>Conversas únicas rest.</value>
+  </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>Último abraço em</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 12</value>
+    <value>80, 13</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>(1)Hora do jogo</value>
@@ -419,6 +438,9 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
   <data name="tabPage6.Text" xml:space="preserve">
     <value>Informações do bot</value>
   </data>
+  <data name="groupBox85.Text" xml:space="preserve">
+    <value>Notas</value>
+  </data>
   <data name="groupBox80.Text" xml:space="preserve">
     <value>Dia da semana</value>
   </data>
@@ -429,7 +451,7 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
     <value>Pontos de freira(4,5)</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 12</value>
+    <value>80, 13</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>(1)Hora do jogo</value>
@@ -441,7 +463,7 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
     <value>Pesquisa(4)</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>377, 48</value>
+    <value>313, 52</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>(1) Não pode ser alterado, o aluguer é sempre à segunda-feira
@@ -495,7 +517,7 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
     <value>Hora do jogo</value>
   </data>
   <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 16</value>
+    <value>105, 17</value>
   </data>
   <data name="lightswitchCheckbox.Text" xml:space="preserve">
     <value>Interruptor de luz</value>
@@ -514,9 +536,6 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
     <value>Guardar Slot</value>
-  </data>
-  <data name="groupBox32.Text" xml:space="preserve">
-    <value>Stream Donos</value>
   </data>
   <data name="groupBox30.Text" xml:space="preserve">
     <value>Formatado(2)</value>
@@ -545,102 +564,6 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
   <data name="button2.Text" xml:space="preserve">
     <value>Mostrar sites</value>
   </data>
-  <data name="websitesCheckBoxes.Items" xml:space="preserve">
-    <value>adredirect.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items1" xml:space="preserve">
-    <value>bang.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items2" xml:space="preserve">
-    <value>bang.ic/email</value>
-  </data>
-  <data name="websitesCheckBoxes.Items3" xml:space="preserve">
-    <value>blackjack.casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items4" xml:space="preserve">
-    <value>casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items5" xml:space="preserve">
-    <value>casino.ic/tokens</value>
-  </data>
-  <data name="websitesCheckBoxes.Items6" xml:space="preserve">
-    <value>cockcockcockcockcock.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items7" xml:space="preserve">
-    <value>cocktracts.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items8" xml:space="preserve">
-    <value>cocktracts.ic/available</value>
-  </data>
-  <data name="websitesCheckBoxes.Items9" xml:space="preserve">
-    <value>cocktracts.ic/contract</value>
-  </data>
-  <data name="websitesCheckBoxes.Items10" xml:space="preserve">
-    <value>cocktracts.ic/help</value>
-  </data>
-  <data name="websitesCheckBoxes.Items11" xml:space="preserve">
-    <value>cocktracts.ic/partner</value>
-  </data>
-  <data name="websitesCheckBoxes.Items12" xml:space="preserve">
-    <value>cocktracts.ic/partners</value>
-  </data>
-  <data name="websitesCheckBoxes.Items13" xml:space="preserve">
-    <value>cocktwitch.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
-    <value>cocktwitch.ic/leaderboard</value>
-  </data>
-  <data name="websitesCheckBoxes.Items15" xml:space="preserve">
-    <value>cocktwitch.ic/stats</value>
-  </data>
-  <data name="websitesCheckBoxes.Items16" xml:space="preserve">
-    <value>dickcheese.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items17" xml:space="preserve">
-    <value>dickcheese.ic/1</value>
-  </data>
-  <data name="websitesCheckBoxes.Items18" xml:space="preserve">
-    <value>dickcheese.ic/2</value>
-  </data>
-  <data name="websitesCheckBoxes.Items19" xml:space="preserve">
-    <value>duck.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items20" xml:space="preserve">
-    <value>fedup.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items21" xml:space="preserve">
-    <value>hotanimebabes.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items22" xml:space="preserve">
-    <value>ladyparts.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items23" xml:space="preserve">
-    <value>losefatquickly.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items24" xml:space="preserve">
-    <value>patriciascookingblog.food/blog</value>
-  </data>
-  <data name="websitesCheckBoxes.Items25" xml:space="preserve">
-    <value>patriciascookingblog.food/login</value>
-  </data>
-  <data name="websitesCheckBoxes.Items26" xml:space="preserve">
-    <value>patriciascookingblog.food/main</value>
-  </data>
-  <data name="websitesCheckBoxes.Items27" xml:space="preserve">
-    <value>peepee.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items28" xml:space="preserve">
-    <value>pixelglasses.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items29" xml:space="preserve">
-    <value>realmenfishing.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items30" xml:space="preserve">
-    <value>slots.casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items31" xml:space="preserve">
-    <value>stonks.ic</value>
-  </data>
   <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
     <value>Sites visitados</value>
   </data>
@@ -661,21 +584,6 @@ Direitos de autor © 2023-2025 Strawberry Software. Todos os direitos reservados
   </data>
   <data name="richTextBox6.Text" xml:space="preserve">
     <value>"O final não é suficientemente bom"</value>
-  </data>
-  <data name="checkedListBox1.Items" xml:space="preserve">
-    <value>church-endSpotkanie2B</value>
-  </data>
-  <data name="checkedListBox1.Items1" xml:space="preserve">
-    <value>church-endTheWorstEnd</value>
-  </data>
-  <data name="checkedListBox1.Items2" xml:space="preserve">
-    <value>church-endIdontknow</value>
-  </data>
-  <data name="checkedListBox1.Items3" xml:space="preserve">
-    <value>church-endJustGoThereGood</value>
-  </data>
-  <data name="checkedListBox1.Items4" xml:space="preserve">
-    <value>church-endJustGoThereBad</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Conquistas da Igreja</value>
@@ -699,57 +607,6 @@ final-elesSabem --- "Eles sabem..."
 bigdaddyhurtSecretEpilogue --- Não é um final propriamente dito, mas faz parte de "Eles sabem...". - Conheci o bigdaddyhurt mas não continuei a sua história
 guardarEditado --- Utilizei o site iamacheater.</value>
   </data>
-  <data name="checkedListBox2.Items" xml:space="preserve">
-    <value>ending-ballsexploded</value>
-  </data>
-  <data name="checkedListBox2.Items1" xml:space="preserve">
-    <value>ending-goodEnd1</value>
-  </data>
-  <data name="checkedListBox2.Items2" xml:space="preserve">
-    <value>ending-badEnd1</value>
-  </data>
-  <data name="checkedListBox2.Items3" xml:space="preserve">
-    <value>ending-badEnd2</value>
-  </data>
-  <data name="checkedListBox2.Items4" xml:space="preserve">
-    <value>ending-badEnd3</value>
-  </data>
-  <data name="checkedListBox2.Items5" xml:space="preserve">
-    <value>ending-badEnd4.1</value>
-  </data>
-  <data name="checkedListBox2.Items6" xml:space="preserve">
-    <value>ending-badEnd4.2</value>
-  </data>
-  <data name="checkedListBox2.Items7" xml:space="preserve">
-    <value>ending-healthEnd</value>
-  </data>
-  <data name="checkedListBox2.Items8" xml:space="preserve">
-    <value>ending-fedEnd</value>
-  </data>
-  <data name="checkedListBox2.Items9" xml:space="preserve">
-    <value>ending-schizoEnd</value>
-  </data>
-  <data name="checkedListBox2.Items10" xml:space="preserve">
-    <value>ending-genericSchizoEnd</value>
-  </data>
-  <data name="checkedListBox2.Items11" xml:space="preserve">
-    <value>ending-KilledByADirtyCop1</value>
-  </data>
-  <data name="checkedListBox2.Items12" xml:space="preserve">
-    <value>ending-KilledByADirtyCop2</value>
-  </data>
-  <data name="checkedListBox2.Items13" xml:space="preserve">
-    <value>ending-theyKnowOblivious</value>
-  </data>
-  <data name="checkedListBox2.Items14" xml:space="preserve">
-    <value>ending-theyKnow</value>
-  </data>
-  <data name="checkedListBox2.Items15" xml:space="preserve">
-    <value>bigdaddyhurtSecretEpilogue</value>
-  </data>
-  <data name="checkedListBox2.Items16" xml:space="preserve">
-    <value>saveEdited</value>
-  </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Conquistas diversas</value>
   </data>
@@ -760,7 +617,7 @@ guardarEditado --- Utilizei o site iamacheater.</value>
     <value>Conquistas</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 12</value>
+    <value>209, 13</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Lembre-se de a manter segura (e satisfeita)</value>
@@ -3306,7 +3163,7 @@ guardarEditado --- Utilizei o site iamacheater.</value>
     <value>Guardar edição</value>
   </data>
   <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>684, 28</value>
+    <value>566, 30</value>
   </data>
   <data name="saveEditConsentBox.Text" xml:space="preserve">
     <value>Reconheço e compreendo que o uso deste recurso pode resultar na quebra ou comprometimento
@@ -3363,106 +3220,124 @@ timeCameInsideAnal</value>
     <value>Depurar</value>
   </data>
   <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="loadToolStripMenuItem.Text" xml:space="preserve">
     <value>Carregar ficheiro...</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
+    <value>171, 22</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Saída</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 21</value>
+    <value>70, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>Ficheiro...</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>284, 22</value>
   </data>
   <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
     <value>Verificar atualizações</value>
   </data>
   <data name="openReadmeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>284, 22</value>
   </data>
   <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
     <value>Abrir Leia-me</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 6</value>
+    <value>281, 6</value>
   </data>
   <data name="reportABugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>284, 22</value>
   </data>
   <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
     <value>Reportar um erro</value>
   </data>
   <data name="suggestAFeatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>284, 22</value>
   </data>
   <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
     <value>Sugira um recurso</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>284, 22</value>
   </data>
   <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
     <value>Link rápido para o GitHub</value>
   </data>
+  <data name="MDRGDiscordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="MDRGDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Servidor Discord da MDRG</value>
+  </data>
+  <data name="StrawberrySoftwareDiscordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 22</value>
+  </data>
+  <data name="StrawberrySoftwareDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Servidor Discord da Strawberry Software</value>
+  </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 21</value>
+    <value>59, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Ajuda...</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>206, 22</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
     <value>繁体中文 | Chinês (Trad.)</value>
   </data>
   <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>206, 22</value>
   </data>
   <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
     <value>Deutsch | Alemã</value>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>206, 22</value>
   </data>
   <data name="englishToolStripMenuItem.Text" xml:space="preserve">
     <value>English | Inglesa</value>
   </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 6</value>
+  </data>
   <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>206, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
     <value>Español (MT) | Espanhola</value>
   </data>
+  <data name="japaneseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
+  </data>
   <data name="japaneseToolStripMenuItem.Text" xml:space="preserve">
     <value>日本語 (MT) | Japonesa</value>
+  </data>
+  <data name="portuguesaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 22</value>
   </data>
   <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
     <value>Portuguesa (MT)</value>
   </data>
   <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 21</value>
+    <value>126, 20</value>
   </data>
   <data name="languageToolStripMenuItem.Text" xml:space="preserve">
     <value>Idioma | Language...</value>
   </data>
   <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 21</value>
+    <value>44, 20</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>Doar</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3542,33 +3417,5 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>A minha namorada robô distópica Guardar Analisador</value>
-  </data>
-  <data name="polskiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="portuguêsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="groupBox83.Text" xml:space="preserve">
-    <value>Saciação</value>
-  </data>
-  <data name="groupBox82.Text" xml:space="preserve">
-    <value>Tesão atual</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="uniqueConversationsLeftTextBox.Size" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="uniqueConversationsLeftTextBox.TabIndex" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="groupBox81.Text" xml:space="preserve">
-    <value>Conversas únicas rest.</value>
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
-    <value>Aluguer semanal</value>
-  </data>
-  <data name="groupBox85.Text" xml:space="preserve">
-    <value>Notas</value>
   </data>
 </root>

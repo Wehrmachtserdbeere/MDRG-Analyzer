@@ -117,11 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="extraCreditsButton.Text" xml:space="preserve">
-    <value>Créditos</value>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>プレイヤー情報</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>ボット情報</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>その他情報</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>ウェブサイト</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>実績</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>編集を保存</value>
+  </data>
+  <data name="tabPage9.Text" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>デバッグ</value>
   </data>
   <data name="groupBox72.Text" xml:space="preserve">
     <value>謝辞</value>
+  </data>
+  <data name="extraCreditsButton.Text" xml:space="preserve">
+    <value>Créditos</value>
+  </data>
+  <data name="groupBox43.Text" xml:space="preserve">
+    <value>保存スロット</value>
   </data>
   <data name="editInfoButton.Text" xml:space="preserve">
     <value>編集情報を保存</value>
@@ -129,20 +159,17 @@
   <data name="infoSaveBox.Text" xml:space="preserve">
     <value>ファイルを読み込む</value>
   </data>
-  <data name="groupBox43.Text" xml:space="preserve">
-    <value>保存スロット</value>
-  </data>
   <data name="saveFilesChoosingBox.Text" xml:space="preserve">
     <value>ファイルを保存</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>アプリバージョン</value>
   </data>
-  <data name="gameVersionBox.Text" xml:space="preserve">
-    <value>ファイルを読み込む</value>
-  </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>ゲームバージョン</value>
+  </data>
+  <data name="gameVersionBox.Text" xml:space="preserve">
+    <value>ファイルを読み込む</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -230,6 +257,9 @@
         sZvCXgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 55</value>
+  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>このツールは、ゲーム「!Ω Factorial Omega: My Dystopian Robot Girlfriend」用に作成されています。
 
@@ -244,8 +274,14 @@
 Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じます。
 「MDRG Analyzer」は、Strawberry Softwareによる独立した作品であり、Incontinent Cellとは提携しておらず、承認もされていません。ゲームコンテンツおよび関連する知的財産は、Incontinent Cell の独占所有物です。</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>情報</value>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>プレイヤーの価値</value>
+  </data>
+  <data name="groupBox83.Text" xml:space="preserve">
+    <value>飽食</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>（１）ゲーム時間を使う</value>
@@ -286,11 +322,11 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox59.Text" xml:space="preserve">
     <value>無駄な精液</value>
   </data>
-  <data name="saveSlotBoxGen.Text" xml:space="preserve">
-    <value>ファイルなし</value>
-  </data>
   <data name="groupBox45.Text" xml:space="preserve">
     <value>保存スロット</value>
+  </data>
+  <data name="saveSlotBoxGen.Text" xml:space="preserve">
+    <value>ファイルなし</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
     <value>メンタルヘルス</value>
@@ -316,14 +352,20 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox6.Text" xml:space="preserve">
     <value>名前</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>プレイヤーの価値</value>
+  <data name="groupBox15.Text" xml:space="preserve">
+    <value>ボットの価値</value>
   </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>プレイヤー情報</value>
+  <data name="groupBox82.Text" xml:space="preserve">
+    <value>現在のムラムラ感</value>
+  </data>
+  <data name="groupBox81.Text" xml:space="preserve">
+    <value>残るユニークな会話</value>
   </data>
   <data name="groupBox73.Text" xml:space="preserve">
     <value>最後に抱き合ったのは(1)</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>（１）ゲーム時間を使う</value>
@@ -340,11 +382,11 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox58.Text" xml:space="preserve">
     <value>MLが口の中に入ってきた</value>
   </data>
-  <data name="saveSlotBoxBot.Text" xml:space="preserve">
-    <value>ファイルなし</value>
-  </data>
   <data name="groupBox44.Text" xml:space="preserve">
     <value>保存スロット</value>
+  </data>
+  <data name="saveSlotBoxBot.Text" xml:space="preserve">
+    <value>ファイルなし</value>
   </data>
   <data name="groupBox39.Text" xml:space="preserve">
     <value>外に出た</value>
@@ -376,20 +418,17 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox19.Text" xml:space="preserve">
     <value>憧れ</value>
   </data>
-  <data name="groupBox18.Text" xml:space="preserve">
-    <value>Sympathy</value>
-  </data>
   <data name="groupBox17.Text" xml:space="preserve">
     <value>欲望</value>
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
     <value>ボット名</value>
   </data>
-  <data name="groupBox15.Text" xml:space="preserve">
-    <value>ボットの価値</value>
+  <data name="groupBox25.Text" xml:space="preserve">
+    <value>その他の値</value>
   </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>ボット情報</value>
+  <data name="groupBox85.Text" xml:space="preserve">
+    <value>備考</value>
   </data>
   <data name="groupBox80.Text" xml:space="preserve">
     <value>平日(1)</value>
@@ -400,6 +439,9 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox78.Text" xml:space="preserve">
     <value>修道女ポイント(4,5)</value>
   </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
   <data name="label5.Text" xml:space="preserve">
     <value>（５）ゲーム時間を使う</value>
   </data>
@@ -409,11 +451,17 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox60.Text" xml:space="preserve">
     <value>「検索」(4)</value>
   </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 52</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>(1) 変更できません。家賃は常に月曜日です
 (2) 読みやすさのために変換されており、実際の値ではありません
 (3) 変更してもサポートは提供されません
 (4) 教会のクエストラインに何らかの形で関連しています</value>
+  </data>
+  <data name="groupBox53.Text" xml:space="preserve">
+    <value>単語連鎖</value>
   </data>
   <data name="groupBox56.Text" xml:space="preserve">
     <value>失われた時代</value>
@@ -421,8 +469,8 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox57.Text" xml:space="preserve">
     <value>勝利回数</value>
   </data>
-  <data name="groupBox53.Text" xml:space="preserve">
-    <value>単語連鎖</value>
+  <data name="groupBox52.Text" xml:space="preserve">
+    <value>チェス</value>
   </data>
   <data name="groupBox54.Text" xml:space="preserve">
     <value>失われた時代</value>
@@ -430,8 +478,8 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox55.Text" xml:space="preserve">
     <value>勝利回数</value>
   </data>
-  <data name="groupBox52.Text" xml:space="preserve">
-    <value>チェス</value>
+  <data name="groupBox48.Text" xml:space="preserve">
+    <value>オールドメイド</value>
   </data>
   <data name="groupBox51.Text" xml:space="preserve">
     <value>時代は去った</value>
@@ -442,14 +490,14 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox50.Text" xml:space="preserve">
     <value>勝利回数</value>
   </data>
-  <data name="groupBox48.Text" xml:space="preserve">
-    <value>オールドメイド</value>
-  </data>
   <data name="groupBox47.Text" xml:space="preserve">
     <value>ストリーム量</value>
   </data>
   <data name="groupBox46.Text" xml:space="preserve">
     <value>賃貸(1)</value>
+  </data>
+  <data name="groupBox40.Text" xml:space="preserve">
+    <value>ゲームタイム</value>
   </data>
   <data name="groupBox41.Text" xml:space="preserve">
     <value>フォーマット済み(2)</value>
@@ -457,11 +505,14 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox42.Text" xml:space="preserve">
     <value>生のもの</value>
   </data>
-  <data name="groupBox40.Text" xml:space="preserve">
-    <value>ゲームタイム</value>
+  <data name="lightswitchCheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
   </data>
   <data name="lightswitchCheckbox.Text" xml:space="preserve">
     <value>ライトスイッチ</value>
+  </data>
+  <data name="groupBox33.Text" xml:space="preserve">
+    <value>最長ストリーム</value>
   </data>
   <data name="groupBox34.Text" xml:space="preserve">
     <value>フォーマット済み(2)</value>
@@ -469,26 +520,20 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox35.Text" xml:space="preserve">
     <value>生のもの</value>
   </data>
-  <data name="groupBox33.Text" xml:space="preserve">
-    <value>最長ストリーム</value>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>保存スロット</value>
   </data>
   <data name="saveSlotBox.Text" xml:space="preserve">
     <value>ファイルなし</value>
   </data>
-  <data name="groupBox14.Text" xml:space="preserve">
-    <value>保存スロット</value>
-  </data>
-  <data name="groupBox32.Text" xml:space="preserve">
-    <value>Stream Donos</value>
+  <data name="groupBox29.Text" xml:space="preserve">
+    <value>総ストリーミング時間</value>
   </data>
   <data name="groupBox30.Text" xml:space="preserve">
     <value>フォーマット済み(2)</value>
   </data>
   <data name="groupBox31.Text" xml:space="preserve">
     <value>生のもの</value>
-  </data>
-  <data name="groupBox29.Text" xml:space="preserve">
-    <value>総ストリーミング時間</value>
   </data>
   <data name="groupBox28.Text" xml:space="preserve">
     <value>サブ</value>
@@ -499,116 +544,20 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="groupBox26.Text" xml:space="preserve">
     <value>ゲームステージ(3)</value>
   </data>
-  <data name="groupBox25.Text" xml:space="preserve">
-    <value>その他の値</value>
-  </data>
-  <data name="tabPage7.Text" xml:space="preserve">
-    <value>その他情報</value>
-  </data>
   <data name="button2.Text" xml:space="preserve">
     <value>ウェブサイトを表示</value>
-  </data>
-  <data name="websitesCheckBoxes.Items" xml:space="preserve">
-    <value>adredirect.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items1" xml:space="preserve">
-    <value>bang.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items2" xml:space="preserve">
-    <value>bang.ic/email</value>
-  </data>
-  <data name="websitesCheckBoxes.Items3" xml:space="preserve">
-    <value>blackjack.casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items4" xml:space="preserve">
-    <value>casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items5" xml:space="preserve">
-    <value>casino.ic/tokens</value>
-  </data>
-  <data name="websitesCheckBoxes.Items6" xml:space="preserve">
-    <value>cockcockcockcockcock.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items7" xml:space="preserve">
-    <value>cocktracts.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items8" xml:space="preserve">
-    <value>cocktracts.ic/available</value>
-  </data>
-  <data name="websitesCheckBoxes.Items9" xml:space="preserve">
-    <value>cocktracts.ic/contract</value>
-  </data>
-  <data name="websitesCheckBoxes.Items10" xml:space="preserve">
-    <value>cocktracts.ic/contract</value>
-  </data>
-  <data name="websitesCheckBoxes.Items11" xml:space="preserve">
-    <value>cocktracts.ic/partner</value>
-  </data>
-  <data name="websitesCheckBoxes.Items12" xml:space="preserve">
-    <value>cocktracts.ic/partners</value>
-  </data>
-  <data name="websitesCheckBoxes.Items13" xml:space="preserve">
-    <value>cocktwitch.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
-    <value>cocktwitch.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items15" xml:space="preserve">
-    <value>cocktwitch.ic/stats</value>
-  </data>
-  <data name="websitesCheckBoxes.Items16" xml:space="preserve">
-    <value>dickcheese.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items17" xml:space="preserve">
-    <value>dickcheese.ic/1</value>
-  </data>
-  <data name="websitesCheckBoxes.Items18" xml:space="preserve">
-    <value>dickcheese.ic/2</value>
-  </data>
-  <data name="websitesCheckBoxes.Items19" xml:space="preserve">
-    <value>duck.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items20" xml:space="preserve">
-    <value>fedup.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items21" xml:space="preserve">
-    <value>hotanimebabes.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items22" xml:space="preserve">
-    <value>ladyparts.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items23" xml:space="preserve">
-    <value>losefatquickly.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items24" xml:space="preserve">
-    <value>patriciascookingblog.food/blog</value>
-  </data>
-  <data name="websitesCheckBoxes.Items25" xml:space="preserve">
-    <value>patriciascookingblog.food/login</value>
-  </data>
-  <data name="websitesCheckBoxes.Items26" xml:space="preserve">
-    <value>patriciascookingblog.food/main</value>
-  </data>
-  <data name="websitesCheckBoxes.Items27" xml:space="preserve">
-    <value>peepee.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items28" xml:space="preserve">
-    <value>pixelglasses.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items29" xml:space="preserve">
-    <value>realmenfishing.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items30" xml:space="preserve">
-    <value>slots.casino.ic</value>
-  </data>
-  <data name="websitesCheckBoxes.Items31" xml:space="preserve">
-    <value>stonks.ic</value>
   </data>
   <data name="visitedWebsiteGroupBox.Text" xml:space="preserve">
     <value>訪問したウェブサイト</value>
   </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>ウェブサイト</value>
+  <data name="websitesCheckBoxes.Items10" xml:space="preserve">
+    <value>cocktracts.ic/contract</value>
+  </data>
+  <data name="websitesCheckBoxes.Items14" xml:space="preserve">
+    <value>cocktwitch.ic</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>教会の功績</value>
   </data>
   <data name="richTextBox5.Text" xml:space="preserve">
     <value>「最悪の結末」</value>
@@ -625,23 +574,8 @@ Copyright © 2023-2025 Strawberry Software。無断複写・転載を禁じま�
   <data name="richTextBox6.Text" xml:space="preserve">
     <value>「十分ではない結末」</value>
   </data>
-  <data name="checkedListBox1.Items" xml:space="preserve">
-    <value>church-endSpotkanie2B</value>
-  </data>
-  <data name="checkedListBox1.Items1" xml:space="preserve">
-    <value>church-endTheWorstEnd</value>
-  </data>
-  <data name="checkedListBox1.Items2" xml:space="preserve">
-    <value>church-endIdontknow</value>
-  </data>
-  <data name="checkedListBox1.Items3" xml:space="preserve">
-    <value>church-endJustGoThereGood</value>
-  </data>
-  <data name="checkedListBox1.Items4" xml:space="preserve">
-    <value>church-endJustGoThereBad</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>教会の功績</value>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>その他の実績</value>
   </data>
   <data name="richTextBox7.Text" xml:space="preserve">
     <value>ending-ballsexploded --- 「ジュースが多すぎる...」
@@ -662,65 +596,20 @@ ending-theyKnow --- 「彼らは知っている...」
 bigdaddyhurtSecretEpilogue --- それ自体はエンディングではありませんが、「彼らは知っている...」の一部です。 - bigdaddyhurt に会いましたが、彼のストーリーラインは続きませんでした
 saveEdited --- iamacheater の Web サイトを使用しました。</value>
   </data>
-  <data name="checkedListBox2.Items" xml:space="preserve">
-    <value>ending-ballsexploded</value>
-  </data>
-  <data name="checkedListBox2.Items1" xml:space="preserve">
-    <value>ending-goodEnd1</value>
-  </data>
-  <data name="checkedListBox2.Items2" xml:space="preserve">
-    <value>ending-badEnd1</value>
-  </data>
-  <data name="checkedListBox2.Items3" xml:space="preserve">
-    <value>ending-badEnd2</value>
-  </data>
-  <data name="checkedListBox2.Items4" xml:space="preserve">
-    <value>ending-badEnd3</value>
-  </data>
-  <data name="checkedListBox2.Items5" xml:space="preserve">
-    <value>ending-badEnd4.1</value>
-  </data>
-  <data name="checkedListBox2.Items6" xml:space="preserve">
-    <value>ending-badEnd4.2</value>
-  </data>
-  <data name="checkedListBox2.Items7" xml:space="preserve">
-    <value>ending-healthEnd</value>
-  </data>
-  <data name="checkedListBox2.Items8" xml:space="preserve">
-    <value>ending-fedEnd</value>
-  </data>
-  <data name="checkedListBox2.Items9" xml:space="preserve">
-    <value>ending-schizoEnd</value>
-  </data>
-  <data name="checkedListBox2.Items10" xml:space="preserve">
-    <value>ending-genericSchizoEnd</value>
-  </data>
-  <data name="checkedListBox2.Items11" xml:space="preserve">
-    <value>ending-KilledByADirtyCop1</value>
-  </data>
-  <data name="checkedListBox2.Items12" xml:space="preserve">
-    <value>ending-KilledByADirtyCop2</value>
-  </data>
   <data name="checkedListBox2.Items13" xml:space="preserve">
     <value>結末-theyKnowOblivious</value>
-  </data>
-  <data name="checkedListBox2.Items14" xml:space="preserve">
-    <value>ending-theyKnow</value>
-  </data>
-  <data name="checkedListBox2.Items15" xml:space="preserve">
-    <value>bigdaddyhurtSecretEpilogue</value>
   </data>
   <data name="checkedListBox2.Items16" xml:space="preserve">
     <value>保存編集済み</value>
   </data>
-  <data name="groupBox5.Text" xml:space="preserve">
-    <value>その他の実績</value>
-  </data>
   <data name="button1.Text" xml:space="preserve">
     <value>実績を表示</value>
   </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>実績</value>
+  <data name="saveEditGroupBox.Text" xml:space="preserve">
+    <value>編集を保存</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 13</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>彼女を安全（そして満たす）に保つことを忘れないでください</value>
@@ -3262,8 +3151,8 @@ saveEdited --- iamacheater の Web サイトを使用しました。</value>
   <data name="createBackupButton.Text" xml:space="preserve">
     <value>バックアップを作成</value>
   </data>
-  <data name="saveEditGroupBox.Text" xml:space="preserve">
-    <value>編集を保存</value>
+  <data name="saveEditConsentBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>951, 17</value>
   </data>
   <data name="saveEditConsentBox.Text" xml:space="preserve">
     <value>この機能を使用すると、保存したゲームが破損したり、危険にさらされたりする可能性があることを認識し、理解しています。また、進行状況やデータが失われる可能性について、私は全責任を負います。</value>
@@ -3272,99 +3161,98 @@ saveEdited --- iamacheater の Web サイトを使用しました。</value>
     <value>警告! この機能はテスト中であり、保存データが破損する可能性があります。バックアップを保存してください。
 このテキストを読み、データの損失はすべてお客様の責任であり、お客様自身の責任であること、およびこの機能により、すべての保存データではないにしても、選択した保存データが破損する可能性が高いことを認めると、オプションがロック解除されます。</value>
   </data>
-  <data name="tabPage8.Text" xml:space="preserve">
-    <value>編集を保存</value>
-  </data>
-  <data name="commandsTextBox.Text" xml:space="preserve">
-    <value>"C:\system\debug\reports\report_1.txt" --- Sys Report 1 Virus attack, DT?
-"C:\system\debug\reports\report_2.txt" --- Sys Report 2 - if 3, must be 2 and 1
-"C:\system\debug\reports\report_3.txt" --- Sys Report 3 - Found after prologue, cutscene of console.
-"F:\files\research\journal\1574_12_12.txt" --- Journal Text of Derry Tavis
-"F:\Jun\system\safety\Asimov3.xftt" --- Access Denied
-F:\files\research\journal\1578_12_16.txt
-F:\files\research\journal\1580_12_18.txt
-
-PlayVideo --- Uses file path to play a given video (e.g. [ PlayVideo "C:\Videos\Meruccubus.mp4" ] )
-
-VV Prompts (add "vv" before the command)
-
-lust
-sympathy
-mood
-isNaked
-cumInsideAnalMl
-cumInsideVaginaMl
-cumInsideStomachMl
-masterCumExtractedMl
-timeSinceLastHeadpat
-timeSinceLastSex
-timeSinceLastTalkWithMaster
-Horniness
-MasterName
-SelfName
-timesCameMouth
-timeCameInsideVagina
-timeCameInsideAnal</value>
-  </data>
   <data name="commandsGroupBox.Text" xml:space="preserve">
-    <value>コマンド</value>
-  </data>
-  <data name="tabPage9.Text" xml:space="preserve">
     <value>コマンド</value>
   </data>
   <data name="debugTextBox.Text" xml:space="preserve">
     <value>保存ファイルをロードします。保存ファイルの内容がここに表示されます。</value>
   </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>デバッグ</value>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>メニューストリップ1</value>
   </data>
-  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
-    <value>ファイルをロード...</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>終了</value>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>ファイル...</value>
   </data>
-  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
-    <value>アップデートを確認する</value>
+  <data name="loadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
   </data>
-  <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Readmeを開く</value>
+  <data name="loadToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイルをロード...</value>
   </data>
-  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
-    <value>バグを報告する</value>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
   </data>
-  <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
-    <value>機能を提案する</value>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>終了</value>
   </data>
-  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
-    <value>GitHubへのクイックリンク</value>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>ヘルプ...</value>
   </data>
-  <data name="traditionalChineseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>アップデートを確認する</value>
+  </data>
+  <data name="openReadmeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="openReadmeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Readmeを開く</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 6</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="reportABugToolStripMenuItem.Text" xml:space="preserve">
+    <value>バグを報告する</value>
+  </data>
+  <data name="suggestAFeatureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="suggestAFeatureToolStripMenuItem.Text" xml:space="preserve">
+    <value>機能を提案する</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="quickLinkToGitHubToolStripMenuItem.Text" xml:space="preserve">
+    <value>GitHubへのクイックリンク</value>
+  </data>
+  <data name="MDRGDiscordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="MDRGDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>MDRG Discordサーバー</value>
+  </data>
+  <data name="StrawberrySoftwareDiscordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 22</value>
+  </data>
+  <data name="StrawberrySoftwareDiscordToolStripMenuItem.Text" xml:space="preserve">
+    <value>Strawberry Software Discordサーバー</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>言語 | Language...</value>
   </data>
   <data name="traditionalChineseToolStripMenuItem.Text" xml:space="preserve">
     <value>繁体中文 | 中国語（繁体字）</value>
   </data>
-  <data name="deutschToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
   <data name="deutschToolStripMenuItem.Text" xml:space="preserve">
     <value>Deutsch | ドイツ語</value>
   </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
-  </data>
   <data name="englishToolStripMenuItem.Text" xml:space="preserve">
     <value>English | 英語</value>
-  </data>
-  <data name="españolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 22</value>
   </data>
   <data name="españolToolStripMenuItem.Text" xml:space="preserve">
     <value>Español (MT) | スペイン語</value>
@@ -3375,14 +3263,11 @@ timeCameInsideAnal</value>
   <data name="portuguesaToolStripMenuItem.Text" xml:space="preserve">
     <value>Portuguesa (MT) | ポルトガル語</value>
   </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>言語 | Language...</value>
+  <data name="donateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
   </data>
   <data name="donateToolStripMenuItem.Text" xml:space="preserve">
     <value>寄付する</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>メニューストリップ1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3462,24 +3347,5 @@ timeCameInsideAnal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>私のディストピアロボットガールフレンド保存アナライザー</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="satiationTextBox.Multiline" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="groupBox83.Text" xml:space="preserve">
-    <value>飽食</value>
-  </data>
-  <data name="groupBox82.Text" xml:space="preserve">
-    <value>現在のムラムラ感</value>
-  </data>
-  <data name="groupBox81.Text" xml:space="preserve">
-    <value>残るユニークな会話</value>
-  </data>
-  <data name="&gt;&gt;weeklyRentTextBox.Name" xml:space="preserve">
-    <value>週間賃料</value>
-  </data>
-  <data name="groupBox85.Text" xml:space="preserve">
-    <value>備考</value>
   </data>
 </root>
