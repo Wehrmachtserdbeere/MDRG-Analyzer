@@ -28,12 +28,21 @@ installed.
 
 Linux is **not** supported, however, it is confirmed to work using "PlayOnLinux with 64bit" on Pop_OS 22.04 (Thanks to bgrmystr2 for testing this!)
 
-If you use Linux, any technical difficulties will **not** be supported, and I cannot give any support for it.
+If you use Linux, any technical difficulties will **not** receive support, as I cannot give any support for it.
 
 Known issues:
 - It may not work with Pop_OS' built-in Wine.
 - The Debug tab may use up a lot of resources, and depending on your save size, may cause the program to stop responding until it finishes loading.
 - Resizing the program may mess up labels and more.
+
+## Macintosh / MAC
+
+Mac, like Linux, is **not** supported, however, someone has managed to use the program with Mono.
+
+If you use Mac, any technical difficulties will **not** receive support, as I cannot give any support for it.
+
+Known issues:
+- The Debug tab may use up a lot of resources, and depending on your save size, may cause the program to stop responding until it finishes loading.
 
 ## Links
 [Click here to get to the GitHub repository of the program.](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer)
@@ -90,9 +99,12 @@ Before you start, make sure you have MDRG Analyzer installed on your computer. M
 
 3. **Click on "Load File" in the drop-down menu**
 
- After clicking "File," a drop-down menu will appear. Look for the option that says "Load File" and click on it.
+ After clicking "File" a drop-down menu will appear. Look for the option that says "Load File" and click on it.
 
 4. **Navigate to Your Save File Location**
+
+***Warning:* Do not use saves that are stored inside `C:\Users\Strawb\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves`!**<br />
+In version 0.90 and after, this is used exclusively for in-game saves that are **not** usable by **MDRG Analyzer**.
 
  A window will pop up asking you to select a file. You need to go to the folder where you saved your save files. The default location for this is:
  `C:\Users\YourUsername\Documents`
@@ -105,12 +117,11 @@ Alternatively, it is stored simply in: `Documents`, which is located under `This
 
 If you are confused why the program might open in a weirdly different folder by default, it used to open in the previous default save file location.
 
-**Do not use saves that are stored inside `C:\Users\Strawb\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves`!**
-In version 0.90 and after, this is used exclusively for in-game saves, that are **not** usable by **MDRG Analyzer**.
-
 5. **Select Your Save File and Press "Open"**
 
  Once you are inside the folder, you will see your save file. They might be named something like "save1234567890" or "save123456789.mdrg". Click on the save file you want to edit and then click the "Open" button.
+
+ If you have file endings enabled, ensure that your file does **not** end with ".mdrgslot"! These are not-yet-exported files that **do not work!**
 
 6. **Select the Correct Save Slot**
 
@@ -170,7 +181,7 @@ After editing, you'll need to save your changes and load the edited file in the 
 6. **Load Your Edited File**
 
  Navigate back to the save file you edited (it’s usually the same location you found it in:
- `C:\Users\YourUsername\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves`). Select it and click "Open."
+ `C:\Users\YourUsername\Documents`). Select it and click "Open."
 
 7. **Press "Load" on the Save Slot You Edited**
 
@@ -204,7 +215,7 @@ This could be a result of a corrupted save file. Make sure to use a JSON Beautif
 
 If this persists, go on the [Discord Server](https://discord.com/invite/SwpQUFWreW) and ask for assistance there.
 
-If you get another error, report it either through the [Discord Server](https://discord.com/invite/SwpQUFWreW), or open an [Issue](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/issues).
+If you get a different error, report it either through the [Discord Server](https://discord.com/invite/SwpQUFWreW), or open an [Issue](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/issues).
 
 ### How do I make my own theme?
 
@@ -258,4 +269,8 @@ When debugging:
 
 - 22 CPU Threads during intense processes
 - Around **25 MB** (rounded up) of RAM while idle.
-- At most **204 MB** (rounded up) of RAM during intense processes 
+- At most **204 MB** (rounded up) of RAM during intense processes
+
+### What dependencies does this program have?
+
+To find this program's `using`, check the file `Form1.cs` and look at the top.
