@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="exit" xml:space="preserve">
+    <value>Verlassen</value>
+  </data>
+  <data name="input" xml:space="preserve">
+    <value>Eingabe</value>
+  </data>
+  <data name="invalidkey" xml:space="preserve">
+    <value>Ungültige Eingabe, bitte wähle eine der gültigen Optionen aus.</value>
+  </data>
+  <data name="loadfile" xml:space="preserve">
+    <value>Datei laden</value>
+  </data>
+  <data name="loadfile_instructions" xml:space="preserve">
+    <value>Bitte gib das Verzeichnis ein, in dem sich die zu ladende Datei befindet. Alternativ kannst du auch direkt eine Datei eingeben.</value>
+  </data>
+  <data name="loadfile_invalid" xml:space="preserve">
+    <value>Die Datei oder das Verzeichnis wurde nicht gefunden. Bitte stelle sicher, dass die eingegebene Datei, falls zutreffend, mit ".mdrg" endet. Bitte versuche es erneut.</value>
+  </data>
+  <data name="loadfile_selectoneofthesefiles" xml:space="preserve">
+    <value>Bitte wähle eine dieser Dateien aus</value>
+  </data>
+  <data name="mainmenu" xml:space="preserve">
+    <value>Hauptmenü</value>
+  </data>
+  <data name="nosavedata" xml:space="preserve">
+    <value>Anscheinend hast du ein Problem: Der Abschnitt "savedata" in deiner JSON-Datei ist leer. Das mag auf den ersten Blick wie ein Fehler erscheinen, aber ich möchte dir versichern, dass das Programm einwandfrei funktioniert. Das Problem liegt nicht an einer Fehlfunktion der Software, sondern an einem Missverständnis über den eigentlichen Speicher- und Ladevorgang.
+
+Lass uns das Ganze genauer durchgehen und sicherstellen, dass alles klar ist.
+
+Wenn du die Speicherdatei öffnest und feststellst, dass "savedata" leer ist, ist es wichtig zu verstehen, was das bedeutet. Das Programm sucht nach gespeicherten Spielinhalten, die du zuvor exportiert hast. Ist das Feld "savedata" leer, bedeutet das, dass dort noch keine Spielstände gespeichert wurden. Dies deutet nicht auf einen Fehler in der Anwendung hin – es bedeutet lediglich, dass noch kein Spielstand aufgezeichnet wurde.
+
+Dies ist ein häufiges Problem, das auftritt, wenn Benutzer versuchen, eine Speicherdatei zu laden, ohne zuvor Daten exportiert zu haben. Stell dir das so vor, als würdest du versuchen, ein Spiel zu laden, bevor du etwas gespeichert hast – es gibt nichts zu laden, weil nichts gespeichert wurde.
+
+Hier ist der entscheidende Punkt: Du musst deinen Spielstand exportieren, bevor du ihn laden kannst.
+
+Dieser Schritt wird in der README-Datei, die dem Projekt beiliegt, erklärt. Ich empfehle dir dringend, diese vollständig zu lesen. Die README-Datei enthält detaillierte Anweisungen zur Verwendung der Speicher- und Ladefunktion. Wenn du diese Schritte befolgst, ist eine reibungslose und frustfreie Nutzung des Programms gewährleistet.
+
+Ich weiß, dass das Lesen der Dokumentation manchmal mühsam oder unnötig erscheinen kann, insbesondere wenn du dich sofort in das Projekt oder Tool vertiefen möchtest. In diesem Fall führt das Überspringen der Anweisungen jedoch direkt zu dem Problem, mit dem du jetzt konfrontiert bist.
+
+Kurz gesagt: Exportiere deinen Spielstand, bevor du versuchst, ihn zu laden.
+
+Wenn du sicher bist, dass du deine Sicherungsdatei exportiert habst und dieser Fehler weiterhin auftritt, wende dich bitte an Strawberry Software im offiziellen GitHub-Repository, indem du ein Problem öffnest, auf dem offiziellen Discord-Server von Strawberry Software gehst und dort Strawberry anpingst, oder du zum MDRG Analyzer-Thread auf dem Discord-Server von Incontinent Cell gehst und Strawberry dort anpingst.</value>
+  </data>
+  <data name="pleasecontactme" xml:space="preserve">
+    <value>Bitte kontaktiere Strawberry Software über das offizielle GitHub-Repository, indem du ein Issue eröffnest, auf den offiziellen Discord-Server von Strawberry Software gehst und Strawberry anpingst oder zum MDRG Analyzer-Thread auf dem Discord-Server von Incontinent Cell gehst und Strawberry dort anpingst.</value>
+  </data>
+  <data name="selectsavefile" xml:space="preserve">
+    <value>Bitte wähle den zu ladenden Speicherstand aus.</value>
+  </data>
+  <data name="selectsaveslot_invalidsaveslot" xml:space="preserve">
+    <value>Es wurde ein ungültiger Speicherplatz ausgewählt. Bitte versuche es erneut.</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="settings_availablelanguages" xml:space="preserve">
+    <value>Verfügbare Sprachen</value>
+  </data>
+  <data name="settings_defaultlanguage" xml:space="preserve">
+    <value>Standard-Sprache</value>
+  </data>
+  <data name="settings_defaultlanguage_prompt" xml:space="preserve">
+    <value>Lege die gewünschte Standardsprache für die Programmnutzung fest. Bei ungültigen Einträgen wird standardmäßig Englisch (Vereinigte Staaten von Amerika) verwendet.</value>
+  </data>
+  <data name="settings_errorsavingsettings" xml:space="preserve">
+    <value>Fehler beim Speichern der Einstellungen. Eine Log-Datei wurde erstellt.</value>
+  </data>
+  <data name="settings_instructions" xml:space="preserve">
+    <value>Bitte gib den Schlüssel für die Einstellung ein, die du ändern möchtest.</value>
+  </data>
+  <data name="settings_invalidlanguage" xml:space="preserve">
+    <value>Ungültige Sprache ausgewählt, es wird auf Englisch (Vereinigte Staaten von Amerika) zurückgegriffen.</value>
+  </data>
+  <data name="settings_saved" xml:space="preserve">
+    <value>Einstellungen erfolgreich gespeichert! Es wird zum Hauptmenu zurückgekehrt.</value>
+  </data>
+  <data name="settings_youhaveselectedlanguage" xml:space="preserve">
+    <value>Sie haben ausgewählt</value>
+  </data>
+  <data name="slot" xml:space="preserve">
+    <value>Speicherstand</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="WeekDaysFriday" xml:space="preserve">
+    <value>Freitag</value>
+  </data>
+  <data name="WeekDaysMonday" xml:space="preserve">
+    <value>Montag</value>
+  </data>
+  <data name="WeekDaysSaturday" xml:space="preserve">
+    <value>Samstag</value>
+  </data>
+  <data name="WeekDaysSunday" xml:space="preserve">
+    <value>Sonntag</value>
+  </data>
+  <data name="WeekDaysThursday" xml:space="preserve">
+    <value>Donnerstag</value>
+  </data>
+  <data name="WeekDaysTuesday" xml:space="preserve">
+    <value>Dienstag</value>
+  </data>
+  <data name="WeekDaysUnknown" xml:space="preserve">
+    <value>Unbekannt</value>
+  </data>
+  <data name="WeekDaysWednesday" xml:space="preserve">
+    <value>Mittwoch</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Willkommen beim MDRG Analyzer (Multi-Plattform)! Dies ist zwar eine sekundäre App zum MDRG Analyzer, welcher nur für Windows verfügbar ist, aber ich hoffe, du kannst sie als nativ unterstützte Lösung nutzen!</value>
+  </data>
+</root>

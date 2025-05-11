@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>MDRG_Analyzer_Multi_Platform</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  
+	<!-- Metadata -->
+	  <AssemblyTitle>MDRG_Analyzer_Multi_Platform</AssemblyTitle>
+	  <Description>Commandline version of the Windows-only MDRG Analyzer App.</Description>
+	  <Company>Strawberry Software</Company>
+	  <Authors>Strawberry</Authors>
+	  <Product>MDRG_Analyzer_Multi_Platform</Product>
+	  <Copyright>© 2025 Strawberry Software</Copyright>
+	  
+	  <!-- GitHub -->
+	  <RepositoryUrl>https://github.com/Wehrmachtserdbeere/MDRG-Analyzer</RepositoryUrl>
+	  
+	  <!-- Versioning -->
+	  <Version>1.0.0.0</Version>
+	  <FileVersion>1.0.0.0</FileVersion>
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\Generic.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Generic.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\IDs.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>IDs.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Generic.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Generic.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\IDs.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IDs.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
