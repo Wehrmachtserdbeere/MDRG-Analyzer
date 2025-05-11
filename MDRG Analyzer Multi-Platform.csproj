@@ -20,7 +20,7 @@
 	  
 	  <!-- Versioning -->
 	  <Version>1.0.0.0</Version>
-	  <FileVersion>1.0.0.1</FileVersion>
+	  <FileVersion>1.1.18.0</FileVersion>
 	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
