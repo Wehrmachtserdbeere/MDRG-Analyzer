@@ -59,5 +59,563 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bot Name.
+        /// </summary>
+        internal static string data_botname {
+            get {
+                return ResourceManager.GetString("data_botname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Casino Tokens.
+        /// </summary>
+        internal static string data_casinotokens {
+            get {
+                return ResourceManager.GetString("data_casinotokens", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cum inside (ml).
+        /// </summary>
+        internal static string data_cuminside {
+            get {
+                return ResourceManager.GetString("data_cuminside", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cum inside anal (ml).
+        /// </summary>
+        internal static string data_cuminsideanal {
+            get {
+                return ResourceManager.GetString("data_cuminsideanal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cum inside stomach (ml).
+        /// </summary>
+        internal static string data_cuminsidestomach {
+            get {
+                return ResourceManager.GetString("data_cuminsidestomach", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current horniness.
+        /// </summary>
+        internal static string data_currenthorniness {
+            get {
+                return ResourceManager.GetString("data_currenthorniness", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deathgrip End.
+        /// </summary>
+        internal static string data_deathgripend {
+            get {
+                return ResourceManager.GetString("data_deathgripend", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Followers.
+        /// </summary>
+        internal static string data_followers {
+            get {
+                return ResourceManager.GetString("data_followers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game Version (from Save).
+        /// </summary>
+        internal static string data_gameversion {
+            get {
+                return ResourceManager.GetString("data_gameversion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Health.
+        /// </summary>
+        internal static string data_health {
+            get {
+                return ResourceManager.GetString("data_health", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In-Game Time.
+        /// </summary>
+        internal static string data_ingametime {
+            get {
+                return ResourceManager.GetString("data_ingametime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Intelligence.
+        /// </summary>
+        internal static string data_inteligence {
+            get {
+                return ResourceManager.GetString("data_inteligence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last bot talk at.
+        /// </summary>
+        internal static string data_lastbottalkat {
+            get {
+                return ResourceManager.GetString("data_lastbottalkat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last cuddled at.
+        /// </summary>
+        internal static string data_lastcuddledat {
+            get {
+                return ResourceManager.GetString("data_lastcuddledat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last equipment at.
+        /// </summary>
+        internal static string data_lastequipmentat {
+            get {
+                return ResourceManager.GetString("data_lastequipmentat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last fucked at.
+        /// </summary>
+        internal static string data_lastfuckedat {
+            get {
+                return ResourceManager.GetString("data_lastfuckedat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last headpat at.
+        /// </summary>
+        internal static string data_lastheadpatat {
+            get {
+                return ResourceManager.GetString("data_lastheadpatat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last hunger info at.
+        /// </summary>
+        internal static string data_lasthungerinfoat {
+            get {
+                return ResourceManager.GetString("data_lasthungerinfoat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last interaction at.
+        /// </summary>
+        internal static string data_lastinteractat {
+            get {
+                return ResourceManager.GetString("data_lastinteractat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last mental health info at.
+        /// </summary>
+        internal static string data_lastmentalhealthinfoat {
+            get {
+                return ResourceManager.GetString("data_lastmentalhealthinfoat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last outside with bot.
+        /// </summary>
+        internal static string data_lastoutsidewithbot {
+            get {
+                return ResourceManager.GetString("data_lastoutsidewithbot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last streamed at.
+        /// </summary>
+        internal static string data_laststreamedat {
+            get {
+                return ResourceManager.GetString("data_laststreamedat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last time went to Church at.
+        /// </summary>
+        internal static string data_lastwenttochurchat {
+            get {
+                return ResourceManager.GetString("data_lastwenttochurchat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last woke up at.
+        /// </summary>
+        internal static string data_lastwokeupat {
+            get {
+                return ResourceManager.GetString("data_lastwokeupat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Last worked at day.
+        /// </summary>
+        internal static string data_lastworkedatday {
+            get {
+                return ResourceManager.GetString("data_lastworkedatday", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Longest Stream.
+        /// </summary>
+        internal static string data_longeststream {
+            get {
+                return ResourceManager.GetString("data_longeststream", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Longing.
+        /// </summary>
+        internal static string data_longing {
+            get {
+                return ResourceManager.GetString("data_longing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lust.
+        /// </summary>
+        internal static string data_lust {
+            get {
+                return ResourceManager.GetString("data_lust", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Max cum.
+        /// </summary>
+        internal static string data_maxcum {
+            get {
+                return ResourceManager.GetString("data_maxcum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mental health.
+        /// </summary>
+        internal static string data_mentalhealth {
+            get {
+                return ResourceManager.GetString("data_mentalhealth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Came in mouth (ml).
+        /// </summary>
+        internal static string data_mlcameinmouth {
+            get {
+                return ResourceManager.GetString("data_mlcameinmouth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cum wasted (ml).
+        /// </summary>
+        internal static string data_mlofcumwasted {
+            get {
+                return ResourceManager.GetString("data_mlofcumwasted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Money.
+        /// </summary>
+        internal static string data_money {
+            get {
+                return ResourceManager.GetString("data_money", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Money earned from Streams.
+        /// </summary>
+        internal static string data_moneyearnedfromstreams {
+            get {
+                return ResourceManager.GetString("data_moneyearnedfromstreams", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mood.
+        /// </summary>
+        internal static string data_mood {
+            get {
+                return ResourceManager.GetString("data_mood", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Notes.
+        /// </summary>
+        internal static string data_notes {
+            get {
+                return ResourceManager.GetString("data_notes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nun Points.
+        /// </summary>
+        internal static string data_nunpoints {
+            get {
+                return ResourceManager.GetString("data_nunpoints", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player Name.
+        /// </summary>
+        internal static string data_playername {
+            get {
+                return ResourceManager.GetString("data_playername", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Priestbot Points.
+        /// </summary>
+        internal static string data_priestbotpoints {
+            get {
+                return ResourceManager.GetString("data_priestbotpoints", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remaining cum.
+        /// </summary>
+        internal static string data_remainingcum {
+            get {
+                return ResourceManager.GetString("data_remainingcum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rent.
+        /// </summary>
+        internal static string data_rent {
+            get {
+                return ResourceManager.GetString("data_rent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Satiation.
+        /// </summary>
+        internal static string data_satiation {
+            get {
+                return ResourceManager.GetString("data_satiation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search.
+        /// </summary>
+        internal static string data_search {
+            get {
+                return ResourceManager.GetString("data_search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game Stage.
+        /// </summary>
+        internal static string data_stage {
+            get {
+                return ResourceManager.GetString("data_stage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stamina.
+        /// </summary>
+        internal static string data_stamina {
+            get {
+                return ResourceManager.GetString("data_stamina", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stream Count.
+        /// </summary>
+        internal static string data_streamcount {
+            get {
+                return ResourceManager.GetString("data_streamcount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Streamed for.
+        /// </summary>
+        internal static string data_streamedfor {
+            get {
+                return ResourceManager.GetString("data_streamedfor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subs.
+        /// </summary>
+        internal static string data_subs {
+            get {
+                return ResourceManager.GetString("data_subs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sympathy.
+        /// </summary>
+        internal static string data_sympathy {
+            get {
+                return ResourceManager.GetString("data_sympathy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Times came inside.
+        /// </summary>
+        internal static string data_timescameinside {
+            get {
+                return ResourceManager.GetString("data_timescameinside", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Times came outside.
+        /// </summary>
+        internal static string data_timescameoutside {
+            get {
+                return ResourceManager.GetString("data_timescameoutside", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chess Losses.
+        /// </summary>
+        internal static string data_timeslostchess {
+            get {
+                return ResourceManager.GetString("data_timeslostchess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Old Maid Losses.
+        /// </summary>
+        internal static string data_timeslostoldmaid {
+            get {
+                return ResourceManager.GetString("data_timeslostoldmaid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Word Chain Losses.
+        /// </summary>
+        internal static string data_timeslostwordchain {
+            get {
+                return ResourceManager.GetString("data_timeslostwordchain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Old Maid Runaways.
+        /// </summary>
+        internal static string data_timesranawayoldmaid {
+            get {
+                return ResourceManager.GetString("data_timesranawayoldmaid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Times went to Church.
+        /// </summary>
+        internal static string data_timeswenttochurch {
+            get {
+                return ResourceManager.GetString("data_timeswenttochurch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chess Wins.
+        /// </summary>
+        internal static string data_timeswonchess {
+            get {
+                return ResourceManager.GetString("data_timeswonchess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Old Maid Wins.
+        /// </summary>
+        internal static string data_timeswonoldmaid {
+            get {
+                return ResourceManager.GetString("data_timeswonoldmaid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Word Chain Wins.
+        /// </summary>
+        internal static string data_timeswonwordchain {
+            get {
+                return ResourceManager.GetString("data_timeswonwordchain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unique conversations left.
+        /// </summary>
+        internal static string data_uniqueconversationsleft {
+            get {
+                return ResourceManager.GetString("data_uniqueconversationsleft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vinegara End.
+        /// </summary>
+        internal static string data_vinegaraend {
+            get {
+                return ResourceManager.GetString("data_vinegaraend", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weekly Rent.
+        /// </summary>
+        internal static string data_weeklyrent {
+            get {
+                return ResourceManager.GetString("data_weeklyrent", resourceCulture);
+            }
+        }
     }
 }

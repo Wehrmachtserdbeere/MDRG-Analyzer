@@ -3,7 +3,6 @@ using System.Globalization;
 using System.Reflection;
 using System.Resources;
 using MDRG_Analyzer_Multi_Platform.Resources;
-using Microsoft.VisualBasic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -11,9 +10,59 @@ namespace MDRG_Analyzer
 {
     public class Program
     {
+
+        /// TODO - Once the dev decides to stop being a massive pain and uses NORMAL JSON, this will be continued.
+        /// Until then, this is just a stat checker without any save editing capabilities.
+        /// Fuck this.
+
         string fileContent;
-        JObject saveFileJson;
+        JObject savefileJson;
+        JObject savefileRoot;
         dynamic jsonData;
+        bool createdBackup = false;
+        JObject websites = [];
+        string[] visitedWebsites = Array.Empty<string>();
+        JObject achievementsObject = [];
+        string[] gottenAchievements = Array.Empty<string>();
+        List<StringValue> stringValues = [];
+        List<IntValue> intValues = [];
+        List<DoubleValue> doubleValues = [];
+        List<BoolValue> boolValues = [];
+        string filePath;
+        int selectedSaveFile = -1;
+        string notes;
+        int streamDays = 0, streamHours = 0, streamMinutes = 0,
+                longestStreamDays = 0, longestStreamHours = 0, longestStreamMinutes = 0,
+                ingameTimeDays = 0, ingameTimeHours = 0, ingameTimeMinutes = 0;
+        string weekdayText = string.Empty;
+        int saveSlot = 0;
+
+        // List of all achievements
+        Dictionary<string, string> allAchievements = new()
+        {
+            { "church-endSpotkanie2B", Achievements.ending_oblivious },
+            { "church-endTheWorstEnd", Achievements.ending_worst },
+            { "church-endIdontknow", Achievements.ending_idontknow },
+            { "church-endJustGoThereGood", Achievements.ending_goodend2 },
+            { "church-endJustGoThereBad", Achievements.ending_notgoodenough },
+            { "ending-ballsexploded", Achievements.ending_ballsexploded },
+            { "ending-goodEnd1", Achievements.ending_goodend1 },
+            { "ending-badEnd1", Achievements.ending_badend1 },
+            { "ending-badEnd2", Achievements.ending_badend2 },
+            { "ending-badEnd3", Achievements.ending_badend3 },
+            { "ending-badEnd4.1", Achievements.ending_badend4_1 },
+            { "ending-badEnd4.2", Achievements.ending_badend4_2 },
+            { "ending-healthEnd", Achievements.ending_healthend },
+            { "ending-fedEnd", Achievements.ending_fedend },
+            { "ending-schizoEnd", Achievements.ending_schizoend },
+            { "ending-genericSchizoEnd", Achievements.ending_genericschizoend },
+            { "ending-KilledByADirtyCop1", Achievements.ending_killedbyadirtycop1 },
+            { "ending-KilledByADirtyCop2", Achievements.ending_killedbyadirtycop2 },
+            { "ending-theyKnowOblivious", Achievements.ending_theyknowoblivious },
+            { "ending-theyKnow", Achievements.ending_theyknow },
+            { "bigdaddyhurtSecretEpilogue", Achievements.ending_bigdaddyhurtSecretEpilogue },
+            { "saveEdited", Achievements.ending_saveedited },
+        };
 
         public static void Main()
         {
@@ -23,6 +72,8 @@ namespace MDRG_Analyzer
 
         public static void Run()
         {
+
+            Program program = new();
 
             // Create Settings if it does not exist yet.
 
@@ -38,6 +89,15 @@ namespace MDRG_Analyzer
 
             // Get default language from settings. If not found, set to English.
             string defaultLanguage = settings != null && settings.ContainsKey("DefaultLanguage") ? settings["DefaultLanguage"] : "en-US";
+
+            // Set program to default language.
+            CultureInfo.CurrentCulture = new CultureInfo(defaultLanguage);
+            CultureInfo.CurrentUICulture = new CultureInfo(defaultLanguage);
+
+            // Force parsing and internal operations to use dot as decimal separator, without changing the language.
+            CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
+            CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.InvariantCulture;
+
 
             // Welcome, here's the logo.
             Console.WriteLine(
@@ -58,6 +118,11 @@ namespace MDRG_Analyzer
 
             Console.WriteLine();
             Console.WriteLine(Generic.welcome);
+
+            while (true)
+            {
+                program.MainMenu(false);
+            }
         }
 
         /// <summary>
@@ -77,12 +142,34 @@ namespace MDRG_Analyzer
 
             Console.WriteLine(
                 $"(1) {Generic.loadfile}\n" +
-                $"(2) {Generic.settings}"
+                $"(2) {Generic.settings}\n" +
+                $"(3) {Generic.exit}"
                 );
-            ConsoleKeyInfo key = Console.ReadKey();
+            string input = Console.ReadLine();
             Console.WriteLine();
 
-            switch (key.Key)
+            if (string.IsNullOrEmpty(input))
+            {
+                Console.WriteLine(Generic.invalidkey);
+                return;
+            }
+            else if (input.ToLower() == "1" || input.ToLower() == "loadfile")
+            {
+                LoadFile();
+                return;
+            }
+            else if (input.ToLower() == "2" || input.ToLower() == "settings")
+            {
+                OpenSettings();
+                return;
+            }
+            else if (input.ToLower() == "3" || input.ToLower() == "exit")
+            {
+                Environment.Exit(0);
+                return;
+            }
+
+            /*switch (key.Key)
             {
                 case ConsoleKey.D1:
                     LoadFile();
@@ -92,9 +179,8 @@ namespace MDRG_Analyzer
                     break;
                 default:
                     Console.WriteLine(Generic.invalidkey);
-                    MainMenu();
-                    break;
-            }
+                    return;
+            }*/
         }
 
         public void LoadFile(bool clearConsole = true)
@@ -103,9 +189,17 @@ namespace MDRG_Analyzer
             {
                 Console.Clear();
             }
-            Console.WriteLine($"-- {Generic.loadfile} --");
+            Console.WriteLine($" -- {Generic.loadfile} --");
             Console.WriteLine();
             Console.WriteLine(Generic.loadfile_instructions);
+            Console.WriteLine();
+            Console.WriteLine(
+                $"{Generic.commonpaths}\n" +
+                $"(1) {Generic.documents}\n" +
+                $"(2) {Generic.desktop}\n" +
+                $"(3) {Generic.downloads}\n" +
+                $"(4) {Generic.appdata} ({Generic.thisfilelocationisdiscouraged}.)"
+                );
 
             string savefile = String.Empty;
 
@@ -113,18 +207,44 @@ namespace MDRG_Analyzer
             string input = Console.ReadLine();
             Console.WriteLine();
 
-            // Cover common shortcuts
-            if (input.ToLower() == "documents")
+            string home = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+            string os = Environment.OSVersion.Platform.ToString().ToLower();
+
+            // Normalize input
+            input = input.ToLowerInvariant();
+
+            if (input == "documents" || input == "1")
             {
                 input = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             }
-            else if (input.ToLower() == "desktop")
+            else if (input == "desktop" || input == "2")
             {
                 input = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             }
-            else if (input.ToLower() == "downloads")
+            else if (input == "downloads" || input == "3")
             {
-                input = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\Downloads";
+                input = Path.Combine(home, "Downloads");
+            }
+            else if (input == "appdata" || input == "4")
+            {
+                if (os.Contains("win"))
+                {
+                    // Windows-specific path
+                    var localLow = Path.Combine(home, "AppData", "LocalLow");
+                    input = Path.Combine(localLow, "IncontinentCell", "My Dystopian Robot Girlfriend", "Saves");
+                }
+                else if (os.Contains("mac"))
+                {
+                    // macOS: typically in Library/Application Support
+                    var lib = Path.Combine(home, "Library", "Application Support");
+                    input = Path.Combine(lib, "IncontinentCell", "My Dystopian Robot Girlfriend", "Saves");
+                }
+                else
+                {
+                    // Linux: follow XDG spec or fallback to ~/.config
+                    var config = Environment.GetEnvironmentVariable("XDG_CONFIG_HOME") ?? Path.Combine(home, ".config");
+                    input = Path.Combine(config, "IncontinentCell", "My Dystopian Robot Girlfriend", "Saves");
+                }
             }
 
             // Did the user input a file or a directory?
@@ -134,7 +254,6 @@ namespace MDRG_Analyzer
                 if (!input.EndsWith(".mdrg"))
                 {
                     Console.WriteLine(Generic.loadfile_invalid);
-                    LoadFile(false);
                     return;
                 }
 
@@ -147,8 +266,10 @@ namespace MDRG_Analyzer
                 string[] files = Directory.GetFiles(input, "*.mdrg");
                 if (files.Length == 0)
                 {
-                    Console.WriteLine(Generic.loadfile_invalid);
-                    LoadFile(false);
+                    Console.WriteLine(
+                        Generic.loadfile_nofilesfound +
+                        $"\n({input})"
+                        );
                     return;
                 }
 
@@ -166,30 +287,30 @@ namespace MDRG_Analyzer
                 if (int.TryParse(fileInput, out int fileIndex) && fileIndex > 0 && fileIndex <= files.Length)
                 {
                     // -1 because we need to account for the zero-based index
-                    savefile = Path.GetFullPath(files[fileIndex - 1]);
+                    filePath = Path.GetFullPath(files[fileIndex - 1]);
                 }
                 else
                 {
                     Console.WriteLine(Generic.invalidkey);
-                    LoadFile(false);
                     return;
                 }
             }
             else
             {
                 Console.WriteLine(Generic.loadfile_invalid);
-                LoadFile(false);
+                Console.WriteLine($"({input})");
+                return;
             }
 
             // If we have a file, continue.
-            if (savefile != null)
+            if (filePath != null)
             {
-                ProcessFile(savefile);
+                ProcessFile(filePath);
             }
         }
 
         /// <summary>
-        /// Processes the file and creates lists of the values.
+        /// Processes the file and creates lists of the values, then passes them to the SavefileMenu().
         /// </summary>
         /// <param name="filePath"></param>
         public void ProcessFile(string filePath, bool clearConsole = true)
@@ -200,36 +321,38 @@ namespace MDRG_Analyzer
             }
 
             fileContent = File.ReadAllText(filePath);
-            saveFileJson = JObject.Parse(fileContent);
+            savefileJson = JObject.Parse(fileContent);
 
             // Select save file
-            int selectedSaveFile = SelectSaveFile(filePath);
+            selectedSaveFile = SelectSaveFile(filePath, true);
 
             if (selectedSaveFile == -1) {
                 // This certainly should not happen.
                 Console.WriteLine(Generic.selectsaveslot_invalidsaveslot);
-                ProcessFile(filePath, false);
+                return;
             }
 
+            // Test that there is data
             JObject savedataObject = null;
             JObject achievementsObject = null;
             try
             {
-                savedataObject = JObject.Parse(saveFileJson["saves"][selectedSaveFile]["savedata"].ToString());
-                achievementsObject = JObject.Parse(saveFileJson["achievements"].ToString()); // Achievements
+                savefileRoot = JObject.Parse(savefileJson.ToString());
+                savedataObject = JObject.Parse(savefileJson["saves"][selectedSaveFile]["savedata"].ToString());
+                achievementsObject = JObject.Parse(savefileRoot["achievements"].ToString()); // Achievements
             }
             catch
             {
-                if (savedataObject == null)
-                {
-                    // No savedata found, show error and specifically detail to the user that no, they cannot load an empty save file, and that they have to export it from the game FIRST.
-                    Console.WriteLine(Generic.nosavedata);
-                }
-                else
-                {
-                    // Something else happened, please contact me.
-                    Console.WriteLine(Generic.pleasecontactme);
-                }
+                // Something else happened, please contact me.
+                Console.WriteLine(Generic.pleasecontactme);
+            }
+
+            // Check if the savedata is null
+            if (savedataObject == null)
+            {
+                // No savedata found, show error and specifically detail to the user that no, they cannot load an empty save file, and that they have to export it from the game FIRST.
+                Console.WriteLine(Generic.nosavedata);
+                return;
             }
 
             // Prepare three lists
@@ -263,7 +386,7 @@ namespace MDRG_Analyzer
                 { ( "streamCount", "data_streamcount"), typeof(int) },
                 { ( "timesLostChess", "data_timeslostchess"), typeof(int) },
                 { ( "timesWonChess", "data_timeswonchess"), typeof(int) },
-                { ( "timesLostOldMaid", "data_timelostoldmaid"), typeof(int) },
+                { ( "timesLostOldMaid", "data_timeslostoldmaid"), typeof(int) },
                 { ( "timesWonOldMaid", "data_timeswonoldmaid"), typeof(int) },
                 { ( "timesRanAwayOldMaid", "data_timesranawayoldmaid"), typeof(int) },
                 { ( "timesLostWordChain", "data_timeslostwordchain"), typeof(int) },
@@ -304,6 +427,11 @@ namespace MDRG_Analyzer
                 { ( "weeklyRent", "data_weeklyrent"), typeof(string) }, // ???
             };
 
+            // Switch cultures because NewtonSoft can't handle it. Set to default.
+            (CultureInfo, CultureInfo) previousCulture = (CultureInfo.CurrentCulture, CultureInfo.CurrentUICulture);
+            CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
+            CultureInfo.CurrentUICulture = CultureInfo.InvariantCulture;
+
             // Depending on the type (Value), create one of the custom classes.
             foreach (var entry in dataBindings)
             {
@@ -327,35 +455,82 @@ namespace MDRG_Analyzer
                 }
                 else if (entry.Value == typeof(double))
                 {
-                    doubleValues.Add(new DoubleValue
+                    // Ensure we force it to be a double
+                    JToken token = savedataObject[entry.Key.Item1];
+
+                    // Check if the token is null or not
+                    if (token != null)
                     {
-                        ID = entry.Key.Item2,
-                        Value = savedataObject.Value<double>(entry.Key.Item1),
-                        InternalID = entry.Key.Item1
-                    });
+                        // Check if the token is a double, int, or string
+                        if (token.Type == JTokenType.Float || token.Type == JTokenType.Integer)
+                        {
+                            doubleValues.Add(new DoubleValue
+                            {
+                                ID = entry.Key.Item2,
+                                Value = token.ToObject<double>(), // Correctly parse as double
+                                InternalID = entry.Key.Item1
+                            });
+                        }
+                        else if (token.Type == JTokenType.String)
+                        {
+                            double parsed;
+                            // Try to parse the string as a double
+                            if (double.TryParse(token.Value<string>(), NumberStyles.Any, CultureInfo.InvariantCulture, out parsed))
+                            {
+                                // Replace these fucking commas with dots. THIS CAUSED SO MUCH PAIN.
+                                parsed = double.Parse(token.Value<string>().Replace(',', '.'), CultureInfo.InvariantCulture);
+                                doubleValues.Add(new DoubleValue
+                                {
+                                    ID = entry.Key.Item2,
+                                    Value = parsed, // Correctly assign parsed double
+                                    InternalID = entry.Key.Item1
+                                });
+                            }
+                            else
+                            {
+                                Console.WriteLine($"ERROR: Failed to parse double from string: {token}");
+                            }
+                        }
+                    }
                 }
             }
 
-            int saveSlot = saveFileJson["saves"][selectedSaveFile].Value<int>("slot");
-            int ingameTime = saveFileJson["saves"][selectedSaveFile].Value<int>("ingameTime");
-            string notes = saveFileJson["saves"][selectedSaveFile].Value<string>("notes");
+            saveSlot = savefileJson["saves"][selectedSaveFile].Value<int>("slot");
+            int ingameTime = savefileJson["saves"][selectedSaveFile].Value<int>("ingameTime");
+            notes = savefileJson["saves"][selectedSaveFile].Value<string>("notes");
 
-            JArray jsVisitedWebsites = (JArray)saveFileJson["visitedWebsites"];
+            JArray jsVisitedWebsites = (JArray)savefileJson["visitedWebsites"];
             JArray jsGottenAchievements = (JArray)achievementsObject["values"];
             string[] visitedWebsites = jsVisitedWebsites.ToObject<string[]>();
-            string[] gottenAchievements = jsGottenAchievements.ToObject<string[]>();
+            gottenAchievements = jsGottenAchievements.ToObject<string[]>();
 
-            // Continue various variables
-            bool lightSwitchOn = savedataObject.Value<bool>("lightSwitchOn");
+            boolValues.Add(new BoolValue
+            {
+                ID = "data_lightswitch",
+                Value = savedataObject.Value<bool>("lightSwitchOn"),
+                InternalID = "lightSwitchOn"
+            });
 
             // Convert raw time into days, hours, and minutes
             const int MPD = 24 * 60, MPH = 60;
             int streamTime = int.Parse(savedataObject.Value<int>("streamedFor").ToString());
             int longestStream = int.Parse(savedataObject.Value<int>("longestStream").ToString());
 
-            int streamDays = streamTime / MPD, streamHours = (streamTime % MPD) / MPH, streamMinutes = (streamTime % MPD) % MPH;
-            int longestStreamDays = longestStream / MPD, longestStreamHours = (longestStream % MPD) / MPH, longestStreamMinutes = longestStream % MPH;
-            int ingameTimeDays = ingameTime / MPD, ingameTimeHours = (ingameTime % MPD) / MPH, ingameTimeMinutes = ingameTime % MPH;
+            void SplitTime(int totalMinutes, out int days, out int hours, out int minutes)
+            {
+                days = totalMinutes / MPD;
+                int remainder = totalMinutes % MPD;
+                hours = remainder / MPH;
+                minutes = remainder % MPH;
+            }
+
+            SplitTime(streamTime, out streamDays, out streamHours, out streamMinutes);
+            SplitTime(longestStream, out longestStreamDays, out longestStreamHours, out longestStreamMinutes);
+            SplitTime(ingameTime, out ingameTimeDays, out ingameTimeHours, out ingameTimeMinutes);
+
+            // Since we finished data processing, switch back to the user's culture.
+            CultureInfo.CurrentCulture = previousCulture.Item1;
+            CultureInfo.CurrentUICulture = previousCulture.Item2;
 
             var rentDaysMapping = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
                 {
@@ -369,20 +544,496 @@ namespace MDRG_Analyzer
                     { "rent in 7 days", Generic.WeekDaysMonday }
                 };
 
-            string weekdayText = rentDaysMapping.TryGetValue(savedataObject["statusText"].ToString(), out var day)
+            weekdayText = rentDaysMapping.TryGetValue(savedataObject["statusText"].ToString(), out var day)
                     ? day
                     : Generic.WeekDaysUnknown;
 
+            /// DO NOT ASSIGN MORE DATA HERE
+            /// ASSIGN MORE DATA ABOVE THE
+            /// CULTURE SWITCHING PART ABOVE
+
             // Data finished assigning.
-            // TODO: Continue to the showing of all the data. Stuff like a foreach loop that checks if the value is a string, int, or double, and then prints out the data, all in a nice format with numbers for later save editing.
+
+            gottenAchievements = achievementsObject["values"].ToObject<string[]>() ?? [];
+            visitedWebsites = savefileRoot["visitedWebsites"].ToObject<string[]>() ?? [];
+
+            SavefileMenu(stringValues, intValues, doubleValues, boolValues, gottenAchievements, visitedWebsites, filePath, false);
         }
 
-        public int SelectSaveFile(string filePath)
+        public void SetNote(string note)
         {
+            // Ask user to set a note.
+            Console.WriteLine($"{Generic.input}:");
+            notes = Console.ReadLine();
+            return;
+        }
+
+        /// <summary>
+        /// Displays the save file menu.
+        /// </summary>
+        /// <param name="stringValues"></param>
+        /// <param name="intValues"></param>
+        /// <param name="doubleValues"></param>
+        /// <param name="clearConsole"></param>
+        public void SavefileMenu(
+            List<StringValue> stringValues,
+            List<IntValue> intValues,
+            List<DoubleValue> doubleValues,
+            List<BoolValue> boolValues,
+            string[] achievements,
+            string[] visitedWebsites,
+            string filePath,
+            bool clearConsole = true
+            )
+        {
+            if (clearConsole)
+            {
+                Console.Clear();
+            }
+
+            // Combine all values into a single list of objects
+            List<object> allValues =
+            [
+                .. stringValues,
+                .. intValues,
+                .. doubleValues,
+                .. boolValues,
+            ];
+
+            while (true)
+            {
+                Console.WriteLine($" -- {Generic.savefilemenu} --");
+                Console.WriteLine();
+
+                // Display data with numbers
+                int i = 1;
+                foreach (var item in allValues)
+                {
+                    if (item is StringValue stringValue)
+                    {
+                        Console.WriteLine($"({i:D3}) | (str) {stringValue.GetName()}: {stringValue.Value}");
+                    }
+                    else if (item is IntValue intValue)
+                    {
+                        Console.WriteLine($"({i:D3}) | (int) {intValue.GetName()}: {intValue.Value}");
+                    }
+                    else if (item is DoubleValue doubleValue)
+                    {
+                        // Format the double value explicitly to ensure proper decimal point display
+                        string formattedValue = doubleValue.Value.ToString("R", CultureInfo.InvariantCulture);
+                        Console.WriteLine($"({i:D3}) | (dbl) {doubleValue.GetName()}: {formattedValue}");
+                    }
+                    else if (item is BoolValue boolValue)
+                    {
+                        Console.WriteLine($"({i:D3}) | (bol) {boolValue.GetName()}: {boolValue.Value}");
+                    }
+                    i++;
+                }
+
+                Console.WriteLine($"({i:D3}) | (str) {IDs.data_notes}: {notes}");
+
+                // Specially formatted values, like streamed time, longest stream, ingame time, and rent.
+                Console.WriteLine($"({i:D3}) | (int) {IDs.data_streamedfor}: {streamDays}d {streamHours}h {streamMinutes}m");
+                i++;
+                Console.WriteLine($"({i:D3}) | (int) {IDs.data_longeststream}: {longestStreamDays}d {longestStreamHours}h {longestStreamMinutes}m");
+                i++;
+                Console.WriteLine($"({i:D3}) | (int) {IDs.data_ingametime}: {ingameTimeDays}d {ingameTimeHours}h {ingameTimeMinutes}m");
+                i++;
+                Console.WriteLine($"({i:D3}) | (int) {IDs.data_rent}: {weekdayText}");
+                i++;
+                Console.WriteLine($"({i:D3}) | (int) {Generic.slot}: {saveSlot}");
+
+                /// Save editing disabled until MDRG dev switches away from his horrible JSON format.
+                Console.WriteLine();
+                Console.WriteLine($"(A) {Generic.toachievements}");
+                //Console.WriteLine($"(N) {Generic.setnote} ({notes})");
+                Console.WriteLine($"(E) {Generic.exit}");
+                Console.WriteLine($"(B) {Generic.createbackup}");
+                //Console.WriteLine($"(S) {Generic.save}");
+
+                Console.WriteLine();
+                // Ask user to select a value to edit, or type "e" to exit and return to the main menu.
+                Console.WriteLine($"{Generic.input}:");
+                string input = Console.ReadLine();
+                Console.WriteLine();
+
+                /*
+                // Check if the input is a number and within the range of values
+                if (int.TryParse(input, out int selectedValue) && selectedValue > 0 && selectedValue <= allValues.Count)
+                {
+                    // -1 because we need to account for the zero-based index
+                    var selectedItem = allValues[selectedValue - 1];
+                    // Check the type of the selected item and allow editing
+                    if (selectedItem is StringValue stringValue)
+                    {
+                        Console.WriteLine($"{Generic.currentlyediting} {stringValue.GetName()} (String): {stringValue.Value}");
+                        Console.WriteLine($"{Generic.input}:");
+                        string newValue = Console.ReadLine();
+                        // Check if the new value is null or empty
+
+                        if (string.IsNullOrEmpty(newValue))
+                        {
+                            Console.WriteLine(Generic.invalidkey);
+                            return;
+                        }
+
+                        stringValue.Value = newValue;
+                    }
+                    else if (selectedItem is IntValue intValue)
+                    {
+                        Console.WriteLine($"{Generic.currentlyediting} {intValue.GetName()} (Int): {intValue.Value}");
+                        Console.WriteLine($"{Generic.input}:");
+                        string newValue = Console.ReadLine();
+                        // Check if the new value is null or empty
+
+                        if (string.IsNullOrEmpty(newValue))
+                        {
+                            Console.WriteLine(Generic.invalidkey);
+                            return;
+                        }
+
+                        intValue.FromString(newValue);
+                    }
+                    else if (selectedItem is DoubleValue doubleValue)
+                    {
+                        Console.WriteLine($"{Generic.currentlyediting} {doubleValue.GetName()} (Double): {doubleValue.Value}");
+                        Console.WriteLine($"{Generic.input}:");
+                        string newValue = Console.ReadLine();
+
+                        // Check if the new value is null or empty
+                        if (string.IsNullOrEmpty(newValue))
+                        {
+                            Console.WriteLine(Generic.invalidkey);
+                            return;
+                        }
+
+                        // Try to parse the new value as a double
+                        if (double.TryParse(newValue, NumberStyles.Any, CultureInfo.InvariantCulture, out double parsedValue))
+                        {
+                            doubleValue.Value = parsedValue;
+                        }
+                        else
+                        {
+                            Console.WriteLine(Generic.invalidkey);
+                        }
+                    }
+                    else if (selectedItem is BoolValue boolValue)
+                    {
+                        Console.WriteLine($"{Generic.currentlyediting} {boolValue.GetName()} (Bool): {boolValue.Value}");
+                        Console.WriteLine($"{Generic.input}:");
+                        string newValue = Console.ReadLine();
+                        // Check if the new value is null or empty
+                        if (string.IsNullOrEmpty(newValue))
+                        {
+                            Console.WriteLine(Generic.invalidkey);
+                            return;
+                        }
+                        // Try to parse the new value as a boolean
+                        if (bool.TryParse(newValue, out bool parsedValue))
+                        {
+                            boolValue.Value = parsedValue;
+                        }
+                        else
+                        {
+                            Console.WriteLine(Generic.invalidkey);
+                        }
+                    }
+                    SavefileMenu(stringValues, intValues, doubleValues, boolValues, achievements, visitedWebsites, filePath, false);
+                }
+
+                else */
+                if (input.ToLower() == "e")
+                {
+                    return;
+                }
+                /*
+                else if (input.ToLower() == "n")
+                {
+                    SetNote(notes);
+                    return;
+                }
+                */
+                else if (input.ToLower() == "b")
+                {
+                    CreateBackup(filePath);
+                    createdBackup = true;
+                    return;
+                }
+                else if (input.ToLower() == "a")
+                {
+                    AchievementsMenu();
+                }
+                /*
+                else if (input.ToLower() == "s")
+                {
+                    // Because when we continue from here, the variable is emptied, we *have* to pass it to the Save() method.
+
+                    Save(stringValues, intValues, doubleValues, boolValues, filePath, true);
+                }
+                */
+                else
+                {
+                    Console.Clear();
+                    Console.WriteLine(Generic.invalidkey);
+                }
+            }
+        }
+
+        /*
+        public void Save(
+            List<StringValue> stringValues,
+            List<IntValue> intValues,
+            List<DoubleValue> doubleValues,
+            List<BoolValue> boolValues,
+            string filePath,
+            bool clearConsole = true
+            )
+        {
+            if (clearConsole)
+            {
+                Console.Clear();
+            }
+
+            Console.WriteLine($" -- {Generic.saving} --");
+            Console.WriteLine();
+
+            // Prepare JSON for saving
+            Console.WriteLine($"{Generic.preparing_json}");
+            JObject savedataObject = JObject.Parse(savefileJson["saves"][selectedSaveFile]["savedata"].ToString());
+            Console.Write(".");
+            JArray jsGottenAchievements = [];
+            if ((JArray)achievementsObject["values"] is null)
+            {
+                jsGottenAchievements = [];
+            }
+            else
+            {
+                jsGottenAchievements = (JArray)achievementsObject["values"];
+            }
+            Console.Write(".");
+            JArray jsVisitedWebsites = [];
+            if ((JArray)savefileJson["visitedWebsites"] is null)
+            {
+                jsVisitedWebsites = [];
+            }
+            else
+            {
+                jsVisitedWebsites = (JArray)savefileJson["visitedWebsites"];
+            }
+            Console.Write(".");
+            string[] visitedWebsites = jsVisitedWebsites.ToObject<string[]>();
+            Console.Write(".");
+            string[] gottenAchievements = jsGottenAchievements.ToObject<string[]>();
+            Console.Write(".");
+            List<string> achievementsSelected = [];
+            Console.Write($" {Generic.done}!");
+
+            // Now we use a for loop to iterate through all values and set them to the new value.
+            Console.WriteLine($"{Generic.combining_json}");
+            foreach (var item in stringValues)
+            {
+                savedataObject[item.InternalID] = item.Value;
+                Console.WriteLine($"DEBUG - Setting {item.InternalID} to {item.Value}");
+            }
+            Console.Write(".");
+            foreach (var item in intValues)
+            {
+                savedataObject[item.InternalID] = item.Value;
+                Console.WriteLine($"DEBUG - Setting {item.InternalID} to {item.Value}");
+            }
+            Console.Write(".");
+            foreach (var item in doubleValues)
+            {
+                savedataObject[item.InternalID] = item.Value;
+                Console.WriteLine($"DEBUG - Setting {item.InternalID} to {item.Value}");
+            }
+            Console.Write(".");
+            foreach (var item in boolValues)
+            {
+                savedataObject[item.InternalID] = item.Value;
+                Console.WriteLine($"DEBUG - Setting {item.InternalID} to {item.Value}");
+            }
+            Console.Write($" {Generic.done}");
+
+            // Now we need to set the achievements and websites
+            Console.WriteLine($"{Generic.updating_achievements}");
+            // Check if the achievements are null. If they are, we don't need to do anything.
+            if (achievementsObject != null)
+            {
+                // Set the achievements to the new value
+                achievementsObject["values"] = JArray.FromObject(gottenAchievements);
+            }
+            Console.Write(".");
+            Console.Write($" {Generic.done}");
+
+            // Now we need to set the websites
+            Console.WriteLine($"{Generic.updating_websites}");
+            // Check if the websites are null. If they are, we don't need to do anything.
+            if (jsVisitedWebsites != null)
+            {
+                // Replace the entire array with the new value
+                jsVisitedWebsites = JArray.FromObject(visitedWebsites);
+            }
+            Console.Write(".");
+            Console.Write($" {Generic.done}");
+
+            // Now, to save the file, we need to set the new values to the savefileRoot
+            Console.WriteLine($"{Generic.preparing_json}");
+            savefileJson["saves"][selectedSaveFile]["savedata"] = savedataObject;
+            Console.Write(".");
+            savefileJson["achievements"] = achievementsObject;
+            Console.Write(".");
+            savefileJson["visitedWebsites"] = jsVisitedWebsites;
+            Console.Write($" {Generic.done}");
+
+            // Now we need to save the file
+            Console.WriteLine($"{Generic.saving_file}");
+            // Check if the file exists. If it does not, we make it.
+            if (!File.Exists(filePath))
+            {
+                File.Create(filePath).Close();
+            }
+            Console.Write(".");
+            // Save to the file
+            File.WriteAllText(filePath, savefileJson.ToString());
+            Console.Write($" {Generic.done}");
+
+            // Quickly get the full path to show the user where on their computer the file is.
+            string fileName = Path.GetFileName(filePath);
+            string directoryPath = Path.GetDirectoryName(filePath);
+            string fileSavePath = Path.Combine(directoryPath, fileName);
+            Console.WriteLine($"{Generic.filesavedat}: {fileSavePath}");
+        }
+        */
+
+        /// <summary>
+        /// Displays the achievements menu, allowing the user to unlock or lock achievements.
+        /// </summary>
+        /// <param name="clearConsole"></param>
+        public void AchievementsMenu(bool clearConsole = true)
+        {
+            if (clearConsole)
+            {
+                Console.Clear();
+            }
+
+            while (true)
+            {
+                Console.WriteLine($" -- {Generic.achievements} --");
+                // Since we have the achievements already, and we have a list of all achievements, we can display whether the User has them via "string - localized string - bool" format and a corresponding number.
+
+                foreach (var achievement in allAchievements)
+                {
+                    // Check if the user has the achievement
+                    bool hasAchievement = gottenAchievements.Contains(achievement.Key);
+                    string status = hasAchievement ? Generic.achievements_obtained : Generic.achievements_unobtained;
+                    Console.WriteLine($"({Array.IndexOf(allAchievements.Keys.ToArray(), achievement.Key) + 1}) {achievement.Value} - {status}");
+                }
+
+                Console.WriteLine();
+                // Now that we have the achievements, we can ask the user to select one to unlock or lock.
+                Console.WriteLine($"(E) {Generic.exit}");
+                Console.WriteLine($"{Generic.input}:");
+                string input = Console.ReadLine();
+                /*
+                // Check if the input is a number and within the range of achievements
+                if (int.TryParse(input, out int selectedAchievement) && selectedAchievement > 0 && selectedAchievement <= allAchievements.Count)
+                {
+                    // Since the achievements work by either having it there or it not being in the ending JSON, we can just add or remove it from the list.
+                    var selectedKey = allAchievements.Keys.ToArray()[selectedAchievement - 1];
+                    if (gottenAchievements.Contains(selectedKey))
+                    {
+                        // Remove the achievement
+                        gottenAchievements = gottenAchievements.Where(x => x != selectedKey).ToArray();
+                        Console.WriteLine($"{Generic.achievements_removed} {selectedKey}");
+                    }
+                    else
+                    {
+                        // Add the achievement
+                        gottenAchievements = gottenAchievements.Append(selectedKey).ToArray();
+                        Console.WriteLine($"{Generic.achievements_added} {selectedKey}");
+                    }
+                    AchievementsMenu(true);
+                }
+                else */
+                if (input.ToLower() == "e")
+                {
+                    return;
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.WriteLine(Generic.invalidkey + "\n");
+                }
+            }
+        }
+
+        /// <summary>
+        /// Creates a backup of the save file.
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void CreateBackup(string filePath)
+        {
+            if (filePath == null)
+            {
+                throw new ArgumentNullException("filePath", "File path cannot be null.");
+            }
+            else
+            {
+                string directoryPath = Path.GetDirectoryName(filePath);
+                string backupFileNamePattern = "save_backup_*.mdrg";
+                string[] existingBackupFiles = Directory.GetFiles(directoryPath, backupFileNamePattern);
+                string newBackupFileName;
+                if (existingBackupFiles.Length > 0)
+                {
+                    // Find the highest number used for backup
+                    int highestNumber = 0;
+                    foreach (string filePaths in existingBackupFiles)
+                    {
+                        string fileName = Path.GetFileName(filePaths);
+                        if (fileName.StartsWith("save_backup_") && fileName.EndsWith(".mdrg"))
+                        {
+                            string numberString = fileName.Replace("save_backup_", "").Replace(".mdrg", "");
+                            if (int.TryParse(numberString, out int number))
+                            {
+                                highestNumber = Math.Max(highestNumber, number);
+                            }
+                        }
+                    }
+
+                    // Increment the highest number to get the new backup number
+                    highestNumber++;
+                    newBackupFileName = Path.Combine(directoryPath, $"save_backup_{highestNumber}.mdrg");
+                }
+                else
+                {
+                    // If no existing backups, create the first one
+                    newBackupFileName = Path.Combine(directoryPath, "save_backup_1.mdrg");
+                }
+                File.Copy(filePath, newBackupFileName);
+
+                Console.Clear();
+
+                Console.WriteLine($"{Generic.backupcreated}: {newBackupFileName}");
+            }
+        }
+
+        /// <summary>
+        /// Select a save file from the list of saves in the JSON file (where filePath points towards).
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
+        public int SelectSaveFile(string filePath, bool clearConsole = true)
+        {
+            if (clearConsole)
+            {
+                Console.Clear();
+            }
             // Check how many non-autosaves there are
             // Load save file into variable, then parse the JSon
             string fileContent = File.ReadAllText(filePath);
-            JObject saveFileJson = JObject.Parse(fileContent);
+            savefileJson = JObject.Parse(fileContent);
 
             // Deserialize into dynamic object
             jsonData = JsonConvert.DeserializeObject(fileContent);
@@ -421,8 +1072,8 @@ namespace MDRG_Analyzer
             else
             {
                 Console.WriteLine(Generic.invalidkey);
+                return -1;
             }
-            SelectSaveFile(filePath);
             return -1; // This should never happen, but just in case. And so VS stops screaming at me.
         }
 
@@ -464,21 +1115,21 @@ namespace MDRG_Analyzer
 
 
             Console.WriteLine(
-                $"\n{Generic.settings_instructions}\n" +
+                $"\n{Generic.settings_instructions}\n\n" +
                 $"(1) {Generic.settings_defaultlanguage}: {new CultureInfo(settings["DefaultLanguage"]).DisplayName}\n" +
+                $"\n" +
                 $"(E) {Generic.exit}"
             );
-
-            ConsoleKeyInfo key = Console.ReadKey();
+            string input = Console.ReadLine();
             Console.Clear();
-            switch (key.Key)
+            switch (input)
             {
                 // Default Language
-                case ConsoleKey.D1:
+                case "1":
                     Console.WriteLine($" -- {Generic.settings_defaultlanguage} --");
                     Console.WriteLine();
                     Console.WriteLine(
-                        $"{Generic.settings_defaultlanguage_prompt}\n" +
+                        $"{Generic.settings_defaultlanguage_prompt}\n\n" +
                         $"{Generic.settings_availablelanguages}:"
                         );
 
@@ -494,17 +1145,19 @@ namespace MDRG_Analyzer
                         Console.WriteLine($"\t({i}) {culture.Name} - {culture.EnglishName}");
                         i++;
                     }
-                    ConsoleKeyInfo cultureKey = Console.ReadKey();
+                    Console.WriteLine();
+                    Console.WriteLine($"{Generic.input}:");
+                    string cultureKey = Console.ReadLine();
                     Console.WriteLine();
                     // Choose language based on input
-                    if (cultureKey.KeyChar == '1')
+                    if (cultureKey.Equals("1", StringComparison.InvariantCultureIgnoreCase))
                     {
                         settings["DefaultLanguage"] = "en-US";
                         CultureInfo.CurrentCulture = new CultureInfo("en-US");
                         CultureInfo.CurrentUICulture = new CultureInfo("en-US");
                     }
                     // Check if the input is a number and within the range of available cultures
-                    else if (int.TryParse(cultureKey.KeyChar.ToString(), out int cultureIndex) && cultureIndex > 1 && cultureIndex <= availableCultures.Count + 1)
+                    else if (int.TryParse(cultureKey, out int cultureIndex) && cultureIndex > 1 && cultureIndex <= availableCultures.Count + 1)
                     {
                         // -2 because we need to account for the English option and the zero-based index
                         var selectedCulture = availableCultures[cultureIndex - 2];
@@ -525,7 +1178,7 @@ namespace MDRG_Analyzer
                     File.WriteAllText("Settings.json", json);
                     OpenSettings();
                     break;
-                case ConsoleKey.E:
+                case "e":
                     return;
                 default:
                     Console.WriteLine(Generic.invalidkey);
@@ -624,7 +1277,6 @@ namespace MDRG_Analyzer
         }
     }
 
-
     /// <summary>
     /// Class representing a value with an integer. Not to be used for values expecting any string.
     /// </summary>
@@ -668,6 +1320,9 @@ namespace MDRG_Analyzer
         }
     }
 
+    /// <summary>
+    /// Class representing a value with a double. Not to be used for values expecting any string.
+    /// </summary>
     public class DoubleValue
     {
         /// <summary>
@@ -688,23 +1343,6 @@ namespace MDRG_Analyzer
         {
             LocalizationHelper locHelper = new();
             return locHelper.GetLocalizedName(ID);
-        }
-
-        /// <summary>
-        /// Attempts to parse a string to a double. If it fails, throws a FormatException.
-        /// </summary>
-        /// <param name="value"></param>
-        /// <exception cref="FormatException"></exception>
-        public void FromString(string value)
-        {
-            if (double.TryParse(value, NumberStyles.Any, CultureInfo.InvariantCulture, out double result))
-            {
-                Value = result;
-            }
-            else
-            {
-                throw new FormatException($"Invalid format for DoubleValue: {value}");
-            }
         }
 
         /// <summary>
@@ -738,6 +1376,37 @@ namespace MDRG_Analyzer
             }
             // Since int is never null, we can safely convert it to double without a check.
             Value = intValue.Value;
+        }
+    }
+
+    /// <summary>
+    /// Class representing a boolean value. Not to be used for values that should retain any other type.
+    /// </summary>
+    public class BoolValue
+    {
+        /// <summary>
+        /// Localization key. Must be unique and exist in the `IDs.resx` file.
+        /// </summary>
+        public required string ID { get; set; }
+
+        /// <summary>
+        /// The actual value used in the program. Typically deserialized from JSON.
+        /// </summary>
+        public bool Value { get; set; }
+
+        /// <summary>
+        /// The unique identifier used to locate this value in external JSON.
+        /// </summary>
+        public required string InternalID { get; set; }
+
+        /// <summary>
+        /// Gets the localized name for this value using its ID.
+        /// </summary>
+        /// <returns></returns>
+        public string GetName()
+        {
+            LocalizationHelper locHelper = new();
+            return locHelper.GetLocalizedName(ID);
         }
     }
 }

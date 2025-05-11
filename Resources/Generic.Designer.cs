@@ -61,11 +61,155 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Achievements.
+        /// </summary>
+        internal static string achievements {
+            get {
+                return ResourceManager.GetString("achievements", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Achievement unlocked.
+        /// </summary>
+        internal static string achievements_added {
+            get {
+                return ResourceManager.GetString("achievements_added", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Obtained.
+        /// </summary>
+        internal static string achievements_obtained {
+            get {
+                return ResourceManager.GetString("achievements_obtained", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Achievement locked.
+        /// </summary>
+        internal static string achievements_removed {
+            get {
+                return ResourceManager.GetString("achievements_removed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unobtained.
+        /// </summary>
+        internal static string achievements_unobtained {
+            get {
+                return ResourceManager.GetString("achievements_unobtained", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AppData.
+        /// </summary>
+        internal static string appdata {
+            get {
+                return ResourceManager.GetString("appdata", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Backup successfully created.
+        /// </summary>
+        internal static string backupcreated {
+            get {
+                return ResourceManager.GetString("backupcreated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Combining JSON.
+        /// </summary>
+        internal static string combining_json {
+            get {
+                return ResourceManager.GetString("combining_json", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Commonly used paths.
+        /// </summary>
+        internal static string commonpaths {
+            get {
+                return ResourceManager.GetString("commonpaths", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create Backup.
+        /// </summary>
+        internal static string createbackup {
+            get {
+                return ResourceManager.GetString("createbackup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Editing.
+        /// </summary>
+        internal static string currentlyediting {
+            get {
+                return ResourceManager.GetString("currentlyediting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Desktop.
+        /// </summary>
+        internal static string desktop {
+            get {
+                return ResourceManager.GetString("desktop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Documents.
+        /// </summary>
+        internal static string documents {
+            get {
+                return ResourceManager.GetString("documents", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Done.
+        /// </summary>
+        internal static string done {
+            get {
+                return ResourceManager.GetString("done", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Downloads.
+        /// </summary>
+        internal static string downloads {
+            get {
+                return ResourceManager.GetString("downloads", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Exit.
         /// </summary>
         internal static string exit {
             get {
                 return ResourceManager.GetString("exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Successfully saved file. The file can be found at.
+        /// </summary>
+        internal static string filesavedat {
+            get {
+                return ResourceManager.GetString("filesavedat", resourceCulture);
             }
         }
         
@@ -115,6 +259,15 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No &quot;.mdrg&quot; files were found in the specified directory..
+        /// </summary>
+        internal static string loadfile_nofilesfound {
+            get {
+                return ResourceManager.GetString("loadfile_nofilesfound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please select one of these files.
         /// </summary>
         internal static string loadfile_selectoneofthesefiles {
@@ -155,6 +308,51 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Preparing JSON.
+        /// </summary>
+        internal static string preparing_json {
+            get {
+                return ResourceManager.GetString("preparing_json", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        internal static string save {
+            get {
+                return ResourceManager.GetString("save", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Savefile Inspector.
+        /// </summary>
+        internal static string savefilemenu {
+            get {
+                return ResourceManager.GetString("savefilemenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saving.
+        /// </summary>
+        internal static string saving {
+            get {
+                return ResourceManager.GetString("saving", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saving file.
+        /// </summary>
+        internal static string saving_file {
+            get {
+                return ResourceManager.GetString("saving_file", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please select the save slot you wish to load..
         /// </summary>
         internal static string selectsavefile {
@@ -169,6 +367,15 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         internal static string selectsaveslot_invalidsaveslot {
             get {
                 return ResourceManager.GetString("selectsaveslot_invalidsaveslot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set Note.
+        /// </summary>
+        internal static string setnote {
+            get {
+                return ResourceManager.GetString("setnote", resourceCulture);
             }
         }
         
@@ -263,6 +470,42 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This file location is generally discouraged from being used.
+        /// </summary>
+        internal static string thisfilelocationisdiscouraged {
+            get {
+                return ResourceManager.GetString("thisfilelocationisdiscouraged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Achievements....
+        /// </summary>
+        internal static string toachievements {
+            get {
+                return ResourceManager.GetString("toachievements", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Updating achievements.
+        /// </summary>
+        internal static string updating_achievements {
+            get {
+                return ResourceManager.GetString("updating_achievements", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Updating websites.
+        /// </summary>
+        internal static string updating_websites {
+            get {
+                return ResourceManager.GetString("updating_websites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Version.
         /// </summary>
         internal static string version {
@@ -272,7 +515,7 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Friday.
+        ///   Looks up a localized string similar to Friday | Rent in 3 days.
         /// </summary>
         internal static string WeekDaysFriday {
             get {
@@ -281,7 +524,7 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Monday.
+        ///   Looks up a localized string similar to Monday | Rent today or in 7 days.
         /// </summary>
         internal static string WeekDaysMonday {
             get {
@@ -290,7 +533,7 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Saturday.
+        ///   Looks up a localized string similar to Saturday | Rent in 2 days.
         /// </summary>
         internal static string WeekDaysSaturday {
             get {
@@ -299,7 +542,7 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sunday.
+        ///   Looks up a localized string similar to Sunday | Rent tomorrow.
         /// </summary>
         internal static string WeekDaysSunday {
             get {
@@ -308,7 +551,7 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Thursday.
+        ///   Looks up a localized string similar to Thursday | Rent in 4 days.
         /// </summary>
         internal static string WeekDaysThursday {
             get {
@@ -317,7 +560,7 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tuesday.
+        ///   Looks up a localized string similar to Tuesday | Rent in 6 days.
         /// </summary>
         internal static string WeekDaysTuesday {
             get {
@@ -335,7 +578,7 @@ namespace MDRG_Analyzer_Multi_Platform.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wednesday.
+        ///   Looks up a localized string similar to Wednesday | Rent in 5 days.
         /// </summary>
         internal static string WeekDaysWednesday {
             get {

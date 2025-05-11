@@ -1,5 +1,9 @@
 # MDRG (My Dystopian Robot Girlfriend) Analyzer - Cross Platform Branch
 
+## This does **not** have Save Editing!
+
+Save editing is (currently) restricted to only the [Main Branch](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer), which is only native to Windows. This program is only for reading the save files, not editing them. If you want to edit the save files, please use the main branch!
+
 ## Usage
 
 More expert, do NOT use unless you know your way around commandline.

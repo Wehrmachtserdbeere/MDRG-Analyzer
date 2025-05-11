@@ -117,190 +117,70 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="data_botname" xml:space="preserve">
-    <value>Bot Name</value>
+  <data name="ending_badend1" xml:space="preserve">
+    <value>Termination of tenancy</value>
   </data>
-  <data name="data_casinotokens" xml:space="preserve">
-    <value>Casino Tokens</value>
+  <data name="ending_badend2" xml:space="preserve">
+    <value>Failure...</value>
   </data>
-  <data name="data_cuminside" xml:space="preserve">
-    <value>Cum inside (ml)</value>
+  <data name="ending_badend3" xml:space="preserve">
+    <value>Coward...</value>
   </data>
-  <data name="data_cuminsideanal" xml:space="preserve">
-    <value>Cum inside anal (ml)</value>
+  <data name="ending_badend4.1" xml:space="preserve">
+    <value>Termination of tenancy v2: hobo</value>
   </data>
-  <data name="data_cuminsidestomach" xml:space="preserve">
-    <value>Cum inside stomach (ml)</value>
+  <data name="ending_badend4.2" xml:space="preserve">
+    <value>Termination of tenancy v2: murder</value>
   </data>
-  <data name="data_currenthorniness" xml:space="preserve">
-    <value>Current horniness</value>
+  <data name="ending_ballsexploded" xml:space="preserve">
+    <value>Too much juice...</value>
   </data>
-  <data name="data_deathgripend" xml:space="preserve">
-    <value>Deathgrip End</value>
+  <data name="ending_bigdaddyhurtSecretEpilogue" xml:space="preserve">
+    <value>Not an ending by itself but part of "They know..." - Met bigdaddyhurt but didn't continue his storyline</value>
   </data>
-  <data name="data_followers" xml:space="preserve">
-    <value>Followers</value>
+  <data name="ending_fedend" xml:space="preserve">
+    <value>Got caught...</value>
   </data>
-  <data name="data_gameversion" xml:space="preserve">
-    <value>Game Version (from Save)</value>
+  <data name="ending_genericschizoend" xml:space="preserve">
+    <value>Wall-kun</value>
   </data>
-  <data name="data_health" xml:space="preserve">
-    <value>Health</value>
+  <data name="ending_goodend1" xml:space="preserve">
+    <value>Selling your bot</value>
   </data>
-  <data name="data_ingametime" xml:space="preserve">
-    <value>In-Game Time</value>
+  <data name="ending_goodend2" xml:space="preserve">
+    <value>"The good ending"</value>
   </data>
-  <data name="data_inteligence" xml:space="preserve">
-    <value>Intelligence</value>
+  <data name="ending_healthend" xml:space="preserve">
+    <value>Starvation</value>
   </data>
-  <data name="data_lastbottalkat" xml:space="preserve">
-    <value>Last bot talk at</value>
+  <data name="ending_idontknow" xml:space="preserve">
+    <value>"I don't know" Ending</value>
   </data>
-  <data name="data_lastcuddledat" xml:space="preserve">
-    <value>Last cuddled at</value>
+  <data name="ending_killedbyadirtycop1" xml:space="preserve">
+    <value>Never trust the cops...</value>
   </data>
-  <data name="data_lastequipmentat" xml:space="preserve">
-    <value>Last equipment at</value>
+  <data name="ending_killedbyadirtycop2" xml:space="preserve">
+    <value>Never trust the cops... AGAIN</value>
   </data>
-  <data name="data_lastfuckedat" xml:space="preserve">
-    <value>Last fucked at</value>
+  <data name="ending_notgoodenough" xml:space="preserve">
+    <value>"The not good enough ending"</value>
   </data>
-  <data name="data_lastheadpatat" xml:space="preserve">
-    <value>Last headpat at</value>
+  <data name="ending_oblivious" xml:space="preserve">
+    <value>"The oblivious ending"</value>
   </data>
-  <data name="data_lasthungerinfoat" xml:space="preserve">
-    <value>Last hunger info at</value>
+  <data name="ending_saveedited" xml:space="preserve">
+    <value>Used the iamacheater website.</value>
   </data>
-  <data name="data_lastinteractat" xml:space="preserve">
-    <value>Last interaction at</value>
+  <data name="ending_schizoend" xml:space="preserve">
+    <value>I'm not crazy...</value>
   </data>
-  <data name="data_lastmentalhealthinfoat" xml:space="preserve">
-    <value>Last mental health info at</value>
+  <data name="ending_theyknow" xml:space="preserve">
+    <value>They know...</value>
   </data>
-  <data name="data_lastoutsidewithbot" xml:space="preserve">
-    <value>Last outside with bot</value>
+  <data name="ending_theyknowoblivious" xml:space="preserve">
+    <value>They know... (oblivious)</value>
   </data>
-  <data name="data_laststreamedat" xml:space="preserve">
-    <value>Last streamed at</value>
-  </data>
-  <data name="data_lastwenttochurchat" xml:space="preserve">
-    <value>Last time went to Church at</value>
-  </data>
-  <data name="data_lastwokeupat" xml:space="preserve">
-    <value>Last woke up at</value>
-  </data>
-  <data name="data_lastworkedatday" xml:space="preserve">
-    <value>Last worked at day</value>
-  </data>
-  <data name="data_longeststream" xml:space="preserve">
-    <value>Longest Stream</value>
-  </data>
-  <data name="data_longing" xml:space="preserve">
-    <value>Longing</value>
-  </data>
-  <data name="data_lust" xml:space="preserve">
-    <value>Lust</value>
-  </data>
-  <data name="data_maxcum" xml:space="preserve">
-    <value>Max cum</value>
-  </data>
-  <data name="data_mentalhealth" xml:space="preserve">
-    <value>Mental health</value>
-  </data>
-  <data name="data_mlcameinmouth" xml:space="preserve">
-    <value>Came in mouth (ml)</value>
-  </data>
-  <data name="data_mlofcumwasted" xml:space="preserve">
-    <value>Cum wasted (ml)</value>
-  </data>
-  <data name="data_money" xml:space="preserve">
-    <value>Money</value>
-  </data>
-  <data name="data_moneyearnedfromstreams" xml:space="preserve">
-    <value>Money earned from Streams</value>
-  </data>
-  <data name="data_mood" xml:space="preserve">
-    <value>Mood</value>
-  </data>
-  <data name="data_notes" xml:space="preserve">
-    <value>Notes</value>
-  </data>
-  <data name="data_nunpoints" xml:space="preserve">
-    <value>Nun Points</value>
-  </data>
-  <data name="data_playername" xml:space="preserve">
-    <value>Player Name</value>
-  </data>
-  <data name="data_priestbotpoints" xml:space="preserve">
-    <value>Priestbot Points</value>
-  </data>
-  <data name="data_remainingcum" xml:space="preserve">
-    <value>Remaining cum</value>
-  </data>
-  <data name="data_rent" xml:space="preserve">
-    <value>Rent</value>
-  </data>
-  <data name="data_satiation" xml:space="preserve">
-    <value>Satiation</value>
-  </data>
-  <data name="data_search" xml:space="preserve">
-    <value>Search</value>
-  </data>
-  <data name="data_stage" xml:space="preserve">
-    <value>Game Stage</value>
-  </data>
-  <data name="data_stamina" xml:space="preserve">
-    <value>Stamina</value>
-  </data>
-  <data name="data_streamcount" xml:space="preserve">
-    <value>Stream Count</value>
-  </data>
-  <data name="data_streamedfor" xml:space="preserve">
-    <value>Streamed for</value>
-  </data>
-  <data name="data_subs" xml:space="preserve">
-    <value>Subs</value>
-  </data>
-  <data name="data_sympathy" xml:space="preserve">
-    <value>Sympathy</value>
-  </data>
-  <data name="data_timescameinside" xml:space="preserve">
-    <value>Times came inside</value>
-  </data>
-  <data name="data_timescameoutside" xml:space="preserve">
-    <value>Times came outside</value>
-  </data>
-  <data name="data_timeslostchess" xml:space="preserve">
-    <value>Chess Losses</value>
-  </data>
-  <data name="data_timeslostoldmaid" xml:space="preserve">
-    <value>Old Maid Losses</value>
-  </data>
-  <data name="data_timeslostwordchain" xml:space="preserve">
-    <value>Word Chain Losses</value>
-  </data>
-  <data name="data_timesranawayoldmaid" xml:space="preserve">
-    <value>Old Maid Runaways</value>
-  </data>
-  <data name="data_timeswenttochurch" xml:space="preserve">
-    <value>Times went to Church</value>
-  </data>
-  <data name="data_timeswonchess" xml:space="preserve">
-    <value>Chess Wins</value>
-  </data>
-  <data name="data_timeswonoldmaid" xml:space="preserve">
-    <value>Old Maid Wins</value>
-  </data>
-  <data name="data_timeswonwordchain" xml:space="preserve">
-    <value>Word Chain Wins</value>
-  </data>
-  <data name="data_uniqueconversationsleft" xml:space="preserve">
-    <value>Unique conversations left</value>
-  </data>
-  <data name="data_vinegaraend" xml:space="preserve">
-    <value>Vinegara End</value>
-  </data>
-  <data name="data_weeklyrent" xml:space="preserve">
-    <value>Weekly Rent</value>
+  <data name="ending_worst" xml:space="preserve">
+    <value>The worst ending</value>
   </data>
 </root>

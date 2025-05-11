@@ -117,8 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="achievements" xml:space="preserve">
+    <value>Errungenschaften</value>
+  </data>
+  <data name="achievements_added" xml:space="preserve">
+    <value>Erfolg freigeschaltet</value>
+  </data>
+  <data name="achievements_obtained" xml:space="preserve">
+    <value>Errungen</value>
+  </data>
+  <data name="achievements_removed" xml:space="preserve">
+    <value>Errungenschaft gesperrt</value>
+  </data>
+  <data name="achievements_unobtained" xml:space="preserve">
+    <value>Nicht errungen</value>
+  </data>
+  <data name="appdata" xml:space="preserve">
+    <value>AppData</value>
+  </data>
+  <data name="backupcreated" xml:space="preserve">
+    <value>Sicherungsdatei erfolgreich erstellt</value>
+  </data>
+  <data name="combining_json" xml:space="preserve">
+    <value>JSON Kombinieren</value>
+  </data>
+  <data name="commonpaths" xml:space="preserve">
+    <value>Häufig benutzte Dateipfade</value>
+  </data>
+  <data name="createbackup" xml:space="preserve">
+    <value>Sicherungsdatei erstellen</value>
+  </data>
+  <data name="currentlyediting" xml:space="preserve">
+    <value>Wird bearbeitet</value>
+  </data>
+  <data name="desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="documents" xml:space="preserve">
+    <value>Dokumente</value>
+  </data>
+  <data name="done" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="downloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
   <data name="exit" xml:space="preserve">
     <value>Verlassen</value>
+  </data>
+  <data name="filesavedat" xml:space="preserve">
+    <value>Datei erfolgreich gespeichert. Die Datei kann hier gefunden werden</value>
   </data>
   <data name="input" xml:space="preserve">
     <value>Eingabe</value>
@@ -134,6 +182,9 @@
   </data>
   <data name="loadfile_invalid" xml:space="preserve">
     <value>Die Datei oder das Verzeichnis wurde nicht gefunden. Bitte stelle sicher, dass die eingegebene Datei, falls zutreffend, mit ".mdrg" endet. Bitte versuche es erneut.</value>
+  </data>
+  <data name="loadfile_nofilesfound" xml:space="preserve">
+    <value>Es wurden keine ".mdrg" Dateien in dem spezifizierem Ordner gefunden.</value>
   </data>
   <data name="loadfile_selectoneofthesefiles" xml:space="preserve">
     <value>Bitte wähle eine dieser Dateien aus</value>
@@ -163,11 +214,29 @@ Wenn du sicher bist, dass du deine Sicherungsdatei exportiert habst und dieser F
   <data name="pleasecontactme" xml:space="preserve">
     <value>Bitte kontaktiere Strawberry Software über das offizielle GitHub-Repository, indem du ein Issue eröffnest, auf den offiziellen Discord-Server von Strawberry Software gehst und Strawberry anpingst oder zum MDRG Analyzer-Thread auf dem Discord-Server von Incontinent Cell gehst und Strawberry dort anpingst.</value>
   </data>
+  <data name="preparing_json" xml:space="preserve">
+    <value>JSON vorbereiten</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="savefilemenu" xml:space="preserve">
+    <value>Speicherdatei-Inspektor</value>
+  </data>
+  <data name="saving" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="saving_file" xml:space="preserve">
+    <value>Datei speichern</value>
+  </data>
   <data name="selectsavefile" xml:space="preserve">
     <value>Bitte wähle den zu ladenden Speicherstand aus.</value>
   </data>
   <data name="selectsaveslot_invalidsaveslot" xml:space="preserve">
     <value>Es wurde ein ungültiger Speicherplatz ausgewählt. Bitte versuche es erneut.</value>
+  </data>
+  <data name="setnote" xml:space="preserve">
+    <value>Notiz setzen</value>
   </data>
   <data name="settings" xml:space="preserve">
     <value>Einstellungen</value>
@@ -199,32 +268,44 @@ Wenn du sicher bist, dass du deine Sicherungsdatei exportiert habst und dieser F
   <data name="slot" xml:space="preserve">
     <value>Speicherstand</value>
   </data>
+  <data name="thisfilelocationisdiscouraged" xml:space="preserve">
+    <value>Von der Verwendung dieses Dateispeicherorts wird generell abgeraten</value>
+  </data>
+  <data name="toachievements" xml:space="preserve">
+    <value>Errungenschaften...</value>
+  </data>
+  <data name="updating_achievements" xml:space="preserve">
+    <value>Errungenschaftern aktualisieren</value>
+  </data>
+  <data name="updating_websites" xml:space="preserve">
+    <value>Webseiten aktualisieren</value>
+  </data>
   <data name="version" xml:space="preserve">
     <value>Version</value>
   </data>
   <data name="WeekDaysFriday" xml:space="preserve">
-    <value>Freitag</value>
+    <value>Freitag | Miete in 3 Tagen</value>
   </data>
   <data name="WeekDaysMonday" xml:space="preserve">
-    <value>Montag</value>
+    <value>Montag | Miete heute oder in 7 Tagen</value>
   </data>
   <data name="WeekDaysSaturday" xml:space="preserve">
-    <value>Samstag</value>
+    <value>Samstag | Miete in 2 Tagen</value>
   </data>
   <data name="WeekDaysSunday" xml:space="preserve">
-    <value>Sonntag</value>
+    <value>Sonntag | Miete morgen</value>
   </data>
   <data name="WeekDaysThursday" xml:space="preserve">
-    <value>Donnerstag</value>
+    <value>Donnerstag | Miete in 4 Tagen</value>
   </data>
   <data name="WeekDaysTuesday" xml:space="preserve">
-    <value>Dienstag</value>
+    <value>Dienstag | Miete in 6 Tagen</value>
   </data>
   <data name="WeekDaysUnknown" xml:space="preserve">
     <value>Unbekannt</value>
   </data>
   <data name="WeekDaysWednesday" xml:space="preserve">
-    <value>Mittwoch</value>
+    <value>Mittwoch | Miete in 5 Tagen</value>
   </data>
   <data name="welcome" xml:space="preserve">
     <value>Willkommen beim MDRG Analyzer (Multi-Plattform)! Dies ist zwar eine sekundäre App zum MDRG Analyzer, welcher nur für Windows verfügbar ist, aber ich hoffe, du kannst sie als nativ unterstützte Lösung nutzen!</value>
