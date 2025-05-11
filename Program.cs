@@ -233,12 +233,13 @@ namespace MDRG_Analyzer
             }
 
             // Prepare three lists
-            List<StringValue> stringValues = new List<StringValue>();
-            List<IntValue> intValues = new List<IntValue>();
-            List<DoubleValue> doubleValues = new List<DoubleValue>();
+            List<StringValue> stringValues = [];
+            List<IntValue> intValues = [];
+            List<DoubleValue> doubleValues = [];
 
             // Now that we have the savedata, we can create a dictionary, following the schema of InternalID, ID, and Data Type
-            Dictionary<(string, string), Type> dataBindings = new Dictionary<(string, string), Type>
+            // TODO - Add all Key.Item2 values to the IDs.resx file.
+            Dictionary<(string, string), Type> dataBindings = new()
             {
                 { ( "botName", "data_botname"), typeof(string) },
                 { ( "money", "data_money"), typeof(int) },
@@ -451,9 +452,11 @@ namespace MDRG_Analyzer
             if (settings is null || settings["DefaultLanguage"] is null)
             {
                 // If settings, which should be a var JsonConvert.DeserializeObject is null, create a new dictionary.
-                settings = new Dictionary<string, string>();
-                // If DefaultLanguage is null, create it.
-                settings["DefaultLanguage"] = "en-US";
+                settings = new Dictionary<string, string>
+                {
+                    // If DefaultLanguage is null, create it.
+                    ["DefaultLanguage"] = "en-US"
+                };
                 // Save settings back to JSON file
                 json = JsonConvert.SerializeObject(settings, Formatting.Indented);
                 File.WriteAllText("Settings.json", json);
