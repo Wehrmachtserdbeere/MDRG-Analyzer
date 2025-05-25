@@ -5,24 +5,28 @@
 1. Extract the Application from the Archive
 2. Open the Application
 3. Click "File" -> "Load File"
-4. The saves are now stored in "C:\Users\USER\AppData\LocalLow\IncontinentCell\My Dystopian Robot Girlfriend\Saves". You can also export your saves in the Main Menu's "Load" menu, but if you use this, you will have to import the saves in the same menu yourself.
-5. In the "Info" Tab, select your Save Game Slot Number (Select a File, its Save Slot will be displayed at the bottom (This is important!).) You will know it worked when it tells you the Game Version at the Bottom-Right.
+4. Your saves are no longer fully stored anywhere by itself! You must export your saves via the Main Menu's "Load" menu, and later import the edited saves in the same menu.
+5. In the "Info" Tab, select your Save Game Slot Number (Select a File, its Save Slot will be displayed at the bottom (This is important!)). You will know it worked when it tells you the Game Version at the Bottom-Right.
 6. Done. You may now check through the other tabs to find your game info.
+
+---
 
 ### Minimum requirements
 
 - CPU: 1 gigahertz (GHz) or faster processor or SoC
 - RAM: 512 MB or more
 - GPU: Any
-- Space: 3.39 MB (3,559,424 bytes) or more
+- Space: Approximately 4 MB
 - Screen: \>=1072px wide, \>=603px high
 
 - Windows (Mainly due to .NET Core 9.0): **Windows 11 (24H2, 23H2, 22H2 Ent/Edu)** or **Windows 10 (22H2+)**
 - .NET Core 9.0+
 
-You need very likely need the most recent [.NET Core 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+You very likely need the most recent [.NET Core 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 installed on your PC. If you installed Windows 10 after at least the 26th of March, 2025, you might have this already
 installed.
+
+---
 
 ## Linux
 
@@ -35,6 +39,8 @@ Known issues:
 - The Debug tab may use up a lot of resources, and depending on your save size, may cause the program to stop responding until it finishes loading.
 - Resizing the program may mess up labels and more.
 
+---
+
 ## Macintosh / MAC
 
 Mac, like Linux, is **not** supported, however, someone has managed to use the program with Mono.
@@ -44,7 +50,9 @@ If you use Mac, any technical difficulties will **not** receive support, as I ca
 Known issues:
 - The Debug tab may use up a lot of resources, and depending on your save size, may cause the program to stop responding until it finishes loading.
 
-## Links
+---
+
+## Quick Links
 [Click here to get to the GitHub repository of the program.](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer)
 
 [Click here to get the latest version of the program.](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/releases/latest)
@@ -53,9 +61,11 @@ Known issues:
 
 [Click here to suggest things.](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/discussions/categories/ideas)
 
+---
+
 ## Frequently Asked Questions
 
-### How do I open an Autosave?
+**How do I open an Autosave?**
 
 Right now, it's not natively supported. However, you can still do it:
 
@@ -71,21 +81,23 @@ Right now, it's not natively supported. However, you can still do it:
 10. Close the game, open MDRG Analyzer, and choose your slot.
 11. You should now be able to view/edit your Autosave.
 
-#### "Rent in" is empty! / Weekday is "Unknown"!
+**"Rent in" is empty or Weekday is "Unknown"**
 
 You saved either too early into your game, or you managed to save at a point where the variable for when rent is due is empty. Try saving at a later point. If it's still empty, please contact me on the MDRG Discord or open a GitHub Issue with your save file attached.
 
-#### Bot name is empty! / Player name is empty
+**Bot name is empty or Player name is empty**
 
 You saved too early into your game. Please wait until you have given your bot her name, and have given yourself a name.
 
 **Save Editing when this is the case will create bugs that neither I nor Sheep will help you with!** If you still save edit when you haven't named your bot or yourself, you will take all the risks, and agree not to ask for help with that specific save!
 
+---
+
 ### How do I edit my save?
 
 Follow these detailed, step-by-step instructions to edit your save file. Make sure you follow each step carefully.
 
-### Step 1: Load the Save into MDRG Analyzer
+**Step 1 - Load the Save into MDRG Analyzer**
 
 Before you start, make sure you have MDRG Analyzer installed on your computer. MDRG Analyzer is a tool that lets you edit save files for "My Dystopian Robot Girlfriend." If you don't have it installed, you need to download and install it first.
 
@@ -130,7 +142,7 @@ If you are confused why the program might open in a weirdly different folder by 
  - Select the radio button for the save slot you want to edit.
  - Double-check that you have selected the correct slot by looking at the "Save Slot" display at the bottom-right of the program window. It should show the slot number you selected in some tabs.
 
-### Step 2: Activate Save Editing
+**Step 2 - Activate Save Editing**
 
 Now that your save file is loaded, you need to activate the editing mode.
 
@@ -154,7 +166,7 @@ Now that your save file is loaded, you need to activate the editing mode.
  - Click on the fields or values you want to change and type in the new values.
  - Be careful to only change values you understand, as incorrect edits can cause your save to malfunction.
 
-### Step 3: Save and Load the Edited File
+**Step 3 - Save and Load the Edited File**
 
 After editing, you'll need to save your changes and load the edited file in the game.
 
@@ -209,6 +221,8 @@ There is now a detailed video guide to help you navigate the Save Editor for MDR
 
 Feel free to watch the video for a clearer understanding of how to edit your save files effectively.
 
+---
+
 ### I get an error when loading my save!
 
 This could be a result of a corrupted save file. Make sure to use a JSON Beautifier and check if there is something inside the "savedata" part. As a quick check, if you meet a massive wall of text and symbols, you likely have proper save data. If there is not, your save might be corrupted. Re-export it and check again.
@@ -216,6 +230,8 @@ This could be a result of a corrupted save file. Make sure to use a JSON Beautif
 If this persists, go on the [Discord Server](https://discord.com/invite/SwpQUFWreW) and ask for assistance there.
 
 If you get a different error, report it either through the [Discord Server](https://discord.com/invite/SwpQUFWreW), or open an [Issue](https://github.com/Wehrmachtserdbeere/MDRG-Analyzer/issues).
+
+---
 
 ### How do I make my own theme?
 
@@ -242,7 +258,9 @@ it will default to 'Unknown' when running the program in English, even if other 
 
 Once done, put them into your `MDRG_Analyzer\themes` folder.
 
-### I built this myself and get errors! (Visual Studio only)
+---
+
+### I built this myself and get errors (Visual Studio only)
 
 First off, have you modified anything? If yes, check it yourself. However, the following might fix your problem too:
 
@@ -254,12 +272,14 @@ First off, check:
 
 If yes, then follow this:
 
-1. On the top bar, click on **<ins>D</ins>ebug**
+1. On the top bar, click on **Debug**
 2. Click on **Options...**
 3. Check **Enable Just My Code**
 4. Rebuild and run
 
 This should fix some of the errors that happen during startup or runtime.
+
+---
 
 ### What resources does this use?
 
@@ -271,6 +291,8 @@ When debugging:
 - Around **25 MB** (rounded up) of RAM while idle.
 - At most **204 MB** (rounded up) of RAM during intense processes
 
+---
+
 ### What dependencies does this program have?
 
-To find this program's `using`, check the file `Form1.cs` and look at the top.
+To find this program's `using`, check the file `Form1.cs` and look at the top. Because it will sometimes change without me updating this README, I will not list them here.
